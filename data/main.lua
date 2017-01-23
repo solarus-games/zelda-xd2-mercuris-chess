@@ -9,7 +9,7 @@ local game_manager = require("scripts/game_manager")
 function sol.main:on_started()
 
   -- Setting a language is useful to display text and dialogs.
-  -- sol.language.set_language("en")
+  sol.language.set_language("fr")
 
   local solarus_logo = require("scripts/menus/solarus_logo")
 

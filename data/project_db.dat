@@ -251,6 +251,7 @@ sound{ id = "zora", description = "zora" }
 
 
 
+language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "alttp" }
 font{ id = "green_digits", description = "Green digits" }

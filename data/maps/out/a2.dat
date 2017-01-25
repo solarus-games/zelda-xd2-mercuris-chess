@@ -1,0 +1,39 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "outside",
+  music = "lost_woods",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 72,
+  width = 32,
+  height = 16,
+  pattern = "957",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 24,
+  y = 53,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "out/a1",
+  destination = "_side",
+}
+

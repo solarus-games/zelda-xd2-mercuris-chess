@@ -1,3 +1,7 @@
+map{ id = "out/a1", description = "A1 (Castle)" }
+map{ id = "out/a2", description = "A2 (Forest)" }
+map{ id = "out/b1", description = "B1 (Desert)" }
+map{ id = "out/b2", description = "B2 (Swamp)" }
 map{ id = "outside_store", description = "Outside Store" }
 
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }

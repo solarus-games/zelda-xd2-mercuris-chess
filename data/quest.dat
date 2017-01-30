@@ -1,5 +1,5 @@
 quest{
-  solarus_version = "1.5",
+  solarus_version = "1.6",
   write_dir = "zelda-xd2-mercuris-chess",
   title = "Zelda XD2: Mercuris Chess",
   short_description = "The sequel to ZSXD, our parodic game",

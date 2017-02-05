@@ -1,10 +1,11 @@
 properties{
   x = 0,
-  y = 0,
-  width = 320,
-  height = 240,
+  y = 1024,
+  width = 1024,
+  height = 1024,
   min_layer = 0,
   max_layer = 2,
+  world = "outside_world",
   tileset = "outside",
   music = "lost_woods",
 }
@@ -24,16 +25,5 @@ destination{
   x = 24,
   y = 53,
   direction = 1,
-}
-
-teletransporter{
-  layer = 0,
-  x = -16,
-  y = 0,
-  width = 16,
-  height = 240,
-  transition = "scrolling",
-  destination_map = "out/a1",
-  destination = "_side",
 }
 

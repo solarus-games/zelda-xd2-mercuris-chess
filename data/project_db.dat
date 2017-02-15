@@ -139,6 +139,7 @@ sprite{ id = "npc/zelda", description = "Zelda" }
 music{ id = "agahnim", description = "Agahnim theme" }
 music{ id = "beginning", description = "Beginning" }
 music{ id = "boss", description = "Boss" }
+music{ id = "bulby/great_sea", description = "Great Sea" }
 music{ id = "castle", description = "Castle" }
 music{ id = "cave", description = "Cave" }
 music{ id = "credits", description = "Credits" }

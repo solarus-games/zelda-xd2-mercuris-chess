@@ -27,6 +27,7 @@ tileset{ id = "light_world", description = "Light World (old)" }
 tileset{ id = "outside", description = "Outside" }
 
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
+sprite{ id = "enemies/ganon", description = "Ganon" }
 sprite{ id = "enemies/tentacle", description = "Enemy: Tentacle" }
 sprite{ id = "entities/arrow", description = "Arrow" }
 sprite{ id = "entities/block", description = "Block" }
@@ -272,7 +273,7 @@ sound{ id = "zora", description = "zora" }
 
 language{ id = "fr", description = "Français" }
 
-font{ id = "alttp", description = "alttp" }
+font{ id = "alttp", description = "ALTTP" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "white_digits", description = "White digits" }
 

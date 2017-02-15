@@ -146,13 +146,14 @@ music{ id = "credits", description = "Credits" }
 music{ id = "dark_mountain", description = "Dark Mountain" }
 music{ id = "dark_world", description = "Dark World" }
 music{ id = "dark_world_dungeon", description = "Dungeon (dark world)" }
-music{ id = "doctoroctoroc/demons_run", description = "Demons run" }
-music{ id = "doctoroctoroc/i_am_the_doctor_1", description = "I am the Doctor 1" }
-music{ id = "doctoroctoroc/i_am_the_doctor_2", description = "I am the Doctor 2" }
-music{ id = "doctoroctoroc/this_planet_is_ours", description = "This planet is ours" }
-music{ id = "doctoroctoroc/useful_striker", description = "Useful striker" }
-music{ id = "doctoroctoroc/victory_fanfare", description = "Victory fanfare" }
-music{ id = "doctoroctoroc/victory_fanfare_main", description = "Victory fanfare main" }
+music{ id = "doctor_octoroc/demons_run", description = "Demons run" }
+music{ id = "doctor_octoroc/doctor_who_theme_2010", description = "Doctor Who Theme (2010)" }
+music{ id = "doctor_octoroc/i_am_the_doctor_1", description = "I am the Doctor 1" }
+music{ id = "doctor_octoroc/i_am_the_doctor_2", description = "I am the Doctor 2" }
+music{ id = "doctor_octoroc/this_planet_is_ours", description = "This planet is ours" }
+music{ id = "doctor_octoroc/useful_striker", description = "Useful striker" }
+music{ id = "doctor_octoroc/victory_fanfare", description = "Victory fanfare" }
+music{ id = "doctor_octoroc/victory_fanfare_main", description = "Victory fanfare main" }
 music{ id = "dungeon_finished", description = "Dungeon finished" }
 music{ id = "excalibur", description = "Excalibur" }
 music{ id = "fanfare", description = "Fanfare" }

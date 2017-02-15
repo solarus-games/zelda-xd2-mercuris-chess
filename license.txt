@@ -1,0 +1,87 @@
+We give in this file the license information of
+the Zelda XD2: Mercuris Chess quest.
+
+- Lua scripts are licensed under the terms of the GNU General Public License
+in version 3.
+
+- Most data files other than Lua scripts are licensed under
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
+http://creativecommons.org/licenses/by-sa/4.0/
+
+- Some graphics, sounds and names include content that belong to Nintendo.
+We don't own this content.
+
+This quest was made by the Solarus team.
+
+Main contributors:
+- Christopho
+- Metallizer
+- Olivier Cléro
+- Newlink
+
+Scripts under GNU GPL v3:                           Author
+-------------------------                           ------
+**.lua                                              Christopho
+
+Data files under CC BY-SA 4.0:                      Author
+------------------------------                      ------
+**.dat
+logos/icon.icns                                     Olivier Cléro
+logos/icon.ico                                      Olivier Cléro
+logos/icon_*.png                                    Olivier Cléro
+sprites/menus/solarus_logo.png                      Olivier Cléro
+
+Original art inspired from Nintendo:                Author
+------------------------------------                ------
+musics/bulby/*.ogg                                  Bulby: https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ
+
+Original art inspired from various references:      Author
+----------------------------------------------      ------
+musics/larryinc64/*.ogg                             LarryInc64: https://www.youtube.com/channel/UCp8cixTHfmu7slFJFFlyFPA
+musics/doctoroctoroc/*.ogg                          DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
+
+Files that include content from Nintendo:
+-----------------------------------------
+fonts/alttp.png
+fonts/green_digits.png
+fonts/white_digits.png
+musics/*.it
+sounds/*.ogg
+tilesets/**.png
+sprites/enemies/enemy_killed.png
+sprites/enemies/ganon.png
+sprites/enemies/tentacle.png
+sprites/entities/arrow.png
+sprites/entities/bomb.png
+sprites/entities/boomerang.png
+sprites/entities/bush.png
+sprites/entities/chest.png
+sprites/entities/dark*.png
+sprites/entities/explosion.png
+sprites/entities/hookshot.png
+sprites/entities/items.png
+sprites/entities/miscellaneous.png
+sprites/entities/shadow.png
+sprites/entities/teletransporter.png
+sprites/entities/case.png
+sprites/hero/*.png
+sprites/hud/arrow_icon.png
+sprites/hud/bomb_icon.png
+sprites/hud/dialog_box.png
+sprites/hud/hearts.png
+sprites/hud/item_icon.png
+sprites/hud/magic_bar.png
+sprites/hud/piece_of_heart_icon.png
+sprites/hud/rupee_icon.png
+sprites/hud/small_key_icon.png
+sprites/hud/small_keys.png
+sprites/menus/fairy_cursor.png
+sprites/menus/hero_head.png
+sprites/menus/link_cursor.png
+sprites/npc/alttp.png
+sprites/npc/blacksmith.png
+sprites/npc/fat_fairy.png
+sprites/npc/ghostly_proprietor.png
+sprites/npc/great_fairy.png
+sprites/npc/witch.png
+

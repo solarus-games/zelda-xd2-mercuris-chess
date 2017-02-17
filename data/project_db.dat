@@ -172,6 +172,7 @@ music{ id = "mini_game", description = "Mini game" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "rabbit", description = "Turned into a rabbit" }
 music{ id = "sanctuary", description = "Sanctuary" }
+music{ id = "shield/mm_stone_tower", description = "Stone Tower" }
 music{ id = "soldiers", description = "Soldiers" }
 music{ id = "title_screen", description = "Title screen" }
 music{ id = "triforce", description = "Triforce" }

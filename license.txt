@@ -34,6 +34,7 @@ sprites/menus/solarus_logo.png                      Olivier Cléro
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------
 musics/bulby/*.ogg                                  Bulby: https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ
+musics/shield/*.ogg                                 Shield
 
 Original art inspired from various references:      Author
 ----------------------------------------------      ------

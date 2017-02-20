@@ -104,6 +104,10 @@ sprite{ id = "npc/broom_grandma", description = "Broom grandma" }
 sprite{ id = "npc/bully", description = "Bully" }
 sprite{ id = "npc/bully_cursed", description = "Cursed Bully" }
 sprite{ id = "npc/camper", description = "Camper" }
+sprite{ id = "npc/chocobo_blue", description = "Chocobo Blue" }
+sprite{ id = "npc/chocobo_green", description = "Chocobo Green" }
+sprite{ id = "npc/chocobo_red", description = "Chocobo Red" }
+sprite{ id = "npc/chocobo_yellow", description = "Chocobo Yellow" }
 sprite{ id = "npc/drunk_man", description = "Drunk man" }
 sprite{ id = "npc/fat_fairy", description = "Fat fairy" }
 sprite{ id = "npc/flute_boy", description = "Flute boy" }

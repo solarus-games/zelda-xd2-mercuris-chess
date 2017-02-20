@@ -1,5 +1,14 @@
 map{ id = "dungeon_1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeon_2/1f", description = "Dungeon 2 1F" }
+map{ id = "dungeon_2/2f", description = "Dungeon 2 2F (Casino)" }
+map{ id = "dungeon_2/3f", description = "Dungeon 2 3F" }
+map{ id = "dungeon_2/4f", description = "Dungeon 2 4F" }
+map{ id = "dungeon_2/5f", description = "Dungeon 2 5F" }
+map{ id = "dungeon_2/6f", description = "Dungeon 2 6F" }
+map{ id = "dungeon_2/7f", description = "Dungeon 2 7F" }
+map{ id = "dungeon_2/8f", description = "Dungeon 2 8F" }
+map{ id = "dungeon_2/9f", description = "Dungeon 2 9F" }
+map{ id = "dungeon_store", description = "Dungeon Store" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Sea Village)" }
 map{ id = "out/b1", description = "B1 (Castle)" }

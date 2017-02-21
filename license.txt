@@ -21,15 +21,18 @@ Main contributors:
 
 Scripts under GNU GPL v3:                           Author
 -------------------------                           ------
-**.lua                                              Christopho
+**.lua                                              Christopho, Metallizer, Olivier Cléro
 
 Data files under CC BY-SA 4.0:                      Author
 ------------------------------                      ------
-**.dat
+**.dat                                              Christopho, Metallizer, Olivier Cléro
 logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
+sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
 sprites/menus/solarus_logo.png                      Olivier Cléro
+sprites/menus/team_logo.png                         Olivier Cléro
+sprites/menus/team_logo_text.png                    Olivier Cléro
 
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------

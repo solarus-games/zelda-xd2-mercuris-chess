@@ -95,6 +95,7 @@ sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
+sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
 sprite{ id = "npc/average_middle_aged_man", description = "Average middle-aged man" }
 sprite{ id = "npc/bird_green", description = "Green bird" }

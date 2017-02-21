@@ -31,6 +31,8 @@ logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
 sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
+sprites/console/cursor.png                          Maxs
+sprites/console/icons.png                           Maxs
 sprites/hud/gameover_fade.png                       Metallizer
 sprites/menus/arrow.png                             Metallizer
 sprites/menus/hero_point.png                        Christopho

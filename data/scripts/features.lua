@@ -7,5 +7,6 @@
 
 require("scripts/menus/alttp_dialog_box")
 require("scripts/hud/hud")
+require("scripts/debug")
 
 return true

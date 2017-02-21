@@ -1,0 +1,77 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "shield/mm_stone_tower",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = 13,
+  width = 320,
+  height = 240,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/sky",
+}
+
+custom_entity{
+  name = "entrance",
+  layer = 0,
+  x = 112,
+  y = 117,
+  width = 112,
+  height = 96,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/entrance",
+}
+
+custom_entity{
+  name = "ground",
+  layer = 0,
+  x = 8,
+  y = 157,
+  width = 320,
+  height = 96,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/ground",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 237,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 8,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 184,
+  width = 8,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+

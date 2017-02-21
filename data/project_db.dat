@@ -8,6 +8,7 @@ map{ id = "dungeon_2/6f", description = "Dungeon 2 6F" }
 map{ id = "dungeon_2/7f", description = "Dungeon 2 7F" }
 map{ id = "dungeon_2/8f", description = "Dungeon 2 8F" }
 map{ id = "dungeon_2/9f", description = "Dungeon 2 9F" }
+map{ id = "dungeon_2/entrance", description = "Dungeon 2 entrance" }
 map{ id = "dungeon_store", description = "Dungeon Store" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Sea Village)" }
@@ -57,6 +58,9 @@ sprite{ id = "entities/door_small_key", description = "Door (small key)" }
 sprite{ id = "entities/door_very_weak_wall", description = "Door (very weak wall)" }
 sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
 sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
+sprite{ id = "entities/dungeon_2_entrance/entrance", description = "Entrance" }
+sprite{ id = "entities/dungeon_2_entrance/ground", description = "Ground" }
+sprite{ id = "entities/dungeon_2_entrance/sky", description = "Grump Tower Sky" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
@@ -302,5 +306,6 @@ font{ id = "alttp", description = "ALTTP" }
 font{ id = "green_digits", description = "Green digits" }
 font{ id = "la", description = "Link's Awakening" }
 font{ id = "minecraftia", description = "Minecraftia" }
+font{ id = "minecraftia_mono", description = "Minecraftia Mono" }
 font{ id = "white_digits", description = "White digits" }
 

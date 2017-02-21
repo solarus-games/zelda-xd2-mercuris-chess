@@ -58,6 +58,7 @@ sprite{ id = "entities/door_small_key", description = "Door (small key)" }
 sprite{ id = "entities/door_very_weak_wall", description = "Door (very weak wall)" }
 sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
 sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
+sprite{ id = "entities/dungeon_2_entrance/building", description = "Building" }
 sprite{ id = "entities/dungeon_2_entrance/entrance", description = "Entrance" }
 sprite{ id = "entities/dungeon_2_entrance/ground", description = "Ground" }
 sprite{ id = "entities/dungeon_2_entrance/sky", description = "Grump Tower Sky" }

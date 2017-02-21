@@ -26,13 +26,37 @@ Scripts under GNU GPL v3:                           Author
 Data files under CC BY-SA 4.0:                      Author
 ------------------------------                      ------
 **.dat                                              Christopho, Metallizer, Olivier Cléro
+fonts/minecraftia.ttf                               Andrew Tyler: http://www.andrewtyler.net
 logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
 sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
+sprites/hud/gameover_fade.png                       Metallizer
+sprites/menus/arrow.png                             Metallizer
+sprites/menus/hero_point.png                        Christopho
+sprites/menus/options_cursor.png                    Christopho
+sprites/menus/pause_cursor.png                      Metallizer
+sprites/menus/pause_save_dialog.png                 Metallizer
+sprites/menus/quest_status_pieces_of_heart.png      Metallizer
+sprites/menus/selection_menu_background.png         Metallizer
+sprites/menus/selection_menu_cloud.png              Metallizer
+sprites/menus/selection_menu_cursor.png             Metallizer
+sprites/menus/selection_menu_option_container.png   Metallizer
+sprites/menus/selection_menu_save1.png              Metallizer
+sprites/menus/selection_menu_save2.png              Metallizer
+sprites/menus/selection_menu_save3.png              Metallizer
+sprites/menus/selection_menu_save_container.png     Metallizer
 sprites/menus/solarus_logo.png                      Olivier Cléro
 sprites/menus/team_logo.png                         Olivier Cléro
 sprites/menus/team_logo_text.png                    Olivier Cléro
+sprites/menus/title_daylight_background.png         Olivier Cléro
+sprites/menus/title_daylight_clouds.png             Olivier Cléro
+sprites/menus/title_dx.png                          Olivier Cléro
+sprites/menus/title_night_background.png            Olivier Cléro
+sprites/menus/title_night_clouds.png                Olivier Cléro
+sprites/menus/title_star.png                        Olivier Cléro
+sprites/menus/title_sunset_background.png           Olivier Cléro
+sprites/menus/title_sunset_clouds.png               Olivier Cléro
 
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------
@@ -48,6 +72,7 @@ Files that include content from Nintendo:
 -----------------------------------------
 fonts/alttp.png
 fonts/green_digits.png
+fonts/la.ttf
 fonts/white_digits.png
 musics/*.it
 sounds/*.ogg
@@ -79,9 +104,13 @@ sprites/hud/piece_of_heart_icon.png
 sprites/hud/rupee_icon.png
 sprites/hud/small_key_icon.png
 sprites/hud/small_keys.png
+sprites/menus/dungeon_map_icons.png
 sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png
 sprites/menus/link_cursor.png
+sprites/menus/outside_clouds.png
+sprites/menus/selection_menu_letters.png
+sprites/menus/title_logo.png
 sprites/npc/alttp.png
 sprites/npc/blacksmith.png
 sprites/npc/fat_fairy.png

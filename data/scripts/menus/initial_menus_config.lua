@@ -3,11 +3,14 @@
 
 -- You can edit this file to add, remove or move some pre-game menus.
 -- Each element must be the name of a menu script.
--- The last menu is supposed to run a game with sol.main:start_savegame().
+-- The last menu is supposed to start a game.
 
 local initial_menus = {
   "scripts/menus/solarus_logo",
   "scripts/menus/team_logo",
+  "scripts/menus/language",
+  "scripts/menus/title",
+  "scripts/menus/savegames",
 }
 
 return initial_menus

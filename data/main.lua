@@ -10,9 +10,6 @@ local game_manager = require("scripts/game_manager")
 -- This function is called when Solarus starts.
 function sol.main:on_started()
 
-  -- Setting a language is useful to display text and dialogs.
-  sol.language.set_language("fr")
-
   -- Show the initial menus.
   if #initial_menus_config == 0 then
     return

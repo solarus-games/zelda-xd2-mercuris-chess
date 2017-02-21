@@ -91,9 +91,16 @@ sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
 sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
 sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
-sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
+sprite{ id = "hud/empty_heart", description = "Empty heart" }
+sprite{ id = "hud/gameover_fade", description = "Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
-sprite{ id = "menus/hero_head", description = "Menu: hero head" }
+sprite{ id = "menus/arrow", description = "Arrow" }
+sprite{ id = "menus/hero_head", description = "Hero head" }
+sprite{ id = "menus/hero_point", description = "Hero point" }
+sprite{ id = "menus/options_cursor", description = "Options cursor" }
+sprite{ id = "menus/pause_cursor", description = "Pause cursor" }
+sprite{ id = "menus/pause_save_dialog", description = "Pause save dialog" }
+sprite{ id = "menus/selection_menu_cursor", description = "Selection menu cursor" }
 sprite{ id = "menus/solarus_logo", description = "Solarus logo" }
 sprite{ id = "menus/team_logo", description = "Solarus Team logo" }
 sprite{ id = "npc/angry_brother", description = "Angry brother" }
@@ -293,5 +300,7 @@ language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "ALTTP" }
 font{ id = "green_digits", description = "Green digits" }
+font{ id = "la", description = "Link's Awakening" }
+font{ id = "minecraftia", description = "Minecraftia" }
 font{ id = "white_digits", description = "White digits" }
 

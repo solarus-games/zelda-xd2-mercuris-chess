@@ -26,14 +26,24 @@ Scripts under GNU GPL v3:                           Author
 Data files under CC BY-SA 4.0:                      Author
 ------------------------------                      ------
 **.dat                                              Christopho, Metallizer, Olivier Cléro
+
 fonts/minecraftia.ttf                               Andrew Tyler: http://www.andrewtyler.net
+
 logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
+
 sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
+
 sprites/console/cursor.png                          Maxs
 sprites/console/icons.png                           Maxs
 sprites/hud/gameover_fade.png                       Metallizer
+sprites/hud/dialog_box.png
+sprites/hud/icons_flip.png
+sprites/hud/item_icon_1.png
+sprites/hud/item_icon_2.png
+sprites/hud/magic_bar.png
+sprites/hud/rupee_icon.png
 sprites/menus/arrow.png                             Metallizer
 sprites/menus/dungeon_map_background.png            Metallizer
 sprites/menus/hero_point.png                        Christopho
@@ -65,7 +75,7 @@ sprites/menus/title_sunset_clouds.png               Olivier Cléro
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------
 musics/bulby/*.ogg                                  Bulby: https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ
-musics/shield/*.ogg                                 Shield
+musics/shield/*.spc                                 Shield
 
 Original art inspired from various references:      Author
 ----------------------------------------------      ------
@@ -78,9 +88,15 @@ fonts/alttp.png
 fonts/green_digits.png
 fonts/la.ttf
 fonts/white_digits.png
+
+languages/*/images/*.png
+
 musics/*.it
+
 sounds/*.ogg
+
 tilesets/**.png
+
 sprites/enemies/enemy_killed.png
 sprites/enemies/ganon.png
 sprites/enemies/tentacle.png
@@ -98,16 +114,9 @@ sprites/entities/shadow.png
 sprites/entities/teletransporter.png
 sprites/entities/case.png
 sprites/hero/*.png
-sprites/hud/arrow_icon.png
-sprites/hud/bomb_icon.png
-sprites/hud/dialog_box.png
+sprites/hud/dialog_icons.png
 sprites/hud/hearts.png
-sprites/hud/item_icon.png
-sprites/hud/magic_bar.png
-sprites/hud/piece_of_heart_icon.png
-sprites/hud/rupee_icon.png
 sprites/hud/small_key_icon.png
-sprites/hud/small_keys.png
 sprites/menus/dungeon_map_icons.png
 sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png

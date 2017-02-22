@@ -298,6 +298,8 @@ sound{ id = "world_warp", description = "world_warp" }
 sound{ id = "wrong", description = "wrong" }
 sound{ id = "zora", description = "zora" }
 
+item{ id = "rupee", description = "Rupee (x1 / x5 / x20 / x50 / x100 / x300)" }
+item{ id = "rupee_bag", description = "Rupee bag (small / large / huge)" }
 
 
 

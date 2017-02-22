@@ -5,8 +5,8 @@
 -- Features can be enabled to disabled independently by commenting
 -- or uncommenting lines below.
 
-require("scripts/menus/alttp_dialog_box")
 require("scripts/hud/hud")
+require("scripts/menus/dialog_box")
 require("scripts/debug")
 
 return true

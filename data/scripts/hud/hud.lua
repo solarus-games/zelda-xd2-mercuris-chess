@@ -205,7 +205,6 @@ local function initialize_hud_features(game)
 
   -- Start the HUD.
   hud:set_enabled(true)
-
 end
 
 -- Set up the HUD features on any game that starts.

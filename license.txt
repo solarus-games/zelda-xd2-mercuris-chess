@@ -38,9 +38,9 @@ sprites/menus/arrow.png                             Metallizer
 sprites/menus/dungeon_map_background.png            Metallizer
 sprites/menus/hero_point.png                        Christopho
 sprites/menus/options_cursor.png                    Christopho
+sprites/menus/outside_world_clouds.png              Metallizer
 sprites/menus/pause_cursor.png                      Metallizer
 sprites/menus/pause_save_dialog.png                 Metallizer
-sprites/menus/outside_world_clouds.png              Metallizer
 sprites/menus/quest_status_pieces_of_heart.png      Metallizer
 sprites/menus/selection_menu_background.png         Metallizer
 sprites/menus/selection_menu_cloud.png              Metallizer

@@ -98,9 +98,7 @@ sounds/*.ogg
 
 tilesets/**.png
 
-sprites/enemies/enemy_killed.png
-sprites/enemies/ganon.png
-sprites/enemies/tentacle.png
+sprites/enemies/*.png
 sprites/entities/arrow.png
 sprites/entities/bomb.png
 sprites/entities/boomerang.png

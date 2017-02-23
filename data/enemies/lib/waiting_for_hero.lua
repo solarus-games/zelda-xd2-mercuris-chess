@@ -65,7 +65,7 @@ function behavior:create(enemy, properties)
   end
   if properties.normal_animation == nil then
     properties.normal_animation = "walking"
-  end  
+  end
   if properties.ignore_obstacles == nil then
     properties.ignore_obstacles = false
   end
@@ -91,7 +91,7 @@ function behavior:create(enemy, properties)
     function sprite:on_animation_finished(animation)
       -- If the awakening transition is finished, make the enemy go toward the hero.
       if animation == properties.awaking_animation then
-        finish_waking()
+        enemy:finish_waking_up()
       end
     end
     sprite:set_animation(properties.asleep_animation)
@@ -138,7 +138,7 @@ function behavior:create(enemy, properties)
     end
 
     sol.timer.stop_all(self)
-    sol.timer.start(self, 200, function() self:check_hero() end)
+    sol.timer.start(self, 1000, function() self:check_hero() end)
   end
 
   function enemy:finish_waking_up()
@@ -151,14 +151,14 @@ function behavior:create(enemy, properties)
   function enemy:wake_up()
 
     self:stop_movement()
-    if properties.awakening_sound == nil then
-      self:finish_waking_up()
-    else
+    if properties.awakening_sound ~= nil then
       sol.audio.play_sound(properties.awakening_sound)
     end
     if properties.awaking_animation ~= nil then
       local sprite = self:get_sprite()
       sprite:set_animation(properties.awaking_animation)
+    else
+      self:finish_waking_up()
     end
   end
 

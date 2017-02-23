@@ -25,3 +25,19 @@ enemy{
   breed = "creeper",
 }
 
+enemy{
+  layer = 0,
+  x = 72,
+  y = 77,
+  direction = 3,
+  breed = "cannonball",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 136,
+  y = 77,
+  direction = 1,
+}
+

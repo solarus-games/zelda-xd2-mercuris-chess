@@ -156,14 +156,6 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 480,
-  y = 661,
-  direction = 3,
-  breed = "newlink/minillosaur_egg_fixed",
-}
-
-enemy{
-  layer = 0,
   x = 120,
   y = 365,
   direction = 3,
@@ -285,7 +277,7 @@ enemy{
 destination{
   name = "destination",
   layer = 0,
-  x = 584,
+  x = 72,
   y = 669,
   direction = 1,
 }

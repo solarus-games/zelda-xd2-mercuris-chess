@@ -8,12 +8,10 @@ animation{
     { x = 48, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
   },
 }
-
 animation{
   name = "chain",
-  src_image = "enemies/chain_and_ball.png",
+  src_image = "enemies/alttp/chain_and_ball.png",
   directions = {
     { x = 64, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 4 },
   },
 }
-

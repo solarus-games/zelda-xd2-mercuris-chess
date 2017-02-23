@@ -8391,7 +8391,7 @@ enemy{
   x = 360,
   y = 565,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8401,7 +8401,7 @@ enemy{
   x = 176,
   y = 525,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8411,7 +8411,7 @@ enemy{
   x = 600,
   y = 645,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8421,7 +8421,7 @@ enemy{
   x = 120,
   y = 645,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8431,7 +8431,7 @@ enemy{
   x = 216,
   y = 797,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8441,7 +8441,7 @@ enemy{
   x = 136,
   y = 933,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8451,7 +8451,7 @@ enemy{
   x = 632,
   y = 805,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8461,7 +8461,7 @@ enemy{
   x = 432,
   y = 925,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8471,7 +8471,7 @@ enemy{
   x = 776,
   y = 973,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8481,7 +8481,7 @@ enemy{
   x = 776,
   y = 829,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8491,7 +8491,7 @@ enemy{
   x = 968,
   y = 845,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 
@@ -8501,7 +8501,7 @@ enemy{
   x = 272,
   y = 637,
   direction = 3,
-  breed = "tentacle",
+  breed = "alttp/tentacle",
   treasure_name = "random",
 }
 

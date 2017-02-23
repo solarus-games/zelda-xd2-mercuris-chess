@@ -33,6 +33,7 @@ logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
 
+sounds/diarandor/solarus_logo.ogg                   Diarandor
 sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
 
 sprites/console/cursor.png                          Maxs

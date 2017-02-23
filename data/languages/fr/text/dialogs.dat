@@ -1,0 +1,3543 @@
+dialog{
+  id = "_crystal",
+  text = [[
+C'est un interrupteur
+de cristal. Frappe-le
+avec quelque chose...
+]]
+}
+
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = "1",
+  skip = "all",
+  text = [[
+Avec les Bombes,
+explose plein de
+trucs !
+]]
+}
+
+dialog{
+  id = "_item_description.boomerang.1",
+  icon = "4",
+  skip = "all",
+  text = [[
+Utilise le Boomerang
+pour immobiliser les
+ennemis ou attraper
+des objets à
+distance.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+Haha, tu n'as plus
+de Flèches !
+]]
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+Ca va, tu n'es pas
+encore à court de
+Flèches.
+]]
+}
+
+dialog{
+  id = "_item_description.croissants_counter.1",
+  icon = "18",
+  skip = "all",
+  text = [[
+Mange un Croissant
+pour récupérer
+7 Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.feather.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+C'est une Plume,
+mais elle est plutôt
+pénible à utiliser.
+]]
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Les Palmes te
+permettent de nager
+dans l'eau profonde.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+Avec ça tu peux
+soulever plusieurs
+machins, je crois.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.2",
+  icon = "33",
+  skip = "all",
+  text = [[
+Soulève les pierres
+noires grâce à la
+Poigne d'Or.
+]]
+}
+
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = "6",
+  skip = "all",
+  text = [[
+Hisse-toi à des
+endroits
+inaccessibles grâce
+au Grappin.
+]]
+}
+
+dialog{
+  id = "_item_description.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Eclaire-toi dans le
+noir ou allume des
+braseros à l'aide
+de la Lanterne. Mais
+surveille ton
+compteur magique !
+]]
+}
+
+dialog{
+  id = "_item_description.pains_au_chocolat_counter.1",
+  icon = "17",
+  skip = "all",
+  text = [[
+Mange un Pain au
+Chocolat pour
+récupéer 3 Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.parfum_counter.1",
+  icon = "49",
+  skip = "all",
+  text = [[
+Parfum de marque
+renommée, ce Kipu
+les fera toutes
+tomber comme des
+mouches !
+]]
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.1",
+  icon = "13",
+  skip = "all",
+  text = [[
+Les Bottes de Pégase
+font vraiment n'imp.
+]]
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+Tu es déjà au maximum !
+]]
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Mec, t'es complètement
+fauché !
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Prix : $v rubis.
+Acheter
+Sûrement pas
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé une
+Flèche !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+Flèches pour vaincre
+des ennemis coriaces
+à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé 5
+Flèches !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé 10
+Flèches !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  text = [[
+Tu as trouvé la
+Grande Clé ! Tu peux
+désormais ouvrir les
+portes spéciales et
+les grands coffres !
+
+Plus qu'à les
+retrouver,
+maintenant !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé une
+Bombe !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+pour faire exploser
+un ennemi ou un
+obstacle.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé 3
+Bombes !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé 8
+Bombes !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  text = [[
+Tu as trouvé le Sac
+de Bombes !$0 Il
+contient 10 Bombes.
+Ca va faire $1
+pschhhhhhhhhhhhhhhht $0 $3
+BOUM !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  text = [[
+Tu as trouvé le
+Grand Sac de
+Bombes !$0
+Trop bien !
+Il peut contenir
+jusqu'à 11 Bombes !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  text = [[
+Tu as trouvé le Sac
+de Bombes Géant !$0
+
+C'est génial !
+Il peut contenir
+jusqu'à 12 Bombes !
+]]
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "4",
+  text = [[
+Tu as trouvé le
+Boomerang !$0 Tu peux
+immobiliser les
+ennemis ou attraper
+des objets à
+distance.
+Il y a plusieurs"
+techniques pour le
+manipuler, à toi
+de les découvrir !
+]]
+}
+
+dialog{
+  id = "_treasure.boss_key.1",
+  icon = "74",
+  text = [[
+Tu as trouvé la
+Clé du Maître ! Tu
+peux enfin
+rendre visite à
+Ganon, le maître
+des lieux !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "2",
+  text = [[
+Tu as trouvé l'Arc !$0
+Tu peux jouer à
+Robin des Bois !
+]]
+}
+
+dialog{
+  id = "_treasure.bow.2",
+  icon = "3",
+  text = [[
+Tu as trouvé l'Arc !$0
+Tu peux jouer à
+Robin des Bois !
+]]
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  text = [[
+Tu as trouvé
+la Boussole ! Elle
+indique ta position
+sur la Carte, les
+emplacements des
+coffres et du Boss.
+C'est ça le
+progrès !
+]]
+}
+
+dialog{
+  id = "_treasure.croissant.1",
+  icon = "18",
+  text = [[
+Tu as trouvé un
+Croissant !$0 Il est
+croustillant !
+Mange un Croissant
+pour récupérer
+7 Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.feather.1",
+  icon = "0",
+  text = [[
+Tu as trouvé la
+Plume !$0 Utilise-la
+pour sauter et
+franchir des
+obstacles ! Ou au
+moins essayer !
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  icon = "26",
+  text = [[
+Tu as trouvé les
+Palmes !$0
+
+Tu peux maintenant
+nager en eau
+profonde !
+]]
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  icon = "32",
+  text = [[
+Tu as trouvé la
+Poigne de Fer !$0
+
+Tu peux sûrement
+soulever des trucs,
+maintenant !
+]]
+}
+
+dialog{
+  id = "_treasure.glove.2",
+  icon = "33",
+  text = [[
+Tu as trouvé la
+Poigne d'Or !$0
+
+Tu peux maintenant
+soulever les pierres
+noires !
+]]
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  text = [[
+Tu as trouvé un
+Coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "80",
+  text = [[
+Tu as trouvé un
+Réceptacle de Coeur.
+
+Tu obtiens un Coeur
+supplémentaire !
+Ca poutre !
+]]
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = "6",
+  text = [[
+Tu as trouvé le
+Grappin !$0 Immobilise
+les ennemis et vole
+vers des endroits
+inacessibles !
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  next = "_warning_magic",
+  text = [[
+Tu as trouvé la
+Lanterne !$0 Elle
+t'éclaire dans le
+noir et te permet
+d'allumer des
+braseros.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = "85",
+  text = [[
+Tu as trouvé une
+petite bouteille
+d'énergie magique !
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = "86",
+  text = [[
+Tu as trouvé une
+grande bouteille
+d'énergie magique !
+]]
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  text = [[
+Tu as trouvé
+la Carte !
+
+Utilise-la pour
+connaître le plan
+des environs.
+]]
+}
+
+dialog{
+  id = "_treasure.pain_au_chocolat.1",
+  icon = "17",
+  text = [[
+Tu as trouvé un Pain
+au Chocolat !$0
+
+Mange un Pain au
+Chocolat pour
+récupérer 3 Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.parfum.1",
+  icon = "49",
+  text = [[
+On te donne le
+parfum Kipu de
+Cacaco Charnel, va
+vite le refourguer
+à quelqu'un avant de
+mourir asphyxié !
+]]
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = "13",
+  text = [[
+Tu as retrouvé les
+Bottes de Pégase
+sans lacets !
+C'est dur à manier,
+mais tu peux aller
+super vite !
+]]
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = "79",
+  text = [[
+Tu as trouvé un
+Fragment de Coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  text = [[
+Tu as trouvé le
+Grand Carquois !$0
+
+Il peut contenir
+jusqu'à 30 Flèches
+au lieu de 10 !
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  text = [[
+Tu as trouvé le
+Carquois Géant !$0
+
+Il peut contenir
+jusqu'à 100 Flèches
+au lieu de 30 !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  text = [[
+Tu as trouvé un
+Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  text = [[
+Tu as trouvé un
+Rubis bleu.
+Il vaut 5 Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  text = [[
+Tu as trouvé un
+Rubis rouge !
+Il vaut 20 Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "90",
+  text = [[
+Tu as trouvé 50
+Rubis !
+Merveilleux !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "90",
+  text = [[
+Tu as trouvé 100
+Rubis !
+Fantastique !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "90",
+  text = [[
+Tu as trouvé 200
+Rubis !
+C'est l'extase !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee_bag.2",
+  icon = "52",
+  text = [[
+Tu as trouvé le
+Grand Sac de Rubis !$0
+
+Il peut contenir
+jusqu'à 300 rubis !
+
+Dommage que le jeu
+soit fini, ça aurait
+pu être utile !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee_bag.3",
+  icon = "53",
+  text = [[
+Tu as trouvé le
+Sac de Rubis Géant !$0
+
+Il peut contenir
+jusqu'à 999 rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  text = [[
+Tu as retrouvé ton
+Bouclier !$0
+
+Mais pourquoi tu
+l'avais laissé
+traîner dehors ?
+]]
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  text = [[
+Tu as trouvé le
+Bouclier de Feu !$0
+Tu es désormais
+protégé contre les
+attaques
+enflammées !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  text = [[
+Tu as trouvé le
+Bouclier Miroir !$0
+
+Tu peux désormais
+contrer les lasers !
+]]
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  text = [[
+Tu as trouvé une
+Petite Clé !
+
+Tu peux ouvrir une
+porte verrouillée
+dans les environs.
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  text = [[
+Tu as retrouvé ton
+épée d’entraînement.
+
+C'est la tienne car
+il y a ton nom
+dessus !
+Mais qu'est-ce
+qu'elle fait ici ?
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  text = [[
+Tu as trouvé le
+Sabre Laser !$0
+
+Tu peux faire appel
+à la Forcetri !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "68",
+  text = [[
+Tu as trouvé
+l'Épée Excalibur !$0
+
+Dommage que le jeu
+soit fini, ça aurait
+pu être utile !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  text = [[
+Tu as trouvé
+l'Épée Excalibur !$0
+
+Dommage que le jeu
+soit fini, ça aurait
+pu être utile !
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  text = [[
+Tu as trouvé la
+Cotte de Mailles
+bleue !$0 Elle te
+permet de résister
+aux températures les
+plus glaciales...
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.3",
+  icon = "62",
+  text = [[
+Tu as trouvé la
+Cotte de Mailles
+rouge !$0 Elle te
+protège de manière
+plus efficace contre
+les ennemis !
+]]
+}
+
+dialog{
+  id = "_treasure.world_map.1",
+  icon = "50",
+  text = [[
+Tu as trouvé la
+Carte du Monde !$0
+
+Tu peux l'afficher
+dans l'écran Carte.
+]]
+}
+
+dialog{
+  id = "big_key_required",
+  icon = "73",
+  text = [[
+Il te faut la Grande
+Clé pour cette
+serrure !
+]]
+}
+
+dialog{
+  id = "boss_key_required",
+  icon = "74",
+  text = [[
+C'est la porte du
+Boss !
+
+N'espère pas
+l'ouvrir sans la
+Clé du Maître !
+]]
+}
+
+dialog{
+  id = "cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
+]]
+}
+
+dialog{
+  id = "cannot_lift_still_too_heavy",
+  text = [[
+C'est largement trop
+pour tes petits bras !
+]]
+}
+
+dialog{
+  id = "cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+C'est largement trop
+pour tes petits bras !
+]]
+}
+
+dialog{
+  id = "caverne_fragments.sign",
+  text = [[
+Seul le vrai héros
+obtiendra le trésor.$0$0
+Ou pas.
+]]
+}
+
+dialog{
+  id = "caverne_maudite.pancarte",
+  text = [[
+Libère-toi de tout.
+Oublie la peur, le doute,
+et la vraisemblance.
+Libère ton esprit $v.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_bal_eo_1-6-8-10",
+  text = [[
+Le guichet 22 doit
+avoir des tapisseries
+et des balais.
+Pour le trouver,
+rendez-vous au premier
+étage aile droite par
+l'escalier derrière
+moi.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_bal_eo_5-9",
+  text = [[
+Mais je ne vous ai
+pas déjà dit que le
+guichet 11 était
+juste derrière moi ?
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_bal_eq_2",
+  text = [[
+Le guichet 82 est au
+premier étage aile
+droite.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_bal_eq_3",
+  text = [[
+Le guichet 45 ?
+Hummm, où l'ont-il mis
+celui-là... ? Il doit
+être au rez-de-chaussée
+aile gauche s'il n'a
+pas été déplacé...
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_bal_eq_4",
+  text = [[
+Le guichet 32 est au
+deuxième étage aile
+droite.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_bal_eq_7",
+  text = [[
+Des sacs de riz ?
+Essayez le guichet 36
+au deuxième étage.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eo_5-7",
+  text = [[
+Le guichet 12... Il est
+à cet étage mais dans
+l'aile droite,
+il va falloir passer
+par le premier étage
+encore une fois.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_0",
+  text = [[
+Bonjour monsieur, vous
+avez perdu quelque
+chose ?
+Quel est l'objet que
+vous recherchez ?
+$0Des gants ?
+Attendez, je regarde...
+
+
+Hmmm je ne suis pas
+sûre, peut-être que
+vous pouvez vous
+rendre au guichet 21.
+Prenez l'escalier et
+vous le trouverez
+au premier étage.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_1",
+  text = [[
+Prenez l'escalier
+derrière moi pour le
+guichet 21.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_10",
+  text = [[
+Pour vous rendre au
+guichet 33, vous devez
+monter jusqu'au
+deuxième étage, dans
+l'aile gauche.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_11",
+  text = [[
+Vous ne savez pas quoi
+faire de cette clé ?
+C'est la clé d'un local
+au deuxième étage je
+étage je crois, dans
+l'aile gauche...
+... si mes souvenirs
+sont bons.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_2",
+  text = [[
+Oui ? Ah, le guichetier
+ne comprend rien ?
+Hmmm, essayez peut-être
+le guichet 41, il est
+au rez-de-chaussée mais
+vous devez faire le
+tour par le premier
+étage.
+Passez par l'escalier
+derrière moi puis
+demandez aux gens.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_3",
+  text = [[
+Le guichet 41 est au
+rez-de-chaussée, passez
+d'abord par l'escalier
+derrière moi et
+demandez aux gens.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_4",
+  text = [[
+Le guichet 33 ? Il est
+au deuxième étage,
+dans l'aile gauche.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_6",
+  text = [[
+Le guichet 32 se situe
+au deuxième étage dans
+l'aile droite.
+Vous devez prendre
+l'escalier au premier
+étage, près du
+guichet 82.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_8",
+  text = [[
+Le guichet 22 ? Il est
+situé au premier étage
+dans l'aide droite.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_ech_eq_9",
+  text = [[
+Le guichet 12 est à cet
+étage, mais dans l'aile
+droite.
+Passez par le premier
+étage pour faire le
+tour.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_epi_eo_1-7",
+  text = [[
+Si vous cherchez des
+poivrons, allez au
+guichet 84.
+Il est au premier
+étage, aile gauche.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_epi_eo_2-6",
+  text = [[
+Guichet 11, juste
+derrière moi monsieur.
+
+(mon dieu, mais il n'a
+aucune mémoire !)
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_epi_eo_3-5",
+  text = [[
+Pour trouver le
+guichet 22, rendez-vous
+au premier étage
+aile droite, par
+l'escalier derrière
+moi.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_epi_eo_4-9",
+  text = [[
+Des sacs de riz ?
+Voyons... guichet 36,
+c'est au deuxième étage
+aile droite. Il faut
+prendre l'escalier
+du premier aile droite.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_epi_eo_8-10",
+  text = [[
+Un vieillard ? Je ne
+sais pas monsieur,
+désolé.
+]]
+}
+
+dialog{
+  id = "crazy_house.accueil_fini",
+  text = [[
+Vous avez retrouvé
+vos gants monsieur ?
+Parfait.
+Le Bureau des Objets
+Trouvés a été heureux
+de vous accueillir
+et espère vous revoir
+prochainement.
+Bonne continuation !
+]]
+}
+
+dialog{
+  id = "crazy_house.alcoholic_man",
+  skip = "current",
+  text = [[
+Hip ! Je ne sais
+même... hip ! plus...
+comment je suis hip !
+... arrivé ici ! Hip !
+]]
+}
+
+dialog{
+  id = "crazy_house.apothicaire",
+  question = "1",
+  skip = "current",
+  text = [[
+Salutations jeune
+aventurier, je vends
+des sacs de riz pour
+la modique somme de
+20 rubis l'unité.
+
+Ca vous dit ?
+Et comment !
+Nan, escroc !
+]]
+}
+
+dialog{
+  id = "crazy_house.apothicaire_non",
+  skip = "current",
+  text = [[
+C'est pas très gentil
+ça...
+]]
+}
+
+dialog{
+  id = "crazy_house.apothicaire_oui",
+  skip = "current",
+  text = [[
+Huhu, vous avez fait
+une bonne affaire.
+]]
+}
+
+dialog{
+  id = "crazy_house.apothicaire_rubis",
+  skip = "current",
+  text = [[
+Ah mais non vous n'avez
+pas assez de rubis,
+c'est 20 rubis pour
+obtenir un sac de riz.
+]]
+}
+
+dialog{
+  id = "crazy_house.chemin_de_dieu",
+  skip = "current",
+  text = [[
+Le chemin de Dieu.
+C'est le saut de la
+foi.
+Tu dois y croire,
+Junior !
+]]
+}
+
+dialog{
+  id = "crazy_house.depot_ici",
+  text = [[
+       - Dépôt -       
+]]
+}
+
+dialog{
+  id = "crazy_house.directionsAccueil",
+  skip = "current",
+  text = [[
+      - Accueil -
+Veuillez faire la queue
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_1F",
+  skip = "current",
+  text = [[
+En bas : guichet 21
+A droite :
+guichets 45, 47, 49, 84
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_1F_se",
+  skip = "current",
+  text = [[
+Escalier :
+guichets 22, 12
+
+A gauche :
+guichets 41, 43, 82,
+deuxième étage
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_1F_sw",
+  skip = "current",
+  text = [[
+Téléporteur vers l'aile
+droite
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_2F",
+  skip = "current",
+  text = [[
+A gauche :
+guichets 45, 47, 49, 84
+En bas : guichet 21
+A droite : guichet 33
+Escalier :
+guichet 11, accueil
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_2F_e",
+  skip = "current",
+  text = [[
+Gauche : guichet 22
+Escaliers : accueil,
+guichets 11 et 12
+Droite :
+guichets 41, 43, 82
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_2F_ne",
+  skip = "current",
+  text = [[
+Téléporteur vers les
+guichets 11, 21 et
+vers l'accueil
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_2F_no",
+  skip = "current",
+  text = [[
+Escalier :
+guichets 49, 47, 45
+
+A droite :
+guichets 84, 33
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_3F",
+  skip = "current",
+  text = [[
+A droite :
+guichets 31, 32, 36
+
+A gauche : giga bouton
+d'extra collision à
+charge supérieure de
+15 000 Mégawatts.
+En haut : guichet 82
+
+Cet écriteau est
+également là pour vous
+gêner. Merci.
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_3FB",
+  skip = "current",
+  text = [[
+En haut : guichet 33
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_3FC",
+  skip = "current",
+  text = [[
+Escaliers vers les
+guichets 84, 49, 47, 45
+]]
+}
+
+dialog{
+  id = "crazy_house.directions_3F_3",
+  skip = "current",
+  text = [[
+Autre écriteau placé
+exprès ici pour vous
+gêner.
+]]
+}
+
+dialog{
+  id = "crazy_house.giga_bouton_trop_leger",
+  skip = "current",
+  text = [[
+Tu es beaucoup trop
+léger pour activer le
+giga bouton d'extra
+collision à charge
+supérieure de 15 000
+Mégawatts.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_11",
+  skip = "current",
+  text = [[
+     - Guichet 11 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_11_bal_eq_9",
+  question = "1",
+  skip = "current",
+  text = [[
+Ah, vous avez des
+tapisseries ? Je vous
+échange chaque
+tapisserie contre
+une hache.
+
+Alors ?
+OK ok !
+Plutôt mourir !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_11_bal_err",
+  text = [[
+Comment ? C'est des
+haches que vous
+vouliez ?
+Mais je n'en ai jamais
+eu. C'est ça ou rien
+monsieur !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_11_ech_eq_9",
+  skip = "current",
+  text = [[
+Oui nous avons trouvé
+des haches, mais chaque
+hache ne pourra
+être échangée que
+contre une tapisserie.
+
+Où trouver des
+tapisseries ? Je crois
+au guichet 22, ils sont
+un peu fous là-bas
+mais bon...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_11_ech_eq_9_ht",
+  question = "1",
+  skip = "current",
+  text = [[
+Ah, vous avez des
+tapisseries ? Je vous
+échange chaque
+tapisserie contre une
+hache.
+
+Alors ?
+OK ok !
+Plutôt mourir !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_11_ech_ne_9",
+  skip = "current",
+  text = [[
+C'est à quel sujet ?
+Vous avez perdu quoi ?
+Mais monsieur, il faut
+vous adresser à
+l'accueil.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12A_ech_eq_5",
+  skip = "current",
+  text = [[
+Ma collègue est en
+pause déjeuner.
+Si vous cherchez
+quelque chose de
+particulier, peut-
+être qu'ils auront
+ce que vous cherchez au
+guichet 32.
+Où c'est ?
+Faut voir
+ça à l'accueil !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12A_ech_ne_5",
+  skip = "current",
+  text = [[
+Ce guichet est fermé
+monsieur.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_aw",
+  skip = "current",
+  text = [[
+Vous connaissez la
+rumeur ? Il y aurait
+une statue qui cache un
+mur fragile, mais bon,
+de là à ce qu'on trouve
+un trésor dans ce
+bâtiment public...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_3",
+  skip = "current",
+  text = [[
+Que puis-je pour vous ?
+Le guichet 41 ?
+Logiquement il y a un
+escalier qui permet
+d'accéder au premier
+étage pour trouver
+le 41 mais il a été
+condamné, désolé
+monsieur.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_7",
+  question = "1",
+  skip = "current",
+  text = [[
+Un parfum ? Nous avons
+cela oui, mais je peux
+vous demander un
+service ? Il me
+faudrait un bocal
+d'épices et un balai.
+Je vous les échange
+contre un parfum.
+
+Marché conclu ?
+Bon ok
+Nan t'es relou !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_7_no",
+  skip = "current",
+  text = [[
+Relou ? C'est quoi
+relou ?
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_7_ok",
+  skip = "current",
+  text = [[
+Merci beaucoup, voici
+un parfum Cacaco
+Charnel.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_7_un",
+  skip = "current",
+  text = [[
+Mais vous n'avez rien !
+Je suis sûre que vous
+trouverez.
+Gardez espoir.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_7_un_balai",
+  skip = "current",
+  text = [[
+Mais vous n'avez pas
+le balai !
+Je suis sûre que vous
+trouverez.
+Gardez espoir.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12B_ech_eq_7_un_bocal",
+  skip = "current",
+  text = [[
+Mais vous n'avez pas
+le bocal d'épices !
+Je suis sûre que vous
+trouverez.
+Gardez espoir.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_12_sign",
+  skip = "current",
+  text = [[
+A droite : guichet 12
+A gauche : accueil
+
+En haut à droite :
+vers le guichet 22
+(porte condamnée)
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_21_ech_eq_1",
+  text = [[
+Comment ? Vous avez mal
+aux dents ?
+Ah, ne m'en parlez pas,
+dans ma jeunesse, on
+s'achetait des
+sucreries avec l'argent
+de poche que nos
+parents nous donnaient,
+du coup les caries
+s'installaient en moins
+de deux, j'en ai mal
+rien que d'y penser...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_21_ech_ne_1",
+  skip = "current",
+  text = [[
+Ah le bon vieux temps,
+je me souviens...
+Mon premier amour...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_21_ici",
+  skip = "current",
+  text = [[
+     - Guichet 21 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22A",
+  next = "crazy_house.guichet_22_question",
+  skip = "current",
+  text = [[
+Bienvenue au guichet
+22, le meilleur guichet
+au monde !
+Ici on vous approvi-
+sionne en tout : on
+peut vous donner un
+balai contre un roc
+magma.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22B",
+  next = "crazy_house.guichet_22_question",
+  skip = "current",
+  text = [[
+Bienvenue au guichet
+22, le meilleur
+guichet au monde !
+Ici on vous approvi-
+sionne en tout :
+on peut vous donner
+une tapisserie contre
+un sac de riz.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22_question",
+  question = "1",
+  text = [[
+Marché conclu ?
+Bien sûr
+Euuuhh........ Non !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22_rm_ok",
+  skip = "current",
+  text = [[
+Merci beaucoup, voici
+votre balai.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22_rm_un",
+  skip = "current",
+  text = [[
+Ah, mais vous n'avez
+pas de roc magma...
+Quel dommage !
+Revenez plus tard.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22_sr_ok",
+  skip = "current",
+  text = [[
+Et voilà la superbe
+tapisserie !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_22_sr_un",
+  skip = "current",
+  text = [[
+Désolé, il vous faut
+un sac de riz.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_31",
+  skip = "all",
+  text = [[
+Je suis sûr que la
+direction veut me
+virer, je le sens,
+ils en ont après moi !
+Ils trouveront quelque
+chose à redire à mon
+travail, alors que je
+me démène comme un
+fou !
+Tout le monde est
+contre moi !...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_31_ici",
+  skip = "current",
+  text = [[
+     - Guichet 31 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_32_ech_le_6",
+  skip = "current",
+  text = [[
+Un parfum ? Non désolé,
+nous on a des
+cuillères.
+Le guichet 12 ? Si
+l'employée était en
+pause, elle est
+sûrement revenue à
+l'heure qu'il est, vous
+devriez retourner voir.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_32_ech_ne_6",
+  question = "1",
+  skip = "current",
+  text = [[
+Ici au guichet 32, on
+peut vous proposer une
+cuillère contre une
+hache, le marché
+est très prometteur.
+
+Qu'en dites-vous ?
+Pourquoi pas
+Noooooooooooooon !!
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_32_ech_ne_6_no",
+  text = [[
+Non ? Quel dommage,
+vous manquez quelque
+chose.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_32_ech_ne_6_un",
+  skip = "current",
+  text = [[
+Désolé mais vous n'avez
+pas de hache pour
+honorer cet échange.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_32_ici",
+  skip = "current",
+  text = [[
+     - Guichet 32 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_33_ech_eq_3",
+  skip = "current",
+  text = [[
+Non désolé ce n'est pas
+le guichet 41, vous
+êtes au 33.
+Le téléporteur sur
+votre gauche va vers
+le guichet 22.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_33_ech_ge_4",
+  skip = "current",
+  text = [[
+Oui ? La clé du dépôt ?
+Ah mais non ! Je ne
+donne pas les clés à
+n'importe qui ! Si vous
+me rapportez un beau
+parfum, je serai
+peut-être plus enclin
+à vous confier les
+clés.
+Je crois que quelqu'un
+a dû en retrouver un.
+
+Essayez le guichet 12,
+ils pourraient vous
+renseigner là-dessus.
+Où est ce guichet ?
+Aucune idée, demandez
+à l'accueil.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_33_ech_le_2",
+  skip = "current",
+  text = [[
+Bienvenue au guichet
+33, c'est moi qui
+détiens les clés
+des différents dépôts.
+Mais les clients ne
+sont pas autorisés à y
+pénétrer. D'ailleurs,
+vous n'êtes pas censé
+savoir ça.
+Pourquoi j'en parle
+moi ?
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_33_parfum",
+  skip = "current",
+  text = [[
+Jor ! Tu as trouvé le
+parfum ?!
+
+Je n'aurais jamais cru
+ça possible !
+Mais je suis un homme
+de parole, je te confie
+la clé qui te permettra
+d'accéder au dépôt.
+N'y fous par le bazar,
+hein ?
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_36",
+  question = "1",
+  skip = "current",
+  text = [[
+Bienvenue au guichet
+36, je suis Panoda
+Fichage, je vends des
+sacs de riz : 50 rubis
+pour trois.
+
+Ca vous intéresse ?
+Oh oui !
+En fait non
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_36_un",
+  skip = "current",
+  text = [[
+Désolé, il vous faut
+au moins 50 rubis.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_41_ech_eq_3",
+  skip = "current",
+  text = [[
+Bonjour, vous cherchez
+des gants ?
+Un instant...
+Hmm oui nous avons ça,
+ils ont été stockés au
+dépôt.
+Mais je n'ai pas la
+clé, il va falloir
+demander au guichet 33,
+c'est lui qui a toutes
+les clés.
+
+Il est situé au
+deuxième étage aile
+gauche.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_41_ech_ne_3",
+  skip = "current",
+  text = [[
+Désolé, je suis en
+pause là, et j'en ai
+bien besoin.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_41_ici",
+  skip = "current",
+  text = [[
+     - Guichet 41 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_43",
+  skip = "all",
+  text = [[
+Et tu sais quoi ? Et
+bah sa mère, et bah
+elle a fricoté avec le
+facteur ! Si, je te
+jure ! Le choc que ça
+a dû être pour le môme,
+nan mais c'est
+incroyable le toupet de
+cette dame...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_43_ici",
+  skip = "current",
+  text = [[
+     - Guichet 43 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_43f",
+  skip = "all",
+  text = [[
+Roh... où j'en étais
+moi ?...
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_43n",
+  skip = "all",
+  text = [[
+QUOI ?!! Vous ne voyez
+pas que je suis
+occupée ?
+Ce que les gens peuvent
+être mal élevés !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_45",
+  skip = "current",
+  text = [[
+     - Guichet 45 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_45_ech_eq_3",
+  skip = "current",
+  text = [[
+Monsieur ? Le guichet
+41 ? Ici c'est le 45.
+
+Attendez, je vais
+demander à un
+collègue...
+....
+....
+
+Allo ? Maurice ? Oui
+c'est Josiane. Dis-moi,
+t'es bien au 41 toi ?
+OK, t'es situé où ?
+D'accord... Merci, je
+t'envoie un client.
+Salut, gros bisou...
+
+
+Alors, vous n'êtes pas
+au bon endroit, il va
+falloir vous diriger
+vers le guichet 12,
+proche de l'entrée de
+l'immeuble.
+Voilà, bonne journée.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_45_ech_ne_3",
+  question = "1",
+  skip = "current",
+  text = [[
+Monsieur, vous ne
+chercheriez pas des
+sacs d'olives par
+hasard ? Je pourrais
+éventuellement vous en
+échanger un contre une
+cuillère.
+
+
+Qu'en dites-vous ?
+Mouais
+Mouais
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_45_ech_ok",
+  skip = "current",
+  text = [[
+Parfait, voici votre
+sac d'olives.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_45_ech_un",
+  skip = "current",
+  text = [[
+Quel dommage, vous
+n'avez pas de
+cullière.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_47",
+  skip = "current",
+  text = [[
+     - Guichet 47 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_47_ech_eq_3",
+  skip = "current",
+  text = [[
+Bonjour, vous cherchez
+le guichet 41 ?
+Ah non ici c'est le 47.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_47_ech_ne_3",
+  skip = "current",
+  text = [[
+Immatriculer une
+galère ? Non, on vous a
+mal dirigé. Vous devez
+vous adresser à la
+capitainerie au port !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_49",
+  skip = "current",
+  text = [[
+On m'a reléguée dans ce
+sous-sol, isolée de
+tous...
+Bouh ouh ouh !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_49_ici",
+  skip = "current",
+  text = [[
+     - Guichet 49 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_82",
+  question = "1",
+  skip = "current",
+  text = [[
+Hmmmm... je déprime,
+j'ai besoin d'un sac
+d'olives pour mon
+chat mais personne ne
+semble en avoir...
+*soupir*
+Tu n'aurais pas un
+sac d'olives par
+hasard ?
+Je t'échange ton sac
+d'olives contre un roc
+magma.
+C'est d'accord ?
+Tu m'étonnes !
+VTFCUO
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_82_ici",
+  skip = "current",
+  text = [[
+     - Guichet 82 -
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_82_ok",
+  skip = "current",
+  text = [[
+Oh my god ! Tu as le
+sac d'olives, c'est
+trop bien !
+Voici ton roc magma
+bien mérité.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_82_un",
+  skip = "current",
+  text = [[
+Désolé, il te faut au
+moins un sac d'olives
+pour ce roc magma.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_84_ech_eq_3",
+  skip = "current",
+  text = [[
+Pardon ? Le guichet
+41 ?
+Vous n'y êtes pas, ici
+c'est le guichet 84.
+Pour le 41, vous devez
+descendre au
+au rez-de-chaussée.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_84_ech_ne_3_hh",
+  question = "1",
+  skip = "current",
+  text = [[
+Echange standard : une
+hache contre un
+poivron.
+C'est bon ?
+Yay !
+Oh no !!
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_84_ech_ne_3_nh",
+  skip = "current",
+  text = [[
+Ici, nous avons des
+poivrons. En échange
+d'une hache, on vous 
+offre un poivron.
+J'ai entendu dire
+qu'ils avaient des
+haches au guichet 11.
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_84_ech_ne_3_un",
+  skip = "current",
+  text = [[
+Hé ho le gnome vert !
+N'essaye pas de
+m'arnarquer !
+Tu amènes la hache
+ou t'auras rien !
+]]
+}
+
+dialog{
+  id = "crazy_house.guichet_84_ici",
+  skip = "current",
+  text = [[
+     - Guichet 84 -
+]]
+}
+
+dialog{
+  id = "crazy_house.hint_part2",
+  skip = "current",
+  text = [[
+En touchant cette
+dalle, un guichetier te
+contacte par
+télépathie.
+
+
+Humm humm 1, 2...
+1, 2... vous
+m'entendez ?
+C'est branché là ?
+Ha hum...
+
+Jeune aventurier, si
+vous ne souhaitez
+écouler votre courte
+retraite dans les
+tréfonds de l'admi-
+nistration, suivez mon
+conseil : le cristal
+caché doit être activé
+à distance.
+Quoi, vous l'avez déjà
+fait ? Ah...
+Hum... attendez,
+crr... je passe sous
+un tunnel crr...
+crr... crr... clic !
+]]
+}
+
+dialog{
+  id = "crazy_house.infinite_greetings",
+  skip = "current",
+  text = [[
+Tu dois appuyer sur
+le giga bouton d'extra
+collision à charge
+supérieure de 15 000
+Mégawatts pour
+traverser le couloir
+sans fin, ce que tu
+n'as pas fait !
+
+GWAH HA HA HA HA !
+]]
+}
+
+dialog{
+  id = "crazy_house.mario_message_1",
+  skip = "current",
+  text = [[
+It's me, Mario !
+]]
+}
+
+dialog{
+  id = "crazy_house.pnja",
+  skip = "current",
+  text = [[
+Oh là là ! J'en peux
+plus moi de cet
+endroit ! On me balade
+de guichet en guichet,
+si tu veux mon avis,
+ils le font exprès pour
+justifier leur
+salaire... que dis-je,
+leur rente !
+C'est un scandale !
+]]
+}
+
+dialog{
+  id = "crazy_house.pnjb",
+  skip = "current",
+  text = [[
+Ah ! J'étais venu dans
+cette bâtisse pour
+proposer de leur
+fournir des bouteilles
+d'eau, mais visiblement
+ils n'en veulent pas.
+Quel dommage !
+Ils ne savent pas ce
+qu'ils ratent.
+]]
+}
+
+dialog{
+  id = "crazy_house.pnjc",
+  skip = "current",
+  text = [[
+Je suis la seule
+employée chargée du
+ménage dans cet
+immeuble, près de
+14 000 mètres carrés à
+couvrir,
+si ce n'est pas de
+l'escalavage ça...
+]]
+}
+
+dialog{
+  id = "crazy_house.pnjd",
+  skip = "current",
+  text = [[
+C'est étrange, quand je
+suis allé au 2ème étage
+pour aller chercher un
+formulaire bleu pour
+l'établissement du
+laisser-passer A38,
+on m'a parlé d'un giga
+bouton trucmuche à méga
+tension de je ne sais
+pas quoi. A mon avis vu
+le nom du bouzin, ça
+ça doit être un
+mécanisme très
+compliqué, pas sûr que
+t'arrives à l'actionner
+tout seul. Il faudrait
+le forcer avec un truc
+lourd.
+]]
+}
+
+dialog{
+  id = "crazy_house.pnje",
+  skip = "current",
+  text = [[
+J'ai constaté que la
+dame du guichet 11
+était une vraie tête en
+l'air, elle m'a déjà
+perdu un roc magma que
+j'avais confié le temps
+que je trouve une
+cuillère dans cette
+maison qui rend fou...
+Quel tissu
+d'incompétents ici !
+]]
+}
+
+dialog{
+  id = "crazy_house.public_agent",
+  skip = "all",
+  text = [[
+Quoi ? Tu veux passer ?
+Nan mais tu vois pas
+que je suis en grève ?
+Je te jure ! Vous, les
+gens du privé, vous
+ne comprennez rien à
+nos revendications mais
+vous vous permettez
+quand même de nous
+juger.
+Allez ! Du balai,
+suppôt du MEDEF !!
+]]
+}
+
+dialog{
+  id = "crazy_house.title",
+  text = [[
+        Niveau 1       
+   Bureau des Objets   
+        Trouvés        
+]]
+}
+
+dialog{
+  id = "crazy_house.vieillard",
+  next = "crazy_house.vieillard_ronfl",
+  skip = "current",
+  text = [[
+Ronfl... ZZZ.... Hein ?
+Quoi ? Tu voudrais pas
+un bocal d'épices, par
+hasard ? Héhé, je lis
+dans les pensées.
+
+Si tu m'apportes un
+poivron, je serai
+peut-être conciliant...
+]]
+}
+
+dialog{
+  id = "crazy_house.vieillard_poivron",
+  next = "crazy_house.vieillard_ronfl",
+  skip = "current",
+  text = [[
+Ah mais qu'est-ce que
+c'est que ça ?
+Je ne t'ai jamais
+demandé de poivron !
+Ce que je cherche c'est
+un sac de riz !
+Ah les jeunes ils
+n'écoutent rien !
+]]
+}
+
+dialog{
+  id = "crazy_house.vieillard_riz_ok",
+  skip = "current",
+  text = [[
+ZZZ....
+Oh oui Jacqueline...
+Ronfl... AH !!
+Pourquoi m'as-tu
+réveillé ? J'étais au
+beau milieu d'un
+merveilleux rêve.
+Tu as le riz ? Eh bien
+voilà quand tu veux !
+Voici mon précieux
+bocal d'épices.
+]]
+}
+
+dialog{
+  id = "crazy_house.vieillard_riz_quantite",
+  next = "crazy_house.vieillard_ronfl",
+  skip = "current",
+  text = [[
+ZZZ... Hein ?...
+Mais tu n'a pas
+de sac de riz !
+Allez zou ! Va en
+chercher.
+]]
+}
+
+dialog{
+  id = "crazy_house.vieillard_ronfl",
+  text = [[
+Ronfl... ZZZ...
+]]
+}
+
+dialog{
+  id = "crazy_house.welcome_message",
+  skip = "current",
+  text = [[
+Bienvenue au Bureau des
+Objets Trouvés.
+
+Aussi connu sous le nom
+de... 3T :
+Tu Trouves de Tout !
+Papier et crayon sont
+de rigueur...
+
+A gauche : Accueil,
+guichets 11, 21.
+
+A droite :
+guichets 12, 22
+]]
+}
+
+dialog{
+  id = "desert.east_house.back_from_dead",
+  text = [[
+Quoi ? Tu es allé à la
+Caverne Maudite ?
+
+Les jeunes de nos jours
+sont vraiment des
+inconscients !
+Nous aurions dû
+insister plus sur les
+dangers de ce lieu.
+Je t'avais pourtant mis
+en garde : ce n'est pas
+là que tu dois aller.
+La suite du jeu, c'est
+pas du tout ça !
+Si tu veux voir Ganon,
+rien de plus simple,
+prends juste la clé
+dans ma chambre à côté.
+Tu pouvais le dire tout
+de suite au lieu de
+jouer les aventuriers.
+]]
+}
+
+dialog{
+  id = "desert.east_house.bone_key",
+  text = [[
+Cette clé est la clé
+du repaire de Ganon.
+]]
+}
+
+dialog{
+  id = "desert.east_house.first_time",
+  text = [[
+Au nord d'ici se trouve
+la Caverne Maudite.
+
+Personne n'en est
+jamais revenu.
+N'y va surtout pas !
+]]
+}
+
+dialog{
+  id = "desert.small_house",
+  text = [[
+Si tu cherches à te
+suicider, un bon moyen
+d'y parvenir est de te
+rendre à la Caverne
+Maudite au nord.
+
+La douleur et le
+résultat sont garantis.
+]]
+}
+
+dialog{
+  id = "desert.west_house",
+  text = [[
+Plusieurs aventuriers
+ont osé pénétrer dans
+la Caverne Maudite.
+On n'a plus jamais
+entendu parler d'eux...
+
+De nos jours, l'accès
+est condamné pour
+protéger les curieux.
+]]
+}
+
+dialog{
+  id = "dungeon_1.2f_sw_water_removed",
+  text = [[
+Au loin... un bruit...
+]]
+}
+
+dialog{
+  id = "dungeon_1.after_map_treasure",
+  text = [[
+Et pour pleurer
+devant la taille du
+donjon !
+]]
+}
+
+dialog{
+  id = "dungeon_1.big_code",
+  text = [[
+3-1-4-2-3-2-1-1-4-3-2-2
+1-3-2-3-3-1-4-4-2-1-2-3
+3-2-1-1-3-4-2-2-1-3-4-1
+]]
+}
+
+dialog{
+  id = "dungeon_1.big_code_completed",
+  text = [[
+Je te l'avais dit !
+]]
+}
+
+dialog{
+  id = "dungeon_1.big_code_ok",
+  text = [[
+Début du code détecté.
+Accès autorisé.
+
+Mais si tu veux mon
+avis, si tu entres le
+reste du code, il ne se
+passera rien du tout.
+]]
+}
+
+dialog{
+  id = "dungeon_1.boss_hint_stone",
+  text = [[
+Bravo $v. Mais
+notre princesse est
+dans un autre château.
+]]
+}
+
+dialog{
+  id = "dungeon_1.danger_north_sign",
+  text = [[
+Nord : danger
+Ne pas entrer svp
+]]
+}
+
+dialog{
+  id = "dungeon_1.danger_south_sign",
+  text = [[
+Sud : danger
+C'est à vos risques et
+périls.
+]]
+}
+
+dialog{
+  id = "dungeon_1.danger_west_sign",
+  text = [[
+Ouest : danger
+Ce serait une mauvaise
+idée d'y aller.
+]]
+}
+
+dialog{
+  id = "dungeon_1.ganon",
+  text = [[
+La princesse Zelda ?
+Non, elle n'est pas du
+tout ici.
+C'est toi qui es parti
+avec elle, on t'a tous
+vu la raccompagner !
+D'ailleurs, personne
+ne s'attendait à ce
+qu'elle soit d'accord
+pour finir la soirée
+chez toi en tête à
+tête hier soir !
+Mais elle a accepté !
+
+
+Il faut croire qu'elle
+te trouve du charme...
+
+Tu croyais que je
+l'avais enlevée ?
+Ha ha ha ha ha !
+Bref, elle n'est pas
+ici. Tu as bien regardé
+partout chez toi ?
+Pense peut-être à jeter
+un coup d'oeil dans ta
+maison, à l'occasion.
+En attendant, je ne
+suis pas contre un
+petit combat à mort.
+En garde !
+]]
+}
+
+dialog{
+  id = "dungeon_1.lizarmen_sign",
+  text = [[
+En hommage au pire
+mini-boss de l'histoire
+du jeu amateur.
+]]
+}
+
+dialog{
+  id = "dungeon_1.small_key_danger_east",
+  text = [[
+Par contre, ne va pas
+à l'est, c'est sûrement
+dangereux.
+]]
+}
+
+dialog{
+  id = "dungeon_1.stupid_run_sign",
+  text = [[
+Sur votre droite : 
+hommage à une épreuve
+vraiment stupide.
+]]
+}
+
+dialog{
+  id = "dungeon_1.welcome",
+  text = [[
+        Niveau 2       
+ Temple des Stupidités 
+]]
+}
+
+dialog{
+  id = "empty_chest",
+  text = [[
+Ce coffre est vide !
+C'est vraiment pas de
+chance !
+]]
+}
+
+dialog{
+  id = "found_fairy",
+  icon = "81",
+  next = "found_fairy.1",
+  skip = "all",
+  text = [[
+Tu as trouvé une
+Fée, c'est trop
+cool !
+]]
+}
+
+dialog{
+  id = "found_fairy.1",
+  icon = "-1",
+  question = "1",
+  skip = "none",
+  text = [[
+Que vas-tu faire ?
+Récupérer des Coeurs
+La conserver
+]]
+}
+
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  text = [[
+Tu n'as pas de Flacon
+vide !
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.first",
+  icon = "75",
+  text = [[
+Mais je t'arrête
+tout de suite :
+il t'en faut quatre
+pour avoir un
+nouveau Coeur.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = "78",
+  text = [[
+Tu as trouvé quatre
+Fragments de Coeur.
+
+Tu obtiens un Coeur
+supplémentaire !
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = "76",
+  text = [[
+Encore deux et
+ce sera cool.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = "77",
+  text = [[
+Plus qu'un et ce
+sera vraiment
+la fête !
+]]
+}
+
+dialog{
+  id = "found_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Veux-tu mettre de
+l'eau dans ton
+
+Flacon Magique ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "found_water.no_bottle",
+  text = [[
+Il y a de l'eau ici,
+mais tu n'as pas
+de récipient
+pour la stocker...
+]]
+}
+
+dialog{
+  id = "found_water.no_empty_bottle",
+  icon = "8",
+  text = [[
+Il y a de l'eau ici,
+mais il te faut
+un Flacon vide
+pour la stocker...
+]]
+}
+
+dialog{
+  id = "small_key_required",
+  icon = "72",
+  text = [[
+C'est fermé à clé !
+]]
+}
+
+dialog{
+  id = "torch.need_lamp",
+  text = [[
+Il y a sûrement un
+moyen d'allumer
+cette torche...
+]]
+}
+
+dialog{
+  id = "use_apples",
+  icon = "16",
+  question = "1",
+  text = [[
+Prendre une pomme te
+permet de récupérer
+un Coeur.
+Que veux-tu faire ?
+Manger une pomme
+Ne rien faire
+]]
+}
+
+dialog{
+  id = "use_bottle_with_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Que veux-tu faire ?
+Vider l'eau
+La conserver
+]]
+}
+
+dialog{
+  id = "use_croissants",
+  icon = "18",
+  question = "1",
+  text = [[
+Un Croissant te
+permet de retrouver
+7 Coeurs.
+Que veux-tu faire ?
+En manger un
+Ne rien faire
+]]
+}
+
+dialog{
+  id = "use_pains_au_chocolat",
+  icon = "17",
+  question = "1",
+  text = [[
+Un Pain au Chocolat
+te redonne 3 Coeurs.
+
+Que veux-tu faire ?
+En manger un
+Ne rien faire
+]]
+}
+
+dialog{
+  id = "warning_magic",
+  text = [[
+Mais surveille ton
+compteur magique !
+]]
+}
+

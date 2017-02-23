@@ -38,13 +38,14 @@ sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
 
 sprites/console/cursor.png                          Maxs
 sprites/console/icons.png                           Maxs
+sprites/enemies/newlink/*.png                       Newlink
 sprites/hud/gameover_fade.png                       Metallizer
-sprites/hud/dialog_box.png
-sprites/hud/icons_flip.png
-sprites/hud/item_icon_1.png
-sprites/hud/item_icon_2.png
-sprites/hud/magic_bar.png
-sprites/hud/rupee_icon.png
+sprites/hud/dialog_box.png                          Metallizer
+sprites/hud/icons_flip.png                          Metallizer
+sprites/hud/item_icon_1.png                         Metallizer
+sprites/hud/item_icon_2.png                         Metallizer
+sprites/hud/magic_bar.png                           Metallizer
+sprites/hud/rupee_icon.png                          Metallizer
 sprites/menus/arrow.png                             Metallizer
 sprites/menus/dungeon_map_background.png            Metallizer
 sprites/menus/hero_point.png                        Christopho
@@ -82,6 +83,7 @@ Original art inspired from various references:      Author
 ----------------------------------------------      ------
 musics/larryinc64/*.ogg                             LarryInc64: https://www.youtube.com/channel/UCp8cixTHfmu7slFJFFlyFPA
 musics/doctoroctoroc/*.ogg                          DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
+sprites/enemies/creeper.png                         Christopho
 
 Files that include content from Nintendo:
 -----------------------------------------
@@ -98,7 +100,9 @@ sounds/*.ogg
 
 tilesets/**.png
 
-sprites/enemies/*.png
+sprites/enemies/alttp/*.png
+sprites/enemies/cannonball.png
+sprites/enemies/enemy_killed.png
 sprites/entities/arrow.png
 sprites/entities/bomb.png
 sprites/entities/boomerang.png

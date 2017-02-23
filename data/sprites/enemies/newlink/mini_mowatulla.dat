@@ -1,6 +1,6 @@
 animation{
   name = "walking",
-  src_image = "enemies/mini_mowatulla.png",
+  src_image = "enemies/newlink/mini_mowatulla.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
@@ -13,7 +13,7 @@ animation{
 
 animation{
   name = "immobilized",
-  src_image = "enemies/mini_mowatulla.png",
+  src_image = "enemies/newlink/mini_mowatulla.png",
   directions = {
     { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 32, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -24,7 +24,7 @@ animation{
 
 animation{
   name = "shaking",
-  src_image = "enemies/mini_mowatulla.png",
+  src_image = "enemies/newlink/mini_mowatulla.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -37,7 +37,7 @@ animation{
 
 animation{
   name = "hurt",
-  src_image = "enemies/mini_mowatulla.png",
+  src_image = "enemies/newlink/mini_mowatulla.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -50,7 +50,7 @@ animation{
 
 animation{
   name = "shell",
-  src_image = "enemies/mini_mowatulla.png",
+  src_image = "enemies/newlink/mini_mowatulla.png",
   directions = {
     { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
     { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
@@ -61,7 +61,7 @@ animation{
 
 animation{
   name = "shell_breaking",
-  src_image = "enemies/mini_mowatulla.png",
+  src_image = "enemies/newlink/mini_mowatulla.png",
   frame_delay = 200,
   directions = {
     { x = 0, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13, num_frames = 3 },

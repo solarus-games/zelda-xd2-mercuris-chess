@@ -1,6 +1,6 @@
 animation{
   name = "walking",
-  src_image = "enemies/cobruss.png",
+  src_image = "enemies/newlink/cobruss.png",
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {

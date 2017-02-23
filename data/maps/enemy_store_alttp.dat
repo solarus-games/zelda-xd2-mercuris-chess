@@ -1,0 +1,67 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 720,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 720,
+  pattern = "floor.18-1",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 29,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_blue",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 29,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_red",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 69,
+  direction = 3,
+  breed = "alttp/bubble",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 77,
+  direction = 3,
+  breed = "cannonball",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 77,
+  direction = 3,
+  breed = "alttp/chain_and_ball",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 29,
+  direction = 3,
+  breed = "alttp/evil_tile",
+}
+

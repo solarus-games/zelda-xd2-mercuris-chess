@@ -11,7 +11,7 @@ enemy:set_invincible()
 enemy:set_attack_consequence("sword", "custom")
 enemy:set_obstacle_behavior("flying")
 
-local sprite = enemy:create_sprite("enemies/minillosaur_egg_thrown")
+local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 sprite:set_animation("egg")
 local in_egg = true
 

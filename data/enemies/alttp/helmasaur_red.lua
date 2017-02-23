@@ -4,7 +4,7 @@ function enemy:on_created()
 
   self:set_life(4)
   self:set_damage(12)
-  self:create_sprite("enemies/red_helmasaur")
+  self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 13)
 end

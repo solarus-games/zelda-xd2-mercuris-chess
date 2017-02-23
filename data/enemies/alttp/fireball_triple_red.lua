@@ -13,7 +13,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(8)
-  self:create_sprite("enemies/red_fireball_triple")
+  self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 8)
   self:set_obstacle_behavior("flying")
@@ -21,9 +21,9 @@ function enemy:on_created()
   self:set_attack_consequence("sword", "custom")
 
   -- Two smaller fireballs just for the displaying.
-  sprite2 = sol.sprite.create("enemies/red_fireball_triple")
+  sprite2 = sol.sprite.create("enemies/" .. enemy:get_breed())
   sprite2:set_animation("small")
-  sprite3 = sol.sprite.create("enemies/red_fireball_triple")
+  sprite3 = sol.sprite.create("enemies/" .. enemy:get_breed())
   sprite3:set_animation("tiny")
 end
 

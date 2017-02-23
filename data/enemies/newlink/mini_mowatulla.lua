@@ -13,7 +13,7 @@ function enemy:on_created()
   enemy:set_origin(8, 13)
   enemy:set_invincible()
 
-  local sprite = enemy:create_sprite("enemies/mini_mowatulla")
+  local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   sprite:set_animation("shell")
 
   function sprite:on_animation_finished(animation)

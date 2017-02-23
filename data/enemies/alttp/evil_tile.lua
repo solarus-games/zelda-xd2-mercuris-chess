@@ -9,7 +9,7 @@ function enemy:on_created()
   self:set_life(1)
   self:set_damage(4)
 
-  local sprite = self:create_sprite("enemies/evil_tile")
+  local sprite = self:create_sprite("enemies/" .. enemy:get_breed())
   function sprite:on_animation_finished(animation)
     if state == "destroying" then
       enemy:remove()

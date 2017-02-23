@@ -7,7 +7,7 @@ enemy:set_damage(4)
 enemy:set_hurt_style("normal")
 enemy:set_size(16, 16)
 enemy:set_origin(8, 13)
-local sprite = enemy:create_sprite("enemies/snap_dragon")
+local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 
 function enemy:on_restarted()
 

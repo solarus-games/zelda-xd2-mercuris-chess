@@ -8,7 +8,7 @@ function enemy:on_created()
 
   self:set_life(1)
   self:set_damage(4)
-  self:create_sprite("enemies/laser")
+  self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_optimization_distance(0)
   self:set_size(8, 8)
   self:set_origin(4, 4)

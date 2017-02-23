@@ -9,7 +9,7 @@ function enemy:on_created()
 
   self:set_life(5)
   self:set_damage(1)
-  self:create_sprite("enemies/creeper")
+  self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 13)
   self:set_attack_consequence("explosion", "ignored")

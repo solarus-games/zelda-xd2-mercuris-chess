@@ -9,7 +9,7 @@ enemy:set_damage(2)
 enemy:set_size(16, 16)
 enemy:set_origin(8, 13)
 
-local sprite = enemy:create_sprite("enemies/simple_green_soldier")
+local sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 function sprite:on_animation_finished(animation)
 
   -- If the enemy was stopped and looking to a direction, go to that direction.

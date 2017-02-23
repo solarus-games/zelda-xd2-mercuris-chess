@@ -1,5 +1,5 @@
 local item = ...
-  local game = self:get_game()
+local game = item:get_game()
 
 local message_id = {
   "found_piece_of_heart.first",

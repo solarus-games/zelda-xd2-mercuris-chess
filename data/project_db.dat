@@ -217,8 +217,10 @@ sound{ id = "bounce", description = "bounce" }
 sound{ id = "bow", description = "bow" }
 sound{ id = "bush", description = "bush" }
 sound{ id = "cane", description = "cane" }
+sound{ id = "cannonball", description = "cannonball" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
+sound{ id = "creeper", description = "creeper" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
 sound{ id = "door_closed", description = "door_closed" }
@@ -250,6 +252,10 @@ sound{ id = "lift", description = "lift" }
 sound{ id = "magic_bar", description = "magic_bar" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
+sound{ id = "mk64_mario_mammamia", description = "mk64_mario_mammamia" }
+sound{ id = "mk64_mario_yeah", description = "mk64_mario_yeah" }
+sound{ id = "mk64_toad", description = "mk64_toad" }
+sound{ id = "mk64_yoshi", description = "mk64_yoshi" }
 sound{ id = "monkey", description = "monkey" }
 sound{ id = "monster_hurt", description = "monster_hurt" }
 sound{ id = "octorok", description = "octorok" }
@@ -266,6 +272,12 @@ sound{ id = "rupee_counter", description = "rupee_counter" }
 sound{ id = "rupee_counter_end", description = "rupee_counter_end" }
 sound{ id = "secret", description = "secret" }
 sound{ id = "shield", description = "shield" }
+sound{ id = "sm64_bowser_message", description = "sm64_bowser_message" }
+sound{ id = "sm64_heehee", description = "sm64_heehee" }
+sound{ id = "sm64_memario", description = "sm64_memario" }
+sound{ id = "smb_1up", description = "smb_1up" }
+sound{ id = "smb_coin", description = "smb_coin" }
+sound{ id = "smb_powerup", description = "smb_powerup" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stairs_down_end", description = "stairs_down_end" }
 sound{ id = "stairs_down_start", description = "stairs_down_start" }
@@ -279,7 +291,9 @@ sound{ id = "sword2", description = "sword2" }
 sound{ id = "sword3", description = "sword3" }
 sound{ id = "sword4", description = "sword4" }
 sound{ id = "sword_spin_attack_load", description = "sword_spin_attack_load" }
+sound{ id = "sword_spin_attack_load_2", description = "sword_spin_attack_load_2" }
 sound{ id = "sword_spin_attack_release", description = "sword_spin_attack_release" }
+sound{ id = "sword_spin_attack_release_2", description = "sword_spin_attack_release_2" }
 sound{ id = "sword_tapping", description = "sword_tapping" }
 sound{ id = "sword_tapping_weak_wall", description = "sword_tapping_weak_wall" }
 sound{ id = "throw", description = "throw" }

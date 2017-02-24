@@ -21,7 +21,8 @@ function sol.main:on_started()
     initial_menus[#initial_menus + 1] = require(menu_script)
   end
 
-  sol.menu.start(sol.main, initial_menus[1])
+  local on_top = false  -- To keep the debug menu on top.
+  sol.menu.start(sol.main, initial_menus[1], on_top)
   for i, menu in ipairs(initial_menus) do
     function menu:on_finished()
       if sol.main.game ~= nil then

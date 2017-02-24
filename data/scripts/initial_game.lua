@@ -36,7 +36,7 @@ function initial_game:initialize_new_savegame(game)
   bow:set_variant(1)
   bow:set_amount(0)
 
-  game:get_item("bomb_bag"):set_variant(1)
+  game:get_item("bomb_bag"):set_variant(2)
   local bombs_counter = game:get_item("bombs_counter")
   bombs_counter:set_variant(1)
   bombs_counter:set_amount(0)

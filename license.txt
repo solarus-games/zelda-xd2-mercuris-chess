@@ -124,6 +124,7 @@ sprites/menus/dungeon_map_icons.png
 sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png
 sprites/menus/link_cursor.png
+sprites/menus/outside_world_map.png
 sprites/menus/selection_menu_letters.png
 sprites/menus/title_logo.png
 sprites/npc/alttp.png

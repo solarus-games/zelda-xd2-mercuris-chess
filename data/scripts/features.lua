@@ -9,5 +9,7 @@ require("scripts/hud/hud")
 require("scripts/menus/dialog_box")
 require("scripts/menus/pause")
 require("scripts/debug")
+require("scripts/dungeons")
+require("scripts/equipment")
 
 return true

@@ -424,6 +424,7 @@ item{ id = "flippers", description = "Flippers" }
 item{ id = "glove", description = "Iron glove / Golden glove" }
 item{ id = "heart", description = "Heart (x1)" }
 item{ id = "heart_container", description = "Heart container" }
+item{ id = "heart_hundreth", description = "1/100 of heart" }
 item{ id = "hookshot", description = "Hookshot" }
 item{ id = "lamp", description = "Lamp" }
 item{ id = "magic_bar", description = "Maximum of magic (none / half / full)" }

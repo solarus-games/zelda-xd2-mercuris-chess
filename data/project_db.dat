@@ -61,6 +61,7 @@ sprite{ id = "enemies/alttp/ropa", description = "Ropa" }
 sprite{ id = "enemies/alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 sprite{ id = "enemies/alttp/snap_dragon", description = "Snap Dragon" }
 sprite{ id = "enemies/alttp/tentacle", description = "Tentacle" }
+sprite{ id = "enemies/alttp/wallmaster", description = "Wallmaster" }
 sprite{ id = "enemies/cannonball", description = "Cannonball" }
 sprite{ id = "enemies/cannonball_big", description = "Cannonball (big)" }
 sprite{ id = "enemies/creeper", description = "Creeper" }
@@ -467,6 +468,7 @@ enemy{ id = "alttp/ropa", description = "Ropa" }
 enemy{ id = "alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "alttp/tentacle", description = "Tentacle" }
+enemy{ id = "alttp/wallmaster", description = "Wallmaster" }
 enemy{ id = "cannonball", description = "Cannonball (random)" }
 enemy{ id = "creeper", description = "Creeper" }
 enemy{ id = "newlink/bee_guard", description = "Bee Guard" }

@@ -53,7 +53,7 @@ enemy{
 enemy{
   layer = 0,
   x = 120,
-  y = 221,
+  y = 365,
   direction = 3,
   breed = "alttp/chain_and_ball",
 }
@@ -208,5 +208,13 @@ destination{
   x = 216,
   y = 93,
   direction = 1,
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 221,
+  direction = 3,
+  breed = "alttp/wallmaster",
 }
 

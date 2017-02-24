@@ -2,39 +2,29 @@ local submenu = require("scripts/menus/pause_submenu")
 local inventory_submenu = submenu:new()
 
 local item_names = {
---[[ TODO
   "feather",
   "bombs_counter",
   "bow",
-  "boomerang",
-  "mystic_mirror",
+  "lamp",
   "pegasus_shoes",
+  "", -- TODO hoverboard
   "bottle_1",
 
-  "lamp",
   "hookshot",
-  "cane_of_medusa",
-  "apples_counter",
+  "boomerang",
+  "fire_rod",
+  "",
   "pains_au_chocolat_counter",
   "croissants_counter",
   "bottle_2",
 
-  "rock_key",
-  "bone_key",
-  "clay_key",
-  "fire_stones_counter",
-  "flippers",
-  "magic_cape",
-  "bottle_3",
-
-  "iron_key",
-  "stone_key",
-  "wooden_key",
-  "ice_key",
+  "",
+  "",
+  "",
   "glove",
-  "level_4_way",
-  "bottle_4"
---]]
+  "flippers",
+  "parfum_counter",
+  "bottle_3",
 }
 
 function inventory_submenu:on_started()
@@ -47,28 +37,30 @@ function inventory_submenu:on_started()
   self.captions = {}
 
   for k = 1, #item_names do
-    -- Get the item, its possession state and amount.
-    local item = self.game:get_item(item_names[k])
-    local variant = item:get_variant()
+    if item_names[k] ~= "" then
+      -- Get the item, its possession state and amount.
+      local item = self.game:get_item(item_names[k])
+      local variant = item:get_variant()
 
-    if variant > 0 then
-      if item:has_amount() then
-        -- Show a counter in this case.
-        local amount = item:get_amount()
-        local maximum = item:get_max_amount()
+      if variant > 0 then
+        if item:has_amount() then
+          -- Show a counter in this case.
+          local amount = item:get_amount()
+          local maximum = item:get_max_amount()
 
-        self.counters[k] = sol.text_surface.create{
-          horizontal_alignment = "center",
-          vertical_alignment = "top",
-          text = item:get_amount(),
-          font = (amount == maximum) and "green_digits" or "white_digits",
-        }
+          self.counters[k] = sol.text_surface.create{
+            horizontal_alignment = "center",
+            vertical_alignment = "top",
+            text = item:get_amount(),
+            font = (amount == maximum) and "green_digits" or "white_digits",
+          }
+        end
+
+        -- Initialize the sprite and the caption string.
+        self.sprites[k] = sol.sprite.create("entities/items")
+        self.sprites[k]:set_animation(item_names[k])
+        self.sprites[k]:set_direction(variant - 1)
       end
-
-      -- Initialize the sprite and the caption string.
-      self.sprites[k] = sol.sprite.create("entities/items")
-      self.sprites[k]:set_animation(item_names[k])
-      self.sprites[k]:set_direction(variant - 1)
     end
   end
 
@@ -106,7 +98,7 @@ function inventory_submenu:set_cursor_position(row, column)
 
   -- Update the caption text and the action icon.
   local item_name = item_names[index + 1]
-  local item = item_name and self.game:get_item(item_name) or nil
+  local item = item_name and item_name ~= "" and self.game:get_item(item_name) or nil
   local variant = item and item:get_variant() or 0
 
   local item_icon_opacity = 128
@@ -136,7 +128,7 @@ function inventory_submenu:is_item_selected()
 end
 
 function inventory_submenu:on_command_pressed(command)
-  
+
   local handled = submenu.on_command_pressed(self, command)
 
   if not handled then
@@ -208,7 +200,7 @@ function inventory_submenu:on_draw(dst_surface)
 
     for j = 0, 6 do
       k = k + 1
-      if item_names[k] ~= nil then
+      if item_names[k] ~= nil and item_names[k] ~= "" then
         local item = self.game:get_item(item_names[k])
         if item:get_variant() > 0 then
           -- The player has this item: draw it.

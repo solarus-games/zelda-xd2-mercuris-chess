@@ -21,6 +21,29 @@ function game_manager:create(file)
     initial_game:initialize_new_savegame(game)
   end
 
+  function game:get_player_name()
+    return self:get_value("player_name")
+  end
+
+  function game:set_player_name(player_name)
+    self:set_value("player_name", player_name)
+  end
+
+  -- Returns whether the current map is in the inside world.
+  function game:is_in_inside_world()
+    return game:get_map():get_world() == "inside_world"
+  end
+
+  -- Returns whether the current map is in the outside world.
+  function game:is_in_outside_world()
+    return game:get_map():get_world() == "outside_world"
+  end
+
+  -- Returns whether the current map is in a dungeon.
+  function game:is_in_dungeon()
+    return game:get_dungeon() ~= nil
+  end
+
   return game
 end
 

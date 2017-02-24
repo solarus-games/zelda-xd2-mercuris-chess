@@ -45,7 +45,7 @@ function map:on_started()
       local ratio_x = config.ratio_x or 1
       local ratio_y = config.ratio_y or 1
       local distance_x, distance_y = reference_x - hero_x, reference_y - hero_y
-      
+
       local x = config.entity_initial_x + distance_x / ratio_x
       local y = config.entity_initial_y + distance_y / ratio_y
       entity:set_position(x, y)

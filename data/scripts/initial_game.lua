@@ -19,8 +19,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_max_life(4 * 9)
   game:set_life(game:get_max_life())
   game:set_max_money(100)
-  game:set_ability("lift", 1)
-  game:set_ability("sword", 1)
+  game:set_ability("jump_over_water", 1)
 end
 
 return initial_game

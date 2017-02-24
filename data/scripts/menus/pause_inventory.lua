@@ -11,7 +11,7 @@ local item_names = {
   "bottle_1",
 
   "hookshot",
-  "",  -- TODO boomerang
+  "boomerang",
   "fire_rod",
   "",
   "pains_au_chocolat_counter",

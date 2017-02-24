@@ -21,7 +21,7 @@ function initial_game:initialize_new_savegame(game)
   game:set_max_life(4 * 9)
   game:set_life(game:get_max_life())
   game:get_item("rupee_bag"):set_variant(2)
-  game:set_money(0)
+  game:set_money(42)
 
   game:get_item("tunic"):set_variant(1)
   game:get_item("sword"):set_variant(2)

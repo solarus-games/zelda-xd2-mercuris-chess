@@ -108,7 +108,7 @@ function copyright_menu:on_started()
   end
 
   -- The player can skip the menu after a short delay
-  sol.timer.start(copyright_menu, 500, function()
+  sol.timer.start(copyright_menu, 300, function()
     can_skip_menu = true
   end)
 

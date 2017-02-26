@@ -52,7 +52,7 @@ function title_screen:phase_final()
   self.phase = FINAL
 
   -- Start music.
-  --sol.audio.play_music("title_screen")
+  sol.audio.play_music("doctor_octoroc/demons_run")
 
   -- Create the surface where we draw.
   local surface_w = 320

@@ -171,7 +171,7 @@ function copyright_menu:try_skip_menu()
     is_skipping = true
 
     -- Fade-out everything
-    for _, menu_item in pairs(menu_items) do
+    for _, menu_item in ipairs(menu_items) do
       menu_item:fade_out(fade_delay)
     end
     

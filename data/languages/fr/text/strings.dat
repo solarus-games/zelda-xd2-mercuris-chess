@@ -100,8 +100,8 @@ text{ key = "selection_menu.options.language", value = "Langue" }
 text{ key = "selection_menu.options.video_mode", value = "Mode vidéo" }
 text{ key = "selection_menu.options.music_volume", value = "Volume de la musique" }
 text{ key = "selection_menu.options.sound_volume", value = "Volume du son" }
-text{ key = "title_screen.website", value = "www.zelda-solarus.com" }
-text{ key = "title_screen.press_space", value = "Appuie sur espace" }
+text{ key = "title_screen.copyright", value = "© 2017 Christopho, Solarus Team" }
+text{ key = "title_screen.press_space", value = "- Appuie sur espace -" }
 text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda™ est" }
 text{ key = "copyright_menu.tloz_trademark.line2", value = "une marque déposée de Nintendo™." }
 text{ key = "copyright_menu.made_by_fans.line1", value = "Ce jeu est réalisé par des fans," }

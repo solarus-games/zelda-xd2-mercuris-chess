@@ -15,7 +15,7 @@ local hud_config = {
   -- Hearts meter.
   {
     menu_script = "scripts/hud/hearts",
-    x = -104,
+    x = -87,
     y = 6,
   },
 

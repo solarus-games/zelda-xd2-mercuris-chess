@@ -43,7 +43,7 @@ local hud_config = {
   -- Floor view.
   {
     menu_script = "scripts/hud/floor",
-    x = 5,
+    x = 6,
     y = 70,
   },
 

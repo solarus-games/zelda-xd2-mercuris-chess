@@ -1,4 +1,5 @@
 -- Savegame selection screen.
+-----------------------------------------------------------------
 
 local savegame_menu = {}
 
@@ -8,26 +9,34 @@ local game_manager = require("scripts/game_manager")
 function savegame_menu:on_started()
 
   -- Create all graphic objects.
+  self.title_color = { 242, 241, 229 }
+  self.text_color = { 115, 59, 22 }
+  self.selected_text_color = { 208, 113, 27 }
+  self.disabled_text_color = { 190, 169, 155 }
   self.surface = sol.surface.create(320, 240)
-  self.background_color = { 104, 144, 240 }
-  self.background_img = sol.surface.create("menus/selection_menu_background.png")
-  self.cloud_img = sol.surface.create("menus/selection_menu_cloud.png")
+  self.box_img = sol.surface.create("menus/selection_menu_background.png")
   self.save_container_img = sol.surface.create("menus/selection_menu_save_container.png")
   self.option_container_img = sol.surface.create("menus/selection_menu_option_container.png")
-  local dialog_font, dialog_font_size = language_manager:get_dialog_font()
+  
+  -- Get font information.
   local menu_font, menu_font_size = language_manager:get_menu_font()
+
+  -- Create texts objects.
   self.option1_text = sol.text_surface.create{
-    font = dialog_font,
-    font_size = dialog_font_size,
+    font = menu_font,
+    font_size = menu_font_size,
+    color = self.text_color,
   }
   self.option2_text = sol.text_surface.create{
-    font = dialog_font,
-    font_size = dialog_font_size,
+    font = menu_font,
+    font_size = menu_font_size,
+    color = self.text_color,
   }
   self.title_text = sol.text_surface.create{
     horizontal_alignment = "center",
     font = menu_font,
     font_size = menu_font_size,
+    color = self.title_color,
   }
   self.cursor_position = 1
   self.cursor_sprite = sol.sprite.create("menus/selection_menu_cursor")
@@ -35,26 +44,8 @@ function savegame_menu:on_started()
   self.finished = false
   self.phase = nil
 
-  -- Start the clouds.
-  self.cloud_positions = {
-    { x =  20, y =  40 },
-    { x =  50, y = 160 },
-    { x = 160, y =  30 },
-    { x = 270, y = 200 },
-    { x = 200, y = 120 },
-    { x =  90, y = 120 },
-    { x = 300, y = 100 },
-    { x = 240, y =  10 },
-    { x =  60, y = 190 },
-    { x = 150, y = 120 },
-    { x = 310, y = 220 },
-    { x =  70, y =  20 },
-    { x = 130, y = 180 },
-    { x = 200, y = 700 },
-    { x =  20, y = 120 },
-    { x = 170, y = 220 }
-  }
-  self:repeat_move_clouds()
+  -- Create clouds images.
+ self:setup_background()
 
   -- Run the menu.
   self:read_savegames()
@@ -64,6 +55,10 @@ function savegame_menu:on_started()
   -- Show an opening transition.
   self.surface:fade_in()
 end
+
+-----------------------------------------------------------------
+-- Player interaction --
+-----------------------------------------------------------------
 
 function savegame_menu:on_key_pressed(key)
 
@@ -147,38 +142,17 @@ function savegame_menu:direction_pressed(direction8)
   end
 end
 
+-----------------------------------------------------------------
+-- Draw --
+-----------------------------------------------------------------
+
 function savegame_menu:on_draw(dst_surface)
 
-  -- Background color.
-  self.surface:fill_color(self.background_color)
-
-  -- Clouds.
-  local width, height = self.surface:get_size()
-  for _, position in ipairs(self.cloud_positions) do
-    local x, y = position.x, position.y
-    self.cloud_img:draw(self.surface, x, y)
-
-    if position.x >= width - 80 then
-      x = position.x - width
-      y = position.y
-      self.cloud_img:draw(self.surface, x, y)
-
-      if position.y <= 0 then
-        x = position.x - width
-        y = position.y + height
-        self.cloud_img:draw(self.surface, x, y)
-      end
-    end
-
-    if position.y <= 0 then
-      x = position.x
-      y = position.y + height
-      self.cloud_img:draw(self.surface, x, y)
-    end
-  end
+  -- Draw background and clouds.
+  self:draw_background()
 
   -- Savegames container.
-  self.background_img:draw(self.surface, 37, 38)
+  self.box_img:draw(self.surface, 37, 38)
   self.title_text:draw(self.surface, 160, 54)
 
   -- Phase-specific draw method.
@@ -194,7 +168,7 @@ function savegame_menu:draw_savegame(slot_index)
 
   local slot = self.slots[slot_index]
   self.save_container_img:draw(self.surface, 57, 48 + slot_index * 27)
-  slot.player_name_text:draw(self.surface, 87, 61 + slot_index * 27)
+  slot.player_name_text:draw(self.surface, 87, 59 + slot_index * 27)
 
   if slot.hearts_view ~= nil then
     slot.hearts_view:set_dst_position(168, 51 + slot_index * 27)
@@ -221,29 +195,137 @@ end
 function savegame_menu:draw_savegame_number(slot_index)
 
   local slot = self.slots[slot_index]
-  slot.number_img:draw(self.surface, 62, 53 + slot_index * 27)
+  slot.number_img:draw(self.surface, 61, 53 + slot_index * 27)
 end
 
 function savegame_menu:draw_bottom_buttons()
 
   local x
   local y = 158
+
   if self.option1_text:get_text():len() > 0 then
     x = 57
     self.option_container_img:draw(self.surface, x, y)
-    self.option1_text:draw(self.surface, 90, 172)
+    self.option1_text:draw(self.surface, 90, 168)
   end
+
   if self.option2_text:get_text():len() > 0 then
     x = 165
     self.option_container_img:draw(self.surface, x, y)
-    self.option2_text:draw(self.surface, 198, 172)
+    self.option2_text:draw(self.surface, 198, 168)
+  end
+
+end
+
+function savegame_menu:setup_background()
+  self.background_img = sol.surface.create("menus/title_screen/title_background.png")
+
+  self.cloud_img_1 = sol.surface.create("menus/title_screen/title_cloud_1.png")
+  self.cloud_img_2 = sol.surface.create("menus/title_screen/title_cloud_2.png")
+  self.cloud_img_3 = sol.surface.create("menus/title_screen/title_cloud_3.png")
+  self.cloud_shapes = {
+    self.cloud_img_1,
+    self.cloud_img_2,
+    self.cloud_img_3,
+  }
+
+  self.clouds_full_width = 480
+  self.clouds_foreground = {
+    { shape = 1, 
+      x = 2,
+      y = 120,
+    },
+    { shape = 1, 
+      x = 160,
+      y = 142,
+    },
+    { shape = 1, 
+      x = 480,
+      y = 166,
+    },
+    { shape = 2, 
+      x = -18,
+      y = 190,
+    },
+    { shape = 2, 
+      x = 220,
+      y = 220,
+    },
+    { shape = 2, 
+      x = 520,
+      y = 203,
+    },
+  }
+  self.clouds_background = {
+    { shape = 3, 
+      x = -4,
+      y = 152,
+    },
+    { shape = 3, 
+      x = 112,
+      y = 178,
+    },
+    { shape = 3, 
+      x = 162,
+      y = 150,
+    },
+    { shape = 3, 
+      x = 196,
+      y = 190,
+    },
+  }
+
+  -- Make the clouds move.
+  function move_foreground_clouds()
+    -- Move all the clouds.
+    for _, cloud in ipairs(self.clouds_foreground) do
+      cloud.x = cloud.x + 1
+      if cloud.x > self.clouds_full_width then
+        cloud.x = -self.clouds_full_width / 2
+      end
+    end
+
+    -- Repeat.
+    sol.timer.start(self, 60, move_foreground_clouds)
+  end
+  
+  sol.timer.start(self, 60, move_foreground_clouds)
+
+  function move_background_clouds()
+    -- Move all the clouds.
+    for _, cloud in ipairs(self.clouds_background) do
+      cloud.x = cloud.x + 1
+      if cloud.x > self.clouds_full_width then
+        cloud.x = -self.clouds_full_width / 2
+      end
+    end
+
+    -- Repeat.
+    sol.timer.start(self, 120, move_background_clouds)
+  end
+  
+  sol.timer.start(self, 120, move_background_clouds)
+end
+
+function savegame_menu:draw_background()
+  
+  -- Background image.
+  self.background_img:draw(self.surface)
+
+  -- Clouds.
+  for _, cloud in ipairs(self.clouds_background) do
+    self.cloud_shapes[cloud.shape]:draw(self.surface, cloud.x, cloud.y)
+  end
+  for _, cloud in ipairs(self.clouds_foreground) do
+    self.cloud_shapes[cloud.shape]:draw(self.surface, cloud.x, cloud.y)
   end
 end
 
 function savegame_menu:read_savegames()
 
   self.slots = {}
-  local font, font_size = language_manager:get_dialog_font()
+  local font, font_size = language_manager:get_menu_font()
+  
   for i = 1, 3 do
     local slot = {}
     slot.file_name = "save" .. i .. ".dat"
@@ -253,10 +335,12 @@ function savegame_menu:read_savegames()
     slot.player_name_text = sol.text_surface.create{
       font = font,
       font_size = font_size,
+      color = self.text_color
     }
     if sol.game.exists(slot.file_name) then
       -- Existing file.
       slot.player_name_text:set_text(slot.savegame:get_value("player_name"))
+      slot.player_name_text:set_color(self.text_color)
 
       -- Hearts.
       local hearts_class = require("scripts/hud/hearts")
@@ -265,6 +349,7 @@ function savegame_menu:read_savegames()
       -- New file.
       local name = "- " .. sol.language.get_string("selection_menu.empty") .. " -"
       slot.player_name_text:set_text(name)
+      slot.player_name_text:set_color(self.disabled_text_color)
     end
 
     self.slots[i] = slot
@@ -285,6 +370,10 @@ function savegame_menu:set_bottom_buttons(key1, key2)
     self.option2_text:set_text("")
   end
 end
+
+-----------------------------------------------------------------
+-- Cursor --
+-----------------------------------------------------------------
 
 function savegame_menu:move_cursor_up()
 
@@ -325,30 +414,10 @@ function savegame_menu:set_cursor_position(cursor_position)
   self.cursor_sprite:set_frame(0)  -- Restart the animation.
 end
 
-function savegame_menu:repeat_move_clouds()
-
-  local width, height = self.surface:get_size()
-  for _, position in ipairs(self.cloud_positions) do
-
-    position.x = position.x + 1
-    if position.x >= width then
-      position.x = 0
-    end
-
-    position.y = position.y - 1
-    if position.y <= -44 then
-      position.y = height - 44
-    end
-  end
-
-  sol.timer.start(self, 100, function()
-    self:repeat_move_clouds()
-  end)
-end
-
----------------------------
+-----------------------------------------------------------------
 -- Phase "select a file" --
----------------------------
+-----------------------------------------------------------------
+
 function savegame_menu:init_phase_select_file()
 
   self.phase = "select_file"
@@ -429,9 +498,10 @@ function savegame_menu:draw_phase_select_file()
   end
 end
 
---------------------------
+-----------------------------------------------------------------
 -- Phase "erase a file" --
---------------------------
+-----------------------------------------------------------------
+
 function savegame_menu:init_phase_erase_file()
 
   self.phase = "erase_file"
@@ -503,9 +573,10 @@ function savegame_menu:draw_phase_erase_file()
   end
 end
 
----------------------------
+-----------------------------------------------------------------
 -- Phase "Are you sure?" --
----------------------------
+-----------------------------------------------------------------
+
 function savegame_menu:init_phase_confirm_erase()
 
   self.phase = "confirm_erase"
@@ -566,9 +637,10 @@ function savegame_menu:draw_phase_confirm_erase()
   self:draw_savegame_cursor()
 end
 
-----------------------
+-----------------------------------------------------------------
 -- Phase "options" --
-----------------------
+-----------------------------------------------------------------
+
 function savegame_menu:init_phase_options()
 
   self.phase = "options"
@@ -609,14 +681,16 @@ function savegame_menu:init_phase_options()
     option.label_text = sol.text_surface.create{
       font = font,
       font_size = font_size,
-      text_key = "selection_menu.options." .. option.name
+      text_key = "selection_menu.options." .. option.name,
+      color = self.text_color,
     }
 
     -- Text surface of the value.
     option.value_text = sol.text_surface.create{
       font = font,
       font_size = font_size,
-      horizontal_alignment = "right"
+      horizontal_alignment = "right",
+      color = self.text_color,
     }
   end
 
@@ -657,14 +731,14 @@ function savegame_menu:key_pressed_phase_options(key)
 	sol.audio.play_sound("ok")
 	self.left_arrow_sprite:set_frame(0)
 	self.right_arrow_sprite:set_frame(0)
-	option.label_text:set_color{255, 255, 255}
-	option.value_text:set_color{255, 255, 0}
+	option.label_text:set_color(self.text_color)
+	option.value_text:set_color(self.selected_text_color)
 	self.title_text:set_text_key("selection_menu.phase.options.changing")
 	self.modifying_option = true
       else
 	sol.audio.play_sound("danger")
-	option.label_text:set_color{255, 255, 0}
-	option.value_text:set_color{255, 255, 255}
+	option.label_text:set_color(self.selected_text_color)
+	option.value_text:set_color(self.text_color)
 	self.left_arrow_sprite:set_frame(0)
 	self.right_arrow_sprite:set_frame(0)
 	self.title_text:set_text_key("selection_menu.phase.options")
@@ -752,14 +826,14 @@ function savegame_menu:draw_phase_options()
     self:draw_savegame_cursor()
   else
     -- The cursor is on an option line.
-    local y = 64 + self.options_cursor_position * 16
+    local y = 64 + self.options_cursor_position * 16 + 1
     if self.modifying_option then
       local option = self.options[self.options_cursor_position]
       local width, _ = option.value_text:get_size()
-      self.left_arrow_sprite:draw(self.surface, 256 - width, y)
-      self.right_arrow_sprite:draw(self.surface, 268, y)
+      self.left_arrow_sprite:draw(self.surface, 256 - width -1, y)
+      self.right_arrow_sprite:draw(self.surface, 268 + 1, y)
     else
-      self.right_arrow_sprite:draw(self.surface, 54, y)
+      self.right_arrow_sprite:draw(self.surface, 52, y)
     end
   end
 end
@@ -769,7 +843,7 @@ function savegame_menu:set_options_cursor_position(position)
   if self.options_cursor_position <= #self.options then
     -- An option line was previously selected.
     local option = self.options[self.options_cursor_position]
-    option.label_text:set_color{255, 255, 255}
+    option.label_text:set_color(self.text_color)
   end
 
   self.options_cursor_position = position
@@ -780,7 +854,7 @@ function savegame_menu:set_options_cursor_position(position)
   if position <= #self.options then
     -- An option line is now selected.
     local option = self.options[self.options_cursor_position]
-    option.label_text:set_color{255, 255, 0}
+    option.label_text:set_color(self.selected_text_color)
   end
 end
 
@@ -818,7 +892,6 @@ end
 function savegame_menu:reload_options_strings()
 
   local menu_font, menu_font_size = language_manager:get_menu_font()
-  local dialog_font, dialog_font_size = language_manager:get_dialog_font()
   -- Update the label of each option.
   for _, option in ipairs(self.options) do
 
@@ -839,17 +912,18 @@ function savegame_menu:reload_options_strings()
   self.title_text:set_text_key("selection_menu.phase.options")
   self.title_text:set_font(menu_font)
   self.title_text:set_font_size(menu_font_size)
-  self.option1_text:set_font(dialog_font)
-  self.option1_text:set_font_size(dialog_font_size)
-  self.option2_text:set_font(dialog_font)
-  self.option2_text:set_font_size(dialog_font_size)
+  self.option1_text:set_font(menu_font)
+  self.option1_text:set_font_size(menu_font_size)
+  self.option2_text:set_font(menu_font)
+  self.option2_text:set_font_size(menu_font_size)
   self:set_bottom_buttons("selection_menu.back", nil)
   self:read_savegames()  -- To update "- Empty -" mentions.
 end
 
-------------------------------
+-----------------------------------------------------------------
 -- Phase "choose your name" --
-------------------------------
+-----------------------------------------------------------------
+
 function savegame_menu:init_phase_choose_name()
 
   self.phase = "choose_name"
@@ -860,6 +934,7 @@ function savegame_menu:init_phase_choose_name()
   self.player_name_text = sol.text_surface.create{
     font = font,
     font_size = font_size,
+    color = self.selected_text_color
   }
   self.letter_cursor = { x = 0, y = 0 }
   self.letters_img = sol.surface.create("menus/selection_menu_letters.png")
@@ -936,8 +1011,8 @@ function savegame_menu:draw_phase_choose_name()
       93 + 18 * self.letter_cursor.y)
 
   -- Name and letters.
-  self.name_arrow_sprite:draw(self.surface, 57, 76)
-  self.player_name_text:draw(self.surface, 67, 85)
+  self.name_arrow_sprite:draw(self.surface, 54, 75)
+  self.player_name_text:draw(self.surface, 67, 80)
   self.letters_img:draw(self.surface, 57, 98)
 end
 
@@ -1014,5 +1089,7 @@ function savegame_menu:validate_player_name()
   return true
 end
 
-return savegame_menu
+-----------------------------------------------------------------
 
+-- Return the menu to the caller
+return savegame_menu

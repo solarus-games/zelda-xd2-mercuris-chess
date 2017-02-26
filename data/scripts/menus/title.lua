@@ -174,8 +174,7 @@ function title_screen:phase_final()
     self.show_press_space = not self.show_press_space
     sol.timer.start(self, 500, switch_press_space)
   end
-  
-  sol.timer.start(self, 3000, switch_press_space) -- TODO delay
+  switch_press_space()
 
   -- Make the clouds move.
   function move_foreground_clouds()

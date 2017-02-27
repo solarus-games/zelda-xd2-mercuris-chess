@@ -9,7 +9,7 @@ function small_keys_builder:new(game, config)
   small_keys.dst_x, small_keys.dst_y = config.x, config.y
 
   small_keys.visible = false
-  small_keys.surface = sol.surface.create(40, 8)
+  small_keys.surface = sol.surface.create(44, 12)
   small_keys.icon_img = sol.surface.create("hud/small_key_icon.png")
   small_keys.digits_text = sol.text_surface.create{
     font = "white_digits",
@@ -56,7 +56,7 @@ function small_keys_builder:new(game, config)
 
     small_keys.surface:clear()
     small_keys.icon_img:draw(small_keys.surface)
-    small_keys.digits_text:draw(small_keys.surface, 10, 0)
+    small_keys.digits_text:draw(small_keys.surface, 14, 2)
   end
 
   function small_keys:get_surface()

@@ -15,7 +15,7 @@ local hud_config = {
   -- Hearts meter.
   {
     menu_script = "scripts/hud/hearts",
-    x = -104,
+    x = -87,
     y = 6,
   },
 
@@ -36,14 +36,14 @@ local hud_config = {
   -- Small key counter.
   {
     menu_script = "scripts/hud/small_keys",
-    x = -26,
+    x = -28,
     y = -19,
   },
 
   -- Floor view.
   {
     menu_script = "scripts/hud/floor",
-    x = 5,
+    x = 6,
     y = 70,
   },
 

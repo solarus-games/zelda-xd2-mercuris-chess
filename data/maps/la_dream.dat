@@ -1,0 +1,597 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "la_beach",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = -59,
+  width = 640,
+  height = 480,
+  direction = 0,
+  sprite = "entities/la_beach/la_background",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 40,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 72,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 104,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 168,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 200,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 232,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 264,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 296,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 328,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 360,
+  y = 405,
+  width = 24,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 392,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 424,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 456,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 488,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 520,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 552,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  layer = 0,
+  x = 616,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 408,
+  width = 640,
+  height = 72,
+  pattern = "5",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 424,
+  width = 24,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 384,
+  width = 640,
+  height = 8,
+  pattern = "8",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 352,
+  width = 640,
+  height = 32,
+  pattern = "1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 304,
+  width = 640,
+  height = 40,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 328,
+  width = 640,
+  height = 24,
+  pattern = "16",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 280,
+  width = 640,
+  height = 24,
+  pattern = "14",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 320,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 352,
+  width = 16,
+  height = 8,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 496,
+  y = 360,
+  width = 16,
+  height = 8,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 624,
+  y = 352,
+  width = 16,
+  height = 8,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 608,
+  y = 336,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "11",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "10",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "11",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 440,
+  width = 24,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "10",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 416,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 456,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 416,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 408,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+custom_entity{
+  layer = 1,
+  x = 48,
+  y = 389,
+  width = 56,
+  height = 48,
+  direction = 0,
+  sprite = "entities/la_beach/la_wreck",
+}
+
+destination{
+  name = "beach_entrance",
+  layer = 1,
+  x = 552,
+  y = 373,
+  direction = 2,
+  default = true,
+}
+
+wall{
+  layer = 1,
+  x = 24,
+  y = 376,
+  width = 568,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 24,
+  y = 352,
+  width = 568,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 592,
+  y = 352,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 16,
+  y = 352,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 2,
+  x = 176,
+  y = 344,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+

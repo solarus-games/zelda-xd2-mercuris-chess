@@ -7,6 +7,8 @@ local initial_menus_config = require("scripts/menus/initial_menus_config")
 local initial_menus = {}
 local game_manager = require("scripts/game_manager")
 
+sol.language.set_language ("fr")
+
 -- This function is called when Solarus starts.
 function sol.main:on_started()
 

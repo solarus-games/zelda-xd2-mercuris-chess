@@ -29,6 +29,13 @@ Data files under CC BY-SA 4.0:                      Author
 
 fonts/minecraftia.ttf                               Andrew Tyler: http://www.andrewtyler.net
 
+languages/fr/images/action_icon.png                 Metallizer, Olivier Cléro
+languages/fr/images/floors.png                      Metallizer, Olivier Cléro
+languages/fr/images/gameover_menu.png               Metallizer
+languages/fr/images/pause_icon.png                  Metallizer, Olivier Cléro
+languages/fr/images/pause_submenus.png              Metallizer
+languages/fr/images/sword_icon.png                  Metallizer, Olivier Cléro
+
 logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
@@ -41,11 +48,13 @@ sprites/console/icons.png                           Maxs
 sprites/enemies/newlink/*.png                       Newlink
 sprites/hud/gameover_fade.png                       Metallizer
 sprites/hud/dialog_box.png                          Metallizer
-sprites/hud/icons_flip.png                          Metallizer
-sprites/hud/item_icon_1.png                         Metallizer
-sprites/hud/item_icon_2.png                         Metallizer
-sprites/hud/magic_bar.png                           Metallizer
-sprites/hud/rupee_icon.png                          Metallizer
+sprites/hud/hearts.png                              Olivier Cléro
+sprites/hud/icons_flip.png                          Metallizer, Olivier Cléro
+sprites/hud/item_icon_1.png                         Metallizer, Olivier Cléro
+sprites/hud/item_icon_2.png                         Metallizer, Olivier Cléro
+sprites/hud/magic_bar.png                           Metallizer, Olivier Cléro
+sprites/hud/rupee_icon.png                          Metallizer, Olivier Cléro
+sprites/hud/small_key_icon.png                      Olivier Cléro
 sprites/menus/arrow.png                             Metallizer
 sprites/menus/dungeon_map_background.png            Metallizer
 sprites/menus/hero_point.png                        Christopho
@@ -73,6 +82,7 @@ sprites/menus/title_night_clouds.png                Olivier Cléro
 sprites/menus/title_star.png                        Olivier Cléro
 sprites/menus/title_sunset_background.png           Olivier Cléro
 sprites/menus/title_sunset_clouds.png               Olivier Cléro
+
 
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------
@@ -119,7 +129,6 @@ sprites/entities/case.png
 sprites/hero/*.png
 sprites/hud/dialog_icons.png
 sprites/hud/hearts.png
-sprites/hud/small_key_icon.png
 sprites/menus/dungeon_map_icons.png
 sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png

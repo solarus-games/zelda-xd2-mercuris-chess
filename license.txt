@@ -33,6 +33,7 @@ logos/icon.icns                                     Olivier Cléro
 logos/icon.ico                                      Olivier Cléro
 logos/icon_*.png                                    Olivier Cléro
 
+
 sounds/diarandor/solarus_logo.ogg                   Diarandor
 sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
 
@@ -46,7 +47,7 @@ sprites/hud/item_icon_1.png                         Metallizer
 sprites/hud/item_icon_2.png                         Metallizer
 sprites/hud/magic_bar.png                           Metallizer
 sprites/hud/rupee_icon.png                          Metallizer
-sprites/menus/arrow.png                             Metallizer
+sprites/menus/arrow.png                             Olivier Cléro
 sprites/menus/dungeon_map_background.png            Metallizer
 sprites/menus/hero_point.png                        Christopho
 sprites/menus/options_cursor.png                    Christopho
@@ -54,25 +55,24 @@ sprites/menus/outside_world_clouds.png              Metallizer
 sprites/menus/pause_cursor.png                      Metallizer
 sprites/menus/pause_save_dialog.png                 Metallizer
 sprites/menus/quest_status_pieces_of_heart.png      Metallizer
-sprites/menus/selection_menu_background.png         Metallizer
-sprites/menus/selection_menu_cloud.png              Metallizer
-sprites/menus/selection_menu_cursor.png             Metallizer
-sprites/menus/selection_menu_option_container.png   Metallizer
-sprites/menus/selection_menu_save1.png              Metallizer
-sprites/menus/selection_menu_save2.png              Metallizer
-sprites/menus/selection_menu_save3.png              Metallizer
-sprites/menus/selection_menu_save_container.png     Metallizer
+sprites/menus/selection_menu_background.png         Olivier Cléro
+sprites/menus/selection_menu_cursor.png             Metallizer, Olivier Cléro
+sprites/menus/selection_menu_letters.png            Olivier Cléro
+sprites/menus/selection_menu_option_container.png   Olivier Cléro
+sprites/menus/selection_menu_save1.png              Olivier Cléro
+sprites/menus/selection_menu_save2.png              Olivier Cléro
+sprites/menus/selection_menu_save3.png              Olivier Cléro
+sprites/menus/selection_menu_save_container.png     Olivier Cléro
 sprites/menus/solarus_logo.png                      Olivier Cléro
 sprites/menus/team_logo.png                         Olivier Cléro
 sprites/menus/team_logo_text.png                    Olivier Cléro
-sprites/menus/title_daylight_background.png         Olivier Cléro
-sprites/menus/title_daylight_clouds.png             Olivier Cléro
-sprites/menus/title_dx.png                          Olivier Cléro
-sprites/menus/title_night_background.png            Olivier Cléro
-sprites/menus/title_night_clouds.png                Olivier Cléro
-sprites/menus/title_star.png                        Olivier Cléro
-sprites/menus/title_sunset_background.png           Olivier Cléro
-sprites/menus/title_sunset_clouds.png               Olivier Cléro
+sprites/menus/third_party/gplv3_logo.png            Olivier Cléro
+sprites/menus/title_screen/title_background.png     Olivier Cléro
+sprites/menus/title_screen/title_cloud_1.png        Olivier Cléro
+sprites/menus/title_screen/title_cloud_2.png        Olivier Cléro
+sprites/menus/title_screen/title_cloud_3.png        Olivier Cléro
+sprites/menus/title_screen/title_grump.png          Olivier Cléro
+sprites/menus/title_screen/title_troll.png          Olivier Cléro
 
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------
@@ -125,8 +125,8 @@ sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png
 sprites/menus/link_cursor.png
 sprites/menus/outside_world_map.png
-sprites/menus/selection_menu_letters.png
-sprites/menus/title_logo.png
+sprites/menus/title_screen/title_troll.png          Olivier Cléro
+sprites/menus/third_party/nintendo.png              Olivier Cléro
 sprites/npc/alttp.png
 sprites/npc/blacksmith.png
 sprites/npc/fat_fairy.png

@@ -27488,7 +27488,7 @@ tile_pattern{
   y = 3560,
   width = 32,
   height = 16,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{
@@ -27510,7 +27510,7 @@ tile_pattern{
   y = 3560,
   width = 32,
   height = 16,
-  repeat_mode = "none",
+  repeat_mode = "vertical",
 }
 
 tile_pattern{

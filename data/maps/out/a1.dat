@@ -12,18 +12,59 @@ properties{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 24,
-  width = 32,
-  height = 16,
-  pattern = "957",
+  x = 0,
+  y = 0,
+  width = 896,
+  height = 920,
+  pattern = "112",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 920,
+  width = 1024,
+  height = 104,
+  pattern = "193",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 0,
+  width = 128,
+  height = 920,
+  pattern = "193",
 }
 
 destination{
   name = "destination",
   layer = 0,
-  x = 32,
-  y = 69,
+  x = 992,
+  y = 877,
   direction = 1,
+}
+
+teletransporter{
+  name = "teletransporter_2",
+  layer = 0,
+  x = 1024,
+  y = 0,
+  width = 16,
+  height = 1024,
+  transition = "scrolling",
+  destination_map = "out/b1",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 1024,
+  width = 1024,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "out/a2",
+  destination = "_side",
 }
 

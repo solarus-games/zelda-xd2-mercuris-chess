@@ -14,7 +14,7 @@ map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }
 map{ id = "out/a1", description = "A1 (Island)" }
-map{ id = "out/a2", description = "A2 (Sea Village)" }
+map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }
 map{ id = "out/b2", description = "B2 (Forest)" }
 map{ id = "out/c1", description = "C1 (Desert)" }

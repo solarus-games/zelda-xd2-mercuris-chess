@@ -14650,7 +14650,7 @@ teletransporter{
   width = 16,
   height = 1024,
   transition = "scrolling",
-  destination_map = "2",
+  destination_map = "out/c1",
   destination = "_side",
 }
 
@@ -14698,14 +14698,13 @@ destination{
 }
 
 teletransporter{
-  name = "teletransporter_2",
   layer = 0,
   x = 0,
   y = 1024,
   width = 1024,
   height = 16,
   transition = "scrolling",
-  destination_map = "3",
+  destination_map = "out/b2",
   destination = "_side",
 }
 
@@ -15608,6 +15607,18 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+teletransporter{
+  name = "teletransporter_2",
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 1024,
+  transition = "scrolling",
+  destination_map = "out/a1",
+  destination = "_side",
 }
 
 tile{

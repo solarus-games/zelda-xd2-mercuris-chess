@@ -11010,7 +11010,7 @@ teletransporter{
   width = 16,
   height = 1024,
   transition = "scrolling",
-  destination_map = "1",
+  destination_map = "out/b1",
   destination = "_side",
 }
 
@@ -11022,7 +11022,7 @@ teletransporter{
   width = 1136,
   height = 16,
   transition = "scrolling",
-  destination_map = "4",
+  destination_map = "out/c2",
   destination = "_side",
 }
 

@@ -7,16 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "outside",
-  music = "lost_woods",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 0,
-  width = 1024,
-  height = 1024,
-  pattern = "193",
+  music = "overworld",
 }
 
 tile{
@@ -28,11 +19,200 @@ tile{
   pattern = "957",
 }
 
+tile{
+  layer = 0,
+  x = 832,
+  y = 160,
+  width = 192,
+  height = 232,
+  pattern = "223",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 176,
+  width = 160,
+  height = 160,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 184,
+  width = 32,
+  height = 112,
+  pattern = "12309",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 184,
+  width = 32,
+  height = 112,
+  pattern = "12310",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 176,
+  width = 128,
+  height = 24,
+  pattern = "12294",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 280,
+  width = 128,
+  height = 56,
+  pattern = "12295",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 288,
+  width = 16,
+  height = 8,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 288,
+  width = 16,
+  height = 8,
+  pattern = "365",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "12301",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "12298",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "12297",
+}
+
+tile{
+  layer = 0,
+  x = 992,
+  y = 288,
+  width = 16,
+  height = 48,
+  pattern = "12300",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 288,
+  width = 16,
+  height = 48,
+  pattern = "12299",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "12302",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "12303",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "12304",
+}
+
+tile{
+  layer = 0,
+  x = 880,
+  y = 200,
+  width = 96,
+  height = 80,
+  pattern = "163",
+}
+
 destination{
   name = "destination",
   layer = 0,
-  x = 960,
-  y = 53,
+  x = 976,
+  y = 357,
   direction = 1,
 }
 

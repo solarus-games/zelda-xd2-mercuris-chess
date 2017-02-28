@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "la_beach",
+  music = "oclero/la_link_is_awake",
 }
 
 custom_entity{

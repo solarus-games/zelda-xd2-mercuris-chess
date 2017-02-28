@@ -292,6 +292,7 @@ music{ id = "legend", description = "Legend" }
 music{ id = "light_world_dungeon", description = "Dungeon (light world)" }
 music{ id = "lost_woods", description = "Lost Woods" }
 music{ id = "mini_game", description = "Mini game" }
+music{ id = "oclero/la_link_is_awake", description = "Link Is Awake (SNES version)" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "rabbit", description = "Turned into a rabbit" }
 music{ id = "sanctuary", description = "Sanctuary" }

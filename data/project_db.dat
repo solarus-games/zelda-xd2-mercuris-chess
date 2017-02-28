@@ -39,6 +39,8 @@ tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
 tileset{ id = "light_world", description = "Light World (old)" }
 tileset{ id = "outside", description = "Outside" }
 
+sprite{ id = "console/cursor", description = "Console cursor" }
+sprite{ id = "console/icons", description = "Console icons" }
 sprite{ id = "enemies/alttp/bubble", description = "Bubble" }
 sprite{ id = "enemies/alttp/chain_and_ball", description = "Chain and ball" }
 sprite{ id = "enemies/alttp/evil_tile", description = "Evil Tile" }
@@ -187,9 +189,14 @@ sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
 sprite{ id = "hero/tunic2", description = "Hero tunic 2" }
 sprite{ id = "hero/tunic3", description = "Hero tunic 3" }
+sprite{ id = "hud/action_icon_flip", description = "Action icon flip" }
+sprite{ id = "hud/dialog_box_message_end", description = "Dialog box message end" }
 sprite{ id = "hud/empty_heart", description = "Empty heart" }
 sprite{ id = "hud/gameover_fade", description = "Game-over fade" }
+sprite{ id = "hud/magic_bar", description = "Magic bar" }
+sprite{ id = "hud/pause_icon_flip", description = "Pause icon flip" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
+sprite{ id = "hud/sword_icon_flip", description = "Sword icon flip" }
 sprite{ id = "menus/arrow", description = "Arrow" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }

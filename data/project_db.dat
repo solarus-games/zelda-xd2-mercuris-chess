@@ -66,7 +66,7 @@ sprite{ id = "enemies/alttp/tentacle", description = "Tentacle" }
 sprite{ id = "enemies/alttp/wallmaster", description = "Wallmaster" }
 sprite{ id = "enemies/cannonball", description = "Cannonball" }
 sprite{ id = "enemies/cannonball_big", description = "Cannonball (big)" }
-sprite{ id = "enemies/creeper", description = "Creeper" }
+sprite{ id = "enemies/creeper", description = "MC Creeper" }
 sprite{ id = "enemies/dkc_bananas", description = "DKC bananas" }
 sprite{ id = "enemies/dkc_barrel", description = "DKC barrel" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }

@@ -625,15 +625,6 @@ tile{
 tile{
   layer = 0,
   x = 432,
-  y = 120,
-  width = 32,
-  height = 16,
-  pattern = "682",
-}
-
-tile{
-  layer = 0,
-  x = 432,
   y = 136,
   width = 8,
   height = 16,
@@ -1902,15 +1893,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 792,
-  y = 480,
-  width = 32,
-  height = 16,
-  pattern = "682",
-}
-
-tile{
-  layer = 0,
   x = 848,
   y = 496,
   width = 24,
@@ -2888,15 +2870,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "36",
-}
-
-tile{
-  layer = 0,
-  x = 408,
-  y = 224,
-  width = 16,
-  height = 16,
-  pattern = "1039",
 }
 
 tile{
@@ -7498,14 +7471,6 @@ tile{
   pattern = "36",
 }
 
-destination{
-  name = "link_house_out",
-  layer = 0,
-  x = 448,
-  y = 165,
-  direction = 3,
-}
-
 teletransporter{
   name = "teletransporter",
   layer = 0,
@@ -7518,72 +7483,12 @@ teletransporter{
   destination = "_side",
 }
 
-destination{
-  name = "destination_point",
-  layer = 0,
-  x = 384,
-  y = 237,
-  direction = -1,
-  sprite = "entities/destination",
-}
-
-npc{
-  name = "interactive_entity",
-  layer = 0,
-  x = 416,
-  y = 237,
-  direction = 3,
-  subtype = 0,
-  sprite = "entities/sign",
-  behavior = "dialog#outside_fields_SO_endofgame1",
-}
-
-destination{
-  name = "from_crazy_house",
-  layer = 0,
-  x = 808,
-  y = 525,
-  direction = 3,
-}
-
-teletransporter{
-  name = "crazy_house.in",
-  layer = 0,
-  x = 800,
-  y = 496,
-  width = 16,
-  height = 16,
-  destination_map = "20",
-  destination = "start_position",
-}
-
-teletransporter{
-  name = "teletransporter_2",
-  layer = 0,
-  x = 440,
-  y = 136,
-  width = 16,
-  height = 16,
-  destination_map = "0",
-  destination = "from_outside",
-}
-
-npc{
-  name = "interactive_entity_3",
-  layer = 0,
-  x = 384,
-  y = 181,
-  direction = 3,
-  subtype = 0,
-  behavior = "dialog#outside_fields_SO_mailbox",
-}
-
 destructible{
   layer = 0,
   x = 504,
   y = 381,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -7594,7 +7499,7 @@ destructible{
   x = 520,
   y = 397,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -7608,7 +7513,6 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#outside_fields_SO.attente_c",
 }
 
 npc{
@@ -7619,7 +7523,6 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#outside_fields_SO.attente_d",
 }
 
 npc{
@@ -7630,7 +7533,6 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#outside_fields_SO.attente_b",
 }
 
 npc{
@@ -7641,7 +7543,6 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#outside_fields_SO.attente_a",
 }
 
 destructible{
@@ -7760,50 +7661,6 @@ destructible{
   can_be_cut = true,
 }
 
-pickable{
-  layer = 0,
-  x = 512,
-  y = 213,
-  treasure_name = "sword",
-  treasure_savegame_variable = "b42",
-}
-
-destination{
-  name = "from_crazy_house_secret",
-  layer = 0,
-  x = 912,
-  y = 93,
-  direction = 3,
-}
-
-stairs{
-  name = "stairs",
-  layer = 0,
-  x = 904,
-  y = 80,
-  direction = 1,
-  subtype = 3,
-}
-
-teletransporter{
-  name = "toCrazyHouse",
-  layer = 0,
-  x = 904,
-  y = 80,
-  width = 16,
-  height = 16,
-  destination_map = "24",
-  destination = "fromOutsideSO",
-}
-
-pickable{
-  layer = 0,
-  x = 952,
-  y = 85,
-  treasure_name = "heart_container",
-  treasure_savegame_variable = "b64",
-}
-
 destructible{
   layer = 0,
   x = 464,
@@ -7837,21 +7694,12 @@ destructible{
   can_be_cut = true,
 }
 
-chest{
-  name = "chest_link_house",
-  layer = 0,
-  x = 568,
-  y = 37,
-  treasure_savegame_variable = "b45",
-  sprite = "entities/chest",
-}
-
 destructible{
   layer = 0,
   x = 568,
   y = 53,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -7933,14 +7781,6 @@ npc{
   sprite = "npc/newlink/green_hat_man",
 }
 
-pickable{
-  layer = 0,
-  x = 584,
-  y = 365,
-  treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "b44",
-}
-
 destructible{
   layer = 0,
   x = 792,
@@ -8101,7 +7941,7 @@ destructible{
   layer = 0,
   x = 856,
   y = 693,
-  treasure_name = "bottle_3",
+  treasure_name = "random",
   treasure_savegame_variable = "b63",
   sprite = "entities/grass",
   destruction_sound = "bush",
@@ -8515,16 +8355,6 @@ wall{
   stops_npcs = true,
 }
 
-npc{
-  name = "forest_monkey",
-  layer = 0,
-  x = 568,
-  y = 869,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/alttp/monkey",
-}
-
 wall{
   name = "custom_obstacle_3",
   layer = 0,
@@ -8567,6 +8397,24 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/a2",
   destination = "_side",
+}
+
+tile{
+  layer = 1,
+  x = 432,
+  y = 120,
+  width = 32,
+  height = 16,
+  pattern = "682",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 480,
+  width = 32,
+  height = 16,
+  pattern = "682",
 }
 
 tile{

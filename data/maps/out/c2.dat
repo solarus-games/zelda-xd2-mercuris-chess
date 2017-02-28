@@ -1443,15 +1443,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 136,
-  width = 32,
-  height = 16,
-  pattern = "682",
-}
-
-tile{
-  layer = 0,
   x = 96,
   y = 152,
   width = 16,
@@ -11837,17 +11828,6 @@ tile{
 }
 
 teletransporter{
-  name = "teletransporter_2",
-  layer = 0,
-  x = 808,
-  y = 264,
-  width = 16,
-  height = 16,
-  destination_map = "63",
-  destination = "from_outside",
-}
-
-teletransporter{
   name = "teletransporter",
   layer = 0,
   x = 0,
@@ -11857,14 +11837,6 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/c1",
   destination = "_side",
-}
-
-destination{
-  name = "from_temple_of_stupidities",
-  layer = 0,
-  x = 816,
-  y = 293,
-  direction = 3,
 }
 
 teletransporter{
@@ -11879,25 +11851,6 @@ teletransporter{
   destination = "_side",
 }
 
-teletransporter{
-  name = "teletransporter_4",
-  layer = 0,
-  x = 96,
-  y = 152,
-  width = 16,
-  height = 16,
-  destination_map = "9",
-  destination = "start_position",
-}
-
-destination{
-  name = "from_geek_house",
-  layer = 0,
-  x = 104,
-  y = 181,
-  direction = 3,
-}
-
 dynamic_tile{
   name = "temple_door_tile",
   layer = 0,
@@ -11907,15 +11860,6 @@ dynamic_tile{
   width = 32,
   height = 16,
   enabled_at_start = true,
-}
-
-npc{
-  name = "temple_door",
-  layer = 0,
-  x = 816,
-  y = 277,
-  direction = 3,
-  subtype = 0,
 }
 
 jumper{
@@ -12001,72 +11945,6 @@ sensor{
   height = 32,
 }
 
-door{
-  name = "door_2",
-  layer = 0,
-  x = 32,
-  y = 424,
-  direction = 1,
-  sprite = "entities/door_weak_block",
-  savegame_variable = "b67",
-  opening_method = "explosion",
-}
-
-door{
-  name = "door_3",
-  layer = 0,
-  x = 48,
-  y = 424,
-  direction = 1,
-  sprite = "entities/door_weak_block",
-  savegame_variable = "b68",
-  opening_method = "explosion",
-}
-
-door{
-  name = "door_4",
-  layer = 0,
-  x = 112,
-  y = 376,
-  direction = 1,
-  sprite = "entities/door_weak_block",
-  savegame_variable = "b72",
-  opening_method = "explosion",
-}
-
-door{
-  name = "door_5",
-  layer = 0,
-  x = 64,
-  y = 408,
-  direction = 1,
-  sprite = "entities/door_weak_block",
-  savegame_variable = "b69",
-  opening_method = "explosion",
-}
-
-door{
-  name = "door_6",
-  layer = 0,
-  x = 80,
-  y = 408,
-  direction = 1,
-  sprite = "entities/door_weak_block",
-  savegame_variable = "b70",
-  opening_method = "explosion",
-}
-
-door{
-  name = "door_7",
-  layer = 0,
-  x = 96,
-  y = 392,
-  direction = 1,
-  sprite = "entities/door_weak_block",
-  savegame_variable = "b71",
-  opening_method = "explosion",
-}
-
 wall{
   name = "custom_obstacle_2",
   layer = 0,
@@ -12127,7 +12005,6 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#outside_fields_SE.west_sign",
 }
 
 pickable{
@@ -12143,7 +12020,7 @@ destructible{
   x = 776,
   y = 581,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12154,7 +12031,7 @@ destructible{
   x = 776,
   y = 597,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12165,7 +12042,7 @@ destructible{
   x = 856,
   y = 581,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12176,7 +12053,7 @@ destructible{
   x = 856,
   y = 597,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12187,7 +12064,7 @@ destructible{
   x = 792,
   y = 613,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12198,7 +12075,7 @@ destructible{
   x = 808,
   y = 613,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12209,7 +12086,7 @@ destructible{
   x = 824,
   y = 613,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
@@ -12220,10 +12097,19 @@ destructible{
   x = 840,
   y = 613,
   treasure_name = "random",
-  sprite = "entities/stone_small_white",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 136,
+  width = 32,
+  height = 16,
+  pattern = "682",
 }
 
 tile{

@@ -12,12 +12,8 @@ local copyright_menu= {}
 local can_skip_menu = false
 
 -- GPLv3 logo
-local gpl_logo = sol.surface.create("menus/third_party/gplv3_logo.png")
+local gpl_logo = sol.surface.create("menus/gplv3_logo.png")
 local gpl_logo_width, gpl_logo_height = gpl_logo:get_size()
-
--- Nintendo logo
-local nintendo_logo = sol.surface.create("menus/third_party/nintendo_logo.png")
-local nintendo_logo_width, nintendo_logo_height = nintendo_logo:get_size()
 
 -- Fonts info.
 local menu_font, menu_font_size = language_manager:get_menu_font()
@@ -95,7 +91,6 @@ local menu_items = {
   made_by_fans_line1,
   made_by_fans_line2,
   made_by_fans_line3,
-  nintendo_logo,
 }
 
 -- Initialize the menu.
@@ -113,7 +108,7 @@ function copyright_menu:on_started()
   end)
 
   -- Menu quits itslef after a longer delay because of the long text
-  sol.timer.start(copyright_menu, 3000, function()
+  sol.timer.start(copyright_menu, 4000, function()
     can_skip_menu = true
     
     -- Quit menu
@@ -153,9 +148,6 @@ function copyright_menu:on_draw(screen)
   item_y = item_y + menu_font_size + line_spacing
   made_by_fans_line3:draw(screen, screen_center_x, item_y)
   item_y = item_y + menu_font_size + line_spacing + item_margin
-
-  -- Draw Nintendo logo
-  nintendo_logo:draw(screen, (screen_width - nintendo_logo_width) / 2, item_y)
 end
 
 -- Try to skip the menu: only possible after small delay

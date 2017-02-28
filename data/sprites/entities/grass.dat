@@ -1,17 +1,17 @@
 animation{
   name = "on_ground",
-  src_image = "tileset",
+  src_image = "entities/grass.png",
   directions = {
-    { x = 192, y = 80, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 
 animation{
   name = "destroy",
-  src_image = "tileset",
+  src_image = "entities/grass.png",
   frame_delay = 100,
   directions = {
-    { x = 0, y = 240, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 5 },
+    { x = 0, y = 16, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 5 },
   },
 }
 

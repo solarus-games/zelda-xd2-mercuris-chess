@@ -77,8 +77,8 @@ text{ key = "quest_status.caption.shield_2", value = "Bouclier de Feu" }
 text{ key = "quest_status.caption.shield_3", value = "Miroir Magique" }
 text{ key = "quest_status.caption.sword_1", value = "Epée d'entraînement" }
 text{ key = "quest_status.caption.sword_2", value = "Sabre laser" }
-text{ key = "quest_status.caption.sword_3", value = "Épée inexistante" }
-text{ key = "quest_status.caption.sword_4", value = "Excalibur" }
+text{ key = "quest_status.caption.sword_3", value = "Sabre laser" }
+text{ key = "quest_status.caption.sword_4", value = "Sabre laser" }
 text{ key = "quest_status.caption.tunic_1", value = "Cotte de Mailles$verte" }
 text{ key = "quest_status.caption.tunic_2", value = "Cotte de Mailles$bleue" }
 text{ key = "quest_status.caption.tunic_3", value = "Cotte de Mailles$rouge" }

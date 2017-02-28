@@ -1361,12 +1361,11 @@ dialog{
   id = "_treasure.sword.3",
   icon = "68",
   text = [[
-Tu as trouvé
-l'Épée Excalibur !$0
+Tu as retrouvé
+ton Sabre Laser !$0
 
-Dommage que le jeu
-soit fini, ça aurait
-pu être utile !
+Mais... on dirait qu'il
+a été relooké !
 ]]
 }
 
@@ -1374,12 +1373,11 @@ dialog{
   id = "_treasure.sword.4",
   icon = "69",
   text = [[
-Tu as trouvé
-l'Épée Excalibur !$0
+Vert ton Sabre Laser
+maintenant est !$0
 
-Dommage que le jeu
-soit fini, ça aurait
-pu être utile !
+Beaucoup plus classe
+comme cela il a l'air.
 ]]
 }
 

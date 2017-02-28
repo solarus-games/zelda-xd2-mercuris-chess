@@ -1,6 +1,6 @@
 properties{
   x = 1024,
-  y = 0,
+  y = 1024,
   width = 1024,
   height = 1024,
   min_layer = 0,
@@ -7930,7 +7930,7 @@ npc{
   y = 533,
   direction = 3,
   subtype = 1,
-  sprite = "npc/newlink4",
+  sprite = "npc/newlink/green_hat_man",
 }
 
 pickable{
@@ -8522,7 +8522,7 @@ npc{
   y = 869,
   direction = 3,
   subtype = 1,
-  sprite = "npc/monkey",
+  sprite = "npc/alttp/monkey",
 }
 
 wall{

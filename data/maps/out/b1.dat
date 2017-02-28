@@ -14677,7 +14677,7 @@ npc{
   y = 829,
   direction = 3,
   subtype = 1,
-  sprite = "npc/static_villager13",
+  sprite = "npc/alttp/angry_brother",
   behavior = "dialog#outside_fields_NO.lawn_master",
 }
 
@@ -14817,7 +14817,7 @@ npc{
   y = 805,
   direction = 3,
   subtype = 1,
-  sprite = "npc/villager2",
+  sprite = "npc/alttp/lady_blue",
   behavior = "dialog#outside_fields_NO.lady_b",
 }
 
@@ -14828,7 +14828,7 @@ npc{
   y = 797,
   direction = 3,
   subtype = 1,
-  sprite = "npc/static_villager9",
+  sprite = "npc/alttp/drunk_man",
   behavior = "dialog#outside_fields_NO.drunk",
 }
 
@@ -14839,7 +14839,7 @@ npc{
   y = 893,
   direction = 3,
   subtype = 1,
-  sprite = "npc/newlink7",
+  sprite = "npc/newlink/red_hood_man",
   behavior = "dialog#outside_fields_NO.guy_a",
 }
 
@@ -14850,7 +14850,7 @@ npc{
   y = 157,
   direction = 3,
   subtype = 1,
-  sprite = "npc/tom",
+  sprite = "npc/newlink/tom",
   behavior = "dialog#outside_fields_NO.castle_guard",
 }
 

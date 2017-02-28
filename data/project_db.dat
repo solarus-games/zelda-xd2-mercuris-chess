@@ -268,6 +268,7 @@ sprite{ id = "npc/newlink/bun_woman", description = "Bun woman" }
 sprite{ id = "npc/newlink/green_hat_man", description = "Green hat man" }
 sprite{ id = "npc/newlink/red_hood_man", description = "Red hood man" }
 sprite{ id = "npc/newlink/tom", description = "Tom" }
+sprite{ id = "npc/newlink/yoda", description = "Yoda" }
 
 music{ id = "agahnim", description = "Agahnim theme" }
 music{ id = "beginning", description = "Beginning" }

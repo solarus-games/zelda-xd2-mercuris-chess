@@ -1,6 +1,6 @@
 properties{
   x = 2048,
-  y = 0,
+  y = 1024,
   width = 1136,
   height = 1024,
   min_layer = 0,
@@ -11971,7 +11971,7 @@ npc{
   y = 917,
   direction = 3,
   subtype = 1,
-  sprite = "npc/yoda",
+  sprite = "npc/newlink/yoda",
 }
 
 sensor{

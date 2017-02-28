@@ -134,7 +134,6 @@ sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png
 sprites/menus/link_cursor.png
 sprites/menus/outside_world_map.png
-sprites/menus/title_screen/title_troll.png          Olivier Cléro
 sprites/menus/third_party/nintendo.png              Olivier Cléro
 sprites/npc/alttp.png
 sprites/npc/blacksmith.png
@@ -142,4 +141,3 @@ sprites/npc/fat_fairy.png
 sprites/npc/ghostly_proprietor.png
 sprites/npc/great_fairy.png
 sprites/npc/witch.png
-

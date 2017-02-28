@@ -89,6 +89,16 @@ Original art inspired from Nintendo:                Author
 musics/bulby/*.ogg                                  Bulby: https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ
 musics/shield/*.spc                                 Shield
 
+musics/oclero/la_link_is_awake.ogg                  Olivier Cléro
+
+sprites/entities/la_beach/la_background.png         Olivier Cléro
+sprites/entities/la_beach/la_swell.png              Olivier Cléro
+sprites/entities/la_beach/la_wreck.png              Olivier Cléro
+sprites/npc/marine.png                              Newlink
+
+tilesets/la_beach.tiles.png                         Olivier Cléro
+tilesets/la_beach.background.png                    Olivier Cléro
+
 Original art inspired from various references:      Author
 ----------------------------------------------      ------
 musics/larryinc64/*.ogg                             LarryInc64: https://www.youtube.com/channel/UCp8cixTHfmu7slFJFFlyFPA

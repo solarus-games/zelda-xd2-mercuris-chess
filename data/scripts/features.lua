@@ -11,5 +11,7 @@ require("scripts/menus/pause")
 require("scripts/debug")
 require("scripts/dungeons")
 require("scripts/equipment")
-
-return true
+require("scripts/meta/dynamic_tile.lua")
+require("scripts/meta/enemy.lua")
+require("scripts/meta/npc.lua")
+require("scripts/meta/sensor.lua")

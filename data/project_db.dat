@@ -287,6 +287,7 @@ sprite{ id = "npc/newlink/green_hat_man", description = "Green hat man" }
 sprite{ id = "npc/newlink/red_hood_man", description = "Red hood man" }
 sprite{ id = "npc/newlink/tom", description = "Tom" }
 sprite{ id = "npc/newlink/yoda", description = "Yoda" }
+sprite{ id = "npc/seagull", description = "Seagull" }
 
 music{ id = "alttp/agahnim", description = "Agahnim theme" }
 music{ id = "alttp/beginning", description = "Beginning" }

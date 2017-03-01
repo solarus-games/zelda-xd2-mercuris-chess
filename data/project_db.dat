@@ -13,6 +13,7 @@ map{ id = "dungeon_store", description = "Dungeon Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }
+map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }
@@ -36,6 +37,7 @@ tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
 tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
+tileset{ id = "la_beach", description = "Link's Awakening beach SNES style" }
 tileset{ id = "light_world", description = "Light World (old)" }
 tileset{ id = "outside", description = "Outside" }
 
@@ -158,6 +160,9 @@ sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/la_beach/la_background", description = "Sky and egg mountain" }
+sprite{ id = "entities/la_beach/la_swell", description = "Beach swell" }
+sprite{ id = "entities/la_beach/la_wreck", description = "Boat wreck" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
@@ -259,6 +264,7 @@ sprite{ id = "npc/chocobo_blue", description = "Chocobo Blue" }
 sprite{ id = "npc/chocobo_green", description = "Chocobo Green" }
 sprite{ id = "npc/chocobo_red", description = "Chocobo Red" }
 sprite{ id = "npc/chocobo_yellow", description = "Chocobo Yellow" }
+sprite{ id = "npc/marine", description = "Marine" }
 sprite{ id = "npc/newlink/blond_boy", description = "Blond boy" }
 sprite{ id = "npc/newlink/blonde_woman", description = "Blonde woman" }
 sprite{ id = "npc/newlink/blue_haired_boy", description = "Blue-haired boy" }
@@ -303,6 +309,7 @@ music{ id = "legend", description = "Legend" }
 music{ id = "light_world_dungeon", description = "Dungeon (light world)" }
 music{ id = "lost_woods", description = "Lost Woods" }
 music{ id = "mini_game", description = "Mini game" }
+music{ id = "oclero/la_link_is_awake", description = "Link Is Awake (SNES version)" }
 music{ id = "overworld", description = "Overworld" }
 music{ id = "rabbit", description = "Turned into a rabbit" }
 music{ id = "sanctuary", description = "Sanctuary" }

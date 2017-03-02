@@ -14579,14 +14579,6 @@ teletransporter{
   destination = "_side",
 }
 
-destination{
-  name = "stupid_cave_out",
-  layer = 0,
-  x = 952,
-  y = 117,
-  direction = 3,
-}
-
 teletransporter{
   layer = 0,
   x = 0,
@@ -14596,17 +14588,6 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/b2",
   destination = "_side",
-}
-
-teletransporter{
-  name = "teletransporter_7",
-  layer = 0,
-  x = 944,
-  y = 88,
-  width = 16,
-  height = 16,
-  destination_map = "8",
-  destination = "start_position",
 }
 
 wall{

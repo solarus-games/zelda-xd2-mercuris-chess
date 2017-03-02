@@ -14,7 +14,7 @@ function initial_game:initialize_new_savegame(game)
 
   -- You can modify this function to set the initial life and equipment
   -- and the starting location.
-  game:set_starting_location("dungeon_2/entrance", nil)
+  game:set_starting_location("la_dream", nil)
 
   game:set_ability("jump_over_water", 1)
 

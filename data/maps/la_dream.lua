@@ -37,6 +37,11 @@ function map:on_started()
   castaway_hero_sprite:set_direction(0)
   castaway_hero_sprite:set_frame(castaway_hero_sprite:get_num_frames() - 1)
 
+  -- Hide and show the right palm trees
+  palm_trees_parallax:set_visible(false)
+  palm_trees_static:set_visible(true)
+
+  -- Launch first seagull
   map:make_seagull_move(seagull_4, 30)
 
   -- Wait a bit on the mountain top with the egg.
@@ -79,7 +84,11 @@ function map:move_camera_down_to_the_beach()
   map:make_seagull_move(seagull_1, 40)
 
   -- Launch the camera movement
-  movement:start(camera)
+  movement:start(camera, function()
+    -- Hide and show the right palm trees
+    palm_trees_parallax:set_visible(true)
+    palm_trees_static:set_visible(false)
+  end)
 
 end
 

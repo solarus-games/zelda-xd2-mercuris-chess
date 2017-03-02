@@ -288,16 +288,38 @@ sprite{ id = "npc/newlink/red_hood_man", description = "Red hood man" }
 sprite{ id = "npc/newlink/tom", description = "Tom" }
 sprite{ id = "npc/newlink/yoda", description = "Yoda" }
 
-music{ id = "agahnim", description = "Agahnim theme" }
-music{ id = "beginning", description = "Beginning" }
-music{ id = "boss", description = "Boss" }
+music{ id = "alttp/agahnim", description = "Agahnim theme" }
+music{ id = "alttp/beginning", description = "Beginning" }
+music{ id = "alttp/boss", description = "Boss" }
+music{ id = "alttp/castle", description = "Castle" }
+music{ id = "alttp/cave", description = "Cave" }
+music{ id = "alttp/credits", description = "Credits" }
+music{ id = "alttp/dark_mountain", description = "Dark Mountain" }
+music{ id = "alttp/dark_world", description = "Dark World" }
+music{ id = "alttp/dark_world_dungeon", description = "Dungeon (dark world)" }
+music{ id = "alttp/dungeon_finished", description = "Dungeon finished" }
+music{ id = "alttp/excalibur", description = "Excalibur" }
+music{ id = "alttp/fanfare", description = "Fanfare" }
+music{ id = "alttp/fortune_teller", description = "Fortune Teller" }
+music{ id = "alttp/game_over", description = "Selection menu & Game Over" }
+music{ id = "alttp/ganon_appears", description = "Ganon appears" }
+music{ id = "alttp/ganon_battle", description = "Ganon battle" }
+music{ id = "alttp/ganon_theme", description = "Ganon theme" }
+music{ id = "alttp/great_fairy", description = "Great Fairy" }
+music{ id = "alttp/legend", description = "Legend" }
+music{ id = "alttp/light_world_dungeon", description = "Dungeon (light world)" }
+music{ id = "alttp/lost_woods", description = "Lost Woods" }
+music{ id = "alttp/mini_game", description = "Mini game" }
+music{ id = "alttp/overworld", description = "Overworld" }
+music{ id = "alttp/rabbit", description = "Turned into a rabbit" }
+music{ id = "alttp/sanctuary", description = "Sanctuary" }
+music{ id = "alttp/soldiers", description = "Soldiers" }
+music{ id = "alttp/title_screen", description = "Title screen" }
+music{ id = "alttp/triforce", description = "Triforce" }
+music{ id = "alttp/victory", description = "Victory" }
+music{ id = "alttp/village", description = "Kakariko Village" }
+music{ id = "alttp/zelda", description = "Zelda theme" }
 music{ id = "bulby/great_sea", description = "Great Sea" }
-music{ id = "castle", description = "Castle" }
-music{ id = "cave", description = "Cave" }
-music{ id = "credits", description = "Credits" }
-music{ id = "dark_mountain", description = "Dark Mountain" }
-music{ id = "dark_world", description = "Dark World" }
-music{ id = "dark_world_dungeon", description = "Dungeon (dark world)" }
 music{ id = "doctor_octoroc/demons_run", description = "Demons run" }
 music{ id = "doctor_octoroc/doctor_who_theme_2010", description = "Doctor Who Theme (2010)" }
 music{ id = "doctor_octoroc/i_am_the_doctor_1", description = "I am the Doctor 1" }
@@ -306,32 +328,10 @@ music{ id = "doctor_octoroc/this_planet_is_ours", description = "This planet is 
 music{ id = "doctor_octoroc/useful_striker", description = "Useful striker" }
 music{ id = "doctor_octoroc/victory_fanfare", description = "Victory fanfare" }
 music{ id = "doctor_octoroc/victory_fanfare_main", description = "Victory fanfare main" }
-music{ id = "dungeon_finished", description = "Dungeon finished" }
-music{ id = "excalibur", description = "Excalibur" }
-music{ id = "fanfare", description = "Fanfare" }
-music{ id = "fortune_teller", description = "Fortune Teller" }
-music{ id = "game_over", description = "Selection menu & Game Over" }
-music{ id = "ganon_appears", description = "Ganon appears" }
-music{ id = "ganon_battle", description = "Ganon battle" }
-music{ id = "ganon_theme", description = "Ganon theme" }
-music{ id = "great_fairy", description = "Great Fairy" }
 music{ id = "larryinc64/queen_another_one", description = "Queen - Another one bites the dust" }
 music{ id = "larryinc64/sm64_slider", description = "Super Mario 64 - Slider" }
-music{ id = "legend", description = "Legend" }
-music{ id = "light_world_dungeon", description = "Dungeon (light world)" }
-music{ id = "lost_woods", description = "Lost Woods" }
-music{ id = "mini_game", description = "Mini game" }
 music{ id = "oclero/la_link_is_awake", description = "Link Is Awake (SNES version)" }
-music{ id = "overworld", description = "Overworld" }
-music{ id = "rabbit", description = "Turned into a rabbit" }
-music{ id = "sanctuary", description = "Sanctuary" }
 music{ id = "shield/mm_stone_tower", description = "Stone Tower" }
-music{ id = "soldiers", description = "Soldiers" }
-music{ id = "title_screen", description = "Title screen" }
-music{ id = "triforce", description = "Triforce" }
-music{ id = "victory", description = "Victory" }
-music{ id = "village", description = "Kakariko Village" }
-music{ id = "zelda", description = "Zelda theme" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bomb", description = "bomb" }

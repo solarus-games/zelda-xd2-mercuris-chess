@@ -114,7 +114,7 @@ fonts/white_digits.png
 
 languages/*/images/*.png
 
-musics/*.it
+musics/alttp/*.it
 
 sounds/*.ogg
 

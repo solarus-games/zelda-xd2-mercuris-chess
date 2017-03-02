@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "dungeon_1",
   tileset = "dungeon/yellow",
-  music = "credits",
+  music = "alttp/credits",
 }
 
 tile{

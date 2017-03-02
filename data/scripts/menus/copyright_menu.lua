@@ -18,7 +18,7 @@ local gpl_logo_width, gpl_logo_height = gpl_logo:get_size()
 -- Fonts info.
 local menu_font, menu_font_size = language_manager:get_menu_font()
 
-local top_margin = 32
+local top_margin = 52
 local item_margin = 8
 local line_spacing = 4
 local can_skip_menu = false

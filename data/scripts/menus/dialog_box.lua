@@ -168,15 +168,19 @@ local function initialize_dialog_box_features(game)
     if self.vertical_position == "top" then
       top = true
     elseif self.vertical_position == "auto" then
-      local hero_x, hero_y = map:get_entity("hero"):get_position()
-      if hero_y >= camera_y + (camera_height / 2 + 10) then
-        top = true
+      local hero = map:get_entity("hero")
+      if hero:is_enabled() and hero:is_visible() then
+        local hero_x, hero_y = hero:get_position()
+        if hero_y >= camera_y + (camera_height / 2 + 10) then
+          top = true
+        end
       end
     end
 
     -- Set the coordinates of graphic objects.
-    local x = camera_width / 2 - 110
-    local y = top and 32 or (camera_height - 96)
+    local screen_width, screen_height = sol.video.get_quest_size()
+    local x = screen_width / 2 - 110
+    local y = top and 32 or (screen_height - 80)
 
     if self.style == "empty" then
       y = y + (top and -24 or 24)

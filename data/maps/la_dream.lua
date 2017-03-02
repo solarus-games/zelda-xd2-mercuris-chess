@@ -175,6 +175,25 @@ function map:make_marine_go_to_wreck()
   movement:set_smooth(true)
   movement:set_target(wreck_x + 96, marine_y)
   movement:set_ignore_obstacles(true)
+
+  local seagull_3_x, seagull_3_y = seagull_3:get_position()
+  seagull_3_x = seagull_3_x + 32
+  
+  -- Move the seagull when Marine is approaching.
+  function movement:on_position_changed()
+   local x, y = movement:get_xy()
+   if x == seagull_3_x then
+     local seagull_movement = sol.movement.create("target")
+     local seagull_sprite = seagull_3:get_sprite()
+     seagull_sprite:set_paused(false)
+     seagull_movement:set_speed(60)
+     seagull_movement:set_smooth(true)
+     seagull_movement:set_ignore_obstacles(true) 
+     seagull_movement:set_target(0, 0)
+     seagull_movement:start(seagull_3)
+   end
+  end
+
   movement:start(marine, function()
     -- Mark a little stop: Marine is seeing the hero far away.
     local marine_sprite = marine:get_sprite()

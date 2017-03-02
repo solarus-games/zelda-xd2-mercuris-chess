@@ -42,7 +42,7 @@ npc{
   name = "seagull_2",
   layer = 0,
   x = 656,
-  y = 245,
+  y = 261,
   direction = 2,
   subtype = 1,
   sprite = "npc/seagull",

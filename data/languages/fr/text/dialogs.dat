@@ -1594,20 +1594,6 @@ cette torche...
 }
 
 dialog{
-  id = "use_apples",
-  icon = "16",
-  question = "1",
-  text = [[
-Prendre une pomme te
-permet de récupérer
-un Coeur.
-Que veux-tu faire ?
-Manger une pomme
-Ne rien faire
-]]
-}
-
-dialog{
   id = "use_bottle_with_water",
   icon = "8",
   question = "1",

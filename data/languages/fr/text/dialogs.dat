@@ -1577,6 +1577,41 @@ pour la stocker...
 }
 
 dialog{
+  id = "marine_exclaming",
+  text = [[
+...
+Oh!
+]]
+}
+
+dialog{
+  id = "marine_waking_up",
+  text = [[
+$v ?
+Es-tu vivant ?
+Réveille-toi !
+...
+Je t'en prie!
+$v ?
+REVEILLE-TOI !
+ALLEZ !
+DEBOUT FEIGNASSE!
+DEBOUT !
+]]
+}
+
+dialog{
+  id = "marine_wondering",
+  text = [[
+???
+Qu'est-ce que c'est
+que ça ?
+D'où ça vient ?
+Un naufrage ?
+]]
+}
+
+dialog{
   id = "small_key_required",
   icon = "72",
   text = [[

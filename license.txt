@@ -95,8 +95,8 @@ sprites/entities/la_beach/la_swell.png              Olivier Cléro
 sprites/entities/la_beach/la_wreck.png              Olivier Cléro
 sprites/npc/marine.png                              Newlink
 
+tilesets/la_beach.entities.png                      Christopho
 tilesets/la_beach.tiles.png                         Olivier Cléro
-tilesets/la_beach.background.png                    Olivier Cléro
 
 Original art inspired from various references:      Author
 ----------------------------------------------      ------

@@ -10,6 +10,12 @@
 local map = ...
 local game = map:get_game()
 
+local quest_w, quest_h = sol.video.get_quest_size()
+local white_surface = sol.surface.create(quest_w, quest_h)
+white_surface:fill_color({255, 255, 255})
+local should_draw_white_surface = false
+local opacity_time = 0
+
 -- Event called at initialization time,
 -- as soon as this map becomes is loaded.
 function map:on_started()
@@ -230,6 +236,41 @@ function map:make_seagull_move(seagull, speed)
   movement:start(seagull, function()
     map:make_seagull_move(seagull, speed)
   end) 
+end
+
+-- Linear function
+-- t = elapsed time
+-- b = begin
+-- c = change == ending - beginning
+-- d = duration (total time)
+local function linear(t, b, c, d)
+  return c * t / d + b
+end
+
+-- Launch the white surface fade-out
+function map:start_fadeout_to_white(duration)
+  should_draw_white_surface = true
+  white_surface:set_opacity(0)
+
+  function modify_opacity(current_time)
+    local new_opacity = linear(current_time, 0, 255, duration)
+    white_surface:set_opacity(new_opacity)
+  end
+
+  local timer_delay = 100
+
+  sol.timer.start(map, timer_delay, function()
+    opacity_time = opacity_time + timer_delay
+    modify_opacity(opacity_time)
+    return white_surface:get_opacity() < 255 -- repeat
+  end)
+end
+
+-- Call when map needs to be drawn.
+function map:on_draw(dst_surface)
+  if should_draw_white_surface then
+   white_surface:draw(dst_surface)
+  end
 end
 
 -- TODO:

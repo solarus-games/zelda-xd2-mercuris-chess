@@ -506,6 +506,18 @@ enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "alttp/tentacle", description = "Tentacle" }
 enemy{ id = "alttp/wallmaster", description = "Wallmaster" }
 enemy{ id = "cannonball", description = "Cannonball (random)" }
+enemy{ id = "chess/bishop_black", description = "Bishop (black)" }
+enemy{ id = "chess/bishop_white", description = "Bishop (white)" }
+enemy{ id = "chess/king_black", description = "King (black)" }
+enemy{ id = "chess/king_white", description = "King (white)" }
+enemy{ id = "chess/knight_black", description = "Knight (black)" }
+enemy{ id = "chess/knight_white", description = "Knight (white)" }
+enemy{ id = "chess/pawn_black", description = "Pawn (black)" }
+enemy{ id = "chess/pawn_white", description = "Pawn (white)" }
+enemy{ id = "chess/queen_black", description = "Queen (black)" }
+enemy{ id = "chess/queen_white", description = "Queen (white)" }
+enemy{ id = "chess/rook_black", description = "Rook (black)" }
+enemy{ id = "chess/rook_white", description = "Rook (white)" }
 enemy{ id = "creeper", description = "Creeper" }
 enemy{ id = "newlink/bee_guard", description = "Bee Guard" }
 enemy{ id = "newlink/bullblin_blue", description = "Bullblin (blue)" }

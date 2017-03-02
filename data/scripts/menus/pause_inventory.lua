@@ -20,7 +20,7 @@ local item_names = {
 
   "",
   "",
-  "",
+  "", -- TODO Grump Tower keycard
   "glove",
   "flippers",
   "parfum_counter",

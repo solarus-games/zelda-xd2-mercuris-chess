@@ -31,7 +31,7 @@ function map:on_started()
   hero:set_visible(false)
 
   -- Prevent the player from pausing the game
-  game:set_suspended(true)
+  game:set_pause_allowed(false)
 
   -- Instead, show a castaway hero lying on the beach.
   local castaway_hero_sprite = castaway_hero:get_sprite()

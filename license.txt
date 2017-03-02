@@ -45,6 +45,7 @@ sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
 
 sprites/console/cursor.png                          Maxs
 sprites/console/icons.png                           Maxs
+sprites/chess/*.png                                 Olivier Cléro
 sprites/enemies/newlink/*.png                       Newlink
 sprites/hud/gameover_fade.png                       Metallizer
 sprites/hud/dialog_box.png                          Metallizer

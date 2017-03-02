@@ -68,6 +68,18 @@ sprite{ id = "enemies/alttp/tentacle", description = "Tentacle" }
 sprite{ id = "enemies/alttp/wallmaster", description = "Wallmaster" }
 sprite{ id = "enemies/cannonball", description = "Cannonball" }
 sprite{ id = "enemies/cannonball_big", description = "Cannonball (big)" }
+sprite{ id = "enemies/chess/bishop_black", description = "Bishop (black)" }
+sprite{ id = "enemies/chess/bishop_white", description = "Bishop (white)" }
+sprite{ id = "enemies/chess/king_black", description = "King (black)" }
+sprite{ id = "enemies/chess/king_white", description = "King (white)" }
+sprite{ id = "enemies/chess/knight_black", description = "Knight (black)" }
+sprite{ id = "enemies/chess/knight_white", description = "Knight (white)" }
+sprite{ id = "enemies/chess/pawn_black", description = "Pawn (black)" }
+sprite{ id = "enemies/chess/pawn_white", description = "Pawn (white)" }
+sprite{ id = "enemies/chess/queen_black", description = "Queen (black)" }
+sprite{ id = "enemies/chess/queen_white", description = "Queen (white)" }
+sprite{ id = "enemies/chess/rook_black", description = "Rook (black)" }
+sprite{ id = "enemies/chess/rook_white", description = "Rook (white)" }
 sprite{ id = "enemies/creeper", description = "MC Creeper" }
 sprite{ id = "enemies/dkc_bananas", description = "DKC bananas" }
 sprite{ id = "enemies/dkc_barrel", description = "DKC barrel" }

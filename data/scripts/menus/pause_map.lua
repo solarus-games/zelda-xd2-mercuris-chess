@@ -299,11 +299,11 @@ function map_submenu:draw_dungeon_floors(dst_surface)
 
   -- Draw the arrows.
   if lowest_floor_displayed > self.dungeon.lowest_floor then
-    self.down_arrow_sprite:draw(dst_surface, 89, 89)
+    self.down_arrow_sprite:draw(dst_surface, 93, 149)
   end
 
   if self.highest_floor_displayed < self.dungeon.highest_floor then
-    self.down_arrow_sprite:draw(dst_surface, 89, 56)
+    self.up_arrow_sprite:draw(dst_surface, 93, 67)
   end
 end
 

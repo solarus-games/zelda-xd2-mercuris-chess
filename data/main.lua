@@ -7,11 +7,10 @@ local initial_menus_config = require("scripts/menus/initial_menus_config")
 local initial_menus = {}
 local game_manager = require("scripts/game_manager")
 
-sol.language.set_language ("fr")
-
 -- This function is called when Solarus starts.
 function sol.main:on_started()
 
+  sol.main.load_settings()
   math.randomseed(os.time())
 
   -- Show the initial menus.
@@ -38,6 +37,11 @@ function sol.main:on_started()
     end
   end
 
+end
+
+function sol.main:on_finished()
+
+  sol.main.save_settings()
 end
 
 -- Event called when the player pressed a keyboard key.

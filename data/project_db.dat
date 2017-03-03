@@ -9,7 +9,7 @@ map{ id = "dungeon_2/7f", description = "Dungeon 2 7F" }
 map{ id = "dungeon_2/8f", description = "Dungeon 2 8F" }
 map{ id = "dungeon_2/9f", description = "Dungeon 2 9F" }
 map{ id = "dungeon_2/entrance", description = "Dungeon 2 entrance" }
-map{ id = "dungeon_2_store", description = "Dungeon 2 Store" }
+map{ id = "dungeon_2/store", description = "Dungeon 2 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }

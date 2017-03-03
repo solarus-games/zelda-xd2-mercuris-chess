@@ -1471,6 +1471,205 @@ pour tes petits bras !
 }
 
 dialog{
+  id = "dungeon_2.bartender",
+  question = "1",
+  skip = "all",
+  text = [[
+Un petit pétillant
+à la crème de potion
+rouge
+pour 100 rubis ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "dungeon_2.bartender_bought_red_potion_kir",
+  text = [[
+Goûte-moi ça !
+Ce cocktail va te rendre
+de plus en plus heureux.
+L'effet va durer un
+petit moment !
+]]
+}
+
+dialog{
+  id = "dungeon_2.bun_woman",
+  skip = "all",
+  text = [[
+Vous êtes le petit
+nouveau ? Votre bureau
+est prêt !
+Je vais enfin avoir
+de la compagnie !!!
+On va pouvoir bavarder !
+Après avoir été reléguée
+au sous-sol du Bureau
+des Objets Trouvés
+pendant toutes ces
+années, enfin de la
+reconnaissance !
+Monsieur Grump est
+vraiment un bienfaiteur.
+Installez-vous !
+]]
+}
+
+dialog{
+  id = "dungeon_2.drunk_man",
+  skip = "all",
+  text = [[
+Alors comme ça le...
+hip ! bureau des
+projets ouvrés...
+Non, le bureau des
+oubliés perdus a
+brûl... hip !
+Ça se fête en tout cas !
+
+
+Heu... bourreau des
+problèmes retrouvés...
+
+Buffet des hip !
+objectifs éprouvés...
+
+Enfin voilà, tu as
+compris ce que je
+voulais dire ! Hip !
+]]
+}
+
+dialog{
+  id = "dungeon_2.elevator_a_sign",
+  skip = "all",
+  text = [[
+Ascenseur vers les
+étages supérieurs
+
+1er étage : Casino
+
+
+Autres étages : réservé
+au personnel autorisé
+]]
+}
+
+dialog{
+  id = "dungeon_2.hint_4_knights",
+  skip = "all",
+  text = [[
+Quoi ? Oui, non, je suis
+en train de travailler,
+enfin là je me détends
+un peu en attendant.
+
+
+En fait, pour tout te
+dire, je devrais
+retourner à mon poste
+en cuisine mais il y a
+un code d'accès et je
+n'y comprends rien.
+
+Une histoire de 4
+cavaliers qui doivent
+être défendus 2 fois.
+Tu y comprends quelque
+chose toi ?
+
+Ces choses-là ne sont
+plus de mon âge...
+]]
+}
+
+dialog{
+  id = "dungeon_2.kitchen_guard_dont_pass",
+  skip = "all",
+  text = [[
+Monsieur, l'accès aux
+cuisines est réservé
+au personnel de
+l'établissement.
+]]
+}
+
+dialog{
+  id = "dungeon_2.kitchen_guard_go_wash",
+  skip = "all",
+  text = [[
+Tu es le petit nouveau ?
+Arrête de bavarder et
+va à la plonge.
+]]
+}
+
+dialog{
+  id = "dungeon_2.pause_man",
+  skip = "all",
+  text = [[
+Je suis actuellement en
+pause, et j'en ai bien
+besoin.
+]]
+}
+
+dialog{
+  id = "dungeon_2.receptionnist",
+  skip = "all",
+  text = [[
+Vous êtes ici dans la
+Tour Grump, le paradis
+du divertissement.
+Merci de rester dans
+les zones ouvertes au
+public.
+Le restaurant se trouve
+derrière moi.
+
+Le Casino et l'hôtel de
+luxe sont au premier
+étage.
+]]
+}
+
+dialog{
+  id = "dungeon_2.restaurant_sign",
+  skip = "all",
+  text = [[
+  - Grump Snack Bar -
+Restauration à des prix
+défiant toute honnêteté.
+]]
+}
+
+dialog{
+  id = "dungeon_2.running_man",
+  skip = "all",
+  text = [[
+Entre nous, ce
+restaurant est surcoté.
+
+Les consommations sont
+super chères et le 
+serveur nous parle comme
+si on était son pote.
+Ceci dit, les boissons
+sont originales !
+]]
+}
+
+dialog{
+  id = "dungeon_2.welcome",
+  text = [[
+       Niveau 2
+      Tour Grump
+]]
+}
+
+dialog{
   id = "empty_chest",
   text = [[
 Ce coffre est vide !

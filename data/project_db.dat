@@ -251,6 +251,7 @@ sprite{ id = "hud/pause_icon_flip", description = "Pause icon flip" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "hud/sword_icon_flip", description = "Sword icon flip" }
 sprite{ id = "menus/arrow", description = "Arrow" }
+sprite{ id = "menus/dungeon_maps/map2", description = "Dungeon 2 minimap" }
 sprite{ id = "menus/hero_head", description = "Hero head" }
 sprite{ id = "menus/hero_point", description = "Hero point" }
 sprite{ id = "menus/options_cursor", description = "Options cursor" }

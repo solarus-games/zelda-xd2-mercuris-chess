@@ -1,8 +1,9 @@
 local submenu = require("scripts/menus/pause_submenu")
 local map_submenu = submenu:new()
 
-local outside_world_size = { width = 2080, height = 3584 }
-local outside_world_minimap_size = { width = 225, height = 388 }
+local outside_world_size = { width = 3184, height = 2048 }
+local outside_world_minimap_size = { width = 225, height = 388 }  -- TODO
+local max_floors_displayed = 6
 
 function map_submenu:on_started()
 
@@ -51,7 +52,7 @@ function map_submenu:on_started()
     self.dungeon_floors_img = sol.surface.create("floors.png", true)
     self.hero_floor = self.game:get_map():get_floor()
     self.nb_floors = self.dungeon.highest_floor - self.dungeon.lowest_floor + 1
-    self.nb_floors_displayed = math.min(7, self.nb_floors)
+    self.nb_floors_displayed = math.min(max_floors_displayed, self.nb_floors)
     if self.hero_floor == nil then
       -- The hero is not on a known floor of the dungeon.
       self.highest_floor_displayed = self.dungeon.highest_floor
@@ -59,12 +60,12 @@ function map_submenu:on_started()
     else
       -- The hero is on a known floor.
       self.selected_floor = self.hero_floor
-      if self.nb_floors <= 7 then
+      if self.nb_floors <= max_floors_displayed then
         self.highest_floor_displayed = self.dungeon.highest_floor
       elseif self.hero_floor >= self.dungeon.highest_floor - 2 then
         self.highest_floor_displayed = self.dungeon.highest_floor
       elseif self.hero_floor <= self.dungeon.lowest_floor + 2 then
-        self.highest_floor_displayed = self.dungeon.lowest_floor + 6
+        self.highest_floor_displayed = self.dungeon.lowest_floor + max_floors_displayed - 1
       else
         self.highest_floor_displayed = self.hero_floor + 3
       end
@@ -157,7 +158,7 @@ function map_submenu:on_command_pressed(command)
         self.hero_head_sprite:set_frame(0)
         self.selected_floor = new_selected_floor
         self:load_dungeon_map_image()
-        if self.selected_floor <= self.highest_floor_displayed - 7 then
+        if self.selected_floor <= self.highest_floor_displayed - 6 then
           self.highest_floor_displayed = self.highest_floor_displayed - 1
         elseif self.selected_floor > self.highest_floor_displayed then
           self.highest_floor_displayed = self.highest_floor_displayed + 1
@@ -262,7 +263,7 @@ function map_submenu:draw_dungeon_floors(dst_surface)
   local src_width = 32
   local src_height = self.nb_floors_displayed * 12 + 1
   local dst_x = 79
-  local dst_y = 70 + (8 - self.nb_floors_displayed) * 6
+  local dst_y = 70 + (max_floors_displayed + 1 - self.nb_floors_displayed) * 6
   local old_dst_y = dst_y
 
   self.dungeon_floors_img:draw_region(src_x, src_y, src_width, src_height,
@@ -298,11 +299,11 @@ function map_submenu:draw_dungeon_floors(dst_surface)
 
   -- Draw the arrows.
   if lowest_floor_displayed > self.dungeon.lowest_floor then
-    down_arrow_sprite:draw(dst_surface, 89, 89)
+    self.down_arrow_sprite:draw(dst_surface, 89, 89)
   end
 
   if self.highest_floor_displayed < self.dungeon.highest_floor then
-    down_arrow_sprite:draw(dst_surface, 89, 56)
+    self.down_arrow_sprite:draw(dst_surface, 89, 56)
   end
 end
 

@@ -58,6 +58,7 @@ sprites/hud/rupee_icon.png                          Metallizer, Olivier Cléro
 sprites/hud/small_key_icon.png                      Olivier Cléro
 sprites/menus/arrow.png                             Metallizer
 sprites/menus/dungeon_map_background.png            Metallizer
+sprites/menus/dungeon_maps/map2.png                 Christopho
 sprites/menus/gplv3_logo.png                        Olivier Cléro
 sprites/menus/hero_point.png                        Christopho
 sprites/menus/options_cursor.png                    Christopho

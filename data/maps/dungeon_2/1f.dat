@@ -5926,34 +5926,6 @@ wall{
   stops_projectiles = true,
 }
 
-pickable{
-  layer = 0,
-  x = 552,
-  y = 509,
-  treasure_name = "small_key",
-}
-
-pickable{
-  layer = 0,
-  x = 568,
-  y = 509,
-  treasure_name = "small_key",
-}
-
-pickable{
-  layer = 0,
-  x = 552,
-  y = 525,
-  treasure_name = "small_key",
-}
-
-pickable{
-  layer = 0,
-  x = 568,
-  y = 525,
-  treasure_name = "small_key",
-}
-
 jumper{
   layer = 0,
   x = 864,

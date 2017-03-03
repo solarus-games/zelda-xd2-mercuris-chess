@@ -422,6 +422,13 @@ animation{
   },
 }
 animation{
+  name = "small_key_brandished",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 592, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "stone_key",
   src_image = "entities/items.png",
   directions = {

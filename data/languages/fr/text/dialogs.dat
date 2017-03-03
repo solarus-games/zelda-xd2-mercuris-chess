@@ -1331,6 +1331,19 @@ dans les environs.
 }
 
 dialog{
+  id = "_treasure.small_key_brandished.1",
+  icon = "72",
+  text = [[
+Tu as trouvé une
+Petite Clé !
+
+Tu peux ouvrir une
+porte verrouillée
+dans les environs.
+]]
+}
+
+dialog{
   id = "_treasure.sword.1",
   icon = "66",
   text = [[

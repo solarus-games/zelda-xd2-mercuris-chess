@@ -325,7 +325,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 600,
+  x = 608,
   y = 304,
   width = 16,
   height = 16,
@@ -334,7 +334,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 600,
+  x = 608,
   y = 296,
   width = 16,
   height = 8,
@@ -343,7 +343,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 600,
+  x = 608,
   y = 320,
   width = 16,
   height = 8,
@@ -352,7 +352,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 488,
+  x = 496,
   y = 304,
   width = 16,
   height = 16,
@@ -361,7 +361,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 488,
+  x = 496,
   y = 320,
   width = 16,
   height = 8,
@@ -370,7 +370,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 488,
+  x = 496,
   y = 296,
   width = 16,
   height = 8,
@@ -379,7 +379,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 504,
+  x = 512,
   y = 304,
   width = 96,
   height = 16,
@@ -388,7 +388,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 512,
+  x = 520,
   y = 296,
   width = 80,
   height = 8,
@@ -397,7 +397,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 512,
+  x = 520,
   y = 320,
   width = 80,
   height = 8,
@@ -478,7 +478,7 @@ door{
 
 wall{
   layer = -1,
-  x = 488,
+  x = 496,
   y = 304,
   width = 16,
   height = 16,
@@ -490,7 +490,7 @@ wall{
 
 wall{
   layer = -1,
-  x = 600,
+  x = 608,
   y = 304,
   width = 16,
   height = 16,
@@ -3652,7 +3652,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 592,
+  x = 600,
   y = 272,
   width = 8,
   height = 80,
@@ -3661,7 +3661,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 504,
+  x = 512,
   y = 272,
   width = 8,
   height = 80,
@@ -3670,7 +3670,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 504,
+  x = 512,
   y = 296,
   width = 8,
   height = 32,
@@ -3679,11 +3679,92 @@ tile{
 
 tile{
   layer = 0,
-  x = 592,
+  x = 600,
   y = 296,
   width = 8,
   height = 32,
   pattern = "door_top.low.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 416,
+  y = 304,
+  width = 48,
+  height = 16,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 296,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 320,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 296,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 320,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 296,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 320,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
 }
 
 wall{
@@ -4536,6 +4617,50 @@ destructible{
   damage_on_enemies = 2,
 }
 
+wall{
+  layer = 0,
+  x = 400,
+  y = 304,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 464,
+  y = 304,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+door{
+  layer = 0,
+  x = 400,
+  y = 304,
+  direction = 0,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  layer = 0,
+  x = 464,
+  y = 304,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -4867,6 +4992,42 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 264,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 264,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 296,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 296,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-5",
 }
 
 tile{

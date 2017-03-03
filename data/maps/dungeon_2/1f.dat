@@ -6042,7 +6042,7 @@ pickable{
   layer = 0,
   x = 120,
   y = 605,
-  treasure_name = "small_key",
+  treasure_name = "small_key_brandished",
 }
 
 block{

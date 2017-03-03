@@ -6671,7 +6671,7 @@ tile{
 }
 
 dynamic_tile{
-  name = "small_key_door_c_closed",
+  name = "door_c_closed",
   layer = 1,
   x = 864,
   y = 256,
@@ -6682,7 +6682,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "small_key_door_c_open",
+  name = "door_c_open",
   layer = 1,
   x = 864,
   y = 256,
@@ -6693,7 +6693,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "small_key_door_c_open_2",
+  name = "door_c_open_2",
   layer = 1,
   x = 872,
   y = 256,

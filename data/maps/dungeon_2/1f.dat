@@ -6934,6 +6934,96 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 528,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 608,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 608,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 528,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 160,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 80,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
+}
+
 wall{
   layer = 0,
   x = 112,
@@ -7230,7 +7320,7 @@ jumper{
   width = 8,
   height = 32,
   direction = 0,
-  jump_length = 16,
+  jump_length = 40,
 }
 
 jumper{
@@ -7240,7 +7330,7 @@ jumper{
   width = 8,
   height = 32,
   direction = 0,
-  jump_length = 16,
+  jump_length = 40,
 }
 
 wall{

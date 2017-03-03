@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 960,
   height = 720,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   world = "dungeon_2",
   floor = 0,
@@ -3359,6 +3359,87 @@ tile{
   pattern = "wall.corner_reverse.2-5",
 }
 
+tile{
+  layer = 0,
+  x = 616,
+  y = 592,
+  width = 48,
+  height = 16,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 584,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 608,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -3416,6 +3497,24 @@ block{
   pushable = true,
   pullable = true,
   maximum_moves = 0,
+}
+
+npc{
+  layer = 0,
+  x = 480,
+  y = 469,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/blind_hideout_man",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 552,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-5",
 }
 
 tile{
@@ -3506,6 +3605,33 @@ tile{
   width = 32,
   height = 24,
   pattern = "chimney.2",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 552,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-5",
 }
 
 tile{

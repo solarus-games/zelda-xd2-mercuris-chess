@@ -186,7 +186,6 @@ sprite{ id = "entities/la_beach/la_wreck", description = "Boat wreck" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
-sprite{ id = "entities/solid_switch", description = "Solid switch" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/stone_black", description = "Stone (black)" }

@@ -6514,15 +6514,6 @@ tile{
 tile{
   layer = 0,
   x = 256,
-  y = 408,
-  width = 16,
-  height = 24,
-  pattern = "barrel",
-}
-
-tile{
-  layer = 0,
-  x = 256,
   y = 280,
   width = 16,
   height = 24,
@@ -7022,6 +7013,15 @@ tile{
   width = 24,
   height = 32,
   pattern = "wall_decor.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 408,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
 }
 
 wall{

@@ -89,7 +89,7 @@ enemy{
   x = 24,
   y = 317,
   direction = 3,
-  breed = "alttp/fireball_simple",
+  breed = "alttp/fireball_red",
 }
 
 enemy{
@@ -225,5 +225,21 @@ enemy{
   direction = 3,
   breed = "alttp/wallmaster",
   treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 269,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 317,
+  direction = 3,
+  breed = "alttp/fireball_small_triple_red",
 }
 

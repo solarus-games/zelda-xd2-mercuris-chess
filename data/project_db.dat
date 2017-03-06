@@ -48,9 +48,10 @@ sprite{ id = "enemies/alttp/chain_and_ball", description = "Chain and ball" }
 sprite{ id = "enemies/alttp/evil_tile", description = "Evil Tile" }
 sprite{ id = "enemies/alttp/fire_bat", description = "Fire bat" }
 sprite{ id = "enemies/alttp/fire_circle", description = "Fire circle" }
-sprite{ id = "enemies/alttp/fireball_simple", description = "Fireball (simple)" }
-sprite{ id = "enemies/alttp/fireball_triple_blue", description = "Blue fireball (triple)" }
-sprite{ id = "enemies/alttp/fireball_triple_red", description = "Red fireball (triple)" }
+sprite{ id = "enemies/alttp/fireball_red", description = "Big fireball (red)" }
+sprite{ id = "enemies/alttp/fireball_small_triple_red", description = "Small triple fireball (red)" }
+sprite{ id = "enemies/alttp/fireball_triple_blue", description = "Big triple fireball (blue)" }
+sprite{ id = "enemies/alttp/fireball_triple_red", description = "Big tirple fireball (red)" }
 sprite{ id = "enemies/alttp/flame_blue", description = "Flame (blue)" }
 sprite{ id = "enemies/alttp/flame_red", description = "Flame (red)" }
 sprite{ id = "enemies/alttp/gibdo", description = "Gibdo" }
@@ -58,6 +59,7 @@ sprite{ id = "enemies/alttp/hardhat_beetle_blue", description = "Hardhat Beetle 
 sprite{ id = "enemies/alttp/hardhat_beetle_red", description = "Hardhat Beetle (red)" }
 sprite{ id = "enemies/alttp/helmasaur_red", description = "Helmasaur (red)" }
 sprite{ id = "enemies/alttp/laser", description = "Laser" }
+sprite{ id = "enemies/alttp/medusa", description = "Medusa" }
 sprite{ id = "enemies/alttp/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/alttp/pike_detect", description = "Pike (moves near hero)" }
 sprite{ id = "enemies/alttp/pike_fixed", description = "Pike (never moving)" }
@@ -527,9 +529,10 @@ enemy{ id = "alttp/chain_and_ball", description = "Chain and ball" }
 enemy{ id = "alttp/evil_tile", description = "Evil Tile" }
 enemy{ id = "alttp/fire_bat", description = "Fire bat" }
 enemy{ id = "alttp/fire_circle", description = "Fire circle" }
-enemy{ id = "alttp/fireball_simple", description = "Fireball (simple)" }
-enemy{ id = "alttp/fireball_triple_blue", description = "Blue fireball (triple)" }
-enemy{ id = "alttp/fireball_triple_red", description = "Red fireball (triple)" }
+enemy{ id = "alttp/fireball_red", description = "Big fireball (red)" }
+enemy{ id = "alttp/fireball_small_triple_red", description = "Small triple fireball (red)" }
+enemy{ id = "alttp/fireball_triple_blue", description = "Big triple fireball (blue)" }
+enemy{ id = "alttp/fireball_triple_red", description = "Big triple fireball (red)" }
 enemy{ id = "alttp/flame_blue", description = "Flame (blue)" }
 enemy{ id = "alttp/flame_red", description = "Flame (red)" }
 enemy{ id = "alttp/gibdo", description = "Gibdo" }
@@ -537,6 +540,7 @@ enemy{ id = "alttp/hardhat_beetle_blue", description = "Hardhat Beetle (blue)" }
 enemy{ id = "alttp/hardhat_beetle_red", description = "Hardhat Beetle (red)" }
 enemy{ id = "alttp/helmasaur_red", description = "Helmasaur (red)" }
 enemy{ id = "alttp/laser", description = "Laser" }
+enemy{ id = "alttp/medusa", description = "Medusa" }
 enemy{ id = "alttp/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "alttp/pike_detect", description = "Pike (moves near hero)" }
 enemy{ id = "alttp/pike_fixed", description = "Pike (never moving)" }

@@ -161,7 +161,7 @@ tile{
   y = 312,
   width = 176,
   height = 96,
-  pattern = "floor.13-2",
+  pattern = "floor_low.13-1",
 }
 
 tile{
@@ -2520,6 +2520,15 @@ tile{
   width = 8,
   height = 16,
   pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 312,
+  width = 176,
+  height = 96,
+  pattern = "2162",
 }
 
 wall{

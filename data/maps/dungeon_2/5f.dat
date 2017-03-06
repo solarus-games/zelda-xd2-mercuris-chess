@@ -13,6 +13,15 @@ properties{
 
 tile{
   layer = -1,
+  x = 392,
+  y = 312,
+  width = 176,
+  height = 96,
+  pattern = "floor.13-2",
+}
+
+tile{
+  layer = -1,
   x = 360,
   y = 416,
   width = 24,
@@ -161,24 +170,24 @@ tile{
   y = 312,
   width = 176,
   height = 96,
+  pattern = "2144",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 280,
+  width = 240,
+  height = 160,
   pattern = "floor.13-2",
 }
 
 tile{
-  layer = -1,
-  x = 392,
-  y = 312,
-  width = 176,
-  height = 96,
-  pattern = "floor_low.13-2",
-}
-
-tile{
-  layer = -1,
-  x = 392,
-  y = 312,
-  width = 176,
-  height = 96,
+  layer = 0,
+  x = 40,
+  y = 280,
+  width = 240,
+  height = 160,
   pattern = "2093",
 }
 
@@ -249,24 +258,6 @@ tile{
   layer = 0,
   x = 40,
   y = 520,
-  width = 240,
-  height = 160,
-  pattern = "2093",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 280,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-2",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 280,
   width = 240,
   height = 160,
   pattern = "2093",

@@ -161,12 +161,21 @@ tile{
   y = 312,
   width = 176,
   height = 96,
-  pattern = "floor.13-2",
+  pattern = "floor_low.13-2",
+}
+
+tile{
+  layer = -1,
+  x = 392,
+  y = 312,
+  width = 176,
+  height = 96,
+  pattern = "2135",
 }
 
 tile{
   layer = 0,
-  x = 888,
+  x = 16,
   y = 16,
   width = 56,
   height = 56,
@@ -184,6 +193,123 @@ tile{
 
 tile{
   layer = 0,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 16,
+  width = 56,
+  height = 56,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 280,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 280,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 520,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 520,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 520,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 520,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 648,
   width = 56,
@@ -194,10 +320,10 @@ tile{
 tile{
   layer = 0,
   x = 40,
-  y = 280,
+  y = 520,
   width = 240,
   height = 160,
-  pattern = "floor.13-1",
+  pattern = "floor_low.13-1",
 }
 
 tile{
@@ -206,70 +332,25 @@ tile{
   y = 520,
   width = 240,
   height = 160,
-  pattern = "floor.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 520,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 520,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 280,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 40,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 40,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 16,
-  y = 16,
-  width = 56,
-  height = 56,
-  pattern = "ceiling.1",
+  pattern = "2135",
 }
 
 tile{
   layer = 0,
   x = 40,
-  y = 40,
+  y = 280,
   width = 240,
   height = 160,
-  pattern = "floor.13-1",
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 288,
+  width = 224,
+  height = 144,
+  pattern = "2135",
 }
 
 tile{

@@ -523,6 +523,7 @@ item{ id = "small_key", description = "Small key" }
 item{ id = "small_key_brandished", description = "Small key (brandished when picked)" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "Tunic (green / blue / red)" }
+item{ id = "vip_card", description = "VIP card" }
 
 enemy{ id = "alttp/bubble", description = "Bubble" }
 enemy{ id = "alttp/chain_and_ball", description = "Chain and ball" }

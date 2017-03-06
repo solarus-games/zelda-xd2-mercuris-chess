@@ -1847,6 +1847,150 @@ tile{
   pattern = "wall_low_border.1-5",
 }
 
+tile{
+  layer = -1,
+  x = 704,
+  y = 144,
+  width = 192,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 680,
+  y = 144,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-1",
+}
+
+tile{
+  layer = -1,
+  x = 896,
+  y = 144,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-1",
+}
+
+tile{
+  layer = -1,
+  x = 896,
+  y = 72,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 704,
+  y = 72,
+  width = 192,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 680,
+  y = 96,
+  width = 24,
+  height = 48,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = -1,
+  x = 680,
+  y = 72,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 896,
+  y = 96,
+  width = 24,
+  height = 48,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = -1,
+  x = 712,
+  y = 96,
+  width = 176,
+  height = 8,
+  pattern = "wall_low_border.1-5",
+}
+
+tile{
+  layer = -1,
+  x = 712,
+  y = 136,
+  width = 176,
+  height = 8,
+  pattern = "wall_low_border.2-5",
+}
+
+tile{
+  layer = -1,
+  x = 888,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "wall_low_border.4-5",
+}
+
+tile{
+  layer = -1,
+  x = 888,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.2-5",
+}
+
+tile{
+  layer = -1,
+  x = 888,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.4-5",
+}
+
+tile{
+  layer = -1,
+  x = 704,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "wall_low_border.3-5",
+}
+
+tile{
+  layer = -1,
+  x = 704,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.1-5",
+}
+
+tile{
+  layer = -1,
+  x = 704,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_low_border.corner.3-5",
+}
+
 wall{
   layer = -1,
   x = 256,
@@ -2001,6 +2145,69 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 168,
+  width = 240,
+  height = 32,
+  pattern = "floor.13-2",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 168,
+  width = 240,
+  height = 32,
+  pattern = "2175",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 16,
+  width = 56,
+  height = 56,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 40,
+  width = 240,
+  height = 32,
+  pattern = "floor.13-2",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 40,
+  width = 232,
+  height = 32,
+  pattern = "2175",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 40,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.3-5",
 }
 
 tile{
@@ -2572,28 +2779,19 @@ tile{
 
 tile{
   layer = 0,
-  x = 888,
-  y = 16,
-  width = 56,
-  height = 56,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 0,
-  x = 688,
-  y = 48,
-  width = 224,
-  height = 144,
+  x = 712,
+  y = 104,
+  width = 176,
+  height = 32,
   pattern = "floor_low.13-2",
 }
 
 tile{
   layer = 0,
-  x = 688,
-  y = 48,
-  width = 224,
-  height = 144,
+  x = 712,
+  y = 104,
+  width = 176,
+  height = 32,
   pattern = "2175",
 }
 
@@ -2906,18 +3104,18 @@ tile{
 tile{
   layer = 0,
   x = 912,
-  y = 72,
+  y = 168,
   width = 8,
-  height = 128,
+  height = 32,
   pattern = "wall_border.4-5",
 }
 
 tile{
   layer = 0,
   x = 680,
-  y = 40,
+  y = 168,
   width = 8,
-  height = 160,
+  height = 32,
   pattern = "wall_border.3-5",
 }
 
@@ -5324,6 +5522,123 @@ tile{
   pattern = "989",
 }
 
+tile{
+  layer = 0,
+  x = 704,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 184,
+  width = 48,
+  height = 16,
+  pattern = "floor_pot",
+}
+
 destination{
   name = "from_1f_e",
   layer = 0,
@@ -5852,6 +6167,106 @@ enemy{
   y = 125,
   direction = 3,
   breed = "alttp/medusa",
+}
+
+chest{
+  layer = 0,
+  x = 696,
+  y = 181,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_2_1f_compass_chest",
+  sprite = "entities/chest",
+}
+
+chest{
+  name = "ne_chest",
+  layer = 0,
+  x = 832,
+  y = 53,
+  treasure_name = "vip_card",
+  treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
+  sprite = "entities/chest",
+}
+
+jumper{
+  layer = 0,
+  x = 712,
+  y = 160,
+  width = 176,
+  height = 8,
+  direction = 2,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 712,
+  y = 72,
+  width = 176,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+enemy{
+  layer = 0,
+  x = 800,
+  y = 125,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
+destructible{
+  layer = 0,
+  x = 896,
+  y = 197,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 864,
+  y = 197,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 880,
+  y = 197,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+switch{
+  name = "ne_chest_switch",
+  layer = 0,
+  x = 904,
+  y = 184,
+  subtype = "walkable",
+  sprite = "entities/switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+destructible{
+  layer = 0,
+  x = 912,
+  y = 197,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{

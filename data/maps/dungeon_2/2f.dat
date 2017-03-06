@@ -5645,6 +5645,42 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 0,
+  x = 680,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 104,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-2",
+}
+
 destination{
   name = "from_1f_e",
   layer = 0,
@@ -6203,7 +6239,7 @@ chest{
 chest{
   name = "ne_chest",
   layer = 0,
-  x = 832,
+  x = 816,
   y = 53,
   treasure_name = "vip_card",
   treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
@@ -6298,7 +6334,7 @@ destructible{
 
 crystal_block{
   layer = 0,
-  x = 808,
+  x = 792,
   y = 56,
   width = 48,
   height = 16,
@@ -6307,9 +6343,9 @@ crystal_block{
 
 tile{
   layer = 1,
-  x = 696,
+  x = 712,
   y = 16,
-  width = 96,
+  width = 64,
   height = 8,
   pattern = "door_cache.1-5",
 }

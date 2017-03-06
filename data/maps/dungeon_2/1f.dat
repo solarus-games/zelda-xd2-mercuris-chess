@@ -7852,7 +7852,7 @@ npc{
 npc{
   layer = 0,
   x = 208,
-  y = 533,
+  y = 517,
   direction = 3,
   subtype = 0,
   sprite = "entities/hint_stone",

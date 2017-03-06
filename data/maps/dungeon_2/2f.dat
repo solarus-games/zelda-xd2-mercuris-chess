@@ -2052,7 +2052,7 @@ tile{
   layer = 0,
   x = 360,
   y = 40,
-  width = 128,
+  width = 112,
   height = 32,
   pattern = "floor.13-2",
 }
@@ -2061,7 +2061,7 @@ tile{
   layer = 0,
   x = 360,
   y = 40,
-  width = 128,
+  width = 112,
   height = 32,
   pattern = "2175",
 }
@@ -4827,15 +4827,6 @@ tile{
   width = 24,
   height = 32,
   pattern = "window.3-2",
-}
-
-tile{
-  layer = 0,
-  x = 920,
-  y = 480,
-  width = 24,
-  height = 32,
-  pattern = "window.4-2",
 }
 
 tile{

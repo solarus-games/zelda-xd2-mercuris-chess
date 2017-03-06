@@ -2165,6 +2165,12 @@ wall{
   stops_projectiles = true,
 }
 
+crystal{
+  layer = -1,
+  x = 800,
+  y = 125,
+}
+
 tile{
   layer = 0,
   x = 680,
@@ -6227,7 +6233,7 @@ jumper{
 enemy{
   name = "auto_enemy_3",
   layer = 0,
-  x = 800,
+  x = 760,
   y = 125,
   direction = 3,
   breed = "alttp/wallmaster",
@@ -6288,6 +6294,15 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+crystal_block{
+  layer = 0,
+  x = 808,
+  y = 56,
+  width = 48,
+  height = 16,
+  subtype = 0,
 }
 
 tile{
@@ -6828,6 +6843,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 0,
   y = 232,
@@ -6836,6 +6852,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_2",
   layer = 2,
   x = 0,
   y = 472,
@@ -6844,6 +6861,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_3",
   layer = 2,
   x = 312,
   y = 0,
@@ -6852,6 +6870,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_4",
   layer = 2,
   x = 632,
   y = 0,

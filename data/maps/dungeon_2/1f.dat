@@ -1384,6 +1384,7 @@ npc{
 }
 
 enemy{
+  name = "auto_enemy_1",
   layer = -1,
   x = 728,
   y = 365,
@@ -1393,6 +1394,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_2",
   layer = -1,
   x = 832,
   y = 365,

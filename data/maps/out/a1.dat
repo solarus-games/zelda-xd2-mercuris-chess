@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "outside",
-  music = "alttp/overworld",
+  music = "bulby/great_sea",
 }
 
 tile{
@@ -37,12 +37,39 @@ tile{
   pattern = "193",
 }
 
-destination{
-  name = "destination",
+tile{
   layer = 0,
-  x = 992,
-  y = 877,
-  direction = 1,
+  x = 408,
+  y = 904,
+  width = 16,
+  height = 16,
+  pattern = "7929",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 896,
+  width = 8,
+  height = 24,
+  pattern = "7926",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 896,
+  width = 8,
+  height = 24,
+  pattern = "7927",
+}
+
+destination{
+  name = "from_dungeon_2",
+  layer = 0,
+  x = 416,
+  y = 933,
+  direction = 3,
 }
 
 teletransporter{
@@ -66,5 +93,24 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/a2",
   destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 408,
+  y = 904,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/entrance",
+  destination = "from_outside",
+}
+
+tile{
+  layer = 1,
+  x = 408,
+  y = 896,
+  width = 16,
+  height = 8,
+  pattern = "7928",
 }
 

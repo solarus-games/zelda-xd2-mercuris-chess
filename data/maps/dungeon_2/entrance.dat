@@ -53,10 +53,10 @@ custom_entity{
 }
 
 destination{
-  name = "destination",
+  name = "from_outside",
   layer = 0,
   x = 160,
-  y = 237,
+  y = 229,
   direction = 1,
 }
 
@@ -115,5 +115,15 @@ destination{
   x = 160,
   y = 205,
   direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "out/a1",
+  destination = "from_dungeon_2",
 }
 

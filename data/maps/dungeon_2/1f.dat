@@ -7974,6 +7974,7 @@ npc{
 }
 
 destructible{
+  name = "auto_destructible_1",
   layer = 0,
   x = 232,
   y = 637,
@@ -7984,6 +7985,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_2",
   layer = 0,
   x = 248,
   y = 637,
@@ -7994,6 +7996,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_4",
   layer = 0,
   x = 248,
   y = 653,
@@ -8004,6 +8007,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_3",
   layer = 0,
   x = 232,
   y = 653,
@@ -8695,6 +8699,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_4",
   layer = 2,
   x = 632,
   y = 0,
@@ -8703,6 +8708,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_2",
   layer = 2,
   x = 640,
   y = 472,
@@ -8711,6 +8717,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 0,
   y = 232,
@@ -8719,6 +8726,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_3",
   layer = 2,
   x = 312,
   y = 240,
@@ -8727,6 +8735,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_5",
   layer = 2,
   x = 0,
   y = 472,

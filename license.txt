@@ -130,8 +130,12 @@ sprites/entities/bomb.png
 sprites/entities/boomerang.png
 sprites/entities/bush.png
 sprites/entities/chest.png
-sprites/entities/dark*.png
+sprites/entities/dark0.png
+sprites/entities/dark1.png
+sprites/entities/dark2.png
+sprites/entities/dark3.png
 sprites/entities/explosion.png
+sprites/entities/hint_stone.png
 sprites/entities/hookshot.png
 sprites/entities/items.png
 sprites/entities/miscellaneous.png

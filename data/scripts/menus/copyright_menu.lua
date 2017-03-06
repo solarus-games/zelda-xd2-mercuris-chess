@@ -7,16 +7,13 @@
 -----------------------------------------------------------------
 local language_manager = require("scripts/language_manager")
 
-local copyright_menu= {}
+local copyright_menu = {}
 
 local can_skip_menu = false
 
 -- GPLv3 logo
-local gpl_logo = sol.surface.create("menus/gplv3_logo.png")
-local gpl_logo_width, gpl_logo_height = gpl_logo:get_size()
-
--- Fonts info.
-local menu_font, menu_font_size = language_manager:get_menu_font()
+local gpl_logo
+local gpl_logo_width, gpl_logo_height
 
 local top_margin = 52
 local item_margin = 8
@@ -25,76 +22,94 @@ local can_skip_menu = false
 local fade_delay = 20
 local is_skipping = false
 
-local solarus_license_line1 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.solarus_license.line1",
-}
-local solarus_license_line2 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.solarus_license.line2",
-}
-local tloz_trademark_line1 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.tloz_trademark.line1",
-}
-local tloz_trademark_line2 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.tloz_trademark.line2",
-}
-local made_by_fans_line1 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.made_by_fans.line1",
-}
-local made_by_fans_line2 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.made_by_fans.line2",
-}
-local made_by_fans_line3 = sol.text_surface.create{
-  horizontal_alignment = "center",
-  vertical_alignment = "middle",
-  color = {255, 255, 255},
-  font = menu_font,
-  font_size = menu_font_size,
-  text_key = "copyright_menu.made_by_fans.line3",
-}
-
-local menu_items = {
-  solarus_license_line1,
-  solarus_license_line2,
-  gpl_logo,
-  tloz_trademark_line1,
-  tloz_trademark_line2,
-  made_by_fans_line1,
-  made_by_fans_line2,
-  made_by_fans_line3,
-}
+local menu_font, menu_font_size
+local solarus_license_line1
+local solarus_license_line2
+local tloz_trademark_line1
+local tloz_trademark_line2
+local made_by_fans_line1
+local made_by_fans_line2
+local made_by_fans_line3
+local menu_items
 
 -- Initialize the menu.
 function copyright_menu:on_started()
+
+  -- GPLv3 logo
+  gpl_logo = sol.surface.create("menus/gplv3_logo.png")
+  gpl_logo_width, gpl_logo_height = gpl_logo:get_size()
+
+  -- Fonts info.
+  menu_font, menu_font_size = language_manager:get_menu_font()
+
+  solarus_license_line1 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.solarus_license.line1",
+  }
+  solarus_license_line2 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.solarus_license.line2",
+  }
+  tloz_trademark_line1 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.tloz_trademark.line1",
+  }
+  tloz_trademark_line2 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.tloz_trademark.line2",
+  }
+  made_by_fans_line1 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.made_by_fans.line1",
+  }
+  made_by_fans_line2 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.made_by_fans.line2",
+  }
+  made_by_fans_line3 = sol.text_surface.create{
+    horizontal_alignment = "center",
+    vertical_alignment = "middle",
+    color = {255, 255, 255},
+    font = menu_font,
+    font_size = menu_font_size,
+    text_key = "copyright_menu.made_by_fans.line3",
+  }
+
+  menu_items = {
+    solarus_license_line1,
+    solarus_license_line2,
+    gpl_logo,
+    tloz_trademark_line1,
+    tloz_trademark_line2,
+    made_by_fans_line1,
+    made_by_fans_line2,
+    made_by_fans_line3,
+  }
+
   can_skip_menu = false
 
   -- Fade-in everything

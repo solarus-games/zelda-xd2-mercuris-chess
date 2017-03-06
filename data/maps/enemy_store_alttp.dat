@@ -24,6 +24,7 @@ enemy{
   y = 29,
   direction = 3,
   breed = "alttp/hardhat_beetle_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -32,6 +33,7 @@ enemy{
   y = 29,
   direction = 3,
   breed = "alttp/hardhat_beetle_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -128,6 +130,7 @@ enemy{
   y = 77,
   direction = 3,
   breed = "alttp/gibdo",
+  treasure_name = "random",
 }
 
 enemy{
@@ -136,6 +139,7 @@ enemy{
   y = 77,
   direction = 3,
   breed = "alttp/helmasaur_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -144,6 +148,7 @@ enemy{
   y = 77,
   direction = 3,
   breed = "alttp/ropa",
+  treasure_name = "random",
 }
 
 enemy{
@@ -184,6 +189,7 @@ enemy{
   y = 125,
   direction = 3,
   breed = "alttp/simple_soldier_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -192,6 +198,7 @@ enemy{
   y = 125,
   direction = 3,
   breed = "alttp/snap_dragon",
+  treasure_name = "random",
 }
 
 enemy{
@@ -200,6 +207,7 @@ enemy{
   y = 125,
   direction = 3,
   breed = "alttp/tentacle",
+  treasure_name = "random",
 }
 
 destination{
@@ -216,5 +224,6 @@ enemy{
   y = 221,
   direction = 3,
   breed = "alttp/wallmaster",
+  treasure_name = "random",
 }
 

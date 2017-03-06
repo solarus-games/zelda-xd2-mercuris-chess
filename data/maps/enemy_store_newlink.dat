@@ -24,6 +24,7 @@ enemy{
   y = 29,
   direction = 3,
   breed = "newlink/bee_guard",
+  treasure_name = "random",
 }
 
 enemy{
@@ -32,6 +33,7 @@ enemy{
   y = 77,
   direction = 3,
   breed = "newlink/bullblin_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -40,6 +42,7 @@ enemy{
   y = 125,
   direction = 3,
   breed = "newlink/dogman_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -48,6 +51,7 @@ enemy{
   y = 173,
   direction = 3,
   breed = "newlink/duck_soldier_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -56,6 +60,7 @@ enemy{
   y = 173,
   direction = 3,
   breed = "newlink/duck_soldier_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -64,6 +69,7 @@ enemy{
   y = 173,
   direction = 3,
   breed = "newlink/duck_soldier_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -72,6 +78,7 @@ enemy{
   y = 125,
   direction = 3,
   breed = "newlink/dogman_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -80,22 +87,25 @@ enemy{
   y = 77,
   direction = 3,
   breed = "newlink/bullblin_red",
+  treasure_name = "random",
 }
 
 enemy{
   layer = 0,
   x = 24,
-  y = 405,
+  y = 413,
   direction = 3,
   breed = "newlink/cobruss",
+  treasure_name = "random",
 }
 
 enemy{
   layer = 0,
   x = 72,
-  y = 405,
+  y = 413,
   direction = 3,
   breed = "newlink/vipeross",
+  treasure_name = "random",
 }
 
 enemy{
@@ -104,6 +114,7 @@ enemy{
   y = 29,
   direction = 3,
   breed = "newlink/globul",
+  treasure_name = "random",
 }
 
 enemy{
@@ -112,6 +123,7 @@ enemy{
   y = 221,
   direction = 3,
   breed = "newlink/knight_soldier_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -120,6 +132,7 @@ enemy{
   y = 221,
   direction = 3,
   breed = "newlink/knight_soldier_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -128,6 +141,7 @@ enemy{
   y = 221,
   direction = 3,
   breed = "newlink/knight_soldier_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -136,6 +150,7 @@ enemy{
   y = 317,
   direction = 3,
   breed = "newlink/lizalfos",
+  treasure_name = "random",
 }
 
 enemy{
@@ -144,6 +159,7 @@ enemy{
   y = 29,
   direction = 3,
   breed = "newlink/mandible",
+  treasure_name = "random",
 }
 
 enemy{
@@ -152,6 +168,7 @@ enemy{
   y = 365,
   direction = 3,
   breed = "newlink/mini_mowatulla",
+  treasure_name = "random",
 }
 
 enemy{
@@ -160,6 +177,7 @@ enemy{
   y = 365,
   direction = 3,
   breed = "newlink/minillosaur_egg_thrown",
+  treasure_name = "random",
 }
 
 enemy{
@@ -168,6 +186,7 @@ enemy{
   y = 269,
   direction = 3,
   breed = "newlink/pig_soldier_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -176,6 +195,7 @@ enemy{
   y = 269,
   direction = 3,
   breed = "newlink/pig_soldier_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -184,6 +204,7 @@ enemy{
   y = 29,
   direction = 3,
   breed = "newlink/skeletor",
+  treasure_name = "random",
 }
 
 enemy{
@@ -192,6 +213,7 @@ enemy{
   y = 509,
   direction = 3,
   breed = "newlink/tanekian_guard_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -200,6 +222,7 @@ enemy{
   y = 461,
   direction = 3,
   breed = "newlink/tanekian_soldier_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -208,6 +231,7 @@ enemy{
   y = 461,
   direction = 3,
   breed = "newlink/tanekian_soldier_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -216,6 +240,7 @@ enemy{
   y = 461,
   direction = 3,
   breed = "newlink/tanekian_soldier_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -224,6 +249,7 @@ enemy{
   y = 509,
   direction = 3,
   breed = "newlink/tanekian_commander_yellow",
+  treasure_name = "random",
 }
 
 enemy{
@@ -232,6 +258,7 @@ enemy{
   y = 557,
   direction = 3,
   breed = "newlink/topik_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -240,6 +267,7 @@ enemy{
   y = 557,
   direction = 3,
   breed = "newlink/topik_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -248,6 +276,7 @@ enemy{
   y = 557,
   direction = 3,
   breed = "newlink/topik_red",
+  treasure_name = "random",
 }
 
 enemy{
@@ -256,6 +285,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "newlink/zoura_green",
+  treasure_name = "random",
 }
 
 enemy{
@@ -264,6 +294,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "newlink/zoura_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -272,6 +303,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "newlink/zoura_red",
+  treasure_name = "random",
 }
 
 destination{
@@ -288,5 +320,6 @@ enemy{
   y = 365,
   direction = 3,
   breed = "newlink/minillosaur_egg_fixed",
+  treasure_name = "random",
 }
 

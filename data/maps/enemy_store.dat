@@ -23,6 +23,7 @@ enemy{
   y = 77,
   direction = 3,
   breed = "creeper",
+  treasure_name = "random",
 }
 
 enemy{

@@ -8,7 +8,7 @@ properties{
   world = "dungeon_2",
   floor = 1,
   tileset = "dungeon/gray_pink",
-  music = "shield/mm_stone_tower",
+  music = "larryinc64/queen_another_one",
 }
 
 tile{
@@ -5072,6 +5072,177 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 96,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.3-4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "wall_border.4-4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-4",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 104,
+  width = 32,
+  height = 32,
+  pattern = "886",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "floor_pot",
+}
+
 destination{
   name = "from_1f_e",
   layer = 0,
@@ -5548,6 +5719,46 @@ destructible{
   layer = 0,
   x = 264,
   y = 61,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 376,
+  y = 325,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 360,
+  y = 325,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 280,
+  y = 325,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 325,
   treasure_name = "random",
   sprite = "entities/vase",
   destruction_sound = "stone",

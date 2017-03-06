@@ -8,7 +8,7 @@ properties{
   world = "dungeon_2",
   floor = 0,
   tileset = "dungeon/gray_pink",
-  music = "shield/mm_stone_tower",
+  music = "larryinc64/queen_another_one",
 }
 
 tile{
@@ -7814,11 +7814,11 @@ wall{
 
 npc{
   layer = 0,
-  x = 456,
-  y = 293,
+  x = 448,
+  y = 277,
   direction = 3,
   subtype = 0,
-  sprite = "entities/sign",
+  sprite = "entities/hint_stone",
   behavior = "dialog#dungeon_2.restaurant_sign",
 }
 
@@ -7837,7 +7837,7 @@ npc{
   y = 533,
   direction = 3,
   subtype = 0,
-  sprite = "entities/sign",
+  sprite = "entities/hint_stone",
   behavior = "dialog#dungeon_2.elevator_a_sign",
 }
 

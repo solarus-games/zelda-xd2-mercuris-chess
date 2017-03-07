@@ -465,8 +465,12 @@ sound{ id = "sword3", description = "sword3" }
 sound{ id = "sword4", description = "sword4" }
 sound{ id = "sword_spin_attack_load", description = "sword_spin_attack_load" }
 sound{ id = "sword_spin_attack_load_2", description = "sword_spin_attack_load_2" }
+sound{ id = "sword_spin_attack_load_3", description = "sword_spin_attack_load_3" }
+sound{ id = "sword_spin_attack_load_4", description = "sword_spin_attack_load_4" }
 sound{ id = "sword_spin_attack_release", description = "sword_spin_attack_release" }
 sound{ id = "sword_spin_attack_release_2", description = "sword_spin_attack_release_2" }
+sound{ id = "sword_spin_attack_release_3", description = "sword_spin_attack_release_3" }
+sound{ id = "sword_spin_attack_release_4", description = "sword_spin_attack_release_4" }
 sound{ id = "sword_tapping", description = "sword_tapping" }
 sound{ id = "sword_tapping_weak_wall", description = "sword_tapping_weak_wall" }
 sound{ id = "throw", description = "throw" }

@@ -2615,6 +2615,72 @@ npc{
   behavior = "dialog#dungeon_2.hint_4_knights",
 }
 
+custom_entity{
+  layer = -1,
+  x = 488,
+  y = 397,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = -1,
+  x = 824,
+  y = 397,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = -1,
+  x = 824,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = -1,
+  x = 488,
+  y = 573,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = -1,
+  x = 488,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = -1,
+  x = 824,
+  y = 637,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
 tile{
   layer = 0,
   x = 768,

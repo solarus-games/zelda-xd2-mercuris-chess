@@ -143,6 +143,7 @@ sprites/entities/miscellaneous.png
 sprites/entities/shadow.png
 sprites/entities/slot_machine_items.png
 sprites/entities/teletransporter.png
+sprites/entities/torch.png
 sprites/entities/case.png
 sprites/hero/*.png
 sprites/hud/dialog_icons.png

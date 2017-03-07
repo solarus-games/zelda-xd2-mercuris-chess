@@ -2919,7 +2919,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/blue_haired_boy",
-  behavior = "dialog#green_hat_man.2f.blue_haired_boy",
+  behavior = "dialog#dungeon_2.2f.blue_haired_boy",
 }
 
 npc{
@@ -3235,28 +3235,6 @@ chest{
   layer = -1,
   x = 136,
   y = 341,
-  treasure_name = "vip_card",
-  treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
-  sprite = "entities/chest",
-}
-
-chest{
-  name = "ne_chest_3",
-  layer = -1,
-  x = 160,
-  y = 341,
-  treasure_name = "vip_card",
-  treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
-  sprite = "entities/chest",
-}
-
-chest{
-  name = "ne_chest_4",
-  layer = -1,
-  x = 184,
-  y = 341,
-  treasure_name = "vip_card",
-  treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
   sprite = "entities/chest",
 }
 
@@ -3452,6 +3430,52 @@ pickable{
   y = 341,
   treasure_name = "magic_flask",
   treasure_variant = 2,
+}
+
+npc{
+  layer = -1,
+  x = 192,
+  y = 541,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/hint_stone",
+  behavior = "dialog#dungeon_2.2f.chest_game_sign",
+}
+
+npc{
+  layer = -1,
+  x = 264,
+  y = 637,
+  direction = 2,
+  subtype = 0,
+  sprite = "entities/hint_stone",
+  behavior = "dialog#dungeon_2.2f.slot_machines_sign",
+}
+
+npc{
+  layer = -1,
+  x = 456,
+  y = 301,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/hint_stone",
+  behavior = "dialog#dungeon_2.2f.cards_game_sign",
+}
+
+chest{
+  name = "ne_chest_3",
+  layer = -1,
+  x = 160,
+  y = 341,
+  sprite = "entities/chest",
+}
+
+chest{
+  name = "ne_chest_4",
+  layer = -1,
+  x = 184,
+  y = 341,
+  sprite = "entities/chest",
 }
 
 tile{
@@ -7672,36 +7696,6 @@ jumper{
   height = 232,
   direction = 0,
   jump_length = 40,
-}
-
-npc{
-  layer = 0,
-  x = 192,
-  y = 541,
-  direction = 3,
-  subtype = 0,
-  sprite = "entities/hint_stone",
-  behavior = "dialog#dungeon_2.2f.chest_game_sign",
-}
-
-npc{
-  layer = 0,
-  x = 264,
-  y = 637,
-  direction = 2,
-  subtype = 0,
-  sprite = "entities/hint_stone",
-  behavior = "dialog#dungeon_2.2f.slot_machines_sign",
-}
-
-npc{
-  layer = 0,
-  x = 456,
-  y = 301,
-  direction = 3,
-  subtype = 0,
-  sprite = "entities/hint_stone",
-  behavior = "dialog#dungeon_2.2f.cards_game_sign",
 }
 
 tile{

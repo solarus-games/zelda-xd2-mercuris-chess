@@ -1635,6 +1635,7 @@ sont originales !
 
 dialog{
   id = "dungeon_2.2f.blue_haired_boy",
+  skip = "all",
   text = [[
 À quoi servent toutes
 ces pièces d'échecs ?
@@ -1646,6 +1647,7 @@ je ne suis qu'un gosse !
 
 dialog{
   id = "dungeon_2.2f.cards_game_sign",
+  skip = "all",
   text = [[
 Jeu des symboles
 Tarif : 30 rubis
@@ -1658,6 +1660,7 @@ une récompense !
 
 dialog{
   id = "dungeon_2.2f.chest_game_sign",
+  skip = "all",
   text = [[
 Jeu des coffres
 Tarif : 20 rubis
@@ -1670,6 +1673,7 @@ chanceux !
 
 dialog{
   id = "dungeon_2.2f.green_hat_man",
+  skip = "all",
   text = [[
 Attention à ne pas
 dilapider toutes ses
@@ -1712,6 +1716,7 @@ plus de mon âge...
 
 dialog{
   id = "dungeon_2.2f.slot_machines_sign",
+  skip = "all",
   text = [[
 Machines à sous
 Tarif : Mises de

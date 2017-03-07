@@ -2342,6 +2342,42 @@ tile{
   pattern = "alter_floor_corner.1",
 }
 
+tile{
+  layer = -1,
+  x = 448,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "alter_symbol.1",
+}
+
+tile{
+  layer = -1,
+  x = 448,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "alter_symbol.1",
+}
+
+tile{
+  layer = -1,
+  x = 848,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "alter_symbol.1",
+}
+
+tile{
+  layer = -1,
+  x = 848,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "alter_symbol.1",
+}
+
 wall{
   layer = -1,
   x = 256,
@@ -4411,24 +4447,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
-  y = 584,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 392,
-  y = 584,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.3-2",
-}
-
-tile{
-  layer = 0,
   x = 384,
   y = 648,
   width = 8,
@@ -6292,38 +6310,20 @@ tile{
 
 tile{
   layer = 0,
-  x = 448,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "alter_symbol.1",
+  x = 392,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-5",
 }
 
 tile{
   layer = 0,
-  x = 448,
-  y = 352,
-  width = 16,
-  height = 16,
-  pattern = "alter_symbol.1",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 352,
-  width = 16,
-  height = 16,
-  pattern = "alter_symbol.1",
-}
-
-tile{
-  layer = 0,
-  x = 848,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "alter_symbol.1",
+  x = 272,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-5",
 }
 
 destination{
@@ -6430,16 +6430,6 @@ door{
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
-}
-
-jumper{
-  layer = 0,
-  x = 392,
-  y = 408,
-  width = 8,
-  height = 240,
-  direction = 0,
-  jump_length = 40,
 }
 
 jumper{
@@ -6984,6 +6974,16 @@ crystal_block{
   width = 48,
   height = 16,
   subtype = 0,
+}
+
+jumper{
+  layer = 0,
+  x = 392,
+  y = 416,
+  width = 8,
+  height = 232,
+  direction = 0,
+  jump_length = 40,
 }
 
 tile{

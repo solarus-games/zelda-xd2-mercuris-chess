@@ -36,6 +36,7 @@ local function initialize_dungeon_features(game)
         "dungeon_2/6f",
         "dungeon_2/7f",
         "dungeon_2/8f",
+        "dungeon_2/9f",
       },
     },
   }

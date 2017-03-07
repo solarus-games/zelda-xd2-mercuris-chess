@@ -8,6 +8,12 @@ door_manager:manage_map(map)
 
 function map:on_started()
 
+  -- Walking NPCs.
+  local movement = sol.movement.create("random_path")
+  movement:start(blue_haired_boy)
+  movement = sol.movement.create("random_path")
+  movement:start(green_hat_man)
+
   -- VIP card chest.
   if game:get_value("dungeon_2_2f_vip_card_chest_appeared") then
     ne_chest_switch:set_activated(true)

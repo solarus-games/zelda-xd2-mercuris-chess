@@ -25,9 +25,9 @@ end
 function kitchen_guard:on_interaction()
 
   if not game:get_value("dungeon_2_kitchen_guard_access") then
-    game:start_dialog("dungeon_2.kitchen_guard_dont_pass")
+    game:start_dialog("dungeon_2.1f.kitchen_guard_dont_pass")
   else
-    game:start_dialog("dungeon_2.kitchen_guard_go_wash")
+    game:start_dialog("dungeon_2.1f.kitchen_guard_go_wash")
   end
 end
 
@@ -40,13 +40,13 @@ end
 -- Bartender.
 function bartender:on_interaction()
 
-  game:start_dialog("dungeon_2.bartender", function(answer)
+  game:start_dialog("dungeon_2.1f.bartender", function(answer)
     if answer == 1 then
       if game:get_money() < 100 then
         game:start_dialog("_shop.not_enough_money")
       else
         game:remove_money(100)
-        game:start_dialog("dungeon_2.bartender_bought_red_potion_kir")
+        game:start_dialog("dungeon_2.1f.bartender_bought_red_potion_kir")
         game:add_life(4)
         local red_potion_kir_count = 0
         sol.timer.start(game, 3000, function()

@@ -23,7 +23,7 @@ function small_keys_builder:new(game, config)
 
     -- Check the number of small keys.
     if game.are_small_keys_enabled == nil then
-      return
+      return true
     end
 
     if game:are_small_keys_enabled() then
@@ -45,11 +45,6 @@ function small_keys_builder:new(game, config)
     if need_rebuild then
       small_keys:rebuild_surface()
     end
-
-    -- Schedule the next check.
-    sol.timer.start(game, 40, function()
-      small_keys:check()
-    end)
   end
 
   function small_keys:rebuild_surface()
@@ -79,7 +74,11 @@ function small_keys_builder:new(game, config)
     end
   end
 
-  small_keys:check()
+  sol.timer.start(game, 40, function()
+    small_keys:check()
+    return true
+  end)
+
   small_keys:rebuild_surface()
 
   return small_keys

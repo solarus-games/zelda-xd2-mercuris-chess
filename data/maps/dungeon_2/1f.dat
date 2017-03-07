@@ -1380,7 +1380,7 @@ npc{
   direction = 1,
   subtype = 1,
   sprite = "npc/newlink/bun_woman",
-  behavior = "dialog#dungeon_2.bun_woman",
+  behavior = "dialog#dungeon_2.1f.bun_woman",
 }
 
 enemy{
@@ -7151,7 +7151,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/blind_hideout_man",
-  behavior = "dialog#dungeon_2.receptionnist",
+  behavior = "dialog#dungeon_2.1f.receptionnist",
 }
 
 door{
@@ -7242,18 +7242,6 @@ wall{
   layer = 0,
   x = 88,
   y = 200,
-  width = 16,
-  height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 232,
-  y = 504,
   width = 16,
   height = 16,
   stops_npcs = true,
@@ -7848,7 +7836,7 @@ npc{
   y = 501,
   direction = 3,
   subtype = 0,
-  behavior = "dialog#dungeon_2.receptionnist",
+  behavior = "dialog#dungeon_2.1f.receptionnist",
 }
 
 npc{
@@ -7858,7 +7846,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/hint_stone",
-  behavior = "dialog#dungeon_2.elevator_a_sign",
+  behavior = "dialog#dungeon_2.1f.elevator_a_sign",
 }
 
 wall{
@@ -7904,7 +7892,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/drunk_man",
-  behavior = "dialog#dungeon_2.drunk_man",
+  behavior = "dialog#dungeon_2.1f.drunk_man",
 }
 
 npc{
@@ -7914,7 +7902,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/mini_game_man_yellow",
-  behavior = "dialog#dungeon_2.pause_man",
+  behavior = "dialog#dungeon_2.1f.pause_man",
 }
 
 npc{
@@ -7923,7 +7911,7 @@ npc{
   y = 117,
   direction = -1,
   subtype = 0,
-  behavior = "dialog#dungeon_2.drunk_man",
+  behavior = "dialog#dungeon_2.1f.drunk_man",
 }
 
 npc{
@@ -7972,7 +7960,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/running_man",
-  behavior = "dialog#dungeon_2.running_man",
+  behavior = "dialog#dungeon_2.1f.running_man",
 }
 
 destructible{
@@ -8026,6 +8014,32 @@ chest{
   treasure_name = "map",
   treasure_savegame_variable = "dungeon_2_1f_map_chest",
   sprite = "entities/chest",
+}
+
+destination{
+  name = "from_elevator_a",
+  layer = 0,
+  x = 240,
+  y = 517,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 232,
+  y = 504,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/2f",
+  destination = "from_elevator_a",
+}
+
+stairs{
+  layer = 0,
+  x = 232,
+  y = 504,
+  direction = 1,
+  subtype = 0,
 }
 
 tile{

@@ -1471,7 +1471,7 @@ pour tes petits bras !
 }
 
 dialog{
-  id = "dungeon_2.bartender",
+  id = "dungeon_2.1f.bartender",
   question = "1",
   skip = "all",
   text = [[
@@ -1485,7 +1485,7 @@ Non
 }
 
 dialog{
-  id = "dungeon_2.bartender_bought_red_potion_kir",
+  id = "dungeon_2.1f.bartender_bought_red_potion_kir",
   text = [[
 Goûte-moi ça !
 Ce cocktail va te rendre
@@ -1496,7 +1496,7 @@ petit moment !
 }
 
 dialog{
-  id = "dungeon_2.bun_woman",
+  id = "dungeon_2.1f.bun_woman",
   skip = "all",
   text = [[
 Vous êtes le petit
@@ -1518,7 +1518,7 @@ Installez-vous !
 }
 
 dialog{
-  id = "dungeon_2.drunk_man",
+  id = "dungeon_2.1f.drunk_man",
   skip = "all",
   text = [[
 Alors comme ça le...
@@ -1543,7 +1543,7 @@ voulais dire ! Hip !
 }
 
 dialog{
-  id = "dungeon_2.elevator_a_sign",
+  id = "dungeon_2.1f.elevator_a_sign",
   skip = "all",
   text = [[
 Ascenseur vers les
@@ -1558,34 +1558,7 @@ au personnel autorisé
 }
 
 dialog{
-  id = "dungeon_2.hint_4_knights",
-  skip = "all",
-  text = [[
-Quoi ? Oui, non, je suis
-en train de travailler,
-enfin là je me détends
-un peu en attendant.
-
-
-En fait, pour tout te
-dire, je devrais
-retourner à mon poste
-en cuisine mais il y a
-un code d'accès et je
-n'y comprends rien.
-Une histoire de 4
-cavaliers qui doivent
-être défendus 2 fois.
-Tu y comprends quelque
-chose toi ?
-
-Ces casse-têtes ne sont
-plus de mon âge...
-]]
-}
-
-dialog{
-  id = "dungeon_2.kitchen_guard_dont_pass",
+  id = "dungeon_2.1f.kitchen_guard_dont_pass",
   skip = "all",
   text = [[
 Monsieur, l'accès aux
@@ -1596,7 +1569,7 @@ l'établissement.
 }
 
 dialog{
-  id = "dungeon_2.kitchen_guard_go_wash",
+  id = "dungeon_2.1f.kitchen_guard_go_wash",
   skip = "all",
   text = [[
 Tu es le petit nouveau ?
@@ -1606,7 +1579,7 @@ va à la plonge.
 }
 
 dialog{
-  id = "dungeon_2.pause_man",
+  id = "dungeon_2.1f.pause_man",
   skip = "all",
   text = [[
 Je suis actuellement en
@@ -1616,7 +1589,7 @@ besoin.
 }
 
 dialog{
-  id = "dungeon_2.receptionnist",
+  id = "dungeon_2.1f.receptionnist",
   skip = "all",
   text = [[
 Vous êtes ici dans la
@@ -1635,7 +1608,7 @@ luxe sont au premier
 }
 
 dialog{
-  id = "dungeon_2.restaurant_sign",
+  id = "dungeon_2.1f.restaurant_sign",
   skip = "all",
   text = [[
   - Grump Snack Bar -
@@ -1645,7 +1618,7 @@ défiant toute honnêteté.
 }
 
 dialog{
-  id = "dungeon_2.running_man",
+  id = "dungeon_2.1f.running_man",
   skip = "all",
   text = [[
 Entre nous, ce
@@ -1657,6 +1630,78 @@ serveur nous parle comme
 si on était son pote.
 Ceci dit, les boissons
 sont originales !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.blue_haired_boy",
+  text = [[
+À quoi servent toutes
+ces pièces d'échecs ?
+
+Je n'en sais rien moi,
+je ne suis qu'un gosse !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.cards_game_sign",
+  text = [[
+Jeu des symboles
+
+
+Obtenez 4 symboles
+identiques pour gagner
+une récompense !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.green_hat_man",
+  text = [[
+Attention à ne pas
+dilapider toutes ses
+économies dans un
+endroit pareil !
+Ceci dit, tu as l'air
+malin.
+Avec un peu de chance
+tu devrais t'en sortir
+mieux que moi !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.hint_4_knights",
+  skip = "all",
+  text = [[
+Quoi ? Oui, non, je suis
+en train de travailler,
+enfin là je me détends
+un peu en attendant.
+
+
+En fait, pour tout te
+dire, je devrais
+retourner à mon poste
+en cuisine mais il y a
+un code d'accès et je
+n'y comprends rien.
+Une histoire de 4
+cavaliers blancs qui
+doivent être défendus
+2 fois. Tu y comprends
+quelque chose toi ?
+
+Ces casse-têtes ne sont
+plus de mon âge...
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.slot_machines_sign",
+  text = [[
+Machines à sous
 ]]
 }
 

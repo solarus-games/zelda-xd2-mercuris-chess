@@ -7037,6 +7037,28 @@ tile{
   pattern = "bug_cage",
 }
 
+door{
+  name = "elevator_b_door",
+  layer = 0,
+  x = 736,
+  y = 48,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  name = "elevator_a_door",
+  layer = 0,
+  x = 232,
+  y = 504,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
 wall{
   layer = 0,
   x = 232,
@@ -8032,7 +8054,7 @@ destination{
   name = "from_elevator_a",
   layer = 0,
   x = 240,
-  y = 533,
+  y = 525,
   direction = 3,
 }
 

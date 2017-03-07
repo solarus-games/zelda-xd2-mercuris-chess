@@ -2937,7 +2937,7 @@ destination{
   name = "from_elevator_a",
   layer = -1,
   x = 240,
-  y = 557,
+  y = 549,
   direction = 3,
 }
 

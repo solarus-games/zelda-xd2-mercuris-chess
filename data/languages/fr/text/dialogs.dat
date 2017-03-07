@@ -1648,11 +1648,23 @@ dialog{
   id = "dungeon_2.2f.cards_game_sign",
   text = [[
 Jeu des symboles
-
+Tarif : 30 rubis
 
 Obtenez 4 symboles
 identiques pour gagner
 une récompense !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.chest_game_sign",
+  text = [[
+Jeu des coffres
+Tarif : 20 rubis
+
+Choisissez un coffre
+au hasard et soyez
+chanceux !
 ]]
 }
 
@@ -1702,6 +1714,11 @@ dialog{
   id = "dungeon_2.2f.slot_machines_sign",
   text = [[
 Machines à sous
+Tarif : Mises de
+5 ou 20 rubis
+Merci de ne pas toucher
+à la décoration de la
+salle.
 ]]
 }
 

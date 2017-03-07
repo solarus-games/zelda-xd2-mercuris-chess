@@ -6,6 +6,10 @@ separator_manager:manage_map(map)
 local door_manager = require("maps/lib/door_manager")
 door_manager:manage_map(map)
 
+local elevator_manager = require("scripts/maps/elevator_manager")
+elevator_manager:create_elevator(elevator_a_sensor, "dungeon_2/", 0, 3, "from_elevator_a")
+elevator_manager:create_elevator(elevator_b_sensor, "dungeon_2/", 0, 8, "from_elevator_b")
+
 function map:on_started()
 
   -- Access to the kitchen.

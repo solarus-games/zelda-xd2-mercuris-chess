@@ -2937,26 +2937,8 @@ destination{
   name = "from_elevator_a",
   layer = -1,
   x = 240,
-  y = 541,
-  direction = 1,
-}
-
-teletransporter{
-  layer = -1,
-  x = 232,
-  y = 528,
-  width = 16,
-  height = 16,
-  destination_map = "dungeon_2/1f",
-  destination = "from_elevator_a",
-}
-
-stairs{
-  layer = -1,
-  x = 232,
-  y = 528,
-  direction = 1,
-  subtype = 1,
+  y = 557,
+  direction = 3,
 }
 
 block{

@@ -7039,6 +7039,18 @@ tile{
 
 wall{
   layer = 0,
+  x = 232,
+  y = 504,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
   x = 112,
   y = 440,
   width = 16,
@@ -7088,8 +7100,8 @@ wall{
 destination{
   name = "from_outside",
   layer = 0,
-  x = 480,
-  y = 677,
+  x = 248,
+  y = 533,
   direction = 1,
   default = true,
 }
@@ -8020,26 +8032,26 @@ destination{
   name = "from_elevator_a",
   layer = 0,
   x = 240,
-  y = 517,
-  direction = 1,
+  y = 533,
+  direction = 3,
 }
 
-teletransporter{
+sensor{
+  name = "elevator_a_sensor",
   layer = 0,
-  x = 232,
-  y = 504,
+  x = 240,
+  y = 517,
   width = 16,
   height = 16,
-  destination_map = "dungeon_2/2f",
-  destination = "from_elevator_a",
 }
 
-stairs{
+sensor{
+  name = "elevator_b_sensor",
   layer = 0,
-  x = 232,
-  y = 504,
-  direction = 1,
-  subtype = 0,
+  x = 744,
+  y = 61,
+  width = 16,
+  height = 16,
 }
 
 tile{

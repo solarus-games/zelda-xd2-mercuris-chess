@@ -47,6 +47,7 @@ sprites/console/cursor.png                          Maxs
 sprites/console/icons.png                           Maxs
 sprites/chess/*.png                                 Olivier Cléro
 sprites/enemies/newlink/*.png                       Newlink
+sprites/entities/slot_machine_support.png           Newlink
 sprites/hud/gameover_fade.png                       Metallizer
 sprites/hud/dialog_box.png                          Metallizer
 sprites/hud/hearts.png                              Olivier Cléro
@@ -140,6 +141,7 @@ sprites/entities/hookshot.png
 sprites/entities/items.png
 sprites/entities/miscellaneous.png
 sprites/entities/shadow.png
+sprites/entities/slot_machine_items.png
 sprites/entities/teletransporter.png
 sprites/entities/case.png
 sprites/hero/*.png

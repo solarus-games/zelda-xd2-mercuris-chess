@@ -86,6 +86,7 @@ sprite{ id = "enemies/creeper", description = "MC Creeper" }
 sprite{ id = "enemies/dkc_bananas", description = "DKC bananas" }
 sprite{ id = "enemies/dkc_barrel", description = "DKC barrel" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
+sprite{ id = "enemies/la/vegas", description = "Vegas" }
 sprite{ id = "enemies/mc_pickaxe", description = "MC Pickaxe" }
 sprite{ id = "enemies/newlink/bee_guard", description = "Bee Guard" }
 sprite{ id = "enemies/newlink/bee_guard_weapon", description = "Bee Guard sword" }
@@ -567,6 +568,7 @@ enemy{ id = "chess/queen_white", description = "Queen (white)" }
 enemy{ id = "chess/rook_black", description = "Rook (black)" }
 enemy{ id = "chess/rook_white", description = "Rook (white)" }
 enemy{ id = "creeper", description = "Creeper" }
+enemy{ id = "la/vegas", description = "Vegas" }
 enemy{ id = "newlink/bee_guard", description = "Bee Guard" }
 enemy{ id = "newlink/bullblin_blue", description = "Bullblin (blue)" }
 enemy{ id = "newlink/bullblin_red", description = "Bullblin (red)" }

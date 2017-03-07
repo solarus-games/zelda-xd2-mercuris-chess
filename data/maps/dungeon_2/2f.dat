@@ -2607,9 +2607,9 @@ npc{
 
 npc{
   layer = -1,
-  x = 704,
+  x = 632,
   y = 565,
-  direction = 3,
+  direction = 1,
   subtype = 1,
   sprite = "npc/alttp/old_man",
   behavior = "dialog#dungeon_2.hint_4_knights",
@@ -2679,6 +2679,33 @@ custom_entity{
   direction = 1,
   sprite = "entities/torch",
   model = "torch",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = -1,
+  x = 424,
+  y = 133,
+  direction = 0,
+  breed = "la/vegas",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = -1,
+  x = 520,
+  y = 93,
+  direction = 0,
+  breed = "la/vegas",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = -1,
+  x = 544,
+  y = 141,
+  direction = 0,
+  breed = "la/vegas",
 }
 
 tile{

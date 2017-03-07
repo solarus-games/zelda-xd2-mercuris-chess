@@ -126,6 +126,7 @@ tilesets/**.png
 sprites/enemies/alttp/*.png
 sprites/enemies/cannonball.png
 sprites/enemies/enemy_killed.png
+sprites/enemies/la/*.png
 sprites/entities/arrow.png
 sprites/entities/bomb.png
 sprites/entities/boomerang.png

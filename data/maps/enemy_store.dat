@@ -42,3 +42,11 @@ destination{
   direction = 1,
 }
 
+enemy{
+  layer = 0,
+  x = 24,
+  y = 125,
+  direction = 0,
+  breed = "la/vegas",
+}
+

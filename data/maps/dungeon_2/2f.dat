@@ -3221,16 +3221,6 @@ enemy{
 }
 
 chest{
-  name = "ne_chest",
-  layer = -1,
-  x = 816,
-  y = 53,
-  treasure_name = "vip_card",
-  treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
-  sprite = "entities/chest",
-}
-
-chest{
   name = "ne_chest_2",
   layer = -1,
   x = 136,
@@ -7738,6 +7728,16 @@ door{
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
   cannot_open_dialog = "small_key_required",
+}
+
+chest{
+  name = "ne_chest",
+  layer = 0,
+  x = 816,
+  y = 53,
+  treasure_name = "vip_card",
+  treasure_savegame_variable = "dungeon_2_2f_vip_card_chest",
+  sprite = "entities/chest",
 }
 
 tile{

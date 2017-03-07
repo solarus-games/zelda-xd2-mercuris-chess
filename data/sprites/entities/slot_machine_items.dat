@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "entities/slot_machine.png",
+  src_image = "entities/slot_machine_items.png",
   directions = {
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
@@ -8,7 +8,6 @@ animation{
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
   },
 }
-
 animation{
   name = "started",
   src_image = "entities/slot_machine.png",
@@ -21,4 +20,3 @@ animation{
     { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 12, origin_y = 37, num_frames = 21 },
   },
 }
-

@@ -7,8 +7,8 @@ local door_manager = require("maps/lib/door_manager")
 door_manager:manage_map(map)
 
 local elevator_manager = require("scripts/maps/elevator_manager")
-elevator_manager:create_elevator(map, "elevator_a", 0, 3, "from_elevator_a")
-elevator_manager:create_elevator(map, "elevator_b", 0, 8, "from_elevator_b")
+elevator_manager:create_elevator(map, "elevator_a", 0, 3)
+elevator_manager:create_elevator(map, "elevator_b", 0, 8)
 
 function map:on_started()
 

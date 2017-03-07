@@ -3,15 +3,17 @@
 -- 
 -- Usage:
 -- local elevator_manager = require("scripts/maps/elevator_manager")
--- elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor, destination_name)
+-- elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor)
 -- - map: The map where to create an elevator.
 -- - elevator_prefix: Prefix of the name of elevator entities.
 --   There should exist the following entities:
---   - elevator_prefix .. sensor: Where to trigger the elevator.
---   - elevator_prefix .. door: A door to close when the hero is in the elevator.
+--   - elevator_prefix .. _sensor: Where to trigger the elevator.
+--   - elevator_prefix .. _destination: Destination where to go on other maps.
+--   - elevator_prefix .. _door: A door to close when the hero is in the elevator.
+--   - elevator_prefix .. _up_tile* (optional): Dynamic tiles to enable when going up with the elevator.
+--   - elevator_prefix .. _down_tile* (optional): Dynamic tiles to enable when going down with the elevator.
 -- - min_floor: lowest floor accessible from the elevator.
 -- - max_floor: highest floor accessible from the elevator.
--- - destination_name: Name of the destination entity on destination maps.
 
 local elevator_manager = {}
 
@@ -26,7 +28,7 @@ local function get_map_suffix(floor)
   end
 end
 
-function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor, destination_name)
+function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor)
 
   local sensor_name = elevator_prefix .. "_sensor"
   local elevator_sensor = map:get_entity(sensor_name)
@@ -35,6 +37,8 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
   local door_name = elevator_prefix .. "_door"
   local elevator_door = map:get_entity(door_name)
   assert(elevator_door ~= nil, "Cannot set up elevator: missing elevator door '" .. door_name .. "'")
+
+  local destination_name = elevator_prefix .. "_destination"
 
   assert(map:get_floor() ~= nil, "Cannot set up elevator: this map has no floor information")
 
@@ -65,6 +69,14 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
     local dst_x = elevator_x - camera_x - 16
     local dst_y = elevator_y - camera_y + 8 + (max_floor - floor) * 12
     floors_img:draw_region(src_x, src_y, src_width, src_height, dst_surface, dst_x, dst_y)
+  end
+
+  local function update_up_down_tiles()
+
+    local up = selected_floor > current_floor
+    local down = selected_floor < current_floor
+    map:set_entities_enabled(elevator_prefix .. "_up_tile", up)
+    map:set_entities_enabled(elevator_prefix .. "_down_tile", down)
   end
 
   function menu:on_draw(dst_surface)
@@ -102,6 +114,7 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
       if selected_floor > max_floor then
         selected_floor = min_floor
       end
+      update_up_down_tiles()
       handled = true
     elseif command == "down" then
       sol.audio.play_sound("cursor")
@@ -109,6 +122,7 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
       if selected_floor < min_floor then
         selected_floor = max_floor
       end
+      update_up_down_tiles()
       handled = true
     end
 
@@ -134,6 +148,8 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
 
   -- Always open the door initially.
   map:set_doors_open(elevator_door:get_name())
+  map:set_entities_enabled(elevator_prefix .. "_up_tile", false)
+  map:set_entities_enabled(elevator_prefix .. "_down_tile", false)
 end
 
 return elevator_manager

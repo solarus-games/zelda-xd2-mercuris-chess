@@ -2398,33 +2398,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 736,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
-}
-
-tile{
-  layer = 0,
-  x = 752,
-  y = 24,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 728,
-  y = 24,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.1-1",
-}
-
-tile{
-  layer = 0,
   x = 232,
   y = 504,
   width = 16,
@@ -2450,16 +2423,42 @@ tile{
   pattern = "door.1.support.1-1",
 }
 
-wall{
+tile{
   layer = 0,
   x = 736,
   y = 24,
   width = 16,
   height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 752,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+door{
+  name = "elevator_a_door",
+  layer = 0,
+  x = 232,
+  y = 504,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
 }
 
 wall{
@@ -2472,6 +2471,99 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destination{
+  name = "elevator_a_destination",
+  layer = 0,
+  x = 240,
+  y = 525,
+  direction = 3,
+}
+
+sensor{
+  name = "elevator_a_sensor",
+  layer = 0,
+  x = 240,
+  y = 517,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 0,
+  x = 736,
+  y = 24,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "elevator_b_destination",
+  layer = 0,
+  x = 744,
+  y = 45,
+  direction = 3,
+}
+
+door{
+  name = "elevator_b_door",
+  layer = 0,
+  x = 736,
+  y = 24,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+sensor{
+  name = "elevator_b_sensor",
+  layer = 0,
+  x = 744,
+  y = 37,
+  width = 16,
+  height = 16,
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 496,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 496,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 496,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 496,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2-1",
 }
 
 tile{
@@ -2510,40 +2602,48 @@ tile{
   pattern = "door_top.stairs_up.2-1",
 }
 
-tile{
-  layer = 1,
-  x = 200,
-  y = 496,
-  width = 80,
-  height = 8,
-  pattern = "door_cache.1-5",
-}
-
-tile{
+dynamic_tile{
+  name = "elevator_a_down_tile",
   layer = 1,
   x = 224,
   y = 496,
-  width = 32,
+  pattern = "door_top.stairs_down.1-2",
+  width = 16,
   height = 8,
-  pattern = "door_top.stairs.1-2",
+  enabled_at_start = true,
 }
 
-tile{
+dynamic_tile{
+  name = "elevator_a_up_tile",
   layer = 1,
   x = 240,
   y = 496,
+  pattern = "door_top.stairs_up.1-2",
   width = 16,
   height = 8,
-  pattern = "door_top.stairs_up.1-1",
+  enabled_at_start = true,
 }
 
-tile{
+dynamic_tile{
+  name = "elevator_b_down_tile",
   layer = 1,
-  x = 224,
-  y = 496,
+  x = 728,
+  y = 16,
+  pattern = "door_top.stairs_down.1-2",
   width = 16,
   height = 8,
-  pattern = "door_top.stairs_up.2-1",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "elevator_b_up_tile",
+  layer = 1,
+  x = 744,
+  y = 16,
+  pattern = "door_top.stairs_up.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{

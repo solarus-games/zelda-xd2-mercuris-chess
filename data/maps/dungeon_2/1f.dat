@@ -1253,6 +1253,25 @@ tile{
   pattern = "wall_low_diag.bottom.2-5",
 }
 
+destination{
+  name = "elevator_a_destination_2",
+  layer = -1,
+  x = 744,
+  y = 69,
+  direction = 3,
+}
+
+door{
+  name = "elevator_b_door",
+  layer = -1,
+  x = 736,
+  y = 48,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
 wall{
   layer = -1,
   x = 792,
@@ -1401,6 +1420,15 @@ enemy{
   direction = 2,
   breed = "newlink/cobruss",
   treasure_name = "random",
+}
+
+sensor{
+  name = "elevator_b_sensor",
+  layer = -1,
+  x = 744,
+  y = 61,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -7038,17 +7066,6 @@ tile{
 }
 
 door{
-  name = "elevator_b_door",
-  layer = 0,
-  x = 736,
-  y = 48,
-  direction = 1,
-  sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-}
-
-door{
   name = "elevator_a_door",
   layer = 0,
   x = 232,
@@ -7122,8 +7139,8 @@ wall{
 destination{
   name = "from_outside",
   layer = 0,
-  x = 248,
-  y = 533,
+  x = 480,
+  y = 677,
   direction = 1,
   default = true,
 }
@@ -7861,7 +7878,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/hint_stone",
-  behavior = "dialog#dungeon_2.restaurant_sign",
+  behavior = "dialog#dungeon_2.1f.restaurant_sign",
 }
 
 npc{
@@ -8051,7 +8068,7 @@ chest{
 }
 
 destination{
-  name = "from_elevator_a",
+  name = "elevator_a_destination",
   layer = 0,
   x = 240,
   y = 525,
@@ -8063,15 +8080,6 @@ sensor{
   layer = 0,
   x = 240,
   y = 517,
-  width = 16,
-  height = 16,
-}
-
-sensor{
-  name = "elevator_b_sensor",
-  layer = 0,
-  x = 744,
-  y = 61,
   width = 16,
   height = 16,
 }
@@ -8446,6 +8454,50 @@ dynamic_tile{
   x = 872,
   y = 256,
   pattern = "door_top.stairs_up.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "elevator_a_down_tile",
+  layer = 1,
+  x = 224,
+  y = 496,
+  pattern = "door_top.stairs_down.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "elevator_a_up_tile",
+  layer = 1,
+  x = 240,
+  y = 496,
+  pattern = "door_top.stairs_up.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "elevator_b_down_tile",
+  layer = 1,
+  x = 728,
+  y = 40,
+  pattern = "door_top.stairs_down.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "elevator_b_up_tile",
+  layer = 1,
+  x = 744,
+  y = 40,
+  pattern = "door_top.stairs_up.1-2",
   width = 16,
   height = 8,
   enabled_at_start = true,

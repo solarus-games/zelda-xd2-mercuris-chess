@@ -7082,7 +7082,7 @@ destination{
   name = "from_1f_e",
   layer = 0,
   x = 880,
-  y = 277,
+  y = 269,
   direction = 1,
 }
 
@@ -7726,6 +7726,20 @@ jumper{
   jump_length = 16,
 }
 
+door{
+  name = "door_h",
+  layer = 0,
+  x = 872,
+  y = 264,
+  direction = 1,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_1f_door_c",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
+}
+
 tile{
   layer = 1,
   x = 712,
@@ -7742,24 +7756,6 @@ tile{
   width = 80,
   height = 8,
   pattern = "door_cache.1-5",
-}
-
-tile{
-  layer = 1,
-  x = 864,
-  y = 256,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 872,
-  y = 256,
-  width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.2-1",
 }
 
 tile{
@@ -7961,6 +7957,17 @@ tile{
 }
 
 dynamic_tile{
+  name = "door_h_closed",
+  layer = 1,
+  x = 864,
+  y = 256,
+  pattern = "door_top.closed.1-5",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
   name = "door_d_closed",
   layer = 1,
   x = 384,
@@ -7988,6 +7995,28 @@ dynamic_tile{
   x = 392,
   y = 16,
   pattern = "door_top.stairs_up.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "door_h_open_2",
+  layer = 1,
+  x = 864,
+  y = 256,
+  pattern = "door_top.stairs.1-2",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "door_h_open",
+  layer = 1,
+  x = 872,
+  y = 256,
+  pattern = "door_top.stairs_up.2-1",
   width = 16,
   height = 8,
   enabled_at_start = true,

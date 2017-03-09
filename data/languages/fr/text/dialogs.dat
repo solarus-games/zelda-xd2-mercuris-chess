@@ -1889,6 +1889,115 @@ Un naufrage ?
 }
 
 dialog{
+  id = "slot_machine.choose_bet",
+  question = "1",
+  text = [[
+Combien veux-tu miser ?
+5 rubis
+20 rubis
+]]
+}
+
+dialog{
+  id = "slot_machine.intro",
+  question = "1",
+  text = [[
+Machine à sous :
+mise 5 ou 20 rubis et
+tente d'aligner trois
+symboles identiques
+pour gagner plusieurs
+fois ta mise !
+Veux-tu jouer ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "slot_machine.playing",
+  text = [[
+Approche-toi des
+roulettes et appuyez sur
+la touche Action
+pour les arrêter.
+Bonne chance !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.creeper",
+  text = [[
+Trois Creepers !
+Attention, ça va faire
+mal !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.green_rupees",
+  text = [[
+Trois rubis verts,
+joli ! Tu remportes
+5 fois ta mise !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.none",
+  question = "1",
+  text = [[
+Pas de chance, tu n'as
+formé aucune
+combinaison.
+Tu veux réessayer ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.pickaxes",
+  text = [[
+Trois pioches en
+diamant !
+
+Félicitations, tu
+repars avec 7 fois
+ta mise !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.red_rupees",
+  text = [[
+Trois rubis rouges !!!
+Tu repars avec 10 fois
+ta mise. Bravo !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.same_any",
+  text = [[
+Trois symboles identi-
+ques, pas mal ! Tu
+gagnes 4 fois ta mise.
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.yoshi",
+  text = [[
+Trois Yoshi !
+C'est la meilleure
+combinaison possible.
+Tu gagnes 20 fois ta
+mise !
+]]
+}
+
+dialog{
   id = "small_key_required",
   icon = "72",
   text = [[

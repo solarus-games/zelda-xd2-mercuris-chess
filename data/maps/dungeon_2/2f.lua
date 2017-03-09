@@ -10,6 +10,11 @@ local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_a", 0, 3)
 elevator_manager:create_elevator(map, "elevator_b", 0, 8)
 
+local slot_machine_manager = require("scripts/maps/slot_machine_manager")
+slot_machine_manager:create_slot_machine(map, "slot_machine_a")
+slot_machine_manager:create_slot_machine(map, "slot_machine_b")
+slot_machine_manager:create_slot_machine(map, "slot_machine_c")
+
 function map:on_started()
 
   -- Walking NPCs.

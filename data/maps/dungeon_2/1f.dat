@@ -1254,7 +1254,7 @@ tile{
 }
 
 destination{
-  name = "elevator_a_destination_2",
+  name = "elevator_b_destination",
   layer = -1,
   x = 744,
   y = 69,

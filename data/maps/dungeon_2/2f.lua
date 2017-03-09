@@ -29,6 +29,7 @@ function map:on_started()
   else
     ne_chest:set_enabled(false)
   end
+
 end
 
 function ne_chest_switch:on_activated()
@@ -36,4 +37,17 @@ function ne_chest_switch:on_activated()
   sol.audio.play_sound("chest_appears")
   ne_chest:set_enabled(true)
   game:set_value("dungeon_2_2f_vip_card_chest_appeared", true)
+end
+
+function casino_receptionnist:on_interaction()
+
+  if game:get_value("dungeon_2_2f_casino_doors_open") then
+    game:start_dialog("dungeon_2.2f_casino_receptionnist_open")
+  else
+    game:start_dialog("dungeon_2.2f_casino_receptionnist_intro", function(answer)
+      if answer == 1 then
+        -- TODO
+      end
+    end)
+  end
 end

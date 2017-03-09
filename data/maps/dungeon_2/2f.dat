@@ -2604,6 +2604,7 @@ door{
   y = 592,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_2f_casino_door",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
 }
@@ -2615,6 +2616,7 @@ door{
   y = 592,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_2f_casino_door",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
 }
@@ -2662,6 +2664,7 @@ door{
   y = 416,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_2f_casino_door",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
 }
@@ -2673,6 +2676,7 @@ door{
   y = 528,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_2f_casino_door",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
 }

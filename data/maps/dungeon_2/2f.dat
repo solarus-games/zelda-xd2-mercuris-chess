@@ -3449,6 +3449,7 @@ wall{
   width = 16,
   height = 88,
   stops_npcs = true,
+  stops_blocks = true,
 }
 
 wall{
@@ -3456,8 +3457,9 @@ wall{
   x = 416,
   y = 416,
   width = 16,
-  height = 232,
+  height = 160,
   stops_npcs = true,
+  stops_blocks = true,
 }
 
 door{
@@ -3507,6 +3509,7 @@ wall{
   width = 16,
   height = 48,
   stops_npcs = true,
+  stops_blocks = true,
 }
 
 tile{
@@ -7109,6 +7112,24 @@ tile{
   pattern = "barrier.border-2",
 }
 
+tile{
+  layer = 0,
+  x = 384,
+  y = 584,
+  width = 8,
+  height = 64,
+  pattern = "barrier.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 576,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-2",
+}
+
 wall{
   layer = 0,
   x = 736,
@@ -7742,7 +7763,7 @@ jumper{
   x = 392,
   y = 416,
   width = 8,
-  height = 232,
+  height = 160,
   direction = 0,
   jump_length = 40,
 }

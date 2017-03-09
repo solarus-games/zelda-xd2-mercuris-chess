@@ -3500,6 +3500,15 @@ sensor{
   height = 16,
 }
 
+wall{
+  layer = -1,
+  x = 392,
+  y = 336,
+  width = 16,
+  height = 48,
+  stops_npcs = true,
+}
+
 tile{
   layer = 0,
   x = 192,

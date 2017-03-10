@@ -15,6 +15,29 @@ slot_machine_manager:create_slot_machine(map, "slot_machine_a")
 slot_machine_manager:create_slot_machine(map, "slot_machine_b")
 slot_machine_manager:create_slot_machine(map, "slot_machine_c")
 
+local chest_game_manager = require("scripts/maps/chest_game_manager")
+local chest_game_rewards = {
+  { "rupee", 1 },
+  { "rupee", 2 },
+  { "rupee", 3 },
+  { "rupee", 4 },
+  { "heart", 1 },
+  { "heart", 1 },
+  { "creeper", 1 },
+  { "creeper", 1 },
+  { "creeper", 1 },
+  { "creeper", 1 },
+}
+
+if not game:get_value("dungeon_2_2f_chest_game_key") then
+  -- Give the key with probability 0.5.
+  local num_rewards_before = #chest_game_rewards
+  for i = 1, num_rewards_before do
+    chest_game_rewards[#chest_game_rewards + 1] = { "small_key", 1, "dungeon_2_2f_chest_game_key" }
+  end
+end
+chest_game_manager:create_chest_game(map, "chest_game", 20, chest_game_rewards)
+
 function map:on_started()
 
   -- Walking NPCs.

@@ -239,3 +239,12 @@ teletransporter{
   destination = "_side",
 }
 
+chest{
+  layer = 0,
+  x = 896,
+  y = 365,
+  treasure_name = "creeper",
+  treasure_savegame_variable = "out_a2_creeper_chest",
+  sprite = "entities/chest",
+}
+

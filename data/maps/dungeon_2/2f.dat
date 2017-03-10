@@ -3208,7 +3208,7 @@ enemy{
 }
 
 chest{
-  name = "ne_chest_2",
+  name = "chest_game_chest_1",
   layer = -1,
   x = 136,
   y = 341,
@@ -3216,7 +3216,7 @@ chest{
 }
 
 npc{
-  name = "blue_haired_boy_2",
+  name = "chest_game_npc",
   layer = -1,
   x = 136,
   y = 381,
@@ -3440,7 +3440,7 @@ npc{
 }
 
 chest{
-  name = "ne_chest_3",
+  name = "chest_game_chest_2",
   layer = -1,
   x = 160,
   y = 341,
@@ -3448,7 +3448,7 @@ chest{
 }
 
 chest{
-  name = "ne_chest_4",
+  name = "chest_game_chest_3",
   layer = -1,
   x = 184,
   y = 341,
@@ -3528,8 +3528,8 @@ wall{
 destination{
   name = "destination",
   layer = -1,
-  x = 560,
-  y = 589,
+  x = 456,
+  y = 533,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

@@ -503,6 +503,7 @@ item{ id = "bottle_3", description = "Bottle 3" }
 item{ id = "bottle_4", description = "Bottle 4" }
 item{ id = "bow", description = "Bow" }
 item{ id = "compass", description = "Dungeon compass" }
+item{ id = "creeper", description = "Creeper" }
 item{ id = "croissant", description = "Croissant (x1)" }
 item{ id = "croissants_counter", description = "Croissants counter" }
 item{ id = "fairy", description = "Fairy" }

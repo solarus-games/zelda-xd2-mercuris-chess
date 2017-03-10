@@ -167,6 +167,13 @@ animation{
   },
 }
 animation{
+  name = "creeper",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 224, y = 32, frame_width = 32, frame_height = 64, origin_x = 16, origin_y = 61 },
+  },
+}
+animation{
   name = "croissant",
   src_image = "entities/items.png",
   directions = {
@@ -282,16 +289,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 64, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "level_4_way",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 272, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 272, y = 16, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 272, y = 32, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-    { x = 272, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

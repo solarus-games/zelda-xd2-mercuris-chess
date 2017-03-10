@@ -973,6 +973,13 @@ progrès !
 }
 
 dialog{
+  id = "_treasure.creeper.1",
+  text = [[
+Attention !!!
+]]
+}
+
+dialog{
   id = "_treasure.croissant.1",
   icon = "18",
   text = [[

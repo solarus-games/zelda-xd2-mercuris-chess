@@ -1661,7 +1661,7 @@ dialog{
   id = "dungeon_2.1f.restaurant_sign",
   skip = "all",
   text = [[
-  - Grump Snack Bar -
+  - Grump Caviar Bar -
 Restauration à des prix
 défiant toute honnêteté.
 ]]

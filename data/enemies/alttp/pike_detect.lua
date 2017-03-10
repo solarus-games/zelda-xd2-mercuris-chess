@@ -35,16 +35,16 @@ function enemy:on_update()
 
     if math.abs(dy) < activation_distance then
       if dx > 0 then
-	self:go(0)
+        self:go(0)
       else
-	self:go(2)
+        self:go(2)
       end
     end
     if state == "stopped" and math.abs(dx) < activation_distance then
       if dy > 0 then
-	self:go(3)
+        self:go(3)
       else
-	self:go(1)
+        self:go(1)
       end
     end
   end

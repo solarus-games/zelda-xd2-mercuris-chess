@@ -64,12 +64,18 @@ end
 
 function casino_receptionnist:on_interaction()
 
-  if game:get_value("dungeon_2_2f_casino_doors_open") then
-    game:start_dialog("dungeon_2.2f_casino_receptionnist_open")
+  if door_e:is_open() then
+    game:start_dialog("dungeon_2.2f.casino_receptionnist_open")
   else
-    game:start_dialog("dungeon_2.2f_casino_receptionnist_intro", function(answer)
+    game:start_dialog("dungeon_2.2f.casino_receptionnist_intro", function(answer)
       if answer == 1 then
-        -- TODO
+        if game:get_money() < 50 then
+          game:start_dialog("dungeon_2.2f.casino_receptionnist_not_enough_money")
+        else
+          game:remove_money(50)
+          map:open_doors("door_e")
+          game:start_dialog("dungeon_2.2f.casino_receptionnist_open")
+        end
       end
     end)
   end

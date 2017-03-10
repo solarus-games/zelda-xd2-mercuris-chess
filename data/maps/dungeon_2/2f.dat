@@ -2598,7 +2598,7 @@ wall{
 }
 
 door{
-  name = "door_f_2",
+  name = "door_e_4",
   layer = -1,
   x = 400,
   y = 592,
@@ -2610,7 +2610,7 @@ door{
 }
 
 door{
-  name = "door_f",
+  name = "door_e_3",
   layer = -1,
   x = 256,
   y = 592,
@@ -3207,38 +3207,6 @@ enemy{
   breed = "la/vegas",
 }
 
-npc{
-  name = "blue_haired_boy_3",
-  layer = -1,
-  x = 504,
-  y = 317,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/alttp/merchant_green",
-}
-
-door{
-  name = "door_g_2",
-  layer = -1,
-  x = 472,
-  y = 176,
-  direction = 3,
-  sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-}
-
-door{
-  name = "door_g",
-  layer = -1,
-  x = 472,
-  y = 288,
-  direction = 1,
-  sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-}
-
 block{
   name = "knight_29",
   layer = -1,
@@ -3393,8 +3361,8 @@ pickable{
 
 npc{
   layer = -1,
-  x = 192,
-  y = 541,
+  x = 456,
+  y = 301,
   direction = 3,
   subtype = 0,
   sprite = "entities/hint_stone",
@@ -3413,8 +3381,8 @@ npc{
 
 npc{
   layer = -1,
-  x = 456,
-  y = 301,
+  x = 192,
+  y = 541,
   direction = 3,
   subtype = 0,
   sprite = "entities/hint_stone",
@@ -3494,8 +3462,8 @@ wall{
 destination{
   name = "destination",
   layer = -1,
-  x = 136,
-  y = 397,
+  x = 128,
+  y = 573,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

@@ -1709,6 +1709,43 @@ une récompense !
 }
 
 dialog{
+  id = "dungeon_2.2f.casino_receptionnist_intro",
+  question = "1",
+  text = [[
+Vous êtes ici au
+Casino Grump.
+
+Une tenue correcte est
+exigée.
+
+Bon... on va dire que
+c'est ok.
+Le prix d'entrée est de
+50 rubis.
+Payer
+Pas question
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.casino_receptionnist_not_enough_money",
+  text = [[
+Désolé, les pauvres ne
+sont pas les bienvenus
+dans cet établissement.
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.casino_receptionnist_open",
+  text = [[
+Merci de ne pas toucher
+à la décoration de la
+salle.
+]]
+}
+
+dialog{
   id = "dungeon_2.2f.chest_game_sign",
   skip = "all",
   text = [[
@@ -1771,9 +1808,6 @@ dialog{
 Machines à sous
 Tarif : Mises de
 5 ou 20 rubis
-Merci de ne pas toucher
-à la décoration de la
-salle.
 ]]
 }
 

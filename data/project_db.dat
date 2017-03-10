@@ -150,6 +150,7 @@ sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
 sprite{ id = "enemies/smk_yoshi", description = "SMK Yoshi" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/bed", description = "entities/bed" }
 sprite{ id = "entities/big_chest", description = "Big chest" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }

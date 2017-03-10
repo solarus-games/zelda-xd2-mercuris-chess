@@ -1052,7 +1052,7 @@ destructible{
   layer = 1,
   x = 216,
   y = 197,
-  sprite = "entities/pot",
+  sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
 }
@@ -1061,7 +1061,7 @@ destructible{
   layer = 1,
   x = 200,
   y = 197,
-  sprite = "entities/pot",
+  sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
 }
@@ -1070,7 +1070,7 @@ destructible{
   layer = 1,
   x = 184,
   y = 197,
-  sprite = "entities/pot",
+  sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
 }

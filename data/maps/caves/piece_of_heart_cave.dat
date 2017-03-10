@@ -718,6 +718,7 @@ pickable{
   x = 104,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_1",
 }
 
 pickable{
@@ -725,6 +726,7 @@ pickable{
   x = 120,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_2",
 }
 
 pickable{
@@ -732,6 +734,7 @@ pickable{
   x = 136,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_3",
 }
 
 pickable{
@@ -739,6 +742,7 @@ pickable{
   x = 152,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_4",
 }
 
 pickable{
@@ -746,6 +750,7 @@ pickable{
   x = 168,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_5",
 }
 
 pickable{
@@ -753,6 +758,7 @@ pickable{
   x = 184,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_6",
 }
 
 pickable{
@@ -760,6 +766,7 @@ pickable{
   x = 184,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_7",
 }
 
 pickable{
@@ -767,6 +774,7 @@ pickable{
   x = 168,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_8",
 }
 
 pickable{
@@ -774,6 +782,7 @@ pickable{
   x = 152,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_9",
 }
 
 pickable{
@@ -781,6 +790,7 @@ pickable{
   x = 136,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_10",
 }
 
 pickable{
@@ -788,6 +798,7 @@ pickable{
   x = 200,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_11",
 }
 
 pickable{
@@ -795,6 +806,7 @@ pickable{
   x = 216,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_12",
 }
 
 pickable{
@@ -802,6 +814,7 @@ pickable{
   x = 232,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_13",
 }
 
 pickable{
@@ -809,6 +822,7 @@ pickable{
   x = 232,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_14",
 }
 
 pickable{
@@ -816,6 +830,7 @@ pickable{
   x = 216,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_15",
 }
 
 pickable{
@@ -823,6 +838,7 @@ pickable{
   x = 200,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_16",
 }
 
 pickable{
@@ -830,6 +846,7 @@ pickable{
   x = 56,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_17",
 }
 
 pickable{
@@ -837,6 +854,7 @@ pickable{
   x = 72,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_18",
 }
 
 pickable{
@@ -844,6 +862,7 @@ pickable{
   x = 88,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_19",
 }
 
 pickable{
@@ -851,6 +870,7 @@ pickable{
   x = 88,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_20",
 }
 
 pickable{
@@ -858,6 +878,7 @@ pickable{
   x = 72,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_21",
 }
 
 pickable{
@@ -865,7 +886,7 @@ pickable{
   x = 56,
   y = 69,
   treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_1",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_22",
 }
 
 pickable{
@@ -873,6 +894,7 @@ pickable{
   x = 104,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_23",
 }
 
 pickable{
@@ -880,6 +902,7 @@ pickable{
   x = 120,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_24",
 }
 
 pickable{
@@ -887,6 +910,7 @@ pickable{
   x = 248,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_25",
 }
 
 pickable{
@@ -894,6 +918,7 @@ pickable{
   x = 248,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_26",
 }
 
 pickable{
@@ -901,6 +926,7 @@ pickable{
   x = 264,
   y = 69,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_27",
 }
 
 pickable{
@@ -908,6 +934,7 @@ pickable{
   x = 264,
   y = 85,
   treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "piece_of_heart_cave_piece_of_heart_28",
 }
 
 npc{

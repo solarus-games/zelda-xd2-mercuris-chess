@@ -2380,123 +2380,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 104,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "alter_corner.3",
-}
-
-tile{
-  layer = -1,
-  x = 104,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "alter_corner.1",
-}
-
-tile{
-  layer = -1,
-  x = 200,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "alter_corner.2",
-}
-
-tile{
-  layer = -1,
-  x = 200,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "alter_corner.4",
-}
-
-tile{
-  layer = -1,
-  x = 120,
-  y = 320,
-  width = 80,
-  height = 16,
-  pattern = "alter_wall.1",
-}
-
-tile{
-  layer = -1,
-  x = 200,
-  y = 336,
-  width = 16,
-  height = 24,
-  pattern = "alter_wall.4",
-}
-
-tile{
-  layer = -1,
-  x = 104,
-  y = 336,
-  width = 16,
-  height = 24,
-  pattern = "alter_wall.3",
-}
-
-tile{
-  layer = -1,
-  x = 152,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "alter_stairs",
-}
-
-tile{
-  layer = -1,
-  x = 120,
-  y = 360,
-  width = 24,
-  height = 16,
-  pattern = "alter_wall.2",
-}
-
-tile{
-  layer = -1,
-  x = 144,
-  y = 360,
-  width = 8,
-  height = 16,
-  pattern = "alter_rail.1",
-}
-
-tile{
-  layer = -1,
-  x = 168,
-  y = 360,
-  width = 8,
-  height = 16,
-  pattern = "alter_rail.2",
-}
-
-tile{
-  layer = -1,
-  x = 176,
-  y = 360,
-  width = 24,
-  height = 16,
-  pattern = "alter_wall.2",
-}
-
-tile{
-  layer = -1,
-  x = 120,
-  y = 336,
-  width = 80,
-  height = 24,
-  pattern = "939",
-}
-
-tile{
-  layer = -1,
   x = 232,
   y = 528,
   width = 16,
@@ -2520,6 +2403,123 @@ tile{
   width = 8,
   height = 16,
   pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 464,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.3",
+}
+
+tile{
+  layer = -1,
+  x = 464,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.1",
+}
+
+tile{
+  layer = -1,
+  x = 560,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.2",
+}
+
+tile{
+  layer = -1,
+  x = 560,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.4",
+}
+
+tile{
+  layer = -1,
+  x = 480,
+  y = 96,
+  width = 80,
+  height = 16,
+  pattern = "alter_wall.1",
+}
+
+tile{
+  layer = -1,
+  x = 560,
+  y = 112,
+  width = 16,
+  height = 24,
+  pattern = "alter_wall.4",
+}
+
+tile{
+  layer = -1,
+  x = 464,
+  y = 112,
+  width = 16,
+  height = 24,
+  pattern = "alter_wall.3",
+}
+
+tile{
+  layer = -1,
+  x = 512,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "alter_stairs",
+}
+
+tile{
+  layer = -1,
+  x = 480,
+  y = 136,
+  width = 24,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = -1,
+  x = 504,
+  y = 136,
+  width = 8,
+  height = 16,
+  pattern = "alter_rail.1",
+}
+
+tile{
+  layer = -1,
+  x = 528,
+  y = 136,
+  width = 8,
+  height = 16,
+  pattern = "alter_rail.2",
+}
+
+tile{
+  layer = -1,
+  x = 536,
+  y = 136,
+  width = 24,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = -1,
+  x = 480,
+  y = 112,
+  width = 80,
+  height = 24,
+  pattern = "939",
 }
 
 block{
@@ -2900,8 +2900,8 @@ custom_entity{
 enemy{
   name = "auto_enemy_4",
   layer = -1,
-  x = 424,
-  y = 133,
+  x = 160,
+  y = 341,
   direction = 0,
   breed = "la/vegas",
 }
@@ -2909,8 +2909,8 @@ enemy{
 enemy{
   name = "auto_enemy_5",
   layer = -1,
-  x = 520,
-  y = 93,
+  x = 104,
+  y = 333,
   direction = 0,
   breed = "la/vegas",
 }
@@ -2918,8 +2918,8 @@ enemy{
 enemy{
   name = "auto_enemy_6",
   layer = -1,
-  x = 544,
-  y = 141,
+  x = 88,
+  y = 373,
   direction = 0,
   breed = "la/vegas",
 }
@@ -3201,28 +3201,10 @@ block{
 enemy{
   name = "auto_enemy_7",
   layer = -1,
-  x = 432,
-  y = 93,
+  x = 200,
+  y = 373,
   direction = 0,
   breed = "la/vegas",
-}
-
-chest{
-  name = "chest_game_chest_1",
-  layer = -1,
-  x = 136,
-  y = 341,
-  sprite = "entities/chest",
-}
-
-npc{
-  name = "chest_game_npc",
-  layer = -1,
-  x = 136,
-  y = 381,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/alttp/merchant_yellow",
 }
 
 npc{
@@ -3439,22 +3421,6 @@ npc{
   behavior = "dialog#dungeon_2.2f.cards_game_sign",
 }
 
-chest{
-  name = "chest_game_chest_2",
-  layer = -1,
-  x = 160,
-  y = 341,
-  sprite = "entities/chest",
-}
-
-chest{
-  name = "chest_game_chest_3",
-  layer = -1,
-  x = 184,
-  y = 341,
-  sprite = "entities/chest",
-}
-
 wall{
   layer = -1,
   x = 848,
@@ -3533,6 +3499,62 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+chest{
+  name = "chest_game_chest_1",
+  layer = -1,
+  x = 496,
+  y = 117,
+  sprite = "entities/chest",
+}
+
+npc{
+  name = "chest_game_npc",
+  layer = -1,
+  x = 448,
+  y = 133,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/merchant_yellow",
+}
+
+chest{
+  name = "chest_game_chest_2",
+  layer = -1,
+  x = 520,
+  y = 117,
+  sprite = "entities/chest",
+}
+
+chest{
+  name = "chest_game_chest_3",
+  layer = -1,
+  x = 544,
+  y = 117,
+  sprite = "entities/chest",
+}
+
+wall{
+  layer = -1,
+  x = 152,
+  y = 392,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = -1,
+  x = 232,
+  y = 344,
+  width = 16,
+  height = 32,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

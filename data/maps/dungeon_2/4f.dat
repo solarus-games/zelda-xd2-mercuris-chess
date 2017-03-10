@@ -2450,6 +2450,217 @@ tile{
   pattern = "door.1.support.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 104,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "alter_corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 328,
+  width = 80,
+  height = 16,
+  pattern = "alter_wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 344,
+  width = 16,
+  height = 24,
+  pattern = "alter_wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 344,
+  width = 16,
+  height = 24,
+  pattern = "alter_wall.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "alter_stairs",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 368,
+  width = 24,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 368,
+  width = 8,
+  height = 16,
+  pattern = "alter_rail.1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 368,
+  width = 8,
+  height = 16,
+  pattern = "alter_rail.2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 368,
+  width = 24,
+  height = 16,
+  pattern = "alter_wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 344,
+  width = 80,
+  height = 24,
+  pattern = "939",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 456,
+  width = 16,
+  height = 48,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 504,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 504,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 504,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 336,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 door{
   name = "elevator_a_door",
   layer = 0,
@@ -2530,6 +2741,88 @@ sensor{
   height = 16,
 }
 
+chest{
+  layer = 0,
+  x = 160,
+  y = 349,
+  treasure_name = "hookshot",
+  treasure_savegame_variable = "dungeon_2_2f_big_chest",
+  sprite = "entities/big_chest",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_big_key",
+  cannot_open_dialog = "big_key_required",
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 440,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 504,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 56,
+  y = 429,
+  direction = 0,
+  breed = "chess/rook_white",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 264,
+  y = 429,
+  direction = 0,
+  breed = "chess/rook_white",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 56,
+  y = 301,
+  direction = 0,
+  breed = "chess/rook_white",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 264,
+  y = 301,
+  direction = 0,
+  breed = "chess/rook_white",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 160,
+  y = 605,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 200,
@@ -2600,6 +2893,42 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_up.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 456,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 496,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 456,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 496,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-5",
 }
 
 dynamic_tile{

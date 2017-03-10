@@ -26,7 +26,7 @@ Locked doors:
 
 Big key: After the mini-boss.
 
-Hookshot: In a big chest accessible long before the big key.
+Big chest (hookshot): 4F, accessible long before the mini-boss.
 
 VIP card: hookshot required
 

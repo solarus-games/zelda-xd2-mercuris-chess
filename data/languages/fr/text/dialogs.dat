@@ -1478,6 +1478,50 @@ pour tes petits bras !
 }
 
 dialog{
+  id = "chest_game.go_chest",
+  text = [[
+Qu'attendez-vous pour
+ouvrir un coffre ?
+]]
+}
+
+dialog{
+  id = "chest_game.not_enough_money",
+  text = [[
+Vous n'avez pas assez
+d'argent Monsieur !
+]]
+}
+
+dialog{
+  id = "chest_game.pay_first",
+  text = [[
+Hé ! Ici il faut payer
+avant de jouer !
+]]
+}
+
+dialog{
+  id = "chest_game.rules",
+  question = "1",
+  text = [[
+Misez 20 rubis pour
+choisir un coffre et
+gagner son contenu.
+Vous voulez jouer ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "chest_game.thanks",
+  text = [[
+Bonne chance héhé !
+]]
+}
+
+dialog{
   id = "dungeon_2.1f.bartender",
   question = "1",
   skip = "all",

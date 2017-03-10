@@ -54,8 +54,11 @@ function chest_game_manager:create_chest_game(map, prefix, price, rewards)
       hero:unfreeze()
     else
       playing = false
-      local reward = rewards[math.random(#rewards)]
-      hero:start_treasure(reward[1], reward[2], reward[3])
+      local item_name, variant, savegame_variable = unpack(rewards[math.random(#rewards)])
+      while savegame_variable ~= nil and game:get_value(savegame_variable) do
+        item_name, variant, savegame_variable = unpack(rewards[math.random(#rewards)])
+      end
+      hero:start_treasure(item_name, variant, savegame_variable)
     end
   end
 

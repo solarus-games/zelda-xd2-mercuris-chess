@@ -3528,8 +3528,8 @@ wall{
 destination{
   name = "destination",
   layer = -1,
-  x = 456,
-  y = 533,
+  x = 136,
+  y = 397,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

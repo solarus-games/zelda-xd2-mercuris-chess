@@ -19,6 +19,9 @@ local opacity_time = 0
 -- Event called at initialization time,
 -- as soon as this map becomes is loaded.
 function map:on_started()
+  -- Fade-in from white to simulate a cloudy mountain top
+  map:start_fadein_from_white(6000)
+
   -- Camera is moved manually
   local camera = map:get_camera()
   camera:start_manual()
@@ -281,8 +284,32 @@ function map:start_fadeout_to_white(duration)
   should_draw_white_surface = true
   white_surface:set_opacity(0)
 
-  function modify_opacity(current_time)
+  function modify_opacity_to_white(current_time)
     local new_opacity = linear(current_time, 0, 255, duration)
+    white_surface:set_opacity(new_opacity)
+    print("surface_opacity=", white_surface:get_opacity())
+  end
+
+  local timer_delay = 100
+
+  sol.timer.start(map, timer_delay, function()
+    opacity_time = opacity_time + timer_delay
+    modify_opacity_to_white(opacity_time)
+    return white_surface:get_opacity() < 255 -- repeat
+  end)
+
+  sol.timer.start(map, duration, function()
+    map:end_dreaming()
+  end)
+end
+
+-- Launch the white surface fade-in
+function map:start_fadein_from_white(duration)
+  should_draw_white_surface = true
+  white_surface:set_opacity(255)
+
+  function modify_opacity_to_transparent(current_time)
+    local new_opacity = linear(current_time, 255, -255, duration)
     white_surface:set_opacity(new_opacity)
   end
 
@@ -290,8 +317,8 @@ function map:start_fadeout_to_white(duration)
 
   sol.timer.start(map, timer_delay, function()
     opacity_time = opacity_time + timer_delay
-    modify_opacity(opacity_time)
-    return white_surface:get_opacity() < 255 -- repeat
+    modify_opacity_to_transparent(opacity_time)
+    return white_surface:get_opacity() > 0 -- repeat
   end)
 end
 
@@ -300,6 +327,11 @@ function map:on_draw(dst_surface)
   if should_draw_white_surface then
    white_surface:draw(dst_surface)
   end
+end
+
+function map:end_dreaming()
+  local hero = map:get_hero()
+  hero:teleport("main_village/link_house", "start_position", "immediate")
 end
 
 -- TODO:

@@ -26,6 +26,7 @@ map{ id = "main_village/geek_house", description = "Geek House" }
 map{ id = "main_village/humid_house", description = "Humid House" }
 map{ id = "main_village/tavern", description = "Tavern" }
 map{ id = "main_village/vases_house", description = "Vases House" }
+map{ id = "main_village/link_house", description = "main_village/link_house" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }
@@ -162,6 +163,7 @@ sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
 sprite{ id = "enemies/smk_yoshi", description = "SMK Yoshi" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/bed", description = "entities/bed" }
 sprite{ id = "entities/big_chest", description = "Big chest" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }

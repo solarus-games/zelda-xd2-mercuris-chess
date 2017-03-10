@@ -1,3 +1,4 @@
+map{ id = "beach_store", description = "Beach Store" }
 map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
 map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
@@ -24,9 +25,9 @@ map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
 map{ id = "main_village/geek_house", description = "Geek House" }
 map{ id = "main_village/humid_house", description = "Humid House" }
+map{ id = "main_village/link_house", description = "main_village/link_house" }
 map{ id = "main_village/tavern", description = "Tavern" }
 map{ id = "main_village/vases_house", description = "Vases House" }
-map{ id = "main_village/link_house", description = "main_village/link_house" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }

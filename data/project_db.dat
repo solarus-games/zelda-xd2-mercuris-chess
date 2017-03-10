@@ -15,6 +15,7 @@ map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
+map{ id = "main_village/link_house", description = "main_village/link_house" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }

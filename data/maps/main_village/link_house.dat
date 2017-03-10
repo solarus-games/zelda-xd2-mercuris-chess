@@ -372,16 +372,6 @@ destination{
   direction = 3,
 }
 
-door{
-  name = "door",
-  layer = 0,
-  x = 312,
-  y = 48,
-  direction = 1,
-  sprite = "entities/door_normal",
-  savegame_variable = "b62",
-}
-
 tile{
   layer = 1,
   x = 40,
@@ -1073,18 +1063,6 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
-}
-
-teletransporter{
-  name = "teletransporter_6",
-  layer = 1,
-  x = 120,
-  y = 200,
-  width = 16,
-  height = 16,
-  transition = "immediate",
-  destination_map = "12",
-  destination = "tmp",
 }
 
 npc{

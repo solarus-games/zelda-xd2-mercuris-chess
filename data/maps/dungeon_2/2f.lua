@@ -38,6 +38,8 @@ local chest_game_rewards = {
 }
 chest_game_manager:create_chest_game(map, "chest_game", 20, chest_game_rewards)
 
+local vegas_enemies = {}
+
 function map:on_started()
 
   -- Walking NPCs.
@@ -80,3 +82,84 @@ function casino_receptionnist:on_interaction()
     end)
   end
 end
+
+-- Cards enemy game.
+local function vegas_on_immobilized(enemy)
+
+  local direction = enemy:get_sprite():get_direction()
+  local all_immobilized = true
+  local all_same_direction = true
+  for _, vegas in ipairs(vegas_enemies) do
+    local sprite = vegas:get_sprite()
+    if sprite:get_animation() ~= "immobilized" then
+      all_immobilized = false
+    end
+    if vegas:get_sprite():get_direction() ~= direction then
+      all_same_direction = false
+    end
+  end
+
+  if not all_immobilized then
+    return
+  end
+
+  sol.timer.start(map, 500, function()
+
+    if not all_same_direction then
+      sol.audio.play_sound("wrong")
+      for _, vegas in ipairs(vegas_enemies) do
+        vegas:restart()
+      end
+      return
+    end
+
+    -- Give the reward.
+    sol.audio.play_sound("secret")
+    local treasure_name, treasure_variant, treasure_savegame_variable = "small_key", 1, "dungeon_2_2f_vegas_key"
+    if game:get_value(treasure_savegame_variable) then
+      -- Already got the small key: give rupees instead.
+      treasure_name, treasure_variant, treasure_savegame_variable = "rupee", 3, nil
+    end
+    local x, y, layer = vegas_reward_placeholder:get_position()
+    map:create_pickable({
+      x = x,
+      y = y,
+      layer = layer,
+      treasure_name = treasure_name,
+      treasure_variant = treasure_variant,
+      treasure_savegame_variable = treasure_savegame_variable,
+    })
+
+    -- Kill them.
+    for _, vegas in ipairs(vegas_enemies) do
+      vegas:set_life(0)
+    end
+    
+  end)
+
+end
+
+-- Sets up the Vegas card enemies game.
+-- Needs to be called whenever the hero enters the room
+-- (enemies are re-created when traversing separators).
+local function initialize_vegas()
+  vegas_enemies = {}
+  if auto_enemy_vegas_1 == nil then
+    -- Already dead.
+    return
+  end
+  if auto_enemy_vegas_1.on_immobilized ~= nil then
+    -- Already initialized.
+    return
+  end
+
+  for vegas in map:get_entities("auto_enemy_vegas") do
+    vegas.on_immobilized = vegas_on_immobilized
+    vegas_enemies[#vegas_enemies + 1] = vegas
+  end
+end
+
+for vegas_room_sensor in map:get_entities("vegas_room_sensor") do
+  vegas_room_sensor.on_activated = initialize_vegas
+end
+

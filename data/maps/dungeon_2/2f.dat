@@ -2898,7 +2898,7 @@ custom_entity{
 }
 
 enemy{
-  name = "auto_enemy_4",
+  name = "auto_enemy_vegas_3",
   layer = -1,
   x = 160,
   y = 341,
@@ -2907,7 +2907,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_5",
+  name = "auto_enemy_vegas_2",
   layer = -1,
   x = 104,
   y = 333,
@@ -2916,7 +2916,7 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_6",
+  name = "auto_enemy_vegas_1",
   layer = -1,
   x = 88,
   y = 373,
@@ -3199,7 +3199,7 @@ block{
 }
 
 enemy{
-  name = "auto_enemy_7",
+  name = "auto_enemy_vegas_4",
   layer = -1,
   x = 200,
   y = 373,
@@ -3459,16 +3459,6 @@ wall{
   stops_blocks = true,
 }
 
-destination{
-  name = "destination",
-  layer = -1,
-  x = 128,
-  y = 573,
-  direction = 1,
-  starting_location_mode = "yes",
-  default = true,
-}
-
 chest{
   name = "chest_game_chest_1",
   layer = -1,
@@ -3523,6 +3513,44 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+destination{
+  name = "destination",
+  layer = -1,
+  x = 160,
+  y = 397,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
+}
+
+custom_entity{
+  name = "vegas_reward_placeholder",
+  layer = -1,
+  x = 160,
+  y = 357,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+sensor{
+  name = "vegas_room_sensor_1",
+  layer = -1,
+  x = 160,
+  y = 461,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "vegas_room_sensor_2",
+  layer = -1,
+  x = 304,
+  y = 365,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -7863,6 +7891,42 @@ dynamic_tile{
   width = 16,
   height = 8,
   enabled_at_start = true,
+}
+
+sensor{
+  name = "vegas_room_sensor_3",
+  layer = 0,
+  x = 304,
+  y = 293,
+  width = 16,
+  height = 80,
+}
+
+sensor{
+  name = "vegas_room_sensor_4",
+  layer = 0,
+  x = 80,
+  y = 293,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "vegas_room_sensor_5",
+  layer = 0,
+  x = 160,
+  y = 293,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "vegas_room_sensor_6",
+  layer = 0,
+  x = 240,
+  y = 293,
+  width = 16,
+  height = 16,
 }
 
 tile{

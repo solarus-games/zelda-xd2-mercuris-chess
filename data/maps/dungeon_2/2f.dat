@@ -3394,7 +3394,7 @@ wall{
   x = 848,
   y = 312,
   width = 16,
-  height = 88,
+  height = 112,
   stops_npcs = true,
   stops_blocks = true,
 }
@@ -3551,6 +3551,16 @@ sensor{
   y = 365,
   width = 16,
   height = 16,
+}
+
+wall{
+  layer = -1,
+  x = 864,
+  y = 408,
+  width = 24,
+  height = 16,
+  stops_npcs = true,
+  stops_blocks = true,
 }
 
 tile{

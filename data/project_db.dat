@@ -1,3 +1,10 @@
+map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
+map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
+map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
+map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
+map{ id = "desert_village/desert_east_house", description = "Desert East House" }
+map{ id = "desert_village/desert_small_house", description = "Desert Small House" }
+map{ id = "desert_village/desert_west_house", description = "Desert West House" }
 map{ id = "dungeon_1/1f", description = "Dungeon 1 1F" }
 map{ id = "dungeon_2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeon_2/2f", description = "Dungeon 2 2F (Casino)" }
@@ -15,6 +22,10 @@ map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
+map{ id = "main_village/geek_house", description = "Geek House" }
+map{ id = "main_village/humid_house", description = "Humid House" }
+map{ id = "main_village/tavern", description = "Tavern" }
+map{ id = "main_village/vases_house", description = "Vases House" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }
@@ -22,6 +33,7 @@ map{ id = "out/b2", description = "B2 (Forest)" }
 map{ id = "out/c1", description = "C1 (Desert)" }
 map{ id = "out/c2", description = "C2 (Swamp)" }
 
+tileset{ id = "cave_legacy", description = "Cave (legacy)" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
 tileset{ id = "dungeon/dark_brown", description = "Dark brown dungeon" }
@@ -38,8 +50,9 @@ tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
 tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
+tileset{ id = "house_old", description = "House (legacy)" }
 tileset{ id = "la_beach", description = "Link's Awakening beach SNES style" }
-tileset{ id = "light_world", description = "Light World (old)" }
+tileset{ id = "light_world", description = "Light World (legacy)" }
 tileset{ id = "outside", description = "Outside" }
 
 sprite{ id = "console/cursor", description = "Console cursor" }

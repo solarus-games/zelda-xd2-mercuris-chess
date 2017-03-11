@@ -7,6 +7,9 @@ map{ id = "desert_village/desert_east_house", description = "Desert East House" 
 map{ id = "desert_village/desert_small_house", description = "Desert Small House" }
 map{ id = "desert_village/desert_west_house", description = "Desert West House" }
 map{ id = "dungeon_1/1f", description = "Dungeon 1 1F" }
+map{ id = "dungeon_1/2f", description = "Dungeon 1 2F" }
+map{ id = "dungeon_1/b1", description = "Dungeon 1 B1" }
+map{ id = "dungeon_1/b2", description = "Dungeon 1 B2" }
 map{ id = "dungeon_2/1f", description = "Dungeon 2 1F" }
 map{ id = "dungeon_2/2f", description = "Dungeon 2 2F (Casino)" }
 map{ id = "dungeon_2/3f", description = "Dungeon 2 3F" }

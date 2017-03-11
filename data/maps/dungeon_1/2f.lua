@@ -1,4 +1,4 @@
--- Lua script of map dungeon_1/1f.
+-- Lua script of map dungeon_1/2f.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -9,11 +9,6 @@
 
 local map = ...
 local game = map:get_game()
-
-local separator_manager = require("scripts/maps/separator_manager")
-separator_manager:manage_map(map)
-local door_manager = require("scripts/maps/door_manager")
-door_manager:manage_map(map)
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()

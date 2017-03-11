@@ -343,6 +343,15 @@ tile{
   pattern = "138",
 }
 
+tile{
+  layer = 0,
+  x = 280,
+  y = 96,
+  width = 8,
+  height = 16,
+  pattern = "124",
+}
+
 stairs{
   name = "stairs",
   layer = 0,
@@ -360,7 +369,7 @@ teletransporter{
   width = 16,
   height = 16,
   transition = "scrolling",
-  destination_map = "12",
+  destination_map = "main_village/link_cave",
   destination = "_side",
 }
 
@@ -381,6 +390,15 @@ door{
   sprite = "entities/doors/door_d1_normal",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 120,
+  y = 240,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/link_house",
 }
 
 tile{
@@ -1013,15 +1031,6 @@ tile{
   pattern = "110",
 }
 
-tile{
-  layer = 1,
-  x = 280,
-  y = 96,
-  width = 8,
-  height = 16,
-  pattern = "124",
-}
-
 destination{
   name = "from_outside",
   layer = 1,
@@ -1054,17 +1063,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-}
-
-teletransporter{
-  name = "teletransporter_4",
-  layer = 1,
-  x = 136,
-  y = 224,
-  width = 16,
-  height = 16,
-  destination_map = "3",
-  destination = "link_house_out",
 }
 
 destructible{
@@ -1139,6 +1137,15 @@ sensor{
   y = 197,
   width = 16,
   height = 16,
+}
+
+teletransporter{
+  layer = 1,
+  x = 136,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/link_house",
 }
 
 tile{

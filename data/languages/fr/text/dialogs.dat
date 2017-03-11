@@ -2279,7 +2279,7 @@ Haha, on a attrapé une
 méduse !
 
 On va la découper en
-petits moceaux !
+petits morceaux !
 ]]
 }
 
@@ -2438,11 +2438,13 @@ Enclos à rubis
 dialog{
   id = "island.zoo_chief",
   text = [[
-C'est ici que Monsieur Grump
-fait prendre l'air à ses rubis.
+C'est ici que Monsieur
+Grump fait prendre
+l'air à ses rubis.
 
-Et comme ça nos visiteurs
-ont l'occasion de les admirer.
+Comme ça nos visiteurs
+ont l'occasion de les
+admirer.
 ]]
 }
 

@@ -3,7 +3,7 @@
 -- 
 -- Usage:
 -- local elevator_manager = require("scripts/maps/elevator_manager")
--- elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor)
+-- elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor, [item_required])
 -- - map: The map where to create an elevator.
 -- - elevator_prefix: Prefix of the name of elevator entities.
 --   There should exist the following entities:
@@ -12,8 +12,9 @@
 --   - elevator_prefix .. _door: A door to close when the hero is in the elevator.
 --   - elevator_prefix .. _up_tile* (optional): Dynamic tiles to enable when going up with the elevator.
 --   - elevator_prefix .. _down_tile* (optional): Dynamic tiles to enable when going down with the elevator.
--- - min_floor: lowest floor accessible from the elevator.
--- - max_floor: highest floor accessible from the elevator.
+-- - min_floor: Lowest floor accessible from the elevator.
+-- - max_floor: Highest floor accessible from the elevator.
+-- - item_required (optional): Name of an item necessary to access the elevator.
 
 local elevator_manager = {}
 
@@ -28,7 +29,7 @@ local function get_map_suffix(floor)
   end
 end
 
-function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor)
+function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor, item_required)
 
   local sensor_name = elevator_prefix .. "_sensor"
   local elevator_sensor = map:get_entity(sensor_name)
@@ -136,14 +137,30 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
 
   function elevator_sensor:on_activated()
 
-    game:set_suspended(true)
-    sol.audio.play_sound("door_closed")
-    hero:set_visible(false)
-    map:close_doors(elevator_door:get_name())
-    local timer = sol.timer.start(map, 200, function()
-      sol.menu.start(map, menu)
-    end)
-    timer:set_suspended_with_map(false)
+    if item_required ~= nil and not game:has_item(item_required) then
+      -- Access refused.
+      sol.audio.play_sound("wrong")
+      game:start_dialog("elevator.access_refused." .. item_required, function()
+        hero:freeze()
+        hero:set_animation("walking")
+        hero:set_direction(3)
+        local movement = sol.movement.create("path")
+        movement:set_path({ 6 })
+        movement:set_speed(88)
+        movement:start(hero, function()
+          hero:unfreeze()
+        end)
+      end)
+    else
+      game:set_suspended(true)
+      sol.audio.play_sound("door_closed")
+      hero:set_visible(false)
+      map:close_doors(elevator_door:get_name())
+      local timer = sol.timer.start(map, 200, function()
+        sol.menu.start(map, menu)
+      end)
+      timer:set_suspended_with_map(false)
+    end
   end
 
   -- Always open the door initially.

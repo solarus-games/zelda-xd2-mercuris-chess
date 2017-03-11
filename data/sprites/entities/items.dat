@@ -452,6 +452,13 @@ animation{
   },
 }
 animation{
+  name = "vip_card",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 208, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "wooden_key",
   src_image = "entities/items.png",
   directions = {

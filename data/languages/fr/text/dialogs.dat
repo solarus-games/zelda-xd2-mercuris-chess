@@ -1428,6 +1428,18 @@ les ennemis !
 }
 
 dialog{
+  id = "_treasure.vip_card.1",
+  text = [[
+Tu as trouvé la
+Carte VIP !
+
+Tu peux maintenant
+accéder à tous les
+étages de la tour !
+]]
+}
+
+dialog{
   id = "big_key_required",
   icon = "73",
   text = [[
@@ -1816,6 +1828,15 @@ dialog{
   text = [[
        Niveau 2
       Tour Grump
+]]
+}
+
+dialog{
+  id = "elevator.access_refused.vip_card",
+  text = [[
+Accès refusé.
+Cet ascenseur est
+reservé aux VIP.
 ]]
 }
 

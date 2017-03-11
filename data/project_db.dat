@@ -1,4 +1,3 @@
-map{ id = "Hyrule Castle", description = "Hyrule Castle" }
 map{ id = "beach_store", description = "Beach Store" }
 map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
 map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
@@ -22,6 +21,7 @@ map{ id = "dungeon_2/store", description = "Dungeon 2 Store" }
 map{ id = "enemy_store", description = "Enemy Store" }
 map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }
+map{ id = "examples/hyrule_castle", description = "Hyrule Castle" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
 map{ id = "main_village/geek_house", description = "Geek House" }

@@ -2522,6 +2522,24 @@ tile{
   pattern = "939",
 }
 
+tile{
+  layer = -1,
+  x = 480,
+  y = 464,
+  width = 16,
+  height = 32,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = -1,
+  x = 816,
+  y = 464,
+  width = 16,
+  height = 32,
+  pattern = "floor_pot",
+}
+
 block{
   name = "knight_19",
   layer = -1,
@@ -3561,6 +3579,47 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+destructible{
+  layer = -1,
+  x = 488,
+  y = 477,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = -1,
+  x = 488,
+  y = 493,
+  treasure_name = "fairy",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = -1,
+  x = 824,
+  y = 493,
+  treasure_name = "small_key_brandished",
+  treasure_savegame_variable = "dungeon_2_2f_e_key_vase",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = -1,
+  x = 824,
+  y = 477,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{
@@ -7156,24 +7215,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 480,
-  y = 464,
-  width = 16,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
-  x = 816,
-  y = 464,
-  width = 16,
-  height = 32,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 144,
   y = 304,
   width = 32,
@@ -7197,6 +7238,18 @@ tile{
   width = 56,
   height = 8,
   pattern = "hole.1.jump",
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 wall{
@@ -7897,47 +7950,6 @@ dynamic_tile{
   width = 16,
   height = 8,
   enabled_at_start = true,
-}
-
-destructible{
-  layer = 0,
-  x = 824,
-  y = 493,
-  treasure_name = "small_key_brandished",
-  treasure_savegame_variable = "dungeon_2_2f_e_key_vase",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 824,
-  y = 477,
-  treasure_name = "random",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 488,
-  y = 477,
-  treasure_name = "random",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  layer = 0,
-  x = 488,
-  y = 493,
-  treasure_name = "fairy",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
 }
 
 jumper{

@@ -11,7 +11,11 @@ elevator_manager:create_elevator(map, "elevator_a", 0, 3)
 
 elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
-function map:on_started()
+function map:on_started(destination)
+
+  if destination == from_2f_w then
+    map:set_doors_open("door_d")
+  end
 
   -- Access to the kitchen.
   if game:get_value("dungeon_2_kitchen_guard_access") then

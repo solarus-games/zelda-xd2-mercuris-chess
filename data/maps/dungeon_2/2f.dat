@@ -3563,18 +3563,6 @@ destination{
   default = true,
 }
 
-wall{
-  layer = -1,
-  x = 240,
-  y = 312,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
 tile{
   layer = 0,
   x = 192,
@@ -7202,6 +7190,15 @@ tile{
   pattern = "barrier.border-2",
 }
 
+tile{
+  layer = 0,
+  x = 184,
+  y = 312,
+  width = 56,
+  height = 8,
+  pattern = "hole.1.jump",
+}
+
 wall{
   layer = 0,
   x = 736,
@@ -7978,6 +7975,18 @@ sensor{
   y = 293,
   width = 16,
   height = 16,
+}
+
+wall{
+  layer = 0,
+  x = 240,
+  y = 312,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

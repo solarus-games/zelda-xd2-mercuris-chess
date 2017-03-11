@@ -8355,8 +8355,8 @@ wall{
   layer = 0,
   x = 992,
   y = 920,
-  width = 16,
-  height = 32,
+  width = 8,
+  height = 40,
   stops_npcs = true,
 }
 
@@ -8370,6 +8370,16 @@ teletransporter{
   transition = "scrolling",
   destination_map = "out/a2",
   destination = "_side",
+}
+
+wall{
+  name = "custom_obstacle_5",
+  layer = 0,
+  x = 80,
+  y = 872,
+  width = 8,
+  height = 40,
+  stops_npcs = true,
 }
 
 tile{

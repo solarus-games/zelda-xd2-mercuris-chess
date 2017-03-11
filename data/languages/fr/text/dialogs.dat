@@ -1591,6 +1591,26 @@ père noël…
 }
 
 dialog{
+  id = "chill_valley.doctor",
+  text = [[
+ Je suis Le Docteur.
+Je suis un seigneur du
+temps.
+Je viens de la planète
+Gallifrey
+de la constellation
+de Kasterborous.
+J'ai 903 ans et je suis
+l'homme qui va vous
+sauver ainsi que les
+6 milliards d'humains de
+la planète Terre.
+Ça vous pose un problème
+?
+]]
+}
+
+dialog{
   id = "chill_valley.no_entry_1",
   text = [[
 ...

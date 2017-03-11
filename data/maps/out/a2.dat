@@ -13,7 +13,7 @@ properties{
 tile{
   layer = 0,
   x = 16,
-  y = 0,
+  y = 16,
   width = 1024,
   height = 1024,
   pattern = "223",
@@ -3452,6 +3452,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/the_doctor",
+  behavior = "dialog#chill_valley.doctor",
 }
 
 npc{

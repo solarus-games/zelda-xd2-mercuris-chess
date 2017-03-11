@@ -281,7 +281,9 @@ function zelda:on_interaction()
   if chore_step == 0 then
     game:start_dialog("chores.chore_0", function()
       -- Give the player the cat food if he has not got it yet.
-      -- game:has_item()
+      if not game:has_item("cat_food") then
+        hero:start_treasure("cat_food")
+      end
     end)
 
   -- Step 1: Cut the grass in the garden.

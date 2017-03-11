@@ -325,6 +325,20 @@ Flèches.
 }
 
 dialog{
+  id = "_item_description.cat_food.1",
+  text = [[
+Une boite de conserve
+contenant de la
+nourriture pour chat.
+Ça n'a pas l'air très
+appétissant,
+mais bon...
+c'est destiné aux
+chats, n'est-ce pas ?
+]]
+}
+
+dialog{
   id = "_item_description.croissants_counter.1",
   icon = "18",
   skip = "all",
@@ -958,6 +972,21 @@ Robin des Bois !
 }
 
 dialog{
+  id = "_treasure.cat_food.1",
+  text = [[
+Zelda t'a donné la 
+nourriture pour chat !
+$0
+Va vite nourrir son
+petit chaton car il
+semble affamé!
+La pauvre petite boule
+de poils...
+Dépêche toi!
+]]
+}
+
+dialog{
   id = "_treasure.compass.1",
   icon = "71",
   text = [[
@@ -1551,6 +1580,7 @@ tu vas devoir nourir
 mon petit chaton chéri.
 Tu vas voir, il est
 adorable, ce petit chou.
+
 Il s'appelle
 Flocon-de-neige, 
 il est vraiment trop
@@ -1568,6 +1598,9 @@ comme ça ?
 Tu n'as pas fini de te
 faire pardonner!
 Allez, au boulot!
+Il y a une petite bête
+toute mignonne à
+nourrir dans la cave.
 ]]
 }
 

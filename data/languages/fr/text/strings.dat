@@ -28,6 +28,7 @@ text{ key = "inventory.caption.item.bottle_3.5", value = "Flacon Magique$(Potion
 text{ key = "inventory.caption.item.bottle_3.6", value = "Flacon Magique$(Fée)" }
 text{ key = "inventory.caption.item.bow.1", value = "Arc" }
 text{ key = "inventory.caption.item.bow.2", value = "Arc & Flèches" }
+text{ key = "inventory.caption.item.cat_food.1", value = "Nourriture pour chat" }
 text{ key = "inventory.caption.item.croissants_counter.1", value = "Croissants" }
 text{ key = "inventory.caption.item.feather.1", value = "Plume de Dodo" }
 text{ key = "inventory.caption.item.fire_rod.1", value = "Baguette de feu" }

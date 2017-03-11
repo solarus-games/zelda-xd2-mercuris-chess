@@ -152,6 +152,13 @@ animation{
   },
 }
 animation{
+  name = "cat_food",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 336, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "compass",
   src_image = "entities/items.png",
   directions = {

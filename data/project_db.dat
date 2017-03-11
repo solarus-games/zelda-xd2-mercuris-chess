@@ -40,6 +40,7 @@ tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
 tileset{ id = "dungeon/dark_brown", description = "Dark brown dungeon" }
 tileset{ id = "dungeon/dark_yellow", description = "Dark yellow dungeon" }
+tileset{ id = "dungeon/gold", description = "Gold dungeon" }
 tileset{ id = "dungeon/gray", description = "Gray dungeon" }
 tileset{ id = "dungeon/gray_blue", description = "Gray-blue dungeon" }
 tileset{ id = "dungeon/gray_brown", description = "Gray-brown dungeon" }

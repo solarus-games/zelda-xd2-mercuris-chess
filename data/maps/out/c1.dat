@@ -1416,17 +1416,17 @@ tile{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
   x = 16,
-  y = 928,
-  width = 16,
-  height = 48,
-  pattern = "43",
-}
-
-tile{
-  layer = 0,
-  x = 32,
-  y = 960,
+  y = 952,
   width = 32,
   height = 16,
   pattern = "43",
@@ -1434,8 +1434,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 80,
-  y = 928,
+  x = 56,
+  y = 936,
   width = 16,
   height = 48,
   pattern = "43",
@@ -1443,45 +1443,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 928,
-  width = 32,
-  height = 16,
-  pattern = "43",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 944,
+  x = 72,
+  y = 968,
   width = 16,
-  height = 32,
-  pattern = "43",
-}
-
-tile{
-  layer = 0,
-  x = 96,
-  y = 960,
-  width = 16,
-  height = 16,
-  pattern = "43",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 928,
-  width = 16,
-  height = 48,
-  pattern = "43",
-}
-
-tile{
-  layer = 0,
-  x = 160,
-  y = 960,
-  width = 32,
   height = 16,
   pattern = "43",
 }
@@ -10880,6 +10844,78 @@ tile{
   width = 32,
   height = 8,
   pattern = "523",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 952,
+  width = 32,
+  height = 16,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 968,
+  width = 16,
+  height = 16,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 936,
+  width = 16,
+  height = 48,
+  pattern = "43",
 }
 
 jumper{

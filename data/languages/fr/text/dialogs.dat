@@ -1579,6 +1579,12 @@ Bonne chance héhé !
 }
 
 dialog{
+  id = "chill_valley.big_bird",
+  text = [[
+]]
+}
+
+dialog{
   id = "chill_valley.no_entry_1",
   text = [[
 ...
@@ -1604,6 +1610,23 @@ C'est pas parce que tu
 sauve le monde que
 toutes les portes te
 sont ouvertes.
+]]
+}
+
+dialog{
+  id = "chill_valley.one_day",
+  text = [[
+Il parait que Mercuris'
+Chest va sortir un jour.
+]]
+}
+
+dialog{
+  id = "chill_valley.out_soon",
+  text = [[
+La sortie de Mercuris'
+Chest n'a jamais été
+aussi proche!
 ]]
 }
 

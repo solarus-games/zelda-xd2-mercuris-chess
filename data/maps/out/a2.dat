@@ -12,7 +12,7 @@ properties{
 
 tile{
   layer = 0,
-  x = 24,
+  x = 16,
   y = 0,
   width = 1024,
   height = 1024,
@@ -3444,20 +3444,11 @@ teletransporter{
   destination = "_side",
 }
 
-chest{
-  layer = 0,
-  x = 1008,
-  y = 317,
-  treasure_name = "creeper",
-  treasure_savegame_variable = "out_a2_creeper_chest",
-  sprite = "entities/chest",
-}
-
 npc{
   name = "the_doctor",
   layer = 0,
-  x = 992,
-  y = 333,
+  x = 376,
+  y = 301,
   direction = 3,
   subtype = 1,
   sprite = "npc/the_doctor",

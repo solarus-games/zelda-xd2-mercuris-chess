@@ -10,6 +10,7 @@
 local map = ...
 local game = map:get_game()
 
+-- White surface for fade-in/out.
 local quest_w, quest_h = sol.video.get_quest_size()
 local white_surface = sol.surface.create(quest_w, quest_h)
 white_surface:fill_color({255, 255, 255})
@@ -138,7 +139,7 @@ function map:make_marine_go_to_wood_piece()
     sol.timer.start(map, 1000, function()
       local dialog_box = game:get_dialog_box()
       dialog_box:set_position("bottom")
-      game:start_dialog("marine_wondering")
+      game:start_dialog("intro.marine_wondering")
       map:make_marine_come_back_from_wood_piece()
     end)
   end)
@@ -207,7 +208,7 @@ function map:make_marine_go_to_wreck()
     marine_sprite:set_paused(true)
 
     sol.timer.start(map, 1000, function()
-      game:start_dialog("marine_exclaming")
+      game:start_dialog("intro.marine_exclaming")
       -- Then she runs to the hero.
       map:make_marine_go_to_link()
     end)
@@ -234,7 +235,7 @@ function map:make_marine_go_to_link()
     local dialog_box = game:get_dialog_box()
     dialog_box:set_position("bottom")
     local player_name = game:get_player_name()
-    game:start_dialog("marine_waking_up", player_name)
+    game:start_dialog("intro.marine_waking_up", player_name)
     map:start_fadeout_to_white(2000)
   end)
 
@@ -329,6 +330,7 @@ function map:on_draw(dst_surface)
   end
 end
 
+-- End the dream and go to Link's house.'
 function map:end_dreaming()
   local hero = map:get_hero()
   hero:teleport("main_village/link_house", "start_position", "immediate")

@@ -1939,7 +1939,7 @@ pour la stocker...
 }
 
 dialog{
-  id = "marine_exclaming",
+  id = "intro.marine_exclaming",
   text = [[
 ...
 Oh!
@@ -1947,7 +1947,7 @@ Oh!
 }
 
 dialog{
-  id = "marine_waking_up",
+  id = "intro.marine_waking_up",
   text = [[
 $v ?
 Es-tu vivant ?
@@ -1963,13 +1963,29 @@ DEBOUT !
 }
 
 dialog{
-  id = "marine_wondering",
+  id = "intro.marine_wondering",
   text = [[
 ???
 Qu'est-ce que c'est
 que ça ?
 D'où ça vient ?
 Un naufrage ?
+]]
+}
+
+dialog{
+  id = "intro.zelda_shaking",
+  text = [[
+JE VAIS TE SECOUER!
+]]
+}
+
+dialog{
+  id = "intro.zelda_waking_up",
+  text = [[
+REVEILLE-TOOOI !
+ALLEEEEEEZ !
+DEBOUUUUUUT !
 ]]
 }
 

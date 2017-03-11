@@ -12,6 +12,24 @@ properties{
 
 tile{
   layer = -1,
+  x = 704,
+  y = 152,
+  width = 96,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 736,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = -1,
   x = 1432,
   y = 408,
   width = 48,
@@ -593,15 +611,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall_low.corner.1-1",
-}
-
-tile{
-  layer = -1,
-  x = 704,
-  y = 152,
-  width = 96,
-  height = 24,
-  pattern = "wall_low.1-1",
 }
 
 tile{
@@ -2204,6 +2213,42 @@ tile{
   width = 8,
   height = 8,
   pattern = "wall_low_border.corner_reverse.4-6",
+}
+
+tile{
+  layer = -1,
+  x = 744,
+  y = 160,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.spiral_down.1",
+}
+
+tile{
+  layer = -1,
+  x = 760,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 736,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 744,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2-1",
 }
 
 destination{

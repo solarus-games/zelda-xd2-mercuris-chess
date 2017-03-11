@@ -5,6 +5,6 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  tileset = "cave_legacy",
+  tileset = "dungeon/gold",
 }
 

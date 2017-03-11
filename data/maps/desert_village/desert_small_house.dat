@@ -6,7 +6,7 @@ properties{
   world = "inside_world",
   min_layer = 0,
   max_layer = 2,
-  tileset = "house_old",
+  tileset = "house_legacy",
   music = "fortune_teller",
 }
 

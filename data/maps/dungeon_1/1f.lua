@@ -27,3 +27,7 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function init_river()
+  local knight = map:get_entity("knight_" .. i)
+end

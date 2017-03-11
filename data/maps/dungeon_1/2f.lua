@@ -22,3 +22,7 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+function mario_message:on_interaction()
+  sol.audio.play_sound("mk64_mario_yeah")
+end

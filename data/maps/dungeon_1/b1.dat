@@ -6,6 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/blue",
+  music = "alttp/dark_world_dungeon",
 }
 
 tile{
@@ -746,6 +747,42 @@ tile{
   pattern = "door.1.support.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 136,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 136,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-6",
+}
+
 stairs{
   layer = 0,
   x = 72,
@@ -837,6 +874,28 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "dungeon_1/1f",
+  destination = "from_b1_right",
+}
+
+teletransporter{
+  name = "to_b2_left",
+  layer = 0,
+  x = 72,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/b2",
+  destination = "from_b1_left",
+}
+
+teletransporter{
+  name = "to_b2_right",
+  layer = 0,
+  x = 552,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/b2",
   destination = "from_b1_right",
 }
 

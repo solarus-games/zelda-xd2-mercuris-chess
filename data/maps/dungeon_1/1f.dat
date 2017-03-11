@@ -1128,60 +1128,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 920,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = -1,
-  x = 920,
-  y = 312,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = -1,
-  x = 920,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = -1,
-  x = 984,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = -1,
-  x = 984,
-  y = 312,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = -1,
-  x = 984,
-  y = 280,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = -1,
   x = 760,
   y = 248,
   width = 16,
@@ -2315,14 +2261,6 @@ stairs{
   subtype = 4,
 }
 
-chest{
-  layer = -1,
-  x = 960,
-  y = 213,
-  treasure_name = "flippers",
-  sprite = "entities/chest",
-}
-
 stairs{
   layer = -1,
   x = 1160,
@@ -3019,24 +2957,6 @@ tile{
 tile{
   layer = 0,
   x = 48,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
-}
-
-tile{
-  layer = 0,
-  x = 256,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "torch_off",
-}
-
-tile{
-  layer = 0,
-  x = 48,
   y = 352,
   width = 32,
   height = 96,
@@ -3302,15 +3222,6 @@ tile{
   width = 24,
   height = 24,
   pattern = "wall.corner_reverse.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 360,
-  width = 144,
-  height = 240,
-  pattern = "water.transparent",
 }
 
 tile{
@@ -5169,15 +5080,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 944,
-  y = 432,
-  width = 32,
-  height = 8,
-  pattern = "door_cache.2-6",
-}
-
-tile{
-  layer = 0,
   x = 1544,
   y = 280,
   width = 16,
@@ -6141,78 +6043,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1792,
-  y = 48,
-  width = 64,
-  height = 80,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1696,
-  y = 64,
-  width = 96,
-  height = 64,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1504,
-  y = 128,
-  width = 256,
-  height = 64,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1472,
-  y = 144,
-  width = 32,
-  height = 48,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1472,
-  y = 192,
-  width = 96,
-  height = 16,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1472,
-  y = 208,
-  width = 64,
-  height = 160,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1440,
-  y = 304,
-  width = 32,
-  height = 64,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
-  x = 1408,
-  y = 368,
-  width = 96,
-  height = 64,
-  pattern = "water.transparent",
-}
-
-tile{
-  layer = 0,
   x = 1648,
   y = 288,
   width = 224,
@@ -6344,6 +6174,114 @@ tile{
   width = 16,
   height = 32,
   pattern = "wall_pillar.1-7",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 288,
+  width = 224,
+  height = 144,
+  pattern = "glass_floor.6",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 544,
+  height = 144,
+  pattern = "glass_floor.6",
+}
+
+tile{
+  layer = 0,
+  x = 1648,
+  y = 288,
+  width = 224,
+  height = 384,
+  pattern = "glass_floor.6",
+}
+
+tile{
+  layer = 0,
+  x = 1680,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1744,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1808,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1616,
+  y = 616,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1616,
+  y = 536,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 1880,
+  y = 536,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1880,
+  y = 616,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1880,
+  y = 312,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 1880,
+  y = 392,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
 }
 
 chest{
@@ -7001,6 +6939,301 @@ teletransporter{
   destination = "from_1f_center",
 }
 
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 264,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 928,
+  y = 357,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 928,
+  y = 325,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 928,
+  y = 293,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 992,
+  y = 293,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 992,
+  y = 325,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 992,
+  y = 357,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+dynamic_tile{
+  layer = 0,
+  x = 88,
+  y = 360,
+  pattern = "water.transparent",
+  width = 144,
+  height = 240,
+  enabled_at_start = true,
+}
+
+switch{
+  layer = 0,
+  x = 1816,
+  y = 152,
+  subtype = "walkable",
+  sprite = "entities/switches/solid_switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+dynamic_tile{
+  name = "river_1",
+  layer = 0,
+  x = 1504,
+  y = 128,
+  pattern = "water.transparent",
+  width = 96,
+  height = 64,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "river_2",
+  layer = 0,
+  x = 1472,
+  y = 144,
+  pattern = "water.transparent",
+  width = 32,
+  height = 48,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "river_3",
+  layer = 0,
+  x = 1472,
+  y = 192,
+  pattern = "water.transparent",
+  width = 96,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "river_4",
+  layer = 0,
+  x = 1472,
+  y = 208,
+  pattern = "water.transparent",
+  width = 64,
+  height = 160,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "river_5",
+  layer = 0,
+  x = 1440,
+  y = 304,
+  pattern = "water.transparent",
+  width = 32,
+  height = 64,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "river_6",
+  layer = 0,
+  x = 1408,
+  y = 368,
+  pattern = "water.transparent",
+  width = 96,
+  height = 64,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_top_2",
+  layer = 0,
+  x = 1696,
+  y = 64,
+  pattern = "water.transparent",
+  width = 96,
+  height = 64,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_top_3",
+  layer = 0,
+  x = 1792,
+  y = 48,
+  pattern = "water.transparent",
+  width = 64,
+  height = 80,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_top_1",
+  layer = 0,
+  x = 1600,
+  y = 128,
+  pattern = "water.transparent",
+  width = 160,
+  height = 64,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_middle_1",
+  layer = 0,
+  x = 1592,
+  y = 136,
+  pattern = "water.transparent",
+  width = 160,
+  height = 48,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_middle_3",
+  layer = 0,
+  x = 1704,
+  y = 72,
+  pattern = "water.transparent",
+  width = 144,
+  height = 48,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_middle_2",
+  layer = 0,
+  x = 1704,
+  y = 120,
+  pattern = "water.transparent",
+  width = 48,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_middle_4",
+  layer = 0,
+  x = 1800,
+  y = 56,
+  pattern = "water.transparent",
+  width = 48,
+  height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_bottom_3",
+  layer = 0,
+  x = 1712,
+  y = 80,
+  pattern = "water.transparent",
+  width = 128,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_bottom_1",
+  layer = 0,
+  x = 1600,
+  y = 144,
+  pattern = "water.transparent",
+  width = 144,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_bottom_2",
+  layer = 0,
+  x = 1712,
+  y = 112,
+  pattern = "water.transparent",
+  width = 32,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "animated_river_bottom_4",
+  layer = 0,
+  x = 1808,
+  y = 64,
+  pattern = "water.transparent",
+  width = 32,
+  height = 16,
+  enabled_at_start = true,
+}
+
 tile{
   layer = 1,
   x = 1576,
@@ -7143,6 +7376,15 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_up.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 944,
+  y = 432,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
 }
 
 tile{

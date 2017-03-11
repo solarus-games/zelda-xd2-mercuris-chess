@@ -7606,6 +7606,96 @@ tile{
   pattern = "3244",
 }
 
+tile{
+  layer = 0,
+  x = 344,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "163",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 312,
+  width = 32,
+  height = 24,
+  pattern = "6805",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "342",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 312,
+  width = 32,
+  height = 24,
+  pattern = "6805",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "208",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 312,
+  width = 32,
+  height = 24,
+  pattern = "6805",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "336",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 312,
+  width = 32,
+  height = 24,
+  pattern = "6805",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 312,
+  width = 32,
+  height = 16,
+  pattern = "150",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 312,
+  width = 32,
+  height = 24,
+  pattern = "6805",
+}
+
 destination{
   name = "from_dungeon_2",
   layer = 0,
@@ -8150,6 +8240,186 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/merchant_green",
   behavior = "dialog#island.dontgo_guy",
+}
+
+npc{
+  layer = 0,
+  x = 304,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_champaign",
+}
+
+npc{
+  layer = 0,
+  x = 320,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_champaign",
+}
+
+npc{
+  layer = 0,
+  x = 352,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_water",
+}
+
+npc{
+  layer = 0,
+  x = 368,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_water",
+}
+
+npc{
+  layer = 0,
+  x = 400,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_milk",
+}
+
+npc{
+  layer = 0,
+  x = 416,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_milk",
+}
+
+npc{
+  layer = 0,
+  x = 448,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_empty",
+}
+
+npc{
+  layer = 0,
+  x = 464,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_empty",
+}
+
+npc{
+  layer = 0,
+  x = 496,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_gentiane",
+}
+
+npc{
+  layer = 0,
+  x = 512,
+  y = 325,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_gentiane",
+}
+
+npc{
+  layer = 0,
+  x = 304,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_champaign",
+}
+
+npc{
+  layer = 0,
+  x = 320,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_champaign",
+}
+
+npc{
+  layer = 0,
+  x = 352,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_water",
+}
+
+npc{
+  layer = 0,
+  x = 368,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_water",
+}
+
+npc{
+  layer = 0,
+  x = 400,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_milk",
+}
+
+npc{
+  layer = 0,
+  x = 416,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_milk",
+}
+
+npc{
+  layer = 0,
+  x = 448,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_empty",
+}
+
+npc{
+  layer = 0,
+  x = 464,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_empty",
+}
+
+npc{
+  layer = 0,
+  x = 496,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_gentiane",
+}
+
+npc{
+  layer = 0,
+  x = 512,
+  y = 333,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#island.liquid_gentiane",
 }
 
 tile{

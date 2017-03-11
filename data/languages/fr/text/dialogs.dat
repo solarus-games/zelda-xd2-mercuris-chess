@@ -2345,6 +2345,42 @@ gagner.
 }
 
 dialog{
+  id = "island.liquid_champaign",
+  text = [[
+C'est du champagne.
+]]
+}
+
+dialog{
+  id = "island.liquid_empty",
+  text = [[
+C'est vide.
+]]
+}
+
+dialog{
+  id = "island.liquid_gentiane",
+  text = [[
+C'est du violet de
+gentiane phéniqué.
+]]
+}
+
+dialog{
+  id = "island.liquid_milk",
+  text = [[
+C'est du lait.
+]]
+}
+
+dialog{
+  id = "island.liquid_water",
+  text = [[
+C'est de l'eau.
+]]
+}
+
+dialog{
   id = "island.scaring_rupee_obtained_dialog",
   text = [[
 Vous avez vécu des

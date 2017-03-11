@@ -91,7 +91,7 @@ local function vegas_on_immobilized(enemy)
   local all_same_direction = true
   for _, vegas in ipairs(vegas_enemies) do
     local sprite = vegas:get_sprite()
-    if sprite:get_animation() ~= "immobilized" then
+    if not vegas:is_symbol_fixed() then
       all_immobilized = false
     end
     if vegas:get_sprite():get_direction() ~= direction then
@@ -108,7 +108,7 @@ local function vegas_on_immobilized(enemy)
     if not all_same_direction then
       sol.audio.play_sound("wrong")
       for _, vegas in ipairs(vegas_enemies) do
-        vegas:restart()
+        vegas:set_symbol_fixed(false)
       end
       return
     end
@@ -154,7 +154,7 @@ local function initialize_vegas()
   end
 
   for vegas in map:get_entities("auto_enemy_vegas") do
-    vegas.on_immobilized = vegas_on_immobilized
+    vegas.on_symbol_fixed = vegas_on_immobilized
     vegas_enemies[#vegas_enemies + 1] = vegas
   end
 end

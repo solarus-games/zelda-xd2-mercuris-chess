@@ -20,6 +20,7 @@ function map:on_started()
 
   -- You can initialize the movement and sprites of various
   -- map entities here.
+  init_pool()
 end
 
 -- Event called after the opening transition effect of the map,
@@ -29,5 +30,9 @@ function map:on_opening_transition_finished()
 end
 
 function init_river()
-  local knight = map:get_entity("knight_" .. i)
+  local river = map:get_entity("river")
+end
+
+function init_pool()
+  map:get_entities("pool_"):set_visible(false)
 end

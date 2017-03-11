@@ -783,6 +783,42 @@ tile{
   pattern = "wall_pillar.2-6",
 }
 
+tile{
+  layer = 0,
+  x = 448,
+  y = 136,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 136,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 512,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.2-6",
+}
+
 stairs{
   layer = 0,
   x = 72,
@@ -797,14 +833,6 @@ stairs{
   y = 24,
   direction = 1,
   subtype = 1,
-}
-
-separator{
-  layer = 0,
-  x = 312,
-  y = 0,
-  width = 16,
-  height = 240,
 }
 
 stairs{
@@ -969,5 +997,85 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_up.2-1",
+}
+
+tile{
+  layer = 2,
+  x = 304,
+  y = 16,
+  width = 32,
+  height = 208,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 208,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 192,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 104,
+  width = 200,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 424,
+  y = 104,
+  width = 200,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 624,
+  y = 16,
+  width = 16,
+  height = 208,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 224,
+  width = 640,
+  height = 16,
+  pattern = "ceiling.1",
+}
+
+separator{
+  layer = 2,
+  x = 312,
+  y = 0,
+  width = 16,
+  height = 240,
 }
 

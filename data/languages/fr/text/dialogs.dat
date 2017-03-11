@@ -1052,12 +1052,13 @@ dialog{
   id = "_treasure.flippers.1",
   icon = "26",
   text = [[
-Tu as trouvé les
+Tu as volé les
 Palmes !$0
 
 Tu peux maintenant
-nager en eau
-profonde !
+apprécier les
+millesimes de Grump
+à leur juste valeur.
 ]]
 }
 

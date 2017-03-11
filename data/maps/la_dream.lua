@@ -288,7 +288,6 @@ function map:start_fadeout_to_white(duration)
   function modify_opacity_to_white(current_time)
     local new_opacity = linear(current_time, 0, 255, duration)
     white_surface:set_opacity(new_opacity)
-    print("surface_opacity=", white_surface:get_opacity())
   end
 
   local timer_delay = 100

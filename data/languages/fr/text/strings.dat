@@ -7,7 +7,7 @@ text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda 
 text{ key = "copyright_menu.tloz_trademark.line2", value = "une marque déposée de Nintendo." }
 text{ key = "inventory.caption.item.apple_pie_counter.1", value = "Tarte aux Pommes" }
 text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
-text{ key = "inventory.caption.item.boomerang", value = "Boomerang" }
+text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }
 text{ key = "inventory.caption.item.bottle_1.1", value = "Flacon Magique$(Vide)" }
 text{ key = "inventory.caption.item.bottle_1.2", value = "Flacon Magique$(Eau)" }
 text{ key = "inventory.caption.item.bottle_1.3", value = "Flacon Magique$(Potion rouge)" }

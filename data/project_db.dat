@@ -257,6 +257,7 @@ sprite{ id = "entities/teletransporter", description = "Teletransporter" }
 sprite{ id = "entities/torch", description = "Torch" }
 sprite{ id = "entities/vase", description = "Vase" }
 sprite{ id = "entities/vase_skull", description = "Vase (skull)" }
+sprite{ id = "hero/fire_rod", description = "Fire rod" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
 sprite{ id = "hero/shield1", description = "Hero shield 1" }
@@ -636,6 +637,9 @@ enemy{ id = "newlink/zoura_blue", description = "Blue Zoura" }
 enemy{ id = "newlink/zoura_green", description = "Green Zoura" }
 enemy{ id = "newlink/zoura_red", description = "Red Zoura" }
 
+entity{ id = "fire", description = "Fire" }
+entity{ id = "hookable", description = "Hookable" }
+entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }
 

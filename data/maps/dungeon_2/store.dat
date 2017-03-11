@@ -4983,6 +4983,28 @@ door{
   opening_condition_consumed = true,
 }
 
+custom_entity{
+  layer = 0,
+  x = 88,
+  y = 589,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 589,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -5350,28 +5372,6 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.closed.3-5",
-}
-
-custom_entity{
-  layer = 1,
-  x = 88,
-  y = 589,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 1,
-  x = 56,
-  y = 589,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
 }
 
 tile{

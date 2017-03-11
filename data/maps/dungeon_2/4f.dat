@@ -2901,6 +2901,54 @@ door{
   opening_condition_consumed = true,
 }
 
+custom_entity{
+  name = "auto_torch_auto_door_a_1",
+  layer = 0,
+  x = 72,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_3",
+  layer = 0,
+  x = 72,
+  y = 653,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_4",
+  layer = 0,
+  x = 248,
+  y = 653,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_2",
+  layer = 0,
+  x = 248,
+  y = 557,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
 tile{
   layer = 1,
   x = 200,
@@ -3051,50 +3099,6 @@ dynamic_tile{
   width = 16,
   height = 8,
   enabled_at_start = true,
-}
-
-custom_entity{
-  name = "auto_torch_auto_door_a_1",
-  layer = 1,
-  x = 72,
-  y = 557,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-}
-
-custom_entity{
-  name = "auto_torch_auto_door_a_3",
-  layer = 1,
-  x = 72,
-  y = 653,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-}
-
-custom_entity{
-  name = "auto_torch_auto_door_a_4",
-  layer = 1,
-  x = 248,
-  y = 653,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-}
-
-custom_entity{
-  name = "auto_torch_auto_door_a_2",
-  layer = 1,
-  x = 248,
-  y = 557,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
 }
 
 tile{

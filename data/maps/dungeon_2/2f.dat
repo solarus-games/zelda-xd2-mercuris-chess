@@ -3582,6 +3582,7 @@ destination{
 }
 
 destructible{
+  name = "auto_destructible_22",
   layer = -1,
   x = 488,
   y = 477,
@@ -3592,6 +3593,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_21",
   layer = -1,
   x = 488,
   y = 493,
@@ -3602,6 +3604,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_20",
   layer = -1,
   x = 824,
   y = 493,
@@ -3613,6 +3616,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_19",
   layer = -1,
   x = 824,
   y = 477,

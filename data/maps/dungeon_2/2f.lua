@@ -42,6 +42,8 @@ local vegas_enemies = {}
 
 function map:on_started()
 
+  map:set_doors_open("door_e", true)
+
   -- Walking NPCs.
   local movement = sol.movement.create("random_path")
   movement:start(blue_haired_boy)
@@ -66,6 +68,8 @@ end
 
 function casino_receptionnist:on_interaction()
 
+  -- Actually the door is now always open
+  -- because the player can enter the casino from the West stairs too.
   if door_e:is_open() then
     game:start_dialog("dungeon_2.2f.casino_receptionnist_open")
   else

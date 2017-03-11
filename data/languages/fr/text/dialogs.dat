@@ -2129,6 +2129,17 @@ DEBOOOUUUUT !
 }
 
 dialog{
+  id = "island.hideseek_son",
+  text = [[
+Je joue à cache-cache
+avec ma maman.
+
+Je suis en train de
+gagner.
+]]
+}
+
+dialog{
   id = "slot_machine.choose_bet",
   question = "1",
   text = [[

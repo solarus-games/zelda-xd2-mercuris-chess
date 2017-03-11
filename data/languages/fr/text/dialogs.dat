@@ -1544,6 +1544,34 @@ Bonne chance héhé !
 }
 
 dialog{
+  id = "chores.chore_0",
+  text = [[
+Comme première corvée,
+tu vas devoir nourir
+mon petit chaton chéri.
+Tu vas voir, il est
+adorable, ce petit chou.
+Il s'appelle
+Flocon-de-neige, 
+il est vraiment trop
+choupi.
+Il se trouve dans la
+cave.
+]]
+}
+
+dialog{
+  id = "chores.dont_leave",
+  text = [[
+Comment oses-tu partir
+comme ça ?
+Tu n'as pas fini de te
+faire pardonner!
+Allez, au boulot!
+]]
+}
+
+dialog{
   id = "dungeon_2.1f.bartender",
   question = "1",
   skip = "all",
@@ -1973,7 +2001,7 @@ dialog{
   id = "intro.marine_exclaming",
   text = [[
 ...
-Oh!
+Oh !
 ]]
 }
 
@@ -2007,17 +2035,47 @@ Un naufrage ?
 dialog{
   id = "intro.zelda_resistant",
   text = [[
+Mais... ?
+
+
+Tu dors encore ?
+
+
 Dis-donc, t'es un
-coriance, toi !
-Tu l'auras voulu!
-Tiens ça!
+coriace, toi !
+
+Tu l'auras voulu !
+Tiens ça !
 ]]
 }
 
 dialog{
   id = "intro.zelda_shaking",
   text = [[
-JE VAIS TE SECOUER!
+JE VAIS TE SECOUER !
+]]
+}
+
+dialog{
+  id = "intro.zelda_waiting",
+  text = [[
+Ha !
+
+
+Enfin !
+
+
+Tu dois te faire
+pardonner
+après ce que tu m'as
+fait subir la dernière
+fois.
+
+Comme punition, tu vas
+avoir 3 mois de corvées
+à faire pour moi.
+Viens me voir dès que
+tu es prêt.
 ]]
 }
 
@@ -2026,7 +2084,7 @@ dialog{
   text = [[
 REVEILLE-TOOOI !
 ALLEEEEEEZ !
-DEBOUUUUUUT !
+DEBOOOUUUUT !
 ]]
 }
 

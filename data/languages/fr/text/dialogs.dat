@@ -2147,6 +2147,100 @@ DEBOOOUUUUT !
 }
 
 dialog{
+  id = "island.beach_board",
+  text = [[
+Grump's beach
+
+
+Maillot de bain
+obligatoire.
+]]
+}
+
+dialog{
+  id = "island.beach_board_up",
+  text = [[
+Vers la Grump Tower
+]]
+}
+
+dialog{
+  id = "island.beach_jelly1",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la découper en
+petits moceaux !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly2",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la brûler avec une
+loupe !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly3",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la noyer !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly4",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va lui faire manger
+du poison !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly5",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la torturer
+psychologiquement !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly6",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+Heu c'est pas un peu
+dangereux ces trucs-là ?
+]]
+}
+
+dialog{
+  id = "island.hideseek_mom",
+  text = [[
+Je "joue" à cache-cache
+avec mon fils.
+
+Je suis tranquille pour
+un moment...
+]]
+}
+
+dialog{
   id = "island.hideseek_son",
   text = [[
 Je joue à cache-cache
@@ -2193,11 +2287,9 @@ reproduire ?
 dialog{
   id = "island.zoo_rgb",
   text = [[
-A partir de 50 rubis, les
-graphistes n'ont pas
-voulu se fatiguer...
-Ou alors c'est à cause du
-RGB ?
+Ils n'avaient plus de
+couleur disponible
+pour le 300 ?
 ]]
 }
 

@@ -6913,6 +6913,141 @@ tile{
   pattern = "1085",
 }
 
+tile{
+  layer = 0,
+  x = 680,
+  y = 648,
+  width = 8,
+  height = 16,
+  pattern = "6510",
+}
+
+tile{
+  layer = 0,
+  x = 664,
+  y = 648,
+  width = 16,
+  height = 16,
+  pattern = "6509",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 648,
+  width = 8,
+  height = 16,
+  pattern = "6508",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 480,
+  width = 8,
+  height = 16,
+  pattern = "6510",
+}
+
+tile{
+  layer = 0,
+  x = 688,
+  y = 480,
+  width = 16,
+  height = 16,
+  pattern = "6509",
+}
+
+tile{
+  layer = 0,
+  x = 680,
+  y = 480,
+  width = 8,
+  height = 16,
+  pattern = "6508",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 392,
+  width = 16,
+  height = 16,
+  pattern = "6146",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 88,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "108",
+}
+
 destination{
   name = "from_dungeon_2",
   layer = 0,
@@ -6957,8 +7092,8 @@ teletransporter{
 destination{
   name = "destination",
   layer = 0,
-  x = 200,
-  y = 541,
+  x = 720,
+  y = 621,
   direction = 1,
   default = true,
 }
@@ -7060,53 +7195,6 @@ npc{
   behavior = "dialog#island.hideseek_son",
 }
 
-pickable{
-  layer = 0,
-  x = 248,
-  y = 653,
-  treasure_name = "rupee",
-}
-
-pickable{
-  layer = 0,
-  x = 288,
-  y = 653,
-  treasure_name = "rupee",
-  treasure_variant = 6,
-}
-
-pickable{
-  layer = 0,
-  x = 288,
-  y = 693,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-}
-
-pickable{
-  layer = 0,
-  x = 248,
-  y = 693,
-  treasure_name = "rupee",
-  treasure_variant = 5,
-}
-
-pickable{
-  layer = 0,
-  x = 216,
-  y = 733,
-  treasure_name = "rupee",
-  treasure_variant = 3,
-}
-
-pickable{
-  layer = 0,
-  x = 264,
-  y = 733,
-  treasure_name = "rupee",
-  treasure_variant = 4,
-}
-
 npc{
   name = "island_zoo_rgb",
   layer = 0,
@@ -7136,7 +7224,7 @@ npc{
   y = 661,
   direction = 0,
   subtype = 1,
-  sprite = "npc/newlink/blond_boy",
+  sprite = "npc/newlink/red_hood_man",
   behavior = "dialog#island.zoo_reproduct",
 }
 
@@ -7280,6 +7368,113 @@ npc{
   direction = 3,
   subtype = 1,
   behavior = "dialog#island.zoo_rgb",
+}
+
+npc{
+  name = "beach_board",
+  layer = 0,
+  x = 632,
+  y = 541,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#island.beach_board",
+}
+
+npc{
+  name = "island_hideseek_mom",
+  layer = 0,
+  x = 696,
+  y = 493,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/blonde_woman",
+  behavior = "dialog#island.hideseek_mom",
+}
+
+enemy{
+  name = "island_beach_jellyfish",
+  layer = 0,
+  x = 768,
+  y = 685,
+  direction = 0,
+  breed = "alttp/tentacle",
+}
+
+npc{
+  name = "island_beach_jelly1",
+  layer = 0,
+  x = 768,
+  y = 661,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/bully",
+  behavior = "dialog#island.beach_jelly1",
+}
+
+npc{
+  name = "island_beach_jelly4",
+  layer = 0,
+  x = 768,
+  y = 709,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/newlink/blond_boy",
+  behavior = "dialog#island.beach_jelly4",
+}
+
+npc{
+  name = "island_beach_jelly6",
+  layer = 0,
+  x = 752,
+  y = 669,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/grandson",
+  behavior = "dialog#island.beach_jelly6",
+}
+
+npc{
+  name = "island_beach_jelly2",
+  layer = 0,
+  x = 784,
+  y = 669,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/flute_boy",
+  behavior = "dialog#island.beach_jelly2",
+}
+
+npc{
+  name = "island_beach_jelly3",
+  layer = 0,
+  x = 784,
+  y = 693,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/newlink/blue_haired_boy",
+  behavior = "dialog#island.beach_jelly3",
+}
+
+npc{
+  name = "island_beach_jelly5",
+  layer = 0,
+  x = 752,
+  y = 693,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/alttp/ghostly_proprietor",
+  behavior = "dialog#island.beach_jelly5",
+}
+
+npc{
+  name = "island_beach_board_up",
+  layer = 0,
+  x = 680,
+  y = 405,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#island.beach_board_up",
 }
 
 tile{
@@ -8162,5 +8357,86 @@ tile{
   width = 48,
   height = 48,
   pattern = "3170",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 416,
+  width = 32,
+  height = 24,
+  pattern = "6742",
+}
+
+tile{
+  layer = 2,
+  x = 248,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "13633",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 672,
+  width = 16,
+  height = 16,
+  pattern = "13612",
+}
+
+tile{
+  layer = 2,
+  x = 248,
+  y = 632,
+  width = 16,
+  height = 16,
+  pattern = "13611",
+}
+
+tile{
+  layer = 2,
+  x = 200,
+  y = 712,
+  width = 16,
+  height = 16,
+  pattern = "13622",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 720,
+  width = 16,
+  height = 16,
+  pattern = "13623",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "13613",
+}
+
+tile{
+  layer = 2,
+  x = 272,
+  y = 704,
+  width = 16,
+  height = 16,
+  pattern = "13632",
+}
+
+tile{
+  layer = 2,
+  x = 288,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "13625",
 }
 

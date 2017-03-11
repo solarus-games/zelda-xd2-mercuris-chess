@@ -1610,6 +1610,23 @@ nourrir dans la cave.
 }
 
 dialog{
+  id = "chores.miaou_1",
+  text = [[
+Miaou ...$0
+Miaouuuuu ...
+]]
+}
+
+dialog{
+  id = "chores.miaou_2",
+  text = [[
+MIAAAAOUUUUU !!!$0
+MIAAOUUUU !!!$0
+GRRRRRR ...
+]]
+}
+
+dialog{
   id = "dungeon_2.1f.bartender",
   question = "1",
   skip = "all",

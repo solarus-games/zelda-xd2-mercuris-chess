@@ -17,7 +17,7 @@ local config = {
   -- What types of entities the hookshot can attach to.
   -- Additionally, all entities that have a method "is_hookable"
   -- returning true will be hookable.
-  hookable_entity_types = { "chest", "destructible" },
+  hookable_entity_types = { "chest", "destructible", "block" },
 
 }
 

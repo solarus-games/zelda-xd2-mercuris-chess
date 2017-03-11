@@ -4605,6 +4605,87 @@ tile{
   pattern = "stairs_inner_up.2.top.border.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 872,
+  y = 456,
+  width = 16,
+  height = 48,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 504,
+  width = 16,
+  height = 16,
+  pattern = "door.1",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 504,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 504,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 464,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2-1",
+}
+
 door{
   name = "elevator_a_door",
   layer = 0,
@@ -5173,6 +5254,40 @@ stairs{
   subtype = 0,
 }
 
+wall{
+  layer = 0,
+  x = 872,
+  y = 440,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 872,
+  y = 504,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 800,
+  y = 605,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 200,
@@ -5585,6 +5700,42 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_up.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 456,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 496,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 456,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 864,
+  y = 496,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-5",
 }
 
 dynamic_tile{

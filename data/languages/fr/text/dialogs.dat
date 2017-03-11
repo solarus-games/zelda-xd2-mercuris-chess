@@ -2140,6 +2140,50 @@ gagner.
 }
 
 dialog{
+  id = "island.zoo_adopt",
+  text = [[
+On peut en adopter un ?
+]]
+}
+
+dialog{
+  id = "island.zoo_board",
+  text = [[
+Enclos à rubis
+]]
+}
+
+dialog{
+  id = "island.zoo_chief",
+  text = [[
+C'est ici que Monsieur Grump
+fait prendre l'air à ses rubis.
+
+Et comme ça nos visiteurs
+ont l'occasion de les admirer.
+]]
+}
+
+dialog{
+  id = "island.zoo_reproduct",
+  text = [[
+Est-ce qu'ils peuvent se
+reproduire ?
+]]
+}
+
+dialog{
+  id = "island.zoo_rgb",
+  text = [[
+A partir de 50 rubis, les
+graphistes n'ont pas
+voulu se fatiguer...
+Ou alors c'est à cause du
+RGB ?
+]]
+}
+
+dialog{
   id = "slot_machine.choose_bet",
   question = "1",
   text = [[

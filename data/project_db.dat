@@ -104,6 +104,7 @@ sprite{ id = "enemies/dkc_barrel", description = "DKC barrel" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/la/vegas", description = "Vegas" }
 sprite{ id = "enemies/mc_pickaxe", description = "MC Pickaxe" }
+sprite{ id = "enemies/newlink/angry_zelda", description = "Angry Zelda" }
 sprite{ id = "enemies/newlink/bee_guard", description = "Bee Guard" }
 sprite{ id = "enemies/newlink/bee_guard_weapon", description = "Bee Guard sword" }
 sprite{ id = "enemies/newlink/bullblin_blue", description = "Bullblin (blue)" }

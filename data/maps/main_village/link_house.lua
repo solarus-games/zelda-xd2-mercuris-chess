@@ -120,15 +120,15 @@ end
 -- Call when map needs to be drawn.
 function map:on_draw(dst_surface)
 
+  -- Draw white fade-in.
+  if should_draw_white_surface and white_surface ~= nil then
+   white_surface:draw(dst_surface)
+  end
+
   -- Draw cinematic black stripes.
   if should_draw_black_stripes and black_stripe ~= nil then
     black_stripe:draw(dst_surface, 0, 0)
     black_stripe:draw(dst_surface, 0, 216)    
-  end
-
-  -- Draw white fade-in.
-  if should_draw_white_surface and white_surface ~= nil then
-   white_surface:draw(dst_surface)
   end
 end
 
@@ -175,12 +175,28 @@ function map:shake_camera()
         dialog_box:set_position("bottom")
         game:start_dialog("intro.zelda_resistant", function()
           sol.timer.start(map, 500, function()
+            -- Make Zelda hurt Link with her rolling pin.
             zelda:set_visible(false)
             zelda_angry:set_visible(true)
 
             local zelda_angry_sprite = zelda_angry:get_sprite()
             zelda_angry_sprite:set_animation("walking")
+
+            local hurt_count = 0
+            -- hurt noise
+            sol.audio.play_sound("arrow_hit")            
+            sol.timer.start(map, 400, function()
+              if hurt_count < 5 then
+                hurt_count = hurt_count + 1
+                sol.audio.play_sound("arrow_hit")            
+              end
+              return not hurt_finished
+            end)
+
             sol.timer.start(map, 2000, function()
+              sol.audio.stop_music()
+              sol.audio.play_sound("wrong")
+              
               snores:remove()
               local bed_hero_sprite = bed:get_sprite()
               bed_hero_sprite:set_animation("hero_waking_aside")
@@ -204,6 +220,7 @@ function map:shake_camera()
                   sol.timer.start(map, 500, function()
                     map:make_link_go_out_of_bed()
                     game:set_value("introduction_done", true)
+                    sol.audio.play_music("alttp/village")                    
                   end)
 
                 end)
@@ -224,6 +241,7 @@ function map:make_link_fall_off_bed()
   bed_hero_sprite:set_animation("hero_sleeping_aside")
   local bed_hero_x, bed_hero_y = bed:get_position()
   bed:set_position(bed_hero_x + 4, bed_hero_y)
+  sol.audio.play_sound("bomb")  
 end
 
 -- Link finally wakes up and go out of his bed
@@ -234,7 +252,7 @@ function map:make_link_go_out_of_bed()
   -- Show the real hero instead.
   map:set_cinematic_mode(false)
   hero:start_jumping(0, 8, true)
-  sol.audio.play_sound("hero_lands")
+  sol.audio.play_sound("hero_lands")  
 end
 
 -- Enable or disable the cinematic mode

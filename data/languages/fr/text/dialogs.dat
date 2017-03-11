@@ -2097,23 +2097,25 @@ JE VAIS TE SECOUER !
 dialog{
   id = "intro.zelda_waiting",
   text = [[
-Ha !
-
-
-Enfin !
-
-
+Ha ! $0
+Enfin ! $0
 Tu dois te faire
 pardonner
 après ce que tu m'as
 fait subir la dernière
-fois.
-
+fois.$0
 Comme punition, tu vas
 avoir 3 mois de corvées
 à faire pour moi.
 Viens me voir dès que
-tu es prêt.
+tu es prêt.$0
+Comment ça ?!
+Un rêve
+avec une baleine
+volante et un oeuf
+géant ?!
+Tu perds la
+tête, mon pauvre !
 ]]
 }
 

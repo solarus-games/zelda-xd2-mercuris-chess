@@ -1132,16 +1132,6 @@ npc{
   sprite = "npc/alttp/zelda",
 }
 
-npc{
-  name = "zelda_angry",
-  layer = 1,
-  x = 88,
-  y = 125,
-  direction = 2,
-  subtype = 1,
-  sprite = "enemies/newlink/angry_zelda",
-}
-
 sensor{
   name = "dont_leave_sensor",
   layer = 1,
@@ -1194,5 +1184,15 @@ tile{
   width = 32,
   height = 8,
   pattern = "153",
+}
+
+npc{
+  name = "zelda_angry",
+  layer = 2,
+  x = 88,
+  y = 125,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/newlink/angry_zelda",
 }
 

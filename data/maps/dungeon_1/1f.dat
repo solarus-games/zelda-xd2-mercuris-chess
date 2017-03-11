@@ -21,15 +21,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 736,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.1-1",
-}
-
-tile{
-  layer = -1,
   x = 1432,
   y = 408,
   width = 48,
@@ -2244,11 +2235,29 @@ tile{
 
 tile{
   layer = -1,
-  x = 744,
-  y = 152,
+  x = 1160,
+  y = 160,
   width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.2-1",
+  height = 16,
+  pattern = "door_stairs.spiral_down.1",
+}
+
+tile{
+  layer = -1,
+  x = 1176,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 1152,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
 }
 
 destination{
@@ -2312,6 +2321,60 @@ chest{
   y = 213,
   treasure_name = "flippers",
   sprite = "entities/chest",
+}
+
+stairs{
+  layer = -1,
+  x = 1160,
+  y = 160,
+  direction = 1,
+  subtype = 1,
+}
+
+stairs{
+  layer = -1,
+  x = 744,
+  y = 160,
+  direction = 1,
+  subtype = 1,
+}
+
+destination{
+  name = "from_b1_left",
+  layer = -1,
+  x = 752,
+  y = 173,
+  direction = 3,
+}
+
+destination{
+  name = "from_b1_right",
+  layer = -1,
+  x = 1168,
+  y = 173,
+  direction = 3,
+}
+
+teletransporter{
+  name = "to_b1_left",
+  layer = -1,
+  x = 744,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/b1",
+  destination = "from_1f_left",
+}
+
+teletransporter{
+  name = "to_b1_right",
+  layer = -1,
+  x = 1160,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/b1",
+  destination = "from_1f_right",
 }
 
 tile{
@@ -4215,7 +4278,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 784,
   y = 16,
   width = 16,
   height = 32,
@@ -4512,7 +4575,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1128,
+  x = 1120,
   y = 16,
   width = 16,
   height = 32,
@@ -6184,6 +6247,105 @@ tile{
   pattern = "stairs_inner_up.1.top.border.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 952,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_up.1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1152,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1160,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-7",
+}
+
+tile{
+  layer = 0,
+  x = 976,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-7",
+}
+
+tile{
+  layer = 0,
+  x = 1048,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-7",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-7",
+}
+
 chest{
   layer = 0,
   x = 160,
@@ -6812,6 +6974,33 @@ jumper{
   jump_length = 40,
 }
 
+stairs{
+  layer = 0,
+  x = 952,
+  y = 24,
+  direction = 1,
+  subtype = 2,
+}
+
+destination{
+  name = "from_2f",
+  layer = 0,
+  x = 960,
+  y = 37,
+  direction = 3,
+}
+
+teletransporter{
+  name = "to_2f",
+  layer = 0,
+  x = 952,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/2f",
+  destination = "from_1f_center",
+}
+
 tile{
   layer = 1,
   x = 1576,
@@ -6936,6 +7125,24 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.closed.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 944,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-1",
+}
+
+tile{
+  layer = 1,
+  x = 952,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.1-1",
 }
 
 tile{

@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 1920,
   height = 720,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/blue",
 }

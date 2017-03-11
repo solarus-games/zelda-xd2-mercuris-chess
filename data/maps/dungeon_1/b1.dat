@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 640,
   height = 240,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   tileset = "dungeon/blue",
 }
@@ -784,6 +784,60 @@ stairs{
   y = 24,
   direction = 1,
   subtype = 1,
+}
+
+destination{
+  name = "from_1f_left",
+  layer = 0,
+  x = 80,
+  y = 157,
+  direction = 3,
+}
+
+destination{
+  name = "from_1f_right",
+  layer = 0,
+  x = 560,
+  y = 157,
+  direction = 3,
+}
+
+destination{
+  name = "from_b2_left",
+  layer = 0,
+  x = 80,
+  y = 37,
+  direction = 3,
+}
+
+destination{
+  name = "from_b2_right",
+  layer = 0,
+  x = 560,
+  y = 37,
+  direction = 3,
+}
+
+teletransporter{
+  name = "to_1f_left",
+  layer = 0,
+  x = 72,
+  y = 144,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/1f",
+  destination = "from_b1_left",
+}
+
+teletransporter{
+  name = "to_1f_right",
+  layer = 0,
+  x = 552,
+  y = 144,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_1/1f",
+  destination = "from_b1_right",
 }
 
 tile{

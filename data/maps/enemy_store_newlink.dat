@@ -323,3 +323,12 @@ enemy{
   treasure_name = "random",
 }
 
+enemy{
+  layer = 0,
+  x = 24,
+  y = 653,
+  direction = 3,
+  breed = "newlink/tigris_brown",
+  treasure_name = "random",
+}
+

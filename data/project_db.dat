@@ -143,28 +143,29 @@ sprite{ id = "enemies/newlink/pig_soldier_blue_weapon", description = "Pig Soldi
 sprite{ id = "enemies/newlink/pig_soldier_red", description = "Pig Soldier (red)" }
 sprite{ id = "enemies/newlink/pig_soldier_red_weapon", description = "Pig Soldier (red) sword" }
 sprite{ id = "enemies/newlink/skeletor", description = "Skeletor" }
-sprite{ id = "enemies/newlink/tanekian_commander_yellow", description = "Yellow Tanekian Commander" }
-sprite{ id = "enemies/newlink/tanekian_commander_yellow_weapon", description = "Yellow Tanekian Commander Sword" }
-sprite{ id = "enemies/newlink/tanekian_guard_red", description = "Red Tanekian Guard" }
-sprite{ id = "enemies/newlink/tanekian_soldier_blue", description = "Blue Tanekian Soldier" }
-sprite{ id = "enemies/newlink/tanekian_soldier_blue_weapon", description = "Blue Tanekian Soldier Sword" }
-sprite{ id = "enemies/newlink/tanekian_soldier_green", description = "Green Tanekian Soldier" }
-sprite{ id = "enemies/newlink/tanekian_soldier_green_weapon", description = "Green Tanekian Soldier Sword" }
-sprite{ id = "enemies/newlink/tanekian_soldier_red", description = "Red Tanekian Soldier" }
-sprite{ id = "enemies/newlink/tanekian_soldier_red_weapon", description = "Red Tanekian Soldier Spear" }
-sprite{ id = "enemies/newlink/topik_blue", description = "Blue Topik" }
-sprite{ id = "enemies/newlink/topik_blue_weapon", description = "Blue Topik Sword" }
-sprite{ id = "enemies/newlink/topik_green", description = "Green Topik" }
-sprite{ id = "enemies/newlink/topik_green_weapon", description = "Green Topik Sword" }
-sprite{ id = "enemies/newlink/topik_red", description = "Red Topik" }
-sprite{ id = "enemies/newlink/topik_red_weapon", description = "Red Topik Sword" }
+sprite{ id = "enemies/newlink/tanekian_commander_yellow", description = "Tanekian Commander (yellow)" }
+sprite{ id = "enemies/newlink/tanekian_commander_yellow_weapon", description = "Tanekian Commander Sword (yellow)" }
+sprite{ id = "enemies/newlink/tanekian_guard_red", description = "Tanekian Guard (red)" }
+sprite{ id = "enemies/newlink/tanekian_soldier_blue", description = "Tanekian Soldier (blue)" }
+sprite{ id = "enemies/newlink/tanekian_soldier_blue_weapon", description = "Tanekian Soldier Sword (blue)" }
+sprite{ id = "enemies/newlink/tanekian_soldier_green", description = "Tanekian Soldier (green)" }
+sprite{ id = "enemies/newlink/tanekian_soldier_green_weapon", description = "Tanekian Soldier Sword (green)" }
+sprite{ id = "enemies/newlink/tanekian_soldier_red", description = "Tanekian Soldier (red)" }
+sprite{ id = "enemies/newlink/tanekian_soldier_red_weapon", description = "Tanekian Soldier Spear (red)" }
+sprite{ id = "enemies/newlink/tigris_brown", description = "Tigris (brown)" }
+sprite{ id = "enemies/newlink/topik_blue", description = "Topik (blue)" }
+sprite{ id = "enemies/newlink/topik_blue_weapon", description = "Topik Sword (blue)" }
+sprite{ id = "enemies/newlink/topik_green", description = "Topik (green)" }
+sprite{ id = "enemies/newlink/topik_green_weapon", description = "Topik Sword (green)" }
+sprite{ id = "enemies/newlink/topik_red", description = "Topik (red)" }
+sprite{ id = "enemies/newlink/topik_red_weapon", description = "Topik Sword (red)" }
 sprite{ id = "enemies/newlink/vipeross", description = "Vipeross" }
-sprite{ id = "enemies/newlink/zoura_blue", description = "Blue Zoura Sword" }
-sprite{ id = "enemies/newlink/zoura_blue_weapon", description = "Blue Zoura" }
-sprite{ id = "enemies/newlink/zoura_green", description = "Green Zoura" }
-sprite{ id = "enemies/newlink/zoura_green_weapon", description = "Green Zoura Sword" }
-sprite{ id = "enemies/newlink/zoura_red", description = "Red Zoura" }
-sprite{ id = "enemies/newlink/zoura_red_weapon", description = "Red Zoura Spear" }
+sprite{ id = "enemies/newlink/zoura_blue", description = "Zoura Sword (blue)" }
+sprite{ id = "enemies/newlink/zoura_blue_weapon", description = "Zoura (blue)" }
+sprite{ id = "enemies/newlink/zoura_green", description = "Zoura (green)" }
+sprite{ id = "enemies/newlink/zoura_green_weapon", description = "Zoura Sword (green)" }
+sprite{ id = "enemies/newlink/zoura_red", description = "Zoura (red)" }
+sprite{ id = "enemies/newlink/zoura_red_weapon", description = "Zoura Spear (red)" }
 sprite{ id = "enemies/smb_block", description = "SMB block" }
 sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
@@ -529,7 +530,6 @@ item{ id = "bottle_2", description = "Bottle 2" }
 item{ id = "bottle_3", description = "Bottle 3" }
 item{ id = "bottle_4", description = "Bottle 4" }
 item{ id = "bow", description = "Bow" }
-item{ id = "cat_food", description = "Cat food" }
 item{ id = "compass", description = "Dungeon compass" }
 item{ id = "creeper", description = "Creeper" }
 item{ id = "croissant", description = "Croissant (x1)" }
@@ -625,18 +625,19 @@ enemy{ id = "newlink/minillosaur_egg_thrown", description = "Minillosaur Egg (fi
 enemy{ id = "newlink/pig_soldier_blue", description = "Pig Soldier (blue)" }
 enemy{ id = "newlink/pig_soldier_red", description = "Pig Soldier (red)" }
 enemy{ id = "newlink/skeletor", description = "Skeletor" }
-enemy{ id = "newlink/tanekian_commander_yellow", description = "Yellow Tanekian Commander" }
-enemy{ id = "newlink/tanekian_guard_red", description = "Red Tanekian Guard" }
-enemy{ id = "newlink/tanekian_soldier_blue", description = "Blue Tanekian Soldier" }
-enemy{ id = "newlink/tanekian_soldier_green", description = "Green Tanekian Soldier" }
-enemy{ id = "newlink/tanekian_soldier_red", description = "Red Tanekian Soldier" }
-enemy{ id = "newlink/topik_blue", description = "Blue Topik" }
-enemy{ id = "newlink/topik_green", description = "Green Topik" }
-enemy{ id = "newlink/topik_red", description = "Red Topik" }
+enemy{ id = "newlink/tanekian_commander_yellow", description = "Tanekian Commander (yellow)" }
+enemy{ id = "newlink/tanekian_guard_red", description = "Tanekian Guard (green)" }
+enemy{ id = "newlink/tanekian_soldier_blue", description = "Tanekian Soldier (blue)" }
+enemy{ id = "newlink/tanekian_soldier_green", description = "Tanekian Soldier (green)" }
+enemy{ id = "newlink/tanekian_soldier_red", description = "Tanekian Soldier (red)" }
+enemy{ id = "newlink/tigris_brown", description = "Tigris (brown)" }
+enemy{ id = "newlink/topik_blue", description = "Topik (blue)" }
+enemy{ id = "newlink/topik_green", description = "Topik (green)" }
+enemy{ id = "newlink/topik_red", description = "Topik (red)" }
 enemy{ id = "newlink/vipeross", description = "Vipeross" }
-enemy{ id = "newlink/zoura_blue", description = "Blue Zoura" }
-enemy{ id = "newlink/zoura_green", description = "Green Zoura" }
-enemy{ id = "newlink/zoura_red", description = "Red Zoura" }
+enemy{ id = "newlink/zoura_blue", description = "Zoura (blue)" }
+enemy{ id = "newlink/zoura_green", description = "Zoura (green)" }
+enemy{ id = "newlink/zoura_red", description = "Zoura (red)" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hookable", description = "Hookable" }

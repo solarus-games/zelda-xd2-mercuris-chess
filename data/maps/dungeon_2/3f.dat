@@ -659,6 +659,33 @@ tile{
   pattern = "wall_low.corner.2-1",
 }
 
+tile{
+  layer = -1,
+  x = 464,
+  y = 136,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 472,
+  y = 136,
+  width = 16,
+  height = 24,
+  pattern = "stairs_inner_up.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 136,
+  width = 8,
+  height = 24,
+  pattern = "stairs_inner_up.2.border.2-1",
+}
+
 wall{
   layer = -1,
   x = 256,
@@ -690,6 +717,22 @@ chest{
   treasure_name = "small_key",
   treasure_savegame_variable = "dungeon_2_3f_n_key_chest",
   sprite = "entities/chest",
+}
+
+stairs{
+  layer = -1,
+  x = 176,
+  y = 96,
+  direction = 1,
+  subtype = 4,
+}
+
+stairs{
+  layer = -1,
+  x = 472,
+  y = 144,
+  direction = 3,
+  subtype = 4,
 }
 
 tile{
@@ -4535,6 +4578,33 @@ tile{
   pattern = "door_stairs.spiral_up.1",
 }
 
+tile{
+  layer = 0,
+  x = 472,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "stairs_inner_up.2.top-1",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.2.top.border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "stairs_inner_up.2.top.border.1-1",
+}
+
 door{
   name = "elevator_a_door",
   layer = 0,
@@ -4809,9 +4879,9 @@ jumper{
 
 jumper{
   layer = 0,
-  x = 464,
+  x = 496,
   y = 160,
-  width = 112,
+  width = 80,
   height = 8,
   direction = 2,
   jump_length = 40,

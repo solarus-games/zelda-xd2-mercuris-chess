@@ -1103,13 +1103,23 @@ destination{
 }
 
 npc{
-  name = "zeld",
+  name = "zelda",
   layer = 1,
   x = 88,
   y = 125,
   direction = 2,
   subtype = 1,
   sprite = "npc/alttp/zelda",
+}
+
+npc{
+  name = "zelda_angry",
+  layer = 1,
+  x = 88,
+  y = 125,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/newlink/angry_zelda",
 }
 
 tile{

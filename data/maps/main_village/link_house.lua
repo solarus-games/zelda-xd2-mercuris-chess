@@ -55,13 +55,16 @@ function map:on_started(destination_point)
     -- Fade-in from white to simulate a cloudy mountain top
     map:start_fadein_from_white(2000)
 
+    -- Hide Angry Zelda
+    zelda_angry:set_visible(false)
+
     -- Start Zelda's dialog.
     sol.timer.start(map, 2000, function()
 
       local dialog_box = game:get_dialog_box()
       dialog_box:set_position("bottom")
       game:start_dialog("intro.zelda_waking_up", function()
-        sol.timer.start(map, 1500, function()
+        sol.timer.start(map, 2000, function()
           game:start_dialog("intro.zelda_shaking", function()
             map:shake_camera()
           end)
@@ -75,7 +78,8 @@ function map:on_started(destination_point)
     snores:remove()
     game:set_hud_enabled(true)
     sol.audio.play_music("village")
-    bed:set_position(56, 101)  
+    bed:set_position(56, 101)
+    zelda_angry:set_visible(false)    
   end
 end
 
@@ -161,7 +165,7 @@ function map:shake_camera()
 
   -- Launch the movement and repeat if needed.
   movement:start(camera, function()
-    if camera_shaking_count == camera_shaking_count_max / 2 then
+    if camera_shaking_count == (camera_shaking_count_max - 1) / 2 then
       map:make_link_fall_off_bed()
     end
 
@@ -169,14 +173,51 @@ function map:shake_camera()
       map:shake_camera()
     else
       map:make_link_fall_off_bed()
+         
+      sol.timer.start(map, 2000, function()
+        local dialog_box = game:get_dialog_box()
+        dialog_box:set_position("bottom")
+        game:start_dialog("intro.zelda_resistant", function()
+          sol.timer.start(map, 500, function()
+            zelda:set_visible(false)
+            zelda_angry:set_visible(true)
+
+            local zelda_angry_sprite = zelda_angry:get_sprite()
+            zelda_angry_sprite:set_animation("walking")
+            sol.timer.start(map, 2000, function()
+              snores:remove()
+              local bed_hero_sprite = bed:get_sprite()
+              bed_hero_sprite:set_animation("hero_waking_aside")
+              zelda_angry_sprite:set_paused(true)
+              zelda_angry:set_visible(false)
+              zelda:set_visible(true)
+              
+              local zelda_sprite = zelda:get_sprite()
+              zelda_sprite:set_direction(0)
+
+              local zelda_x, zelda_y = zelda:get_position()
+              local zelda_movement = sol.movement.create("target")
+              zelda_movement:set_speed(30)
+              zelda_movement:set_smooth(true)
+              zelda_movement:set_target(zelda_x + 24, zelda_y)
+              zelda_movement:start(zelda, function()
+                -- tODO
+                print("TODO")
+              end)
+
+            end)
+          end)
+        end)
+      end)
     end
   end)
 
 end
 
+-- Link falls off his bed.
 function map:make_link_fall_off_bed()
     local bed_hero_sprite = bed:get_sprite()
     bed_hero_sprite:set_animation("hero_sleeping_aside")
     local bed_hero_x, bed_hero_y = bed:get_position()
-    bed:set_position(bed_hero_x + 8, bed_hero_y)
+    bed:set_position(bed_hero_x + 4, bed_hero_y)
 end

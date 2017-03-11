@@ -2005,6 +2005,16 @@ Un naufrage ?
 }
 
 dialog{
+  id = "intro.zelda_resistant",
+  text = [[
+Dis-donc, t'es un
+coriance, toi !
+Tu l'auras voulu!
+Tiens ça!
+]]
+}
+
+dialog{
   id = "intro.zelda_shaking",
   text = [[
 JE VAIS TE SECOUER!

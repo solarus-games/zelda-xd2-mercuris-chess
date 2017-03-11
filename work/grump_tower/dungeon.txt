@@ -10,11 +10,11 @@ Small keys:
 1) 1F, chest in the north-east room
 2) 1F, between the 4 white knights in the south-west room 
 3) 1F, vase in the north-east room
-3) 2F, vase in the slot machine room
-4) 2F, Vegas cards mini-game
-5) 2F, chests mini-game
-6) 2F, under chess statue
+4) 2F, vase in the slot machine room
+5) 2F, Vegas cards mini-game
+6) 2F, chests mini-game
 7) 2F, under chess statue
+8) 2F, under chess statue
 
 Locked doors:
 1) 1F, entrance
@@ -22,8 +22,7 @@ Locked doors:
 3) 1F, east room stairs
 4) 2F, to north-east room
 5) 2F, to north-west room
-6) 2F, to north room
-7) 2F, north room stairs
+6) 2F, north room stairs
 
 Big key: After the mini-boss.
 

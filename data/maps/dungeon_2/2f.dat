@@ -7484,34 +7484,6 @@ wall{
   stops_projectiles = true,
 }
 
-door{
-  name = "door_c",
-  layer = 0,
-  x = 280,
-  y = 112,
-  direction = 0,
-  sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_2_2f_door_c",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "small_key_required",
-}
-
-door{
-  name = "door_c_2",
-  layer = 0,
-  x = 344,
-  y = 112,
-  direction = 2,
-  sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_2_2f_door_c",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "small_key_required",
-}
-
 destination{
   name = "from_3f_w",
   layer = 0,

@@ -1,3 +1,4 @@
+map{ id = "Hyrule Castle", description = "Hyrule Castle" }
 map{ id = "beach_store", description = "Beach Store" }
 map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
 map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }

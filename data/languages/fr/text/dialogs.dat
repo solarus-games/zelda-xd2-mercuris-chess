@@ -1608,6 +1608,19 @@ sont ouvertes.
 }
 
 dialog{
+  id = "chill_valley.race_track_old_guy",
+  text = [[
+Ils ont voulu racheter
+ma maison.
+J'ai refusé.
+Et maintenant ils ont
+construit le circuit
+autour.
+*sob* *sob*
+]]
+}
+
+dialog{
   id = "chores.chore_0",
   text = [[
 Comme première corvée,

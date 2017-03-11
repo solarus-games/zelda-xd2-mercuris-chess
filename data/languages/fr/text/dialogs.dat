@@ -1579,6 +1579,35 @@ Bonne chance héhé !
 }
 
 dialog{
+  id = "chill_valley.no_entry_1",
+  text = [[
+...
+
+
+Bonjour?
+
+
+On se connait?
+
+
+Tu parles souvent à des
+inconnus comme ça?
+]]
+}
+
+dialog{
+  id = "chill_valley.no_entry_2",
+  text = [[
+Hey tu te prends pour
+qui a rentrer partout?
+C'est pas parce que tu
+sauve le monde que
+toutes les portes te
+sont ouvertes.
+]]
+}
+
+dialog{
   id = "chores.chore_0",
   text = [[
 Comme première corvée,

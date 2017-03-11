@@ -973,16 +973,18 @@ Robin des Bois !
 
 dialog{
   id = "_treasure.cat_food.1",
+  icon = "37",
   text = [[
 Zelda t'a donné la 
-nourriture pour chat !
+nourriture pour
+chat !
 $0
 Va vite nourrir son
 petit chaton car il
 semble affamé!
-La pauvre petite boule
-de poils...
-Dépêche toi!
+La pauvre petite
+boule de poils...
+Dépêche toi !
 ]]
 }
 
@@ -1036,11 +1038,13 @@ moins essayer !
 
 dialog{
   id = "_treasure.fire_rod.1",
+  icon = "27",
   text = [[
-Tu as trouvé la Baguette
-de Feu !
+Tu as trouvé la
+Baguette de Feu !
 
-Tu peux tout cramer !!!
+Tu peux tout
+cramer !!!
 ]]
 }
 
@@ -1468,6 +1472,7 @@ les ennemis !
 
 dialog{
   id = "_treasure.vip_card.1",
+  icon = "36",
   text = [[
 Tu as trouvé la
 Carte VIP !

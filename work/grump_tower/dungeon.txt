@@ -28,5 +28,8 @@ Big key: After the mini-boss.
 
 Big chest (hookshot): 4F, accessible long before the mini-boss.
 
+Last floors are more independent, accessible from elevator B and
+doable in any order to find the last keys an the boss key.
+
 VIP card: hookshot required
 

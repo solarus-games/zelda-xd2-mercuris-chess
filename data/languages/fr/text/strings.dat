@@ -6,10 +6,8 @@ text{ key = "copyright_menu.solarus_license.line2", value = "sous licence GPL v3
 text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda est" }
 text{ key = "copyright_menu.tloz_trademark.line2", value = "une marque déposée de Nintendo." }
 text{ key = "inventory.caption.item.apple_pie_counter.1", value = "Tarte aux Pommes" }
-text{ key = "inventory.caption.item.balai_counter.1", value = "Balais" }
-text{ key = "inventory.caption.item.bocal_epice_counter.1", value = "Bocaux d'épices" }
 text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
-text{ key = "inventory.caption.item.bone_key.1", value = "Clé d'Os" }
+text{ key = "inventory.caption.item.boomerang", value = "Boomerang" }
 text{ key = "inventory.caption.item.bottle_1.1", value = "Flacon Magique$(Vide)" }
 text{ key = "inventory.caption.item.bottle_1.2", value = "Flacon Magique$(Eau)" }
 text{ key = "inventory.caption.item.bottle_1.3", value = "Flacon Magique$(Potion rouge)" }
@@ -31,17 +29,16 @@ text{ key = "inventory.caption.item.bottle_3.6", value = "Flacon Magique$(Fée)"
 text{ key = "inventory.caption.item.bow.1", value = "Arc" }
 text{ key = "inventory.caption.item.bow.2", value = "Arc & Flèches" }
 text{ key = "inventory.caption.item.croissants_counter.1", value = "Croissants" }
-text{ key = "inventory.caption.item.cuillere_counter.1", value = "Cuillères" }
 text{ key = "inventory.caption.item.feather.1", value = "Plume de Dodo" }
+text{ key = "inventory.caption.item.fire_rod.1", value = "Baguette de feu" }
+text{ key = "inventory.caption.item.flippers.1", value = "Palmes" }
 text{ key = "inventory.caption.item.glove.1", value = "Poigne de Fer" }
-text{ key = "inventory.caption.item.hache_counter.1", value = "Haches" }
+text{ key = "inventory.caption.item.hookshot.1", value = "Hookshot" }
+text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
+text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Pains au chocolat" }
 text{ key = "inventory.caption.item.parfum_counter.1", value = "Parfums" }
 text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
-text{ key = "inventory.caption.item.poivron_counter.1", value = "Poivrons" }
-text{ key = "inventory.caption.item.roc_magma_counter.1", value = "Rocs magma" }
-text{ key = "inventory.caption.item.sac_olive_counter.1", value = "Sacs d'olives" }
-text{ key = "inventory.caption.item.sac_riz_counter.1", value = "Sacs de riz" }
-text{ key = "inventory.caption.item.tapisserie_counter.1", value = "Tapisseries" }
+text{ key = "inventory.caption.item.vip_card.1", value = "Carte VIP" }
 text{ key = "map.caption.dungeon_name_1", value = "Château doré" }
 text{ key = "map.caption.dungeon_name_2", value = "Tour Grump" }
 text{ key = "map.caption.world_map", value = "Carte du Monde" }

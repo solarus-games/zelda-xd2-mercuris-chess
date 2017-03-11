@@ -1006,6 +1006,16 @@ moins essayer !
 }
 
 dialog{
+  id = "_treasure.fire_rod.1",
+  text = [[
+Tu as trouvé la Baguette
+de Feu !
+
+Tu peux tout cramer !!!
+]]
+}
+
+dialog{
   id = "_treasure.flippers.1",
   icon = "26",
   text = [[

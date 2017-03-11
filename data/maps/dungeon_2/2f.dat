@@ -7321,7 +7321,7 @@ stairs{
 }
 
 destination{
-  name = "from_3f_e",
+  name = "from_3f_n",
   layer = 0,
   x = 400,
   y = 37,
@@ -7494,14 +7494,6 @@ destination{
   x = 160,
   y = 277,
   direction = 1,
-}
-
-stairs{
-  layer = 0,
-  x = 152,
-  y = 264,
-  direction = 1,
-  subtype = 0,
 }
 
 jumper{
@@ -8002,6 +7994,24 @@ crystal_block{
   width = 16,
   height = 80,
   subtype = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 264,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/3f",
+  destination = "from_2f_w",
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 264,
+  direction = 1,
+  subtype = 0,
 }
 
 tile{

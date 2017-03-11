@@ -71,7 +71,6 @@ animation{
   name = "bone_key",
   src_image = "entities/items.png",
   directions = {
-    { x = 240, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -153,13 +152,6 @@ animation{
   },
 }
 animation{
-  name = "clay_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 256, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "compass",
   src_image = "entities/items.png",
   directions = {
@@ -202,6 +194,13 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "fire_rod",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 304, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -268,20 +267,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 80, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "ice_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 384, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "iron_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 336, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -373,13 +358,6 @@ animation{
   },
 }
 animation{
-  name = "rock_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 224, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "rupee",
   src_image = "entities/items.png",
   frame_delay = 100,
@@ -423,13 +401,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 592, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "stone_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 352, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

@@ -8001,6 +8001,33 @@ wall{
   stops_blocks = true,
 }
 
+crystal_block{
+  layer = 0,
+  x = 264,
+  y = 80,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 264,
+  y = 144,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 248,
+  y = 80,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 712,

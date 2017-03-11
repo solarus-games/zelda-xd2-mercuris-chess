@@ -7048,6 +7048,564 @@ tile{
   pattern = "108",
 }
 
+tile{
+  layer = 0,
+  x = 560,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6995",
+}
+
+tile{
+  layer = 0,
+  x = 584,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6996",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6998",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "6997",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 248,
+  width = 16,
+  height = 8,
+  pattern = "1126",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "1125",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 224,
+  width = 8,
+  height = 32,
+  pattern = "1124",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "1123",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 224,
+  width = 8,
+  height = 32,
+  pattern = "1122",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 272,
+  width = 8,
+  height = 32,
+  pattern = "1129",
+}
+
+tile{
+  layer = 0,
+  x = 632,
+  y = 272,
+  width = 8,
+  height = 32,
+  pattern = "1131",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 272,
+  width = 16,
+  height = 8,
+  pattern = "1127",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "1128",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 296,
+  width = 16,
+  height = 8,
+  pattern = "1130",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 312,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 576,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 592,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 624,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 640,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "3243",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "3250",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 296,
+  width = 16,
+  height = 16,
+  pattern = "3249",
+}
+
+tile{
+  layer = 0,
+  x = 672,
+  y = 280,
+  width = 16,
+  height = 16,
+  pattern = "3244",
+}
+
 destination{
   name = "from_dungeon_2",
   layer = 0,
@@ -7092,8 +7650,8 @@ teletransporter{
 destination{
   name = "destination",
   layer = 0,
-  x = 720,
-  y = 621,
+  x = 448,
+  y = 253,
   direction = 1,
   default = true,
 }
@@ -7475,6 +8033,123 @@ npc{
   direction = 3,
   subtype = 1,
   behavior = "dialog#island.beach_board_up",
+}
+
+npc{
+  name = "island_banished_guy2",
+  layer = 0,
+  x = 320,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/old_man",
+  behavior = "dialog#island.banished_guy2",
+}
+
+npc{
+  name = "island_banished_guy1",
+  layer = 0,
+  x = 344,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/thief_red",
+  behavior = "dialog#island.banished_guy1",
+}
+
+stairs{
+  layer = 0,
+  x = 296,
+  y = 240,
+  direction = 1,
+  subtype = 3,
+}
+
+stairs{
+  layer = 0,
+  x = 616,
+  y = 272,
+  direction = 3,
+  subtype = 2,
+}
+
+teletransporter{
+  name = "island_dumb_stair_left_tel",
+  layer = 0,
+  x = 296,
+  y = 240,
+  width = 16,
+  height = 16,
+  destination_map = "out/a1",
+  destination = "island_dumb_destination_right",
+}
+
+teletransporter{
+  name = "island_dumb_stair_right_tel",
+  layer = 0,
+  x = 616,
+  y = 272,
+  width = 16,
+  height = 16,
+  destination_map = "out/a1",
+  destination = "island_dumb_destination_left",
+}
+
+destination{
+  name = "island_dumb_destination_left",
+  layer = 0,
+  x = 304,
+  y = 253,
+  direction = 1,
+}
+
+destination{
+  name = "island_dumb_destination_right",
+  layer = 0,
+  x = 624,
+  y = 285,
+  direction = 1,
+}
+
+pickable{
+  name = "island_scaring_rupee",
+  layer = 0,
+  x = 624,
+  y = 269,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_scaring_rupee_obtained",
+}
+
+sensor{
+  name = "island_scaring_rupee_sensor",
+  layer = 0,
+  x = 304,
+  y = 245,
+  width = 16,
+  height = 16,
+}
+
+npc{
+  name = "island_dontgo_board",
+  layer = 0,
+  x = 336,
+  y = 253,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/sign",
+  behavior = "dialog#island.dontgo_board",
+}
+
+npc{
+  name = "island_dontgo_guy",
+  layer = 0,
+  x = 272,
+  y = 253,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/merchant_green",
+  behavior = "dialog#island.dontgo_guy",
 }
 
 tile{

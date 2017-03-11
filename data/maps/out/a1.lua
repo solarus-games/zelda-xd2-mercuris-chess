@@ -18,6 +18,20 @@ function map:on_started()
   island_beach_jellyfish:set_life(2000000)
 end
 
+function island_scaring_rupee_sensor:on_activated()
+  sol.audio.play_sound("enemy_hurt")  
+  sol.audio.play_sound("hero_hurt")
+  game:set_life(4)
+end
+
+function map:on_obtained_treasure(treasure_item, treasure_variant, treasure_savegame_variable)
+  if treasure_savegame_variable ~= "island_scaring_rupee_obtained"
+  then
+    return
+  end
+  game:start_dialog("island.scaring_rupee_obtained_dialog")
+end
+
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()

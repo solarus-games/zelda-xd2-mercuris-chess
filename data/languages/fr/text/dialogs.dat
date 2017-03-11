@@ -2147,9 +2147,33 @@ DEBOOOUUUUT !
 }
 
 dialog{
+  id = "island.banished_guy1",
+  text = [[
+Je suis addict au jeu.
+
+
+Je ne peux plus entrer
+dans la tour, j'ai été
+banni du casino !
+]]
+}
+
+dialog{
+  id = "island.banished_guy2",
+  text = [[
+Je suis un mangeur
+compulsif.
+
+Je ne peux plus entrer
+dans la tour, j'ai été
+banni du restaurant !
+]]
+}
+
+dialog{
   id = "island.beach_board",
   text = [[
-Grump's beach
+Grump beach
 
 
 Maillot de bain
@@ -2230,6 +2254,20 @@ dangereux ces trucs-là ?
 }
 
 dialog{
+  id = "island.dontgo_board",
+  text = [[
+N'Y ALLEZ PAS !!!
+]]
+}
+
+dialog{
+  id = "island.dontgo_guy",
+  text = [[
+N'Y VA PAS !!!
+]]
+}
+
+dialog{
   id = "island.hideseek_mom",
   text = [[
 Je "joue" à cache-cache
@@ -2248,6 +2286,18 @@ avec ma maman.
 
 Je suis en train de
 gagner.
+]]
+}
+
+dialog{
+  id = "island.scaring_rupee_obtained_dialog",
+  text = [[
+Vous avez vécu des
+choses effroyables
+dans cette cave.
+Et cela ne valait
+sûrement pas ces 20
+rubis.
 ]]
 }
 

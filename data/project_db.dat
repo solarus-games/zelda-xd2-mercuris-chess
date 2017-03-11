@@ -102,6 +102,8 @@ sprite{ id = "enemies/chess/pawn_black", description = "Pawn (black)" }
 sprite{ id = "enemies/chess/pawn_white", description = "Pawn (white)" }
 sprite{ id = "enemies/chess/queen_black", description = "Queen (black)" }
 sprite{ id = "enemies/chess/queen_white", description = "Queen (white)" }
+sprite{ id = "enemies/chess/rook_auto_black", description = "Moving Rook (black)" }
+sprite{ id = "enemies/chess/rook_auto_white", description = "Moving rook (white)" }
 sprite{ id = "enemies/chess/rook_black", description = "Rook (black)" }
 sprite{ id = "enemies/chess/rook_white", description = "Rook (white)" }
 sprite{ id = "enemies/creeper", description = "MC Creeper" }
@@ -604,6 +606,8 @@ enemy{ id = "chess/pawn_black", description = "Pawn (black)" }
 enemy{ id = "chess/pawn_white", description = "Pawn (white)" }
 enemy{ id = "chess/queen_black", description = "Queen (black)" }
 enemy{ id = "chess/queen_white", description = "Queen (white)" }
+enemy{ id = "chess/rook_auto_black", description = "Moving rook (black)" }
+enemy{ id = "chess/rook_auto_white", description = "Moving rook (white)" }
 enemy{ id = "chess/rook_black", description = "Rook (black)" }
 enemy{ id = "chess/rook_white", description = "Rook (white)" }
 enemy{ id = "creeper", description = "Creeper" }

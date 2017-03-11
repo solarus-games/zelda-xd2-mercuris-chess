@@ -7235,18 +7235,6 @@ tile{
 
 wall{
   layer = 0,
-  x = 152,
-  y = 112,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
   x = 736,
   y = 24,
   width = 16,
@@ -7703,14 +7691,6 @@ destructible{
   damage_on_enemies = 2,
 }
 
-enemy{
-  layer = 0,
-  x = 160,
-  y = 125,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
 chest{
   layer = 0,
   x = 696,
@@ -8001,6 +7981,36 @@ stairs{
   y = 264,
   direction = 1,
   subtype = 0,
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 152,
+  y = 112,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 152,
+  y = 120,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+enemy{
+  layer = 0,
+  x = 160,
+  y = 125,
+  direction = 3,
+  breed = "alttp/medusa",
 }
 
 tile{

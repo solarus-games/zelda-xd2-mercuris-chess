@@ -4686,6 +4686,24 @@ tile{
   pattern = "barrier.2-1",
 }
 
+destination{
+  name = "from_4f_nw",
+  layer = 0,
+  x = 160,
+  y = 37,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/4f",
+  destination = "from_3f_nw",
+}
+
 door{
   name = "elevator_a_door",
   layer = 0,
@@ -4906,14 +4924,6 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
-}
-
-destination{
-  name = "from_4f_nw",
-  layer = 0,
-  x = 160,
-  y = 37,
-  direction = 1,
 }
 
 stairs{

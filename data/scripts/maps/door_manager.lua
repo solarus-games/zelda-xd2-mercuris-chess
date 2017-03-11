@@ -67,6 +67,9 @@ function door_manager:open_when_switch_activated(door)
       sol.audio.play_sound("secret")
       map:open_doors(door_prefix)
     end
+    function switch:on_inactivated()
+      map:close_doors(door_prefix)
+    end
   end
 end
 

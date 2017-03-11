@@ -107,6 +107,7 @@ musics/larryinc64/*.ogg                             LarryInc64: https://www.yout
 musics/doctoroctoroc/*.ogg                          DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
 sprites/enemies/creeper.png                         Christopho
 sprites/npc/newlink/yoda.png                        Newlink
+sprites/the_doctor.png                              Rockfootdude
 
 Files that include content from Nintendo:
 -----------------------------------------

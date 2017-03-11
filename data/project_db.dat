@@ -25,7 +25,7 @@ map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
 map{ id = "main_village/geek_house", description = "Geek House" }
 map{ id = "main_village/humid_house", description = "Humid House" }
-map{ id = "main_village/link_house", description = "Link House" }
+map{ id = "main_village/link_house", description = "main_village/link_house" }
 map{ id = "main_village/tavern", description = "Tavern" }
 map{ id = "main_village/vases_house", description = "Vases House" }
 map{ id = "out/a1", description = "A1 (Island)" }
@@ -164,7 +164,7 @@ sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
 sprite{ id = "enemies/smk_yoshi", description = "SMK Yoshi" }
 sprite{ id = "entities/arrow", description = "Arrow" }
-sprite{ id = "entities/bed", description = "Link bed" }
+sprite{ id = "entities/bed", description = "entities/bed" }
 sprite{ id = "entities/big_chest", description = "Big chest" }
 sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
@@ -210,7 +210,6 @@ sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/slot_machine_items", description = "Slot machine items" }
 sprite{ id = "entities/slot_machine_support", description = "Slot machine support" }
-sprite{ id = "entities/snores", description = "Snores" }
 sprite{ id = "entities/star", description = "Star" }
 sprite{ id = "entities/statue", description = "Statue" }
 sprite{ id = "entities/stone_black", description = "Stone (black)" }
@@ -351,6 +350,7 @@ sprite{ id = "npc/newlink/red_hood_man", description = "Red hood man" }
 sprite{ id = "npc/newlink/tom", description = "Tom" }
 sprite{ id = "npc/newlink/yoda", description = "Yoda" }
 sprite{ id = "npc/seagull", description = "Seagull" }
+sprite{ id = "npc/the_doctor", description = "The Doctor" }
 
 music{ id = "alttp/agahnim", description = "Agahnim theme" }
 music{ id = "alttp/beginning", description = "Beginning" }

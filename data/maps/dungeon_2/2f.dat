@@ -3626,6 +3626,22 @@ destructible{
   damage_on_enemies = 2,
 }
 
+destination{
+  name = "from_3f_hole_c",
+  layer = -1,
+  x = 160,
+  y = 605,
+  direction = 1,
+}
+
+destination{
+  name = "from_3f_hole_se",
+  layer = -1,
+  x = 224,
+  y = 629,
+  direction = 1,
+}
+
 tile{
   layer = 0,
   x = 192,
@@ -5041,15 +5057,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 872,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
-}
-
-tile{
-  layer = 0,
   x = 864,
   y = 264,
   width = 8,
@@ -5082,15 +5089,6 @@ tile{
   width = 8,
   height = 128,
   pattern = "wall_border.3-5",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
 }
 
 tile{
@@ -5775,15 +5773,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "wall_border.corner_reverse.3-5",
-}
-
-tile{
-  layer = 0,
-  x = 152,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
 }
 
 tile{

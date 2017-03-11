@@ -1918,6 +1918,19 @@ Tarif : Mises de
 }
 
 dialog{
+  id = "dungeon_2.3f.4_queens_puzzle",
+  text = [[
+Problème des 4 Dames
+
+
+Aucune Dame ne soit
+sur la même ligne,
+colonne ou diagonale
+qu'une autre.
+]]
+}
+
+dialog{
   id = "dungeon_2.welcome",
   text = [[
        Niveau 2

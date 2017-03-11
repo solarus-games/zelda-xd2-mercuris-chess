@@ -2504,6 +2504,33 @@ tile{
   pattern = "door.1.support.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 464,
+  y = 560,
+  width = 32,
+  height = 16,
+  pattern = "floor_boss-6",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 496,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.3-9",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 496,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.4-9",
+}
+
 wall{
   layer = 0,
   x = 736,

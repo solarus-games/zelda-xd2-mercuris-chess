@@ -3028,6 +3028,16 @@ destination{
   direction = 1,
 }
 
+teletransporter{
+  layer = 0,
+  x = 472,
+  y = 600,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/5f",
+  destination = "from_4f_nw",
+}
+
 stairs{
   layer = 0,
   x = 472,
@@ -3036,14 +3046,18 @@ stairs{
   subtype = 0,
 }
 
-teletransporter{
+door{
+  name = "door_a",
   layer = 0,
-  x = 464,
-  y = 640,
-  width = 16,
-  height = 16,
-  destination_map = "dungeon_2/5f",
-  destination = "from_4f_nw",
+  x = 472,
+  y = 600,
+  direction = 1,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_5f_door_a",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
 }
 
 tile{
@@ -3118,24 +3132,6 @@ tile{
   pattern = "door_cache.1-5",
 }
 
-tile{
-  layer = 1,
-  x = 464,
-  y = 592,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.1-2",
-}
-
-tile{
-  layer = 1,
-  x = 472,
-  y = 592,
-  width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.1-1",
-}
-
 dynamic_tile{
   name = "elevator_b_down_tile",
   layer = 1,
@@ -3153,6 +3149,39 @@ dynamic_tile{
   x = 744,
   y = 16,
   pattern = "door_top.stairs_up.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "door_a_closed",
+  layer = 1,
+  x = 464,
+  y = 592,
+  pattern = "door_top.closed.1-5",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "door_a_open",
+  layer = 1,
+  x = 464,
+  y = 592,
+  pattern = "door_top.stairs.1-2",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "door_a_open_2",
+  layer = 1,
+  x = 472,
+  y = 592,
+  pattern = "door_top.stairs_up.1-1",
   width = 16,
   height = 8,
   enabled_at_start = true,

@@ -13,6 +13,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 888,
+  y = 16,
+  width = 56,
+  height = 56,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
   x = 912,
   y = 328,
   width = 32,
@@ -213,15 +231,6 @@ tile{
   layer = 0,
   x = 888,
   y = 648,
-  width = 56,
-  height = 56,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 16,
   width = 56,
   height = 56,
   pattern = "ceiling.1",
@@ -513,15 +522,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "wall_diag.1-5",
-}
-
-tile{
-  layer = 0,
-  x = 928,
-  y = 64,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.2-5",
 }
 
 tile{
@@ -2306,6 +2306,33 @@ tile{
   pattern = "wall.4-5",
 }
 
+tile{
+  layer = 0,
+  x = 232,
+  y = 264,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 264,
+  width = 8,
+  height = 16,
+  pattern = "door.1.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.spiral_down.1",
+}
+
 wall{
   layer = 0,
   x = 504,
@@ -2562,6 +2589,32 @@ wall{
   stops_enemies = true,
 }
 
+destination{
+  name = "from_6f_w",
+  layer = 0,
+  x = 248,
+  y = 277,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 240,
+  y = 264,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/6f",
+  destination = "from_7f_w",
+}
+
+stairs{
+  layer = 0,
+  x = 240,
+  y = 264,
+  direction = 1,
+  subtype = 1,
+}
+
 tile{
   layer = 1,
   x = 696,
@@ -2593,6 +2646,33 @@ tile{
   layer = 1,
   x = 728,
   y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 256,
+  width = 96,
+  height = 8,
+  pattern = "door_cache.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 256,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 256,
   width = 16,
   height = 8,
   pattern = "door_top.stairs_up.2-1",

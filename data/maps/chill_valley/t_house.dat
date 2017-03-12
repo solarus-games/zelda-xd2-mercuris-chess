@@ -199,8 +199,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
-  y = 184,
+  x = 256,
+  y = 72,
   width = 32,
   height = 48,
   pattern = "bed.made",
@@ -208,8 +208,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 184,
+  x = 288,
+  y = 72,
   width = 32,
   height = 48,
   pattern = "bed.made",
@@ -228,15 +228,6 @@ tile{
   layer = 0,
   x = 80,
   y = 40,
-  width = 24,
-  height = 24,
-  pattern = "cabinet.3a",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 40,
   width = 48,
   height = 24,
   pattern = "cabinet.7a",
@@ -244,16 +235,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
-  y = 40,
-  width = 48,
-  height = 24,
-  pattern = "cabinet.7a",
-}
-
-tile{
-  layer = 0,
-  x = 104,
+  x = 112,
   y = 80,
   width = 32,
   height = 32,
@@ -305,10 +287,208 @@ tile{
   pattern = "1099",
 }
 
+tile{
+  layer = 0,
+  x = 184,
+  y = 32,
+  width = 32,
+  height = 32,
+  pattern = "low_cook_pot",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 32,
+  width = 32,
+  height = 32,
+  pattern = "cook.pot",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 32,
+  width = 24,
+  height = 24,
+  pattern = "cabinet.2a",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "counter.7",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 120,
+  width = 8,
+  height = 16,
+  pattern = "counter.9",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 80,
+  width = 8,
+  height = 40,
+  pattern = "counter.4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "counter.1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 80,
+  width = 8,
+  height = 40,
+  pattern = "counter.6",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "counter.3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 104,
+  width = 32,
+  height = 32,
+  pattern = "chimney.1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "cafe_table.full",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 152,
+  width = 32,
+  height = 32,
+  pattern = "cafe_table.full",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 32,
+  height = 32,
+  pattern = "cafe_table.full",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "cafe_chair.2a",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "cafe_chair.1a",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "cafe_chair.1a",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
 npc{
   layer = 0,
-  x = 72,
-  y = 93,
+  x = 232,
+  y = 61,
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/broom_grandma",
@@ -356,27 +536,54 @@ tile{
   layer = 1,
   x = 80,
   y = 16,
-  width = 24,
+  width = 48,
   height = 24,
-  pattern = "cabinet.3b",
+  pattern = "caninet.7b",
 }
 
 tile{
   layer = 1,
-  x = 120,
-  y = 16,
-  width = 48,
+  x = 304,
+  y = 8,
+  width = 24,
   height = 24,
-  pattern = "caninet.7b",
+  pattern = "cabinet.2b",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 80,
+  width = 32,
+  height = 24,
+  pattern = "chimney.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "cafePchair.2b",
 }
 
 tile{
   layer = 1,
   x = 184,
-  y = 16,
-  width = 48,
-  height = 24,
-  pattern = "caninet.7b",
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "cafe_chair.1b",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "cafe_chair.1b",
 }
 
 tile{

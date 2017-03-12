@@ -5182,6 +5182,25 @@ destination{
   starting_location_mode = "yes",
 }
 
+teletransporter{
+  name = "t_house_entry",
+  layer = 0,
+  x = 216,
+  y = 800,
+  width = 16,
+  height = 16,
+  destination_map = "chill_valley/t_house",
+  destination = "from_outside",
+}
+
+destination{
+  name = "from_t_house",
+  layer = 0,
+  x = 224,
+  y = 829,
+  direction = 3,
+}
+
 tile{
   layer = 1,
   x = 792,

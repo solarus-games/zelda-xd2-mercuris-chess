@@ -1,0 +1,181 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 272,
+  height = 272,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/light_brown",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 232,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 192,
+  pattern = "wall.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 192,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 232,
+  width = 192,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 40,
+  width = 24,
+  height = 192,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 192,
+  height = 192,
+  pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 232,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 232,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 232,
+  width = 16,
+  height = 16,
+  pattern = "door.2",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 184,
+  width = 32,
+  height = 48,
+  pattern = "bed.made",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 248,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.2-2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 0,
+  width = 256,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 256,
+  width = 240,
+  height = 16,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 16,
+  width = 16,
+  height = 256,
+  pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 256,
+  y = 0,
+  width = 16,
+  height = 272,
+  pattern = "ceiling.2",
+}
+

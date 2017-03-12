@@ -5093,6 +5093,141 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 24,
+  height = 32,
+  pattern = "window.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 160,
+  width = 24,
+  height = 32,
+  pattern = "window.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 288,
+  width = 24,
+  height = 32,
+  pattern = "window.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 400,
+  width = 24,
+  height = 32,
+  pattern = "window.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 112,
+  width = 224,
+  height = 16,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 104,
+  width = 224,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 128,
+  width = 224,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 592,
+  width = 224,
+  height = 16,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 584,
+  width = 224,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 608,
+  width = 224,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 96,
+  width = 48,
+  height = 48,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 88,
+  width = 64,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 144,
+  width = 64,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 96,
+  width = 8,
+  height = 48,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 96,
+  width = 8,
+  height = 48,
+  pattern = "floor_border.4",
+}
+
 door{
   name = "weak_wall_a",
   layer = 0,
@@ -5966,7 +6101,7 @@ block{
 dynamic_tile{
   name = "invisible_tile_1",
   layer = 0,
-  x = 64,
+  x = 80,
   y = 120,
   pattern = "barrier.1-1",
   width = 16,
@@ -5977,7 +6112,7 @@ dynamic_tile{
 dynamic_tile{
   name = "invisible_tile_2",
   layer = 0,
-  x = 64,
+  x = 80,
   y = 112,
   pattern = "barrier.1-1",
   width = 16,
@@ -5987,7 +6122,7 @@ dynamic_tile{
 
 enemy{
   layer = 0,
-  x = 72,
+  x = 88,
   y = 125,
   direction = 3,
   breed = "alttp/medusa",
@@ -6344,7 +6479,7 @@ jumper{
   layer = 0,
   x = 848,
   y = 328,
-  width = 32,
+  width = 24,
   height = 8,
   direction = 6,
   jump_length = 16,
@@ -6362,9 +6497,9 @@ jumper{
 
 wall{
   layer = 0,
-  x = 880,
+  x = 872,
   y = 328,
-  width = 40,
+  width = 48,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -6940,6 +7075,15 @@ tile{
   width = 8,
   height = 112,
   pattern = "door_cache.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 16,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
 }
 
 dynamic_tile{

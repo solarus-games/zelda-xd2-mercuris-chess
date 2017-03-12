@@ -10,6 +10,15 @@ properties{
 
 tile{
   layer = 0,
+  x = 296,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
   x = 88,
   y = 136,
   width = 32,
@@ -37,7 +46,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
+  x = 136,
   y = 16,
   width = 24,
   height = 24,
@@ -47,24 +56,6 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 136,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 328,
-  y = 136,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner.4-1",
-}
-
-tile{
-  layer = 0,
-  x = 112,
   y = 232,
   width = 24,
   height = 24,
@@ -73,7 +64,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
+  x = 328,
   y = 232,
   width = 24,
   height = 24,
@@ -85,14 +76,14 @@ tile{
   x = 16,
   y = 40,
   width = 24,
-  height = 96,
+  height = 192,
   pattern = "wall.3-1",
 }
 
 tile{
   layer = 0,
   x = 328,
-  y = 40,
+  y = 136,
   width = 24,
   height = 96,
   pattern = "wall.4-1",
@@ -102,60 +93,24 @@ tile{
   layer = 0,
   x = 40,
   y = 16,
-  width = 288,
+  width = 96,
   height = 24,
   pattern = "wall.1-1",
 }
 
 tile{
   layer = 0,
-  x = 112,
-  y = 152,
-  width = 24,
-  height = 80,
-  pattern = "wall.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 136,
+  x = 40,
   y = 232,
-  width = 96,
+  width = 240,
   height = 24,
   pattern = "wall.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 152,
-  width = 24,
-  height = 80,
-  pattern = "wall.4-1",
-}
-
-tile{
-  layer = 0,
-  x = 248,
-  y = 136,
-  width = 80,
-  height = 24,
-  pattern = "wall.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 232,
-  y = 136,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.4-1",
 }
 
 tile{
   layer = 0,
   x = 40,
-  y = 40,
+  y = 136,
   width = 288,
   height = 96,
   pattern = "floor_low.1-1",
@@ -163,8 +118,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
-  y = 136,
+  x = 40,
+  y = 40,
   width = 96,
   height = 96,
   pattern = "floor_low.1-1",
@@ -172,8 +127,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 136,
+  x = 296,
+  y = 232,
   width = 8,
   height = 16,
   pattern = "door.2.support.2-1",
@@ -181,8 +136,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 136,
+  x = 272,
+  y = 232,
   width = 8,
   height = 16,
   pattern = "door.2.support.1-1",
@@ -190,8 +145,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 136,
+  x = 280,
+  y = 232,
   width = 16,
   height = 16,
   pattern = "door.2",
@@ -199,8 +154,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
-  y = 184,
+  x = 40,
+  y = 40,
   width = 32,
   height = 48,
   pattern = "bed.made",
@@ -208,8 +163,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 184,
+  x = 104,
+  y = 40,
   width = 32,
   height = 48,
   pattern = "bed.made",
@@ -217,7 +172,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
+  x = 56,
   y = 232,
   width = 32,
   height = 24,
@@ -226,17 +181,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
-  y = 136,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 88,
-  y = 160,
+  x = 296,
+  y = 256,
   width = 8,
   height = 16,
   pattern = "1099",
@@ -244,8 +190,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 160,
+  x = 272,
+  y = 256,
   width = 8,
   height = 16,
   pattern = "1099",
@@ -253,18 +199,54 @@ tile{
 
 tile{
   layer = 0,
-  x = 72,
-  y = 176,
+  x = 280,
+  y = 272,
   width = 16,
   height = 8,
   pattern = "1099",
 }
 
+tile{
+  layer = 0,
+  x = 328,
+  y = 112,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 176,
+  height = 24,
+  pattern = "wall.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 24,
+  height = 80,
+  pattern = "wall.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 112,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2-1",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
-  x = 80,
-  y = 149,
+  x = 288,
+  y = 245,
   direction = 1,
   default = true,
 }
@@ -272,8 +254,8 @@ destination{
 teletransporter{
   name = "to_chill_valley",
   layer = 0,
-  x = 72,
-  y = 160,
+  x = 280,
+  y = 256,
   width = 16,
   height = 16,
   destination_map = "out/a2",
@@ -282,8 +264,8 @@ teletransporter{
 
 tile{
   layer = 1,
-  x = 64,
-  y = 152,
+  x = 272,
+  y = 248,
   width = 32,
   height = 8,
   pattern = "door_top.stairs.2-2",
@@ -300,18 +282,9 @@ tile{
 
 tile{
   layer = 2,
-  x = 256,
-  y = 160,
-  width = 112,
-  height = 112,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 2,
-  x = 112,
+  x = 0,
   y = 256,
-  width = 144,
+  width = 368,
   height = 16,
   pattern = "ceiling.2",
 }
@@ -321,7 +294,7 @@ tile{
   x = 0,
   y = 16,
   width = 16,
-  height = 144,
+  height = 240,
   pattern = "ceiling.2",
 }
 
@@ -330,16 +303,16 @@ tile{
   x = 352,
   y = 0,
   width = 16,
-  height = 160,
+  height = 256,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
-  x = 0,
-  y = 160,
-  width = 112,
-  height = 112,
+  x = 160,
+  y = 16,
+  width = 192,
+  height = 96,
   pattern = "882",
 }
 

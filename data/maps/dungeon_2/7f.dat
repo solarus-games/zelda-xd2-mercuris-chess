@@ -669,24 +669,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
-  y = 520,
-  width = 240,
-  height = 160,
-  pattern = "floor.13-2",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 520,
-  width = 240,
-  height = 160,
-  pattern = "2198",
-}
-
-tile{
-  layer = 0,
   x = 16,
   y = 16,
   width = 56,

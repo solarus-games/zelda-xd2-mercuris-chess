@@ -6369,14 +6369,6 @@ destination{
   direction = 1,
 }
 
-stairs{
-  layer = 0,
-  x = 888,
-  y = 264,
-  direction = 1,
-  subtype = 0,
-}
-
 enemy{
   name = "auto_enemy_12",
   layer = 0,
@@ -6624,6 +6616,24 @@ stairs{
   layer = 0,
   x = 216,
   y = 24,
+  direction = 1,
+  subtype = 0,
+}
+
+teletransporter{
+  layer = 0,
+  x = 888,
+  y = 264,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/5f",
+  destination = "from_4f_e",
+}
+
+stairs{
+  layer = 0,
+  x = 888,
+  y = 264,
   direction = 1,
   subtype = 0,
 }

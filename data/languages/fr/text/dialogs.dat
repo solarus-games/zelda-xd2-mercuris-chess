@@ -1681,6 +1681,21 @@ autour.
 }
 
 dialog{
+  id = "chores.cat_fed",
+  text = [[
+MIAOU!
+]]
+}
+
+dialog{
+  id = "chores.cat_gurgling",
+  text = [[
+MiAaAaAaoOoOuUu ...$0
+(gargouillements)
+]]
+}
+
+dialog{
   id = "chores.chore_0",
   text = [[
 Comme première corvée,
@@ -1695,6 +1710,24 @@ il est vraiment trop
 choupi.
 Il se trouve dans la
 cave.
+]]
+}
+
+dialog{
+  id = "chores.chore_1",
+  text = [[
+Merci d'avoir nourri
+mon petit chaton
+d'amour.
+Il est trognon, 
+n'est-ce pas ?$0
+Maintenant, 
+je t'ordonne de couper
+toute la mauvaise
+herbe qui gangrène le
+joli jardinet.$0
+Allez, au boulot,
+gross feignasse!
 ]]
 }
 

@@ -21,12 +21,24 @@ end
 
 -- Event called when the hero is using this item.
 function item:on_using()
+  
+  local current_map = game:get_map()
+  
+  -- Check if the cat is close to the hero.
+  local cat_entity = current_map:get_entity("tigriss_npc_docile")
+  if cat_entity ~= nil then
+    local hero = current_map:get_hero()
+    local hero_x, hero_y = hero:get_position()
+    local cat_x, cat_y = cat_entity:get_position()
+    if hero_x > cat_x - 8 and hero_x < cat_x + 8 and hero_y > cat_y and hero_y <= cat_y + 16 then
+      cat_entity:use_food()
+    end
+  end
 
-  -- Define here what happens when using this item
-  -- and call item:set_finished() to release the hero when you have finished.
   item:set_finished()
 end
 
 function item:on_created()
     item:set_savegame_variable("possession_cat_food")
+    self:set_assignable(true)
 end

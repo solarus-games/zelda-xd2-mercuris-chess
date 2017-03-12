@@ -306,7 +306,9 @@ function zelda:on_interaction()
 
   -- Step 1: Cut the grass in the garden.
   elseif chore_step == 1 then
-
+    game:start_dialog("chores.chore_1", function()
+      
+    end)
   -- Step 2: Do Zelda grocery (buy apple pie).
   elseif chore_step == 2 then
 

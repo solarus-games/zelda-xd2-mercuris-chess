@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeon/light_brown",
-  music = "alttp/light_world_dungeon",
+  music = "same",
 }
 
 tile{
@@ -888,7 +888,7 @@ sensor{
 npc{
   name = "tigriss_npc_docile",
   layer = 0,
-  x = 128,
+  x = 304,
   y = 141,
   direction = 3,
   subtype = 1,

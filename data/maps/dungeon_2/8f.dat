@@ -353,12 +353,11 @@ destination{
 }
 
 chest{
-  name = "chest_a",
   layer = -1,
   x = 536,
   y = 637,
-  treasure_name = "small_key",
-  treasure_savegame_variable = "dungeon_2_8f_s_key_chest",
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_2_boss_key_chest",
   sprite = "entities/chest",
 }
 
@@ -4054,6 +4053,16 @@ sensor{
   y = 37,
   width = 16,
   height = 16,
+}
+
+chest{
+  name = "chest_a",
+  layer = 0,
+  x = 472,
+  y = 365,
+  treasure_name = "small_key_brandished",
+  treasure_savegame_variable = "dungeon_2_8f_c_key_chest",
+  sprite = "entities/chest",
 }
 
 tile{

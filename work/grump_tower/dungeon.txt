@@ -28,6 +28,8 @@ Locked doors:
 4) 2F, to north-east room
 5) 2F, to north-west room
 6) 2F, north room stairs
+7) 7F, west room
+8) 8F, end of the G corridor
 
 Big key: After the mini-boss.
 

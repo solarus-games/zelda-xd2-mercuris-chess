@@ -1387,7 +1387,7 @@ chest{
   layer = -1,
   x = 864,
   y = 133,
-  treasure_name = "small_key",
+  treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_2_1f_ne_key_chest",
   sprite = "entities/chest",
 }

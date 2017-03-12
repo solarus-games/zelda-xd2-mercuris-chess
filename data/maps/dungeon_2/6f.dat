@@ -3629,7 +3629,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
+  x = 216,
   y = 264,
   width = 8,
   height = 16,
@@ -3638,7 +3638,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 256,
+  x = 240,
   y = 264,
   width = 8,
   height = 16,
@@ -3647,7 +3647,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 240,
+  x = 224,
   y = 264,
   width = 16,
   height = 16,
@@ -4740,14 +4740,14 @@ door{
 destination{
   name = "from_7f_w",
   layer = 0,
-  x = 248,
+  x = 232,
   y = 277,
   direction = 1,
 }
 
 teletransporter{
   layer = 0,
-  x = 240,
+  x = 224,
   y = 264,
   width = 16,
   height = 16,
@@ -4757,7 +4757,7 @@ teletransporter{
 
 stairs{
   layer = 0,
-  x = 240,
+  x = 224,
   y = 264,
   direction = 1,
   subtype = 0,
@@ -4973,7 +4973,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 200,
+  x = 184,
   y = 256,
   width = 96,
   height = 8,
@@ -4982,7 +4982,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 232,
+  x = 216,
   y = 256,
   width = 32,
   height = 8,
@@ -4991,7 +4991,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 240,
+  x = 224,
   y = 256,
   width = 16,
   height = 8,

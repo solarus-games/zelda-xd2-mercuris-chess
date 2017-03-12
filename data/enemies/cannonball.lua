@@ -83,7 +83,39 @@ local random_balls = {
     height = 16,
     origin_x = 8,
     origin_y = 13,
-  }
+  },
+  {
+    sprite = "enemies/chess/knight_white",
+    sound = "cannonball",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
+  {
+    sprite = "enemies/chess/king_black",
+    sound = "cannonball",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
+  {
+    sprite = "enemies/chess/pawn_white",
+    sound = "cannonball",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
+  {
+    sprite = "enemies/chess/queen_black",
+    sound = "cannonball",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
 }
 
 function enemy:on_created()

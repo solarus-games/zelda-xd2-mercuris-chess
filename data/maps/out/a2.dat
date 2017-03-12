@@ -5173,15 +5173,6 @@ sensor{
   height = 16,
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 696,
-  y = 589,
-  direction = 1,
-  starting_location_mode = "yes",
-}
-
 teletransporter{
   name = "t_house_entry",
   layer = 0,
@@ -5256,6 +5247,7 @@ destination{
   x = 424,
   y = 221,
   direction = 3,
+  default = true,
 }
 
 teletransporter{

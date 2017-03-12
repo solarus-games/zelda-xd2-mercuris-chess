@@ -17,7 +17,9 @@ Small keys:
 8) 2F, under chess statue
 9) 3F, chest in the north room (kitchen path)
 10) 3F, chest in the north room (kitchen path and elevator A)
-10) 8F, south room low layer
+11) 5F, kill an enemy in the north-west room
+12) 5F, chest in the south-east room (fall from above, after elevator B)
+12) 8F, south room low layer
 
 Locked doors:
 1) 1F, entrance

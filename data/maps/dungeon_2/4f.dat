@@ -6726,6 +6726,7 @@ enemy{
   y = 653,
   direction = 3,
   breed = "newlink/topik_blue",
+  treasure_name = "random",
 }
 
 enemy{
@@ -6734,6 +6735,7 @@ enemy{
   y = 605,
   direction = 3,
   breed = "newlink/topik_red",
+  treasure_name = "random",
 }
 
 door{

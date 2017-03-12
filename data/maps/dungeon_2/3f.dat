@@ -5920,6 +5920,26 @@ block{
   maximum_moves = 2,
 }
 
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 544,
+  y = 317,
+  direction = 0,
+  breed = "newlink/vipeross",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 88,
+  y = 357,
+  direction = 0,
+  breed = "newlink/cobruss",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 200,

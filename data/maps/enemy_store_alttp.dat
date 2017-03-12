@@ -18,6 +18,24 @@ tile{
   pattern = "floor.18-1",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 256,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 264,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
 enemy{
   layer = 0,
   x = 72,

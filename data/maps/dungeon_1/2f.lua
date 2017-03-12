@@ -10,19 +10,20 @@
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
-
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+  if game:get_value("dungeon_1_mario_painting") == true then
+    map:remove_entities("weak_wall")
+    map:remove_entities("mario")
+  end
 end
 
 function mario_message:on_interaction()
   sol.audio.play_sound("mk64_mario_yeah")
+end
+
+function mario_sensor:on_collision_explosion()
+  sol.audio.play_sound("mk64_mario_mammamia")
+  map:remove_entities("weak_wall")
+  map:remove_entities("mario")
+  game:set_value("dungeon_1_mario_painting", true)
 end

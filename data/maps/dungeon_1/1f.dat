@@ -2309,6 +2309,17 @@ stairs{
   subtype = 4,
 }
 
+npc{
+  name = "pool_grandma",
+  layer = -1,
+  x = 184,
+  y = 509,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/broom_grandma",
+  behavior = "dialog#dungeon_1.1f.pool_grandma",
+}
+
 tile{
   layer = 0,
   x = 864,
@@ -6467,6 +6478,24 @@ tile{
   pattern = "stairs_inner_up.2.top-1",
 }
 
+tile{
+  layer = 0,
+  x = 736,
+  y = 128,
+  width = 48,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 1136,
+  y = 128,
+  width = 48,
+  height = 16,
+  pattern = "floor_pot",
+}
+
 chest{
   layer = 0,
   x = 160,
@@ -6849,7 +6878,7 @@ jumper{
   layer = 0,
   x = 1696,
   y = 56,
-  width = 64,
+  width = 56,
   height = 8,
   direction = 6,
   jump_length = 40,
@@ -6919,16 +6948,6 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
-}
-
-jumper{
-  layer = 0,
-  x = 1776,
-  y = 56,
-  width = 16,
-  height = 8,
-  direction = 6,
-  jump_length = 40,
 }
 
 wall{
@@ -7047,9 +7066,9 @@ wall{
 
 jumper{
   layer = 0,
-  x = 88,
+  x = 176,
   y = 352,
-  width = 144,
+  width = 56,
   height = 8,
   direction = 6,
   jump_length = 40,
@@ -7146,17 +7165,18 @@ dynamic_tile{
 }
 
 switch{
+  name = "river_switch",
   layer = 0,
   x = 1816,
   y = 152,
-  subtype = "walkable",
+  subtype = "solid",
   sprite = "entities/switches/solid_switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
 
 dynamic_tile{
-  name = "river_1",
+  name = "static_river_1",
   layer = 0,
   x = 1504,
   y = 128,
@@ -7167,7 +7187,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "river_2",
+  name = "static_river_2",
   layer = 0,
   x = 1472,
   y = 144,
@@ -7178,7 +7198,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "river_3",
+  name = "static_river_3",
   layer = 0,
   x = 1472,
   y = 192,
@@ -7189,7 +7209,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "river_4",
+  name = "static_river_4",
   layer = 0,
   x = 1472,
   y = 208,
@@ -7200,7 +7220,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "river_5",
+  name = "static_river_5",
   layer = 0,
   x = 1440,
   y = 304,
@@ -7211,7 +7231,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "river_6",
+  name = "static_river_6",
   layer = 0,
   x = 1408,
   y = 368,
@@ -7222,7 +7242,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "animated_river_top_2",
+  name = "animated_river_1_2",
   layer = 0,
   x = 1696,
   y = 64,
@@ -7233,7 +7253,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "animated_river_top_3",
+  name = "animated_river_1_3",
   layer = 0,
   x = 1792,
   y = 48,
@@ -7244,7 +7264,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "animated_river_top_1",
+  name = "animated_river_1_1",
   layer = 0,
   x = 1600,
   y = 128,
@@ -7255,91 +7275,91 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "animated_river_middle_1",
+  name = "animated_river_2_1",
   layer = 0,
   x = 1592,
   y = 136,
   pattern = "water.transparent",
   width = 160,
   height = 48,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_middle_3",
+  name = "animated_river_2_3",
   layer = 0,
   x = 1704,
   y = 72,
   pattern = "water.transparent",
   width = 144,
   height = 48,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_middle_2",
+  name = "animated_river_2_2",
   layer = 0,
   x = 1704,
   y = 120,
   pattern = "water.transparent",
   width = 48,
   height = 16,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_middle_4",
+  name = "animated_river_2_4",
   layer = 0,
   x = 1800,
   y = 56,
   pattern = "water.transparent",
   width = 48,
   height = 16,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_bottom_3",
+  name = "animated_river_3_3",
   layer = 0,
   x = 1712,
   y = 80,
   pattern = "water.transparent",
   width = 128,
   height = 32,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_bottom_1",
+  name = "animated_river_3_1",
   layer = 0,
   x = 1600,
   y = 144,
   pattern = "water.transparent",
   width = 144,
   height = 32,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_bottom_2",
+  name = "animated_river_3_2",
   layer = 0,
   x = 1712,
   y = 112,
   pattern = "water.transparent",
   width = 32,
   height = 32,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 dynamic_tile{
-  name = "animated_river_bottom_4",
+  name = "animated_river_3_4",
   layer = 0,
   x = 1808,
   y = 64,
   pattern = "water.transparent",
   width = 32,
   height = 16,
-  enabled_at_start = true,
+  enabled_at_start = false,
 }
 
 teletransporter{
@@ -7449,6 +7469,139 @@ dynamic_tile{
   width = 80,
   height = 176,
   enabled_at_start = false,
+}
+
+switch{
+  name = "pool_switch",
+  layer = 0,
+  x = 152,
+  y = 312,
+  subtype = "walkable",
+  sprite = "entities/switches/switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+jumper{
+  layer = 0,
+  x = 88,
+  y = 352,
+  width = 56,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 152,
+  y = 352,
+  width = 16,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+dynamic_tile{
+  name = "animated_river_4_4",
+  layer = 0,
+  x = 1816,
+  y = 72,
+  pattern = "water.transparent",
+  width = 16,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  name = "animated_river_4_3",
+  layer = 0,
+  x = 1720,
+  y = 88,
+  pattern = "water.transparent",
+  width = 112,
+  height = 16,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  name = "animated_river_4_2",
+  layer = 0,
+  x = 1720,
+  y = 104,
+  pattern = "water.transparent",
+  width = 16,
+  height = 64,
+  enabled_at_start = false,
+}
+
+dynamic_tile{
+  name = "animated_river_4_1",
+  layer = 0,
+  x = 1592,
+  y = 152,
+  pattern = "water.transparent",
+  width = 128,
+  height = 16,
+  enabled_at_start = false,
+}
+
+custom_entity{
+  name = "intro_camera",
+  layer = 0,
+  x = 960,
+  y = 93,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+destructible{
+  layer = 0,
+  x = 1144,
+  y = 141,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 1160,
+  y = 141,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 1176,
+  y = 141,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 744,
+  y = 141,
+  treasure_name = "arrow",
+  sprite = "entities/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 760,
+  y = 141,
+  treasure_name = "arrow",
+  sprite = "entities/vase",
+}
+
+destructible{
+  layer = 0,
+  x = 776,
+  y = 141,
+  treasure_name = "arrow",
+  sprite = "entities/vase",
 }
 
 tile{

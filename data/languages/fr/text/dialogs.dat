@@ -1719,6 +1719,31 @@ GRRRRRR ...
 }
 
 dialog{
+  id = "dungeon_1.1f.pool_grandma",
+  text = [[
+Oh mes aïeux !
+Nettoyer une piscine
+de champagne n'est
+pas de tout repos.
+Mes rhumatismes font
+des siennes, il fait
+humide en ce moment
+vous ne trouvez
+pas ? Il n'y a plus
+de saisons je vous
+le dit !
+]]
+}
+
+dialog{
+  id = "dungeon_1.welcome",
+  text = [[
+       Niveau 1
+      Le Château
+]]
+}
+
+dialog{
   id = "dungeon_2.1f.bartender",
   question = "1",
   skip = "all",

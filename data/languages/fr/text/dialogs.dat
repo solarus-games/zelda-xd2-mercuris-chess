@@ -2014,10 +2014,25 @@ dialog{
 Problème des 4 Dames
 
 
-Aucune Dame ne soit
+Aucune Dame ne doit être
 sur la même ligne,
 colonne ou diagonale
 qu'une autre.
+]]
+}
+
+dialog{
+  id = "dungeon_2.3f.6_rooks_puzzle",
+  text = [[
+Problème des 6 Tours
+
+
+Aucune Tour ne doit être
+sur la même ligne ou
+colonne qu'une autre.
+Les Tours ne peuvent
+être déplacées
+qu'une seule fois !
 ]]
 }
 

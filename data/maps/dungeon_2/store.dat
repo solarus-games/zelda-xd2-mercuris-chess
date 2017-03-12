@@ -4089,6 +4089,87 @@ tile{
   pattern = "door_top.low.1-2",
 }
 
+tile{
+  layer = 0,
+  x = 800,
+  y = 304,
+  width = 48,
+  height = 16,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 296,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 320,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.4",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "door_blast.3",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 296,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 320,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 296,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 320,
+  width = 16,
+  height = 8,
+  pattern = "door_blast.3.support.2-1",
+}
+
 wall{
   layer = 0,
   x = 432,
@@ -5005,6 +5086,72 @@ custom_entity{
   model = "torch",
 }
 
+wall{
+  layer = 0,
+  x = 784,
+  y = 304,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 848,
+  y = 304,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+door{
+  layer = 0,
+  x = 784,
+  y = 304,
+  direction = 0,
+  sprite = "entities/doors/door_d1_weak_wall",
+  opening_method = "explosion",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  layer = 0,
+  x = 848,
+  y = 304,
+  direction = 2,
+  sprite = "entities/doors/door_d1_weak_wall",
+  opening_method = "explosion",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+dynamic_tile{
+  layer = 0,
+  x = 784,
+  y = 296,
+  pattern = "wall.4-5",
+  width = 24,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 0,
+  x = 840,
+  y = 296,
+  pattern = "wall.3-5",
+  width = 24,
+  height = 32,
+  enabled_at_start = true,
+}
+
 tile{
   layer = 1,
   x = 40,
@@ -5372,6 +5519,44 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.closed.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 264,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 264,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-5",
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 800,
+  y = 296,
+  pattern = "door_top.blast.4-5",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = 1,
+  x = 840,
+  y = 296,
+  pattern = "door_top.blast.3-5",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
 }
 
 tile{

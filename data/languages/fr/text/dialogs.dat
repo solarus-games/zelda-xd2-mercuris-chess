@@ -2034,9 +2034,9 @@ Tarif : Mises de
 }
 
 dialog{
-  id = "dungeon_2.3f.4_queens_puzzle",
+  id = "dungeon_2.3f.6_queens_puzzle",
   text = [[
-Problème des 4 Dames
+Problème des 6 Dames
 
 
 Aucune Dame ne doit être
@@ -2058,6 +2058,19 @@ colonne qu'une autre.
 Les Tours ne peuvent
 être déplacées
 qu'une seule fois !
+]]
+}
+
+dialog{
+  id = "dungeon_2.6f.8_queens_puzzle",
+  text = [[
+Problème des 6 Dames
+
+
+Aucune Dame ne doit être
+sur la même ligne,
+colonne ou diagonale
+qu'une autre.
 ]]
 }
 

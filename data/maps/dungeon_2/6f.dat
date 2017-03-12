@@ -2910,6 +2910,16 @@ block{
   maximum_moves = 2,
 }
 
+npc{
+  layer = 0,
+  x = 160,
+  y = 277,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/hint_stone",
+  behavior = "dialog#dungeon_2.6f.8_queens_puzzle",
+}
+
 tile{
   layer = 1,
   x = 696,

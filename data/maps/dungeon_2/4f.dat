@@ -5185,7 +5185,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 72,
   y = 96,
   width = 48,
   height = 48,
@@ -5194,7 +5194,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 88,
   width = 64,
   height = 8,
@@ -5203,7 +5203,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 144,
   width = 64,
   height = 8,
@@ -5212,7 +5212,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 96,
   width = 8,
   height = 48,
@@ -5221,11 +5221,56 @@ tile{
 
 tile{
   layer = 0,
-  x = 112,
+  x = 120,
   y = 96,
   width = 8,
   height = 48,
   pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 528,
+  width = 32,
+  height = 96,
+  pattern = "floor_small.1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 528,
+  width = 8,
+  height = 96,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 528,
+  width = 8,
+  height = 96,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 624,
+  width = 48,
+  height = 8,
+  pattern = "floor_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 16,
+  width = 64,
+  height = 24,
+  pattern = "full_wall_decor.1-1",
 }
 
 door{
@@ -6002,14 +6047,6 @@ destination{
   direction = 1,
 }
 
-stairs{
-  layer = 0,
-  x = 216,
-  y = 24,
-  direction = 1,
-  subtype = 0,
-}
-
 destructible{
   name = "auto_destructible_7",
   layer = 0,
@@ -6101,7 +6138,7 @@ block{
 dynamic_tile{
   name = "invisible_tile_1",
   layer = 0,
-  x = 80,
+  x = 88,
   y = 120,
   pattern = "barrier.1-1",
   width = 16,
@@ -6112,7 +6149,7 @@ dynamic_tile{
 dynamic_tile{
   name = "invisible_tile_2",
   layer = 0,
-  x = 80,
+  x = 88,
   y = 112,
   pattern = "barrier.1-1",
   width = 16,
@@ -6122,7 +6159,7 @@ dynamic_tile{
 
 enemy{
   layer = 0,
-  x = 88,
+  x = 96,
   y = 125,
   direction = 3,
   breed = "alttp/medusa",
@@ -6573,6 +6610,24 @@ jumper{
   jump_length = 16,
 }
 
+teletransporter{
+  layer = 0,
+  x = 216,
+  y = 24,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/5f",
+  destination = "from_4f_nw",
+}
+
+stairs{
+  layer = 0,
+  x = 216,
+  y = 24,
+  direction = 1,
+  subtype = 0,
+}
+
 tile{
   layer = 1,
   x = 200,
@@ -6910,7 +6965,7 @@ tile{
   layer = 1,
   x = 72,
   y = 16,
-  width = 80,
+  width = 64,
   height = 8,
   pattern = "door_cache.1-5",
 }
@@ -6935,9 +6990,9 @@ tile{
 
 tile{
   layer = 1,
-  x = 184,
+  x = 200,
   y = 16,
-  width = 80,
+  width = 64,
   height = 8,
   pattern = "door_cache.1-5",
 }
@@ -7075,15 +7130,6 @@ tile{
   width = 8,
   height = 112,
   pattern = "door_cache.3-5",
-}
-
-tile{
-  layer = 1,
-  x = 136,
-  y = 16,
-  width = 64,
-  height = 24,
-  pattern = "full_wall_decor.1-1",
 }
 
 dynamic_tile{

@@ -1730,6 +1730,23 @@ GRRRRRR ...
 }
 
 dialog{
+  id = "chores.miaou_3",
+  text = [[
+Miaouuu ?$0
+...$0
+MIAOOOOUUUUU !!!
+]]
+}
+
+dialog{
+  id = "chores.miaou_4",
+  text = [[
+Mi-mi-mi-mi-mi-miaou.
+Mia-mia-miaou.
+]]
+}
+
+dialog{
   id = "dungeon_1.1f.pool_grandma",
   text = [[
 Oh mes aïeux !

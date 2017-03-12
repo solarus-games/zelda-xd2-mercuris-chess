@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "dungeon/light_brown",
-  music = "same",
+  music = "alttp/light_world_dungeon",
 }
 
 tile{
@@ -868,9 +868,9 @@ teletransporter{
 }
 
 enemy{
-  name = "tigriss",
+  name = "tigriss_enemy",
   layer = 0,
-  x = 304,
+  x = 272,
   y = 141,
   direction = 3,
   breed = "newlink/tigris_brown",
@@ -886,10 +886,10 @@ sensor{
 }
 
 npc{
-  name = "tigriss_docile",
+  name = "tigriss_npc_docile",
   layer = 0,
   x = 128,
-  y = 133,
+  y = 141,
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/tigriss_brown_docile",
@@ -910,7 +910,7 @@ wall{
 sensor{
   name = "miaou_sensor_1",
   layer = 0,
-  x = 272,
+  x = 248,
   y = 381,
   width = 16,
   height = 32,
@@ -923,6 +923,25 @@ sensor{
   y = 381,
   width = 16,
   height = 32,
+}
+
+npc{
+  name = "tigriss_npc",
+  layer = 0,
+  x = 304,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/tigriss",
+}
+
+sensor{
+  name = "boss_fight_sensor",
+  layer = 0,
+  x = 224,
+  y = 77,
+  width = 16,
+  height = 192,
 }
 
 tile{

@@ -8,3 +8,6 @@ door_manager:manage_map(map)
 
 local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_b", 0, 8)
+
+local cannonball_manager = require("scripts/maps/cannonball_manager")
+cannonball_manager:create_cannons(map, "cannon_")

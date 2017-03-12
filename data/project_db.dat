@@ -219,6 +219,9 @@ sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/hint_stone", description = "Hint stone" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
+sprite{ id = "entities/karts/mario", description = "Mario kart" }
+sprite{ id = "entities/karts/toad", description = "Toad kart" }
+sprite{ id = "entities/karts/yoshi", description = "Yoshi kart" }
 sprite{ id = "entities/la_beach/la_background", description = "Sky and egg mountain" }
 sprite{ id = "entities/la_beach/la_swell", description = "Beach swell" }
 sprite{ id = "entities/la_beach/la_wreck", description = "Boat wreck" }

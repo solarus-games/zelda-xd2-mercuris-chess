@@ -54,22 +54,22 @@ function item:on_obtaining(variant, savegame_variable)
     self:get_game():start_dialog("found_fairy", function(answer)
 
       if answer == "skipped" or answer == 1 then
-	-- Restore 7 hearts.
-	self:get_game():add_life(7 * 4)
-      else
-	-- Keep the fairy in a bottle.
-	local first_empty_bottle = self:get_game():get_first_empty_bottle()
-	if first_empty_bottle == nil then
-	  -- No empty bottle.
-	  self:get_game():start_dialog("found_fairy.no_empty_bottle", function()
-	    self:get_game():add_life(7 * 4)
-	  end)
-	  sol.audio.play_sound("wrong")
-	else
-	  -- Okay, empty bottle.
-	  first_empty_bottle:set_variant(6)
-	  sol.audio.play_sound("danger")
-	end
+        -- Restore 7 hearts.
+        self:get_game():add_life(7 * 4)
+        else
+          -- Keep the fairy in a bottle.
+          local first_empty_bottle = self:get_game():get_first_empty_bottle()
+          if first_empty_bottle == nil then
+            -- No empty bottle.
+            self:get_game():start_dialog("found_fairy.no_empty_bottle", function()
+            self:get_game():add_life(7 * 4)
+          end)
+          sol.audio.play_sound("wrong")
+        else
+          -- Okay, empty bottle.
+          first_empty_bottle:set_variant(6)
+          sol.audio.play_sound("danger")
+        end
       end
     end)
   end

@@ -1433,6 +1433,42 @@ sensor{
 
 tile{
   layer = 0,
+  x = 872,
+  y = 312,
+  width = 48,
+  height = 128,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 328,
+  width = 32,
+  height = 64,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 928,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-5",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 16,
   width = 56,
@@ -1537,15 +1573,6 @@ tile{
   width = 56,
   height = 24,
   pattern = "ceiling.1",
-}
-
-tile{
-  layer = 0,
-  x = 872,
-  y = 312,
-  width = 48,
-  height = 128,
-  pattern = "floor_low.13-1",
 }
 
 tile{
@@ -1721,56 +1748,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 912,
-  y = 328,
-  width = 32,
-  height = 64,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 0,
   x = 680,
   y = 280,
   width = 240,
   height = 32,
   pattern = "floor_low.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 928,
-  y = 384,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 896,
-  y = 368,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.border.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 912,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 928,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-6",
 }
 
 tile{
@@ -3220,105 +3202,6 @@ tile{
   width = 24,
   height = 48,
   pattern = "wall.4-5",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 328,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.border.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 376,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.border.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 920,
-  y = 376,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 920,
-  y = 328,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.border.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 360,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.border.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 904,
-  y = 344,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 896,
-  y = 336,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.border.4-6",
-}
-
-tile{
-  layer = 0,
-  x = 912,
-  y = 368,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.2-6",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 352,
-  width = 32,
-  height = 16,
-  pattern = "wall_pillar.4-3",
 }
 
 tile{
@@ -7047,6 +6930,123 @@ tile{
   pattern = "bug_cage",
 }
 
+tile{
+  layer = 0,
+  x = 920,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 360,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 912,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 904,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 888,
+  y = 352,
+  width = 32,
+  height = 16,
+  pattern = "wall_pillar.4-3",
+}
+
 door{
   name = "elevator_a_door",
   layer = 0,
@@ -7567,9 +7567,9 @@ destructible{
 wall{
   layer = 0,
   x = 712,
-  y = 48,
+  y = 40,
   width = 8,
-  height = 16,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7579,9 +7579,9 @@ wall{
 wall{
   layer = 0,
   x = 768,
-  y = 48,
+  y = 40,
   width = 8,
-  height = 16,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7591,9 +7591,9 @@ wall{
 wall{
   layer = 0,
   x = 752,
-  y = 176,
+  y = 168,
   width = 8,
-  height = 16,
+  height = 32,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7605,7 +7605,7 @@ wall{
   x = 712,
   y = 176,
   width = 8,
-  height = 16,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7614,9 +7614,9 @@ wall{
 
 wall{
   layer = 0,
-  x = 688,
+  x = 680,
   y = 88,
-  width = 16,
+  width = 32,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -7626,9 +7626,9 @@ wall{
 
 wall{
   layer = 0,
-  x = 688,
+  x = 680,
   y = 144,
-  width = 16,
+  width = 32,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -7640,7 +7640,7 @@ wall{
   layer = 0,
   x = 896,
   y = 160,
-  width = 16,
+  width = 24,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -7651,9 +7651,9 @@ wall{
 wall{
   layer = 0,
   x = 872,
-  y = 48,
+  y = 40,
   width = 8,
-  height = 16,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -7668,30 +7668,6 @@ jumper{
   height = 24,
   direction = 0,
   jump_length = 16,
-}
-
-wall{
-  layer = 0,
-  x = 712,
-  y = 144,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 752,
-  y = 160,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 wall{
@@ -7766,18 +7742,6 @@ jumper{
   height = 8,
   direction = 6,
   jump_length = 16,
-}
-
-wall{
-  layer = 0,
-  x = 712,
-  y = 88,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 jumper{

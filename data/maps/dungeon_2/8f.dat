@@ -352,14 +352,6 @@ destination{
   direction = 1,
 }
 
-stairs{
-  layer = -1,
-  x = 472,
-  y = 560,
-  direction = 1,
-  subtype = 1,
-}
-
 chest{
   name = "chest_a",
   layer = -1,
@@ -368,6 +360,24 @@ chest{
   treasure_name = "small_key",
   treasure_savegame_variable = "dungeon_2_8f_s_key_chest",
   sprite = "entities/chest",
+}
+
+teletransporter{
+  layer = -1,
+  x = 472,
+  y = 560,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/7f",
+  destination = "from_8f_s",
+}
+
+stairs{
+  layer = -1,
+  x = 472,
+  y = 560,
+  direction = 1,
+  subtype = 1,
 }
 
 tile{

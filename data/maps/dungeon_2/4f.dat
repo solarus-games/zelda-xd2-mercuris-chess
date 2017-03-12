@@ -6195,8 +6195,8 @@ enemy{
 destination{
   name = "destination",
   layer = 0,
-  x = 576,
-  y = 365,
+  x = 160,
+  y = 653,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

@@ -8,7 +8,7 @@ local grabbed_hero
 
 function enemy:on_created()
 
-  enemy:set_life(1)
+  enemy:set_life(10)
   enemy:set_damage(0)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
@@ -16,7 +16,6 @@ function enemy:on_created()
   enemy:set_can_hurt_hero_running(true)
   enemy:set_layer_independent_collisions(true)
   enemy:set_optimization_distance(0)
-  enemy:set_invincible()
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   sprite:set_animation("sleeping")
 end
@@ -26,6 +25,7 @@ function enemy:on_restarted()
   if shadow ~= nil then
     shadow:remove()
   end
+  shadow = nil
   grabbed_hero = false
   sprite:set_animation("sleeping")
 
@@ -133,6 +133,13 @@ function enemy:on_attacking_hero(hero, enemy_sprite)
   end)
 end
 
+function enemy:on_hurt()
+  if shadow ~= nil then
+    shadow:remove()
+  end
+  shadow = nil
+end
+
 local previous_on_removed = enemy.on_removed
 function enemy:on_removed()
 
@@ -143,4 +150,5 @@ function enemy:on_removed()
   if shadow ~= nil then
     shadow:remove()
   end
+  shadow = nil
 end

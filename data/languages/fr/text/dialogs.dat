@@ -1485,6 +1485,16 @@ accéder à tous les
 }
 
 dialog{
+  id = "arrow_knee",
+  text = [[
+Moi aussi j'étais
+aventurier autrefois.
+Et puis j'ai pris une
+flêche dans le genou.
+]]
+}
+
+dialog{
   id = "big_key_required",
   icon = "73",
   text = [[

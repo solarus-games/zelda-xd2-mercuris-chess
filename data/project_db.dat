@@ -3,6 +3,7 @@ map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
 map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
+map{ id = "chill_valley/t_house", description = "T house" }
 map{ id = "desert_village/desert_east_house", description = "Desert East House" }
 map{ id = "desert_village/desert_small_house", description = "Desert Small House" }
 map{ id = "desert_village/desert_west_house", description = "Desert West House" }

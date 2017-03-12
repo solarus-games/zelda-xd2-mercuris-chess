@@ -5514,6 +5514,15 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = 0,
+  x = 392,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "ice_solid",
+}
+
 wall{
   layer = 0,
   x = 736,

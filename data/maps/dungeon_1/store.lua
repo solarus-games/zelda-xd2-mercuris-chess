@@ -15,6 +15,9 @@ function map:on_started()
 
   -- You can initialize the movement and sprites of various
   -- map entities here.
+
+  local rp = map:get_entity("rp1")
+  rp:set_state("blue")
 end
 
 -- Event called after the opening transition effect of the map,

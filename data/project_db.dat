@@ -65,9 +65,9 @@ tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
 tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
-tileset{ id = "house_legacy", description = "House (legacy)" }
+tileset{ id = "house_old", description = "House (legacy)" }
 tileset{ id = "la_beach", description = "Link's Awakening beach SNES style" }
-tileset{ id = "light_world_legacy", description = "Light World (legacy)" }
+tileset{ id = "light_world", description = "Light World (legacy)" }
 tileset{ id = "outside", description = "Outside" }
 
 sprite{ id = "console/cursor", description = "Console cursor" }
@@ -109,8 +109,6 @@ sprite{ id = "enemies/chess/pawn_black", description = "Pawn (black)" }
 sprite{ id = "enemies/chess/pawn_white", description = "Pawn (white)" }
 sprite{ id = "enemies/chess/queen_black", description = "Queen (black)" }
 sprite{ id = "enemies/chess/queen_white", description = "Queen (white)" }
-sprite{ id = "enemies/chess/rook_auto_black", description = "Moving Rook (black)" }
-sprite{ id = "enemies/chess/rook_auto_white", description = "Moving rook (white)" }
 sprite{ id = "enemies/chess/rook_black", description = "Rook (black)" }
 sprite{ id = "enemies/chess/rook_white", description = "Rook (white)" }
 sprite{ id = "enemies/creeper", description = "MC Creeper" }
@@ -225,6 +223,8 @@ sprite{ id = "entities/karts/yoshi", description = "Yoshi kart" }
 sprite{ id = "entities/la_beach/la_background", description = "Sky and egg mountain" }
 sprite{ id = "entities/la_beach/la_swell", description = "Beach swell" }
 sprite{ id = "entities/la_beach/la_wreck", description = "Boat wreck" }
+sprite{ id = "entities/rotating_platform/barrier", description = "Rotating platform (barrier)" }
+sprite{ id = "entities/rotating_platform/base", description = "Rotating platform (base)" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
@@ -616,8 +616,6 @@ enemy{ id = "chess/pawn_black", description = "Pawn (black)" }
 enemy{ id = "chess/pawn_white", description = "Pawn (white)" }
 enemy{ id = "chess/queen_black", description = "Queen (black)" }
 enemy{ id = "chess/queen_white", description = "Queen (white)" }
-enemy{ id = "chess/rook_auto_black", description = "Moving rook (black)" }
-enemy{ id = "chess/rook_auto_white", description = "Moving rook (white)" }
 enemy{ id = "chess/rook_black", description = "Rook (black)" }
 enemy{ id = "chess/rook_white", description = "Rook (white)" }
 enemy{ id = "creeper", description = "Creeper" }
@@ -659,6 +657,7 @@ enemy{ id = "newlink/zoura_red", description = "Zoura (red)" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hookable", description = "Hookable" }
+entity{ id = "rotating_platform", description = "Rotating Platform" }
 entity{ id = "torch", description = "Torch" }
 
 language{ id = "fr", description = "Français" }

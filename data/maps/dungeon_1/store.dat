@@ -9,6 +9,133 @@ properties{
 }
 
 tile{
+  layer = -1,
+  x = 152,
+  y = 248,
+  width = 288,
+  height = 160,
+  pattern = "floor.11-1",
+}
+
+tile{
+  layer = -1,
+  x = 232,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 232,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 272,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 272,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+destination{
+  name = "destination",
+  layer = -1,
+  x = 256,
+  y = 373,
+  direction = 1,
+}
+
+custom_entity{
+  layer = -1,
+  x = 240,
+  y = 309,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/base",
+}
+
+custom_entity{
+  name = "rp1",
+  layer = -1,
+  x = 240,
+  y = 309,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/barrier",
+  model = "rotating_platform",
+}
+
+wall{
+  layer = -1,
+  x = 240,
+  y = 328,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 264,
+  y = 328,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 240,
+  y = 304,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 264,
+  y = 304,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
   layer = 0,
   x = 72,
   y = 48,

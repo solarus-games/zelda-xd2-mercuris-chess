@@ -2134,6 +2134,78 @@ tile{
   pattern = "stairs_inner_up.2-1",
 }
 
+tile{
+  layer = -1,
+  x = 936,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 936,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 976,
+  y = 216,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 976,
+  y = 256,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 936,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 936,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 976,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 976,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
 destructible{
   layer = -1,
   x = 1432,
@@ -2318,6 +2390,154 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/broom_grandma",
   behavior = "dialog#dungeon_1.1f.pool_grandma",
+}
+
+custom_entity{
+  layer = -1,
+  x = 944,
+  y = 229,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/base",
+}
+
+custom_entity{
+  name = "rp1",
+  layer = -1,
+  x = 944,
+  y = 229,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/barrier",
+  model = "rotating_platform",
+}
+
+wall{
+  layer = -1,
+  x = 944,
+  y = 248,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 968,
+  y = 248,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 944,
+  y = 224,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 968,
+  y = 224,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = -1,
+  x = 944,
+  y = 165,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/base",
+}
+
+custom_entity{
+  name = "rp2",
+  layer = -1,
+  x = 944,
+  y = 165,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/barrier",
+  model = "rotating_platform",
+}
+
+wall{
+  layer = -1,
+  x = 944,
+  y = 184,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 968,
+  y = 184,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 944,
+  y = 160,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 968,
+  y = 160,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

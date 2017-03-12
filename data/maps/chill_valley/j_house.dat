@@ -10,6 +10,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 88,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-1",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 16,
   width = 24,
@@ -91,29 +109,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
-  y = 136,
-  width = 80,
-  height = 24,
-  pattern = "wall.2-1",
-}
-
-tile{
-  layer = 0,
   x = 112,
   y = 152,
   width = 24,
   height = 80,
   pattern = "wall.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 136,
-  width = 24,
-  height = 24,
-  pattern = "wall.corner_reverse.3-1",
 }
 
 tile{
@@ -172,7 +172,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 80,
+  x = 88,
   y = 136,
   width = 8,
   height = 16,
@@ -181,7 +181,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 64,
   y = 136,
   width = 8,
   height = 16,
@@ -190,7 +190,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
+  x = 72,
   y = 136,
   width = 16,
   height = 16,
@@ -217,51 +217,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
-  y = 40,
-  width = 24,
-  height = 24,
-  pattern = "cabinet.3a",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 40,
-  width = 24,
-  height = 24,
-  pattern = "cabinet.3a",
-}
-
-tile{
-  layer = 0,
-  x = 120,
-  y = 40,
-  width = 48,
-  height = 24,
-  pattern = "cabinet.7a",
-}
-
-tile{
-  layer = 0,
-  x = 184,
-  y = 40,
-  width = 48,
-  height = 24,
-  pattern = "cabinet.7a",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 80,
-  width = 32,
-  height = 32,
-  pattern = "cafe_table.full",
-}
-
-tile{
-  layer = 0,
   x = 168,
   y = 232,
   width = 32,
@@ -269,58 +224,69 @@ tile{
   pattern = "window.2-1",
 }
 
-npc{
+tile{
+  layer = 0,
+  x = 112,
+  y = 136,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "1099",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 160,
+  width = 8,
+  height = 16,
+  pattern = "1099",
+}
+
+tile{
   layer = 0,
   x = 72,
-  y = 93,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/alttp/broom_grandma",
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "1099",
+}
+
+destination{
+  name = "from_outside",
+  layer = 0,
+  x = 80,
+  y = 149,
+  direction = 1,
+  default = true,
+}
+
+teletransporter{
+  name = "to_chill_valley",
+  layer = 0,
+  x = 72,
+  y = 160,
+  width = 16,
+  height = 16,
+  destination_map = "out/a2",
+  destination = "from_j_house",
 }
 
 tile{
   layer = 1,
-  x = 56,
+  x = 64,
   y = 152,
   width = 32,
   height = 8,
   pattern = "door_top.stairs.2-2",
-}
-
-tile{
-  layer = 1,
-  x = 40,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "cabinet.3b",
-}
-
-tile{
-  layer = 1,
-  x = 80,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "cabinet.3b",
-}
-
-tile{
-  layer = 1,
-  x = 120,
-  y = 16,
-  width = 48,
-  height = 24,
-  pattern = "caninet.7b",
-}
-
-tile{
-  layer = 1,
-  x = 184,
-  y = 16,
-  width = 48,
-  height = 24,
-  pattern = "caninet.7b",
 }
 
 tile{
@@ -329,15 +295,6 @@ tile{
   y = 0,
   width = 352,
   height = 16,
-  pattern = "ceiling.2",
-}
-
-tile{
-  layer = 2,
-  x = 0,
-  y = 160,
-  width = 112,
-  height = 112,
   pattern = "ceiling.2",
 }
 
@@ -375,5 +332,14 @@ tile{
   width = 16,
   height = 160,
   pattern = "ceiling.2",
+}
+
+tile{
+  layer = 2,
+  x = 0,
+  y = 160,
+  width = 112,
+  height = 112,
+  pattern = "882",
 }
 

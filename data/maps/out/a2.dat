@@ -5199,8 +5199,7 @@ teletransporter{
   y = 440,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/t_house",
-  destination = "from_outside",
+  destination_map = "chill_valley/o_house",
 }
 
 destination{
@@ -5218,7 +5217,7 @@ teletransporter{
   y = 128,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/t_house",
+  destination_map = "chill_valley/z_house",
   destination = "from_outside",
 }
 
@@ -5237,7 +5236,7 @@ teletransporter{
   y = 192,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/t_house",
+  destination_map = "chill_valley/s_house",
   destination = "from_outside",
 }
 
@@ -5257,7 +5256,7 @@ teletransporter{
   y = 256,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/t_house",
+  destination_map = "chill_valley/j_house",
   destination = "from_outside",
 }
 
@@ -5276,7 +5275,7 @@ teletransporter{
   y = 440,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/t_house",
+  destination_map = "chill_valley/l_house",
   destination = "from_outside",
 }
 

@@ -5958,8 +5958,8 @@ switch{
   layer = 0,
   x = 472,
   y = 648,
-  subtype = "solid",
-  sprite = "entities/switches/solid_switch",
+  subtype = "walkable",
+  sprite = "entities/switches/switch_d1-2",
   sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
@@ -6928,24 +6928,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 296,
-  y = 104,
-  width = 8,
-  height = 32,
-  pattern = "door_top.closed.4-5",
-}
-
-tile{
-  layer = 1,
-  x = 336,
-  y = 104,
-  width = 8,
-  height = 32,
-  pattern = "door_top.closed.3-5",
-}
-
-tile{
-  layer = 1,
   x = 616,
   y = 72,
   width = 8,
@@ -7140,6 +7122,24 @@ tile{
   width = 8,
   height = 112,
   pattern = "door_cache.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 104,
+  width = 8,
+  height = 32,
+  pattern = "door_top.3-5",
 }
 
 dynamic_tile{

@@ -70,6 +70,11 @@ function door_manager:open_when_switch_activated(door)
     function switch:on_inactivated()
       map:close_doors(door_prefix)
     end
+
+    if door:is_open() then 
+      -- Door saved in state open.
+      switch:set_activated(true)
+    end
   end
 end
 

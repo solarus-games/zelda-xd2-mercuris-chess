@@ -205,34 +205,41 @@ function map:shake_camera()
               zelda:set_visible(true)
               
               game:start_dialog("intro.zelda_waiting", function()
-                local zelda_movement = sol.movement.create("target")
-                local zelda_x, zelda_y = zelda:get_position()
-                zelda:set_position(zelda_x, zelda_y, 1)
-                zelda_movement:set_speed(30)
-                zelda_movement:set_smooth(true)
-                zelda_movement:set_ignore_obstacles(true)
-                zelda_movement:set_target(104, 88)
-                zelda_movement:start(zelda, function()
-                  zelda:stop_movement()
-                  local zelda_sprite = zelda:get_sprite()
-                  zelda_sprite:set_animation("stopped")
-                  zelda_sprite:set_direction(3) -- down
-                  sol.timer.start(map, 500, function()
-                    map:make_link_go_out_of_bed()
-                    game:set_value("introduction_done", true)
-                    sol.audio.play_music("alttp/village")                    
+                sol.timer.start(map, 800, function()
+                  
+                  game:start_dialog("intro.light_saber_confiscate", function()
+                    -- Confiscate light saber.
+                    local sword = game:get_item("sword")
+                    sword:set_variant(1)
+
+                    -- Move Zelda.
+                    local zelda_movement = sol.movement.create("target")
+                    local zelda_x, zelda_y = zelda:get_position()
+                    zelda:set_position(zelda_x, zelda_y, 1)
+                    zelda_movement:set_speed(30)
+                    zelda_movement:set_smooth(true)
+                    zelda_movement:set_ignore_obstacles(true)
+                    zelda_movement:set_target(104, 88)
+                    zelda_movement:start(zelda, function()
+                      zelda:stop_movement()
+                      local zelda_sprite = zelda:get_sprite()
+                      zelda_sprite:set_animation("stopped")
+                      zelda_sprite:set_direction(3) -- down
+                      sol.timer.start(map, 500, function()
+                        map:make_link_go_out_of_bed()
+                        game:set_value("introduction_done", true)
+                        sol.audio.play_music("alttp/village")                    
+                      end)
+                    end)
                   end)
-
-                end)
+                end)              
               end)
-
             end)
           end)
         end)
       end)
     end
   end)
-
 end
 
 -- Link falls off his bed.
@@ -296,7 +303,8 @@ function zelda:on_interaction()
   local chore_step, chores_done = map:get_chores_state()
 
   -- Step 0: Feed the cat.
-  if chore_step == 0 then
+  if chore_step == 0 then    
+
     game:start_dialog("chores.chore_0", function()
       -- Give the player the cat food if he has not got it yet.
       if not game:has_item("cat_food") then
@@ -307,7 +315,7 @@ function zelda:on_interaction()
   -- Step 1: Cut the grass in the garden.
   elseif chore_step == 1 then
     game:start_dialog("chores.chore_1", function()
-      
+
     end)
   -- Step 2: Do Zelda grocery (buy apple pie).
   elseif chore_step == 2 then
@@ -330,6 +338,11 @@ function map:get_chores_state()
     chore_step = 0
   end
   return chore_step, chores_done
+end
+
+-- Set the chore steps.
+function map:set_chore_step(chore_step)
+  game:set_value("introduction_chore_step", chore_step)
 end
 
 -- Prevent the player from leaving

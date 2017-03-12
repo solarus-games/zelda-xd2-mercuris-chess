@@ -977,8 +977,7 @@ dialog{
   text = [[
 Zelda t'a donné la 
 nourriture pour
-chat !
-$0
+chat !$0
 Va vite nourrir son
 petit chaton car il
 semble affamé!
@@ -1681,6 +1680,16 @@ autour.
 }
 
 dialog{
+  id = "chores.cat_already_fed",
+  text = [[
+Arrête de nourir le
+chat, tu ne trouves
+pas qu'il est déjà
+assez gros comme ça?
+]]
+}
+
+dialog{
   id = "chores.cat_fed",
   text = [[
 MIAOU!
@@ -1702,14 +1711,14 @@ Comme première corvée,
 tu vas devoir nourir
 mon petit chaton chéri.
 Tu vas voir, il est
-adorable, ce petit chou.
-
+adorable, ce petit chou.$0
 Il s'appelle
 Flocon-de-neige, 
 il est vraiment trop
 choupi.
-Il se trouve dans la
-cave.
+Il est en train de jouer
+dans la cave. $0
+Allez, zou!
 ]]
 }
 
@@ -1725,9 +1734,9 @@ Maintenant,
 je t'ordonne de couper
 toute la mauvaise
 herbe qui gangrène le
-joli jardinet.$0
+jardinet.$0
 Allez, au boulot,
-gross feignasse!
+grosse feignasse!
 ]]
 }
 
@@ -1749,7 +1758,8 @@ dialog{
   id = "chores.miaou_1",
   text = [[
 Miaou ...$0
-Miaouuuuu ...
+Miaouuuuu ...$0
+(Le chat semble affamé)
 ]]
 }
 
@@ -1758,7 +1768,9 @@ dialog{
   text = [[
 MIAAAAOUUUUU !!!$0
 MIAAOUUUU !!!$0
-GRRRRRR ...
+GRRRRRR ...$0
+(Le chat semble
+terriblement affamé...)
 ]]
 }
 
@@ -2272,6 +2284,33 @@ pour la stocker...
 }
 
 dialog{
+  id = "intro.light_saber_confiscate",
+  text = [[
+Au fait,$0
+Je ne te fais plus
+confiance, alors je
+vais te confisquer ton
+Sabre Laser.
+Tu pourras le récupérer
+si tu es obéissant.
+]]
+}
+
+dialog{
+  id = "intro.light_saber_give_back",
+  text = [[
+Tiens,
+voilà ton sabre laser.
+Je trouvais que le bleu
+n'était pas très joli,
+alors je me suis permise
+de changer la couleur.
+C'est bien mieux comme
+ça, tu verras.
+]]
+}
+
+dialog{
   id = "intro.marine_exclaming",
   text = [[
 ...
@@ -2352,6 +2391,7 @@ volante et un oeuf
 géant ?!
 Tu perds la
 tête, mon pauvre !
+Allez, debout!
 ]]
 }
 

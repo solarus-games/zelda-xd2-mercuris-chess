@@ -15,6 +15,7 @@ local has_passed_miaou_sensor_2 = false
 local has_passed_boss_fight_sensor = false
 local has_passed_door_sensor = false
 local boss_mode = false
+local first_time = true
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -22,9 +23,12 @@ function map:on_started()
   -- Open doors by default.
   map:set_doors_open("cave_door_")
   
-  -- Check if the cat has already been fed.
-  local zelda_cat_fed = game:get_value("zelda_cat_fed")
-  if zelda_cat_fed == nil or not zelda_cat_fed then
+  -- Check if the cat has already been fed: get chores state.
+  local chore_step, chores_done = map:get_chores_state()
+  
+  first_time = not chores_done
+
+  if chore_step == 0 then
     -- Activate boss mode.
     boss_mode = true
 
@@ -46,12 +50,6 @@ function map:on_started()
   end
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
-end
-
 -- Launch the boss fight.
 function door_sensor:on_activated()
   if not boss_mode then
@@ -69,15 +67,28 @@ end
 -- When the boss is being killed.
 function tigriss_enemy:on_dying()
   
+  -- Hide enemy.
+  tigriss_enemy:set_enabled(false)
+
   -- Show a cute tigriss.
   local tigriss_x, tigriss_y = tigriss_enemy:get_position()
   tigriss_npc:set_enabled(false)
   tigriss_npc_docile:set_position(tigriss_x, tigriss_y)
   tigriss_npc_docile:set_enabled(true)
+
+  -- Bypass explosion animation
+  tigriss_enemy:remove()
+
+  -- Reopen doors
+  map:reopen_doors()
 end
 
--- When the boss is killed.
-function tigriss_enemy:on_dead()
+-- -- When the boss is killed.
+-- function tigriss_enemy:on_dead()
+  
+-- end
+
+function map:reopen_doors()
   sol.audio.stop_music()
   hero:freeze()
 
@@ -85,14 +96,10 @@ function tigriss_enemy:on_dead()
     map:open_doors("cave_door_")
 
     sol.timer.start(map, 1000, function()
-      sol.audio.play_sound("secret")
-
-      sol.timer.start(map, 1000, function()
-        -- The cute cat speaks.
-        game:start_dialog("chores.miaou_4", function()
-            hero:unfreeze()
-            sol.audio.play_music("alttp/village")
-        end)
+      -- The cute cat speaks.
+      game:start_dialog("chores.miaou_4", function()
+        hero:unfreeze()
+        sol.audio.play_music("alttp/village")
       end)
     end)
   end)
@@ -104,7 +111,7 @@ function miaou_sensor_1:on_activated()
     return
   end
   
-  if not has_passed_miaou_sensor_1 then
+  if first_time and not has_passed_miaou_sensor_1 then
     has_passed_miaou_sensor_1 = true
     game:start_dialog("chores.miaou_1")
   end
@@ -116,7 +123,7 @@ function miaou_sensor_2:on_activated()
     return
   end
 
-  if not has_passed_miaou_sensor_2 then
+  if first_time and not has_passed_miaou_sensor_2 then
     has_passed_miaou_sensor_2 = true
     game:start_dialog("chores.miaou_2")
   end
@@ -173,26 +180,54 @@ function tigriss_npc_docile:on_interaction()
   end
 end
 
--- Called by the item when it is used.
+-- Called when the cat food is used.
 function tigriss_npc_docile:use_food()
-  hero:freeze()
-  sol.timer.start(map, 300, function()
-    local tigriss_sprite = tigriss_npc_docile:get_sprite()
-    tigriss_sprite:set_animation("eating")
+  -- The hero can feed the cat only in boss mode.
+  if boss_mode then
+    -- Freeze hero.
     hero:freeze()
-
-    sol.timer.start(map, 4000, function()
-      tigriss_sprite:set_animation("stopped")
-
-      sol.audio.play_sound("secret")
-
-      sol.timer.start(map, 500, function()
-        game:start_dialog("chores.cat_fed", function()
-          hero:unfreeze()
-          -- Go to next chore.
-          game:set_value("introduction_chore_step", 1)
+    sol.timer.start(map, 200, function()
+      -- The cat is eating the food.
+      local tigriss_sprite = tigriss_npc_docile:get_sprite()
+      tigriss_sprite:set_animation("eating")
+      sol.timer.start(map, 4000, function()
+        -- The cat has eaten the food.
+        tigriss_sprite:set_animation("stopped")
+        sol.audio.play_sound("secret")
+        sol.timer.start(map, 500, function()
+          game:start_dialog("chores.cat_fed", function()
+            -- Unfreeze hero.
+            hero:unfreeze()
+            -- Go to next chore.
+            map:set_chore_step(1)
+          end)
         end)
-      end)
+      end)    
     end)
-  end)
+  -- If not in boss mode, a dialog tells the player that the
+  -- cat has already been fed.
+  else
+    game:start_dialog("chores.cat_already_fed")
+  end
+end
+
+-- Get the chores step.
+-- Returns a pair: (number) chore_step, (boolean) chores_done 
+function map:get_chores_state()
+  local chores_done = game:get_value("introduction_chores_done")
+  local chore_step = game:get_value("introduction_chore_step")
+  
+  if chores_done ==  nil then
+    chores_done = false
+  end
+
+  if chore_step == nil then
+    chore_step = 0
+  end
+  return chore_step, chores_done
+end
+
+-- Set the chore step.
+function map:set_chore_step(chore_step)
+  game:set_value("introduction_chore_step", chore_step)
 end

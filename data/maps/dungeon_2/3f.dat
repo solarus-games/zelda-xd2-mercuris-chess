@@ -735,6 +735,16 @@ stairs{
   subtype = 4,
 }
 
+enemy{
+  name = "auto_enemy_6",
+  layer = -1,
+  x = 704,
+  y = 149,
+  direction = 3,
+  breed = "newlink/cobruss",
+  treasure_name = "random",
+}
+
 tile{
   layer = 0,
   x = 680,
@@ -6224,7 +6234,7 @@ enemy{
   layer = 0,
   x = 544,
   y = 317,
-  direction = 0,
+  direction = 3,
   breed = "newlink/vipeross",
   treasure_name = "random",
 }
@@ -6234,7 +6244,7 @@ enemy{
   layer = 0,
   x = 88,
   y = 357,
-  direction = 0,
+  direction = 3,
   breed = "newlink/cobruss",
   treasure_name = "random",
 }
@@ -6577,6 +6587,26 @@ door{
   savegame_variable = "dungeon_2_3f_door_c",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 896,
+  y = 141,
+  direction = 3,
+  breed = "newlink/vipeross",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 552,
+  y = 77,
+  direction = 3,
+  breed = "newlink/vipeross",
+  treasure_name = "random",
 }
 
 tile{

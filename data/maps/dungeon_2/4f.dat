@@ -397,15 +397,6 @@ stairs{
   subtype = 4,
 }
 
-chest{
-  layer = -1,
-  x = 808,
-  y = 357,
-  treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "dungeon_2_4f_piece_of_heart_chest",
-  sprite = "entities/chest",
-}
-
 enemy{
   layer = -1,
   x = 760,
@@ -420,6 +411,14 @@ enemy{
   y = 397,
   direction = 3,
   breed = "newlink/topik_green",
+}
+
+pickable{
+  layer = -1,
+  x = 808,
+  y = 357,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "dungeon_2_4f_e_piece_of_heart",
 }
 
 tile{

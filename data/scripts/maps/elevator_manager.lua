@@ -48,6 +48,7 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
   local camera = map:get_camera()
   local current_floor = tonumber(map:get_floor())
   local map_prefix = map:get_id():gsub(get_map_suffix(current_floor), "")
+  local teletransportating = false
 
   local menu = {}
   local selected_floor = current_floor
@@ -96,6 +97,10 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
 
   function menu:on_command_pressed(command)
 
+    if teletransportating then
+      return false
+    end
+
     local handled = false
     if command == "action" then
       if selected_floor == current_floor then
@@ -104,6 +109,7 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
         sol.audio.play_sound("zonzifleur/solarus_team_logo")
         local destination_map_id = map_prefix .. get_map_suffix(selected_floor)
         hero:teleport(destination_map_id, destination_name)
+        teletransportating = true
       end
       handled = true
     elseif command == "attack" then

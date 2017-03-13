@@ -4313,24 +4313,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 720,
-  y = 632,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 720,
-  y = 624,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
   x = 344,
   y = 584,
   width = 16,
@@ -4864,14 +4846,6 @@ jumper{
   jump_length = 40,
 }
 
-enemy{
-  layer = 0,
-  x = 728,
-  y = 637,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
 crystal_block{
   layer = 0,
   x = 416,
@@ -4888,6 +4862,36 @@ crystal_block{
   width = 16,
   height = 48,
   subtype = 0,
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 720,
+  y = 624,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 720,
+  y = 632,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+enemy{
+  layer = 0,
+  x = 728,
+  y = 637,
+  direction = 3,
+  breed = "alttp/medusa",
 }
 
 tile{

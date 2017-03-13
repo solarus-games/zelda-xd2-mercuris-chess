@@ -18,24 +18,6 @@ tile{
   pattern = "floor.18-1",
 }
 
-tile{
-  layer = 0,
-  x = 112,
-  y = 256,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 264,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
 enemy{
   layer = 0,
   x = 72,
@@ -247,17 +229,39 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 120,
-  y = 269,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  layer = 0,
   x = 168,
   y = 317,
   direction = 3,
   breed = "alttp/fireball_small_triple_red",
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 112,
+  y = 256,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 112,
+  y = 264,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 269,
+  direction = 3,
+  breed = "alttp/medusa",
 }
 

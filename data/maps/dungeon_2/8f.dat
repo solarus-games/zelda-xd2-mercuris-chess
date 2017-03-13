@@ -13,6 +13,24 @@ properties{
 
 tile{
   layer = -1,
+  x = 504,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 440,
+  y = 40,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = -1,
   x = 408,
   y = 584,
   width = 144,
@@ -373,15 +391,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 448,
-  y = 40,
-  width = 64,
-  height = 24,
-  pattern = "wall_low.1-1",
-}
-
-tile{
-  layer = -1,
   x = 424,
   y = 144,
   width = 24,
@@ -432,15 +441,6 @@ tile{
   width = 48,
   height = 8,
   pattern = "wall_low_border.2-5",
-}
-
-tile{
-  layer = -1,
-  x = 456,
-  y = 64,
-  width = 48,
-  height = 8,
-  pattern = "wall_low_border.1-5",
 }
 
 tile{
@@ -533,6 +533,78 @@ tile{
   pattern = "floor_pot",
 }
 
+tile{
+  layer = -1,
+  x = 464,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-5",
+}
+
+tile{
+  layer = -1,
+  x = 480,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-5",
+}
+
+tile{
+  layer = -1,
+  x = 464,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-5",
+}
+
+tile{
+  layer = -1,
+  x = 480,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-5",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.1-5",
+}
+
+tile{
+  layer = -1,
+  x = 456,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.border.2-5",
+}
+
+tile{
+  layer = -1,
+  x = 456,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.2-5",
+}
+
+tile{
+  layer = -1,
+  x = 488,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.bottom.1-5",
+}
+
 destination{
   name = "from_7f_s",
   layer = -1,
@@ -596,6 +668,60 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 16,
+  width = 48,
+  height = 24,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 16,
+  width = 104,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 448,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 504,
+  y = 16,
+  width = 336,
+  height = 24,
+  pattern = "wall.1-5",
 }
 
 tile{
@@ -964,15 +1090,6 @@ tile{
   y = 48,
   width = 32,
   height = 72,
-  pattern = "ceiling.1",
-}
-
-tile{
-  layer = 0,
-  x = 840,
-  y = 16,
-  width = 104,
-  height = 32,
   pattern = "ceiling.1",
 }
 
@@ -1887,15 +2004,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 832,
-  y = 16,
-  width = 16,
-  height = 16,
-  pattern = "wall_diag.2-5",
-}
-
-tile{
-  layer = 0,
   x = 112,
   y = 688,
   width = 16,
@@ -2375,7 +2483,7 @@ tile{
   layer = 0,
   x = 120,
   y = 16,
-  width = 720,
+  width = 336,
   height = 24,
   pattern = "wall.1-5",
 }
@@ -4279,6 +4387,153 @@ tile{
   pattern = "barrier.border-2",
 }
 
+tile{
+  layer = 0,
+  x = 456,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "wall_low_diag.top.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 136,
+  width = 32,
+  height = 32,
+  pattern = "statue_ganon-1",
+}
+
+dynamic_tile{
+  name = "invisible_tile_5",
+  layer = 0,
+  x = 160,
+  y = 160,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_6",
+  layer = 0,
+  x = 160,
+  y = 168,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_3",
+  layer = 0,
+  x = 128,
+  y = 64,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_4",
+  layer = 0,
+  x = 128,
+  y = 72,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 64,
+  y = 128,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 64,
+  y = 136,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
 wall{
   layer = 0,
   x = 736,
@@ -4367,6 +4622,30 @@ jumper{
   height = 40,
   direction = 4,
   jump_length = 40,
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 141,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  layer = 0,
+  x = 136,
+  y = 77,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 173,
+  direction = 3,
+  breed = "alttp/medusa",
 }
 
 tile{

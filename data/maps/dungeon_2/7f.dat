@@ -3399,6 +3399,24 @@ tile{
   pattern = "door_top.closed.3-5",
 }
 
+tile{
+  layer = 0,
+  x = 184,
+  y = 344,
+  width = 32,
+  height = 32,
+  pattern = "statue_face-1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 344,
+  width = 32,
+  height = 32,
+  pattern = "statue_face-1",
+}
+
 wall{
   layer = 0,
   x = 504,
@@ -3767,6 +3785,26 @@ enemy{
   y = 645,
   direction = 0,
   breed = "chess/bishop_black",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 104,
+  y = 405,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 128,
+  y = 325,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_red",
+  treasure_name = "random",
 }
 
 tile{

@@ -526,10 +526,10 @@ tile{
 
 tile{
   layer = -1,
-  x = 456,
-  y = 72,
+  x = 472,
+  y = 88,
   width = 16,
-  height = 64,
+  height = 32,
   pattern = "floor_pot",
 }
 
@@ -577,20 +577,9 @@ stairs{
 }
 
 destructible{
-  name = "auto_destructible_14",
-  layer = -1,
-  x = 464,
-  y = 85,
-  treasure_name = "random",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
   name = "auto_destructible_17",
   layer = -1,
-  x = 464,
+  x = 480,
   y = 101,
   treasure_name = "fairy",
   sprite = "entities/vase",
@@ -601,7 +590,7 @@ destructible{
 destructible{
   name = "auto_destructible_18",
   layer = -1,
-  x = 464,
+  x = 480,
   y = 117,
   treasure_name = "random",
   sprite = "entities/vase",
@@ -609,15 +598,13 @@ destructible{
   damage_on_enemies = 2,
 }
 
-destructible{
-  name = "auto_destructible_21",
-  layer = -1,
-  x = 464,
-  y = 133,
-  treasure_name = "random",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
+tile{
+  layer = 0,
+  x = 104,
+  y = 40,
+  width = 320,
+  height = 128,
+  pattern = "floor.13-2",
 }
 
 tile{
@@ -645,15 +632,6 @@ tile{
   width = 320,
   height = 128,
   pattern = "2253",
-}
-
-tile{
-  layer = 0,
-  x = 104,
-  y = 40,
-  width = 320,
-  height = 128,
-  pattern = "floor.13-2",
 }
 
 tile{
@@ -4369,6 +4347,26 @@ block{
   pushable = true,
   pullable = true,
   maximum_moves = 0,
+}
+
+jumper{
+  layer = 0,
+  x = 424,
+  y = 64,
+  width = 8,
+  height = 80,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 528,
+  y = 104,
+  width = 8,
+  height = 40,
+  direction = 4,
+  jump_length = 40,
 }
 
 tile{

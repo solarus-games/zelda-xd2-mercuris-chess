@@ -65,9 +65,9 @@ tileset{ id = "dungeon/light_green", description = "Light green dungeon" }
 tileset{ id = "dungeon/pink", description = "Pink dungeon" }
 tileset{ id = "dungeon/purple", description = "Purple dungeon" }
 tileset{ id = "dungeon/yellow", description = "Yellow dungeon" }
-tileset{ id = "house_old", description = "House (legacy)" }
+tileset{ id = "house_legacy", description = "House (legacy)" }
 tileset{ id = "la_beach", description = "Link's Awakening beach SNES style" }
-tileset{ id = "light_world", description = "Light World (legacy)" }
+tileset{ id = "light_world_legacy", description = "Light World (legacy)" }
 tileset{ id = "outside", description = "Outside" }
 
 sprite{ id = "console/cursor", description = "Console cursor" }
@@ -109,6 +109,8 @@ sprite{ id = "enemies/chess/pawn_black", description = "Pawn (black)" }
 sprite{ id = "enemies/chess/pawn_white", description = "Pawn (white)" }
 sprite{ id = "enemies/chess/queen_black", description = "Queen (black)" }
 sprite{ id = "enemies/chess/queen_white", description = "Queen (white)" }
+sprite{ id = "enemies/chess/rook_auto_black", description = "Moving rook (black)" }
+sprite{ id = "enemies/chess/rook_auto_white", description = "Moving rook (white)" }
 sprite{ id = "enemies/chess/rook_black", description = "Rook (black)" }
 sprite{ id = "enemies/chess/rook_white", description = "Rook (white)" }
 sprite{ id = "enemies/creeper", description = "MC Creeper" }
@@ -616,6 +618,8 @@ enemy{ id = "chess/pawn_black", description = "Pawn (black)" }
 enemy{ id = "chess/pawn_white", description = "Pawn (white)" }
 enemy{ id = "chess/queen_black", description = "Queen (black)" }
 enemy{ id = "chess/queen_white", description = "Queen (white)" }
+enemy{ id = "chess/rook_auto_black", description = "Moving rook (black)" }
+enemy{ id = "chess/rook_auto_white", description = "Moving rook (white)" }
 enemy{ id = "chess/rook_black", description = "Rook (black)" }
 enemy{ id = "chess/rook_white", description = "Rook (white)" }
 enemy{ id = "creeper", description = "Creeper" }

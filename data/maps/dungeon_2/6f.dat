@@ -4872,6 +4872,24 @@ enemy{
   breed = "alttp/medusa",
 }
 
+crystal_block{
+  layer = 0,
+  x = 416,
+  y = 528,
+  width = 16,
+  height = 48,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 528,
+  y = 528,
+  width = 16,
+  height = 48,
+  subtype = 0,
+}
+
 tile{
   layer = 1,
   x = 696,

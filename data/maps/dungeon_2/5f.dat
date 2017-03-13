@@ -6663,8 +6663,8 @@ chest{
 destination{
   name = "destination",
   layer = 0,
-  x = 784,
-  y = 133,
+  x = 744,
+  y = 61,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

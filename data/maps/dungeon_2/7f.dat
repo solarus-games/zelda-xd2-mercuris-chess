@@ -787,87 +787,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 368,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "door.3",
-}
-
-tile{
-  layer = -1,
-  x = 368,
-  y = 584,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.1-1",
-}
-
-tile{
-  layer = -1,
-  x = 368,
-  y = 608,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.2-1",
-}
-
-tile{
-  layer = -1,
-  x = 256,
-  y = 592,
-  width = 16,
-  height = 16,
-  pattern = "door.4",
-}
-
-tile{
-  layer = -1,
-  x = 256,
-  y = 608,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.2-1",
-}
-
-tile{
-  layer = -1,
-  x = 256,
-  y = 584,
-  width = 16,
-  height = 8,
-  pattern = "door.4.support.1-1",
-}
-
-tile{
-  layer = -1,
-  x = 272,
-  y = 592,
-  width = 96,
-  height = 16,
-  pattern = "floor_low.13-2",
-}
-
-tile{
-  layer = -1,
-  x = 280,
-  y = 584,
-  width = 80,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = -1,
-  x = 280,
-  y = 608,
-  width = 80,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = -1,
   x = 192,
   y = 280,
   width = 80,
@@ -1019,6 +938,87 @@ tile{
   pattern = "wall_low_border.3-5",
 }
 
+tile{
+  layer = -1,
+  x = 368,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = -1,
+  x = 368,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 368,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 256,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = -1,
+  x = 256,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 256,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 272,
+  y = 592,
+  width = 96,
+  height = 16,
+  pattern = "floor_low.13-2",
+}
+
+tile{
+  layer = -1,
+  x = 280,
+  y = 584,
+  width = 80,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 280,
+  y = 608,
+  width = 80,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
 destination{
   name = "from_8f_s",
   layer = -1,
@@ -1095,30 +1095,6 @@ door{
   cannot_open_dialog = "small_key_required",
 }
 
-wall{
-  layer = -1,
-  x = 256,
-  y = 592,
-  width = 16,
-  height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = -1,
-  x = 368,
-  y = 592,
-  width = 16,
-  height = 16,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 destination{
   name = "from_6f_w",
   layer = -1,
@@ -1143,6 +1119,70 @@ stairs{
   y = 288,
   direction = 1,
   subtype = 1,
+}
+
+wall{
+  layer = -1,
+  x = 256,
+  y = 592,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 368,
+  y = 592,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+door{
+  name = "auto_door_a_2",
+  layer = -1,
+  x = 368,
+  y = 592,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+door{
+  name = "auto_door_a",
+  layer = -1,
+  x = 256,
+  y = 592,
+  direction = 0,
+  sprite = "entities/doors/door_d1_normal",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 648,
+  width = 32,
+  height = 32,
+  pattern = "ceiling.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 680,
+  width = 56,
+  height = 24,
+  pattern = "ceiling.1",
 }
 
 tile{
@@ -3217,42 +3257,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
-  y = 560,
-  width = 8,
-  height = 80,
-  pattern = "door_cache_low.3-1",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 560,
-  width = 8,
-  height = 80,
-  pattern = "door_cache_low.4-1",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 584,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 584,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.3-2",
-}
-
-tile{
-  layer = 0,
   x = 216,
   y = 280,
   width = 32,
@@ -3357,6 +3361,42 @@ tile{
   width = 16,
   height = 16,
   pattern = "wall_low_diag.top.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache_low.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache_low.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-5",
 }
 
 wall{
@@ -3661,6 +3701,72 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_1",
+  layer = 0,
+  x = 80,
+  y = 565,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_3",
+  layer = 0,
+  x = 80,
+  y = 645,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_4",
+  layer = 0,
+  x = 240,
+  y = 645,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "auto_torch_auto_door_a_2",
+  layer = 0,
+  x = 240,
+  y = 565,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 136,
+  y = 597,
+  direction = 0,
+  breed = "chess/bishop_white",
+}
+
+enemy{
+  name = "auto_enemy_9",
+  layer = 0,
+  x = 168,
+  y = 645,
+  direction = 0,
+  breed = "chess/bishop_black",
 }
 
 tile{

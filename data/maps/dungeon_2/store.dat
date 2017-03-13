@@ -4037,24 +4037,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 656,
-  y = 296,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.4-2",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 296,
-  width = 8,
-  height = 32,
-  pattern = "door_top.low.3-2",
-}
-
-tile{
-  layer = 0,
   x = 592,
   y = 400,
   width = 80,
@@ -4069,24 +4051,6 @@ tile{
   width = 80,
   height = 8,
   pattern = "door_cache_low.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 616,
-  y = 400,
-  width = 32,
-  height = 8,
-  pattern = "door_top.low.2-2",
-}
-
-tile{
-  layer = 0,
-  x = 616,
-  y = 488,
-  width = 32,
-  height = 8,
-  pattern = "door_top.low.1-2",
 }
 
 tile{
@@ -4168,6 +4132,42 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_blast.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 488,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 616,
+  y = 400,
+  width = 32,
+  height = 8,
+  pattern = "door_top.closed.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 656,
+  y = 296,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 296,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-5",
 }
 
 wall{

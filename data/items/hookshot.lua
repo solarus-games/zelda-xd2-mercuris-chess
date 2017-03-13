@@ -83,7 +83,7 @@ function item:on_using()
   -- Also used for the invisible leader entity used when hooked.
   local function set_can_traverse_rules(entity)
     entity:set_can_traverse("crystal", true)
-    entity:set_can_traverse("crystal_block", true)
+    entity:set_can_traverse("crystal_block", false)
     entity:set_can_traverse("hero", true)
     entity:set_can_traverse("jumper", true)
     entity:set_can_traverse("stairs", false)  -- TODO only inner stairs should be obstacle and only when on their lowest layer.
@@ -95,7 +95,8 @@ function item:on_using()
     entity:set_can_traverse_ground("hole", true)
     entity:set_can_traverse_ground("lava", true)
     entity:set_can_traverse_ground("prickles", true)
-    entity:set_can_traverse_ground("low_wall", true)  -- Needed for cliffs.
+-- TODO traversable types and grounds should be configurable
+    entity:set_can_traverse_ground("low_wall", true)  -- Needed for inner stairs.
     entity.apply_cliffs = true
   end
 

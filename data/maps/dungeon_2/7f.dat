@@ -3513,6 +3513,195 @@ tile{
   pattern = "door_top.closed.3-5",
 }
 
+tile{
+  layer = 0,
+  x = 688,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 608,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 528,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.4.top",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 680,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.2.top",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 608,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 528,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 400,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 288,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 80,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 160,
+  width = 24,
+  height = 32,
+  pattern = "stain_glass.wide.3.top",
+}
+
+tile{
+  layer = 0,
+  x = 384,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "window.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 544,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "window.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 816,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "window.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 112,
+  width = 24,
+  height = 32,
+  pattern = "window.4-2",
+}
+
+tile{
+  layer = 0,
+  x = 920,
+  y = 256,
+  width = 24,
+  height = 32,
+  pattern = "window.4-2",
+}
+
 block{
   name = "auto_block_1",
   layer = 0,

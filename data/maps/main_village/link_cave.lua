@@ -10,6 +10,8 @@
 local map = ...
 local game = map:get_game()
 
+local zelda_chores = require("scripts/maps/zelda_chores")
+
 local has_passed_miaou_sensor_1 = false
 local has_passed_miaou_sensor_2 = false
 local has_passed_boss_fight_sensor = false
@@ -24,11 +26,11 @@ function map:on_started()
   map:set_doors_open("cave_door_")
   
   -- Check if the cat has already been fed: get chores state.
-  local chore_step, chores_done = map:get_chores_state()
+  local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
   
-  first_time = not chores_done
+  first_time = not all_chores_done
 
-  if chore_step == 0 then
+  if chore_step == 0 and not chore_done then
     -- Activate boss mode.
     boss_mode = true
 
@@ -39,6 +41,7 @@ function map:on_started()
     tigriss_npc_docile:set_enabled(false)
     tigriss_npc:set_enabled(true)
     tigriss_enemy:set_enabled(false)
+
   else
     -- Not in boss mode.
     boss_mode = false
@@ -49,6 +52,8 @@ function map:on_started()
     tigriss_enemy:set_enabled(false)
   end
 end
+
+-------------------------------------------------------------------------------
 
 -- Launch the boss fight.
 function door_sensor:on_activated()
@@ -67,6 +72,9 @@ end
 -- When the boss is being killed.
 function tigriss_enemy:on_dying()
   
+  -- Stop the hero.
+  hero:freeze()
+
   -- Hide enemy.
   tigriss_enemy:set_enabled(false)
 
@@ -81,13 +89,10 @@ function tigriss_enemy:on_dying()
 
   -- Reopen doors
   map:reopen_doors()
+
 end
 
--- -- When the boss is killed.
--- function tigriss_enemy:on_dead()
-  
--- end
-
+-- Called after the cat has been fed.
 function map:reopen_doors()
   sol.audio.stop_music()
   hero:freeze()
@@ -99,6 +104,7 @@ function map:reopen_doors()
       -- The cute cat speaks.
       game:start_dialog("chores.miaou_4", function()
         hero:unfreeze()
+
         sol.audio.play_music("alttp/village")
       end)
     end)
@@ -198,8 +204,8 @@ function tigriss_npc_docile:use_food()
           game:start_dialog("chores.cat_fed", function()
             -- Unfreeze hero.
             hero:unfreeze()
-            -- Go to next chore.
-            map:set_chore_step(1)
+            -- Validate the current chore.
+            zelda_chores:set_chore_done(true)
           end)
         end)
       end)    
@@ -209,25 +215,4 @@ function tigriss_npc_docile:use_food()
   else
     game:start_dialog("chores.cat_already_fed")
   end
-end
-
--- Get the chores step.
--- Returns a pair: (number) chore_step, (boolean) chores_done 
-function map:get_chores_state()
-  local chores_done = game:get_value("introduction_chores_done")
-  local chore_step = game:get_value("introduction_chore_step")
-  
-  if chores_done ==  nil then
-    chores_done = false
-  end
-
-  if chore_step == nil then
-    chore_step = 0
-  end
-  return chore_step, chores_done
-end
-
--- Set the chore step.
-function map:set_chore_step(chore_step)
-  game:set_value("introduction_chore_step", chore_step)
 end

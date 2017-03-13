@@ -420,6 +420,16 @@ compteur magique !
 }
 
 dialog{
+  id = "_item_description.mail.1",
+  text = [[
+Une lettre adressée
+à la princesse Zelda.
+Va vite la lui
+apporter!
+]]
+}
+
+dialog{
   id = "_item_description.pains_au_chocolat_counter.1",
   icon = "17",
   skip = "all",
@@ -1156,6 +1166,17 @@ d'énergie magique !
 }
 
 dialog{
+  id = "_treasure.mail.1",
+  text = [[
+Tu as trouvé
+une lettre adressée à
+la princesse Zelda!
+Va vite la lui
+apporter.
+]]
+}
+
+dialog{
   id = "_treasure.map.1",
   icon = "70",
   text = [[
@@ -1711,14 +1732,27 @@ Comme première corvée,
 tu vas devoir nourir
 mon petit chaton chéri.
 Tu vas voir, il est
-adorable, ce petit chou.$0
+adorable, ce petit chou.
+
 Il s'appelle
 Flocon-de-neige, 
-il est vraiment trop
-choupi.
+il est vraiment choupi.
 Il est en train de jouer
-dans la cave. $0
+dans la cave.
 Allez, zou!
+]]
+}
+
+dialog{
+  id = "chores.chore_0_again",
+  text = [[
+Tu entends ces
+miaulements?
+
+Je crois que c'est
+Flocon-de-neige.
+Il a encore faim.
+Allez, va le nourrir!
 ]]
 }
 
@@ -1729,14 +1763,234 @@ Merci d'avoir nourri
 mon petit chaton
 d'amour.
 Il est trognon, 
-n'est-ce pas ?$0
+n'est-ce pas ?
+
 Maintenant, 
-je t'ordonne de couper
+j'ai une nouvelle
+corvée pour toi.
+Je t'ordonne de couper
 toute la mauvaise
-herbe qui gangrène le
-jardinet.$0
+herbe du jardinet.
 Allez, au boulot,
 grosse feignasse!
+]]
+}
+
+dialog{
+  id = "chores.chore_1_again",
+  text = [[
+Avoue que tu le trouve
+tout mignon, mon
+petit chaton.
+Tiens, au fait, la
+mauvaise herbe a encore
+repoussé. 
+Va la couper!
+]]
+}
+
+dialog{
+  id = "chores.chore_2",
+  text = [[
+Bon,
+le jardin est un
+peu plus présentable.
+Je commençais à avoir
+honte...
+
+Maintenant, il faut
+que tu me ramènes le
+courrier.
+Petit héros presse le
+pas, car le courrier
+n'attend pas!
+]]
+}
+
+dialog{
+  id = "chores.chore_2_again",
+  text = [[
+Merci pour le jardin.
+
+
+C'est vraiment pas de
+bol qu'on n'ait pas
+encore inventé le
+désherbant à Hyrule.
+
+Tiens, je crois que le
+facteur est passé!
+Va chercher le courrier!
+]]
+}
+
+dialog{
+  id = "chores.chore_2_again_thanks_0",
+  text = [[
+Merci, 
+c'est pas trop tôt...
+
+C'est une lettre de
+mon amie la princesse
+Peach.
+"Je suis en vacances à
+Delphino, dit-elle,
+le temps est superbe,
+les cocktails sont
+délicieux, et on dort
+à l'hotêl de
+Aaaaaaargh !"$0
+Oui, elle a vraiment
+écrit "Aaaaaaargh".
+Je crois qu'elle n'a
+pas eu le temps de
+finir sa lettre,
+elle s'est
+faite capturer!
+Saprisiti!
+]]
+}
+
+dialog{
+  id = "chores.chore_2_again_thanks_1",
+  text = [[
+Merci, 
+j'ai falli attendre...
+
+C'est les impôts...
+Hé oui hélas...
+Mon statut de
+princesse ne me donne
+plus beaucoup de
+privilèges depuis la
+révolution et
+l'installation d'une
+république à Hyrule.
+VIVE LA MONARCHIE!$0
+Merci le gueux, t'es
+un laideron mais t'es
+bien bon!
+]]
+}
+
+dialog{
+  id = "chores.chore_2_again_thanks_2",
+  text = [[
+Merci, 
+ne te dépêche surtout
+pas...
+Ha!$0
+Mince...$0
+Je me suis faite
+flasher par un radar
+l'autre jour.
+En même temps, tu
+arrives à connaître ta
+vitesse exacte à
+cheval, toi ?$0
+Dis... tu veux bien 
+payer l'amende 
+à ma place ?
+]]
+}
+
+dialog{
+  id = "chores.chore_2_again_thanks_3",
+  text = [[
+Merci, 
+heureusement que je
+ne suis pas pressée...
+C'est une invitation
+pour le festival
+"Moutarde et Cinéma",
+chouette!
+Prenez un chewing-gum,
+$v.
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_0",
+  text = [[
+Merci, 
+c'est pas trop tôt...
+
+C'est une lettre de
+mon amie la princesse
+Peach.
+"Je suis en vacances à
+Delphino, dit-elle,
+le temps est superbe,
+les cocktails sont
+délicieux, et on dort
+à l'hotêl de
+Aaaaaaargh !"$0
+Oui, elle a vraiment
+écrit "Aaaaaaargh".
+Je crois qu'elle n'a
+pas eu le temps de
+finir sa lettre,
+elle s'est
+faite capturer!
+Saprisiti!
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_1",
+  text = [[
+Merci, 
+j'ai falli attendre...
+
+C'est les impôts...
+Hé oui hélas...
+Mon statut de
+princesse ne me donne
+plus beaucoup de
+privilèges depuis la
+révolution et
+l'installation d'une
+république à Hyrule.
+VIVE LA MONARCHIE!$0
+Merci le gueux, t'es
+un laideron mais t'es
+bien bon!
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_2",
+  text = [[
+Merci, 
+ne te dépêche surtout
+pas...
+Ha!$0
+Mince...$0
+Je me suis faite
+flasher par un radar
+l'autre jour.
+En même temps, tu
+arrives à connaître ta
+vitesse exacte à
+cheval, toi ?$0
+Dis... tu veux bien 
+payer l'amende 
+à ma place ?
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_3",
+  text = [[
+Merci, 
+heureusement que je
+ne suis pas pressée...
+C'est une invitation
+pour le festival
+"Moutarde et Cinéma",
+chouette!
+Prenez un chewing-gum,
+$v.
 ]]
 }
 
@@ -1745,20 +1999,39 @@ dialog{
   text = [[
 Comment oses-tu partir
 comme ça ?
+
 Tu n'as pas fini de te
 faire pardonner!
+
 Allez, au boulot!
-Il y a une petite bête
-toute mignonne à
-nourrir dans la cave.
+]]
+}
+
+dialog{
+  id = "chores.mailbox",
+  text = [[
+Oh!$0
+Il y a du courrier!
+]]
+}
+
+dialog{
+  id = "chores.mailbox_empty",
+  text = [[
+Rien dans la boîte
+aux lettres.
+
+Même pas de la
+publicité. 
+Rien.
 ]]
 }
 
 dialog{
   id = "chores.miaou_1",
   text = [[
-Miaou ...$0
-Miaouuuuu ...$0
+Miaou...
+Miaouuuuu...0
 (Le chat semble affamé)
 ]]
 }
@@ -1766,9 +2039,9 @@ Miaouuuuu ...$0
 dialog{
   id = "chores.miaou_2",
   text = [[
-MIAAAAOUUUUU !!!$0
-MIAAOUUUU !!!$0
-GRRRRRR ...$0
+MIAAAAOUUUUU !!!
+MIAAOUUUU !!!
+GRRRRRR...
 (Le chat semble
 terriblement affamé...)
 ]]
@@ -2288,8 +2561,9 @@ dialog{
   text = [[
 Au fait,$0
 Je ne te fais plus
-confiance, alors je
-vais te confisquer ton
+confiance,
+alors je vais te
+confisquer ton
 Sabre Laser.
 Tu pourras le récupérer
 si tu es obéissant.
@@ -2301,10 +2575,13 @@ dialog{
   text = [[
 Tiens,
 voilà ton sabre laser.
+
 Je trouvais que le bleu
-n'était pas très joli,
+n'était pas très joli
+...
 alors je me suis permise
 de changer la couleur.
+
 C'est bien mieux comme
 ça, tu verras.
 ]]
@@ -2338,6 +2615,8 @@ dialog{
   id = "intro.marine_wondering",
   text = [[
 ???
+
+
 Qu'est-ce que c'est
 que ça ?
 D'où ça vient ?
@@ -2373,19 +2652,23 @@ dialog{
   id = "intro.zelda_waiting",
   text = [[
 Ha ! $0
-Enfin ! $0
+Enfin !
+$0
 Tu dois te faire
 pardonner
 après ce que tu m'as
 fait subir la dernière
-fois.$0
+fois.
+$0
 Comme punition, tu vas
 avoir 3 mois de corvées
 à faire pour moi.
 Viens me voir dès que
-tu es prêt.$0
+tu es prêt.
+$0
 Comment ça ?!
-Un rêve
+Tu me dis que tu
+faisais un rêve
 avec une baleine
 volante et un oeuf
 géant ?!

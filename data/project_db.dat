@@ -564,6 +564,7 @@ item{ id = "hookshot", description = "Hookshot" }
 item{ id = "lamp", description = "Lamp" }
 item{ id = "magic_bar", description = "Maximum of magic (none / half / full)" }
 item{ id = "magic_flask", description = "Magic flask (small / big)" }
+item{ id = "mail", description = "Mail" }
 item{ id = "map", description = "Dungeon map" }
 item{ id = "pain_au_chocolat", description = "Pain au chocolat" }
 item{ id = "pains_au_chocolat_counter", description = "Pains au chocolat counter" }

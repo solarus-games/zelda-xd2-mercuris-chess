@@ -10,15 +10,72 @@
 local map = ...
 local game = map:get_game()
 
+local zelda_chores = require("scripts/maps/zelda_chores")
+
+local bush_count = 0
+local current_chore_step = -1
+
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  -- Get chores state.
+  local chore_step, chores_done = zelda_chores:get_chores_state()
+  current_chore_step = chore_step
+
+  -- Lock the door while the hero has not done the chores.
+  local door_closed = chore_step < 2 and not chores_done
+  link_garden_door:set_enabled(door_closed)
+
+  -- If the hero is doing the chore 1, count the bushes 
+  if current_chore_step == 1 then
+    for i = 1, 24 do
+      local bush_name = "link_garden_bush_" .. i
+      local bush_entity = map:get_entity(bush_name)
+      if bush_entity ~= nil then
+        bush_entity.on_removed = map.increase_bush_count
+      end
+    end
+  
+  -- Else, hide all the bushes
+  else 
+    for i = 1, 24 do
+      local bush_name = "link_garden_bush_" .. i
+      local bush_entity = map:get_entity(bush_name)
+      if bush_entity ~= nil then
+        bush_entity:remove()
+      end
+    end
+  end
+
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+-- Called each time a bush in Link's garden is cut.
+-- When all the bushes are cut, the chore is done.
+function map:increase_bush_count()
+  if current_chore_step ~= 1 then
+    return
+  end
 
+  bush_count = bush_count + 1
+  
+  if bush_count == 24 then
+    sol.audio.play_sound("secret")
+    zelda_chores:set_chore_done(true)
+  end 
+end
+
+-- Called when the hero talks to the mailbox
+function link_mailbox:on_interaction()
+  if current_chore_step ~= 2 then
+    game:start_dialog("chores.mailbox_empty")
+    return
+  end
+
+  -- Give a letter to the hero if he has not got one yet. 
+  if game:has_item("mail") then
+    game:start_dialog("chores.mailbox_empty")    
+  else
+    hero:start_treasure("mail", 1)
+    zelda_chores:set_chore_done(true)
+  end
 end

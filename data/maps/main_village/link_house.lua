@@ -10,6 +10,8 @@
 local map = ...
 local game = map:get_game()
 
+local zelda_chores = require("scripts/maps/zelda_chores")
+
 -- White surface for fade-in/out.
 local white_surface = nil
 local black_stripe = nil
@@ -22,68 +24,18 @@ local camera_shaking_count = 0
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started(destination_point)
 
+  -- Check if we need to launch the introduction (just after the LA beach dream).
   local intro_done = game:get_value("introduction_done")
-
-  -- Game's introducton, normally called only one time
   if intro_done == nil or not intro_done then
-
-    -- Create white surface.
-    local quest_w, quest_h = sol.video.get_quest_size()
-    if white_surface == nil then
-      white_surface = sol.surface.create(quest_w, quest_h)
-      white_surface:fill_color({255, 255, 255})
-    end
-
-    -- Set cinematic mode.
-    map:set_cinematic_mode(true)
-
-    -- Instead, show Link in bed.
-    local bed_hero_sprite = bed:get_sprite()
-    bed_hero_sprite:set_animation("hero_sleeping")
-
-    -- Fade-in from white to simulate a cloudy mountain top
-    map:start_fadein_from_white(2000)
-
-    -- Hide Angry Zelda
-    zelda_angry:set_visible(false)
-
-    -- Start Zelda's dialog.
-    sol.timer.start(map, 2000, function()
-      local dialog_box = game:get_dialog_box()
-      dialog_box:set_position("bottom")
-      game:start_dialog("intro.zelda_waking_up", function()
-        sol.timer.start(map, 2000, function()
-          game:start_dialog("intro.zelda_shaking", function()
-            -- Shake the camera.
-            -- The next actions are done when camera shaking is finished.
-            map:shake_camera()
-          end)
-        end)
-      end)     
-    end)
-    
-
-  -- Normal state
+    -- Game's introducton, normally called only one time
+    map:launch_intro()  
   else
-    zelda:set_position(104, 88, 1)
-    local zelda_sprite = zelda:get_sprite()
-    zelda_sprite:set_animation("stopped")
-    zelda_sprite:set_direction(3) -- down
-    
-    snores:remove()
-    zelda_angry:remove()    
-    game:set_hud_enabled(true)
-    sol.audio.play_music("alttp/village")
-    map:set_cinematic_mode(false)
-
+    -- Normal state
+    map:launch_normal_state()
   end
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
-end
+-------------------------------------------------------------------------------
 
 -- Linear function
 -- t = elapsed time
@@ -132,136 +84,6 @@ function map:on_draw(dst_surface)
   end
 end
 
--- Shake the camera to wake up Link.
-function map:shake_camera()
-
-  local camera = map:get_camera()
-  local camera_x, camera_y = camera:get_position()  
-  local camera_shaking_count_max = 9
-
-  local movement = sol.movement.create("straight")
-  movement:set_speed(60)
-  movement:set_smooth(true)
-  movement:set_ignore_obstacles(true)
-
-  -- Determine direction.
-  if camera_shaking_to_right then
-    movement:set_angle(0) -- right
-  else
-    movement:set_angle(math.pi) -- left
-  end
-
-  -- Max distance.
-  local max_distance = 4
-  movement:set_max_distance(max_distance)
-
-  -- Inverse direction for next time.
-  camera_shaking_to_right = not camera_shaking_to_right
-  camera_shaking_count = camera_shaking_count + 1
-
-  -- Launch the movement and repeat if needed.
-  movement:start(camera, function()
-    if camera_shaking_count == (camera_shaking_count_max - 1) / 2 then
-      map:make_link_fall_off_bed()
-    end
-
-    if camera_shaking_count <= camera_shaking_count_max then
-      map:shake_camera()
-    else
-      map:make_link_fall_off_bed()
-         
-      sol.timer.start(map, 2000, function()
-        local dialog_box = game:get_dialog_box()
-        dialog_box:set_position("bottom")
-        game:start_dialog("intro.zelda_resistant", function()
-          sol.timer.start(map, 500, function()
-            -- Make Zelda hurt Link with her rolling pin.
-            zelda:set_visible(false)
-            zelda_angry:set_visible(true)
-
-            local zelda_angry_sprite = zelda_angry:get_sprite()
-            zelda_angry_sprite:set_animation("walking")
-
-            local hurt_count = 0
-            -- hurt noise
-            sol.audio.play_sound("arrow_hit")            
-            sol.timer.start(map, 400, function()
-              if hurt_count < 5 then
-                hurt_count = hurt_count + 1
-                sol.audio.play_sound("arrow_hit")            
-              end
-              return not hurt_finished
-            end)
-
-            sol.timer.start(map, 2000, function()
-              sol.audio.stop_music()
-              sol.audio.play_sound("wrong")
-              
-              snores:remove()
-              local bed_hero_sprite = bed:get_sprite()
-              bed_hero_sprite:set_animation("hero_waking_aside")
-              zelda_angry_sprite:set_paused(true)
-              zelda_angry:remove()
-              zelda:set_visible(true)
-              
-              game:start_dialog("intro.zelda_waiting", function()
-                sol.timer.start(map, 800, function()
-                  
-                  game:start_dialog("intro.light_saber_confiscate", function()
-                    -- Confiscate light saber.
-                    local sword = game:get_item("sword")
-                    sword:set_variant(1)
-
-                    -- Move Zelda.
-                    local zelda_movement = sol.movement.create("target")
-                    local zelda_x, zelda_y = zelda:get_position()
-                    zelda:set_position(zelda_x, zelda_y, 1)
-                    zelda_movement:set_speed(30)
-                    zelda_movement:set_smooth(true)
-                    zelda_movement:set_ignore_obstacles(true)
-                    zelda_movement:set_target(104, 88)
-                    zelda_movement:start(zelda, function()
-                      zelda:stop_movement()
-                      local zelda_sprite = zelda:get_sprite()
-                      zelda_sprite:set_animation("stopped")
-                      zelda_sprite:set_direction(3) -- down
-                      sol.timer.start(map, 500, function()
-                        map:make_link_go_out_of_bed()
-                        game:set_value("introduction_done", true)
-                        sol.audio.play_music("alttp/village")                    
-                      end)
-                    end)
-                  end)
-                end)              
-              end)
-            end)
-          end)
-        end)
-      end)
-    end
-  end)
-end
-
--- Link falls off his bed.
-function map:make_link_fall_off_bed()
-  local bed_hero_sprite = bed:get_sprite()
-  bed_hero_sprite:set_animation("hero_sleeping_aside")
-  local bed_hero_x, bed_hero_y = bed:get_position()
-  bed:set_position(bed_hero_x + 4, bed_hero_y)
-  sol.audio.play_sound("bomb")  
-end
-
--- Link finally wakes up and go out of his bed
-function map:make_link_go_out_of_bed()
-  -- Hide the hero in bed entity.
-  local bed_hero_sprite = bed:get_sprite()
-  bed_hero_sprite:set_animation("empty_open")
-  -- Show the real hero instead.
-  map:set_cinematic_mode(false)
-  hero:start_jumping(0, 8, true)
-  sol.audio.play_sound("hero_lands")  
-end
-
 -- Enable or disable the cinematic mode
 function map:set_cinematic_mode(is_cinematic)
   -- Initialize cinematic black stripes.
@@ -284,9 +106,11 @@ function map:set_cinematic_mode(is_cinematic)
   if is_cinematic then
     hero:freeze()
     hero:set_visible(false)
+    hero:set_enabled(false)
   else
     hero:unfreeze()
     hero:set_visible(true)
+    hero:set_enabled(true)
   end
   -- Prevent or allow the player from pausing the game
   game:set_pause_allowed(not is_cinematic)
@@ -297,59 +121,284 @@ function map:set_cinematic_mode(is_cinematic)
   end
 end
 
+-------------------------------------------------------------------------------
+
+-- Shake the camera to wake up Link.
+function map:shake_camera()
+
+  -- Initialize variables.
+  local camera = map:get_camera()
+  local camera_x, camera_y = camera:get_position()  
+  local camera_shaking_count_max = 9
+
+  -- Create a new movement each time.
+  local movement = sol.movement.create("straight")
+  movement:set_speed(60)
+  movement:set_smooth(true)
+  movement:set_ignore_obstacles(true)
+
+  -- Determine direction.
+  if camera_shaking_to_right then
+    movement:set_angle(0) -- right
+  else
+    movement:set_angle(math.pi) -- left
+  end
+
+  -- Max distance.
+  local max_distance = 4
+  movement:set_max_distance(max_distance)
+
+  -- Inverse direction for next time.
+  camera_shaking_to_right = not camera_shaking_to_right
+  camera_shaking_count = camera_shaking_count + 1
+
+  -- Launch the movement and repeat if needed.
+  movement:start(camera, function()
+    -- Make Link falls at the middle of the shaking duration.
+    if camera_shaking_count == (camera_shaking_count_max - 1) / 2 then
+      map:make_link_fall_off_bed()
+    end
+
+    -- Repeat shaking until the count_max is reached.
+    if camera_shaking_count <= camera_shaking_count_max then
+      -- Repeat shaking.
+      map:shake_camera()
+    else
+      -- Link fanilly wakes up.
+      map:make_link_fall_off_bed()
+      -- Zelda speak to Link and explain the tasks to do.
+      map:make_zelda_speak()   
+    end
+  end)
+end
+
+-------------------------------------------------------------------------------
+
+-- Link falls off his bed.
+function map:make_link_fall_off_bed()
+  local bed_hero_sprite = bed:get_sprite()
+  bed_hero_sprite:set_animation("hero_sleeping_aside")
+  local bed_hero_x, bed_hero_y = bed:get_position()
+  bed:set_position(bed_hero_x + 4, bed_hero_y)
+  sol.audio.play_sound("bomb")  
+end
+
+-- Link finally wakes up and go out of his bed
+function map:make_link_go_out_of_bed()
+  -- Hide the hero in bed entity.
+  local bed_hero_sprite = bed:get_sprite()
+  bed_hero_sprite:set_animation("empty_open")
+  -- Show the real hero instead.
+  map:set_cinematic_mode(false)
+  hero:start_jumping(0, 8, true)
+  sol.audio.play_sound("hero_lands")
+end
+
+-- Zelda speak to Link and explain the tasks to do.
+function map:make_zelda_speak()
+
+  sol.timer.start(map, 2000, function()
+    game:start_dialog("intro.zelda_resistant", function()
+      sol.timer.start(map, 500, function()
+        -- Make Zelda hurt Link with her rolling pin.
+        zelda:set_visible(false)
+        zelda_angry:set_visible(true)
+        local zelda_angry_sprite = zelda_angry:get_sprite()
+        zelda_angry_sprite:set_animation("walking")
+
+        -- Repeat noise until Zelda stops to hit the hero.
+        local hurt_count = 0
+        sol.audio.play_sound("arrow_hit")            
+        sol.timer.start(map, 400, function()
+          if hurt_count < 5 then
+            hurt_count = hurt_count + 1
+            sol.audio.play_sound("arrow_hit")            
+          end
+          return not hurt_finished
+        end)
+
+        sol.timer.start(map, 2000, function()
+          -- Stop music.
+          sol.audio.stop_music()
+          sol.audio.play_sound("wrong")
+
+          -- Set up correctly the entities we use.      
+          snores:remove()
+          local bed_hero_sprite = bed:get_sprite()
+          bed_hero_sprite:set_animation("hero_waking_aside")
+          zelda_angry_sprite:set_paused(true)
+          zelda_angry:remove()
+          zelda:set_visible(true)
+              
+          -- Zelda tells Link she's waiting.
+          game:start_dialog("intro.zelda_waiting", function()
+            -- After, she moves and wait. 
+            sol.timer.start(map, 800, function()
+              -- And confiscate the light saber!    
+              game:start_dialog("intro.light_saber_confiscate", function()
+                -- Confiscate light saber.
+                local sword = game:get_item("sword")
+                sword:set_variant(1)
+
+                -- Move Zelda.
+                local zelda_movement = sol.movement.create("target")
+                local zelda_x, zelda_y = zelda:get_position()
+                zelda:set_position(zelda_x, zelda_y, 1)
+                zelda_movement:set_speed(30)
+                zelda_movement:set_smooth(true)
+                zelda_movement:set_ignore_obstacles(true)
+                zelda_movement:set_target(104, 88)
+
+                zelda_movement:start(zelda, function()
+                  zelda:stop_movement()
+                  local zelda_sprite = zelda:get_sprite()
+                  zelda_sprite:set_animation("stopped")
+                  zelda_sprite:set_direction(3) -- down
+
+                  sol.timer.start(map, 500, function()
+                    map:make_link_go_out_of_bed()
+                    game:set_value("introduction_done", true)
+                    sol.audio.play_music("alttp/village")                    
+                  end)
+                end)
+              end)
+            end)              
+          end)
+        end)
+      end)
+    end)  
+  end)
+end
+
+-------------------------------------------------------------------------------
+
+-- Configure the map to show the introduction.
+function map:launch_intro()
+  -- Create white surface.
+  local quest_w, quest_h = sol.video.get_quest_size()
+  if white_surface == nil then
+    white_surface = sol.surface.create(quest_w, quest_h)
+    white_surface:fill_color({255, 255, 255})
+  end
+
+  -- Set cinematic mode.
+  map:set_cinematic_mode(true)
+
+  -- Instead, show Link in bed.
+  local bed_hero_sprite = bed:get_sprite()
+  bed_hero_sprite:set_animation("hero_sleeping")
+
+  -- Fade-in from white to simulate a cloudy mountain top
+  map:start_fadein_from_white(2000)
+
+  -- Hide Angry Zelda
+  zelda_angry:set_visible(false)
+
+  -- Start Zelda's dialog.
+  sol.timer.start(map, 2000, function()
+    game:start_dialog("intro.zelda_waking_up", function()
+      sol.timer.start(map, 2000, function()
+        game:start_dialog("intro.zelda_shaking", function()
+          -- Shake the camera.
+          -- The next actions are done when camera shaking is finished.
+          map:shake_camera()
+        end)
+      end)
+    end)     
+  end)
+end
+
+--Configure the map to show the normal state.
+function map:launch_normal_state()
+  -- Configure Zelda.
+  zelda:set_position(104, 88, 1) -- x, y, layer
+  local zelda_sprite = zelda:get_sprite()
+  zelda_sprite:set_animation("stopped")
+  zelda_sprite:set_direction(3) -- down
+  zelda_angry:remove()    
+    
+  -- Remove the snores.
+  snores:remove()
+
+  -- Show the HUD.
+  game:set_hud_enabled(true)
+  
+  -- Normal music.
+  sol.audio.play_music("alttp/village")
+  
+  -- No cinematic black stripes.
+  map:set_cinematic_mode(false)
+end
+
+-------------------------------------------------------------------------------
+
+-- Called when the hero talks to Zelda.
 function zelda:on_interaction()
+  
+  map:zelda_give_chore()
+end
+
+-- Zelda asks him to do the 3 same chores, again and again in an infinite loop.
+-- Hovever, only the first times are mandatory.
+function map:zelda_give_chore()
 
   -- Get chores state.
-  local chore_step, chores_done = map:get_chores_state()
+  local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 
   -- Step 0: Feed the cat.
-  if chore_step == 0 then    
-
-    game:start_dialog("chores.chore_0", function()
-      -- Give the player the cat food if he has not got it yet.
-      if not game:has_item("cat_food") then
-        hero:start_treasure("cat_food")
-      end
-    end)
+  if chore_step == 0 then
+    if chore_done then
+      zelda_chores:go_to_next_chore_step()
+      zelda:on_interaction()
+    else
+      game:start_dialog("chores.chore_0", function()
+        -- Give the player the cat food if he has not got it yet.
+        if not game:has_item("cat_food") then
+          hero:start_treasure("cat_food")
+        end
+      end)
+    end
 
   -- Step 1: Cut the grass in the garden.
   elseif chore_step == 1 then
-    game:start_dialog("chores.chore_1", function()
+    if chore_done then
+      zelda_chores:go_to_next_chore_step()
+      zelda:on_interaction()
+    else
+      game:start_dialog("chores.chore_1")
+    end
 
-    end)
-  -- Step 2: Do Zelda grocery (buy apple pie).
+  -- Step 2: Bring back Zelda mail.
   elseif chore_step == 2 then
-
+    if chore_done then
+      -- Get a different letter than last time.
+      local chore_thanks = game:get_value("introduction_chore_2_thanks")
+      if chore_thanks == nil then
+        chore_thanks = 0
+      end
+      game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, function()
+          -- Write in savegame the next letter.
+        chore_thanks = (chore_thanks + 1) % 4
+        game:set_value("introduction_chore_2_thanks", chore_thanks)
+        
+        -- Next chore.
+        zelda_chores:go_to_next_chore_step()
+        
+        -- Call this function again.
+        map:zelda_give_chore()
+      end)
+            
+    else
+      game:start_dialog("chores.chore_2")
+    end
   end
-
-end
-
--- Get the chores step.
--- Returns a pair: (number) chore_step, (boolean) chores_done 
-function map:get_chores_state()
-  local chores_done = game:get_value("introduction_chores_done")
-  local chore_step = game:get_value("introduction_chore_step")
-  
-  if chores_done ==  nil then
-    chores_done = false
-  end
-
-  if chore_step == nil then
-    chore_step = 0
-  end
-  return chore_step, chores_done
-end
-
--- Set the chore steps.
-function map:set_chore_step(chore_step)
-  game:set_value("introduction_chore_step", chore_step)
 end
 
 -- Prevent the player from leaving
 function dont_leave_sensor:on_activated()
 
   -- Get chores state.
-  local chore_step, chores_done = map:get_chores_state()
+  local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 
   -- Link cant leave the house only if he has not done
   -- the first chore at least one time.

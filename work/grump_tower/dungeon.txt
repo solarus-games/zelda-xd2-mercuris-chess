@@ -19,7 +19,8 @@ Small keys:
 10) 3F, chest in the north room (kitchen path and elevator A)
 11) 5F, kill an enemy in the north-west room
 12) 5F, chest in the south-east room (fall from above, after elevator B)
-12) 8F, south room low layer
+13) 7F, chest in the south-east room (after elevator B)
+14) 8F, end of the G corridor
 
 Locked doors:
 1) 1F, entrance
@@ -29,7 +30,6 @@ Locked doors:
 5) 2F, to north-west room
 6) 2F, north room stairs
 7) 7F, west room
-8) 8F, end of the G corridor
 
 Big key: After the mini-boss.
 
@@ -39,4 +39,6 @@ Last floors are more independent, accessible from elevator B and
 doable in any order to find the last keys an the boss key.
 
 VIP card: hookshot required
+
+Boss key: 8F, south room low layer (continue after the miniboss path)
 

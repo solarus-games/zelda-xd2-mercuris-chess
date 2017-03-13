@@ -4648,6 +4648,46 @@ enemy{
   breed = "alttp/medusa",
 }
 
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 736,
+  y = 133,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_green",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 832,
+  y = 101,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_red",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 104,
+  y = 109,
+  direction = 3,
+  breed = "newlink/tanekian_commander_yellow",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 184,
+  y = 133,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_red",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 696,

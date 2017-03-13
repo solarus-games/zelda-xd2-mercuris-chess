@@ -10,24 +10,6 @@ properties{
 
 tile{
   layer = 0,
-  x = 112,
-  y = 136,
-  width = 32,
-  height = 24,
-  pattern = "wall.2-4",
-}
-
-tile{
-  layer = 0,
-  x = 64,
-  y = 136,
-  width = 32,
-  height = 24,
-  pattern = "wall.2-4",
-}
-
-tile{
-  layer = 0,
   x = 64,
   y = 40,
   width = 192,
@@ -42,6 +24,132 @@ tile{
   width = 96,
   height = 192,
   pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 40,
+  width = 176,
+  height = 8,
+  pattern = "wall_border.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 128,
+  width = 96,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 48,
+  width = 8,
+  height = 272,
+  pattern = "wall_border.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 320,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 128,
+  width = 8,
+  height = 192,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 8,
+  height = 80,
+  pattern = "wall_border.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-4",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "wall.2-4",
 }
 
 tile{

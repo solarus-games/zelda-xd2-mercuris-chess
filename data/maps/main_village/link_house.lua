@@ -333,15 +333,10 @@ end
 -------------------------------------------------------------------------------
 
 -- Called when the hero talks to Zelda.
-function zelda:on_interaction()
-  
-  map:zelda_give_chore()
-end
-
 -- Zelda asks him to do the 3 same chores, again and again in an infinite loop.
 -- Hovever, only the first times are mandatory.
-function map:zelda_give_chore()
-
+function zelda:on_interaction()
+  
   -- Get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 
@@ -351,7 +346,12 @@ function map:zelda_give_chore()
       zelda_chores:go_to_next_chore_step()
       zelda:on_interaction()
     else
-      game:start_dialog("chores.chore_0", function()
+      zelda_chores:set_chores_state(0, false, all_chores_done)
+      local dialog_id = "chores.chore_0"
+      if all_chores_done then
+        dialog_id =  dialog_id .. "_again"
+      end
+      game:start_dialog(dialog_id, function()
         -- Give the player the cat food if he has not got it yet.
         if not game:has_item("cat_food") then
           hero:start_treasure("cat_food")
@@ -365,7 +365,11 @@ function map:zelda_give_chore()
       zelda_chores:go_to_next_chore_step()
       zelda:on_interaction()
     else
-      game:start_dialog("chores.chore_1")
+      local dialog_id = "chores.chore_1"
+      if all_chores_done then
+        dialog_id =  dialog_id .. "_again"
+      end
+      game:start_dialog(dialog_id)
     end
 
   -- Step 2: Bring back Zelda mail.
@@ -377,6 +381,8 @@ function map:zelda_give_chore()
         chore_thanks = 0
       end
       game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, function()
+
+        print("enchaine corvee")
           -- Write in savegame the next letter.
         chore_thanks = (chore_thanks + 1) % 4
         game:set_value("introduction_chore_2_thanks", chore_thanks)
@@ -385,11 +391,15 @@ function map:zelda_give_chore()
         zelda_chores:go_to_next_chore_step()
         
         -- Call this function again.
-        map:zelda_give_chore()
+        zelda:on_interaction()
       end)
             
     else
-      game:start_dialog("chores.chore_2")
+      local dialog_id = "chores.chore_2"
+      if all_chores_done then
+        dialog_id =  dialog_id .. "_again"
+      end
+      game:start_dialog(dialog_id)
     end
   end
 end
@@ -402,7 +412,7 @@ function dont_leave_sensor:on_activated()
 
   -- Link cant leave the house only if he has not done
   -- the first chore at least one time.
-  if chore_step == 0 and not chores_done then
+  if chore_step == 0 and not all_chores_done then
     game:start_dialog("chores.dont_leave", function()
       hero:freeze()
       hero:set_animation("walking")

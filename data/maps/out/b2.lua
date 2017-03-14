@@ -19,11 +19,12 @@ local current_chore_step = -1
 function map:on_started()
 
   -- Get chores state.
-  local chore_step, chores_done = zelda_chores:get_chores_state()
+  local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
+  print(chore_step, chore_done, all_chores_done)
   current_chore_step = chore_step
 
   -- Lock the door while the hero has not done the chores.
-  local door_closed = chore_step < 2 and not chores_done
+  local door_closed = chore_step < 2 and not all_chores_done
   link_garden_door:set_enabled(door_closed)
 
   -- If the hero is doing the chore 1, count the bushes 

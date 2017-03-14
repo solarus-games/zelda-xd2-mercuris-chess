@@ -24,6 +24,10 @@ local camera_shaking_count = 0
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started(destination_point)
 
+-- Take the letter from the hero.
+      local mail = game:get_item("mail")
+      mail:set_variant(0)
+      
   -- Check if we need to launch the introduction (just after the LA beach dream).
   local intro_done = game:get_value("introduction_done")
   if intro_done == nil or not intro_done then
@@ -380,6 +384,12 @@ function zelda:on_interaction()
       if chore_thanks == nil then
         chore_thanks = 0
       end
+
+      -- Take the letter from the hero.
+      local mail = game:get_item("mail")
+      mail:set_variant(0)
+
+      -- Zelda thanks Link and read the letter.
       game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, function()
 
         print("enchaine corvee")

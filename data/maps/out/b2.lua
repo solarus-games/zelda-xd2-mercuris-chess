@@ -28,7 +28,7 @@ function map:on_started()
   link_garden_door:set_enabled(door_closed)
 
   -- If the hero is doing the chore 1, count the bushes 
-  if current_chore_step == 1 then
+  if current_chore_step == 1 and not chore_done then
     for i = 1, 24 do
       local bush_name = "link_garden_bush_" .. i
       local bush_entity = map:get_entity(bush_name)

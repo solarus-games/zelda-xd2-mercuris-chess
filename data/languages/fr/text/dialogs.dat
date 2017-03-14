@@ -1809,7 +1809,7 @@ n'attend pas!
 dialog{
   id = "chores.chore_2_again",
   text = [[
-Merci pour le jardin.$0
+Merci pour le jardin.
 C'est vraiment pas de
 bol qu'on n'ait pas
 encore inventé le
@@ -1818,91 +1818,6 @@ désherbant à Hyrule.
 Tiens, je crois que le
 facteur est passé!
 Va chercher le courrier!
-]]
-}
-
-dialog{
-  id = "chores.chore_2_again_thanks_0",
-  text = [[
-Merci, 
-c'est pas trop tôt...
-
-C'est une lettre de
-mon amie la princesse
-Peach.
-"Je suis en vacances à
-Delphino, dit-elle,
-le temps est superbe,
-les cocktails sont
-délicieux, et on dort
-à l'hotêl de
-Aaaaaaargh !"$0
-Oui, elle a vraiment
-écrit "Aaaaaaargh".
-Je crois qu'elle n'a
-pas eu le temps de
-finir sa lettre,
-elle s'est
-faite capturer!
-Saprisiti!
-]]
-}
-
-dialog{
-  id = "chores.chore_2_again_thanks_1",
-  text = [[
-Merci, 
-j'ai falli attendre...
-
-C'est les impôts...
-Hé oui hélas...
-Mon statut de
-princesse ne me donne
-plus beaucoup de
-privilèges depuis la
-révolution et
-l'installation d'une
-république à Hyrule.
-VIVE LA MONARCHIE!$0
-Merci le gueux, t'es
-un laideron mais t'es
-bien bon!
-]]
-}
-
-dialog{
-  id = "chores.chore_2_again_thanks_2",
-  text = [[
-Merci, 
-ne te dépêche surtout
-pas...
-Ha!$0
-Mince...$0
-Je me suis faite
-flasher par un radar
-l'autre jour.
-En même temps, tu
-arrives à connaître ta
-vitesse exacte à
-cheval, toi ?$0
-Dis... tu veux bien 
-payer l'amende 
-à ma place ?
-]]
-}
-
-dialog{
-  id = "chores.chore_2_again_thanks_3",
-  text = [[
-Merci, 
-heureusement que je
-ne suis pas pressée...
-C'est une invitation
-pour le festival
-"Moutarde et Cinéma",
-chouette!
-Prenez un chewing-gum,
-$v.
 ]]
 }
 
@@ -1941,14 +1856,16 @@ j'ai falli attendre...
 
 C'est les impôts...
 Hé oui hélas...
+
 Mon statut de
 princesse ne me donne
 plus beaucoup de
 privilèges depuis la
-révolution et
-l'installation d'une
-république à Hyrule.
-VIVE LA MONARCHIE!$0
+révolution à Hyrule.
+
+Moi je dis
+VIVE LA MONARCHIE!
+
 Merci le gueux, t'es
 un laideron mais t'es
 bien bon!
@@ -1962,15 +1879,15 @@ Merci,
 ne te dépêche surtout
 pas...
 Ha!$0
-Mince...$0
+Mince...
+$0
 Je me suis faite
 flasher par un radar
 l'autre jour.
 En même temps, tu
 arrives à connaître ta
-vitesse exacte à
-cheval, toi ?$0
-Dis... tu veux bien 
+vitesse à cheval, toi ?
+Dis...$0 Tu veux bien 
 payer l'amende 
 à ma place ?
 ]]
@@ -1986,8 +1903,10 @@ C'est une invitation
 pour le festival
 "Moutarde et Cinéma",
 chouette!
-Prenez un chewing-gum,
-$v.
+
+
+Au fait, prenez un 
+chewing-gum, $v.
 ]]
 }
 
@@ -2018,9 +1937,8 @@ dialog{
 Rien dans la boîte
 aux lettres.
 
-Même pas de la
-publicité. 
-Rien.
+Le facteur est encore
+en grêve ou quoi?
 ]]
 }
 

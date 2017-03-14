@@ -10,11 +10,92 @@ properties{
 
 tile{
   layer = 0,
-  x = 136,
+  x = 144,
   y = 136,
   width = 96,
   height = 96,
   pattern = "floor_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 152,
+  width = 8,
+  height = 56,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 152,
+  width = 8,
+  height = 56,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 144,
+  width = 48,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 208,
+  width = 48,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 152,
+  width = 48,
+  height = 56,
+  pattern = "carpet.5",
 }
 
 tile{
@@ -361,20 +442,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 80,
+  x = 72,
   y = 40,
   width = 48,
   height = 24,
   pattern = "cabinet.7a",
-}
-
-tile{
-  layer = 0,
-  x = 112,
-  y = 80,
-  width = 32,
-  height = 32,
-  pattern = "cafe_table.full",
 }
 
 tile{
@@ -424,7 +496,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 184,
+  x = 168,
   y = 32,
   width = 32,
   height = 32,
@@ -460,7 +532,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
+  x = 128,
   y = 32,
   width = 32,
   height = 32,
@@ -532,20 +604,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
-  y = 104,
+  x = 176,
+  y = 96,
   width = 32,
   height = 32,
   pattern = "chimney.1",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 80,
-  width = 32,
-  height = 32,
-  pattern = "cafe_table.full",
 }
 
 tile{
@@ -629,6 +692,141 @@ tile{
   pattern = "wall_border.corner_reverse.3-1",
 }
 
+tile{
+  layer = 0,
+  x = 328,
+  y = 72,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 16,
+  width = 32,
+  height = 24,
+  pattern = "window.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 72,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 72,
+  width = 96,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 112,
+  width = 96,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 80,
+  width = 8,
+  height = 32,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 80,
+  width = 96,
+  height = 32,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "cafe_table.full",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 80,
+  width = 32,
+  height = 32,
+  pattern = "cafe_table.full",
+}
+
 npc{
   layer = 0,
   x = 232,
@@ -678,7 +876,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 80,
+  x = 72,
   y = 16,
   width = 48,
   height = 24,
@@ -696,8 +894,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 168,
-  y = 80,
+  x = 176,
+  y = 72,
   width = 32,
   height = 24,
   pattern = "chimney.2",

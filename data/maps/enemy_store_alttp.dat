@@ -65,7 +65,7 @@ enemy{
   x = 24,
   y = 221,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 enemy{

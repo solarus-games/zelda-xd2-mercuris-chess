@@ -74,7 +74,6 @@ sprite{ id = "console/cursor", description = "Console cursor" }
 sprite{ id = "console/icons", description = "Console icons" }
 sprite{ id = "enemies/alttp/bubble", description = "Bubble" }
 sprite{ id = "enemies/alttp/chain_and_ball", description = "Chain and ball" }
-sprite{ id = "enemies/alttp/evil_tile", description = "Evil Tile" }
 sprite{ id = "enemies/alttp/fire_bat", description = "Fire bat" }
 sprite{ id = "enemies/alttp/fire_circle", description = "Fire circle" }
 sprite{ id = "enemies/alttp/fireball_red", description = "Big fireball (red)" }
@@ -83,6 +82,7 @@ sprite{ id = "enemies/alttp/fireball_triple_blue", description = "Big triple fir
 sprite{ id = "enemies/alttp/fireball_triple_red", description = "Big tirple fireball (red)" }
 sprite{ id = "enemies/alttp/flame_blue", description = "Flame (blue)" }
 sprite{ id = "enemies/alttp/flame_red", description = "Flame (red)" }
+sprite{ id = "enemies/alttp/flying_tile", description = "Flying Tile" }
 sprite{ id = "enemies/alttp/gibdo", description = "Gibdo" }
 sprite{ id = "enemies/alttp/hardhat_beetle_blue", description = "Hardhat Beetle (blue)" }
 sprite{ id = "enemies/alttp/hardhat_beetle_red", description = "Hardhat Beetle (red)" }
@@ -585,7 +585,6 @@ item{ id = "vip_card", description = "VIP card" }
 
 enemy{ id = "alttp/bubble", description = "Bubble" }
 enemy{ id = "alttp/chain_and_ball", description = "Chain and ball" }
-enemy{ id = "alttp/evil_tile", description = "Evil Tile" }
 enemy{ id = "alttp/fire_bat", description = "Fire bat" }
 enemy{ id = "alttp/fire_circle", description = "Fire circle" }
 enemy{ id = "alttp/fireball_red", description = "Big fireball (red)" }
@@ -594,6 +593,7 @@ enemy{ id = "alttp/fireball_triple_blue", description = "Big triple fireball (bl
 enemy{ id = "alttp/fireball_triple_red", description = "Big triple fireball (red)" }
 enemy{ id = "alttp/flame_blue", description = "Flame (blue)" }
 enemy{ id = "alttp/flame_red", description = "Flame (red)" }
+enemy{ id = "alttp/flying_tile", description = "Flying Tile" }
 enemy{ id = "alttp/gibdo", description = "Gibdo" }
 enemy{ id = "alttp/hardhat_beetle_blue", description = "Hardhat Beetle (blue)" }
 enemy{ id = "alttp/hardhat_beetle_red", description = "Hardhat Beetle (red)" }

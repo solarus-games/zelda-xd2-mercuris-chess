@@ -6153,8 +6153,8 @@ block{
 destination{
   name = "destination",
   layer = 0,
-  x = 408,
-  y = 589,
+  x = 856,
+  y = 533,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -6274,7 +6274,7 @@ wall{
 }
 
 door{
-  name = "door_c",
+  name = "flying_tile_door_3",
   layer = 0,
   x = 872,
   y = 440,
@@ -6286,7 +6286,7 @@ door{
 }
 
 door{
-  name = "door_c_2",
+  name = "flying_tile_door_2",
   layer = 0,
   x = 872,
   y = 504,
@@ -6338,7 +6338,7 @@ enemy{
 }
 
 dynamic_tile{
-  name = "evil_tile_after_1",
+  name = "flying_tile_after_1",
   layer = 0,
   x = 824,
   y = 608,
@@ -6349,16 +6349,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_1",
+  name = "flying_tile_enemy_1",
   layer = 0,
   x = 832,
   y = 621,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_2",
+  name = "flying_tile_after_2",
   layer = 0,
   x = 760,
   y = 608,
@@ -6369,16 +6369,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_2",
+  name = "flying_tile_enemy_2",
   layer = 0,
   x = 768,
   y = 621,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_3",
+  name = "flying_tile_after_3",
   layer = 0,
   x = 760,
   y = 576,
@@ -6389,16 +6389,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_3",
+  name = "flying_tile_enemy_3",
   layer = 0,
   x = 768,
   y = 589,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_4",
+  name = "flying_tile_after_4",
   layer = 0,
   x = 808,
   y = 560,
@@ -6409,16 +6409,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_4",
+  name = "flying_tile_enemy_4",
   layer = 0,
   x = 816,
   y = 573,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_5",
+  name = "flying_tile_after_5",
   layer = 0,
   x = 808,
   y = 624,
@@ -6429,16 +6429,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_5",
+  name = "flying_tile_enemy_5",
   layer = 0,
   x = 816,
   y = 637,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_6",
+  name = "flying_tile_after_6",
   layer = 0,
   x = 776,
   y = 560,
@@ -6449,16 +6449,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_6",
+  name = "flying_tile_enemy_6",
   layer = 0,
   x = 784,
   y = 573,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_7",
+  name = "flying_tile_after_7",
   layer = 0,
   x = 808,
   y = 592,
@@ -6469,16 +6469,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_7",
+  name = "flying_tile_enemy_7",
   layer = 0,
   x = 816,
   y = 605,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_8",
+  name = "flying_tile_after_8",
   layer = 0,
   x = 776,
   y = 624,
@@ -6489,16 +6489,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_8",
+  name = "flying_tile_enemy_8",
   layer = 0,
   x = 784,
   y = 637,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_9",
+  name = "flying_tile_after_9",
   layer = 0,
   x = 792,
   y = 560,
@@ -6509,16 +6509,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_9",
+  name = "flying_tile_enemy_9",
   layer = 0,
   x = 800,
   y = 573,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_10",
+  name = "flying_tile_after_10",
   layer = 0,
   x = 792,
   y = 624,
@@ -6529,16 +6529,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_10",
+  name = "flying_tile_enemy_10",
   layer = 0,
   x = 800,
   y = 637,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_11",
+  name = "flying_tile_after_11",
   layer = 0,
   x = 824,
   y = 592,
@@ -6549,16 +6549,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_11",
+  name = "flying_tile_enemy_11",
   layer = 0,
   x = 832,
   y = 605,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 dynamic_tile{
-  name = "evil_tile_after_12",
+  name = "flying_tile_after_12",
   layer = 0,
   x = 760,
   y = 592,
@@ -6569,16 +6569,16 @@ dynamic_tile{
 }
 
 enemy{
-  name = "evil_tile_enemy_12",
+  name = "flying_tile_enemy_12",
   layer = 0,
   x = 768,
   y = 605,
   direction = 3,
-  breed = "alttp/evil_tile",
+  breed = "alttp/flying_tile",
 }
 
 door{
-  name = "door_d",
+  name = "flying_tile_door",
   layer = 0,
   x = 792,
   y = 504,
@@ -6607,6 +6607,15 @@ enemy{
   direction = 3,
   breed = "newlink/vipeross",
   treasure_name = "random",
+}
+
+sensor{
+  name = "flying_tile_sensor",
+  layer = 0,
+  x = 880,
+  y = 533,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -7060,7 +7069,7 @@ tile{
 }
 
 dynamic_tile{
-  name = "door_d_closed",
+  name = "flying_tile_door_closed",
   layer = 1,
   x = 784,
   y = 496,
@@ -7148,7 +7157,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "door_d_open_2",
+  name = "flying_tile_door_open",
   layer = 1,
   x = 784,
   y = 496,
@@ -7159,7 +7168,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "door_d_open",
+  name = "flying_tile_door_open_2",
   layer = 1,
   x = 792,
   y = 496,

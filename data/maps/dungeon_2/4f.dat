@@ -6892,8 +6892,8 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 776,
-  y = 653,
+  x = 808,
+  y = 669,
   direction = 3,
   breed = "newlink/topik_blue",
   treasure_name = "random",
@@ -6901,8 +6901,8 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 832,
-  y = 605,
+  x = 888,
+  y = 637,
   direction = 3,
   breed = "newlink/topik_red",
   treasure_name = "random",

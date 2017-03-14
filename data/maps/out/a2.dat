@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "outside_world",
   tileset = "outside",
-  music = "alttp/overworld",
+  music = "",
 }
 
 tile{
@@ -3685,7 +3685,7 @@ tile{
 tile{
   layer = 0,
   x = 408,
-  y = 864,
+  y = 872,
   width = 40,
   height = 80,
   pattern = "13892",
@@ -5084,6 +5084,33 @@ tile{
   width = 24,
   height = 8,
   pattern = "5979",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 720,
+  width = 16,
+  height = 24,
+  pattern = "6002",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 864,
+  width = 24,
+  height = 16,
+  pattern = "5998",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 800,
+  width = 24,
+  height = 16,
+  pattern = "5998",
 }
 
 teletransporter{

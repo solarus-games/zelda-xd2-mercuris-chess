@@ -18,7 +18,7 @@ local item_names = {
   "croissants_counter",
   "bottle_2",
 
-  "",
+  "mail",
   "cat_food",
   "vip_card",
   "glove",

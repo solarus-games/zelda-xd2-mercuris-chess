@@ -387,11 +387,27 @@ function zelda:on_interaction()
         chore_thanks = (chore_thanks + 1) % 4
         game:set_value("introduction_chore_2_thanks", chore_thanks)
         
+        local should_give_back_light_saber = not all_chores_done
+
         -- Next chore.
         zelda_chores:go_to_next_chore_step()
-        
-        -- Call this function again.
-        zelda:on_interaction()
+
+        if should_give_back_light_saber then
+          game:start_dialog("intro.light_saber_give_back", function()
+            
+            -- Give back light saber.
+            local sword = game:get_item("sword")
+            sword:set_variant(3)
+            hero:start_treasure("sword")
+
+            -- Call this function again.
+            zelda:on_interaction()
+          end)
+        else
+          -- Call this function again.
+          zelda:on_interaction()
+        end
+
       end)
             
     else

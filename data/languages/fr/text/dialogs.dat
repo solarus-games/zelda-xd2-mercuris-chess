@@ -422,8 +422,7 @@ compteur magique !
 dialog{
   id = "_item_description.mail.1",
   text = [[
-Une lettre adressée
-à la princesse Zelda.
+Une lettre pour Zelda.
 Va vite la lui
 apporter!
 ]]
@@ -1810,14 +1809,11 @@ n'attend pas!
 dialog{
   id = "chores.chore_2_again",
   text = [[
-Merci pour le jardin.
-
-
+Merci pour le jardin.$0
 C'est vraiment pas de
 bol qu'on n'ait pas
 encore inventé le
 désherbant à Hyrule.
-
 
 Tiens, je crois que le
 facteur est passé!
@@ -2032,7 +2028,7 @@ dialog{
   id = "chores.miaou_1",
   text = [[
 Miaou...
-Miaouuuuu...0
+Miaouuuuu...$0
 (Le chat semble affamé)
 ]]
 }
@@ -2574,6 +2570,9 @@ si tu es obéissant.
 dialog{
   id = "intro.light_saber_give_back",
   text = [[
+Ah,$0
+j'allais oublier un truc !
+
 Tiens,
 voilà ton sabre laser.
 

@@ -32,7 +32,8 @@ function map:on_started()
       local bush_name = "link_garden_bush_" .. i
       local bush_entity = map:get_entity(bush_name)
       if bush_entity ~= nil then
-        bush_entity.on_removed = map.increase_bush_count
+        bush_entity.on_cut = map.increase_bush_count
+        bush_entity.on_lifting = map.increase_bush_count
       end
     end
 

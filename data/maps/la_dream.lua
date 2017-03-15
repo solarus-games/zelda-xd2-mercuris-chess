@@ -1,11 +1,9 @@
--- Lua script of map la_dream.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
+-- Marine tries to wake up Link.
+-- Then progressively, she speaks more and more
+-- like Zelda who is actually shouting at Link
+-- in the real life (Link is dreaming!)
+-- Then shake the screen, with a beeeeeep sound
+-- and move to another map, where Link is in the bed.
 
 local map = ...
 local game = map:get_game()
@@ -241,8 +239,10 @@ function map:make_marine_go_to_link()
     local dialog_box = game:get_dialog_box()
     dialog_box:set_position("bottom")
     local player_name = game:get_player_name()
-    game:start_dialog("intro.marine_waking_up", player_name)
-    map:start_fadeout_to_white(2000)
+    game:start_dialog("intro.marine_waking_up", player_name, function()
+      game:start_dialog("intro.marine_to_zelda")  -- This dialog persists accross the map change.
+      map:start_fadeout_to_white(2000)
+    end)
   end)
 
 end
@@ -298,15 +298,17 @@ function map:start_fadeout_to_white(duration)
 
   local timer_delay = 100
 
-  sol.timer.start(map, timer_delay, function()
+  local timer = sol.timer.start(map, timer_delay, function()
     opacity_time = opacity_time + timer_delay
     modify_opacity_to_white(opacity_time)
     return white_surface:get_opacity() < 255 -- repeat
   end)
+  timer:set_suspended_with_map(false)
 
-  sol.timer.start(map, duration, function()
+  timer = sol.timer.start(map, duration, function()
     map:end_dreaming()
   end)
+  timer:set_suspended_with_map(false)
 end
 
 -- Launch the white surface fade-in
@@ -335,16 +337,8 @@ function map:on_draw(dst_surface)
   end
 end
 
--- End the dream and go to Link's house.'
+-- End the dream and go to Link's house.
 function map:end_dreaming()
   local hero = map:get_hero()
   hero:teleport("main_village/link_house", "start_position", "immediate")
 end
-
--- TODO:
--- Marine tries to wake up Link.
--- Then progressively, she speaks more and more
--- like Zelda who is actually shouting at Link
--- in the real life (Link is dreaming!)
--- Then shake the screen, with a beeeeeep sound
--- and move to another map, where Link is in the bed.

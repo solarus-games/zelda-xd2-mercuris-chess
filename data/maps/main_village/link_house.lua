@@ -61,7 +61,7 @@ function map:start_fadein_from_white(duration)
 
   local timer_delay = 100
 
-  sol.timer.start(map, timer_delay, function()
+  local timer = sol.timer.start(map, timer_delay, function()
     opacity_time = opacity_time + timer_delay
     modify_opacity_to_transparent(opacity_time)
     local opacity = white_surface:get_opacity()
@@ -70,6 +70,7 @@ function map:start_fadein_from_white(duration)
     end
     return opacity > 0 -- repeat
   end)
+  timer:set_suspended_with_map(false)
 end
 
 -- Call when map needs to be drawn.

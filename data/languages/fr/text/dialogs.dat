@@ -2539,6 +2539,14 @@ Oh !
 }
 
 dialog{
+  id = "intro.marine_to_zelda",
+  text = [[
+DEBOUT !
+$0$0$0$0
+]]
+}
+
+dialog{
   id = "intro.marine_waking_up",
   text = [[
 $v ?
@@ -2550,7 +2558,6 @@ $v ?
 REVEILLE-TOI !
 ALLEZ !
 DEBOUT FEIGNASSE !
-DEBOUT !
 ]]
 }
 
@@ -2633,8 +2640,8 @@ Comment ça ?!
 Un rêve avec une
 baleine volante et
 un oeuf géant ?!
-Tu perds la
-tête, mon pauvre !
+Tu perds la tête,
+mon pauvre !
 Allez, debout !
 ]]
 }

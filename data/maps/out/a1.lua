@@ -19,7 +19,7 @@ function map:on_started()
 end
 
 function island_scaring_rupee_sensor:on_activated()
-  sol.audio.play_sound("enemy_hurt")  
+  sol.audio.play_sound("enemy_hurt")
   sol.audio.play_sound("hero_hurt")
   game:set_life(4)
 end

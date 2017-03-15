@@ -27,7 +27,7 @@ function map:on_started()
   local camera = map:get_camera()
   camera:start_manual()
   camera:set_position(320, 0)
-  
+
   -- Cinematic black stipes.
   camera:set_size(320, 192)
   camera:set_position_on_screen(0, 24)
@@ -77,12 +77,12 @@ function map:move_camera_down_to_the_beach()
   movement:set_speed(30)
   movement:set_smooth(true)
   movement:set_angle(3 * math.pi / 2) -- down
-  
-  -- Max y for the camera movement is Marine's Y 
+
+  -- Max y for the camera movement is Marine's Y
   local camera = map:get_camera()
   local marine_camera_x, marine_camera_y = camera:get_position_to_track(marine)
   movement:set_max_distance(marine_camera_y)
-  
+
   -- Marine begins to enter when the camera reach the y 162.
   function movement:on_position_changed()
    local x, y = movement:get_xy()
@@ -126,7 +126,7 @@ function map:make_marine_go_to_wood_piece()
   local marine_x, marine_y = marine:get_position()
   local marine_sprite = marine:get_sprite()
   marine_sprite:set_animation("walking")
-  
+
   local movement = sol.movement.create("target")
   movement:set_speed(30)
   movement:set_smooth(true)
@@ -169,7 +169,7 @@ end
 -- Move Marine to the ship wreck.
 function map:make_marine_go_to_wreck()
 
-  local wreck_x, wreck_y = ship_wreck:get_position() 
+  local wreck_x, wreck_y = ship_wreck:get_position()
   local marine_x, marine_y = marine:get_position()
   marine:get_sprite():set_animation("walking")
 
@@ -185,7 +185,7 @@ function map:make_marine_go_to_wreck()
 
   local seagull_3_x, seagull_3_y = seagull_3:get_position()
   seagull_3_x = seagull_3_x + 32
-  
+
   -- Move the seagull when Marine is approaching.
   function movement:on_position_changed()
    local x, y = movement:get_xy()
@@ -195,7 +195,7 @@ function map:make_marine_go_to_wreck()
      seagull_sprite:set_paused(false)
      seagull_movement:set_speed(60)
      seagull_movement:set_smooth(true)
-     seagull_movement:set_ignore_obstacles(true) 
+     seagull_movement:set_ignore_obstacles(true)
      seagull_movement:set_target(0, 0)
      seagull_movement:start(seagull_3)
    end
@@ -255,20 +255,20 @@ function map:make_seagull_move(seagull, speed)
     seagull_sprite:set_direction(0) -- right
     movement:set_target(640 + 32, seagull_y)
   elseif seagull_x > 640 then
-    seagull_sprite:set_direction(2) -- left  
+    seagull_sprite:set_direction(2) -- left
     movement:set_target(- 32, seagull_y)
-  else 
+  else
     seagull_sprite:set_direction(0) -- right
     movement:set_target(640 + 32, seagull_y)
   end
 
   movement:set_speed(speed)
   movement:set_smooth(true)
-  movement:set_ignore_obstacles(true) 
-  
+  movement:set_ignore_obstacles(true)
+
   movement:start(seagull, function()
     map:make_seagull_move(seagull, speed)
-  end) 
+  end)
 end
 
 -- Linear function

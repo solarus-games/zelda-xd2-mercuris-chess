@@ -138,7 +138,7 @@ local function vegas_on_immobilized(enemy)
     for _, vegas in ipairs(vegas_enemies) do
       vegas:set_life(0)
     end
-    
+
   end)
 
 end

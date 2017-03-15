@@ -17,7 +17,7 @@ function savegame_menu:on_started()
   self.box_img = sol.surface.create("menus/selection_menu_background.png")
   self.save_container_img = sol.surface.create("menus/selection_menu_save_container.png")
   self.option_container_img = sol.surface.create("menus/selection_menu_option_container.png")
-  
+
   -- Get font information.
   local menu_font, menu_font_size = language_manager:get_menu_font()
 
@@ -231,45 +231,45 @@ function savegame_menu:setup_background()
 
   self.clouds_full_width = 480
   self.clouds_foreground = {
-    { shape = 1, 
+    { shape = 1,
       x = 2,
       y = 120,
     },
-    { shape = 1, 
+    { shape = 1,
       x = 160,
       y = 142,
     },
-    { shape = 1, 
+    { shape = 1,
       x = 480,
       y = 166,
     },
-    { shape = 2, 
+    { shape = 2,
       x = -18,
       y = 190,
     },
-    { shape = 2, 
+    { shape = 2,
       x = 220,
       y = 220,
     },
-    { shape = 2, 
+    { shape = 2,
       x = 520,
       y = 203,
     },
   }
   self.clouds_background = {
-    { shape = 3, 
+    { shape = 3,
       x = -4,
       y = 152,
     },
-    { shape = 3, 
+    { shape = 3,
       x = 112,
       y = 178,
     },
-    { shape = 3, 
+    { shape = 3,
       x = 162,
       y = 150,
     },
-    { shape = 3, 
+    { shape = 3,
       x = 196,
       y = 190,
     },
@@ -288,7 +288,7 @@ function savegame_menu:setup_background()
     -- Repeat.
     sol.timer.start(self, 60, move_foreground_clouds)
   end
-  
+
   sol.timer.start(self, 60, move_foreground_clouds)
 
   function move_background_clouds()
@@ -303,12 +303,12 @@ function savegame_menu:setup_background()
     -- Repeat.
     sol.timer.start(self, 120, move_background_clouds)
   end
-  
+
   sol.timer.start(self, 120, move_background_clouds)
 end
 
 function savegame_menu:draw_background()
-  
+
   -- Background image.
   self.background_img:draw(self.surface)
 
@@ -325,7 +325,7 @@ function savegame_menu:read_savegames()
 
   self.slots = {}
   local font, font_size = language_manager:get_menu_font()
-  
+
   for i = 1, 3 do
     local slot = {}
     slot.file_name = "save" .. i .. ".dat"

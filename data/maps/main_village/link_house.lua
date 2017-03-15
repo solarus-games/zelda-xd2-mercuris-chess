@@ -27,12 +27,12 @@ function map:on_started(destination_point)
 -- Take the letter from the hero.
       local mail = game:get_item("mail")
       mail:set_variant(0)
-      
+
   -- Check if we need to launch the introduction (just after the LA beach dream).
   local intro_done = game:get_value("introduction_done")
   if intro_done == nil or not intro_done then
     -- Game's introducton, normally called only one time
-    map:launch_intro()  
+    map:launch_intro()
   else
     -- Normal state
     map:launch_normal_state()
@@ -84,7 +84,7 @@ function map:on_draw(dst_surface)
   -- Draw cinematic black stripes.
   if should_draw_black_stripes and black_stripe ~= nil then
     black_stripe:draw(dst_surface, 0, 0)
-    black_stripe:draw(dst_surface, 0, 216)    
+    black_stripe:draw(dst_surface, 0, 216)
   end
 end
 
@@ -132,7 +132,7 @@ function map:shake_camera()
 
   -- Initialize variables.
   local camera = map:get_camera()
-  local camera_x, camera_y = camera:get_position()  
+  local camera_x, camera_y = camera:get_position()
   local camera_shaking_count_max = 9
 
   -- Create a new movement each time.
@@ -171,7 +171,7 @@ function map:shake_camera()
       -- Link fanilly wakes up.
       map:make_link_fall_off_bed()
       -- Zelda speak to Link and explain the tasks to do.
-      map:make_zelda_speak()   
+      map:make_zelda_speak()
     end
   end)
 end
@@ -184,7 +184,7 @@ function map:make_link_fall_off_bed()
   bed_hero_sprite:set_animation("hero_sleeping_aside")
   local bed_hero_x, bed_hero_y = bed:get_position()
   bed:set_position(bed_hero_x + 4, bed_hero_y)
-  sol.audio.play_sound("bomb")  
+  sol.audio.play_sound("bomb")
 end
 
 -- Link finally wakes up and go out of his bed
@@ -212,11 +212,11 @@ function map:make_zelda_speak()
 
         -- Repeat noise until Zelda stops to hit the hero.
         local hurt_count = 0
-        sol.audio.play_sound("arrow_hit")            
+        sol.audio.play_sound("arrow_hit")
         sol.timer.start(map, 400, function()
           if hurt_count < 5 then
             hurt_count = hurt_count + 1
-            sol.audio.play_sound("arrow_hit")            
+            sol.audio.play_sound("arrow_hit")
           end
           return not hurt_finished
         end)
@@ -224,21 +224,21 @@ function map:make_zelda_speak()
         sol.timer.start(map, 2000, function()
           -- Stop music.
           sol.audio.stop_music()
-          sol.audio.play_sound("wrong")
+          sol.audio.play_sound("hero_hurt")
 
-          -- Set up correctly the entities we use.      
+          -- Set up correctly the entities we use.
           snores:remove()
           local bed_hero_sprite = bed:get_sprite()
           bed_hero_sprite:set_animation("hero_waking_aside")
           zelda_angry_sprite:set_paused(true)
           zelda_angry:remove()
           zelda:set_visible(true)
-              
+
           -- Zelda tells Link she's waiting.
           game:start_dialog("intro.zelda_waiting", function()
-            -- After, she moves and wait. 
+            -- After, she moves and wait.
             sol.timer.start(map, 800, function()
-              -- And confiscate the light saber!    
+              -- And confiscate the light saber!
               game:start_dialog("intro.light_saber_confiscate", function()
                 -- Confiscate light saber.
                 local sword = game:get_item("sword")
@@ -262,15 +262,15 @@ function map:make_zelda_speak()
                   sol.timer.start(map, 500, function()
                     map:make_link_go_out_of_bed()
                     game:set_value("introduction_done", true)
-                    sol.audio.play_music("alttp/village")                    
+                    sol.audio.play_music("alttp/village")
                   end)
                 end)
               end)
-            end)              
+            end)
           end)
         end)
       end)
-    end)  
+    end)
   end)
 end
 
@@ -308,7 +308,7 @@ function map:launch_intro()
           map:shake_camera()
         end)
       end)
-    end)     
+    end)
   end)
 end
 
@@ -319,17 +319,17 @@ function map:launch_normal_state()
   local zelda_sprite = zelda:get_sprite()
   zelda_sprite:set_animation("stopped")
   zelda_sprite:set_direction(3) -- down
-  zelda_angry:remove()    
-    
+  zelda_angry:remove()
+
   -- Remove the snores.
   snores:remove()
 
   -- Show the HUD.
   game:set_hud_enabled(true)
-  
+
   -- Normal music.
   sol.audio.play_music("alttp/village")
-  
+
   -- No cinematic black stripes.
   map:set_cinematic_mode(false)
 end
@@ -340,7 +340,7 @@ end
 -- Zelda asks him to do the 3 same chores, again and again in an infinite loop.
 -- Hovever, only the first times are mandatory.
 function zelda:on_interaction()
-  
+
   -- Get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 
@@ -389,14 +389,13 @@ function zelda:on_interaction()
       local mail = game:get_item("mail")
       mail:set_variant(0)
 
-      -- Zelda thanks Link and read the letter.
+      -- Zelda thanks Link and reads the letter.
       game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, function()
 
-        print("enchaine corvee")
           -- Write in savegame the next letter.
         chore_thanks = (chore_thanks + 1) % 4
         game:set_value("introduction_chore_2_thanks", chore_thanks)
-        
+
         local should_give_back_light_saber = not all_chores_done
 
         -- Next chore.
@@ -404,11 +403,11 @@ function zelda:on_interaction()
 
         if should_give_back_light_saber then
           game:start_dialog("intro.light_saber_give_back", function()
-            
+
             -- Give back light saber.
             local sword = game:get_item("sword")
-            sword:set_variant(3)
-            hero:start_treasure("sword")
+            hero:start_treasure("sword", 3)
+            game:set_value("link_garden_door_open", true)  -- Open the garden door.
 
             -- Call this function again.
             zelda:on_interaction()
@@ -419,7 +418,7 @@ function zelda:on_interaction()
         end
 
       end)
-            
+
     else
       local dialog_id = "chores.chore_2"
       if all_chores_done then

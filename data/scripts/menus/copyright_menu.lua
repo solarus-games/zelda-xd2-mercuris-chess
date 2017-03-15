@@ -125,7 +125,7 @@ function copyright_menu:on_started()
   -- Menu quits itslef after a longer delay because of the long text
   sol.timer.start(copyright_menu, 4000, function()
     can_skip_menu = true
-    
+
     -- Quit menu
     copyright_menu:try_skip_menu()
   end)
@@ -181,7 +181,7 @@ function copyright_menu:try_skip_menu()
     for _, menu_item in ipairs(menu_items) do
       menu_item:fade_out(fade_delay)
     end
-    
+
     -- Start another timer to quit the menu after the fade-out.
     sol.timer.start(copyright_menu, fade_delay + 700, function()
       -- Quit menu

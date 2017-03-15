@@ -17,15 +17,15 @@ local chore_done_key = "introduction_chore_done"
 local game = sol.main.game
 
 -- Get the chores step.
--- Returns 3 values: 
--- (number) chore_step, (boolean) chore_done, (boolean) all_chores_done 
+-- Returns 3 values:
+-- (number) chore_step, (boolean) chore_done, (boolean) all_chores_done
 function zelda_chores:get_chores_state()
 
   -- Read savegame file.
   local all_chores_done = game:get_value(all_chores_done_key)
   local chore_step = game:get_value(chore_step_key)
   local chore_done = game:get_value(chore_done_key)
-  
+
   -- Default values if not present in file.
   if all_chores_done == nil then
     all_chores_done = false
@@ -48,11 +48,11 @@ function zelda_chores:go_to_next_chore_step()
   -- Get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 
-  -- All steps have been done at least one time. 
+  -- All steps have been done at least one time.
   if chore_step == 2 then
     all_chores_done = true
     game:set_value(all_chores_done_key, true)
-  end 
+  end
 
   -- Next chore.
   chore_step = (chore_step + 1) % 3
@@ -65,12 +65,10 @@ end
 -- Modify the state in the savegame file.
 function zelda_chores:set_chores_state(chore_step, chore_done, all_chores_done)
 
-  print("set_chores_state", chore_step, chore_done, all_chores_done)
-
   game:set_value(all_chores_done_key, all_chores_done)
   game:set_value(chore_step_key, chore_step)
   game:set_value(chore_done_key, chore_done)
- 
+
 end
 
 -- Validates the current chore but dont go to the next chore.
@@ -79,7 +77,6 @@ function zelda_chores:set_chore_done(done)
   -- Get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 
-  print("end ", chore_step)
   game:set_value(chore_done_key, done)
 end
 

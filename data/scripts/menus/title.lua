@@ -19,12 +19,12 @@ function title_screen:go_to_phase(phase)
   -- A black screen before showing something.
   if phase == BLACK_SCREEN then
     title_screen:phase_black_screen()
-  
+
   -- Phase FINAL:
   -- Display everything.
   elseif phase == FINAL then
     title_screen:phase_final()
-  
+
   -- Phase FADE_OUT:
   -- Simple fade-out
   elseif phase == FADE_OUT then
@@ -74,46 +74,46 @@ function title_screen:phase_final()
 
   self.clouds_full_width = 480
   self.clouds_foreground = {
-    { shape = 1, 
+    { shape = 1,
       x = 2,
       y = 120,
     },
-    { shape = 1, 
+    { shape = 1,
       x = 160,
       y = 142,
     },
-    { shape = 1, 
+    { shape = 1,
       x = 480,
       y = 166,
     },
-    { shape = 2, 
+    { shape = 2,
       x = -18,
       y = 190,
     },
-    { shape = 2, 
+    { shape = 2,
       x = 220,
       y = 220,
     },
-    { shape = 2, 
+    { shape = 2,
       x = 520,
       y = 203,
     },
   }
 
   self.clouds_background = {
-    { shape = 3, 
+    { shape = 3,
       x = -4,
       y = 152,
     },
-    { shape = 3, 
+    { shape = 3,
       x = 112,
       y = 178,
     },
-    { shape = 3, 
+    { shape = 3,
       x = 162,
       y = 150,
     },
-    { shape = 3, 
+    { shape = 3,
       x = 196,
       y = 190,
     },
@@ -123,7 +123,7 @@ function title_screen:phase_final()
   local black_stripe_height = 24
   self.black_stripes = sol.surface.create(surface_w, surface_h)
   self.black_stripes:fill_color(
-    {0, 0, 0}, 
+    {0, 0, 0},
     0, 0,
     surface_w, black_stripe_height)
   self.black_stripes:fill_color(
@@ -139,7 +139,7 @@ function title_screen:phase_final()
   -- Create Mr Grump image.
   self.grump_img = sol.surface.create("menus/title_screen/title_grump.png")
   self.grump_img:set_xy(125, 93)
-  
+
   -- Make Mr Grump laugh (shake him on the Y axis)
   self.grump_moved = false
 
@@ -189,7 +189,7 @@ function title_screen:phase_final()
     -- Repeat.
     sol.timer.start(self, 60, move_foreground_clouds)
   end
-  
+
   sol.timer.start(self, 60, move_foreground_clouds)
 
   function move_background_clouds()
@@ -204,7 +204,7 @@ function title_screen:phase_final()
     -- Repeat.
     sol.timer.start(self, 120, move_background_clouds)
   end
-  
+
   sol.timer.start(self, 120, move_background_clouds)
 
   -- Show an opening transition.
@@ -236,7 +236,7 @@ function title_screen:phase_fadeout()
   move_troll_face()
 
   --All of this while fading out.
-  self.surface:fade_out(60, function() 
+  self.surface:fade_out(60, function()
     sol.timer.start(self, 250, function()
       self:skip_menu()
     end)
@@ -251,7 +251,7 @@ function title_screen:update_surface()
   self.surface:fill_color({0, 0, 0})
 
   -- Draw the background.
-  if self.background_img then 
+  if self.background_img then
     self.background_img:draw(self.surface)
   end
 
@@ -269,7 +269,7 @@ function title_screen:update_surface()
     if self.grump_moved then
       grump_y = 1
     end
-    
+
     self.grump_img:draw(self.surface, 0, grump_y)
   end
 
@@ -342,18 +342,18 @@ function title_screen:on_key_pressed(key)
     handled = self:try_skip_menu()
   end
 
-  return handled  
+  return handled
 end
 
 -- Mouse pressed: skip menu.
 function title_screen:on_mouse_pressed(button, x, y)
   local handled = false
-  
+
   if button == "left" or button == "right" then
     handled = self:try_skip_menu()
   end
 
-  return handled  
+  return handled
 end
 
 -- Joypad pressed: skip menu.

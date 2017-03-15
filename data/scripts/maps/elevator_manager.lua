@@ -1,6 +1,6 @@
 -- This scripts allows to implement an elevator
 -- with a menu to choose the floor.
--- 
+--
 -- Usage:
 -- local elevator_manager = require("scripts/maps/elevator_manager")
 -- elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_floor, [item_required])

@@ -20,14 +20,13 @@ function map:on_started()
 
   -- Get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
-  print(chore_step, chore_done, all_chores_done)
   current_chore_step = chore_step
 
   -- Lock the door while the hero has not done the chores.
-  local door_closed = chore_step < 2 and not all_chores_done
-  link_garden_door:set_enabled(door_closed)
+  local door_open = game:get_value("link_garden_door_open") == true
+  link_garden_door:set_enabled(not door_open)
 
-  -- If the hero is doing the chore 1, count the bushes 
+  -- If the hero is doing the chore 1, count the bushes
   if current_chore_step == 1 and not chore_done then
     for i = 1, 24 do
       local bush_name = "link_garden_bush_" .. i
@@ -36,9 +35,9 @@ function map:on_started()
         bush_entity.on_removed = map.increase_bush_count
       end
     end
-  
+
   -- Else, hide all the bushes
-  else 
+  else
     for i = 1, 24 do
       local bush_name = "link_garden_bush_" .. i
       local bush_entity = map:get_entity(bush_name)
@@ -58,11 +57,11 @@ function map:increase_bush_count()
   end
 
   bush_count = bush_count + 1
-  
+
   if bush_count == 24 then
     sol.audio.play_sound("secret")
     zelda_chores:set_chore_done(true)
-  end 
+  end
 end
 
 -- Called when the hero talks to the mailbox
@@ -72,9 +71,9 @@ function link_mailbox:on_interaction()
     return
   end
 
-  -- Give a letter to the hero if he has not got one yet. 
+  -- Give a letter to the hero if he has not got one yet.
   if game:has_item("mail") then
-    game:start_dialog("chores.mailbox_empty")    
+    game:start_dialog("chores.mailbox_empty")
   else
     hero:start_treasure("mail", 1)
     zelda_chores:set_chore_done(true)

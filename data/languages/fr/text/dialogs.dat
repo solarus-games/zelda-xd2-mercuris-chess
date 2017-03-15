@@ -1702,7 +1702,7 @@ autour.
 dialog{
   id = "chores.cat_already_fed",
   text = [[
-Arrête de nourir le
+Arrête de nourrir le
 chat, tu ne trouves
 pas qu'il est déjà
 assez gros comme ça?
@@ -1712,14 +1712,14 @@ assez gros comme ça?
 dialog{
   id = "chores.cat_fed",
   text = [[
-MIAOU!
+MIAOU !
 ]]
 }
 
 dialog{
   id = "chores.cat_gurgling",
   text = [[
-MiAaAaAaoOoOuUu ...$0
+MiAaAaAaoOoOuUu...$0
 (gargouillements)
 ]]
 }
@@ -1746,12 +1746,12 @@ dialog{
   id = "chores.chore_0_again",
   text = [[
 Tu entends ces
-miaulements?
+miaulements ?
 
 Je crois que c'est
 Flocon-de-neige.
 Il a encore faim.
-Allez, va le nourrir!
+Allez, va le nourrir !
 ]]
 }
 
@@ -1771,7 +1771,7 @@ Je t'ordonne de couper
 toute la mauvaise
 herbe du jardinet.
 Allez, au boulot,
-grosse feignasse!
+grosse feignasse !
 ]]
 }
 
@@ -1816,8 +1816,8 @@ encore inventé le
 désherbant à Hyrule.
 
 Tiens, je crois que le
-facteur est passé!
-Va chercher le courrier!
+facteur est passé !
+Va chercher le courrier !
 ]]
 }
 
@@ -1843,8 +1843,8 @@ Je crois qu'elle n'a
 pas eu le temps de
 finir sa lettre,
 elle s'est
-faite capturer!
-Saprisiti!
+faite capturer !
+Saprisiti !
 ]]
 }
 
@@ -1855,7 +1855,7 @@ Merci,
 j'ai falli attendre...
 
 C'est les impôts...
-Hé oui hélas...
+Et oui hélas...
 
 Mon statut de
 princesse ne me donne
@@ -1864,11 +1864,11 @@ privilèges depuis la
 révolution à Hyrule.
 
 Moi je dis
-VIVE LA MONARCHIE!
+VIVE LA MONARCHIE !
 
 Merci le gueux, t'es
 un laideron mais t'es
-bien bon!
+bien bon !
 ]]
 }
 
@@ -1917,17 +1917,17 @@ Comment oses-tu partir
 comme ça ?
 
 Tu n'as pas fini de te
-faire pardonner!
+faire pardonner !
 
-Allez, au boulot!
+Allez, au boulot !
 ]]
 }
 
 dialog{
   id = "chores.mailbox",
   text = [[
-Oh!$0
-Il y a du courrier!
+Oh !$0
+Il y a du courrier !
 ]]
 }
 
@@ -1938,7 +1938,7 @@ Rien dans la boîte
 aux lettres.
 
 Le facteur est encore
-en grêve ou quoi?
+en grève ou quoi ?
 ]]
 }
 
@@ -2474,14 +2474,14 @@ pour la stocker...
 dialog{
   id = "intro.light_saber_confiscate",
   text = [[
-Au fait,$0
+Au fait !$0
 Je ne te fais plus
-confiance,
-alors je vais te
-confisquer ton
-Sabre Laser.
-Tu pourras le récupérer
-si tu es obéissant.
+confiance, alors
+si tu veux que je te
+rende le sabre laser
+que je t'ai confisqué,
+il va falloir que tu
+sois obéissant.
 ]]
 }
 
@@ -2495,8 +2495,8 @@ Tiens,
 voilà ton sabre laser.
 
 Je trouvais que le bleu
-n'était pas très joli
-...
+n'était pas très joli...
+
 alors je me suis permise
 de changer la couleur.
 
@@ -2524,7 +2524,7 @@ Je t'en prie!
 $v ?
 REVEILLE-TOI !
 ALLEZ !
-DEBOUT FEIGNASSE!
+DEBOUT FEIGNASSE !
 DEBOUT !
 ]]
 }
@@ -2555,7 +2555,7 @@ Dis-donc, t'es un
 coriace, toi !
 
 Tu l'auras voulu !
-Tiens ça !
+Prends ça !
 ]]
 }
 
@@ -2573,26 +2573,24 @@ Ha ! $0
 Enfin !
 $0
 Tu dois te faire
-pardonner
-après ce que tu m'as
-fait subir la dernière
-fois.
+pardonner comme chaque
+matin depuis ce que tu
+m'as fait subir la
+dernière fois.
 $0
-Comme punition, tu vas
-avoir 3 mois de corvées
+Il te reste encore
+3 mois de corvées
 à faire pour moi.
 Viens me voir dès que
 tu es prêt.
 $0
 Comment ça ?!
-Tu me dis que tu
-faisais un rêve
-avec une baleine
-volante et un oeuf
-géant ?!
+Un rêve avec une
+baleine volante et
+un oeuf géant ?!
 Tu perds la
 tête, mon pauvre !
-Allez, debout!
+Allez, debout !
 ]]
 }
 

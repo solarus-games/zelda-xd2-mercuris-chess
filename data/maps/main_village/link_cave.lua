@@ -24,10 +24,10 @@ function map:on_started()
 
   -- Open doors by default.
   map:set_doors_open("cave_door_")
-  
+
   -- Check if the cat has already been fed: get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
-  
+
   first_time = not all_chores_done
 
   if chore_step == 0 and not chore_done then
@@ -35,7 +35,7 @@ function map:on_started()
     boss_mode = true
 
     -- Sinister music.
-    sol.audio.play_music("alttp/light_world_dungeon")  
+    sol.audio.play_music("alttp/light_world_dungeon")
 
     -- Show only a static tigriss
     tigriss_npc_docile:set_enabled(false)
@@ -63,15 +63,15 @@ function door_sensor:on_activated()
 
   if not has_passed_door_sensor then
     has_passed_door_sensor =  true
-  
+
     -- Close doors.
     map:close_doors("cave_door_")
-  end 
+  end
 end
 
 -- When the boss is being killed.
 function tigriss_enemy:on_dying()
-  
+
   -- Stop the hero.
   hero:freeze()
 
@@ -116,7 +116,7 @@ function miaou_sensor_1:on_activated()
   if not boss_mode then
     return
   end
-  
+
   if first_time and not has_passed_miaou_sensor_1 then
     has_passed_miaou_sensor_1 = true
     game:start_dialog("chores.miaou_1")
@@ -143,10 +143,10 @@ function boss_fight_sensor:on_activated()
 
   if not has_passed_boss_fight_sensor then
     has_passed_boss_fight_sensor = true
-    
+
     -- Stop music.
     sol.audio.stop_music()
-    
+
     -- Stop the hero.
     hero:freeze()
 
@@ -165,7 +165,7 @@ function boss_fight_sensor:on_activated()
         tigriss_enemy:set_enabled(true)
 
         -- Unstop the hero.
-        hero:unfreeze()    
+        hero:unfreeze()
 
         -- Boss music.
         sol.audio.play_music("alttp/boss")
@@ -181,7 +181,7 @@ function tigriss_npc_docile:on_interaction()
 
   if zelda_cat_fed ~= nil and zelda_cat_fed then
     game:start_dialog("chores.cat_fed")
-  else 
+  else
     game:start_dialog("chores.cat_gurgling")
   end
 end
@@ -208,7 +208,7 @@ function tigriss_npc_docile:use_food()
             zelda_chores:set_chore_done(true)
           end)
         end)
-      end)    
+      end)
     end)
   -- If not in boss mode, a dialog tells the player that the
   -- cat has already been fed.

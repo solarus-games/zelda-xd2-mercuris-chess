@@ -22,22 +22,9 @@ local game = sol.main.game
 function zelda_chores:get_chores_state()
 
   -- Read savegame file.
-  local all_chores_done = game:get_value(all_chores_done_key)
-  local chore_step = game:get_value(chore_step_key)
-  local chore_done = game:get_value(chore_done_key)
-
-  -- Default values if not present in file.
-  if all_chores_done == nil then
-    all_chores_done = false
-  end
-
-  if chore_step == nil then
-    chore_step = math.random(4)
-  end
-
-  if chore_done == nil then
-    chore_done = false
-  end
+  local all_chores_done = game:get_value(all_chores_done_key) or false
+  local chore_step = game:get_value(chore_step_key) or 0
+  local chore_done = game:get_value(chore_done_key) or false
 
   return chore_step, chore_done, all_chores_done
 end

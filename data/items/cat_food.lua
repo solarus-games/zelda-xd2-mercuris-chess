@@ -39,6 +39,6 @@ function item:on_using()
 end
 
 function item:on_created()
-    item:set_savegame_variable("possession_cat_food")
-    self:set_assignable(true)
+  item:set_savegame_variable("possession_cat_food")
+  self:set_assignable(true)
 end

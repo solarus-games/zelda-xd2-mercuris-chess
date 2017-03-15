@@ -394,7 +394,7 @@ function zelda:on_interaction()
       mail:set_variant(0)
 
       -- Zelda thanks Link and reads the letter.
-      game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, function()
+      game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, game:get_player_name(), function()
 
         -- Write in savegame the next letter.
         chore_thanks = (chore_thanks + 1) % 4

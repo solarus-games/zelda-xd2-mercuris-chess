@@ -24,9 +24,8 @@ local camera_shaking_count = 0
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started(destination_point)
 
--- Take the letter from the hero.
-      local mail = game:get_item("mail")
-      mail:set_variant(0)
+  -- Continue the snores animation during dialogs.
+  snores:get_sprite():set_ignore_suspend(true)
 
   -- Check if we need to launch the introduction (just after the LA beach dream).
   local intro_done = game:get_value("introduction_done")
@@ -379,6 +378,11 @@ function zelda:on_interaction()
   -- Step 2: Bring back Zelda mail.
   elseif chore_step == 2 then
     if chore_done then
+
+      -- Take the letter from the hero.
+      local mail = game:get_item("mail")
+      mail:set_variant(0)
+
       -- Get a different letter than last time.
       local chore_thanks = game:get_value("introduction_chore_2_thanks")
       if chore_thanks == nil then

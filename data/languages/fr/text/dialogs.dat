@@ -1009,10 +1009,10 @@ nourriture pour
 chat !$0
 Va vite nourrir son
 petit chaton car il
-semble affamé!
+semble affamé !
 La pauvre petite
 boule de poils...
-Dépêche toi !
+Dépêche-toi !
 ]]
 }
 
@@ -1752,7 +1752,7 @@ dialog{
   id = "chores.chore_0",
   text = [[
 Comme première corvée,
-tu vas devoir nourir
+tu vas devoir nourrir
 mon petit chaton chéri.
 Tu vas voir, il est
 adorable, ce petit chou.
@@ -1762,7 +1762,7 @@ Flocon-de-neige,
 il est vraiment choupi.
 Il est en train de jouer
 dans la cave.
-Allez, zou!
+Allez, zou !
 ]]
 }
 
@@ -2504,6 +2504,7 @@ rende le sabre laser
 que je t'ai confisqué,
 il va falloir que tu
 sois obéissant.
+Au travail !
 ]]
 }
 

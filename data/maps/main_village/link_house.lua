@@ -239,31 +239,28 @@ function map:make_zelda_speak()
             -- After, she moves and wait.
             sol.timer.start(map, 800, function()
               -- And confiscate the light saber!
-              game:start_dialog("intro.light_saber_confiscate", function()
-                -- Confiscate light saber.
-                local sword = game:get_item("sword")
-                sword:set_variant(1)
+              local sword = game:get_item("sword")
+              sword:set_variant(1)
 
-                -- Move Zelda.
-                local zelda_movement = sol.movement.create("target")
-                local zelda_x, zelda_y = zelda:get_position()
-                zelda:set_position(zelda_x, zelda_y, 1)
-                zelda_movement:set_speed(30)
-                zelda_movement:set_smooth(true)
-                zelda_movement:set_ignore_obstacles(true)
-                zelda_movement:set_target(104, 88)
+              -- Move Zelda.
+              local zelda_movement = sol.movement.create("target")
+              local zelda_x, zelda_y = zelda:get_position()
+              zelda:set_position(zelda_x, zelda_y, 1)
+              zelda_movement:set_speed(30)
+              zelda_movement:set_smooth(true)
+              zelda_movement:set_ignore_obstacles(true)
+              zelda_movement:set_target(104, 88)
 
-                zelda_movement:start(zelda, function()
-                  zelda:stop_movement()
-                  local zelda_sprite = zelda:get_sprite()
-                  zelda_sprite:set_animation("stopped")
-                  zelda_sprite:set_direction(3) -- down
+              zelda_movement:start(zelda, function()
+                zelda:stop_movement()
+                local zelda_sprite = zelda:get_sprite()
+                zelda_sprite:set_animation("stopped")
+                zelda_sprite:set_direction(3) -- down
 
-                  sol.timer.start(map, 500, function()
-                    map:make_link_go_out_of_bed()
-                    game:set_value("introduction_done", true)
-                    sol.audio.play_music("alttp/village")
-                  end)
+                sol.timer.start(map, 500, function()
+                  map:make_link_go_out_of_bed()
+                  game:set_value("introduction_done", true)
+                  sol.audio.play_music("alttp/village")
                 end)
               end)
             end)
@@ -358,7 +355,9 @@ function zelda:on_interaction()
       game:start_dialog(dialog_id, function()
         -- Give the player the cat food if he has not got it yet.
         if not game:has_item("cat_food") then
-          hero:start_treasure("cat_food")
+          hero:start_treasure("cat_food", 1, nil, function()
+            game:start_dialog("intro.light_saber_confiscate")
+          end)
         end
       end)
     end

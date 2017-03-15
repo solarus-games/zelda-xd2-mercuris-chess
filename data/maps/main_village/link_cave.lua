@@ -62,7 +62,7 @@ function door_sensor:on_activated()
   end
 
   if not has_passed_door_sensor then
-    has_passed_door_sensor =  true
+    has_passed_door_sensor = true
 
     -- Close doors.
     map:close_doors("cave_door_")

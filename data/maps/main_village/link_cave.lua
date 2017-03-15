@@ -175,17 +175,6 @@ function boss_fight_sensor:on_activated()
 
 end
 
--- Called when the hero talks to the docile cat.
-function tigriss_npc_docile:on_interaction()
-  local zelda_cat_fed = game:get_value("zelda_cat_fed")
-
-  if zelda_cat_fed ~= nil and zelda_cat_fed then
-    game:start_dialog("chores.cat_fed")
-  else
-    game:start_dialog("chores.cat_gurgling")
-  end
-end
-
 -- Called when the cat food is used.
 function tigriss_npc_docile:use_food()
   -- The hero can feed the cat only in boss mode.
@@ -194,6 +183,7 @@ function tigriss_npc_docile:use_food()
     hero:freeze()
     sol.timer.start(map, 200, function()
       -- The cat is eating the food.
+      sol.audio.play_sound("picked_item")
       local tigriss_sprite = tigriss_npc_docile:get_sprite()
       tigriss_sprite:set_animation("eating")
       sol.timer.start(map, 4000, function()

@@ -465,6 +465,7 @@ sound{ id = "internal_stairs_up", description = "internal_stairs_up" }
 sound{ id = "intro", description = "intro" }
 sound{ id = "item_in_water", description = "item_in_water" }
 sound{ id = "jump", description = "jump" }
+sound{ id = "la_seagull", description = "la_seagull" }
 sound{ id = "lamp", description = "lamp" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "magic_bar", description = "magic_bar" }

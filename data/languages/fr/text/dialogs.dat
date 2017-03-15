@@ -1444,11 +1444,12 @@ dialog{
   id = "_treasure.sword.3",
   icon = "68",
   text = [[
-Tu as retrouvé
-ton Sabre Laser !$0
+Tu as récupéré ton
+Sabre Laser !$0
 
-Mais... on dirait qu'il
-a été relooké !
+Mais... on dirait
+qu'il a été
+relooké !
 ]]
 }
 
@@ -1460,7 +1461,8 @@ Vert ton Sabre Laser
 maintenant est !$0
 
 Beaucoup plus classe
-comme cela il a l'air.
+comme cela il a
+l'air.
 ]]
 }
 
@@ -1783,7 +1785,7 @@ tout mignon, mon
 petit chaton.
 Tiens, au fait, la
 mauvaise herbe a encore
-repoussé. 
+repoussé.
 Va la couper!
 ]]
 }
@@ -1800,9 +1802,9 @@ honte...
 Maintenant, il faut
 que tu me ramènes le
 courrier.
-Petit héros presse le
+Petit héros, presse le
 pas, car le courrier
-n'attend pas!
+n'attend pas !
 ]]
 }
 
@@ -1817,7 +1819,7 @@ désherbant à Hyrule.
 
 Tiens, je crois que le
 facteur est passé !
-Va chercher le courrier !
+Va chercher le courrier.
 ]]
 }
 
@@ -1844,7 +1846,7 @@ pas eu le temps de
 finir sa lettre,
 elle s'est
 faite capturer !
-Saprisiti !
+Sapristi !
 ]]
 }
 
@@ -2475,9 +2477,7 @@ dialog{
   id = "intro.light_saber_confiscate",
   text = [[
 Au fait !$0
-Je ne te fais plus
-confiance, alors
-si tu veux que je te
+Si tu veux que je te
 rende le sabre laser
 que je t'ai confisqué,
 il va falloir que tu
@@ -2488,9 +2488,12 @@ sois obéissant.
 dialog{
   id = "intro.light_saber_give_back",
   text = [[
-Ah,$0
-j'allais oublier un truc !
+Voilà.$0
 
+
+Ah,$0
+j'allais oublier un
+truc !
 Tiens,
 voilà ton sabre laser.
 
@@ -2543,6 +2546,23 @@ Un naufrage ?
 }
 
 dialog{
+  id = "intro.zelda_removing_hearts",
+  text = [[
+Bon... En tout cas tu as
+fait le travail, même si
+tu aurais pu y mettre
+un peu plus de bonne
+volonté.
+
+Je vais quand même
+t'enlever quelques
+réceptacles de coeur,
+histoire que cela te
+serve de leçon.
+]]
+}
+
+dialog{
   id = "intro.zelda_resistant",
   text = [[
 Mais... ?
@@ -2575,10 +2595,10 @@ $0
 Tu dois te faire
 pardonner comme chaque
 matin depuis ce que tu
-m'as fait subir la
-dernière fois.
+m'as fait subir l'autre
+fois.
 $0
-Il te reste encore
+Il ne te reste plus que
 3 mois de corvées
 à faire pour moi.
 Viens me voir dès que
@@ -2834,6 +2854,70 @@ dialog{
 Ils n'avaient plus de
 couleur disponible
 pour le 300 ?
+]]
+}
+
+dialog{
+  id = "otis",
+  skip = "all",
+  text = [[
+Mais, vous savez, moi
+je crois pas qu'il y
+ait de bonnes ou de
+mauvaises situations.
+Moi si je devais
+résumer ma vie
+aujourd'hui, je dirais
+que c'est d'abord des
+rencontres. Heu... des
+gens qui m'ont tendu la
+main, peut-être à un
+moment où je ne pouvais
+pas, où j'étais seul
+chez moi.
+Et c'est assez curieux
+de se dire que les
+hasards, les rencontres,
+forgent une destinée.
+Parce que quand on a le
+goût de la chose, le
+goût de la chose bien
+faite, le beau geste,
+parfois on ne trouve
+pas, heu...
+l'interlocuteur en face,
+je dirais, heu... le
+miroir qui vous aide à
+avancer. Alors ce n'est
+pas mon cas, comme
+je le disais là puisque
+moi au contraire j'ai
+pu, et je dis merci à
+la vie, je lui dis
+merci et je chante la
+vie, je danse la vie.
+Je ne suis qu'amour !
+Et finalement quand
+beaucoup de gens
+aujourd'hui me disent
+"Mais comment fais-tu
+pour avoir cette
+humanité ?", eh bien je
+leur réponds très
+simplement je leur dis :
+c'est ce goût de
+l'amour, ce goût donc
+qui m'a poussé,
+aujourd'hui à
+entreprendre une
+construction mécanique
+mais demain qui sait ?
+Heu, peut-être
+simplement à mettre au
+service, heu, de la
+communauté et à faire,
+le... le don, le don
+de... de... de soi.
 ]]
 }
 

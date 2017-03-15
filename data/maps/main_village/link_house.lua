@@ -392,7 +392,7 @@ function zelda:on_interaction()
       -- Zelda thanks Link and reads the letter.
       game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, function()
 
-          -- Write in savegame the next letter.
+        -- Write in savegame the next letter.
         chore_thanks = (chore_thanks + 1) % 4
         game:set_value("introduction_chore_2_thanks", chore_thanks)
 
@@ -402,15 +402,27 @@ function zelda:on_interaction()
         zelda_chores:go_to_next_chore_step()
 
         if should_give_back_light_saber then
-          game:start_dialog("intro.light_saber_give_back", function()
+          game:start_dialog("intro.zelda_removing_hearts", function()
 
-            -- Give back light saber.
-            local sword = game:get_item("sword")
-            hero:start_treasure("sword", 3)
-            game:set_value("link_garden_door_open", true)  -- Open the garden door.
+            -- Remove 4 heart containers.
+            local hearts_timer = sol.timer.start(game, 500, function()
+              sol.audio.play_sound("danger")
+              game:set_max_life(game:get_max_life() - 4)
+              return game:get_max_life() > (5 * 4)
+            end)
+            hearts_timer:set_suspended_with_map(false)
 
-            -- Call this function again.
-            zelda:on_interaction()
+            game:start_dialog("intro.light_saber_give_back", function()
+
+              -- Give back light saber.
+              local sword = game:get_item("sword")
+              game:set_value("link_garden_door_open", true)  -- Open the garden door.
+
+              hero:start_treasure("sword", 3, nil, function()
+                -- Call this function again.
+                zelda:on_interaction()
+              end)
+            end)
           end)
         else
           -- Call this function again.

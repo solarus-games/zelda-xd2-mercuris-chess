@@ -4114,6 +4114,17 @@ npc{
   sprite = "entities/sign",
 }
 
+npc{
+  name = "otis_test",
+  layer = 0,
+  x = 96,
+  y = 485,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/blond_boy",
+  behavior = "dialog#chill_valley.otis",
+}
+
 tile{
   layer = 1,
   x = 88,

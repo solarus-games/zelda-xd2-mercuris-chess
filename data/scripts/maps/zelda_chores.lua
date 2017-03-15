@@ -32,7 +32,7 @@ function zelda_chores:get_chores_state()
   end
 
   if chore_step == nil then
-    chore_step = 0
+    chore_step = math.random(4)
   end
 
   if chore_done == nil then

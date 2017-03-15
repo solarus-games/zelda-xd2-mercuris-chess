@@ -382,7 +382,7 @@ function zelda:on_interaction()
       -- Get a different letter than last time.
       local chore_thanks = game:get_value("introduction_chore_2_thanks")
       if chore_thanks == nil then
-        chore_thanks = 0
+        chore_thanks = math.random(4) - 1
       end
 
       -- Take the letter from the hero.

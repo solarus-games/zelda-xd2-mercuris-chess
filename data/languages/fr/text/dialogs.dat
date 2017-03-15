@@ -326,15 +326,21 @@ Flèches.
 
 dialog{
   id = "_item_description.cat_food.1",
+  icon = "37",
+  skip = "all",
   text = [[
-Une boite de conserve
-contenant de la
-nourriture pour chat.
-Ça n'a pas l'air très
-appétissant,
+Une boite de
+conserve contenant
+de la nourriture
+pour chat.
+
+
+Ça n'a pas l'air
+très appétissant,
 mais bon...
 c'est destiné aux
-chats, n'est-ce pas ?
+chats, n'est-ce
+pas ?
 ]]
 }
 
@@ -421,10 +427,12 @@ compteur magique !
 
 dialog{
   id = "_item_description.mail.1",
+  icon = "38",
+  skip = "all",
   text = [[
-Une lettre pour Zelda.
-Va vite la lui
-apporter!
+Une lettre pour
+Zelda. Va vite la
+lui apporter !
 ]]
 }
 
@@ -459,6 +467,18 @@ dialog{
   text = [[
 Les Bottes de Pégase
 font vraiment n'imp.
+]]
+}
+
+dialog{
+  id = "_item_description.vip_card.1",
+  icon = "36",
+  skip = "all",
+  text = [[
+Une carte VIP pour
+accéder à tous les
+étages
+de la Tour Grump.
 ]]
 }
 
@@ -1166,10 +1186,12 @@ d'énergie magique !
 
 dialog{
   id = "_treasure.mail.1",
+  icon = "38",
   text = [[
 Tu as trouvé
-une lettre adressée à
-la princesse Zelda!
+une lettre adressée
+à la princesse
+Zelda !
 Va vite la lui
 apporter.
 ]]
@@ -2488,8 +2510,8 @@ sois obéissant.
 dialog{
   id = "intro.light_saber_give_back",
   text = [[
-Voilà.$0
-
+Un petit moment...$0$0
+Voilà !
 
 Ah,$0
 j'allais oublier un

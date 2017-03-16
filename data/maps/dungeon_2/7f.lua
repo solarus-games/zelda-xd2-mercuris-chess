@@ -9,7 +9,7 @@ door_manager:manage_map(map)
 local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_b", 0, 8)
 
-function map:on_started()
+function map:on_started(destination)
 
   map:set_doors_open("nw_room_door")
   map:set_entities_enabled("nw_room_enemy", false)
@@ -20,6 +20,9 @@ function map:on_started()
     nw_room_chest:set_enabled(false)
   end
 
+  if destination == from_8f_s then
+    map:set_doors_open("auto_door_a")
+  end
 end
 
 local function nw_room_enemy_on_dead()

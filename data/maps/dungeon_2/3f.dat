@@ -5680,7 +5680,7 @@ door{
 }
 
 chest{
-  name = "6_rooks_puzzle_chest",
+  name = "rooks_puzzle_chest",
   layer = 0,
   x = 568,
   y = 597,
@@ -6155,8 +6155,8 @@ block{
 destination{
   name = "destination",
   layer = 0,
-  x = 856,
-  y = 533,
+  x = 512,
+  y = 613,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

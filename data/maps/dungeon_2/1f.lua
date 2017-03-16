@@ -1,8 +1,6 @@
 local map = ...
 local game = map:get_game()
 
-local chess_utils = require("scripts/maps/chess_utils")
-
 local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 local door_manager = require("scripts/maps/door_manager")
@@ -10,8 +8,9 @@ door_manager:manage_map(map)
 
 local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_a", 0, 3)
-
 elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
+
+local chess_utils = require("scripts/maps/chess_utils")
 
 function map:on_started(destination)
 
@@ -74,12 +73,17 @@ function bartender:on_interaction()
 end
 
 -- 4 knights puzzle.
-local function check_knights()
+local function knight_puzzle_on_on_moved(knight)
+
+  local x, y = knight:get_bounding_box()
+  if x % 8 ~= 0 or y % 8 ~= 0 then
+    return
+  end
 
   local solved = true
   for i = 1, 4 do
-    local knight = map:get_entity("knight_" .. i)
-    if chess_utils:get_num_knights_controlling(knight, "knight_") ~= 2 then
+    local current_knight = map:get_entity("knight_" .. i)
+    if chess_utils:get_num_pieces_controlling(current_knight, "knight_") ~= 2 then
       solved = false
       break
     end
@@ -94,7 +98,6 @@ local function check_knights()
 
 end
 
-knight_1.on_position_changed = check_knights
-knight_2.on_position_changed = check_knights
-knight_3.on_position_changed = check_knights
-knight_4.on_position_changed = check_knights
+for i = 1, 4 do
+  map:get_entity("knight_" .. i).on_moved = knight_puzzle_on_on_moved
+end

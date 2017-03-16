@@ -2320,7 +2320,7 @@ Tarif : Mises de
 dialog{
   id = "dungeon_2.3f.6_queens_puzzle",
   text = [[
-Problème des 6 Dames
+Jeu des 6 Dames
 
 
 Aucune Dame ne doit être
@@ -2333,7 +2333,7 @@ qu'une autre.
 dialog{
   id = "dungeon_2.3f.6_rooks_puzzle",
   text = [[
-Problème des 6 Tours
+Jeu des 6 Tours
 
 
 Aucune Tour ne doit être
@@ -2348,7 +2348,7 @@ qu'une seule fois !
 dialog{
   id = "dungeon_2.6f.8_queens_puzzle",
   text = [[
-Problème des 6 Dames
+Jeu des 8 Dames
 
 
 Aucune Dame ne doit être

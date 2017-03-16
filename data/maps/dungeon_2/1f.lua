@@ -1,6 +1,8 @@
 local map = ...
 local game = map:get_game()
 
+local chess_utils = require("scripts/maps/chess_utils")
+
 local separator_manager = require("scripts/maps/separator_manager")
 separator_manager:manage_map(map)
 local door_manager = require("scripts/maps/door_manager")
@@ -71,19 +73,6 @@ function bartender:on_interaction()
   end)
 end
 
--- Returns whether two 16x16 entities are at knight distance.
-local function is_at_knight_distance(entity_1, entity_2)
-
-  local x1, y1 = entity_1:get_position()
-  local x2, y2 = entity_2:get_position()
-
-  local dx = math.abs(x2 - x1)
-  local dy = math.abs(y2 - y1)
-
-  return (dx == 16 and dy == 32) or (dx == 32 and dy == 16)
-
-end
-
 -- 4 knights puzzle.
 local function get_num_knight_protectors(knight)
 
@@ -91,7 +80,7 @@ local function get_num_knight_protectors(knight)
   for i = 1, 4 do
     local other_knight = map:get_entity("knight_" .. i)
     if other_knight ~= knight then
-      if is_at_knight_distance(knight, other_knight) then
+      if chess_utils:is_at_knight_distance(knight, other_knight) then
         num_protectors = num_protectors + 1
       end
     end

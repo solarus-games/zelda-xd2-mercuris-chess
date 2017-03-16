@@ -6766,6 +6766,22 @@ door{
   opening_condition_consumed = true,
 }
 
+enemy{
+  layer = 0,
+  x = 728,
+  y = 653,
+  direction = 3,
+  breed = "alttp/bubble",
+}
+
+enemy{
+  layer = 0,
+  x = 896,
+  y = 637,
+  direction = 3,
+  breed = "alttp/bubble",
+}
+
 tile{
   layer = 1,
   x = 728,

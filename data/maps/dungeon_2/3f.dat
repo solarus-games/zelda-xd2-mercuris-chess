@@ -5894,6 +5894,7 @@ door{
   y = 576,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_3f_door_b",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
 }
@@ -5905,6 +5906,7 @@ door{
   y = 576,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_3f_door_b",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
 }

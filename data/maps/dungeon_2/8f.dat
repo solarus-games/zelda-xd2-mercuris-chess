@@ -500,7 +500,7 @@ tile{
 tile{
   layer = -1,
   x = 504,
-  y = 96,
+  y = 112,
   width = 24,
   height = 8,
   pattern = "stairs_inner_up.4.border.2-1",
@@ -509,7 +509,7 @@ tile{
 tile{
   layer = -1,
   x = 504,
-  y = 72,
+  y = 88,
   width = 24,
   height = 8,
   pattern = "stairs_inner_up.4.border.1-1",
@@ -518,7 +518,7 @@ tile{
 tile{
   layer = -1,
   x = 504,
-  y = 80,
+  y = 96,
   width = 24,
   height = 16,
   pattern = "stairs_inner_up.4-1",
@@ -643,7 +643,7 @@ stairs{
 stairs{
   layer = -1,
   x = 512,
-  y = 80,
+  y = 96,
   direction = 0,
   subtype = 4,
 }
@@ -4255,7 +4255,7 @@ tile{
 tile{
   layer = 0,
   x = 528,
-  y = 96,
+  y = 112,
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.4.top.border.2-1",
@@ -4264,7 +4264,7 @@ tile{
 tile{
   layer = 0,
   x = 528,
-  y = 80,
+  y = 96,
   width = 8,
   height = 16,
   pattern = "stairs_inner_up.4.top-1",
@@ -4273,7 +4273,7 @@ tile{
 tile{
   layer = 0,
   x = 528,
-  y = 72,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "stairs_inner_up.4.top.border.1-1",
@@ -4284,7 +4284,7 @@ tile{
   x = 416,
   y = 48,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "barrier.2-2",
 }
 
@@ -4300,7 +4300,7 @@ tile{
 tile{
   layer = 0,
   x = 416,
-  y = 56,
+  y = 64,
   width = 8,
   height = 8,
   pattern = "barrier.border-2",
@@ -4309,16 +4309,16 @@ tile{
 tile{
   layer = 0,
   x = 416,
-  y = 152,
+  y = 144,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "barrier.2-2",
 }
 
 tile{
   layer = 0,
   x = 416,
-  y = 144,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "barrier.border-2",
@@ -4336,16 +4336,16 @@ tile{
 tile{
   layer = 0,
   x = 536,
-  y = 152,
+  y = 144,
   width = 8,
-  height = 8,
+  height = 16,
   pattern = "barrier.2-2",
 }
 
 tile{
   layer = 0,
   x = 536,
-  y = 144,
+  y = 136,
   width = 8,
   height = 8,
   pattern = "barrier.border-2",
@@ -5059,8 +5059,8 @@ chest{
 
 block{
   layer = 0,
-  x = 400,
-  y = 125,
+  x = 392,
+  y = 109,
   sprite = "enemies/chess/knight_white",
   pushable = true,
   pullable = true,
@@ -5069,8 +5069,8 @@ block{
 
 block{
   layer = 0,
-  x = 560,
-  y = 125,
+  x = 568,
+  y = 109,
   sprite = "enemies/chess/knight_white",
   pushable = true,
   pullable = true,
@@ -5080,9 +5080,9 @@ block{
 jumper{
   layer = 0,
   x = 424,
-  y = 64,
+  y = 72,
   width = 8,
-  height = 80,
+  height = 64,
   direction = 0,
   jump_length = 40,
 }
@@ -5090,9 +5090,9 @@ jumper{
 jumper{
   layer = 0,
   x = 528,
-  y = 104,
+  y = 120,
   width = 8,
-  height = 40,
+  height = 16,
   direction = 4,
   jump_length = 40,
 }
@@ -5319,6 +5319,26 @@ enemy{
   direction = 3,
   breed = "newlink/vipeross",
   treasure_name = "random",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 560,
+  y = 85,
+  direction = 3,
+  starting_location_mode = "yes",
+  default = true,
+}
+
+jumper{
+  layer = 0,
+  x = 528,
+  y = 72,
+  width = 8,
+  height = 16,
+  direction = 4,
+  jump_length = 40,
 }
 
 tile{

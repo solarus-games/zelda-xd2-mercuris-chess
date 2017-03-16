@@ -5984,7 +5984,7 @@ wall{
 }
 
 door{
-  name = "door_b",
+  name = "auto_door_b",
   layer = 0,
   x = 600,
   y = 560,
@@ -5996,7 +5996,7 @@ door{
 }
 
 door{
-  name = "door_b_4",
+  name = "auto_door_b_2",
   layer = 0,
   x = 664,
   y = 560,
@@ -6032,7 +6032,7 @@ wall{
 }
 
 door{
-  name = "door_b_2",
+  name = "auto_door_b_4",
   layer = 0,
   x = 888,
   y = 440,
@@ -6044,7 +6044,7 @@ door{
 }
 
 door{
-  name = "door_b_3",
+  name = "auto_door_b_3",
   layer = 0,
   x = 888,
   y = 504,
@@ -6663,8 +6663,8 @@ chest{
 destination{
   name = "destination",
   layer = 0,
-  x = 744,
-  y = 61,
+  x = 824,
+  y = 637,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

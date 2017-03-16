@@ -6057,7 +6057,7 @@ stairs{
 }
 
 block{
-  name = "queen_1",
+  name = "auto_block_queen_1",
   layer = 0,
   x = 728,
   y = 357,
@@ -6068,9 +6068,9 @@ block{
 }
 
 block{
-  name = "queen_2",
+  name = "auto_block_queen_2",
   layer = 0,
-  x = 712,
+  x = 728,
   y = 389,
   sprite = "enemies/chess/queen_white",
   pushable = true,
@@ -6079,10 +6079,10 @@ block{
 }
 
 block{
-  name = "queen_4",
+  name = "auto_block_queen_4",
   layer = 0,
   x = 760,
-  y = 405,
+  y = 373,
   sprite = "enemies/chess/queen_white",
   pushable = true,
   pullable = true,
@@ -6154,16 +6154,6 @@ block{
   maximum_moves = 1,
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 512,
-  y = 613,
-  direction = 1,
-  starting_location_mode = "yes",
-  default = true,
-}
-
 wall{
   layer = 0,
   x = 800,
@@ -6201,10 +6191,10 @@ wall{
 }
 
 block{
-  name = "queen_5",
+  name = "auto_block_queen_6",
   layer = 0,
   x = 776,
-  y = 373,
+  y = 357,
   sprite = "enemies/chess/queen_white",
   pushable = true,
   pullable = true,
@@ -6212,10 +6202,10 @@ block{
 }
 
 block{
-  name = "queen_6",
+  name = "auto_block_queen_5",
   layer = 0,
-  x = 792,
-  y = 341,
+  x = 776,
+  y = 389,
   sprite = "enemies/chess/queen_white",
   pushable = true,
   pullable = true,
@@ -6223,10 +6213,10 @@ block{
 }
 
 block{
-  name = "queen_3",
+  name = "auto_block_queen_3",
   layer = 0,
   x = 744,
-  y = 325,
+  y = 373,
   sprite = "enemies/chess/queen_white",
   pushable = true,
   pullable = true,
@@ -6630,6 +6620,16 @@ jumper{
   height = 8,
   direction = 2,
   jump_length = 40,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 704,
+  y = 389,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{

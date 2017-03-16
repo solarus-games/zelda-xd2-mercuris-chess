@@ -19,8 +19,7 @@ function chess_utils:is_controlled_by_knight(entity, knight)
   local x1, y1 = entity:get_position()
   local x2, y2 = knight:get_position()
 
-  local dx = math.abs(x2 - x1)
-  local dy = math.abs(y2 - y1)
+  local dx, dy = math.abs(x2 - x1), math.abs(y2 - y1)
 
   return (dx == 16 and dy == 32) or (dx == 32 and dy == 16)
 
@@ -35,10 +34,19 @@ function chess_utils:is_controlled_by_rook(entity, rook)
   return x1 == x2 or y1 == y2
 end
 
-local is_controlled_predicates = {
-  knight = chess_utils.is_controlled_by_knight,
-  rook = chess_utils.is_controlled_by_rook,
-}
+-- Returns whether an entity is in the range of a queen.
+function chess_utils:is_controlled_by_queen(entity, queen)
+
+  local x1, y1 = entity:get_position()
+  local x2, y2 = queen:get_position()
+
+  if x1 == x2 or y1 == y2 then
+    return true
+  end
+
+  local dx, dy = math.abs(x2 - x1), math.abs(y2 - y1)
+  return dx == dy
+end
 
 -- Returns whether an entity is in the range of the given chess piece.
 function chess_utils:is_controlled_by_piece(entity, piece)
@@ -54,7 +62,7 @@ function chess_utils:is_controlled_by_piece(entity, piece)
   end
 
   local piece_type = chess_utils:get_piece_type(piece)
-  return is_controlled_predicates[piece_type](chess_utils, entity, piece)
+  return chess_utils["is_controlled_by_" .. piece_type](chess_utils, entity, piece)
 end
 
 -- Returns how many pieces with the given prefix

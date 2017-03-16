@@ -103,7 +103,7 @@ function item:on_using()
     entity:set_can_traverse_ground("hole", true)
     entity:set_can_traverse_ground("lava", true)
     entity:set_can_traverse_ground("prickles", true)
--- TODO traversable types and grounds should be configurable
+    -- TODO traversable types and grounds should be configurable
     entity:set_can_traverse_ground("low_wall", true)  -- Needed for inner stairs.
     entity.apply_cliffs = true
   end
@@ -256,8 +256,6 @@ function item:on_using()
       -- for the hero later in case he ends up in a wall.
       past_positions[#past_positions + 1] = { leader:get_position() }
     end
-
-    -- TODO allow to fly over stairs covered by water
 
     function movement:on_finished()
       stop()
@@ -471,7 +469,7 @@ local function initialize_meta()
     return
   end
 
-  enemy_meta.hookshot_reaction = 1  -- 1 life point by default.
+  enemy_meta.hookshot_reaction = config.default_enemy_reaction or "immobilized"
   enemy_meta.hookshot_reaction_sprite = {}
   function enemy_meta:get_hookshot_reaction(sprite)
 

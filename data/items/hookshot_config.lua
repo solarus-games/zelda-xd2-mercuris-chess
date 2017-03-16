@@ -19,6 +19,11 @@ local config = {
   -- returning true will be hookable.
   hookable_entity_types = { "chest", "destructible", "block" },
 
+  -- Reaction of enemies touched by the hookshot by default.
+  -- Same possible values as in enemy:set_attack_consequence().
+  -- Enemies can change this value individually by calling
+  -- "enemy:set_hookshot_reaction()".
+  default_enemy_reaction = "immobilized",
 }
 
 return config

@@ -74,27 +74,12 @@ function bartender:on_interaction()
 end
 
 -- 4 knights puzzle.
-local function get_num_knight_protectors(knight)
-
-  local num_protectors = 0
-  for i = 1, 4 do
-    local other_knight = map:get_entity("knight_" .. i)
-    if other_knight ~= knight then
-      if chess_utils:is_at_knight_distance(knight, other_knight) then
-        num_protectors = num_protectors + 1
-      end
-    end
-  end
-
-  return num_protectors
-end
-
 local function check_knights()
 
   local solved = true
   for i = 1, 4 do
     local knight = map:get_entity("knight_" .. i)
-    if get_num_knight_protectors(knight) ~= 2 then
+    if chess_utils:get_num_knights_controlling(knight, "knight_") ~= 2 then
       solved = false
       break
     end

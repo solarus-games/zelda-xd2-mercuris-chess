@@ -4410,6 +4410,87 @@ tile{
   pattern = "stain_glass.wide.4.top",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 400,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 344,
+  width = 16,
+  height = 56,
+  pattern = "barrier_big.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 328,
+  width = 64,
+  height = 24,
+  pattern = "barrier_big.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 328,
+  width = 16,
+  height = 16,
+  pattern = "barrier_big.border.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 400,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 344,
+  width = 16,
+  height = 56,
+  pattern = "barrier_big.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 352,
+  width = 64,
+  height = 48,
+  pattern = "alter_floor",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 400,
+  width = 64,
+  height = 8,
+  pattern = "alter_floor.2",
+}
+
 wall{
   layer = 0,
   x = 736,
@@ -4489,13 +4570,13 @@ wall{
 pickable{
   layer = 0,
   x = 160,
-  y = 429,
+  y = 381,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "dungeon_2_6f_8_queens_puzzle_piece_of_heart",
 }
 
 block{
-  name = "queen_!_4",
+  name = "auto_block_queen_1",
   layer = 0,
   x = 104,
   y = 477,
@@ -4506,7 +4587,7 @@ block{
 }
 
 block{
-  name = "queen_!_5",
+  name = "auto_block_queen_2",
   layer = 0,
   x = 216,
   y = 477,
@@ -4517,7 +4598,7 @@ block{
 }
 
 block{
-  name = "queen_!_6",
+  name = "auto_block_queen_3",
   layer = 0,
   x = 136,
   y = 509,
@@ -4528,7 +4609,7 @@ block{
 }
 
 block{
-  name = "queen_!_7",
+  name = "auto_block_queen_4",
   layer = 0,
   x = 184,
   y = 509,
@@ -4539,7 +4620,7 @@ block{
 }
 
 block{
-  name = "queen_!_8",
+  name = "auto_block_queen_5",
   layer = 0,
   x = 136,
   y = 557,
@@ -4550,7 +4631,7 @@ block{
 }
 
 block{
-  name = "queen_!_9",
+  name = "auto_block_queen_6",
   layer = 0,
   x = 184,
   y = 557,
@@ -4561,7 +4642,7 @@ block{
 }
 
 block{
-  name = "queen_!_10",
+  name = "auto_block_queen_7",
   layer = 0,
   x = 104,
   y = 589,
@@ -4572,7 +4653,7 @@ block{
 }
 
 block{
-  name = "queen_!_11",
+  name = "auto_block_queen_8",
   layer = 0,
   x = 216,
   y = 589,
@@ -4892,6 +4973,27 @@ enemy{
   y = 637,
   direction = 3,
   breed = "alttp/medusa",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 445,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
+}
+
+dynamic_tile{
+  name = "queens_puzzle_reward_barrier",
+  layer = 0,
+  x = 128,
+  y = 400,
+  pattern = "barrier_big.1-2",
+  width = 64,
+  height = 24,
+  enabled_at_start = true,
 }
 
 tile{

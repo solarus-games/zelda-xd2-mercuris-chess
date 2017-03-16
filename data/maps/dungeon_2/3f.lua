@@ -50,9 +50,13 @@ local function rook_puzzle_on_moved(rook)
     end
   end
 
-  if solved and not rooks_puzzle_chest:is_enabled() then
-    sol.audio.play_sound("secret")
-    rooks_puzzle_chest:set_enabled(true)
+  if solved then
+    if not rooks_puzzle_chest:is_enabled() then
+      sol.audio.play_sound("chest_appears")
+      rooks_puzzle_chest:set_enabled(true)
+    else
+      sol.audio.play_sound("secret")
+    end
   end
 
 end
@@ -78,10 +82,12 @@ local function queen_puzzle_on_moved(queen)
     end
   end
 
-  if solved and not flying_tile_door:is_open() then
+  if solved then
     sol.audio.play_sound("secret")
-    game:set_value("dungeon_2_3f_queens_puzzle", true)
-    map:open_doors("flying_tile_door")
+    if not flying_tile_door:is_open() then
+      game:set_value("dungeon_2_3f_queens_puzzle", true)
+      map:open_doors("flying_tile_door")
+    end
   end
 
 end

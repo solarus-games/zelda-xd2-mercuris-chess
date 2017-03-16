@@ -40,15 +40,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 496,
-  y = 648,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.4-5",
-}
-
-tile{
-  layer = -1,
   x = 376,
   y = 552,
   width = 24,
@@ -168,15 +159,6 @@ tile{
   layer = -1,
   x = 456,
   y = 640,
-  width = 16,
-  height = 16,
-  pattern = "wall_low_diag.border.3-5",
-}
-
-tile{
-  layer = -1,
-  x = 448,
-  y = 648,
   width = 16,
   height = 16,
   pattern = "wall_low_diag.border.3-5",
@@ -603,6 +585,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "wall_low_diag.bottom.1-5",
+}
+
+tile{
+  layer = -1,
+  x = 472,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "wall_low_border.1-5",
 }
 
 destination{

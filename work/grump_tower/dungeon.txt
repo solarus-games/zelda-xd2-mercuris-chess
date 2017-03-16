@@ -19,7 +19,8 @@ Small keys:
 10) 3F, chest in the north room (kitchen path and elevator A)
 11) 5F, kill an enemy in the north-west room
 12) 5F, chest in the south-east room (fall from above, after elevator B)
-13) 8F, end of the G corridor
+13) 7F, chest in the north-west room (kill enemies)
+14) 8F, end of the G corridor
 
 Locked doors:
 1) 1F, entrance

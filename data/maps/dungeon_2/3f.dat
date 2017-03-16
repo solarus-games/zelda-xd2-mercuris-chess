@@ -5680,9 +5680,11 @@ door{
 }
 
 chest{
+  name = "6_rooks_puzzle_chest",
   layer = 0,
   x = 568,
   y = 597,
+  treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_2_3f_s_key_chest",
   sprite = "entities/chest",
 }

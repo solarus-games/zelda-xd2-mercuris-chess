@@ -194,6 +194,7 @@ sprite{ id = "entities/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
+sprite{ id = "entities/delorean", description = "Delorean" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/doors/door_d1_big_key", description = "Dungeon door (big key)" }
 sprite{ id = "entities/doors/door_d1_boss_key", description = "Dungeon door (boss key)" }

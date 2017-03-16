@@ -1,0 +1,34 @@
+animation{
+  name = "stopped",
+  src_image = "entities/delorean.png",
+  directions = {
+    { x = 0, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+    { x = 0, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+    { x = 72, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+    { x = 72, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+  },
+}
+animation{
+  name = "flying",
+  src_image = "entities/delorean.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+    { x = 0, y = 0, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+    { x = 0, y = 56, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+    { x = 0, y = 56, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+  },
+}
+animation{
+  name = "flying_no_shadow",
+  src_image = "entities/delorean.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 160, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+    { x = 0, y = 160, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+    { x = 0, y = 216, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+    { x = 0, y = 216, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
+  },
+}

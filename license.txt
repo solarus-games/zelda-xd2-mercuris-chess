@@ -109,6 +109,7 @@ musics/doctoroctoroc/*.ogg                          DoctorOctoroc: https://www.y
 sprites/enemies/creeper.png                         Christopho
 sprites/npc/newlink/yoda.png                        Newlink
 sprites/the_doctor.png                              Rockfootdude
+sprites/entities/bttf/delorean.png                  Olivier Cléro
 sprites/npc/bttf/doc_emmett_brown.png               Olivier Cléro
 sprites/npc/bttf/marty_mcfly.png                    Olivier Cléro
 

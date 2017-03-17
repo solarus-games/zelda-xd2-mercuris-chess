@@ -1,0 +1,1 @@
+Wiki: http://zmc.zelda-solarus.com/wiki/doku.php?id=zsxd2

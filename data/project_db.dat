@@ -360,6 +360,8 @@ sprite{ id = "npc/alttp/woman_green", description = "Green woman" }
 sprite{ id = "npc/alttp/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/alttp/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/alttp/zelda", description = "Zelda" }
+sprite{ id = "npc/bttf/doc_emmett_brown", description = "Doc (Back to the Future)" }
+sprite{ id = "npc/bttf/marty_mcfly", description = "Marty (Back to the Future)" }
 sprite{ id = "npc/chocobo_blue", description = "Chocobo Blue" }
 sprite{ id = "npc/chocobo_green", description = "Chocobo Green" }
 sprite{ id = "npc/chocobo_red", description = "Chocobo Red" }
@@ -377,7 +379,6 @@ sprite{ id = "npc/newlink/tigriss", description = "Tigriss (not an ennemy)" }
 sprite{ id = "npc/newlink/tigriss_brown_docile", description = "Docile and cute tigriss" }
 sprite{ id = "npc/newlink/tom", description = "Tom" }
 sprite{ id = "npc/newlink/yoda", description = "Yoda" }
-sprite{ id = "npc/oclero/doc_emmett_brown", description = "Doc (Back to the Future)" }
 sprite{ id = "npc/seagull", description = "Seagull" }
 sprite{ id = "npc/the_doctor", description = "The Doctor" }
 

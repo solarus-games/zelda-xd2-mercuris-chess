@@ -74,6 +74,7 @@ sprite{ id = "console/cursor", description = "Console cursor" }
 sprite{ id = "console/icons", description = "Console icons" }
 sprite{ id = "enemies/alttp/bubble", description = "Bubble" }
 sprite{ id = "enemies/alttp/chain_and_ball", description = "Chain and ball" }
+sprite{ id = "enemies/alttp/chicken", description = "Chicken" }
 sprite{ id = "enemies/alttp/fire_bat", description = "Fire bat" }
 sprite{ id = "enemies/alttp/fire_circle", description = "Fire circle" }
 sprite{ id = "enemies/alttp/fireball_red", description = "Big fireball (red)" }
@@ -587,6 +588,7 @@ item{ id = "vip_card", description = "VIP card" }
 
 enemy{ id = "alttp/bubble", description = "Bubble" }
 enemy{ id = "alttp/chain_and_ball", description = "Chain and ball" }
+enemy{ id = "alttp/chicken", description = "Chicken" }
 enemy{ id = "alttp/fire_bat", description = "Fire bat" }
 enemy{ id = "alttp/fire_circle", description = "Fire circle" }
 enemy{ id = "alttp/fireball_red", description = "Big fireball (red)" }

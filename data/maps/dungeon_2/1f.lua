@@ -22,6 +22,8 @@ function map:on_started(destination)
   if game:get_value("dungeon_2_kitchen_guard_access") then
     kitchen_guard:set_position(kitchen_guard_access_placeholder:get_position())
   end
+
+  kitchen_chicken_under_vase:set_enabled(false)
 end
 
 function map:on_opening_transition_finished(destination)
@@ -101,3 +103,10 @@ end
 for i = 1, 4 do
   map:get_entity("knight_" .. i).on_moved = knight_puzzle_on_on_moved
 end
+
+function auto_destructible_with_chicken:on_lifting()
+  if kitchen_chicken_under_vase ~= nil then
+    kitchen_chicken_under_vase:set_enabled(true)
+  end
+end
+

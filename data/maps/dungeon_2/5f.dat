@@ -7098,6 +7098,14 @@ chest{
   sprite = "entities/chest",
 }
 
+destination{
+  name = "from_6f_se_hole",
+  layer = 0,
+  x = 800,
+  y = 605,
+  direction = -1,
+}
+
 tile{
   layer = 1,
   x = 728,

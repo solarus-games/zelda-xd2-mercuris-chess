@@ -145,4 +145,3 @@ function separator_manager:manage_map(map)
 end
 
 return separator_manager
-

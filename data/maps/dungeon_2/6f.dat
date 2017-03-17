@@ -498,7 +498,7 @@ tile{
 }
 
 dynamic_tile{
-  name = "weak_floor_a",
+  name = "weak_floor_a_closed",
   layer = -1,
   x = 776,
   y = 584,
@@ -551,6 +551,7 @@ wall{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_9",
   layer = -1,
   x = 776,
   y = 584,
@@ -561,6 +562,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_1",
   layer = -1,
   x = 784,
   y = 584,
@@ -571,6 +573,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_5",
   layer = -1,
   x = 784,
   y = 608,
@@ -581,6 +584,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_7",
   layer = -1,
   x = 776,
   y = 592,
@@ -591,6 +595,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_3",
   layer = -1,
   x = 816,
   y = 592,
@@ -601,6 +606,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_8",
   layer = -1,
   x = 776,
   y = 584,
@@ -611,6 +617,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_2",
   layer = -1,
   x = 816,
   y = 584,
@@ -621,6 +628,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_4",
   layer = -1,
   x = 816,
   y = 608,
@@ -631,6 +639,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
+  name = "weak_floor_a_open_6",
   layer = -1,
   x = 776,
   y = 608,
@@ -646,6 +655,36 @@ enemy{
   y = 637,
   direction = 3,
   breed = "alttp/medusa",
+}
+
+sensor{
+  name = "weak_floor_a_sensor",
+  layer = -1,
+  x = 784,
+  y = 597,
+  width = 48,
+  height = 32,
+}
+
+destination{
+  name = "destination",
+  layer = -1,
+  x = 752,
+  y = 597,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
+}
+
+teletransporter{
+  name = "weak_floor_a_teletransporter",
+  layer = -1,
+  x = 776,
+  y = 584,
+  width = 48,
+  height = 32,
+  destination_map = "dungeon_2/5f",
+  destination = "from_6f_se_hole",
 }
 
 tile{
@@ -4973,16 +5012,6 @@ enemy{
   y = 637,
   direction = 3,
   breed = "alttp/medusa",
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 160,
-  y = 445,
-  direction = 1,
-  starting_location_mode = "yes",
-  default = true,
 }
 
 dynamic_tile{

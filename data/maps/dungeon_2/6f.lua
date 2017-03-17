@@ -16,6 +16,16 @@ function map:on_started()
   if game:get_value("dungeon_2_6f_8_queens_puzzle_piece_of_heart") then
     queens_puzzle_reward_barrier:set_enabled(false)
   end
+
+  if game:get_value("dungeon_2_6f_se_weak_floor") then
+    map:set_entities_enabled("weak_floor_a_open", true)
+    map:set_entities_enabled("weak_floor_a_closed", false)
+    weak_floor_a_sensor:set_enabled(false)
+  else
+    map:set_entities_enabled("weak_floor_a_open", false)
+    map:set_entities_enabled("weak_floor_a_closed", true)
+    weak_floor_a_teletransporter:set_enabled(false)
+  end
 end
 
 -- 8 queens puzzle.
@@ -46,4 +56,15 @@ end
 
 for i = 1, 8 do
   map:get_entity("auto_block_queen_" .. i).on_moved = queen_puzzle_on_moved
+end
+
+-- Weak floor.
+function weak_floor_a_sensor:on_collision_explosion()
+
+  sol.audio.play_sound("secret")
+  map:set_entities_enabled("weak_floor_a_open", true)
+  map:set_entities_enabled("weak_floor_a_closed", false)
+  weak_floor_a_sensor:set_enabled(false)
+  weak_floor_a_teletransporter:set_enabled(true)
+  game:set_value("dungeon_2_6f_se_weak_floor", true)
 end

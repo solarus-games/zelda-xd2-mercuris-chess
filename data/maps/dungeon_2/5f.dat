@@ -6653,7 +6653,7 @@ destructible{
 
 chest{
   layer = 0,
-  x = 800,
+  x = 784,
   y = 573,
   treasure_name = "small_key",
   treasure_savegame_variable = "dungeon_2_5f_se_key_chest",
@@ -6780,6 +6780,15 @@ enemy{
   y = 637,
   direction = 3,
   breed = "alttp/bubble",
+}
+
+chest{
+  layer = 0,
+  x = 816,
+  y = 573,
+  treasure_name = "croissant",
+  treasure_savegame_variable = "dungeon_2_5f_se_croissant_chest",
+  sprite = "entities/chest",
 }
 
 tile{

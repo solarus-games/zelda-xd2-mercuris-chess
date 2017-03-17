@@ -42,7 +42,7 @@ VIP card: hookshot required
 
 Boss key: 8F, south room low layer (continue after the miniboss path)
 
-Piece of heart:
+Pieces of heart:
 
 1) 2F, under a statue in the casino main room: dungeon_2_2f_pickable_under_piece_8
 2) 6F, 8 queens puzzle: dungeon_2_6f_8_queens_puzzle_piece_of_heart

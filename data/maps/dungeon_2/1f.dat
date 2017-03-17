@@ -7047,6 +7047,24 @@ tile{
   pattern = "wall_pillar.4-3",
 }
 
+tile{
+  layer = 0,
+  x = 48,
+  y = 288,
+  width = 16,
+  height = 32,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 416,
+  width = 32,
+  height = 16,
+  pattern = "floor_pot",
+}
+
 door{
   name = "elevator_a_door",
   layer = 0,
@@ -8041,6 +8059,52 @@ sensor{
   y = 517,
   width = 16,
   height = 16,
+}
+
+destructible{
+  name = "auto_destructible_18",
+  layer = 0,
+  x = 56,
+  y = 301,
+  treasure_name = "pain_au_chocolat",
+  treasure_savegame_variable = "dungeon_2_1f_kitchen_pain_au_chocolat",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_20",
+  layer = 0,
+  x = 72,
+  y = 429,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_21",
+  layer = 0,
+  x = 56,
+  y = 317,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_19",
+  layer = 0,
+  x = 56,
+  y = 429,
+  treasure_name = "croissant",
+  treasure_savegame_variable = "dungeon_2_1f_kitchen_pain_au_chocolat",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{

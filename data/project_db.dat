@@ -439,6 +439,7 @@ sound{ id = "cane", description = "cane" }
 sound{ id = "cannonball", description = "cannonball" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
+sound{ id = "chicken", description = "Chicken" }
 sound{ id = "creeper", description = "creeper" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }

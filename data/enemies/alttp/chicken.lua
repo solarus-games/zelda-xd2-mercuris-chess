@@ -11,6 +11,7 @@ function enemy:on_created()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
+  enemy:set_hurt_style("monster")
 end
 
 function enemy:on_movement_changed(movement)

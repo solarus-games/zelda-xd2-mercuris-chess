@@ -107,6 +107,9 @@ end
 function auto_destructible_with_chicken:on_lifting()
   if kitchen_chicken_under_vase ~= nil then
     kitchen_chicken_under_vase:set_enabled(true)
+    sol.timer.start(map, 300, function()
+      sol.audio.play_sound("chicken")
+    end)
   end
 end
 

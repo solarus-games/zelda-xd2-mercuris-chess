@@ -377,6 +377,7 @@ sprite{ id = "npc/newlink/tigriss", description = "Tigriss (not an ennemy)" }
 sprite{ id = "npc/newlink/tigriss_brown_docile", description = "Docile and cute tigriss" }
 sprite{ id = "npc/newlink/tom", description = "Tom" }
 sprite{ id = "npc/newlink/yoda", description = "Yoda" }
+sprite{ id = "npc/oclero/doc_emmett_brown", description = "Doc (Back to the Future)" }
 sprite{ id = "npc/seagull", description = "Seagull" }
 sprite{ id = "npc/the_doctor", description = "The Doctor" }
 

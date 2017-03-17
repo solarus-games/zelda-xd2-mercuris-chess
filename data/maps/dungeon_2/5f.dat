@@ -5648,15 +5648,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 824,
-  y = 384,
-  width = 48,
-  height = 8,
-  pattern = "wall_border.1-5",
-}
-
-tile{
-  layer = 0,
   x = 680,
   y = 328,
   width = 8,
@@ -6031,6 +6022,15 @@ tile{
   width = 8,
   height = 8,
   pattern = "somaria_track.12",
+}
+
+tile{
+  layer = 0,
+  x = 824,
+  y = 384,
+  width = 48,
+  height = 8,
+  pattern = "wall_border.2-5",
 }
 
 wall{

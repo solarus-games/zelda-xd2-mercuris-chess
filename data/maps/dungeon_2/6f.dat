@@ -479,24 +479,6 @@ tile{
   pattern = "door.1.support.2-1",
 }
 
-tile{
-  layer = -1,
-  x = 864,
-  y = 624,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = -1,
-  x = 864,
-  y = 632,
-  width = 16,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
 dynamic_tile{
   name = "weak_floor_a_closed",
   layer = -1,
@@ -649,14 +631,6 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
-enemy{
-  layer = -1,
-  x = 872,
-  y = 637,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
 sensor{
   name = "weak_floor_a_sensor",
   layer = -1,
@@ -675,6 +649,73 @@ teletransporter{
   height = 32,
   destination_map = "dungeon_2/5f",
   destination = "from_6f_se_hole",
+}
+
+sensor{
+  name = "chess_fight_exit_sensor",
+  layer = -1,
+  x = 800,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = -1,
+  x = 720,
+  y = 624,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = -1,
+  x = 720,
+  y = 632,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = -1,
+  x = 864,
+  y = 624,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  layer = -1,
+  x = 864,
+  y = 632,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+enemy{
+  layer = -1,
+  x = 872,
+  y = 637,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  layer = -1,
+  x = 728,
+  y = 637,
+  direction = 3,
+  breed = "alttp/medusa",
 }
 
 tile{
@@ -5876,36 +5917,6 @@ crystal_block{
 }
 
 dynamic_tile{
-  name = "invisible_tile_1",
-  layer = 0,
-  x = 720,
-  y = 624,
-  pattern = "barrier.1-1",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "invisible_tile_2",
-  layer = 0,
-  x = 720,
-  y = 632,
-  pattern = "barrier.1-1",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-enemy{
-  layer = 0,
-  x = 728,
-  y = 637,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-dynamic_tile{
   name = "queens_puzzle_reward_barrier",
   layer = 0,
   x = 128,
@@ -6104,6 +6115,24 @@ enemy{
   y = 261,
   direction = 2,
   breed = "chess/queen_white",
+}
+
+sensor{
+  name = "chess_fight_sensor_1",
+  layer = 0,
+  x = 688,
+  y = 93,
+  width = 240,
+  height = 16,
+}
+
+sensor{
+  name = "chess_fight_sensor_2",
+  layer = 0,
+  x = 688,
+  y = 317,
+  width = 240,
+  height = 16,
 }
 
 tile{

@@ -68,3 +68,18 @@ function weak_floor_a_sensor:on_collision_explosion()
   weak_floor_a_teletransporter:set_enabled(true)
   game:set_value("dungeon_2_6f_se_weak_floor", true)
 end
+
+function chess_fight_sensor_1:on_activated()
+
+  chess_fight_wall:set_enabled(false)
+end
+
+function chess_fight_sensor_2:on_activated()
+
+  chess_fight_wall:set_enabled(false)
+end
+
+function chess_fight_exit_sensor:on_activated()
+
+  chess_fight_wall:set_enabled(true)
+end

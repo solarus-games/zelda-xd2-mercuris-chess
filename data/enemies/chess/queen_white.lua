@@ -42,6 +42,21 @@ function enemy:on_restarted()
     index = 8
   end
   local dx, dy = unpack(moves[index])
+  local num_attempts = 1
+
+  while enemy:test_obstacles(dx, dy) do
+    if num_attempts >= #moves then
+      -- No legal move: just do nothing for now.
+      sol.timer.start(enemy, 1000, function()
+        enemy:restart()
+      end)
+      return
+    end
+    index = (index % #moves) + 1
+    dx, dy = unpack(moves[index])
+    num_attempts = num_attempts + 1
+  end
+
   local x, y = enemy:get_position()
   movement = sol.movement.create("target")
   movement:set_target(x + dx, y + dy)

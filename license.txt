@@ -1,4 +1,4 @@
-We give in this file the license information of
+﻿We give in this file the license information of
 the Zelda XD2: Mercuris Chess quest.
 
 - Lua scripts are licensed under the terms of the GNU General Public License
@@ -48,6 +48,7 @@ sprites/console/icons.png                           Maxs
 sprites/chess/*.png                                 Olivier Cléro
 sprites/enemies/newlink/*.png                       Newlink
 sprites/enemies/newlink/angry_zelda.png             Newlink
+sprites/enemies/mr_grump.png                        Olivier Cléro
 sprites/entities/slot_machine_support.png           Newlink
 sprites/hud/gameover_fade.png                       Metallizer
 sprites/hud/dialog_box.png                          Metallizer

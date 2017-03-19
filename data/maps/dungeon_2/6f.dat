@@ -5948,8 +5948,8 @@ enemy{
 destination{
   name = "destination",
   layer = 0,
-  x = 800,
-  y = 197,
+  x = 64,
+  y = 117,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -6133,6 +6133,26 @@ sensor{
   y = 317,
   width = 240,
   height = 16,
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 160,
+  y = 69,
+  direction = 3,
+  breed = "newlink/cobruss",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 72,
+  y = 85,
+  direction = 3,
+  breed = "newlink/cobruss",
+  treasure_name = "random",
 }
 
 tile{

@@ -98,6 +98,7 @@ sprite{ id = "enemies/alttp/simple_soldier_green", description = "Simple Soldier
 sprite{ id = "enemies/alttp/snap_dragon", description = "Snap Dragon" }
 sprite{ id = "enemies/alttp/tentacle", description = "Tentacle" }
 sprite{ id = "enemies/alttp/wallmaster", description = "Wallmaster" }
+sprite{ id = "enemies/alttp/zora_water", description = "Zora (in water)" }
 sprite{ id = "enemies/cannonball", description = "Cannonball" }
 sprite{ id = "enemies/cannonball_big", description = "Cannonball (big)" }
 sprite{ id = "enemies/chess/bishop_black", description = "Bishop (black)" }
@@ -616,6 +617,7 @@ enemy{ id = "alttp/simple_soldier_green", description = "Simple Soldier (green)"
 enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "alttp/tentacle", description = "Tentacle" }
 enemy{ id = "alttp/wallmaster", description = "Wallmaster" }
+enemy{ id = "alttp/zora_water", description = "Zora (in water)" }
 enemy{ id = "cannonball", description = "Cannonball (random)" }
 enemy{ id = "chess/bishop_black", description = "Bishop (black)" }
 enemy{ id = "chess/bishop_white", description = "Bishop (white)" }

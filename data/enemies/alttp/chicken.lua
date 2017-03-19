@@ -6,7 +6,7 @@ local num_times_hurt = 0
 
 function enemy:on_created()
 
-  enemy:set_life(100)
+  enemy:set_life(10000)
   enemy:set_damage(2)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_size(16, 16)

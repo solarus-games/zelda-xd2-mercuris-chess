@@ -2361,6 +2361,32 @@ de Coeur !
 }
 
 dialog{
+  id = "dungeon_2.6f.miniboss_start",
+  text = [[
+Cette fois-ci c'en est
+trop !
+
+Déjà que tu nous
+harcèles à longueur de
+temps,
+nous pauvres poules
+innocentes, pour ton
+propre plaisir.
+Mais nous apprenons
+maintenant que tu as
+terrassé notre déesse
+légendaire, la poule
+aux oeufs d'or ?!
+
+Tu vas goûter à notre
+vengeance !
+
+Mes soeurs, sus à
+l'ennemi !!!
+]]
+}
+
+dialog{
   id = "dungeon_2.welcome",
   text = [[
        Niveau 2

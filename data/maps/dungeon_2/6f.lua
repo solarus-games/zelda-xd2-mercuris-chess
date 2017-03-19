@@ -11,6 +11,9 @@ elevator_manager:create_elevator(map, "elevator_b", 0, 8)
 
 local chess_utils = require("scripts/maps/chess_utils")
 
+local fighting_miniboss = false
+local previous_music = sol.audio.get_music()
+
 function map:on_started()
 
   if game:get_value("dungeon_2_6f_8_queens_puzzle_piece_of_heart") then
@@ -25,6 +28,17 @@ function map:on_started()
     map:set_entities_enabled("weak_floor_a_open", false)
     map:set_entities_enabled("weak_floor_a_closed", true)
     weak_floor_a_teletransporter:set_enabled(false)
+  end
+
+  map:set_entities_enabled("miniboss_enemy", false)
+  map:set_doors_open("miniboss_door", true)
+  if game:get_value("dungeon_2_miniboss") then
+    miniboss_chicken_npc:set_enabled(false)
+  else
+    miniboss_chicken_npc:set_traversable(true)
+    local movement = sol.movement.create("random")
+    movement:set_speed(32)
+    movement:start(miniboss_chicken_npc)
   end
 end
 
@@ -82,4 +96,43 @@ end
 function chess_fight_exit_sensor:on_activated()
 
   chess_fight_wall:set_enabled(true)
+end
+
+function start_miniboss_sensor:on_activated()
+
+  if game:get_value("dungeon_2_miniboss") then
+    return
+  end
+
+  if fighting_miniboss then
+    return
+  end
+
+  game:start_dialog("dungeon_2.6f.miniboss_start", function()
+    map:close_doors("miniboss_door")
+    hero:freeze()
+    sol.audio.stop_music()
+    sol.timer.start(map, 1000, function()
+      sol.audio.play_music("alttp/boss")
+      miniboss_chicken_npc:set_enabled(false)
+      map:set_entities_enabled("miniboss_enemy", true)
+      map:set_entities_enabled("miniboss_spikes", true)
+      hero:unfreeze()
+    end)
+    fighting_miniboss = true
+  end)
+end
+
+local function miniboss_enemy_on_dead()
+
+  if not map:has_entities("miniboss_enemy") then
+    sol.audio.play_music(previous_music)
+    map:open_doors("miniboss_door")
+    map:set_entities_enabled("miniboss_spikes", false)
+    game:set_value("dungeon_2_miniboss", true) then
+  end
+end
+
+for enemy in map:get_entities("miniboss_enemy") do
+  enemy.on_dead = miniboss_enemy_on_dead
 end

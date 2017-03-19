@@ -8,7 +8,7 @@ door_manager:manage_map(map)
 
 local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_a", 0, 3)
-elevator_manager:create_elevator(map, "elevator_b", 0, 8)
+elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
 local slot_machine_manager = require("scripts/maps/slot_machine_manager")
 slot_machine_manager:create_slot_machine(map, "slot_machine_a")
@@ -42,8 +42,6 @@ local vegas_enemies = {}
 
 function map:on_started()
 
-  map:set_doors_open("door_e", true)
-
   -- Walking NPCs.
   local movement = sol.movement.create("random_path")
   movement:start(blue_haired_boy)
@@ -64,27 +62,6 @@ function ne_chest_switch:on_activated()
   sol.audio.play_sound("chest_appears")
   ne_chest:set_enabled(true)
   game:set_value("dungeon_2_2f_vip_card_chest_appeared", true)
-end
-
-function casino_receptionnist:on_interaction()
-
-  -- Actually the door is now always open
-  -- because the player can enter the casino from the West stairs too.
-  if door_e:is_open() then
-    game:start_dialog("dungeon_2.2f.casino_receptionnist_open")
-  else
-    game:start_dialog("dungeon_2.2f.casino_receptionnist_intro", function(answer)
-      if answer == 1 then
-        if game:get_money() < 50 then
-          game:start_dialog("dungeon_2.2f.casino_receptionnist_not_enough_money")
-        else
-          game:remove_money(50)
-          map:open_doors("door_e")
-          game:start_dialog("dungeon_2.2f.casino_receptionnist_open")
-        end
-      end
-    end)
-  end
 end
 
 -- Cards enemy game.

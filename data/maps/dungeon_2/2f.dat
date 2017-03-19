@@ -2615,26 +2615,6 @@ wall{
   stops_projectiles = true,
 }
 
-door{
-  name = "door_e_4",
-  layer = -1,
-  x = 400,
-  y = 592,
-  direction = 2,
-  sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_2_2f_casino_door",
-}
-
-door{
-  name = "door_e_3",
-  layer = -1,
-  x = 256,
-  y = 592,
-  direction = 0,
-  sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_2_2f_casino_door",
-}
-
 wall{
   layer = -1,
   x = 472,
@@ -2671,26 +2651,6 @@ wall{
   stops_projectiles = true,
 }
 
-door{
-  name = "door_e_2",
-  layer = -1,
-  x = 152,
-  y = 416,
-  direction = 3,
-  sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_2_2f_casino_door",
-}
-
-door{
-  name = "door_e",
-  layer = -1,
-  x = 152,
-  y = 528,
-  direction = 1,
-  sprite = "entities/doors/door_d1_normal",
-  savegame_variable = "dungeon_2_2f_casino_door",
-}
-
 wall{
   layer = -1,
   x = 256,
@@ -2723,6 +2683,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/thief_yellow",
+  behavior = "dialog#dungeon_2.2f.casino_receptionnist",
 }
 
 wall{
@@ -3564,8 +3525,8 @@ wall{
 destination{
   name = "destination",
   layer = -1,
-  x = 304,
-  y = 365,
+  x = 456,
+  y = 557,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -3630,6 +3591,15 @@ destination{
   x = 224,
   y = 629,
   direction = 1,
+}
+
+npc{
+  layer = -1,
+  x = 96,
+  y = 605,
+  direction = 3,
+  subtype = 0,
+  behavior = "dialog#dungeon_2.2f.casino_receptionnist",
 }
 
 tile{
@@ -7316,7 +7286,7 @@ jumper{
   width = 32,
   height = 8,
   direction = 2,
-  jump_length = 40,
+  jump_length = 16,
 }
 
 wall{
@@ -7774,7 +7744,7 @@ crystal_block{
   y = 56,
   width = 48,
   height = 16,
-  subtype = 0,
+  subtype = 1,
 }
 
 jumper{
@@ -7876,7 +7846,7 @@ jumper{
   width = 56,
   height = 8,
   direction = 6,
-  jump_length = 40,
+  jump_length = 16,
 }
 
 sensor{

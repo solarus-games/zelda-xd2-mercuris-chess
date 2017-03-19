@@ -1,6 +1,6 @@
 local slot_machine_manager = {}
 
-local debug_win = true -- Set to true to win every game for debugging purposes.
+local debug_win = false -- Set to true to win every game for debugging purposes.
 
 function slot_machine_manager:create_slot_machine(map, prefix)
 

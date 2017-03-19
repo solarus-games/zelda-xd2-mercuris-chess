@@ -423,6 +423,15 @@ pickable{
 
 tile{
   layer = 0,
+  x = 456,
+  y = 200,
+  width = 48,
+  height = 24,
+  pattern = "wall.2-5",
+}
+
+tile{
+  layer = 0,
   x = 360,
   y = 496,
   width = 240,
@@ -3906,15 +3915,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 456,
-  y = 200,
-  width = 48,
-  height = 24,
-  pattern = "wall.2-5",
-}
-
-tile{
-  layer = 0,
   x = 432,
   y = 200,
   width = 24,
@@ -4545,33 +4545,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 704,
-  y = 400,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-2",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 432,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-2",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 408,
-  width = 8,
-  height = 24,
-  pattern = "barrier.2-2",
-}
-
-tile{
-  layer = 0,
   x = 688,
   y = 360,
   width = 16,
@@ -4626,9 +4599,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 776,
+  x = 792,
   y = 416,
-  width = 32,
+  width = 16,
   height = 16,
   pattern = "floor_pot",
 }
@@ -5707,7 +5680,7 @@ tile{
 tile{
   layer = 0,
   x = 768,
-  y = 432,
+  y = 408,
   width = 8,
   height = 8,
   pattern = "barrier.border-2",
@@ -5718,7 +5691,7 @@ tile{
   x = 768,
   y = 288,
   width = 8,
-  height = 144,
+  height = 120,
   pattern = "barrier.2-2",
 }
 
@@ -5957,7 +5930,7 @@ chest{
   x = 160,
   y = 349,
   treasure_name = "hookshot",
-  treasure_savegame_variable = "dungeon_2_2f_big_chest",
+  treasure_savegame_variable = "dungeon_2_2f_hookshot_chest",
   sprite = "entities/big_chest",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_2_big_key",
@@ -6350,7 +6323,8 @@ destructible{
   layer = 0,
   x = 408,
   y = 349,
-  treasure_name = "random",
+  treasure_name = "magic_flask",
+  treasure_variant = 2,
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -6756,7 +6730,7 @@ destructible{
   layer = 0,
   x = 776,
   y = 109,
-  treasure_name = "random",
+  treasure_name = "magic_flask",
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -6826,6 +6800,7 @@ door{
   y = 200,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_4f_door_e",
 }
 
 door{
@@ -6835,6 +6810,7 @@ door{
   y = 264,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_4f_door_e",
 }
 
 destructible{
@@ -6897,17 +6873,6 @@ destructible{
   name = "auto_destructible_31",
   layer = 0,
   x = 800,
-  y = 429,
-  treasure_name = "random",
-  sprite = "entities/vase",
-  destruction_sound = "stone",
-  damage_on_enemies = 2,
-}
-
-destructible{
-  name = "auto_destructible_32",
-  layer = 0,
-  x = 784,
   y = 429,
   treasure_name = "random",
   sprite = "entities/vase",
@@ -7246,6 +7211,50 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+wall{
+  layer = 0,
+  x = 768,
+  y = 416,
+  width = 8,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 712,
+  y = 416,
+  width = 8,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+jumper{
+  layer = 0,
+  x = 712,
+  y = 400,
+  width = 8,
+  height = 16,
+  direction = 0,
+  jump_length = 40,
+}
+
+block{
+  layer = 0,
+  x = 688,
+  y = 437,
+  sprite = "enemies/chess/queen_white",
+  pushable = true,
+  pullable = true,
+  maximum_moves = 0,
 }
 
 tile{

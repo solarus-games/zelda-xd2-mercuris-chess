@@ -659,7 +659,7 @@ enemy{ id = "newlink/pig_soldier_blue", description = "Pig Soldier (blue)" }
 enemy{ id = "newlink/pig_soldier_red", description = "Pig Soldier (red)" }
 enemy{ id = "newlink/skeletor", description = "Skeletor" }
 enemy{ id = "newlink/tanekian_commander_yellow", description = "Tanekian Commander (yellow)" }
-enemy{ id = "newlink/tanekian_guard_red", description = "Tanekian Guard (green)" }
+enemy{ id = "newlink/tanekian_guard_red", description = "Tanekian Guard (red)" }
 enemy{ id = "newlink/tanekian_soldier_blue", description = "Tanekian Soldier (blue)" }
 enemy{ id = "newlink/tanekian_soldier_green", description = "Tanekian Soldier (green)" }
 enemy{ id = "newlink/tanekian_soldier_red", description = "Tanekian Soldier (red)" }

@@ -555,13 +555,8 @@ dialog{
   text = [[
 Tu as trouvé la
 Grande Clé ! Tu peux
-désormais ouvrir les
-portes spéciales et
-les grands coffres !
-
-Plus qu'à les
-retrouver,
-maintenant !
+désormais ouvrir le
+grand coffre !
 ]]
 }
 
@@ -668,8 +663,9 @@ dialog{
   icon = "74",
   text = [[
 Tu as trouvé la
-Clé du Maître ! Tu
-peux enfin rendre
+Clé du Maître !
+
+Tu peux enfin rendre
 visite au maître des
 lieux !
 ]]
@@ -2215,8 +2211,7 @@ une récompense !
 }
 
 dialog{
-  id = "dungeon_2.2f.casino_receptionnist_intro",
-  question = "1",
+  id = "dungeon_2.2f.casino_receptionnist",
   text = [[
 Vous êtes ici au
 Casino Grump.
@@ -2226,25 +2221,7 @@ exigée.
 
 Bon... on va dire que
 c'est ok.
-Le prix d'entrée est de
-50 rubis.
-Payer
-Pas question
-]]
-}
 
-dialog{
-  id = "dungeon_2.2f.casino_receptionnist_not_enough_money",
-  text = [[
-Désolé, les pauvres ne
-sont pas les bienvenus
-dans cet établissement.
-]]
-}
-
-dialog{
-  id = "dungeon_2.2f.casino_receptionnist_open",
-  text = [[
 Merci de ne pas toucher
 à la décoration de la
 salle.

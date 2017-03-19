@@ -5150,6 +5150,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_11",
   layer = 0,
   x = 88,
   y = 597,
@@ -5159,6 +5160,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_12",
   layer = 0,
   x = 184,
   y = 653,

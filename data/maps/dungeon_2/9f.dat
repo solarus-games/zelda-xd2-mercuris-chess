@@ -5000,8 +5000,8 @@ door{
   sprite = "entities/doors/door_d1_boss_key",
   savegame_variable = "dungeon_2_9f_boss_door",
   opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_big_key",
-  cannot_open_dialog = "big_key_required",
+  opening_condition = "dungeon_2_boss_key",
+  cannot_open_dialog = "boss_key_required",
 }
 
 door{
@@ -5013,7 +5013,7 @@ door{
   savegame_variable = "dungeon_2_9f_boss_door",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_2_boss_key",
-  cannot_open_dialog = "big_key_required",
+  cannot_open_dialog = "boss_key_required",
 }
 
 tile{

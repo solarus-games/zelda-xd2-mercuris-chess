@@ -7,4 +7,9 @@ local door_manager = require("scripts/maps/door_manager")
 door_manager:manage_map(map)
 
 local elevator_manager = require("scripts/maps/elevator_manager")
-elevator_manager:create_elevator(map, "elevator_b", 0, 8)
+elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
+
+function map:on_started()
+
+  map:set_doors_open("boss_door", true)
+end

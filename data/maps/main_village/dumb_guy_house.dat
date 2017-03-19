@@ -361,6 +361,15 @@ chest{
   sprite = "entities/chest",
 }
 
+enemy{
+  layer = 0,
+  x = 128,
+  y = 93,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 80,

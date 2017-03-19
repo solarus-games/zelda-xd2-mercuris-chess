@@ -9357,6 +9357,51 @@ teletransporter{
   destination = "_side",
 }
 
+enemy{
+  layer = 0,
+  x = 216,
+  y = 165,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 760,
+  y = 253,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 472,
+  y = 253,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 696,
+  y = 565,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 565,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 752,

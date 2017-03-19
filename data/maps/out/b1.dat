@@ -15374,6 +15374,33 @@ destructible{
   can_be_cut = true,
 }
 
+enemy{
+  layer = 0,
+  x = 320,
+  y = 269,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 776,
+  y = 757,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 720,
+  y = 877,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 624,

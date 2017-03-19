@@ -8107,6 +8107,7 @@ destructible{
 }
 
 enemy{
+  name = "auto_enemy_3",
   layer = 0,
   x = 216,
   y = 365,

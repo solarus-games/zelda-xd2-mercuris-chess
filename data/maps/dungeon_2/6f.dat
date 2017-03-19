@@ -5412,6 +5412,16 @@ tile{
 }
 
 wall{
+  name = "chess_fight_wall",
+  layer = 0,
+  x = 720,
+  y = 120,
+  width = 160,
+  height = 160,
+  stops_enemies = true,
+}
+
+wall{
   layer = 0,
   x = 736,
   y = 24,
@@ -5909,8 +5919,8 @@ dynamic_tile{
 enemy{
   name = "auto_enemy_6",
   layer = 0,
-  x = 808,
-  y = 245,
+  x = 776,
+  y = 261,
   direction = 0,
   breed = "chess/bishop_white",
 }
@@ -5918,8 +5928,8 @@ enemy{
 enemy{
   name = "auto_enemy_10",
   layer = 0,
-  x = 776,
-  y = 213,
+  x = 744,
+  y = 261,
   direction = 2,
   breed = "chess/rook_auto_white",
 }
@@ -5937,8 +5947,8 @@ destination{
 enemy{
   name = "auto_enemy_11",
   layer = 0,
-  x = 728,
-  y = 165,
+  x = 760,
+  y = 261,
   direction = 2,
   breed = "chess/knight_white",
 }
@@ -5946,8 +5956,8 @@ enemy{
 enemy{
   name = "auto_enemy_13",
   layer = 0,
-  x = 840,
-  y = 293,
+  x = 744,
+  y = 149,
   direction = 3,
   breed = "chess/rook_auto_black",
 }
@@ -5955,8 +5965,8 @@ enemy{
 enemy{
   name = "auto_enemy_7",
   layer = 0,
-  x = 744,
-  y = 261,
+  x = 776,
+  y = 149,
   direction = 0,
   breed = "chess/bishop_black",
 }
@@ -6000,10 +6010,82 @@ wall{
 enemy{
   name = "auto_enemy_12",
   layer = 0,
-  x = 856,
-  y = 181,
+  x = 760,
+  y = 149,
   direction = 2,
   breed = "chess/knight_black",
+}
+
+enemy{
+  name = "auto_enemy_14",
+  layer = 0,
+  x = 808,
+  y = 261,
+  direction = 2,
+  breed = "chess/king_white",
+}
+
+enemy{
+  name = "auto_enemy_15",
+  layer = 0,
+  x = 808,
+  y = 149,
+  direction = 2,
+  breed = "chess/king_black",
+}
+
+enemy{
+  name = "auto_enemy_16",
+  layer = 0,
+  x = 840,
+  y = 149,
+  direction = 2,
+  breed = "chess/knight_black",
+}
+
+enemy{
+  name = "auto_enemy_17",
+  layer = 0,
+  x = 840,
+  y = 261,
+  direction = 2,
+  breed = "chess/knight_white",
+}
+
+enemy{
+  name = "auto_enemy_8",
+  layer = 0,
+  x = 824,
+  y = 261,
+  direction = 0,
+  breed = "chess/bishop_white",
+}
+
+enemy{
+  name = "auto_enemy_9",
+  layer = 0,
+  x = 824,
+  y = 149,
+  direction = 0,
+  breed = "chess/bishop_black",
+}
+
+enemy{
+  name = "auto_enemy_18",
+  layer = 0,
+  x = 856,
+  y = 149,
+  direction = 0,
+  breed = "chess/rook_auto_black",
+}
+
+enemy{
+  name = "auto_enemy_19",
+  layer = 0,
+  x = 856,
+  y = 261,
+  direction = 1,
+  breed = "chess/rook_auto_white",
 }
 
 tile{

@@ -1,20 +1,8 @@
--- Lua script of enemy chess/knight_white.
--- This script is executed every time an enemy with this model is created.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation for the full specification
--- of types, events and methods:
--- http://www.solarus-games.org/doc/latest
-
 local enemy = ...
 local game = enemy:get_game()
 local map = enemy:get_map()
-local hero = map:get_hero()
 local sprite
 local movement
-local timer
 
 -- Legal knight movements.
 local jumps = {
@@ -50,7 +38,7 @@ function enemy:on_restarted()
   local dx, dy = unpack(jumps[index])
   local num_attempts = 1
 
-  while enemy:test_obstacles(dx, dy) do
+  while enemy:test_obstacles() or enemy:test_obstacles(dx, dy) do
     if num_attempts >= #jumps then
       -- No legal jump: just do nothing for now.
       sol.timer.start(enemy, 1000, function()

@@ -45,7 +45,8 @@ local function go()
   local num_attempts = 1
   while enemy:test_obstacles(dx, dy) do
     if num_attempts >= #jumps then
-      return true  -- No legal jump: just do nothing for now.
+      -- No legal jump: just do nothing for now.
+      sol.timer.start(enemy, 1000, go)
     end
     index = (index % #jumps) + 1
     dx, dy = unpack(jumps[index])

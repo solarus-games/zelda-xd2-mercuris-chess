@@ -2,8 +2,8 @@ local enemy = ...
 
 -- Snap Dragon.
 
-enemy:set_life(3)
-enemy:set_damage(4)
+enemy:set_life(6)
+enemy:set_damage(2)
 enemy:set_hurt_style("normal")
 enemy:set_size(16, 16)
 enemy:set_origin(8, 13)

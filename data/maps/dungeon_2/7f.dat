@@ -5155,8 +5155,8 @@ block{
 enemy{
   name = "auto_enemy_3",
   layer = 0,
-  x = 592,
-  y = 197,
+  x = 432,
+  y = 173,
   direction = 3,
   breed = "alttp/hardhat_beetle_blue",
   treasure_name = "random",
@@ -5165,8 +5165,8 @@ enemy{
 enemy{
   name = "auto_enemy_4",
   layer = 0,
-  x = 592,
-  y = 293,
+  x = 432,
+  y = 317,
   direction = 3,
   breed = "alttp/hardhat_beetle_red",
   treasure_name = "random",
@@ -5175,8 +5175,8 @@ enemy{
 enemy{
   name = "auto_enemy_5",
   layer = 0,
-  x = 688,
-  y = 293,
+  x = 848,
+  y = 317,
   direction = 3,
   breed = "alttp/hardhat_beetle_blue",
   treasure_name = "random",
@@ -5185,8 +5185,8 @@ enemy{
 enemy{
   name = "auto_enemy_7",
   layer = 0,
-  x = 688,
-  y = 197,
+  x = 848,
+  y = 173,
   direction = 3,
   breed = "alttp/hardhat_beetle_red",
   treasure_name = "random",

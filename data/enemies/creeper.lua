@@ -8,7 +8,7 @@ local going_hero = false
 function enemy:on_created()
 
   self:set_life(5)
-  self:set_damage(1)
+  self:set_damage(2)
   self:create_sprite("enemies/" .. enemy:get_breed())
   self:set_size(16, 16)
   self:set_origin(8, 13)

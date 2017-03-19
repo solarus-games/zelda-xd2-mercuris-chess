@@ -6626,25 +6626,23 @@ destructible{
 }
 
 block{
-  name = "queen_!",
   layer = 0,
   x = 152,
   y = 173,
   sprite = "enemies/chess/pawn_white",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{
-  name = "queen_!_2",
   layer = 0,
   x = 248,
   y = 173,
   sprite = "enemies/chess/pawn_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 dynamic_tile{
@@ -6945,8 +6943,8 @@ destructible{
 
 enemy{
   layer = 0,
-  x = 800,
-  y = 373,
+  x = 808,
+  y = 365,
   direction = 3,
   breed = "newlink/tanekian_soldier_red",
 }

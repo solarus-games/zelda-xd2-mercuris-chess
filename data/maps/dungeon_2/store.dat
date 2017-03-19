@@ -5198,7 +5198,7 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 88,
+  x = 120,
   y = 653,
   direction = 3,
   breed = "creeper",
@@ -5207,10 +5207,81 @@ enemy{
 
 enemy{
   layer = 0,
-  x = 24,
-  y = 685,
+  x = 88,
+  y = 621,
   direction = 0,
   breed = "la/vegas",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 693,
+  direction = 3,
+  breed = "newlink/cobruss",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 693,
+  direction = 3,
+  breed = "newlink/vipeross",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 789,
+  direction = 3,
+  breed = "newlink/tanekian_guard_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 741,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 741,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_green",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 96,
+  y = 741,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 789,
+  direction = 3,
+  breed = "newlink/tanekian_commander_yellow",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 88,
+  y = 653,
+  direction = 3,
+  breed = "alttp/flying_tile",
 }
 
 tile{

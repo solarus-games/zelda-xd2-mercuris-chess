@@ -120,6 +120,7 @@ sprite{ id = "enemies/dkc_barrel", description = "DKC barrel" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }
 sprite{ id = "enemies/la/vegas", description = "Vegas" }
 sprite{ id = "enemies/mc_pickaxe", description = "MC Pickaxe" }
+sprite{ id = "enemies/mr_grump", description = "Mr. Grump" }
 sprite{ id = "enemies/newlink/angry_zelda", description = "Angry Zelda" }
 sprite{ id = "enemies/newlink/bee_guard", description = "Bee Guard" }
 sprite{ id = "enemies/newlink/bee_guard_weapon", description = "Bee Guard sword" }
@@ -188,6 +189,7 @@ sprite{ id = "entities/block", description = "Block" }
 sprite{ id = "entities/bomb", description = "Bomb" }
 sprite{ id = "entities/boomerang1", description = "Boomerang 1" }
 sprite{ id = "entities/boomerang2", description = "Boomerang 2" }
+sprite{ id = "entities/bttf/delorean", description = "Delorean" }
 sprite{ id = "entities/bush", description = "Bush (from tileset)" }
 sprite{ id = "entities/bush_green", description = "Bush (green)" }
 sprite{ id = "entities/bush_purple", description = "Bush (purple)" }
@@ -195,7 +197,6 @@ sprite{ id = "entities/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
-sprite{ id = "entities/bttf/delorean", description = "Delorean" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/doors/door_d1_big_key", description = "Dungeon door (big key)" }
 sprite{ id = "entities/doors/door_d1_boss_key", description = "Dungeon door (boss key)" }

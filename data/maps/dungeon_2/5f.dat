@@ -6895,7 +6895,7 @@ enemy{
 }
 
 door{
-  name = "door_d_2",
+  name = "auto_door_d_2",
   layer = 0,
   x = 600,
   y = 112,
@@ -6906,7 +6906,7 @@ door{
 }
 
 door{
-  name = "door_d",
+  name = "auto_door_d",
   layer = 0,
   x = 664,
   y = 112,

@@ -402,7 +402,7 @@ enemy{
   x = 760,
   y = 349,
   direction = 3,
-  breed = "newlink/topik_blue",
+  breed = "newlink/tanekian_soldier_blue",
 }
 
 enemy{
@@ -410,7 +410,7 @@ enemy{
   x = 856,
   y = 397,
   direction = 3,
-  breed = "newlink/topik_green",
+  breed = "newlink/tanekian_soldier_green",
 }
 
 pickable{
@@ -6895,7 +6895,7 @@ enemy{
   x = 808,
   y = 669,
   direction = 3,
-  breed = "newlink/topik_blue",
+  breed = "newlink/tanekian_guard_red",
   treasure_name = "random",
 }
 
@@ -6904,7 +6904,7 @@ enemy{
   x = 888,
   y = 637,
   direction = 3,
-  breed = "newlink/topik_red",
+  breed = "newlink/tanekian_commander_yellow",
   treasure_name = "random",
 }
 
@@ -6948,7 +6948,7 @@ enemy{
   x = 800,
   y = 373,
   direction = 3,
-  breed = "newlink/topik_red",
+  breed = "newlink/tanekian_soldier_red",
 }
 
 teletransporter{

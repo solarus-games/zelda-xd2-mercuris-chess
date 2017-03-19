@@ -5152,6 +5152,67 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+enemy{
+  layer = 0,
+  x = 24,
+  y = 621,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 621,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 653,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 653,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  layer = 0,
+  x = 104,
+  y = 917,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 88,
+  y = 653,
+  direction = 3,
+  breed = "creeper",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 685,
+  direction = 0,
+  breed = "la/vegas",
+}
+
 tile{
   layer = 1,
   x = 40,

@@ -5944,15 +5944,6 @@ enemy{
 }
 
 enemy{
-  name = "auto_enemy_12",
-  layer = 0,
-  x = 856,
-  y = 197,
-  direction = 2,
-  breed = "chess/knight_black",
-}
-
-enemy{
   name = "auto_enemy_13",
   layer = 0,
   x = 840,
@@ -5973,9 +5964,9 @@ enemy{
 wall{
   layer = 0,
   x = 680,
-  y = 80,
+  y = 40,
   width = 240,
-  height = 8,
+  height = 48,
   stops_enemies = true,
 }
 
@@ -5984,7 +5975,7 @@ wall{
   x = 680,
   y = 312,
   width = 240,
-  height = 8,
+  height = 40,
   stops_enemies = true,
 }
 
@@ -6004,6 +5995,15 @@ wall{
   width = 8,
   height = 224,
   stops_enemies = true,
+}
+
+enemy{
+  name = "auto_enemy_12",
+  layer = 0,
+  x = 856,
+  y = 181,
+  direction = 2,
+  breed = "chess/knight_black",
 }
 
 tile{

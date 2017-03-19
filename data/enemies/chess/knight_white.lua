@@ -36,17 +36,27 @@ function enemy:on_created()
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_life(1)
   enemy:set_damage(1)
+  enemy:set_size(16, 16)
+  enemy:set_origin(8, 13)
+  enemy:set_invincible()
 end
 
-local function go()
+-- Event called when the enemy should start or restart its movements.
+-- This is called for example after the enemy is created or after
+-- it was hurt or immobilized.
+function enemy:on_restarted()
 
   local index = math.random(#jumps)
   local dx, dy = unpack(jumps[index])
   local num_attempts = 1
+
   while enemy:test_obstacles(dx, dy) do
     if num_attempts >= #jumps then
       -- No legal jump: just do nothing for now.
-      sol.timer.start(enemy, 1000, go)
+      sol.timer.start(enemy, 1000, function()
+        enemy:restart()
+      end)
+      return
     end
     index = (index % #jumps) + 1
     dx, dy = unpack(jumps[index])
@@ -57,13 +67,9 @@ local function go()
   movement = sol.movement.create("target")
   movement:set_target(x + dx, y + dy)
   movement:set_speed(96)
-  movement:start(enemy, go)
-end
-
--- Event called when the enemy should start or restart its movements.
--- This is called for example after the enemy is created or after
--- it was hurt or immobilized.
-function enemy:on_restarted()
-
-  go()
+  movement:set_smooth(false)
+  movement:set_ignore_obstacles(true)
+  movement:start(enemy, function()
+    enemy:restart()
+  end)
 end

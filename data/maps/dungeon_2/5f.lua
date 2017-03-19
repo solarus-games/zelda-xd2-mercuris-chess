@@ -42,7 +42,6 @@ local function get_num_correct_ice_knights()
       count = count + 1
     end
   end
-  print(count)
   return count
 end
 

@@ -6085,8 +6085,8 @@ teletransporter{
   y = 600,
   width = 16,
   height = 16,
-  destination_map = "dungeon_2/5f",
-  destination = "from_4f_nw",
+  destination_map = "dungeon_2/6f",
+  destination = "from_5f_s",
 }
 
 stairs{

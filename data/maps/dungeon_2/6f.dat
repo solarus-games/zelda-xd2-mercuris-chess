@@ -720,6 +720,51 @@ enemy{
 
 tile{
   layer = 0,
+  x = 360,
+  y = 520,
+  width = 240,
+  height = 160,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 520,
+  width = 240,
+  height = 160,
+  pattern = "2135",
+}
+
+tile{
+  layer = 0,
+  x = 520,
+  y = 520,
+  width = 80,
+  height = 8,
+  pattern = "wall_border.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 512,
+  width = 16,
+  height = 16,
+  pattern = "wall_diag.border.1-5",
+}
+
+tile{
+  layer = 0,
   x = 888,
   y = 16,
   width = 56,
@@ -904,24 +949,6 @@ tile{
   y = 104,
   width = 80,
   height = 96,
-  pattern = "2135",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 520,
-  width = 240,
-  height = 160,
-  pattern = "floor_low.13-1",
-}
-
-tile{
-  layer = 0,
-  x = 360,
-  y = 520,
-  width = 240,
-  height = 160,
   pattern = "2135",
 }
 
@@ -1424,7 +1451,7 @@ tile{
   layer = 0,
   x = 360,
   y = 520,
-  width = 240,
+  width = 80,
   height = 8,
   pattern = "wall_border.1-5",
 }
@@ -5661,7 +5688,7 @@ npc{
 }
 
 destination{
-  name = "from_4f_nw",
+  name = "from_5f_s",
   layer = 0,
   x = 480,
   y = 621,

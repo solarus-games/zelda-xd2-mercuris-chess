@@ -661,6 +661,20 @@ destructible{
   damage_on_enemies = 2,
 }
 
+door{
+  name = "door_c",
+  layer = -1,
+  x = 472,
+  y = 560,
+  direction = 1,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_7f_door_c",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
+}
+
 tile{
   layer = 0,
   x = 456,
@@ -5321,20 +5335,6 @@ jumper{
   height = 16,
   direction = 4,
   jump_length = 40,
-}
-
-door{
-  name = "door_c",
-  layer = 0,
-  x = 472,
-  y = 560,
-  direction = 1,
-  sprite = "entities/doors/door_d1_small_key",
-  savegame_variable = "dungeon_2_7f_door_c",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
-  cannot_open_dialog = "small_key_required",
 }
 
 dynamic_tile{

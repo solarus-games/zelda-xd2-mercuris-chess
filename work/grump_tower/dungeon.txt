@@ -16,12 +16,12 @@ Small keys:
 7) 2F, under chess statue
 8) 2F, under chess statue
 9) 3F, chest in the north room (kitchen path)
-10) 3F, chest in the north room (kitchen path and elevator A)
-11) 5F, kill an enemy in the north-west room
+10) 3F, 6 rooks puzzle in the south room (kitchen path and elevator A)
+11) 5F, kill an enemy in the north-west room (kitchen path)
 12) 5F, chest in the south-east room (fall from above, after elevator B)
-13) 5F, ice knights puzzle
-14) 7F, chest in the north-west room (kill enemies)
-15) 8F, end of the G corridor
+13) 5F, ice knights puzzle (after elevator B)
+14) 7F, kill enemies in the north-west room, (after elevator B)
+15) 8F, end of the G corridor (after elevator B)
 
 Locked doors:
 1) 1F, entrance
@@ -30,7 +30,15 @@ Locked doors:
 4) 2F, to north-east room
 5) 2F, to north-west room
 6) 2F, north room stairs
-7) 7F, west room
+7) 4F, to north room
+8) 4F, to north-east room
+9) 5F, stairs to 6F (miniboss)
+10) 6F, to center room (miniboss)
+11) 6F, to north-west room
+12) 7F, west room
+13) 7F, stairs to 8F (boss key)
+14) 7F, to south-east room (piece of hearts with lots of statues)
+15) 9F, to south room (boss)
 
 Big key: After the mini-boss.
 
@@ -49,3 +57,4 @@ Pieces of heart:
 2) 6F, 8 queens puzzle: dungeon_2_6f_8_queens_puzzle_piece_of_heart
 3) 4F, east room after weak wall: dungeon_2_4f_e_piece_of_heart
 4) 7F, chest in the statues room after elevator B: dungeon_2_7f_se_piece_of_heart_chest
+

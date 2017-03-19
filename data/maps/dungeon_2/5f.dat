@@ -6812,7 +6812,7 @@ chest{
   layer = 0,
   x = 784,
   y = 573,
-  treasure_name = "small_key",
+  treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_2_5f_se_key_chest",
   sprite = "entities/chest",
 }
@@ -7066,7 +7066,7 @@ chest{
   layer = 0,
   x = 392,
   y = 125,
-  treasure_name = "small_key",
+  treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_2_5f_n_key_chest",
   sprite = "entities/chest",
 }

@@ -5846,6 +5846,7 @@ door{
   y = 64,
   direction = 0,
   sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_6f_door_d",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
@@ -5858,6 +5859,7 @@ door{
   y = 64,
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_6f_door_d",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_2_small_keys",
   opening_condition_consumed = true,
@@ -6600,24 +6602,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 56,
-  y = 216,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2-5",
-}
-
-tile{
-  layer = 1,
-  x = 56,
-  y = 256,
-  width = 32,
-  height = 8,
-  pattern = "door_top.1-5",
-}
-
-tile{
-  layer = 1,
   x = 296,
   y = 24,
   width = 8,
@@ -6731,6 +6715,24 @@ tile{
   width = 32,
   height = 24,
   pattern = "stain_glass.wide.1.top",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 256,
+  width = 32,
+  height = 8,
+  pattern = "door_top.1-5",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 216,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
 }
 
 dynamic_tile{

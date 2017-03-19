@@ -27,14 +27,14 @@ local chest_game_rewards = {
   { "creeper", 1 },
   { "creeper", 1 },
   { "creeper", 1 },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
-  { "small_key", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
+  { "small_key_brandished", 1, "dungeon_2_2f_chest_game_key" },
 }
 chest_game_manager:create_chest_game(map, "chest_game", 20, chest_game_rewards)
 
@@ -119,7 +119,7 @@ local function vegas_on_immobilized(enemy)
 
     -- Give the reward.
     sol.audio.play_sound("secret")
-    local treasure_name, treasure_variant, treasure_savegame_variable = "small_key", 1, "dungeon_2_2f_vegas_key"
+    local treasure_name, treasure_variant, treasure_savegame_variable = "small_key_brandished", 1, "dungeon_2_2f_vegas_key"
     if game:get_value(treasure_savegame_variable) then
       -- Already got the small key: give rupees instead.
       treasure_name, treasure_variant, treasure_savegame_variable = "rupee", 3, nil

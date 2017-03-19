@@ -1318,6 +1318,15 @@ npc{
 
 tile{
   layer = 0,
+  x = 680,
+  y = 40,
+  width = 8,
+  height = 400,
+  pattern = "wall_border.3-5",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 648,
   width = 56,
@@ -2367,15 +2376,6 @@ tile{
   width = 208,
   height = 8,
   pattern = "wall_border.1-5",
-}
-
-tile{
-  layer = 0,
-  x = 680,
-  y = 40,
-  width = 8,
-  height = 400,
-  pattern = "wall_border.3-5",
 }
 
 tile{
@@ -4808,6 +4808,24 @@ tile{
   pattern = "wall_pillar.2-3",
 }
 
+door{
+  name = "boss_door",
+  layer = 0,
+  x = 312,
+  y = 440,
+  direction = 3,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "boss_door_2",
+  layer = 0,
+  x = 312,
+  y = 504,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+}
+
 wall{
   layer = 0,
   x = 736,
@@ -4946,6 +4964,56 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+door{
+  layer = 0,
+  x = 792,
+  y = 440,
+  direction = 3,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_9f_door_a",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
+}
+
+door{
+  layer = 0,
+  x = 792,
+  y = 504,
+  direction = 1,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_2_9f_door_a",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_small_keys",
+  opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
+}
+
+door{
+  layer = 0,
+  x = 312,
+  y = 440,
+  direction = 3,
+  sprite = "entities/doors/door_d1_boss_key",
+  savegame_variable = "dungeon_2_9f_boss_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_big_key",
+  cannot_open_dialog = "big_key_required",
+}
+
+door{
+  layer = 0,
+  x = 312,
+  y = 504,
+  direction = 1,
+  sprite = "entities/doors/door_d1_boss_key",
+  savegame_variable = "dungeon_2_9f_boss_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_2_boss_key",
+  cannot_open_dialog = "big_key_required",
 }
 
 tile{

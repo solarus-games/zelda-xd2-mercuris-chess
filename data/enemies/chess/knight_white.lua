@@ -14,6 +14,19 @@ local map = enemy:get_map()
 local hero = map:get_hero()
 local sprite
 local movement
+local timer
+
+-- Legal knight movements.
+local jumps = {
+  {  32, -16 },
+  {  16, -32 },
+  { -16, -32 },
+  { -32, -16 },
+  { -32,  16 },
+  { -16,  32 },
+  {  16,  32 },
+  {  32,  16 },
+}
 
 -- Event called when the enemy is initialized.
 function enemy:on_created()
@@ -25,9 +38,31 @@ function enemy:on_created()
   enemy:set_damage(1)
 end
 
+local function go()
+
+  local index = math.random(#jumps)
+  local dx, dy = unpack(jumps[index])
+  local num_attempts = 1
+  while enemy:test_obstacles(dx, dy) do
+    if num_attempts >= #jumps then
+      return true  -- No legal jump: just do nothing for now.
+    end
+    index = (index % #jumps) + 1
+    dx, dy = unpack(jumps[index])
+    num_attempts = num_attempts + 1
+  end
+
+  local x, y = enemy:get_position()
+  movement = sol.movement.create("target")
+  movement:set_target(x + dx, y + dy)
+  movement:set_speed(96)
+  movement:start(enemy, go)
+end
+
 -- Event called when the enemy should start or restart its movements.
 -- This is called for example after the enemy is created or after
 -- it was hurt or immobilized.
 function enemy:on_restarted()
 
+  go()
 end

@@ -2623,8 +2623,6 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_2f_casino_door",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -2635,8 +2633,6 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_2f_casino_door",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -2683,8 +2679,6 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_2f_casino_door",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -2695,8 +2689,6 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_2f_casino_door",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -3434,8 +3426,6 @@ door{
   y = 528,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -7854,8 +7844,6 @@ door{
   y = 24,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 sensor{

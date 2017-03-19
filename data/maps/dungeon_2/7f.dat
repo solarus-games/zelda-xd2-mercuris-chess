@@ -1206,8 +1206,6 @@ door{
   y = 592,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -1217,8 +1215,6 @@ door{
   y = 592,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 enemy{
@@ -3983,8 +3979,6 @@ door{
   y = 24,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 sensor{
@@ -4928,8 +4922,6 @@ door{
   y = 112,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -4939,8 +4931,6 @@ door{
   y = 112,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 sensor{

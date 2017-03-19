@@ -692,8 +692,6 @@ door{
   y = 304,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -702,8 +700,6 @@ door{
   y = 304,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -736,8 +732,6 @@ door{
   y = 384,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -746,8 +740,6 @@ door{
   y = 496,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 tile{
@@ -5197,8 +5189,6 @@ door{
   y = 384,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -5207,8 +5197,6 @@ door{
   y = 448,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -5347,8 +5335,6 @@ door{
   y = 304,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -5357,8 +5343,6 @@ door{
   y = 304,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 custom_entity{
@@ -5414,8 +5398,6 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d1_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -5425,8 +5407,6 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_weak_wall",
   opening_method = "explosion",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 dynamic_tile{

@@ -6060,8 +6060,6 @@ door{
   y = 24,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 sensor{
@@ -6171,8 +6169,6 @@ door{
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_5f_door_b",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -6183,8 +6179,6 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_5f_door_b",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -6219,8 +6213,6 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_5f_door_b",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -6231,8 +6223,6 @@ door{
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_5f_door_b",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -6290,8 +6280,6 @@ door{
   y = 440,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -6301,8 +6289,6 @@ door{
   y = 504,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 wall{
@@ -6892,8 +6878,6 @@ door{
   y = 112,
   direction = 0,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 door{
@@ -6903,8 +6887,6 @@ door{
   y = 112,
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
-  opening_condition = "dungeon_2_small_keys",
-  opening_condition_consumed = true,
 }
 
 enemy{

@@ -1309,11 +1309,11 @@ stairs{
 npc{
   name = "grump",
   layer = -1,
-  x = 264,
+  x = 272,
   y = 85,
   direction = 3,
   subtype = 1,
-  sprite = "enemies/newlink/globul",
+  sprite = "enemies/mr_grump",
 }
 
 tile{

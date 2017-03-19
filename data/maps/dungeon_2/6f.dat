@@ -6088,6 +6088,24 @@ enemy{
   breed = "chess/rook_auto_white",
 }
 
+enemy{
+  name = "auto_enemy_20",
+  layer = 0,
+  x = 792,
+  y = 149,
+  direction = 2,
+  breed = "chess/queen_black",
+}
+
+enemy{
+  name = "auto_enemy_21",
+  layer = 0,
+  x = 792,
+  y = 261,
+  direction = 2,
+  breed = "chess/queen_white",
+}
+
 tile{
   layer = 1,
   x = 696,

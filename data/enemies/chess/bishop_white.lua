@@ -1,4 +1,5 @@
 local enemy = ...
+local game = enemy:get_game()
 
 local last_direction8 = 0
 
@@ -6,8 +7,8 @@ function enemy:on_created()
 
   enemy:set_life(1)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_size(8, 8)
-  enemy:set_origin(4, 4)
+  enemy:set_size(16, 16)
+  enemy:set_origin(8, 13)
   enemy:set_can_hurt_hero_running(true)
   enemy:set_invincible()
 end
@@ -16,10 +17,10 @@ end
 function enemy:on_restarted()
 
   local direction8 = math.random(4) * 2 - 1
-  self:go(direction8)
+  enemy:go(direction8)
 end
 
--- An obstacle is reached: make the Bubble bounce.
+-- An obstacle is reached: bounce.
 function enemy:on_obstacle_reached()
 
   local dxy = {
@@ -39,12 +40,12 @@ function enemy:on_obstacle_reached()
   local try2 = (last_direction8 + 6) % 8
   local try3 = (last_direction8 + 4) % 8
 
-  if not self:test_obstacles(dxy[try1 + 1].x, dxy[try1 + 1].y) then
-    self:go(try1)
-  elseif not self:test_obstacles(dxy[try2 + 1].x, dxy[try2 + 1].y) then
-    self:go(try2)
+  if not enemy:test_obstacles(dxy[try1 + 1].x, dxy[try1 + 1].y) then
+    enemy:go(try1)
+  elseif not enemy:test_obstacles(dxy[try2 + 1].x, dxy[try2 + 1].y) then
+    enemy:go(try2)
   else
-    self:go(try3)
+    enemy:go(try3)
   end
 end
 
@@ -55,13 +56,12 @@ function enemy:go(direction8)
   m:set_speed(80)
   m:set_smooth(false)
   m:set_angle(direction8 * math.pi / 4)
-  m:start(self)
+  m:start(enemy)
   last_direction8 = direction8
 end
 
 -- Bubbles have a specific attack that drains magic.
 function enemy:on_attacking_hero(hero)
-  local game = enemy:get_game()
 
   -- In any case, we do the hurt animation as usual
   hero:start_hurt(enemy, 2)

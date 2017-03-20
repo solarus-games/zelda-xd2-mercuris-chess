@@ -17,21 +17,9 @@ door_manager:manage_map(map)
 
 local water_delay = 500
 
-local function camera_intro()
-  map:get_hero():freeze()
-  local camera = map:get_entity("intro_camera")
-  local camera_movement = sol.movement.create("straight")
-  map:get_camera():start_tracking(camera)
-  camera_movement:start(map:get_entity("intro_camera"))
-  camera_movement:set_angle(3 * math.pi / 2)
-  camera_movement:set_ignore_obstacles(true)
-end
-
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
-  if game:get_value("dungeon_1_camera_intro_played") ~= true then
-    camera_intro()
-  end
+
 end
 
 -- Event called after the opening transition effect of the map,

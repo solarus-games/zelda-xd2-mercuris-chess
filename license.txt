@@ -95,6 +95,7 @@ musics/bulby/*.ogg                                  Bulby: https://www.youtube.c
 musics/oclero/la_link_is_awake.ogg                  Olivier Cléro
 musics/shield/*.spc                                 Shield
 
+sprites/enemies/oclero/chicken_giant.png            Olivier Cléro
 sprites/entities/la_beach/la_background.png         Olivier Cléro
 sprites/entities/la_beach/la_swell.png              Olivier Cléro
 sprites/entities/la_beach/la_wreck.png              Olivier Cléro

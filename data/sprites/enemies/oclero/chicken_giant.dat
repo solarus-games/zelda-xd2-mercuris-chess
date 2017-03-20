@@ -1,0 +1,46 @@
+animation{
+  name = "walking",
+  src_image = "enemies/oclero/chicken_giant.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+    { x = 0, y = 128, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+    { x = 0, y = 256, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+    { x = 0, y = 384, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/oclero/chicken_giant.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 256, y = 0, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 3 },
+    { x = 256, y = 128, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 3 },
+    { x = 256, y = 256, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 3 },
+    { x = 256, y = 384, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 3 },
+  },
+}
+animation{
+  name = "immobilized",
+  src_image = "enemies/oclero/chicken_giant.png",
+  directions = {
+    { x = 512, y = 0, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125 },
+    { x = 512, y = 128, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125 },
+    { x = 512, y = 256, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125 },
+    { x = 512, y = 384, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/oclero/chicken_giant.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 512, y = 0, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+    { x = 512, y = 128, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+    { x = 512, y = 256, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+    { x = 512, y = 384, frame_width = 128, frame_height = 128, origin_x = 64, origin_y = 125, num_frames = 2 },
+  },
+}

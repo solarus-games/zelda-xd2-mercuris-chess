@@ -180,6 +180,7 @@ sprite{ id = "enemies/newlink/zoura_green", description = "Zoura (green)" }
 sprite{ id = "enemies/newlink/zoura_green_weapon", description = "Zoura Sword (green)" }
 sprite{ id = "enemies/newlink/zoura_red", description = "Zoura (red)" }
 sprite{ id = "enemies/newlink/zoura_red_weapon", description = "Zoura Spear (red)" }
+sprite{ id = "enemies/oclero/chicken_giant", description = "Giant Chicken" }
 sprite{ id = "enemies/smb_block", description = "SMB block" }
 sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
@@ -671,6 +672,7 @@ enemy{ id = "newlink/vipeross", description = "Vipeross" }
 enemy{ id = "newlink/zoura_blue", description = "Zoura (blue)" }
 enemy{ id = "newlink/zoura_green", description = "Zoura (green)" }
 enemy{ id = "newlink/zoura_red", description = "Zoura (red)" }
+enemy{ id = "oclero/chicken_giant", description = "Giant chicken" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hookable", description = "Hookable" }

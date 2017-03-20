@@ -4808,6 +4808,15 @@ tile{
   pattern = "wall_pillar.2-3",
 }
 
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 0,
+  x = 744,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
 door{
   name = "boss_door",
   layer = 0,
@@ -5014,6 +5023,42 @@ door{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_2_boss_key",
   cannot_open_dialog = "boss_key_required",
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 320,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 800,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_1",
+  layer = 0,
+  x = 800,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_2",
+  layer = 0,
+  x = 320,
+  y = 493,
+  width = 16,
+  height = 16,
 }
 
 tile{

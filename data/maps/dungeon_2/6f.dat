@@ -479,6 +479,15 @@ tile{
   pattern = "door.1.support.2-1",
 }
 
+sensor{
+  name = "dungeon_room_7_1",
+  layer = -1,
+  x = 800,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
 dynamic_tile{
   name = "weak_floor_a_closed",
   layer = -1,
@@ -716,6 +725,15 @@ enemy{
   y = 637,
   direction = 3,
   breed = "alttp/medusa",
+}
+
+sensor{
+  name = "dungeon_room_3_2",
+  layer = -1,
+  x = 800,
+  y = 477,
+  width = 16,
+  height = 16,
 }
 
 tile{
@@ -5515,6 +5533,42 @@ tile{
   pattern = "floor_pot",
 }
 
+sensor{
+  name = "dungeon_room_6_2",
+  layer = 0,
+  x = 480,
+  y = 629,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_2",
+  layer = 0,
+  x = 232,
+  y = 285,
+  width = 16,
+  height = 16,
+}
+
+wall{
+  layer = 0,
+  x = 680,
+  y = 40,
+  width = 240,
+  height = 48,
+  stops_enemies = true,
+}
+
+sensor{
+  name = "dungeon_room_3_1",
+  layer = 0,
+  x = 744,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
 door{
   name = "miniboss_door_3",
   layer = 0,
@@ -6062,15 +6116,6 @@ enemy{
 wall{
   layer = 0,
   x = 680,
-  y = 40,
-  width = 240,
-  height = 48,
-  stops_enemies = true,
-}
-
-wall{
-  layer = 0,
-  x = 680,
   y = 312,
   width = 240,
   height = 40,
@@ -6579,6 +6624,78 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 72,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_2",
+  layer = 0,
+  x = 312,
+  y = 77,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 0,
+  x = 328,
+  y = 77,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 480,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_1",
+  layer = 0,
+  x = 72,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_1",
+  layer = 0,
+  x = 480,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_2",
+  layer = 0,
+  x = 480,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_1",
+  layer = 0,
+  x = 480,
+  y = 493,
+  width = 16,
+  height = 16,
 }
 
 tile{

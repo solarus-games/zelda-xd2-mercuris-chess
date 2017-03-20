@@ -745,6 +745,24 @@ enemy{
   treasure_name = "random",
 }
 
+sensor{
+  name = "dungeon_room_1_3",
+  layer = -1,
+  x = 312,
+  y = 149,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = -1,
+  x = 328,
+  y = 149,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 0,
   x = 680,
@@ -5470,6 +5488,51 @@ tile{
   pattern = "torch_big.bottom",
 }
 
+sensor{
+  name = "dungeon_room_7_3",
+  layer = 0,
+  x = 800,
+  y = 525,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_3",
+  layer = 0,
+  x = 240,
+  y = 525,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_4",
+  layer = 0,
+  x = 160,
+  y = 285,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 400,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_2",
+  layer = 0,
+  x = 160,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
 destination{
   name = "from_4f_se",
   layer = 0,
@@ -6579,6 +6642,150 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 72,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_3",
+  layer = 0,
+  x = 480,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_4",
+  layer = 0,
+  x = 880,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_1",
+  layer = 0,
+  x = 72,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_2",
+  layer = 0,
+  x = 72,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_3",
+  layer = 0,
+  x = 312,
+  y = 317,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_1",
+  layer = 0,
+  x = 328,
+  y = 317,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_2",
+  layer = 0,
+  x = 480,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_3",
+  layer = 0,
+  x = 632,
+  y = 397,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_1",
+  layer = 0,
+  x = 648,
+  y = 397,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_2",
+  layer = 0,
+  x = 880,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_3",
+  layer = 0,
+  x = 880,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_1",
+  layer = 0,
+  x = 72,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_2",
+  layer = 0,
+  x = 312,
+  y = 589,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_1",
+  layer = 0,
+  x = 328,
+  y = 589,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_2",
+  layer = 0,
+  x = 880,
+  y = 493,
+  width = 16,
+  height = 16,
 }
 
 tile{

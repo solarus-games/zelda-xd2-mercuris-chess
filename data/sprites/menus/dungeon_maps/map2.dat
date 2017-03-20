@@ -3,18 +3,15 @@ animation{
   src_image = "menus/dungeon_maps/map2.png",
   directions = {
     { x = 0, y = 0, frame_width = 123, frame_height = 119, origin_x = 0, origin_y = 0 },
-    { x = 0, y = 134, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -15 },
-    { x = 41, y = 134, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -15 },
+    { x = 0, y = 134, frame_width = 82, frame_height = 31, origin_x = 0, origin_y = -15 },
     { x = 82, y = 134, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -15 },
     { x = 0, y = 165, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -46 },
-    { x = 41, y = 165, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -46 },
+    { x = 41, y = 165, frame_width = 41, frame_height = 62, origin_x = -41, origin_y = -46 },
     { x = 82, y = 165, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -46 },
     { x = 0, y = 196, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -77 },
-    { x = 41, y = 196, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -77 },
     { x = 82, y = 196, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -77 },
   },
 }
-
 animation{
   name = "1",
   src_image = "menus/dungeon_maps/map2.png",
@@ -31,7 +28,6 @@ animation{
     { x = 205, y = 196, frame_width = 41, frame_height = 31, origin_x = -205, origin_y = -77 },
   },
 }
-
 animation{
   name = "2",
   src_image = "menus/dungeon_maps/map2.png",
@@ -48,7 +44,6 @@ animation{
     { x = 328, y = 196, frame_width = 41, frame_height = 31, origin_x = -328, origin_y = -77 },
   },
 }
-
 animation{
   name = "3",
   src_image = "menus/dungeon_maps/map2.png",
@@ -65,7 +60,6 @@ animation{
     { x = 451, y = 196, frame_width = 41, frame_height = 31, origin_x = -451, origin_y = -77 },
   },
 }
-
 animation{
   name = "4",
   src_image = "menus/dungeon_maps/map2.png",
@@ -82,7 +76,6 @@ animation{
     { x = 574, y = 196, frame_width = 41, frame_height = 31, origin_x = -574, origin_y = -77 },
   },
 }
-
 animation{
   name = "5",
   src_image = "menus/dungeon_maps/map2.png",
@@ -99,7 +92,6 @@ animation{
     { x = 697, y = 196, frame_width = 41, frame_height = 31, origin_x = -697, origin_y = -77 },
   },
 }
-
 animation{
   name = "6",
   src_image = "menus/dungeon_maps/map2.png",
@@ -116,7 +108,6 @@ animation{
     { x = 820, y = 196, frame_width = 41, frame_height = 31, origin_x = -820, origin_y = -77 },
   },
 }
-
 animation{
   name = "7",
   src_image = "menus/dungeon_maps/map2.png",
@@ -133,7 +124,6 @@ animation{
     { x = 943, y = 196, frame_width = 41, frame_height = 31, origin_x = -943, origin_y = -77 },
   },
 }
-
 animation{
   name = "8",
   src_image = "menus/dungeon_maps/map2.png",
@@ -150,4 +140,3 @@ animation{
     { x = 1066, y = 196, frame_width = 41, frame_height = 31, origin_x = -1066, origin_y = -77 },
   },
 }
-

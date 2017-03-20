@@ -596,6 +596,15 @@ tile{
   pattern = "wall_low_border.1-5",
 }
 
+sensor{
+  name = "dungeon_room_1_2",
+  layer = -1,
+  x = 480,
+  y = 581,
+  width = 16,
+  height = 16,
+}
+
 destination{
   name = "from_7f_s",
   layer = -1,
@@ -4948,6 +4957,15 @@ tile{
   width = 32,
   height = 32,
   pattern = "floor_boss-10",
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 744,
+  y = 45,
+  width = 16,
+  height = 16,
 }
 
 dynamic_tile{

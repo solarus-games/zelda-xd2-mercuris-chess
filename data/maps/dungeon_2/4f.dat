@@ -4014,7 +4014,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
+  x = 88,
   y = 24,
   width = 8,
   height = 16,
@@ -4023,7 +4023,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 120,
+  x = 112,
   y = 24,
   width = 8,
   height = 16,
@@ -4032,7 +4032,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
+  x = 96,
   y = 24,
   width = 16,
   height = 16,
@@ -4041,7 +4041,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 208,
+  x = 200,
   y = 24,
   width = 8,
   height = 16,
@@ -4050,7 +4050,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
+  x = 224,
   y = 24,
   width = 8,
   height = 16,
@@ -4059,7 +4059,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 216,
+  x = 208,
   y = 24,
   width = 16,
   height = 16,
@@ -4752,7 +4752,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
+  x = 128,
   y = 16,
   width = 64,
   height = 24,
@@ -5797,7 +5797,7 @@ sensor{
 sensor{
   name = "dungeon_room_1_1",
   layer = 0,
-  x = 112,
+  x = 104,
   y = 45,
   width = 16,
   height = 16,
@@ -6527,14 +6527,14 @@ wall{
 destination{
   name = "from_3f_nw",
   layer = 0,
-  x = 112,
+  x = 104,
   y = 37,
   direction = 1,
 }
 
 teletransporter{
   layer = 0,
-  x = 104,
+  x = 96,
   y = 24,
   width = 16,
   height = 16,
@@ -6544,7 +6544,7 @@ teletransporter{
 
 stairs{
   layer = 0,
-  x = 104,
+  x = 96,
   y = 24,
   direction = 1,
   subtype = 1,
@@ -6553,7 +6553,7 @@ stairs{
 destination{
   name = "from_5f_nw",
   layer = 0,
-  x = 224,
+  x = 216,
   y = 37,
   direction = 1,
 }
@@ -6935,7 +6935,7 @@ enemy{
 
 teletransporter{
   layer = 0,
-  x = 216,
+  x = 208,
   y = 24,
   width = 16,
   height = 16,
@@ -6945,7 +6945,7 @@ teletransporter{
 
 stairs{
   layer = 0,
-  x = 216,
+  x = 208,
   y = 24,
   direction = 1,
   subtype = 0,
@@ -7799,7 +7799,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 96,
+  x = 88,
   y = 16,
   width = 32,
   height = 8,
@@ -7808,7 +7808,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 104,
+  x = 96,
   y = 16,
   width = 16,
   height = 8,
@@ -7826,7 +7826,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 208,
+  x = 200,
   y = 16,
   width = 32,
   height = 8,
@@ -7835,7 +7835,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 216,
+  x = 208,
   y = 16,
   width = 16,
   height = 8,

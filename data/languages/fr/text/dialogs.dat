@@ -1052,10 +1052,9 @@ dialog{
   text = [[
 Tu as trouvé la
 Plume !$0 Utilise-la
-pour sauter et
-franchir des
-obstacles ! Ou au
-moins essayer !
+pour sauter...
+Ah ? Tu l'as déjà ?
+Dommage...!
 ]]
 }
 
@@ -1151,11 +1150,11 @@ dialog{
   next = "_warning_magic",
   text = [[
 Tu as trouvé la
-Lanterne !$0 Elle
-t'éclaire dans le
-noir et te permet
-d'allumer des
-braseros.
+Lanterne !$0 Bah
+oui je trouvais
+que ça manquait
+un peu de lumière
+ici.
 ]]
 }
 

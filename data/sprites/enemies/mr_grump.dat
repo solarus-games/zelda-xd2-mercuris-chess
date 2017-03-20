@@ -30,6 +30,17 @@ animation{
   },
 }
 animation{
+  name = "hit",
+  src_image = "enemies/mr_grump.png",
+  frame_delay = 300,
+  directions = {
+    { x = 0, y = 560, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
+    { x = 80, y = 560, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
+    { x = 160, y = 560, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
+    { x = 240, y = 560, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
+  },
+}
+animation{
   name = "loading",
   src_image = "enemies/mr_grump.png",
   frame_delay = 100,

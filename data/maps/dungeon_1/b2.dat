@@ -5,7 +5,7 @@ properties{
   height = 720,
   min_layer = -1,
   max_layer = 2,
-  tileset = "dungeon/blue",
+  tileset = "dungeon/gold",
   music = "alttp/dark_world_dungeon",
 }
 

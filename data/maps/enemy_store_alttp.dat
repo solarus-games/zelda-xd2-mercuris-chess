@@ -274,12 +274,3 @@ enemy{
   treasure_name = "random",
 }
 
-enemy{
-  layer = 0,
-  x = 80,
-  y = 469,
-  direction = 3,
-  breed = "oclero/chicken_giant",
-  treasure_name = "random",
-}
-

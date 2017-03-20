@@ -21,11 +21,8 @@ animation{
     { x = 164, y = 134, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -15 },
     { x = 205, y = 134, frame_width = 41, frame_height = 31, origin_x = -81, origin_y = -15 },
     { x = 123, y = 165, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -46 },
-    { x = 164, y = 165, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -46 },
-    { x = 205, y = 165, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -46 },
+    { x = 164, y = 165, frame_width = 82, frame_height = 62, origin_x = -41, origin_y = -46 },
     { x = 123, y = 196, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -77 },
-    { x = 164, y = 196, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -77 },
-    { x = 205, y = 196, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -77 },
   },
 }
 animation{
@@ -34,8 +31,7 @@ animation{
   directions = {
     { x = 246, y = 0, frame_width = 123, frame_height = 119, origin_x = 0, origin_y = 0 },
     { x = 246, y = 134, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -15 },
-    { x = 287, y = 134, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -15 },
-    { x = 328, y = 134, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -15 },
+    { x = 287, y = 134, frame_width = 82, frame_height = 31, origin_x = -41, origin_y = -15 },
     { x = 246, y = 165, frame_width = 41, frame_height = 31, origin_x = 0, origin_y = -46 },
     { x = 287, y = 165, frame_width = 41, frame_height = 31, origin_x = -41, origin_y = -46 },
     { x = 328, y = 165, frame_width = 41, frame_height = 31, origin_x = -82, origin_y = -46 },

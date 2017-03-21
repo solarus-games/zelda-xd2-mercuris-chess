@@ -154,9 +154,23 @@ end
 
 function enemy:on_hurt(attack)
 
-  if attack == "script" then
-    -- Hurt by his own rupee.
-    sol.audio.play_sound("sonic_rings_lost")
+  if attack ~= "script" then
+    return
+  end
+
+  -- Hurt by his own rupee.
+  sol.audio.play_sound("sonic_rings_lost")
+  local x, y, layer = enemy:get_position()
+  for i = 1, 3 + math.random(7) do
+    sol.timer.start(enemy, math.random(200), function()
+      map:create_pickable({
+        x = x + math.random(64) - 32,
+        y = y + math.random(64) - 32,
+        layer = layer,
+        treasure_name = "rupee",
+        treasure_variant = math.random(3),
+      })
+    end)
   end
 end
 
@@ -171,5 +185,5 @@ function enemy:on_collision_enemy(other_enemy)
   end
 
   local value = other_enemy:get_money_value()
-  enemy:hurt(5)
+  enemy:hurt(5)  -- Remove more life that with the sword.
 end

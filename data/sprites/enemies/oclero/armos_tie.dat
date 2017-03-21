@@ -22,3 +22,14 @@ animation{
     { x = 192, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45, num_frames = 3 },
   },
 }
+animation{
+  name = "stopped",
+  src_image = "enemies/oclero/armos_tie.png",
+  frame_delay = 50,
+  directions = {
+    { x = 256, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
+    { x = 256, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
+    { x = 256, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
+    { x = 256, y = 0, frame_width = 32, frame_height = 48, origin_x = 16, origin_y = 45 },
+  },
+}

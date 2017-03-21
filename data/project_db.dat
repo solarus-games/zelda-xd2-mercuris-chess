@@ -95,6 +95,9 @@ sprite{ id = "enemies/alttp/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/alttp/pike_detect", description = "Pike (moves near hero)" }
 sprite{ id = "enemies/alttp/pike_fixed", description = "Pike (never moving)" }
 sprite{ id = "enemies/alttp/ropa", description = "Ropa" }
+sprite{ id = "enemies/alttp/rupee_blue", description = "Rupee (blue)" }
+sprite{ id = "enemies/alttp/rupee_green", description = "Rupee (green)" }
+sprite{ id = "enemies/alttp/rupee_red", description = "Rupee (red)" }
 sprite{ id = "enemies/alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 sprite{ id = "enemies/alttp/snap_dragon", description = "Snap Dragon" }
 sprite{ id = "enemies/alttp/tentacle", description = "Tentacle" }

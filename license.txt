@@ -114,6 +114,8 @@ sprites/the_doctor.png                              Rockfootdude
 sprites/entities/bttf/delorean.png                  Olivier Cléro
 sprites/npc/bttf/doc_emmett_brown.png               Olivier Cléro
 sprites/npc/bttf/marty_mcfly.png                    Olivier Cléro
+tileset/tardis.entities.png                         DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
+tileset/tardis.tiles.png                            DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
 
 Files that include content from Nintendo:
 -----------------------------------------

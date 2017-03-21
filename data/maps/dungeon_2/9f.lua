@@ -45,7 +45,7 @@ function grump_npc:on_interaction()
 
       -- The boss is close to the hero, don't attack too quickly.
       boss:set_can_attack(false)
-      sol.timer.start(boss, 500, function()
+      sol.timer.start(map, 500, function()
         boss:set_can_attack(true)
       end)
 

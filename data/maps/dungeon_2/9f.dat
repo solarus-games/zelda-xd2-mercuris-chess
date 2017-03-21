@@ -1442,17 +1442,6 @@ custom_entity{
 }
 
 custom_entity{
-  name = "low_wall_6",
-  layer = -1,
-  x = 312,
-  y = 117,
-  width = 32,
-  height = 24,
-  direction = 0,
-  model = "low_wall",
-}
-
-custom_entity{
   name = "path_finding_target_6",
   layer = -1,
   x = 112,

@@ -716,7 +716,7 @@ enemy{
   x = 872,
   y = 637,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{
@@ -724,7 +724,7 @@ enemy{
   x = 728,
   y = 637,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 sensor{

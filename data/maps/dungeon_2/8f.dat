@@ -5106,7 +5106,7 @@ enemy{
   x = 72,
   y = 141,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{
@@ -5114,7 +5114,7 @@ enemy{
   x = 136,
   y = 77,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{
@@ -5248,7 +5248,7 @@ enemy{
   x = 824,
   y = 653,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{
@@ -5256,7 +5256,7 @@ enemy{
   x = 792,
   y = 557,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{
@@ -5264,7 +5264,7 @@ enemy{
   x = 888,
   y = 589,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{

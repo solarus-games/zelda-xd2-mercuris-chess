@@ -3558,16 +3558,6 @@ wall{
   stops_blocks = true,
 }
 
-destination{
-  name = "destination",
-  layer = -1,
-  x = 456,
-  y = 557,
-  direction = 1,
-  starting_location_mode = "yes",
-  default = true,
-}
-
 destructible{
   name = "auto_destructible_22",
   layer = -1,
@@ -8104,7 +8094,7 @@ enemy{
   x = 160,
   y = 125,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 teletransporter{
@@ -8261,6 +8251,16 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 64,
+  y = 165,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{

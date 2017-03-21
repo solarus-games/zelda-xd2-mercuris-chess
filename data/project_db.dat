@@ -91,6 +91,7 @@ sprite{ id = "enemies/alttp/hardhat_beetle_red", description = "Hardhat Beetle (
 sprite{ id = "enemies/alttp/helmasaur_red", description = "Helmasaur (red)" }
 sprite{ id = "enemies/alttp/laser", description = "Laser" }
 sprite{ id = "enemies/alttp/medusa", description = "Medusa" }
+sprite{ id = "enemies/alttp/medusa_rupees", description = "Medusa (with rupees)" }
 sprite{ id = "enemies/alttp/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/alttp/pike_detect", description = "Pike (moves near hero)" }
 sprite{ id = "enemies/alttp/pike_fixed", description = "Pike (never moving)" }
@@ -616,10 +617,14 @@ enemy{ id = "alttp/hardhat_beetle_red", description = "Hardhat Beetle (red)" }
 enemy{ id = "alttp/helmasaur_red", description = "Helmasaur (red)" }
 enemy{ id = "alttp/laser", description = "Laser" }
 enemy{ id = "alttp/medusa", description = "Medusa" }
+enemy{ id = "alttp/medusa_rupees", description = "Medusa (with rupees)" }
 enemy{ id = "alttp/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "alttp/pike_detect", description = "Pike (moves near hero)" }
 enemy{ id = "alttp/pike_fixed", description = "Pike (never moving)" }
 enemy{ id = "alttp/ropa", description = "Ropa" }
+enemy{ id = "alttp/rupee_blue", description = "Rupee (blue)" }
+enemy{ id = "alttp/rupee_green", description = "Rupee (green)" }
+enemy{ id = "alttp/rupee_red", description = "Rupee (red)" }
 enemy{ id = "alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "alttp/tentacle", description = "Tentacle" }

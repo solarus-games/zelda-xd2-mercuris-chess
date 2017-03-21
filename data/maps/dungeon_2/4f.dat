@@ -6671,7 +6671,7 @@ enemy{
   x = 96,
   y = 125,
   direction = 3,
-  breed = "alttp/medusa",
+  breed = "alttp/medusa_rupees",
 }
 
 enemy{

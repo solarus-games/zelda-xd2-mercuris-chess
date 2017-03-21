@@ -39,7 +39,7 @@ function enemy:on_restarted()
       end
 
       children[#children + 1] = enemy:create_enemy({
-        breed = "alttp/fireball_small_triple_red",
+        breed = enemy:get_projectile_breed(),
       })
     end
     return true  -- Repeat the timer.
@@ -61,4 +61,8 @@ function enemy:on_removed()
   for _, child in ipairs(children) do
     child:remove()
   end
+end
+
+function enemy:get_projectile_breed()
+  return "alttp/fireball_small_triple_red"
 end

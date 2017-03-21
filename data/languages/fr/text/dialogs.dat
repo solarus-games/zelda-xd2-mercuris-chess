@@ -2363,6 +2363,21 @@ l'ennemi !!!
 }
 
 dialog{
+  id = "dungeon_2.9f.boss_start",
+  text = [[
+Ahhhh !$0
+Gardes ! Sécurité !
+Au secours !$0
+Qu'est ce que tu me
+veux, au juste ?
+
+Tu veux ma fortune ?
+Tiens, j'en ai trop !
+Prends ça et dégage !
+]]
+}
+
+dialog{
   id = "dungeon_2.welcome",
   text = [[
        Niveau 2

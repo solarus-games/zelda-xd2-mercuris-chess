@@ -1307,7 +1307,7 @@ stairs{
 }
 
 npc{
-  name = "grump",
+  name = "grump_npc",
   layer = -1,
   x = 272,
   y = 85,
@@ -5057,6 +5057,15 @@ sensor{
   layer = 0,
   x = 320,
   y = 493,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "start_boss_sensor",
+  layer = 0,
+  x = 320,
+  y = 437,
   width = 16,
   height = 16,
 }

@@ -12,7 +12,7 @@ local last_target
 local children = {}
 local initial_life = 300
 
-local state  -- "running_away", "throwing"
+local state  -- "running_away", "shooting"
 
 function enemy:on_created()
 

@@ -6,6 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   world = "dungeon_1",
+  floor = 1,
   tileset = "dungeon/gold",
   music = "alttp/agahnim",
 }

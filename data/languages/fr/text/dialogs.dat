@@ -1147,7 +1147,7 @@ inacessibles !
 dialog{
   id = "_treasure.lamp.1",
   icon = "5",
-  next = "_warning_magic",
+  next = "warning_magic",
   text = [[
 Tu as trouvé la
 Lanterne !$0 Bah
@@ -1998,6 +1998,20 @@ Mia-mia-miaou.
 }
 
 dialog{
+  id = "dungeon_1.1f.julien_dore",
+  text = [[
+T'aimer sur les bords
+du lac.
+Ton coeur sur mon corps
+qui respire.
+Pourvu que les hommes
+nous regardent.
+Amoureux de l'ombre
+et du pire.
+]]
+}
+
+dialog{
   id = "dungeon_1.1f.pool_grandma",
   text = [[
 Oh mes aïeux !
@@ -2018,7 +2032,7 @@ dialog{
   id = "dungeon_1.welcome",
   text = [[
        Niveau 1
-      Le Château
+     Château doré
 ]]
 }
 

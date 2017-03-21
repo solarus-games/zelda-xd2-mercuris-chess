@@ -11,14 +11,21 @@ local function initialize_dungeon_features(game)
   local dungeons_info = {
 
     [1] = {
-      floor_width = 1280,  -- TODO
-      floor_height = 960,
-      lowest_floor = -1,
+      floor_width = 1920,
+      floor_height = 720,
+      lowest_floor = -2,
       highest_floor = 1,
       maps = {
+        "dungeon_1/b2",
         "dungeon_1/b1",
         "dungeon_1/1f",
         "dungeon_1/2f",
+      },
+      boss = {
+        floor = -2,
+        savegame_variable = "dungeon_1_boss",
+        x = 320,
+        y = 240,
       },
     },
 

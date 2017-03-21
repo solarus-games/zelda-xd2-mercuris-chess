@@ -5,3 +5,24 @@ animation{
     { x = 0, y = 0, frame_width = 123, frame_height = 119, origin_x = 0, origin_y = 0 },
   },
 }
+animation{
+  name = "-1",
+  src_image = "menus/dungeon_maps/map1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+animation{
+  name = "-2",
+  src_image = "menus/dungeon_maps/map1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}
+animation{
+  name = "1",
+  src_image = "menus/dungeon_maps/map1.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 8 },
+  },
+}

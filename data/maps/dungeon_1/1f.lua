@@ -30,6 +30,18 @@ function map:on_opening_transition_finished(destination)
   end
 end
 
+function mario_voice_1:on_interaction()
+  sol.audio.play_sound("mk64_mario_yeah")
+end
+
+function mario_voice_2:on_interaction()
+  sol.audio.play_sound("sm64_heehee")
+end
+
+function mario_voice_3:on_interaction()
+  sol.audio.play_sound("sm64_memario")
+end
+
 -- Pool switch mechanism
 -- The switch fills up the champagne swimming pool
 function pool_switch:on_activated()

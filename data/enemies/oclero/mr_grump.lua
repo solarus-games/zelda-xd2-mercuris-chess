@@ -18,7 +18,7 @@ function enemy:on_created()
 
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_life(initial_life)
-  enemy:set_damage(2)
+  enemy:set_damage(4)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_hurt_style("boss")
@@ -87,7 +87,7 @@ function enemy:start_state_running_away()
   state = "running_away"
   sol.timer.stop_all(enemy)
   sprite:set_animation("walking")
-  enemy:set_invincible()
+  enemy:set_attack_consequence("sword", "protected")
   searching_timer = nil
 
   enemy:run_away()
@@ -102,10 +102,10 @@ function enemy:start_state_running_away()
   sol.timer.start(enemy, 50, function()
 
     local n = math.random(100)
-    if n <= 3 and enemy:can_charge() then
+    if n <= 1 and enemy:can_charge() then
       enemy:start_state_charging()
       return false
-    elseif n <= 8 then
+    elseif n <= 6 then
       enemy:start_state_shooting()
       return false
     end

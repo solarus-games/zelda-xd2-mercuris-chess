@@ -11,7 +11,8 @@ local path_finding_targets = {}
 local last_target
 local initial_life = 300
 
-local state  -- "running_away", "shooting"
+-- TODO is this used?
+local state  -- "running_away", "shooting" or "charging"
 
 function enemy:on_created()
 
@@ -97,7 +98,10 @@ function enemy:start_state_running_away()
   sol.timer.start(enemy, 50, function()
 
     local n = math.random(100)
-    if n >= 95 then
+    if n <= 3 and enemy:can_charge() then
+      enemy:start_state_charging()
+      return false
+    elseif n <= 8 then
       enemy:start_state_shooting()
       return false
     end
@@ -109,8 +113,8 @@ function enemy:start_state_shooting()
 
   state = "shooting"
   sol.timer.stop_all(enemy)
-
   enemy:stop_movement()
+
   sprite:set_direction(enemy:get_direction4_to(hero))
   sprite:set_animation("throwing", function()
     enemy:shoot_rupee()
@@ -150,6 +154,69 @@ function enemy:shoot_rupee()
   end
 end
 
+-- Returns whether Grump can charge towards the hero without hitting obstacles.
+function enemy:can_charge()
+
+  local enemy_x, enemy_y = enemy:get_position()
+  local hero_x, hero_y = hero:get_position()
+  local dx, dy = hero_x - enemy_x, hero_y - enemy_y
+
+  -- Sample on 20 positions on the path.
+  local num_samples = 20
+  for i = 1, num_samples do
+    if enemy:test_obstacles(i * dx / num_samples, i * dy / num_samples) then
+      return false
+    end
+  end
+
+  return true
+end
+
+function enemy:start_state_charging()
+
+  -- TODO only if the path is clear
+  state = "charging"
+  sol.timer.stop_all(enemy)
+  enemy:stop_movement()
+
+  sol.audio.play_sound("boss_charge")
+  sprite:set_direction(enemy:get_direction4_to(hero))
+  sprite:set_animation("loading")
+  sol.timer.start(enemy, 1000, function()
+    sprite:set_animation("attack_ready", function()
+      sprite:set_animation("attacking")
+      movement = sol.movement.create("straight")
+      movement:set_smooth(false)
+      movement:set_angle(enemy:get_angle(hero))
+      movement:set_max_distance(enemy:get_distance(hero) + 120)
+      movement:set_speed(128)
+
+      local running_sound_timer = sol.timer.start(enemy, 150, function()
+        sol.audio.play_sound("running")
+        return true
+      end)
+
+      local running_timeout_timer = sol.timer.start(enemy, 3000, function()
+        enemy:restart()
+      end)
+
+      function movement:on_obstacle_reached()
+        sol.audio.play_sound("running_obstacle")
+        sprite:set_animation("hit")
+        running_timeout_timer:stop()
+        running_sound_timer:stop()
+        enemy:stop_movement()
+        -- TODO
+      end
+
+      movement:start(enemy, function()
+        -- Max distance reached.
+        enemy:restart()
+      end)
+    end)
+  end)
+end
+
 function enemy:on_hurt(attack)
 
   if attack ~= "script" then
@@ -187,5 +254,5 @@ function enemy:on_collision_enemy(other_enemy)
   end
 
   local value = other_enemy:get_money_value()
-  enemy:hurt(5)  -- Remove more life that with the sword.
+  enemy:hurt(5)
 end

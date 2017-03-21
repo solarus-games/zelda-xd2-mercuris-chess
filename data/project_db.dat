@@ -8,6 +8,7 @@ map{ id = "chill_valley/l_house", description = "L House" }
 map{ id = "chill_valley/o_house", description = "O House" }
 map{ id = "chill_valley/s_house", description = "S House" }
 map{ id = "chill_valley/t_house", description = "T house" }
+map{ id = "chill_valley/tardis", description = "Tardis" }
 map{ id = "chill_valley/z_house", description = "Z House" }
 map{ id = "desert_village/desert_east_house", description = "Desert East House" }
 map{ id = "desert_village/desert_small_house", description = "Desert Small House" }
@@ -69,6 +70,7 @@ tileset{ id = "house_legacy", description = "House (legacy)" }
 tileset{ id = "la_beach", description = "Link's Awakening beach SNES style" }
 tileset{ id = "light_world_legacy", description = "Light World (legacy)" }
 tileset{ id = "outside", description = "Outside" }
+tileset{ id = "tardis", description = "Tardis" }
 
 sprite{ id = "console/cursor", description = "Console cursor" }
 sprite{ id = "console/icons", description = "Console icons" }
@@ -535,6 +537,7 @@ sound{ id = "sword_spin_attack_release_3", description = "sword_spin_attack_rele
 sound{ id = "sword_spin_attack_release_4", description = "sword_spin_attack_release_4" }
 sound{ id = "sword_tapping", description = "sword_tapping" }
 sound{ id = "sword_tapping_weak_wall", description = "sword_tapping_weak_wall" }
+sound{ id = "tardis", description = "Tardis" }
 sound{ id = "throw", description = "throw" }
 sound{ id = "timer", description = "timer" }
 sound{ id = "timer_hurry", description = "timer_hurry" }

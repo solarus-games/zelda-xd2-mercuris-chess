@@ -5110,17 +5110,6 @@ teletransporter{
 }
 
 npc{
-  name = "the_doctor",
-  layer = 0,
-  x = 496,
-  y = 309,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/the_doctor",
-  behavior = "dialog#chill_valley.doctor",
-}
-
-npc{
   name = "unmoving_old_man",
   layer = 0,
   x = 200,

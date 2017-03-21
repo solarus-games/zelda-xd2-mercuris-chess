@@ -12,7 +12,7 @@ local eyeglass_dialog_done = false
 local searching_timer
 local initial_life = 300
 
-local state  -- "running_away", "shooting", "charging" or "searching"
+local state  -- "running_away", "shooting", "charging", "searching", "finished"
 
 function enemy:on_created()
 
@@ -37,6 +37,8 @@ function enemy:on_restarted()
 
   if state == "searching" then
     enemy:start_state_searching()
+  elseif state == "finished" then
+    enemy:start_state_finished()
   else
     enemy:start_state_running_away()
   end
@@ -245,7 +247,7 @@ function enemy:start_state_searching()
     searching_timer = sol.timer.start(map, 3000, function()
       -- This state and timer persist when the enemy is hurt.
 
-      if enemy:get_life() <= 0 then
+      if enemy:get_life() <= 0 or state == "finished" then
         return
       end
 
@@ -261,7 +263,65 @@ function enemy:start_state_searching()
   end
 end
 
+-- Explosion of rupees that replaces the usual explosion animations.
+function enemy:start_state_finished()
+
+  state = "finished"
+  sol.timer.stop_all(enemy)
+  enemy:stop_movement()
+  enemy:set_invincible()
+  enemy:set_can_attack(false)
+  sprite:set_animation("hurt")
+
+  sol.timer.start(enemy, 3000, function()
+    local num_explosions = 20
+    sol.timer.start(enemy, 150, function()
+      sol.audio.play_sound("explosion")
+
+      for i = 1, 21 - num_explosions do
+        local n = math.random(3)
+        local sprite_id = "enemies/rupee_green"
+        if n == 2 then
+          sprite_id = "enemies/rupee_blue"
+        elseif n == 3 then
+          sprite_id = "enemies/rupee_red"
+        end
+
+        local x, y, layer = enemy:get_position()
+        local rupee = map:create_custom_entity({
+          x = x,
+          y = y - 5,
+          layer = layer,
+          width = 16,
+          height = 16,
+          direction = 0,
+          sprite = sprite_id,
+        })
+        local movement = sol.movement.create("straight")
+        movement:set_ignore_obstacles(true)
+        movement:set_max_distance(320)
+        movement:set_angle(math.random() * 2 * math.pi)
+        movement:set_speed(320)
+        movement:start(rupee, function()
+          rupee:remove()
+        end)
+      end
+
+      num_explosions = num_explosions - 1
+      return num_explosions > 0
+    end)
+  end)
+end
+
 function enemy:on_hurt(attack)
+
+  if enemy:get_life() <= 0 then
+    -- Ending animation.
+    enemy:set_life(1)
+    enemy:set_invincible()
+    enemy:start_state_finished()
+    return
+  end
 
   if attack == "sword" then
     -- Hurt by the sword while searching the eyeglass.

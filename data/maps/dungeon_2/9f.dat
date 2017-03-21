@@ -1327,7 +1327,7 @@ enemy{
 }
 
 destination{
-  name = "destination",
+  name = "boss_debug_destination",
   layer = -1,
   x = 240,
   y = 85,

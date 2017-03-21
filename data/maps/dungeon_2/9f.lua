@@ -11,7 +11,11 @@ elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
 local fighting_boss = false
 
-function map:on_started()
+function map:on_started(destination)
+
+  if destination == boss_debug_destination then
+    boss:set_life(1)
+  end
 
   map:set_doors_open("boss_door", true)
   boss:set_enabled(false)

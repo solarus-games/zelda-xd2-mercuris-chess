@@ -10,7 +10,7 @@ local movement
 local path_finding_targets = {}
 local last_target
 local children = {}
-local initial_life = 120
+local initial_life = 300
 
 local state  -- "running_away", "throwing"
 
@@ -21,6 +21,7 @@ function enemy:on_created()
   enemy:set_damage(2)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
+  enemy:set_hurt_style("boss")
   enemy:set_invincible()
   enemy:set_attack_consequence("sword", "protected")
   enemy:set_attack_consequence("arrow", "protected")

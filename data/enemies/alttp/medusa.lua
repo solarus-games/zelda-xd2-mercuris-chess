@@ -27,10 +27,12 @@ function enemy:on_restarted()
     if not enemy.shooting then
       return true
     end
+
+    local projectile_breed, projectile_sound = enemy:get_projectile_breed_and_sound()
     if enemy:get_distance(hero) < 500 and enemy:is_in_same_region(hero) then
 
       if not map.medusa_recent_sound then
-        sol.audio.play_sound("zora")
+        sol.audio.play_sound(projectile_sound)
         -- Avoid loudy simultaneous sounds if there are several medusa.
         map.medusa_recent_sound = true
         sol.timer.start(map, 200, function()
@@ -39,7 +41,7 @@ function enemy:on_restarted()
       end
 
       children[#children + 1] = enemy:create_enemy({
-        breed = enemy:get_projectile_breed(),
+        breed = projectile_breed,
       })
     end
     return true  -- Repeat the timer.
@@ -63,6 +65,6 @@ function enemy:on_removed()
   end
 end
 
-function enemy:get_projectile_breed()
-  return "alttp/fireball_small_triple_red"
+function enemy:get_projectile_breed_and_sound()
+  return "alttp/fireball_small_triple_red", "zora"
 end

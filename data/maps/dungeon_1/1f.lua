@@ -42,6 +42,25 @@ function mario_voice_3:on_interaction()
   sol.audio.play_sound("sm64_memario")
 end
 
+function mario_switch_1:on_activated()
+  map:get_entity("mario_reset_switch"):set_activated(false)
+end
+
+function mario_switch_2:on_activated()
+  map:get_entity("mario_reset_switch"):set_activated(false)
+end
+
+function mario_switch_3:on_activated()
+  map:get_entity("mario_reset_switch"):set_activated(false)
+end
+
+function mario_reset_switch:on_activated()
+  local switches = map:get_entities("mario_switch")
+  for switch in switches do
+    switch:set_activated(false)
+  end
+end
+
 -- Pool switch mechanism
 -- The switch fills up the champagne swimming pool
 function pool_switch:on_activated()
@@ -61,6 +80,11 @@ function pool_switch:on_activated()
     water_tile_index = water_tile_index - 1
     return true
   end)
+end
+
+function library_door_switch:on_activated()
+  map:set_doors_open("library_door")
+  sol.audio.play("door_open")
 end
 
 -- River switch mechanism

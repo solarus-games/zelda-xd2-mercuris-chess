@@ -7616,9 +7616,9 @@ tile{
 tile{
   layer = 0,
   x = 488,
-  y = 128,
+  y = 136,
   width = 8,
-  height = 56,
+  height = 48,
   pattern = "carpet.6",
 }
 
@@ -8250,6 +8250,141 @@ tile{
   width = 16,
   height = 32,
   pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 288,
+  width = 16,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 296,
+  width = 8,
+  height = 48,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 464,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 368,
+  width = 112,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 344,
+  width = 88,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 296,
+  width = 8,
+  height = 72,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 352,
+  width = 8,
+  height = 16,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 472,
+  y = 296,
+  width = 16,
+  height = 72,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 0,
+  x = 376,
+  y = 352,
+  width = 96,
+  height = 16,
+  pattern = "carpet.5",
 }
 
 chest{
@@ -9386,6 +9521,7 @@ switch{
   y = 288,
   subtype = "walkable",
   sprite = "entities/switches/switch",
+  sound = "switch",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -9408,34 +9544,13 @@ npc{
 }
 
 switch{
-  name = "library_door_switch_2",
-  layer = 0,
-  x = 472,
-  y = 392,
-  subtype = "walkable",
-  sprite = "entities/switches/switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
-switch{
-  name = "library_door_switch_3",
-  layer = 0,
-  x = 424,
-  y = 392,
-  subtype = "walkable",
-  sprite = "entities/switches/switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
-switch{
-  name = "library_door_switch_4",
+  name = "mario_switch_1",
   layer = 0,
   x = 520,
   y = 392,
-  subtype = "walkable",
-  sprite = "entities/switches/switch",
+  subtype = "solid",
+  sprite = "entities/switches/solid_switch",
+  sound = "mk64_mario_yeah",
   needs_block = false,
   inactivate_when_leaving = false,
 }
@@ -9465,6 +9580,130 @@ npc{
   y = 37,
   direction = 3,
   subtype = 0,
+}
+
+switch{
+  name = "mario_switch_2",
+  layer = 0,
+  x = 424,
+  y = 392,
+  subtype = "solid",
+  sprite = "entities/switches/solid_switch",
+  sound = "sm64_heehee",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "mario_switch_3",
+  layer = 0,
+  x = 472,
+  y = 392,
+  subtype = "solid",
+  sprite = "entities/switches/solid_switch",
+  sound = "sm64_memario",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+switch{
+  name = "mario_reset_switch",
+  layer = 0,
+  x = 520,
+  y = 312,
+  subtype = "walkable",
+  sprite = "entities/switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 61,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 189,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 584,
+  y = 429,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 429,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 376,
+  y = 301,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
 }
 
 tile{
@@ -10100,6 +10339,7 @@ separator{
 }
 
 door{
+  name = "library_door",
   layer = 2,
   x = 1816,
   y = 264,

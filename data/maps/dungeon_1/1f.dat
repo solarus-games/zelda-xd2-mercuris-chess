@@ -7959,6 +7959,7 @@ chest{
   x = 160,
   y = 645,
   treasure_name = "big_key",
+  treasure_savegame_variable = "dungeon_1_big_key",
   sprite = "entities/chest",
 }
 
@@ -9002,16 +9003,6 @@ dynamic_tile{
   width = 128,
   height = 16,
   enabled_at_start = false,
-}
-
-custom_entity{
-  name = "intro_camera",
-  layer = 0,
-  x = 960,
-  y = 93,
-  width = 16,
-  height = 16,
-  direction = 0,
 }
 
 destructible{

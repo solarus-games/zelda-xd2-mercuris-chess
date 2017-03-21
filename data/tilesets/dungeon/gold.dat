@@ -19246,6 +19246,46 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "2716",
+  ground = "hole",
+  default_layer = 0,
+  x = 712,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2717",
+  ground = "hole",
+  default_layer = 0,
+  x = 704,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2718",
+  ground = "hole",
+  default_layer = 0,
+  x = 696,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2719",
+  ground = "hole",
+  default_layer = 0,
+  x = 688,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
   id = "272",
   ground = "empty",
   default_layer = 2,
@@ -19254,6 +19294,56 @@ tile_pattern{
   width = 8,
   height = 16,
   repeat_mode = "none",
+}
+
+tile_pattern{
+  id = "2720",
+  ground = "hole",
+  default_layer = 0,
+  x = 680,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2721",
+  ground = "hole",
+  default_layer = 0,
+  x = 672,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2722",
+  ground = "hole",
+  default_layer = 0,
+  x = 664,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2723",
+  ground = "hole",
+  default_layer = 0,
+  x = 656,
+  y = 912,
+  width = 8,
+  height = 8,
+}
+
+tile_pattern{
+  id = "2724",
+  ground = "hole",
+  default_layer = 0,
+  x = 648,
+  y = 912,
+  width = 8,
+  height = 8,
 }
 
 tile_pattern{

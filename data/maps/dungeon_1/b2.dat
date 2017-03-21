@@ -74,6 +74,15 @@ tile{
 
 tile{
   layer = 0,
+  x = 704,
+  y = 64,
+  width = 512,
+  height = 328,
+  pattern = "2719",
+}
+
+tile{
+  layer = 0,
   x = 1192,
   y = 328,
   width = 48,
@@ -5094,6 +5103,24 @@ tile{
   pattern = "ice_semi-solid",
 }
 
+tile{
+  layer = 0,
+  x = 360,
+  y = 288,
+  width = 8,
+  height = 384,
+  pattern = "wall_border.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 288,
+  width = 224,
+  height = 384,
+  pattern = "floor.cracked.5-1",
+}
+
 stairs{
   layer = 0,
   x = 736,
@@ -5423,6 +5450,7 @@ chest{
   x = 1440,
   y = 485,
   treasure_name = "feather",
+  treasure_savegame_variable = "dungeon_1_feather",
   sprite = "entities/chest",
 }
 
@@ -5431,6 +5459,7 @@ chest{
   x = 1504,
   y = 125,
   treasure_name = "map",
+  treasure_savegame_variable = "dungeon_1_map",
   sprite = "entities/chest",
 }
 
@@ -5453,6 +5482,7 @@ chest{
   layer = 0,
   x = 1040,
   y = 125,
+  treasure_savegame_variable = "dungeon_1_empty_chest_1",
   sprite = "entities/chest",
 }
 
@@ -5461,6 +5491,7 @@ chest{
   x = 480,
   y = 125,
   treasure_name = "lamp",
+  treasure_savegame_variable = "dungeon_1_lamp",
   sprite = "entities/chest",
 }
 

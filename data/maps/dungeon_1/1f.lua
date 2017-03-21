@@ -30,15 +30,6 @@ function map:on_opening_transition_finished(destination)
   end
 end
 
-function intro_camera:on_position_changed(x, y)
-  if (y >= 376) then
-    map:get_camera():start_tracking(map:get_hero())
-    map:get_hero():unfreeze()
-    map:remove_entities("intro_camera")
-    game:set_value("dungeon_1_camera_intro_played", true)
-  end
-end
-
 -- Pool switch mechanism
 -- The switch fills up the champagne swimming pool
 function pool_switch:on_activated()

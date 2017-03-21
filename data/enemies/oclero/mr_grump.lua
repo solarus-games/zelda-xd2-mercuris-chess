@@ -273,6 +273,10 @@ function enemy:start_state_finished()
   enemy:set_can_attack(false)
   sprite:set_animation("hurt")
 
+  local x, y, layer = enemy:get_position()
+  local hero_x = hero:get_position()
+  sprite:set_direction(hero_x > x and 0 or 2)  -- Look right or left.
+
   sol.timer.start(enemy, 3000, function()
     local num_explosions = 20
     sol.timer.start(enemy, 150, function()
@@ -287,7 +291,6 @@ function enemy:start_state_finished()
           sprite_id = "enemies/rupee_red"
         end
 
-        local x, y, layer = enemy:get_position()
         local rupee = map:create_custom_entity({
           x = x,
           y = y - 5,

@@ -68,8 +68,9 @@ function enemy:run_away()
     -- Wrong configuration of the room.
     return
   end
-  last_target = best_targets[math.random(#best_targets)]
-  enemy:run_to_target(last_target)
+  local target = best_targets[math.random(#best_targets)]
+  --last_target = target
+  enemy:run_to_target(target)
 end
 
 -- Moves toward the given target.
@@ -88,6 +89,7 @@ function enemy:start_state_running_away()
   state = "running_away"
   sol.timer.stop_all(enemy)
   enemy:set_vulnerable(true)
+  sprite:set_animation("walking")
 
   if last_target ~= nil then
     enemy:run_to_target(last_target)
@@ -102,15 +104,10 @@ function enemy:start_state_running_away()
   end)
 
   -- Attack sometimes.
-  sol.timer.start(enemy, 500, function()
+  sol.timer.start(enemy, 50, function()
 
-    if sprite:get_animation() ~= "walking" then
-      -- Not the appropriate time: try again later.
-      return true
-    end
-
-    local n = math.random(10)
-    if n >= 6 then
+    local n = math.random(100)
+    if n >= 95 then
       enemy:start_state_shooting()
       return false
     end
@@ -128,6 +125,7 @@ function enemy:start_state_shooting()
   sprite:set_direction(enemy:get_direction4_to(hero))
   sprite:set_animation("throwing", function()
     enemy:shoot_rupee()
+    enemy:start_state_running_away()
   end)
 end
 
@@ -142,8 +140,36 @@ function enemy:shoot_rupee()
     projectile_breed = "alttp/rupee_red"
   end
 
-  sol.audio.play_sound("rupee_counter")
-  children[#children + 1] = enemy:create_enemy({
+  sol.audio.play_sound("throw")
+  local rupee = enemy:create_enemy({
     breed = projectile_breed,
   })
+
+  rupee.can_attack_grump = false
+  sol.timer.start(rupee, 500, function()
+    rupee.can_attack_grump = true
+  end)
+  children[#children + 1] = rupee
+end
+
+function enemy:on_hurt(attack)
+
+  if attack == "script" then
+    -- Hurt by his own rupee.
+    sol.audio.play_sound("sonic_rings_lost")
+  end
+end
+
+function enemy:on_collision_enemy(other_enemy)
+
+  if other_enemy.get_money_value == nil then
+    return
+  end
+
+  if not other_enemy.can_attack_grump then
+    return
+  end
+
+  local value = other_enemy:get_money_value()
+  enemy:hurt(5)
 end

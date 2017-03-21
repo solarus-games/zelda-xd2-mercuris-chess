@@ -60,14 +60,8 @@ function enemy:on_custom_attack_received(attack, sprite)
       return
     end
 
-    local old_angle = movement:get_angle()
-    local angle
-    local hero_direction = hero:get_direction()
-    if hero_direction == 0 or hero_direction == 2 then
-      angle = math.pi - old_angle
-    else
-      angle = 2 * math.pi - old_angle
-    end
+    local hero_x, hero_y = hero:get_position()
+    local angle = enemy:get_angle(hero_x, hero_y - 5) + math.pi
 
     go(angle)
     sol.audio.play_sound("enemy_hurt")

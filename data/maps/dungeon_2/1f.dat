@@ -5150,7 +5150,7 @@ tile{
   layer = 0,
   x = 688,
   y = 144,
-  width = 24,
+  width = 40,
   height = 8,
   pattern = "hole.2.jump",
 }
@@ -7117,6 +7117,19 @@ tile{
   pattern = "floor_pot",
 }
 
+wall{
+  layer = 0,
+  x = 696,
+  y = 168,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 sensor{
   name = "dungeon_room_5_3",
   layer = 0,
@@ -7142,29 +7155,6 @@ sensor{
   y = 285,
   width = 16,
   height = 16,
-}
-
-custom_entity{
-  layer = 0,
-  x = 704,
-  y = 181,
-  width = 32,
-  height = 16,
-  direction = 0,
-  model = "hookable",
-}
-
-wall{
-  layer = 0,
-  x = 696,
-  y = 168,
-  width = 32,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 destructible{
@@ -8357,6 +8347,26 @@ sensor{
   y = 605,
   width = 16,
   height = 16,
+}
+
+custom_entity{
+  layer = 0,
+  x = 704,
+  y = 181,
+  width = 8,
+  height = 16,
+  direction = 0,
+  model = "hookable",
+}
+
+custom_entity{
+  layer = 0,
+  x = 728,
+  y = 181,
+  width = 8,
+  height = 16,
+  direction = 0,
+  model = "hookable",
 }
 
 tile{

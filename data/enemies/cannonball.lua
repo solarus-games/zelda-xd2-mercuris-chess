@@ -116,6 +116,30 @@ local random_balls = {
     origin_x = 8,
     origin_y = 13,
   },
+  {
+    sprite = "enemies/alttp/rupee_green",
+    sound = "rupee_counter_end",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
+  {
+    sprite = "enemies/alttp/rupee_blue",
+    sound = "rupee_counter_end",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
+  {
+    sprite = "enemies/alttp/rupee_red",
+    sound = "rupee_counter_end",
+    width = 16,
+    height = 16,
+    origin_x = 8,
+    origin_y = 13,
+  },
 }
 
 function enemy:on_created()

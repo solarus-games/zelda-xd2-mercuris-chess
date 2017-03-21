@@ -46,6 +46,18 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
+    { x = 320, y = 520, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 3 },
+    { x = 320, y = 560, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 3 },
+    { x = 320, y = 600, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 3 },
+    { x = 320, y = 640, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 3 },
+  },
+}
+animation{
+  name = "hurt_searching",
+  src_image = "enemies/oclero/mr_grump.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
     { x = 0, y = 640, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
     { x = 80, y = 640, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
     { x = 160, y = 640, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },

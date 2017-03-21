@@ -22,6 +22,9 @@ function enemy:on_created()
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_invincible()
+  enemy:set_attack_consequence("sword", "protected")
+  enemy:set_attack_consequence("arrow", "protected")
+  enemy:set_hookshot_reaction("protected")
 
   for target in map:get_entities("path_finding_target") do
     path_finding_targets[#path_finding_targets + 1] = target
@@ -38,18 +41,6 @@ function enemy:on_movement_changed()
   local movement = enemy:get_movement()
   if movement ~= nil then
     sprite:set_direction(movement:get_direction4())
-  end
-end
-
-function enemy:set_vulnerable(vulnerable)
-
-  if vulnerable == nil then
-    vulnerable = true
-  end
-
-  enemy:set_invincible()
-  if vulnerable then
-    enemy:set_attack_consequence("sword", 1)
   end
 end
 
@@ -88,7 +79,6 @@ function enemy:start_state_running_away()
 
   state = "running_away"
   sol.timer.stop_all(enemy)
-  enemy:set_vulnerable(true)
   sprite:set_animation("walking")
 
   if last_target ~= nil then
@@ -120,7 +110,6 @@ function enemy:start_state_shooting()
   state = "shooting"
   sol.timer.stop_all(enemy)
 
-  enemy:set_vulnerable(false)
   enemy:stop_movement()
   sprite:set_direction(enemy:get_direction4_to(hero))
   sprite:set_animation("throwing", function()

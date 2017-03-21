@@ -2395,6 +2395,25 @@ Prends ça et dégage !
 }
 
 dialog{
+  id = "dungeon_2.9f.grump_eyeglass_found",
+  text = [[
+C'est bon !
+Je l'ai retrouvé,
+héhéhé !
+]]
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_lost",
+  text = [[
+Ahhh !!!
+Mon monocle, il est
+tombé par terre !
+Je ne vois plus rien !
+]]
+}
+
+dialog{
   id = "dungeon_2.welcome",
   text = [[
        Niveau 2

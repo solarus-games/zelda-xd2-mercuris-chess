@@ -8,11 +8,11 @@ local sprite
 local movement
 
 local path_finding_targets = {}
-local last_target
+local eyeglass_dialog_done = false
+local searching_timer
 local initial_life = 300
 
--- TODO is this used?
-local state  -- "running_away", "shooting" or "charging"
+local state  -- "running_away", "shooting", "charging" or "searching"
 
 function enemy:on_created()
 
@@ -23,6 +23,7 @@ function enemy:on_created()
   enemy:set_origin(8, 13)
   enemy:set_hurt_style("boss")
   enemy:set_invincible()
+  enemy:set_pushed_back_when_hurt(false)
   enemy:set_attack_consequence("sword", "protected")
   enemy:set_attack_consequence("arrow", "protected")
   enemy:set_hookshot_reaction("protected")
@@ -34,7 +35,11 @@ end
 
 function enemy:on_restarted()
 
-  enemy:start_state_running_away()
+  if state == "searching" then
+    enemy:start_state_searching()
+  else
+    enemy:start_state_running_away()
+  end
 end
 
 function enemy:on_movement_changed()
@@ -61,7 +66,6 @@ function enemy:run_away()
     return
   end
   local target = best_targets[math.random(#best_targets)]
-  --last_target = target
   enemy:run_to_target(target)
 end
 
@@ -81,12 +85,10 @@ function enemy:start_state_running_away()
   state = "running_away"
   sol.timer.stop_all(enemy)
   sprite:set_animation("walking")
+  enemy:set_invincible()
+  searching_timer = nil
 
-  if last_target ~= nil then
-    enemy:run_to_target(last_target)
-  else
-    enemy:run_away()
-  end
+  enemy:run_away()
 
   sol.timer.start(enemy, 2000, function()
     -- Change the movement.
@@ -174,7 +176,6 @@ end
 
 function enemy:start_state_charging()
 
-  -- TODO only if the path is clear
   state = "charging"
   sol.timer.stop_all(enemy)
   enemy:stop_movement()
@@ -189,7 +190,7 @@ function enemy:start_state_charging()
       movement:set_smooth(false)
       movement:set_angle(enemy:get_angle(hero))
       movement:set_max_distance(enemy:get_distance(hero) + 120)
-      movement:set_speed(128)
+      movement:set_speed(160)
 
       local running_sound_timer = sol.timer.start(enemy, 150, function()
         sol.audio.play_sound("running")
@@ -200,21 +201,63 @@ function enemy:start_state_charging()
         enemy:restart()
       end)
 
-      function movement:on_obstacle_reached()
-        sol.audio.play_sound("running_obstacle")
-        sprite:set_animation("hit")
-        running_timeout_timer:stop()
-        running_sound_timer:stop()
-        enemy:stop_movement()
-        -- TODO
-      end
-
       movement:start(enemy, function()
         -- Max distance reached.
         enemy:restart()
       end)
+
+      function movement:on_obstacle_reached()
+        running_timeout_timer:stop()
+        running_sound_timer:stop()
+        sol.audio.play_sound("running_obstacle")
+        sprite:set_animation("hit")
+        enemy:stop_movement()
+        sol.timer.start(1000, function()
+          if not eyeglass_dialog_done then
+            game:start_dialog("dungeon_2.9f.grump_eyeglass_lost", function()
+              enemy:start_state_searching()
+            end)
+          else
+            enemy:start_state_searching()
+          end
+        end)
+      end
+
     end)
   end)
+end
+
+function enemy:start_state_searching()
+
+  state = "searching"
+  sol.timer.stop_all(enemy)
+  enemy:stop_movement()
+  sprite:set_animation("searching")
+
+  enemy:set_attack_consequence("sword", 5)
+
+  sol.timer.start(enemy, 1000, function()
+    sprite:set_direction(math.random(4) - 1)
+  end)
+
+  if searching_timer == nil then
+    searching_timer = sol.timer.start(map, 3500, function()
+      -- This state and timer persist when the enemy is hurt.
+
+      if enemy:get_life() <= 0 then
+        return
+      end
+
+      if not eyeglass_dialog_done then
+        eyeglass_dialog_done = true
+        game:start_dialog("dungeon_2.9f.grump_eyeglass_found", function()
+          enemy:start_state_running_away()
+        end)
+      else
+        enemy:start_state_running_away()
+      end
+    end)
+  end
 end
 
 function enemy:on_hurt(attack)

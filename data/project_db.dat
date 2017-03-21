@@ -96,9 +96,6 @@ sprite{ id = "enemies/alttp/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/alttp/pike_detect", description = "Pike (moves near hero)" }
 sprite{ id = "enemies/alttp/pike_fixed", description = "Pike (never moving)" }
 sprite{ id = "enemies/alttp/ropa", description = "Ropa" }
-sprite{ id = "enemies/alttp/rupee_blue", description = "Rupee (blue)" }
-sprite{ id = "enemies/alttp/rupee_green", description = "Rupee (green)" }
-sprite{ id = "enemies/alttp/rupee_red", description = "Rupee (red)" }
 sprite{ id = "enemies/alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 sprite{ id = "enemies/alttp/snap_dragon", description = "Snap Dragon" }
 sprite{ id = "enemies/alttp/tentacle", description = "Tentacle" }
@@ -186,6 +183,9 @@ sprite{ id = "enemies/newlink/zoura_red_weapon", description = "Zoura Spear (red
 sprite{ id = "enemies/oclero/armos_tie", description = "Armos Tie" }
 sprite{ id = "enemies/oclero/chicken_giant", description = "Giant Chicken" }
 sprite{ id = "enemies/oclero/mr_grump", description = "Mr. Grump" }
+sprite{ id = "enemies/rupee_blue", description = "Rupee (blue)" }
+sprite{ id = "enemies/rupee_green", description = "Rupee (green)" }
+sprite{ id = "enemies/rupee_red", description = "Rupee (red)" }
 sprite{ id = "enemies/smb_block", description = "SMB block" }
 sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
@@ -624,9 +624,6 @@ enemy{ id = "alttp/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "alttp/pike_detect", description = "Pike (moves near hero)" }
 enemy{ id = "alttp/pike_fixed", description = "Pike (never moving)" }
 enemy{ id = "alttp/ropa", description = "Ropa" }
-enemy{ id = "alttp/rupee_blue", description = "Rupee (blue)" }
-enemy{ id = "alttp/rupee_green", description = "Rupee (green)" }
-enemy{ id = "alttp/rupee_red", description = "Rupee (red)" }
 enemy{ id = "alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }
 enemy{ id = "alttp/tentacle", description = "Tentacle" }
@@ -686,6 +683,9 @@ enemy{ id = "newlink/zoura_red", description = "Zoura (red)" }
 enemy{ id = "oclero/armos_tie", description = "Armos Tie" }
 enemy{ id = "oclero/chicken_giant", description = "Giant chicken" }
 enemy{ id = "oclero/mr_grump", description = "Mr. Grump" }
+enemy{ id = "rupee_blue", description = "Rupee (blue)" }
+enemy{ id = "rupee_green", description = "Rupee (green)" }
+enemy{ id = "rupee_red", description = "Rupee (red)" }
 
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hookable", description = "Hookable" }

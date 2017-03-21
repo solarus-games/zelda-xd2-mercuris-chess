@@ -1061,6 +1061,7 @@ Dommage...!
 dialog{
   id = "_treasure.fire_rod.1",
   icon = "27",
+  next = "warning_magic",
   text = [[
 Tu as trouvé la
 Baguette de Feu !
@@ -1150,7 +1151,9 @@ dialog{
   next = "warning_magic",
   text = [[
 Tu as trouvé la
-Lanterne !$0 Bah
+Lanterne !$0
+
+Bah
 oui je trouvais
 que ça manquait
 un peu de lumière

@@ -14,12 +14,12 @@ function enemy:get_projectile_breed_and_sound()
   end
 
   if n <= 90 then
-    return "alttp/rupee_green", "rupee_counter_end"
+    return "rupee_green", "rupee_counter_end"
   end
 
   if n <= 97 then
-    return "alttp/rupee_blue", "rupee_counter_end"
+    return "rupee_blue", "rupee_counter_end"
   end
 
-  return "alttp/rupee_red", "rupee_counter_end"
+  return "rupee_red", "rupee_counter_end"
 end

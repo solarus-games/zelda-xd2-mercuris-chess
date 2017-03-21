@@ -1,6 +1,6 @@
 local enemy = ...
 
-local other_script = sol.main.load_file("enemies/alttp/rupee_green")
+local other_script = sol.main.load_file("enemies/rupee_green")
 other_script(enemy)
 
 enemy:set_damage(8)

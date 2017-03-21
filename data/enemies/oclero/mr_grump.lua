@@ -129,12 +129,12 @@ function enemy:shoot_rupee()
   sol.audio.play_sound("throw")
 
   for i = 1, num_projectiles do
-    local projectile_breed = "alttp/rupee_green"
+    local projectile_breed = "rupee_green"
     local n = math.random(10)
     if n >= 8 then
-      projectile_breed = "alttp/rupee_red"
+      projectile_breed = "rupee_red"
     elseif n >= 5 then
-      projectile_breed = "alttp/rupee_blue"
+      projectile_breed = "rupee_blue"
     end
     local rupee = enemy:create_enemy({
       breed = projectile_breed,

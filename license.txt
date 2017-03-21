@@ -133,6 +133,9 @@ tilesets/**.png
 sprites/enemies/alttp/*.png
 sprites/enemies/cannonball.png
 sprites/enemies/enemy_killed.png
+sprites/enemies/rupee_blue.png
+sprites/enemies/rupee_green.png
+sprites/enemies/rupee_red.png
 sprites/enemies/la/*.png
 sprites/entities/karts/*.png
 sprites/entities/arrow.png

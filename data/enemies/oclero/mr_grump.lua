@@ -122,7 +122,7 @@ function enemy:shoot_rupee()
 
   local projectile_breed
   local num_projectiles = 1
-  if enemy:get_life() <= initial_life / 2 then
+  if enemy:get_life() <= initial_life / 3 then
     num_projectiles = math.random(3)
   end
 
@@ -130,12 +130,16 @@ function enemy:shoot_rupee()
 
   for i = 1, num_projectiles do
     local projectile_breed = "rupee_green"
-    local n = math.random(10)
-    if n >= 8 then
-      projectile_breed = "rupee_red"
-    elseif n >= 5 then
-      projectile_breed = "rupee_blue"
+
+    if enemy:get_life() <= 2 * initial_life / 3 then
+      local n = math.random(3)
+      if n == 3 then
+        projectile_breed = "rupee_red"
+      elseif n == 2 then
+        projectile_breed = "rupee_blue"
+      end
     end
+
     local rupee = enemy:create_enemy({
       breed = projectile_breed,
     })

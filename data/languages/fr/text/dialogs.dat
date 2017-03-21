@@ -1383,11 +1383,11 @@ dialog{
   icon = "64",
   text = [[
 Tu as trouvé le
-Bouclier de Feu !$0
+Bouclier
+bling-bling !$0
 Tu es désormais
-protégé contre les
-attaques
-enflammées !
+protégé contre ton
+ennemie la finance !
 ]]
 }
 

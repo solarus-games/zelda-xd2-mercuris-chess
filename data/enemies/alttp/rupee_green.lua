@@ -4,10 +4,13 @@ local game = enemy:get_game()
 
 local sprite
 
+local money_value
+local projectile_speed
+
 function enemy:on_created()
 
   enemy:set_life(1)
-  enemy:set_damage(2)
+  enemy:set_damage(4)
   enemy:set_size(8, 8)
   enemy:set_origin(4, 4)
   enemy:set_obstacle_behavior("flying")
@@ -17,6 +20,7 @@ function enemy:on_created()
   enemy:set_attack_consequence("sword", "custom")
 
   enemy:set_money_value(1)
+  enemy:set_projectile_speed(192)
 
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 end
@@ -24,7 +28,7 @@ end
 local function go(angle)
 
   local movement = sol.movement.create("straight")
-  movement:set_speed(192)
+  movement:set_speed(enemy:get_projectile_speed())
   movement:set_angle(angle)
   movement:set_smooth(false)
 
@@ -39,6 +43,10 @@ function enemy:on_restarted()
 
   local hero = enemy:get_map():get_hero()
   local angle = enemy:get_angle(hero:get_center_position())
+
+  -- Add some randomness to the angle.
+  angle = angle + (math.random() * math.pi / 8) - (math.pi / 16)
+
   go(angle)
 end
 
@@ -74,4 +82,12 @@ end
 
 function enemy:set_money_value(value)
   money_value = value
+end
+
+function enemy:get_projectile_speed()
+  return projectile_speed
+end
+
+function enemy:set_projectile_speed(speed)
+  projectile_speed = speed
 end

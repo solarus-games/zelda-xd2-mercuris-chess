@@ -9,7 +9,6 @@ local movement
 
 local path_finding_targets = {}
 local last_target
-local children = {}
 local initial_life = 300
 
 local state  -- "running_away", "shooting"
@@ -122,24 +121,29 @@ end
 function enemy:shoot_rupee()
 
   local projectile_breed
-  if enemy:get_life() > 2 * initial_life / 3 then
-    projectile_breed = "alttp/rupee_green"
-  elseif enemy:get_life() > initial_life / 3 then
-    projectile_breed = "alttp/rupee_blue"
-  else
-    projectile_breed = "alttp/rupee_red"
+  local num_projectiles = 1
+  if enemy:get_life() <= initial_life / 2 then
+    num_projectiles = math.random(3)
   end
 
   sol.audio.play_sound("throw")
-  local rupee = enemy:create_enemy({
-    breed = projectile_breed,
-  })
 
-  rupee.can_attack_grump = false
-  sol.timer.start(rupee, 500, function()
-    rupee.can_attack_grump = true
-  end)
-  children[#children + 1] = rupee
+  for i = 1, num_projectiles do
+    local projectile_breed = "alttp/rupee_green"
+    local n = math.random(10)
+    if n >= 8 then
+      projectile_breed = "alttp/rupee_red"
+    elseif n >= 5 then
+      projectile_breed = "alttp/rupee_blue"
+    end
+    local rupee = enemy:create_enemy({
+      breed = projectile_breed,
+    })
+    rupee.can_attack_grump = false
+    sol.timer.start(rupee, 300, function()
+      rupee.can_attack_grump = true
+    end)
+  end
 end
 
 function enemy:on_hurt(attack)
@@ -151,7 +155,7 @@ function enemy:on_hurt(attack)
   -- Hurt by his own rupee.
   sol.audio.play_sound("sonic_rings_lost")
   local x, y, layer = enemy:get_position()
-  for i = 1, 3 + math.random(7) do
+  for i = 1, 1 + math.random(7) do
     sol.timer.start(enemy, math.random(200), function()
       map:create_pickable({
         x = x + math.random(64) - 32,
@@ -171,6 +175,10 @@ function enemy:on_collision_enemy(other_enemy)
   end
 
   if not other_enemy.can_attack_grump then
+    return
+  end
+
+  if sprite:get_animation() == "hurt" then
     return
   end
 

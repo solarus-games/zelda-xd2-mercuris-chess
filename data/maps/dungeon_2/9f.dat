@@ -1501,6 +1501,17 @@ custom_entity{
   direction = 0,
 }
 
+custom_entity{
+  name = "low_wall_8",
+  layer = -1,
+  x = 312,
+  y = 117,
+  width = 32,
+  height = 24,
+  direction = 0,
+  model = "low_wall",
+}
+
 tile{
   layer = 0,
   x = 680,

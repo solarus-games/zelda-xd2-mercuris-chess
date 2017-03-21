@@ -189,7 +189,7 @@ function enemy:start_state_charging()
       movement = sol.movement.create("straight")
       movement:set_smooth(false)
       movement:set_angle(enemy:get_angle(hero))
-      movement:set_max_distance(enemy:get_distance(hero) + 120)
+      movement:set_max_distance(enemy:get_distance(hero) + 96)
       movement:set_speed(160)
 
       local running_sound_timer = sol.timer.start(enemy, 150, function()
@@ -236,12 +236,13 @@ function enemy:start_state_searching()
 
   enemy:set_attack_consequence("sword", 5)
 
-  sol.timer.start(enemy, 1000, function()
+  sol.timer.start(enemy, 800, function()
     sprite:set_direction(math.random(4) - 1)
+    return true
   end)
 
   if searching_timer == nil then
-    searching_timer = sol.timer.start(map, 3500, function()
+    searching_timer = sol.timer.start(map, 3000, function()
       -- This state and timer persist when the enemy is hurt.
 
       if enemy:get_life() <= 0 then
@@ -261,6 +262,11 @@ function enemy:start_state_searching()
 end
 
 function enemy:on_hurt(attack)
+
+  if attack == "sword" then
+    -- Hurt by the sword while searching the eyeglass.
+    sprite:set_animation("hurt_searching")
+  end
 
   if attack ~= "script" then
     return

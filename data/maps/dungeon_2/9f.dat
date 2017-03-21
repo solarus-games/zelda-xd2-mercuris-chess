@@ -1512,6 +1512,26 @@ custom_entity{
   model = "low_wall",
 }
 
+custom_entity{
+  layer = -1,
+  x = 288,
+  y = 349,
+  width = 24,
+  height = 8,
+  direction = 0,
+  model = "traversable",
+}
+
+custom_entity{
+  layer = -1,
+  x = 344,
+  y = 349,
+  width = 24,
+  height = 8,
+  direction = 0,
+  model = "traversable",
+}
+
 tile{
   layer = 0,
   x = 680,
@@ -5121,7 +5141,7 @@ jumper{
   layer = 0,
   x = 208,
   y = 360,
-  width = 72,
+  width = 96,
   height = 8,
   direction = 2,
   jump_length = 40,
@@ -5129,36 +5149,12 @@ jumper{
 
 jumper{
   layer = 0,
-  x = 360,
+  x = 336,
   y = 360,
-  width = 72,
+  width = 96,
   height = 8,
   direction = 2,
   jump_length = 40,
-}
-
-wall{
-  layer = 0,
-  x = 280,
-  y = 360,
-  width = 24,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
-wall{
-  layer = 0,
-  x = 336,
-  y = 360,
-  width = 24,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
 }
 
 door{

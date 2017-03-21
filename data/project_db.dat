@@ -511,6 +511,7 @@ sound{ id = "sm64_memario", description = "sm64_memario" }
 sound{ id = "smb_1up", description = "smb_1up" }
 sound{ id = "smb_coin", description = "smb_coin" }
 sound{ id = "smb_powerup", description = "smb_powerup" }
+sound{ id = "sonic_rings_lost", description = "sonic_rings_lost" }
 sound{ id = "splash", description = "splash" }
 sound{ id = "stairs_down_end", description = "stairs_down_end" }
 sound{ id = "stairs_down_start", description = "stairs_down_start" }

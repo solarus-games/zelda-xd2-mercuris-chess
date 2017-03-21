@@ -38,6 +38,12 @@ local function initialize_dungeon_features(game)
         "dungeon_2/8f",
         "dungeon_2/9f",
       },
+      boss = {
+        floor = 8,
+        savegame_variable = "dungeon_2_boss",
+        boss_x = 320,
+        boss_y = 240,
+      },
     },
   }
 

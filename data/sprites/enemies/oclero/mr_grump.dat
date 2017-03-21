@@ -1,6 +1,6 @@
 animation{
   name = "stopped",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   directions = {
     { x = 0, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37 },
     { x = 40, y = 0, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37 },
@@ -10,7 +10,7 @@ animation{
 }
 animation{
   name = "attack_ready",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 200,
   directions = {
     { x = 0, y = 240, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 4 },
@@ -21,7 +21,7 @@ animation{
 }
 animation{
   name = "attacking",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   directions = {
     { x = 0, y = 440, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37 },
     { x = 40, y = 440, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37 },
@@ -31,7 +31,7 @@ animation{
 }
 animation{
   name = "hit",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 300,
   directions = {
     { x = 0, y = 560, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 2 },
@@ -42,7 +42,7 @@ animation{
 }
 animation{
   name = "hurt",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
@@ -54,7 +54,7 @@ animation{
 }
 animation{
   name = "loading",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
@@ -66,7 +66,7 @@ animation{
 }
 animation{
   name = "searching",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 500,
   frame_to_loop_on = 0,
   directions = {
@@ -78,7 +78,7 @@ animation{
 }
 animation{
   name = "throwing",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 200,
   directions = {
     { x = 0, y = 480, frame_width = 40, frame_height = 40, origin_x = 20, origin_y = 37, num_frames = 4 },
@@ -89,7 +89,7 @@ animation{
 }
 animation{
   name = "walking",
-  src_image = "enemies/mr_grump.png",
+  src_image = "enemies/oclero/mr_grump.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {

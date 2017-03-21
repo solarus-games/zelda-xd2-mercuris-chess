@@ -14,11 +14,17 @@ local fighting_boss = false
 function map:on_started()
 
   map:set_doors_open("boss_door", true)
+  boss:set_enabled(false)
+  if boss == nil then
+    -- Already beaten.
+    grump_npc:set_enabled(false)
+  end
 end
 
 function start_boss_sensor:on_activated()
 
-  if game:get_value("dungeon_2_boss") then
+  if boss == nil then
+    -- Already beaten.
     return
   end
 
@@ -34,12 +40,20 @@ function grump_npc:on_interaction()
 
   game:start_dialog("dungeon_2.9f.boss_start", function()
     hero:freeze()
-    sol.timer.start(map, 1000, function()
+    sol.timer.start(map, 200, function()
       sol.audio.play_music("alttp/ganon_battle")
+
+      -- The boss is close to the hero, don't attack too quickly.
+      boss:set_can_attack(false)
+      sol.timer.start(boss, 500, function()
+        boss:set_can_attack(true)
+      end)
+
       grump_npc:set_enabled(false)
+      boss:set_enabled(true)
       hero:unfreeze()
     end)
-    fighting_miniboss = true
+    fighting_boss = true
   end)
 
 end

@@ -1645,11 +1645,10 @@ dialog{
   id = "chill_valley.big_bird",
   text = [[
 Une aventure contre un
-gros zozio?
+gros zozio ?
 
-C'est pour les naifs
-qui croient au
-père noël…
+Il faut être naïf pour
+y croire...
 ]]
 }
 
@@ -1677,24 +1676,24 @@ dialog{
 ...
 
 
-Bonjour?
+Bonjour ?
 
 
-On se connait?
+On se connaît ?
 
 
 Tu parles souvent à des
-inconnus comme ça?
+inconnus comme ça ?
 ]]
 }
 
 dialog{
   id = "chill_valley.no_entry_2",
   text = [[
-Hey tu te prends pour
-qui a rentrer partout?
+Hey, tu te prends pour
+qui a rentrer partout ?
 C'est pas parce que tu
-sauve le monde que
+sauves le monde que
 toutes les portes te
 sont ouvertes.
 ]]
@@ -1703,17 +1702,19 @@ sont ouvertes.
 dialog{
   id = "chill_valley.one_day",
   text = [[
-Il parait que Mercuris'
-Chest va sortir un jour.
+Il paraît que Zelda
+Mercuris' Chest va
+sortir un jour.
 ]]
 }
 
 dialog{
   id = "chill_valley.out_soon",
   text = [[
-La sortie de Mercuris'
-Chest n'a jamais été
-aussi proche!
+La sortie de Zelda
+Mercuris' Chest n'a
+jamais été
+aussi proche !
 ]]
 }
 

@@ -127,6 +127,7 @@ fonts/white_digits.png
 languages/*/images/*.png
 
 musics/alttp/*.it
+musics/bttf/*.spc
 
 sounds/*.ogg
 

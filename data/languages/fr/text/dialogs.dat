@@ -1654,14 +1654,20 @@ père noël…
 }
 
 dialog{
-  id = "chill_valley.doctor",
+  id = "chill_valley.doctor_who",
   text = [[
-Je suis Le Docteur.
+Bonjour, je suis le
+Docteur.
 
+Il y a quelque chose
+qui ne tourne pas rond
+par ici.
+Tu aurais des infos à
+propos des rubis ?
 
-Oui, c'est plus grand à
-l'intérieur.
-Allons-y !
+Je crois que les
+rubis se comportent
+de façon... impossible.
 ]]
 }
 
@@ -3143,6 +3149,26 @@ dialog{
   icon = "72",
   text = [[
 C'est fermé à clé !
+]]
+}
+
+dialog{
+  id = "tardis.doctor_escaping_grump_tower",
+  text = [[
+Une telle quantité de
+rubis ne peut être que
+le signe d'une fissure
+spatio-temporelle !
+
+
+Moi ? Je te l'ai dit,
+je suis le Docteur.
+Juste le Docteur.
+Oui, c'est plus grand
+à l'intérieur.
+
+Mais maintenant partons
+d'ici. Allons-y !
 ]]
 }
 

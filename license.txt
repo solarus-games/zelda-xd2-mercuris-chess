@@ -112,6 +112,7 @@ sprites/enemies/creeper.png                         Christopho
 sprites/npc/newlink/yoda.png                        Newlink
 sprites/the_doctor.png                              Rockfootdude
 sprites/entities/bttf/delorean.png                  Olivier Cléro
+sprites/entities/doctor_who/tardis.png              Olivier Cléro
 sprites/npc/bttf/doc_emmett_brown.png               Olivier Cléro
 sprites/npc/bttf/marty_mcfly.png                    Olivier Cléro
 tileset/tardis.entities.png                         DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
@@ -140,6 +141,7 @@ sprites/enemies/rupee_blue.png
 sprites/enemies/rupee_green.png
 sprites/enemies/rupee_red.png
 sprites/enemies/la/*.png
+sprites/entities/dungeon_2/*.png
 sprites/entities/karts/*.png
 sprites/entities/arrow.png
 sprites/entities/bomb.png

@@ -10,6 +10,7 @@ local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
 local fighting_boss = false
+local tardis_cache
 
 function map:on_started(destination)
 
@@ -19,7 +20,10 @@ function map:on_started(destination)
     -- Already beaten.
     grump_npc:set_enabled(false)
   end
+
+  the_doctor:set_enabled(false)
   tardis:set_enabled(false)
+  tardis_door:set_enabled(false)
 end
 
 function start_boss_sensor:on_activated()
@@ -195,12 +199,20 @@ function tardis_sensor:on_activated()
     sol.audio.play_sound("tardis")
     sol.audio.play_sound("tardis")
     tardis:get_sprite():set_animation("blinking")
-    tardis_door:get_sprite():fade_out()
-    tardis:get_sprite():fade_out(function()
-      hero:teleport("tardis")
-    end)
+    
+    tardis_cache = sol.surface.create("entities/dungeon_2/tardis_cache_dungeon_2.png")
+    tardis_cache:set_opacity(128)
   end)
   timer:set_suspended_with_map(false)
+end
+
+function map:on_draw(dst_surface)
+
+  if tardis_cache == nil then
+    return
+  end
+
+  map:draw_visual(tardis_cache, 768, 24)
 end
 
 function map:on_finished()

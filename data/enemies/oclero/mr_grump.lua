@@ -303,7 +303,7 @@ function enemy:start_state_finished()
         local rupee = map:create_custom_entity({
           x = x,
           y = y - 5,
-          layer = 0,
+          layer = 2,
           width = 16,
           height = 16,
           direction = 0,

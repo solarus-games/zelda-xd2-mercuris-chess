@@ -61,6 +61,9 @@ end
 
 function debug_boss_sensor:on_activated()
 
+  game:set_value("dungeon_2_9f_boss_door", true)
+  game:set_value("dungeon_2_9f_door_a", true)
+  map:close_doors("boss_door")
   if boss ~= nil then
     boss:set_life(1)
   end
@@ -94,18 +97,60 @@ function map:grump_finished(grump)
       return true
     end)
 
-    sol.timer.start(map, 4000, function()
-
-      explosion_sound_timer:stop()
-
-      sol.timer.start(map, 4000, function()
-        sol.audio.play_music("alttp/soldiers")
-      end)
+    sol.timer.start(map, 2000, function()
 
       sol.timer.start(map, 6000, function()
         shake_camera()
+        explosion_sound_timer:stop()
         return true
+      end)
+
+      sol.timer.start(map, 8000, function()
+        sol.audio.play_music("alttp/soldiers")
+
+        sol.timer.start(map, 100, function()
+          if math.random(10) == 1 then
+            sol.audio.play_sound("explosion")
+            local x, y = hero:get_position()
+            map:create_explosion({
+              x = x + math.random(100) - 50,
+              y = y + math.random(100) - 50,
+              layer = 2,
+            })
+          end
+          return true
+        end)
+
+        sol.timer.start(map, 100, function()
+          if math.random(10) == 1 then
+            sol.audio.play_sound("explosion")
+            local x, y = hero:get_position()
+            map:create_fire({
+              x = x + math.random(100) - 50,
+              y = y + math.random(100) - 50,
+              layer = 2,
+            })
+          end
+          return true
+        end)
       end)
     end)
   end)
+end
+
+function tardis_landing_sensor:on_activated()
+
+  sol.audio.play_sound("tardis")
+  tardis:set_enabled(true)
+  the_doctor:set_enabled(true)
+end
+
+function doctor_coming_sensor:on_activated()
+
+  print("go doctor")
+  local movement = sol.movement.create("straight")
+  movement:set_speed(96)
+  movement:set_angle(3 * math.pi / 2)
+  movement:set_max_distance(120)
+  movement:start(the_doctor)
 end

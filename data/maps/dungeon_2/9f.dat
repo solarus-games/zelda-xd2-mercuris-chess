@@ -5273,6 +5273,34 @@ custom_entity{
   model = "tardis",
 }
 
+sensor{
+  name = "tardis_landing_sensor",
+  layer = 0,
+  x = 320,
+  y = 533,
+  width = 16,
+  height = 16,
+}
+
+npc{
+  name = "the_doctor",
+  layer = 0,
+  x = 800,
+  y = 237,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/the_doctor",
+}
+
+sensor{
+  name = "doctor_coming_sensor",
+  layer = 0,
+  x = 800,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 728,

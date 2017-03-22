@@ -82,9 +82,40 @@ function pool_switch:on_activated()
   end)
 end
 
+-- Library Labyrinth
+local function timer_finished()
+  map:close_doors("library_door")
+  map:get_entity("library_door_switch"):set_activated(false)
+end
+
+local old_man_blocks = true
+
+local function old_man_moves_quickly()
+  if not old_man_blocks then
+    local movement = sol.movement.create("path")
+    movement:set_speed(50)
+    movement:set_path{4,4,4,4,2,2,2,2,2,2,4,4,4,4}
+    local old_man = map:get_entity("library_old_man") 
+    movement:start(old_man)
+  end
+end
+
 function library_door_switch:on_activated()
-  map:set_doors_open("library_door")
-  sol.audio.play("door_open")
+  map:open_doors("library_door")
+  local timer = sol.timer.start(map, 5000, timer_finished)
+  timer:set_with_sound(true)
+  old_man_moves_quickly()
+  old_man_blocks = true
+end
+
+function sensor_old_man_move_back:on_activated()
+  map:get_entity("library_old_man"):set_position(1768, 349)
+  old_man_blocks = true
+end
+
+function sensor_old_man_move_away:on_activated()
+  map:get_entity("library_old_man"):set_position(1832, 397)
+  old_man_blocks = false
 end
 
 -- River switch mechanism

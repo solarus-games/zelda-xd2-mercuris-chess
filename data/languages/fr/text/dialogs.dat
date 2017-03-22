@@ -2007,6 +2007,16 @@ et du pire.
 }
 
 dialog{
+  id = "dungeon_1.1f.library_man_look_for_book",
+  text = [[
+Mais où a bien pu passer
+ce précieux grimoire ?
+J'étais persuadé qu'il
+était par ici...
+]]
+}
+
+dialog{
   id = "dungeon_1.1f.pool_grandma",
   text = [[
 Oh mes aïeux !

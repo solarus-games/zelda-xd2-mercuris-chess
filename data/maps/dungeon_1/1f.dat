@@ -9487,13 +9487,14 @@ destructible{
 }
 
 npc{
+  name = "library_old_man",
   layer = 0,
   x = 1768,
   y = 349,
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/wise_old_man_green",
-  behavior = "dialog#",
+  behavior = "dialog#dungeon_1.1f.library_man_look_for_book",
 }
 
 sensor{

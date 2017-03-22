@@ -18,8 +18,6 @@ local black_stripe = nil
 local should_draw_white_surface = false
 local should_draw_black_stripes = false
 local opacity_time = 0
-local camera_shaking_to_right = true
-local camera_shaking_count = 0
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started(destination_point)
@@ -130,50 +128,24 @@ end
 -- Shake the camera to wake up Link.
 function map:shake_camera()
 
-  -- Initialize variables.
   local camera = map:get_camera()
-  local camera_x, camera_y = camera:get_position()
-  local camera_shaking_count_max = 9
-
-  -- Create a new movement each time.
-  local movement = sol.movement.create("straight")
-  movement:set_speed(60)
-  movement:set_smooth(true)
-  movement:set_ignore_obstacles(true)
-
-  -- Determine direction.
-  if camera_shaking_to_right then
-    movement:set_angle(0) -- right
-  else
-    movement:set_angle(math.pi) -- left
-  end
-
-  -- Max distance.
-  local max_distance = 4
-  movement:set_max_distance(max_distance)
-
-  -- Inverse direction for next time.
-  camera_shaking_to_right = not camera_shaking_to_right
-  camera_shaking_count = camera_shaking_count + 1
-
-  -- Launch the movement and repeat if needed.
-  movement:start(camera, function()
-    -- Make Link falls at the middle of the shaking duration.
-    if camera_shaking_count == (camera_shaking_count_max - 1) / 2 then
-      map:make_link_fall_off_bed()
-    end
-
-    -- Repeat shaking until the count_max is reached.
-    if camera_shaking_count <= camera_shaking_count_max then
-      -- Repeat shaking.
-      map:shake_camera()
-    else
-      -- Link fanilly wakes up.
-      map:make_link_fall_off_bed()
-      -- Zelda speak to Link and explain the tasks to do.
-      map:make_zelda_speak()
-    end
+  local shake_config = {
+    count = 9,
+    amplitude = 4,
+    speed = 90,
+  }
+  camera:shake(shake_config, function()
+    -- Link finally wakes up.
+    map:make_link_fall_off_bed()
+    -- Zelda speaks to Link and explain the tasks to do.
+    map:make_zelda_speak()
   end)
+
+  -- Make Link fall at the middle of the shaking duration.
+  sol.timer.start(map, 300, function()
+    map:make_link_fall_off_bed()
+  end)
+
 end
 
 -------------------------------------------------------------------------------

@@ -27,16 +27,6 @@ destination{
   default = true,
 }
 
-teletransporter{
-  layer = 0,
-  x = 144,
-  y = 224,
-  width = 32,
-  height = 16,
-  destination_map = "chill_valley/o_house",
-  destination = "from_tardis",
-}
-
 wall{
   layer = 0,
   x = 136,

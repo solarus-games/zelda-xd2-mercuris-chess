@@ -19,6 +19,7 @@ function map:on_started(destination)
     -- Already beaten.
     grump_npc:set_enabled(false)
   end
+  tardis:set_enabled(false)
 end
 
 function start_boss_sensor:on_activated()
@@ -56,4 +57,11 @@ function grump_npc:on_interaction()
     fighting_boss = true
   end)
 
+end
+
+function debug_boss_sensor:on_activated()
+
+  if boss ~= nil then
+    boss:set_life(1)
+  end
 end

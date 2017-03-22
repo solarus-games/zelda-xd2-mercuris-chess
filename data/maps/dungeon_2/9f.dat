@@ -1298,6 +1298,15 @@ tile{
   pattern = "obilisk_base",
 }
 
+sensor{
+  name = "debug_boss_sensor",
+  layer = -1,
+  x = 208,
+  y = 61,
+  width = 16,
+  height = 16,
+}
+
 stairs{
   layer = -1,
   x = 312,
@@ -1324,16 +1333,6 @@ enemy{
   direction = 3,
   breed = "oclero/mr_grump",
   savegame_variable = "dungeon_2_boss",
-}
-
-destination{
-  name = "boss_debug_destination",
-  layer = -1,
-  x = 240,
-  y = 85,
-  direction = 3,
-  starting_location_mode = "yes",
-  default = true,
 }
 
 custom_entity{
@@ -1530,6 +1529,16 @@ custom_entity{
   height = 8,
   direction = 0,
   model = "traversable",
+}
+
+destination{
+  name = "destination",
+  layer = -1,
+  x = 208,
+  y = 61,
+  direction = 3,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{
@@ -5250,6 +5259,18 @@ sensor{
   y = 437,
   width = 16,
   height = 16,
+}
+
+custom_entity{
+  name = "tardis",
+  layer = 0,
+  x = 800,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/doctor_who/tardis",
+  model = "tardis",
 }
 
 tile{

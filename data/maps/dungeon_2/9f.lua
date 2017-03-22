@@ -160,7 +160,6 @@ function tardis_landing_sensor:on_activated()
   end
 
   sol.audio.play_sound("tardis")
-  sol.audio.play_sound("tardis")
   tardis:set_enabled(true)
   tardis_door:set_enabled(true)
   the_doctor:set_enabled(true)
@@ -244,7 +243,6 @@ function tardis_sensor:on_activated()
   end
 
   local timer = sol.timer.start(map, 500, function()
-    sol.audio.play_sound("tardis")
     sol.audio.play_sound("tardis")
     tardis:get_sprite():set_animation("blinking")
     

@@ -290,7 +290,7 @@ function enemy:start_state_finished()
     sol.timer.start(enemy, 150, function()
 
       num_explosions = num_explosions + 1
-      local num_rupees = math.min(20, num_explosions)
+      local num_rupees = math.min(15, num_explosions)
       for i = 1, num_rupees do
         local n = math.random(3)
         local sprite_id = "enemies/rupee_green"

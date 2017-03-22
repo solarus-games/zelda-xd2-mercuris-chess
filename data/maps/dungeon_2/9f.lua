@@ -10,6 +10,7 @@ local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
 local fighting_boss = false
+local escaping_after_boss = false
 local tardis_cache
 
 function map:on_started(destination)
@@ -28,7 +29,7 @@ end
 
 function start_boss_sensor:on_activated()
 
-  if boss == nil then
+  if boss == nil or escaping_after_boss then
     -- Already beaten.
     return
   end
@@ -37,8 +38,10 @@ function start_boss_sensor:on_activated()
     return
   end
 
-  map:close_doors("boss_door")
-  sol.audio.stop_music()
+  if boss_door:is_open() then
+    map:close_doors("boss_door")
+    sol.audio.stop_music()
+  end
 end
 
 function grump_npc:on_interaction()
@@ -89,6 +92,9 @@ end
 -- Function called when the boss is beaten.
 -- Starts the escape sequence of the dungeon.
 function map:grump_finished(grump)
+
+  fighting_boss = false
+  escaping_after_boss = true
 
   elevator_b_sensor:set_enabled(false)
 
@@ -149,22 +155,31 @@ end
 
 function tardis_landing_sensor:on_activated()
 
+  if not escaping_after_boss then
+    return
+  end
+
   sol.audio.play_sound("tardis")
   sol.audio.play_sound("tardis")
   tardis:set_enabled(true)
+  tardis_door:set_enabled(true)
   the_doctor:set_enabled(true)
 end
 
 function doctor_coming_sensor:on_activated()
+
+  if not escaping_after_boss then
+    return
+  end
 
   local movement = sol.movement.create("straight")
   movement:set_speed(96)
   movement:set_angle(3 * math.pi / 2)
   movement:set_max_distance(96)
   movement:start(the_doctor, function()
+    
+    sol.audio.play_music("doctor_octoroc/i_am_the_doctor_1")
     game:start_dialog("dungeon_2.9f.doctor", function()
-
-      sol.audio.play_music("doctor_octoroc/i_am_the_doctor_1")
 
       local movement = sol.movement.create("target")
       movement:set_target(tardis)
@@ -187,6 +202,10 @@ end
 
 function tardis_sensor:on_activated()
 
+  if not escaping_after_boss then
+    return
+  end
+
   map:close_doors("tardis_door")
   hero:set_visible(false)
   hero:freeze()
@@ -195,13 +214,52 @@ function tardis_sensor:on_activated()
   game:set_value("dungeon_2_boss", true)
   game:set_dungeon_finished(2)
 
+  local tardis_opacities = {}
+  for i = 1, 3 do
+    for opacity = 255, 120, -5 do
+      tardis_opacities[#tardis_opacities + 1] = opacity
+    end
+    for opacity = 125, 250, 5 do
+      tardis_opacities[#tardis_opacities + 1] = opacity
+    end
+  end
+  for i = 1, 2 do
+    for opacity = 255, 0, -5 do
+      tardis_opacities[#tardis_opacities + 1] = opacity
+    end
+    for opacity = 5, 250, 5 do
+      tardis_opacities[#tardis_opacities + 1] = opacity
+    end
+  end
+  for opacity = 255, 0, -5 do
+    tardis_opacities[#tardis_opacities + 1] = opacity
+  end
+  for i = 1, 3 do
+    for opacity = 0, 125, 5 do
+      tardis_opacities[#tardis_opacities + 1] = opacity
+    end
+    for opacity = 120, 0, -5 do
+      tardis_opacities[#tardis_opacities + 1] = opacity
+    end
+  end
+
   local timer = sol.timer.start(map, 500, function()
     sol.audio.play_sound("tardis")
     sol.audio.play_sound("tardis")
     tardis:get_sprite():set_animation("blinking")
     
     tardis_cache = sol.surface.create("entities/dungeon_2/tardis_cache_dungeon_2.png")
-    tardis_cache:set_opacity(128)
+
+    local i = 1
+    tardis_cache:set_opacity(0)
+    sol.timer.start(map, 20, function()
+      tardis_cache:set_opacity(255 - tardis_opacities[i])
+      i = i + 1
+      if i <= #tardis_opacities then
+        return true  -- Repeat.
+      end
+      hero:teleport("tardis")
+    end)
   end)
   timer:set_suspended_with_map(false)
 end

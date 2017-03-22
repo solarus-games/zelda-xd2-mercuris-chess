@@ -208,16 +208,6 @@ destination{
   direction = 3,
 }
 
-teletransporter{
-  layer = 0,
-  x = 280,
-  y = 616,
-  width = 16,
-  height = 16,
-  destination_map = "tardis",
-  destination = "from_outside",
-}
-
 tile{
   layer = 1,
   x = 272,

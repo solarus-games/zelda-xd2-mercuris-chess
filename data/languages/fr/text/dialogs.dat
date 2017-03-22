@@ -308,8 +308,11 @@ dialog{
   icon = "2",
   skip = "all",
   text = [[
-Haha, tu n'as plus
-de Flèches !
+Tu n'as plus de
+flèches, et c'est
+tant mieux vu que de
+toute façon, la
+corde est cassée.
 ]]
 }
 
@@ -318,9 +321,10 @@ dialog{
   icon = "3",
   skip = "all",
   text = [[
-Ca va, tu n'es pas
-encore à court de
-Flèches.
+La corde de ton arc
+est cassée, que
+vas-tu faire de
+toutes ces flèches ?
 ]]
 }
 
@@ -1555,6 +1559,14 @@ Boss !
 N'espère pas
 l'ouvrir sans la
 Clé du Maître !
+]]
+}
+
+dialog{
+  id = "bow_broken",
+  text = [[
+La corde est cassée !
+Mince alors !
 ]]
 }
 

@@ -208,7 +208,7 @@ sprite{ id = "entities/chest", description = "Chest" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
-sprite{ id = "entities/doctor_who/tardis", description = "TARDIS" }
+sprite{ id = "entities/doctor_who/tardis", description = "Tardis" }
 sprite{ id = "entities/doors/door_d1_big_key", description = "Dungeon door (big key)" }
 sprite{ id = "entities/doors/door_d1_boss_key", description = "Dungeon door (boss key)" }
 sprite{ id = "entities/doors/door_d1_normal", description = "Dungeon door (normal)" }
@@ -697,6 +697,7 @@ entity{ id = "fire", description = "Fire" }
 entity{ id = "hookable", description = "Hookable" }
 entity{ id = "low_wall", description = "Low wall" }
 entity{ id = "rotating_platform", description = "Rotating Platform" }
+entity{ id = "tardis", description = "Tardis" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "traversable", description = "Traversable" }
 

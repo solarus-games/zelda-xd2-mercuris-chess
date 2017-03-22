@@ -3703,141 +3703,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1744,
-  y = 416,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1728,
-  y = 400,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1744,
-  y = 400,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1760,
-  y = 400,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1776,
-  y = 384,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1744,
-  y = 384,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1744,
-  y = 368,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1744,
-  y = 352,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1744,
-  y = 304,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1728,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1760,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1728,
-  y = 320,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1760,
-  y = 288,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1712,
-  y = 384,
-  width = 16,
-  height = 16,
-  pattern = "floor.19-1",
-}
-
-tile{
-  layer = 0,
-  x = 1648,
-  y = 336,
-  width = 16,
-  height = 48,
-  pattern = "floor_pot",
-}
-
-tile{
-  layer = 0,
   x = 1408,
   y = 464,
   width = 64,
@@ -5121,6 +4986,231 @@ tile{
   width = 224,
   height = 384,
   pattern = "floor.cracked.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 1728,
+  y = 304,
+  width = 64,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1744,
+  y = 304,
+  width = 32,
+  height = 64,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1712,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1696,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1696,
+  y = 352,
+  width = 128,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1792,
+  y = 320,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1808,
+  y = 336,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1744,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1760,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1696,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1728,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1712,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1696,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1776,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1792,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1808,
+  y = 400,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1808,
+  y = 304,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1712,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1792,
+  y = 368,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1744,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1760,
+  y = 384,
+  width = 16,
+  height = 16,
+  pattern = "floor.19-1",
+}
+
+tile{
+  layer = 0,
+  x = 1648,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 1648,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 1856,
+  y = 416,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+tile{
+  layer = 0,
+  x = 1856,
+  y = 288,
+  width = 16,
+  height = 16,
+  pattern = "torch",
 }
 
 stairs{

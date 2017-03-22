@@ -904,164 +904,38 @@ tile{
 
 tile{
   layer = -1,
-  x = 760,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 792,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 824,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 856,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 1048,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 1080,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 1112,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 1144,
-  y = 248,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 872,
+  x = 888,
   y = 168,
-  width = 32,
-  height = 8,
-  pattern = "cauldron.1-2",
-}
-
-tile{
-  layer = -1,
-  x = 872,
-  y = 176,
-  width = 8,
-  height = 16,
-  pattern = "cauldron.3-2",
-}
-
-tile{
-  layer = -1,
-  x = 872,
-  y = 192,
-  width = 32,
-  height = 8,
-  pattern = "cauldron.2-2",
-}
-
-tile{
-  layer = -1,
-  x = 880,
-  y = 176,
   width = 16,
   height = 16,
-  pattern = "cauldron.hole-2",
+  pattern = "pillar.bottom",
 }
 
 tile{
   layer = -1,
-  x = 896,
-  y = 176,
-  width = 8,
+  x = 888,
+  y = 264,
+  width = 16,
   height = 16,
-  pattern = "cauldron.4-2",
+  pattern = "pillar.bottom",
 }
 
 tile{
   layer = -1,
   x = 1016,
   y = 168,
-  width = 32,
-  height = 8,
-  pattern = "cauldron.1-2",
-}
-
-tile{
-  layer = -1,
-  x = 1016,
-  y = 176,
-  width = 8,
-  height = 16,
-  pattern = "cauldron.3-2",
-}
-
-tile{
-  layer = -1,
-  x = 1016,
-  y = 192,
-  width = 32,
-  height = 8,
-  pattern = "cauldron.2-2",
-}
-
-tile{
-  layer = -1,
-  x = 1024,
-  y = 176,
   width = 16,
   height = 16,
-  pattern = "cauldron.hole-2",
+  pattern = "pillar.bottom",
 }
 
 tile{
   layer = -1,
-  x = 1040,
-  y = 176,
-  width = 8,
+  x = 1016,
+  y = 264,
+  width = 16,
   height = 16,
-  pattern = "cauldron.4-2",
+  pattern = "pillar.bottom",
 }
 
 tile{
@@ -2249,50 +2123,6 @@ custom_entity{
 
 custom_entity{
   layer = -1,
-  x = 928,
-  y = 309,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = -1,
-  x = 928,
-  y = 277,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = -1,
-  x = 992,
-  y = 277,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = -1,
-  x = 992,
-  y = 309,
-  width = 16,
-  height = 16,
-  direction = 1,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = -1,
   x = 992,
   y = 341,
   width = 16,
@@ -2319,6 +2149,32 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/broom_grandma",
   behavior = "dialog#dungeon_1.1f.pool_grandma",
+}
+
+destructible{
+  layer = -1,
+  x = 960,
+  y = 293,
+  sprite = "enemies/cannonball",
+  damage_on_enemies = 2,
+}
+
+door{
+  name = "boss_door_bottom_left",
+  layer = -1,
+  x = 744,
+  y = 160,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "boss_door_bottom_left_2",
+  layer = -1,
+  x = 1160,
+  y = 160,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
 }
 
 tile{
@@ -5131,8 +4987,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1048,
-  y = 232,
+  x = 1016,
+  y = 120,
   width = 16,
   height = 16,
   pattern = "pillar.top",
@@ -5140,8 +4996,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1080,
-  y = 232,
+  x = 1016,
+  y = 216,
   width = 16,
   height = 16,
   pattern = "pillar.top",
@@ -5149,8 +5005,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1112,
-  y = 232,
+  x = 888,
+  y = 120,
   width = 16,
   height = 16,
   pattern = "pillar.top",
@@ -5158,44 +5014,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 1144,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 760,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 792,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 824,
-  y = 232,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 856,
-  y = 232,
+  x = 888,
+  y = 216,
   width = 16,
   height = 16,
   pattern = "pillar.top",
@@ -9705,6 +9525,42 @@ custom_entity{
   direction = 0,
   sprite = "entities/torch",
   model = "torch",
+}
+
+door{
+  name = "boss_door_north",
+  layer = 0,
+  x = 952,
+  y = 24,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "boss_door_east",
+  layer = 0,
+  x = 1240,
+  y = 112,
+  direction = 0,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "boss_door_west",
+  layer = 0,
+  x = 664,
+  y = 112,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "boss_door_south",
+  layer = 0,
+  x = 952,
+  y = 440,
+  direction = 3,
+  sprite = "entities/doors/door_d1_normal",
 }
 
 tile{

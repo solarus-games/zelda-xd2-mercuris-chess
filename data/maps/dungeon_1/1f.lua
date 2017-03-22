@@ -19,7 +19,7 @@ local water_delay = 500
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
-
+  map:set_doors_open("boss_door")
 end
 
 -- Event called after the opening transition effect of the map,

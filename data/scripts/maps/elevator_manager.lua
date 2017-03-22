@@ -159,7 +159,6 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
       end)
     else
       game:set_suspended(true)
-      sol.audio.play_sound("door_closed")
       hero:set_visible(false)
       map:close_doors(elevator_door:get_name())
       local timer = sol.timer.start(map, 200, function()

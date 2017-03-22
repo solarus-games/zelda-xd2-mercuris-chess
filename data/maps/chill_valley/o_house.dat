@@ -214,7 +214,7 @@ teletransporter{
   y = 616,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/tardis",
+  destination_map = "tardis",
   destination = "from_outside",
 }
 

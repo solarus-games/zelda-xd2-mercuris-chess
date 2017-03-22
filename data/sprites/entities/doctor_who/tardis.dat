@@ -1,13 +1,13 @@
 animation{
-  name = "closed",
+  name = "open",
   src_image = "entities/doctor_who/tardis.png",
   frame_delay = 100,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
-    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
-    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
-    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
   },
 }
 animation{
@@ -23,6 +23,18 @@ animation{
   },
 }
 animation{
+  name = "closed",
+  src_image = "entities/doctor_who/tardis.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 56, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+  },
+}
+animation{
   name = "closing",
   src_image = "entities/doctor_who/tardis.png",
   frame_delay = 100,
@@ -31,18 +43,6 @@ animation{
     { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 6 },
     { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 6 },
     { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53, num_frames = 6 },
-  },
-}
-animation{
-  name = "open",
-  src_image = "entities/doctor_who/tardis.png",
-  frame_delay = 100,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
-    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
   },
 }
 animation{

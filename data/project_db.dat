@@ -8,7 +8,6 @@ map{ id = "chill_valley/l_house", description = "L House" }
 map{ id = "chill_valley/o_house", description = "O House" }
 map{ id = "chill_valley/s_house", description = "S House" }
 map{ id = "chill_valley/t_house", description = "T house" }
-map{ id = "chill_valley/tardis", description = "Tardis" }
 map{ id = "chill_valley/z_house", description = "Z House" }
 map{ id = "desert_village/desert_east_house", description = "Desert East House" }
 map{ id = "desert_village/desert_small_house", description = "Desert Small House" }
@@ -47,6 +46,7 @@ map{ id = "out/b1", description = "B1 (Castle)" }
 map{ id = "out/b2", description = "B2 (Forest)" }
 map{ id = "out/c1", description = "C1 (Desert)" }
 map{ id = "out/c2", description = "C2 (Swamp)" }
+map{ id = "tardis", description = "Tardis" }
 
 tileset{ id = "cave_legacy", description = "Cave (legacy)" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
@@ -209,6 +209,7 @@ sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/doctor_who/tardis", description = "Tardis" }
+sprite{ id = "entities/doctor_who/tardis_door", description = "Tardis door" }
 sprite{ id = "entities/doors/door_d1_big_key", description = "Dungeon door (big key)" }
 sprite{ id = "entities/doors/door_d1_boss_key", description = "Dungeon door (boss key)" }
 sprite{ id = "entities/doors/door_d1_normal", description = "Dungeon door (normal)" }

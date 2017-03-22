@@ -86,10 +86,11 @@ end
 -- Starts the escape sequence of the dungeon.
 function map:grump_finished(grump)
 
+  elevator_b_sensor:set_enabled(false)
+
   sol.timer.start(map, 3000, function()
     sol.timer.start(map, 1000, function()
       sol.audio.stop_music()
-      map:open_doors("boss_door")
     end)
 
     local explosion_sound_timer = sol.timer.start(map, 300, function()
@@ -99,20 +100,27 @@ function map:grump_finished(grump)
 
     sol.timer.start(map, 2000, function()
 
+      -- Shake the camera sometimes.
       sol.timer.start(map, 6000, function()
+        if hero:get_state() == "stairs" then
+          -- Don't freeze/unfreeze the hero while taking stairs
+          return true
+        end
         shake_camera()
         explosion_sound_timer:stop()
         return true
       end)
 
+      -- Add harmless explosions and fire sometimes.
       sol.timer.start(map, 8000, function()
+        map:open_doors("boss_door")
         sol.audio.play_music("alttp/soldiers")
 
-        sol.timer.start(map, 500, function()
+        sol.timer.start(map, 250, function()
           if math.random(4) == 1 then
             sol.audio.play_sound("explosion")
             local x, y = hero:get_position()
-            for i in 1, math.random(5) do
+            for i = 1, 3 + math.random(5) do
               if math.random(2) == 1 then
                 map:create_explosion({
                   x = x + math.random(300) - 150,
@@ -138,6 +146,7 @@ end
 function tardis_landing_sensor:on_activated()
 
   sol.audio.play_sound("tardis")
+  sol.audio.play_sound("tardis")
   tardis:set_enabled(true)
   the_doctor:set_enabled(true)
 end
@@ -147,14 +156,55 @@ function doctor_coming_sensor:on_activated()
   local movement = sol.movement.create("straight")
   movement:set_speed(96)
   movement:set_angle(3 * math.pi / 2)
-  movement:set_max_distance(120)
+  movement:set_max_distance(96)
   movement:start(the_doctor, function()
     game:start_dialog("dungeon_2.9f.doctor", function()
-      local movement = sol.movement.create("straight")
+
+      sol.audio.play_music("doctor_octoroc/i_am_the_doctor_1")
+
+      local movement = sol.movement.create("target")
+      movement:set_target(tardis)
+      movement:set_smooth(false)
       movement:set_speed(96)
-      movement:set_angle(math.pi / 2)
-      movement:set_max_distance(120)
-      movement:start(the_doctor)
+      movement:set_ignore_obstacles(true)
+
+      function movement:on_position_changed()
+        if the_doctor:overlaps(tardis_door, "facing") and tardis_door:is_closed() then
+          map:open_doors("tardis_door")
+        end
+      end
+
+      movement:start(the_doctor, function()
+        the_doctor:set_enabled(false)
+      end)
     end)
   end)
+end
+
+function tardis_sensor:on_activated()
+
+  map:close_doors("tardis_door")
+  hero:set_visible(false)
+  hero:freeze()
+  game:set_pause_allowed(false)
+
+  game:set_value("dungeon_2_boss", true)
+  game:set_dungeon_finished(2)
+
+  local timer = sol.timer.start(map, 500, function()
+    sol.audio.play_sound("tardis")
+    sol.audio.play_sound("tardis")
+    tardis:get_sprite():set_animation("blinking")
+    tardis_door:get_sprite():fade_out()
+    tardis:get_sprite():fade_out(function()
+      hero:teleport("tardis")
+    end)
+  end)
+  timer:set_suspended_with_map(false)
+end
+
+function map:on_finished()
+
+  game:get_hero():set_visible(true)
+  game:set_pause_allowed(true)
 end

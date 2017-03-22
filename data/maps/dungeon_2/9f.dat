@@ -5301,6 +5301,63 @@ sensor{
   height = 16,
 }
 
+door{
+  name = "tardis_door",
+  layer = 0,
+  x = 792,
+  y = 64,
+  direction = 3,
+  sprite = "entities/doctor_who/tardis_door",
+}
+
+wall{
+  layer = 0,
+  x = 784,
+  y = 48,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 808,
+  y = 48,
+  width = 8,
+  height = 32,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 784,
+  y = 40,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+sensor{
+  name = "tardis_sensor",
+  layer = 0,
+  x = 800,
+  y = 77,
+  width = 16,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 728,

@@ -182,7 +182,10 @@ sprite{ id = "enemies/newlink/zoura_green", description = "Zoura (green)" }
 sprite{ id = "enemies/newlink/zoura_green_weapon", description = "Zoura Sword (green)" }
 sprite{ id = "enemies/newlink/zoura_red", description = "Zoura (red)" }
 sprite{ id = "enemies/newlink/zoura_red_weapon", description = "Zoura Spear (red)" }
-sprite{ id = "enemies/oclero/armos_tie", description = "Armos Tie" }
+sprite{ id = "enemies/oclero/armos_tie_blue", description = "Armos Tie (Blue)" }
+sprite{ id = "enemies/oclero/armos_tie_green", description = "Armos Tie (Green)" }
+sprite{ id = "enemies/oclero/armos_tie_red", description = "Armos Tie (Red)" }
+sprite{ id = "enemies/oclero/armos_tie_yellow", description = "Armos Tie (Yellow)" }
 sprite{ id = "enemies/oclero/chicken_giant", description = "Giant Chicken" }
 sprite{ id = "enemies/oclero/mr_grump", description = "Mr. Grump" }
 sprite{ id = "enemies/rupee_blue", description = "Rupee (blue)" }

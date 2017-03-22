@@ -65,3 +65,47 @@ function debug_boss_sensor:on_activated()
     boss:set_life(1)
   end
 end
+
+local function shake_camera()
+  sol.audio.play_sound("enemy_awake")
+  hero:freeze()
+  local camera = map:get_camera()
+  local shake_config = {
+    count = 10,
+    amplitude = 4,
+  }
+  camera:shake(shake_config, function()
+    hero:unfreeze()
+  end)
+end
+ 
+-- Function called when the boss is beaten.
+-- Starts the escape sequence of the dungeon.
+function map:grump_finished(grump)
+
+  sol.timer.start(map, 3000, function()
+    sol.timer.start(map, 1000, function()
+      sol.audio.stop_music()
+      map:open_doors("boss_door")
+    end)
+
+    local explosion_sound_timer = sol.timer.start(map, 300, function()
+      sol.audio.play_sound("explosion")
+      return true
+    end)
+
+    sol.timer.start(map, 4000, function()
+
+      explosion_sound_timer:stop()
+
+      sol.timer.start(map, 4000, function()
+        sol.audio.play_music("alttp/soldiers")
+      end)
+
+      sol.timer.start(map, 6000, function()
+        shake_camera()
+        return true
+      end)
+    end)
+  end)
+end

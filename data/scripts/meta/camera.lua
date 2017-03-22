@@ -9,6 +9,8 @@ function camera_meta:shake(config, callback)
   local speed = config ~= nil and config.speed or 60
 
   local camera = self
+  local map = camera:get_map()
+  local hero = map:get_hero()
 
   local shaking_to_right = true
   local shaking_count = 0
@@ -43,6 +45,7 @@ function camera_meta:shake(config, callback)
         shake_step()
       else
         -- Finished.
+        camera:start_tracking(hero)
         if callback ~= nil then
           callback()
         end

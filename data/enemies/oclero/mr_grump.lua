@@ -10,6 +10,7 @@ local movement
 local path_finding_targets = {}
 local eyeglass_dialog_done = false
 local searching_timer
+local notified_map = false
 local initial_life = 300
 
 local state  -- "running_away", "shooting", "charging", "searching", "finished"
@@ -277,13 +278,16 @@ function enemy:start_state_finished()
   local hero_x = hero:get_position()
   sprite:set_direction(hero_x > x and 0 or 2)  -- Look right or left.
 
+  -- Tell the map Grump is beaten.
+  if map.grump_finished and not notified_map then
+    notified_map = true
+    map:grump_finished(enemy)
+  end
+
+  -- Endless explosions of rupees.
   sol.timer.start(enemy, 3000, function()
     local num_explosions = 0
     sol.timer.start(enemy, 150, function()
-
-      if num_explosions % 2 == 1 then
-        sol.audio.play_sound("explosion")
-      end
 
       num_explosions = num_explosions + 1
       local num_rupees = math.min(20, num_explosions)

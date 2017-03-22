@@ -278,11 +278,16 @@ function enemy:start_state_finished()
   sprite:set_direction(hero_x > x and 0 or 2)  -- Look right or left.
 
   sol.timer.start(enemy, 3000, function()
-    local num_explosions = 20
+    local num_explosions = 0
     sol.timer.start(enemy, 150, function()
-      sol.audio.play_sound("explosion")
 
-      for i = 1, 21 - num_explosions do
+      if num_explosions % 2 == 1 then
+        sol.audio.play_sound("explosion")
+      end
+
+      num_explosions = num_explosions + 1
+      local num_rupees = math.min(20, num_explosions)
+      for i = 1, num_rupees do
         local n = math.random(3)
         local sprite_id = "enemies/rupee_green"
         if n == 2 then
@@ -294,7 +299,7 @@ function enemy:start_state_finished()
         local rupee = map:create_custom_entity({
           x = x,
           y = y - 5,
-          layer = layer,
+          layer = 0,
           width = 16,
           height = 16,
           direction = 0,
@@ -302,7 +307,7 @@ function enemy:start_state_finished()
         })
         local movement = sol.movement.create("straight")
         movement:set_ignore_obstacles(true)
-        movement:set_max_distance(320)
+        movement:set_max_distance(960)
         movement:set_angle(math.random() * 2 * math.pi)
         movement:set_speed(320)
         movement:start(rupee, function()
@@ -310,8 +315,7 @@ function enemy:start_state_finished()
         end)
       end
 
-      num_explosions = num_explosions - 1
-      return num_explosions > 0
+      return true
     end)
   end)
 end

@@ -108,31 +108,28 @@ function map:grump_finished(grump)
       sol.timer.start(map, 8000, function()
         sol.audio.play_music("alttp/soldiers")
 
-        sol.timer.start(map, 100, function()
-          if math.random(10) == 1 then
+        sol.timer.start(map, 500, function()
+          if math.random(4) == 1 then
             sol.audio.play_sound("explosion")
             local x, y = hero:get_position()
-            map:create_explosion({
-              x = x + math.random(100) - 50,
-              y = y + math.random(100) - 50,
-              layer = 2,
-            })
+            for i in 1, math.random(5) do
+              if math.random(2) == 1 then
+                map:create_explosion({
+                  x = x + math.random(300) - 150,
+                  y = y + math.random(300) - 150,
+                  layer = 2,
+                })
+                map:create_fire({
+                  x = x + math.random(300) - 150,
+                  y = y + math.random(300) - 150,
+                  layer = 2,
+                })
+              end
+            end
           end
           return true
         end)
 
-        sol.timer.start(map, 100, function()
-          if math.random(10) == 1 then
-            sol.audio.play_sound("explosion")
-            local x, y = hero:get_position()
-            map:create_fire({
-              x = x + math.random(100) - 50,
-              y = y + math.random(100) - 50,
-              layer = 2,
-            })
-          end
-          return true
-        end)
       end)
     end)
   end)
@@ -147,10 +144,17 @@ end
 
 function doctor_coming_sensor:on_activated()
 
-  print("go doctor")
   local movement = sol.movement.create("straight")
   movement:set_speed(96)
   movement:set_angle(3 * math.pi / 2)
   movement:set_max_distance(120)
-  movement:start(the_doctor)
+  movement:start(the_doctor, function()
+    game:start_dialog("dungeon_2.9f.doctor", function()
+      local movement = sol.movement.create("straight")
+      movement:set_speed(96)
+      movement:set_angle(math.pi / 2)
+      movement:set_max_distance(120)
+      movement:start(the_doctor)
+    end)
+  end)
 end

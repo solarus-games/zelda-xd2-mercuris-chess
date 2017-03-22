@@ -2387,6 +2387,13 @@ Prends ça et dégage !
 }
 
 dialog{
+  id = "dungeon_2.9f.doctor",
+  text = [[
+Cours !$1
+]]
+}
+
+dialog{
   id = "dungeon_2.9f.grump_eyeglass_found",
   text = [[
 C'est bon !

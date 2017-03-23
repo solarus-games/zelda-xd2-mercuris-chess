@@ -46,9 +46,11 @@ map{ id = "out/b1", description = "B1 (Castle)" }
 map{ id = "out/b2", description = "B2 (Forest)" }
 map{ id = "out/c1", description = "C1 (Desert)" }
 map{ id = "out/c2", description = "C2 (Swamp)" }
+map{ id = "prehistoric/outside", description = "Outside" }
 map{ id = "tardis", description = "Tardis" }
 
 tileset{ id = "cave_legacy", description = "Cave (legacy)" }
+tileset{ id = "ct/prehistoric_outside", description = "Outside" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
 tileset{ id = "dungeon/dark_brown", description = "Dark brown dungeon" }

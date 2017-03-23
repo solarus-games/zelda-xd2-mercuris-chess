@@ -132,7 +132,9 @@ musics/bttf/*.spc
 
 sounds/*.ogg
 
-tilesets/**.png
+tilesets/ct/*.png
+tilesets/dungeon/*.png
+tilesets/*.png
 
 sprites/enemies/alttp/*.png
 sprites/enemies/cannonball.png

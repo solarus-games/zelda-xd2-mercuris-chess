@@ -4,10 +4,22 @@ animation{
   frame_delay = 200,
   frame_to_loop_on = 0,
   directions = {
-    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
-    { x = 0, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
-    { x = 0, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
-    { x = 0, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
+    { x = 0, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
+    { x = 0, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
+    { x = 0, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
+  },
+}
+animation{
+  name = "flying",
+  src_image = "enemies/oclero/chicken_giant.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 384, y = 384, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 384, y = 480, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 384, y = 576, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 384, y = 672, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
   },
 }
 animation{
@@ -16,20 +28,42 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 192, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
-    { x = 192, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
-    { x = 192, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
-    { x = 192, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 480, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 480, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 480, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
+    { x = 480, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 3 },
   },
 }
 animation{
   name = "immobilized",
   src_image = "enemies/oclero/chicken_giant.png",
   directions = {
-    { x = 384, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
-    { x = 384, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
-    { x = 384, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
-    { x = 384, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 768, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 768, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 768, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 768, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+  },
+}
+animation{
+  name = "pecking",
+  src_image = "enemies/oclero/chicken_giant.png",
+  frame_delay = 200,
+  directions = {
+    { x = 0, y = 384, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 0, y = 480, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 0, y = 576, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 0, y = 672, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+  },
+}
+animation{
+  name = "pecking (copy)",
+  src_image = "enemies/oclero/chicken_giant.png",
+  frame_delay = 200,
+  directions = {
+    { x = 672, y = 384, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 672, y = 480, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 672, y = 576, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 672, y = 672, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
   },
 }
 animation{
@@ -38,9 +72,9 @@ animation{
   frame_delay = 50,
   frame_to_loop_on = 0,
   directions = {
-    { x = 384, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
-    { x = 384, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
-    { x = 384, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
-    { x = 384, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 768, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 768, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 768, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
+    { x = 768, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 2 },
   },
 }

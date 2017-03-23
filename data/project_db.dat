@@ -229,6 +229,7 @@ sprite{ id = "entities/doors/door_d2_very_weak_wall", description = "Cave door (
 sprite{ id = "entities/doors/door_d2_weak_wall", description = "Cave door (weak wall)" }
 sprite{ id = "entities/doors/door_d4_very_weak_wall", description = "House door (very weak wall)" }
 sprite{ id = "entities/doors/door_d4_weak_wall", description = "House door (weak wall)" }
+sprite{ id = "entities/dungeon_1/iron_ball", description = "Iron Ball" }
 sprite{ id = "entities/dungeon_2_entrance/building", description = "Building" }
 sprite{ id = "entities/dungeon_2_entrance/entrance", description = "Entrance" }
 sprite{ id = "entities/dungeon_2_entrance/ground", description = "Ground" }
@@ -498,6 +499,7 @@ sound{ id = "lift", description = "lift" }
 sound{ id = "magic_bar", description = "magic_bar" }
 sound{ id = "message_end", description = "message_end" }
 sound{ id = "message_letter", description = "message_letter" }
+sound{ id = "metallizer/trolololol", description = "Trolololol song" }
 sound{ id = "mk64_mario_mammamia", description = "mk64_mario_mammamia" }
 sound{ id = "mk64_mario_yeah", description = "mk64_mario_yeah" }
 sound{ id = "mk64_toad", description = "mk64_toad" }

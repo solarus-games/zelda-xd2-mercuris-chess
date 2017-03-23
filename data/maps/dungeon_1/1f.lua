@@ -97,6 +97,7 @@ local function old_man_moves_quickly()
     movement:set_path{4,4,4,4,2,2,2,2,2,2,4,4,4,4}
     local old_man = map:get_entity("library_old_man") 
     movement:start(old_man)
+    sol.audio.play_sound("metallizer/trolololol")
   end
 end
 

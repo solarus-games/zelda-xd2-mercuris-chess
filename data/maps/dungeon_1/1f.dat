@@ -2155,7 +2155,7 @@ destructible{
   layer = -1,
   x = 960,
   y = 293,
-  sprite = "enemies/cannonball",
+  sprite = "entities/dungeon_1/iron_ball",
   damage_on_enemies = 2,
 }
 
@@ -8207,6 +8207,15 @@ tile{
   pattern = "carpet.5",
 }
 
+tile{
+  layer = 0,
+  x = 1496,
+  y = 384,
+  width = 16,
+  height = 32,
+  pattern = "water_pool_ladder.4",
+}
+
 chest{
   layer = 0,
   x = 160,
@@ -8410,7 +8419,7 @@ wall{
   x = 1504,
   y = 368,
   width = 8,
-  height = 64,
+  height = 16,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8478,16 +8487,6 @@ jumper{
   width = 24,
   height = 8,
   direction = 2,
-  jump_length = 40,
-}
-
-jumper{
-  layer = 0,
-  x = 1504,
-  y = 376,
-  width = 8,
-  height = 56,
-  direction = 4,
   jump_length = 40,
 }
 
@@ -9561,6 +9560,29 @@ door{
   y = 440,
   direction = 3,
   sprite = "entities/doors/door_d1_normal",
+}
+
+wall{
+  layer = 0,
+  x = 1504,
+  y = 416,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+jumper{
+  layer = 0,
+  x = 1504,
+  y = 376,
+  width = 8,
+  height = 56,
+  direction = 4,
+  jump_length = 40,
 }
 
 tile{

@@ -12096,6 +12096,17 @@ enemy{
   treasure_name = "random",
 }
 
+npc{
+  name = "otis",
+  layer = 0,
+  x = 688,
+  y = 869,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/otis_camel",
+  behavior = "dialog#otis",
+}
+
 tile{
   layer = 1,
   x = 328,

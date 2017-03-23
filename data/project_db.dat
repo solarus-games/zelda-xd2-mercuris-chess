@@ -46,7 +46,7 @@ map{ id = "out/b1", description = "B1 (Castle)" }
 map{ id = "out/b2", description = "B2 (Forest)" }
 map{ id = "out/c1", description = "C1 (Desert)" }
 map{ id = "out/c2", description = "C2 (Swamp)" }
-map{ id = "prehistoric/cliffs", description = "Prehistoric cliffs" }
+map{ id = "prehistoric/mountains", description = "Prehistoric mountains" }
 map{ id = "tardis", description = "Tardis" }
 
 tileset{ id = "cave_legacy", description = "Cave (legacy)" }
@@ -437,6 +437,7 @@ music{ id = "alttp/zelda", description = "Zelda theme" }
 music{ id = "bttf/storyline", description = "Storyline" }
 music{ id = "bttf/title", description = "Title screen" }
 music{ id = "bulby/great_sea", description = "Great Sea" }
+music{ id = "ct/mystic_mountain", description = "Mystic mountain" }
 music{ id = "doctor_octoroc/demons_run", description = "Demons run" }
 music{ id = "doctor_octoroc/doctor_who_theme_2010", description = "Doctor Who Theme (2010)" }
 music{ id = "doctor_octoroc/i_am_the_doctor_1", description = "I am the Doctor 1" }

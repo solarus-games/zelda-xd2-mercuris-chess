@@ -3,7 +3,7 @@ properties{
   y = 1024,
   width = 1024,
   height = 1024,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   world = "outside_world",
   tileset = "outside",
@@ -5310,6 +5310,27 @@ enemy{
   direction = 3,
   breed = "alttp/chicken",
   treasure_name = "random",
+}
+
+npc{
+  name = "doc",
+  layer = 0,
+  x = 312,
+  y = 589,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bttf/doc_emmett_brown",
+  behavior = "dialog#chill_valley.doc",
+}
+
+custom_entity{
+  layer = 0,
+  x = 312,
+  y = 645,
+  width = 16,
+  height = 16,
+  direction = 0,
+  model = "delorean",
 }
 
 tile{

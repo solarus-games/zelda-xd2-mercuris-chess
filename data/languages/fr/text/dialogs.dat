@@ -1653,7 +1653,22 @@ y croire...
 }
 
 dialog{
+  id = "chill_valley.doc",
+  skip = "all",
+  text = [[
+Bonjour Monsieur, c'est
+à quel sujet ?
+
+Non, je ne fais rien de
+particulier, je mène
+une petite expérience
+météorologique.
+]]
+}
+
+dialog{
   id = "chill_valley.doctor_who",
+  skip = "all",
   text = [[
 Bonjour, je suis le
 Docteur.

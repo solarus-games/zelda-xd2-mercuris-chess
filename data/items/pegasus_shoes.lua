@@ -1,5 +1,5 @@
 local item = ...
-local game = ...
+local game = item:get_game()
 
 function item:on_created()
 

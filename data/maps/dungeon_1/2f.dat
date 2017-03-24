@@ -902,6 +902,150 @@ tile{
   pattern = "door_blast.1",
 }
 
+tile{
+  layer = 0,
+  x = 40,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 264,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "480",
+}
+
 stairs{
   layer = 0,
   x = 152,
@@ -1135,150 +1279,6 @@ tile{
   width = 320,
   height = 16,
   pattern = "ceiling.1",
-}
-
-tile{
-  layer = 2,
-  x = 88,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 216,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 40,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 264,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 40,
-  y = 440,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 88,
-  y = 440,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 216,
-  y = 440,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 264,
-  y = 440,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 88,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 216,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 40,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 264,
-  y = 200,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 88,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 216,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 40,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "480",
-}
-
-tile{
-  layer = 2,
-  x = 264,
-  y = 24,
-  width = 16,
-  height = 16,
-  pattern = "480",
 }
 
 separator{

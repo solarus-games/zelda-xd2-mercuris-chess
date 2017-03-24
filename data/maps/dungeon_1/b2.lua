@@ -19,6 +19,11 @@ function map:on_started()
 
   -- miniboss
   map:set_doors_open("miniboss_door")
+  if game:get_value("dungeon_1_miniboss_clear") then
+    for enemy in map:get_entities("miniboss_enemy") do
+      enemy:destroy()
+    end
+  end
 end
 
 function map:on_finished()
@@ -31,10 +36,19 @@ end
 
 -- mini boss room
 function miniboss_sensor:on_activated()
-  map:close_doors("miniboss_door")
+  if not game:get_value("dungeon_1_miniboss_clear") then
+    map:close_doors("miniboss_door")
+  end
 end
 
-function miniboss_weak_wall:on_collision_explosion()
-  map:remove_entities("miniboss_weak_wall")
-  sol.audio.play_sound("secret")
+local function miniboss_enemy_on_dead()
+  if not map:has_entities("miniboss_enemy") and miniboss_door:is_closed() then
+    sol.audio.play_sound("secret")
+    map:open_doors("miniboss_door")
+    game:set_value("dungeon_1_miniboss_clear")
+  end
+end
+
+for enemy in map:get_entities("miniboss_enemy") do
+  enemy.on_dead = miniboss_enemy_on_dead
 end

@@ -6,7 +6,7 @@ animation{
   },
 }
 animation{
-  name = "destroying",
+  name = "destroy",
   src_image = "entities/dungeon_1/pillar.png",
   frame_delay = 500,
   frame_to_loop_on = 0,

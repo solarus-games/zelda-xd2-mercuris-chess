@@ -8817,6 +8817,14 @@ destructible{
   can_be_cut = true,
 }
 
+chest{
+  layer = 0,
+  x = 360,
+  y = 165,
+  treasure_name = "fire_rod",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 432,

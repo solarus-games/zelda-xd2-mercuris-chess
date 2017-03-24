@@ -188,6 +188,8 @@ sprite{ id = "enemies/oclero/armos_tie_blue", description = "Armos Tie (Blue)" }
 sprite{ id = "enemies/oclero/armos_tie_green", description = "Armos Tie (Green)" }
 sprite{ id = "enemies/oclero/armos_tie_red", description = "Armos Tie (Red)" }
 sprite{ id = "enemies/oclero/armos_tie_yellow", description = "Armos Tie (Yellow)" }
+sprite{ id = "enemies/oclero/chick_red", description = "Little Chick (Red)" }
+sprite{ id = "enemies/oclero/chick_yellow", description = "Little Chick (Yellow)" }
 sprite{ id = "enemies/oclero/chicken_giant", description = "Giant Chicken" }
 sprite{ id = "enemies/oclero/mr_grump", description = "Mr. Grump" }
 sprite{ id = "enemies/rupee_blue", description = "Rupee (blue)" }

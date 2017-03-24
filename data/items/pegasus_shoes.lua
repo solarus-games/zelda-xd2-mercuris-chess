@@ -15,7 +15,7 @@ function item:on_using()
 -- TODO
 --  local hero = self:get_map():get_entity("hero")
 --  hero:set_direction(math.random(0, 3))
-  hero:start_running()
+  game:get_hero():start_running()
   self:set_finished()
 end
 

@@ -904,42 +904,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 888,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 888,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 1016,
-  y = 168,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
-  x = 1016,
-  y = 264,
-  width = 16,
-  height = 16,
-  pattern = "pillar.bottom",
-}
-
-tile{
-  layer = -1,
   x = 1184,
   y = 16,
   width = 80,
@@ -2159,8 +2123,8 @@ npc{
 
 destructible{
   layer = -1,
-  x = 960,
-  y = 293,
+  x = 1120,
+  y = 277,
   sprite = "entities/dungeon_1/iron_ball",
   damage_on_enemies = 2,
 }
@@ -2181,6 +2145,102 @@ door{
   y = 160,
   direction = 1,
   sprite = "entities/doors/door_d1_normal",
+}
+
+custom_entity{
+  name = "pillar_base_1",
+  layer = -1,
+  x = 896,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar_base",
+}
+
+custom_entity{
+  name = "pillar_base_2",
+  layer = -1,
+  x = 1024,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar_base",
+}
+
+custom_entity{
+  name = "pillar_base_3",
+  layer = -1,
+  x = 896,
+  y = 277,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar_base",
+}
+
+custom_entity{
+  name = "pillar_base_4",
+  layer = -1,
+  x = 1024,
+  y = 277,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar_base",
+}
+
+wall{
+  layer = -1,
+  x = 888,
+  y = 168,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 1016,
+  y = 168,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 1016,
+  y = 264,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 888,
+  y = 264,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
@@ -4989,42 +5049,6 @@ tile{
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
-}
-
-tile{
-  layer = 0,
-  x = 1016,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 1016,
-  y = 216,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
-}
-
-tile{
-  layer = 0,
-  x = 888,
-  y = 216,
-  width = 16,
-  height = 16,
-  pattern = "pillar.top",
 }
 
 tile{
@@ -9603,6 +9627,50 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+custom_entity{
+  name = "pillar_1",
+  layer = 0,
+  x = 896,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar",
+}
+
+custom_entity{
+  name = "pillar_2",
+  layer = 0,
+  x = 1024,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar",
+}
+
+custom_entity{
+  name = "pillar_3",
+  layer = 0,
+  x = 896,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar",
+}
+
+custom_entity{
+  name = "pillar_4",
+  layer = 0,
+  x = 1024,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/dungeon_1/pillar",
 }
 
 tile{

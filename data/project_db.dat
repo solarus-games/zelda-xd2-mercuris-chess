@@ -230,6 +230,8 @@ sprite{ id = "entities/doors/door_d2_weak_wall", description = "Cave door (weak 
 sprite{ id = "entities/doors/door_d4_very_weak_wall", description = "House door (very weak wall)" }
 sprite{ id = "entities/doors/door_d4_weak_wall", description = "House door (weak wall)" }
 sprite{ id = "entities/dungeon_1/iron_ball", description = "Iron Ball" }
+sprite{ id = "entities/dungeon_1/pillar", description = "Pillar" }
+sprite{ id = "entities/dungeon_1/pillar_base", description = "Pillar base" }
 sprite{ id = "entities/dungeon_2_entrance/building", description = "Building" }
 sprite{ id = "entities/dungeon_2_entrance/entrance", description = "Entrance" }
 sprite{ id = "entities/dungeon_2_entrance/ground", description = "Ground" }

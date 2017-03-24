@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "entities/dungeon_1/pillar.png",
+  directions = {
+    { x = 0, y = 48, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}

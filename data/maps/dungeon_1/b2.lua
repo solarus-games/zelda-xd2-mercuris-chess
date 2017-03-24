@@ -45,7 +45,7 @@ local function miniboss_enemy_on_dead()
   if not map:has_entities("miniboss_enemy") and miniboss_door:is_closed() then
     sol.audio.play_sound("secret")
     map:open_doors("miniboss_door")
-    game:set_value("dungeon_1_miniboss_clear")
+    game:set_value("dungeon_1_miniboss_clear", true)
   end
 end
 

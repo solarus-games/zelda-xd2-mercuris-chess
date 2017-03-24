@@ -2010,10 +2010,12 @@ tile{
 }
 
 destructible{
+  name = "vase_key",
   layer = -1,
   x = 1432,
   y = 413,
   treasure_name = "small_key_brandished",
+  treasure_savegame_variable = "dungeon_1_small_key_2",
   sprite = "entities/vase",
 }
 

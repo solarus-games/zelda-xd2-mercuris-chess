@@ -929,6 +929,66 @@ teletransporter{
   destination = "from_b1_right",
 }
 
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 256,
+  y = 125,
+  direction = 3,
+  breed = "alttp/ropa",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 264,
+  y = 85,
+  direction = 3,
+  breed = "alttp/tentacle",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 264,
+  y = 157,
+  direction = 3,
+  breed = "alttp/tentacle",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 384,
+  y = 125,
+  direction = 3,
+  breed = "alttp/tentacle",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 376,
+  y = 85,
+  direction = 3,
+  breed = "alttp/ropa",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 376,
+  y = 165,
+  direction = 3,
+  breed = "alttp/ropa",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 64,

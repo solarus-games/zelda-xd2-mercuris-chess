@@ -2068,6 +2068,49 @@ le dit !
 }
 
 dialog{
+  id = "dungeon_1.b2.bones",
+  text = [[
+J'ai beau être en
+piteux état, j'ai quand
+même encore une utilité.
+Par exemple, savais-tu
+que tu étais dans un
+château ? Et oui ça ne
+paraît pas évident je
+sais, ça doit être un
+choc pour toi
+C'est l'oeuvre du démon
+Mario qui fait croire
+que nous ne sommes pas
+dans un château mais
+c'est un fait. Nous
+y sommes. Si tu veux mon
+avis, je crois que
+l'esprit maléfique de
+Mario rôde encore en
+ces murs, tu devrais y
+remédier...
+]]
+}
+
+dialog{
+  id = "dungeon_1.b2.prisoner",
+  text = [[
+Quoi ? Tu es venu pour
+me sauver ?
+Mais laisse-moi
+tranquille, j'aime être
+abandonné au fond d'une
+geôle, tu devrais
+essayer aussi tu verras
+on ne s'ennuie pas. Il
+y a une place dans la
+cellule d'à côté.
+Fais-toi plaisir.
+]]
+}
+
+dialog{
   id = "dungeon_1.welcome",
   text = [[
        Niveau 1

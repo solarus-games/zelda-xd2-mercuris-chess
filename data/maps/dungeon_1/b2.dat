@@ -75,6 +75,24 @@ tile{
 }
 
 tile{
+  layer = -1,
+  x = 400,
+  y = 280,
+  width = 160,
+  height = 24,
+  pattern = "wall_low_lit.1-3",
+}
+
+tile{
+  layer = -1,
+  x = 400,
+  y = 656,
+  width = 160,
+  height = 24,
+  pattern = "wall_low_lit.2-3",
+}
+
+tile{
   layer = 0,
   x = 704,
   y = 64,
@@ -634,9 +652,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 368,
+  x = 560,
   y = 280,
-  width = 224,
+  width = 32,
   height = 8,
   pattern = "wall_border.1-6",
 }
@@ -717,7 +735,7 @@ tile{
   layer = 0,
   x = 368,
   y = 672,
-  width = 224,
+  width = 32,
   height = 8,
   pattern = "wall_border.2-6",
 }
@@ -4540,15 +4558,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
-  y = 576,
-  width = 16,
-  height = 16,
-  pattern = "torch",
-}
-
-tile{
-  layer = 0,
   x = 64,
   y = 624,
   width = 16,
@@ -4983,7 +4992,7 @@ tile{
   layer = 0,
   x = 368,
   y = 288,
-  width = 224,
+  width = 32,
   height = 384,
   pattern = "floor.cracked.5-1",
 }
@@ -5213,6 +5222,312 @@ tile{
   pattern = "torch",
 }
 
+tile{
+  layer = 0,
+  x = 560,
+  y = 288,
+  width = 32,
+  height = 384,
+  pattern = "floor.cracked.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 368,
+  y = 280,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 672,
+  width = 32,
+  height = 8,
+  pattern = "wall_border.2-6",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 304,
+  width = 160,
+  height = 352,
+  pattern = "2719",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 288,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 304,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 288,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 304,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 656,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 656,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 672,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 528,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 536,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 584,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 480,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 488,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 536,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 416,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 560,
+  y = 464,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 400,
+  y = 312,
+  width = 160,
+  height = 16,
+  pattern = "1088",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 280,
+  width = 48,
+  height = 32,
+  pattern = "floor.cracked.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 280,
+  width = 48,
+  height = 8,
+  pattern = "wall_border.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 288,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 456,
+  y = 304,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 288,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 496,
+  y = 304,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
 stairs{
   layer = 0,
   x = 736,
@@ -5416,11 +5731,14 @@ wall{
 }
 
 destructible{
+  name = "small_key_vase",
   layer = 0,
   x = 1168,
   y = 253,
   treasure_name = "small_key",
-  sprite = "",
+  treasure_savegame_variable = "dungeon_1_small_key_1",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
 }
 
 wall{
@@ -5574,7 +5892,8 @@ chest{
   layer = 0,
   x = 1040,
   y = 125,
-  treasure_savegame_variable = "dungeon_1_empty_chest_1",
+  treasure_name = "rupee",
+  treasure_savegame_variable = "dungeon_1_rupee_chest",
   sprite = "entities/chest",
 }
 
@@ -5588,13 +5907,14 @@ chest{
 }
 
 npc{
+  name = "prisoner",
   layer = 0,
   x = 96,
   y = 301,
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/green_hat_man",
-  behavior = "dialog#",
+  behavior = "dialog#dungeon_1.b2.prisoner",
 }
 
 enemy{
@@ -5757,6 +6077,178 @@ enemy{
   y = 181,
   direction = 3,
   breed = "alttp/bubble",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 1760,
+  y = 341,
+  direction = 3,
+  breed = "alttp/snap_dragon",
+  treasure_name = "random",
+}
+
+dynamic_tile{
+  name = "miniboss_weak_wall",
+  layer = 0,
+  x = 1736,
+  y = 440,
+  pattern = "wall.2-6",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 1728,
+  y = 365,
+  direction = 3,
+  breed = "alttp/snap_dragon",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_23",
+  layer = 0,
+  x = 1760,
+  y = 389,
+  direction = 3,
+  breed = "alttp/snap_dragon",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_24",
+  layer = 0,
+  x = 1792,
+  y = 365,
+  direction = 3,
+  breed = "alttp/snap_dragon",
+  treasure_name = "random",
+}
+
+door{
+  name = "miniboss_door",
+  layer = 0,
+  x = 1624,
+  y = 352,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+sensor{
+  name = "miniboss_sensor",
+  layer = 0,
+  x = 1648,
+  y = 349,
+  width = 16,
+  height = 48,
+}
+
+door{
+  name = "key_door",
+  layer = 0,
+  x = 344,
+  y = 352,
+  direction = 2,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_1_b2_key_door",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
+  opening_condition_consumed = true,
+}
+
+chest{
+  name = "compass_chest",
+  layer = 0,
+  x = 224,
+  y = 533,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_1_compass",
+  sprite = "entities/chest",
+}
+
+door{
+  name = "key_door_2",
+  layer = 0,
+  x = 344,
+  y = 592,
+  direction = 2,
+  sprite = "entities/doors/door_d1_small_key",
+  savegame_variable = "dungeon_1_b2_key_door_2",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
+  opening_condition_consumed = true,
+}
+
+npc{
+  name = "bones",
+  layer = 0,
+  x = 1368,
+  y = 493,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#dungeon_1.b2.bones",
+}
+
+enemy{
+  name = "auto_enemy_25",
+  layer = 0,
+  x = 968,
+  y = 325,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_26",
+  layer = 0,
+  x = 968,
+  y = 181,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_27",
+  layer = 0,
+  x = 160,
+  y = 589,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_28",
+  layer = 0,
+  x = 96,
+  y = 541,
+  direction = 3,
+  breed = "newlink/zoura_green",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_29",
+  layer = 0,
+  x = 1704,
+  y = 581,
+  direction = 3,
+  breed = "newlink/zoura_green",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_30",
+  layer = 0,
+  x = 1776,
+  y = 629,
+  direction = 3,
+  breed = "newlink/zoura_green",
+  treasure_name = "random",
 }
 
 tile{
@@ -6369,6 +6861,26 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-3",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 576,
+  width = 16,
+  height = 16,
+  pattern = "torch",
+}
+
+dynamic_tile{
+  name = "miniboss_weak_wall_2",
+  layer = 1,
+  x = 1736,
+  y = 456,
+  pattern = "door_top.blast.2-6",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{

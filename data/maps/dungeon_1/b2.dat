@@ -5739,6 +5739,7 @@ destructible{
   treasure_savegame_variable = "dungeon_1_small_key_1",
   sprite = "entities/vase",
   destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 wall{

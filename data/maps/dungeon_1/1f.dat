@@ -2103,14 +2103,6 @@ npc{
   behavior = "dialog#dungeon_1.1f.pool_grandma",
 }
 
-destructible{
-  layer = -1,
-  x = 1120,
-  y = 277,
-  sprite = "entities/dungeon_1/iron_ball",
-  damage_on_enemies = 2,
-}
-
 door{
   name = "boss_door_bottom_left",
   layer = -1,
@@ -9716,6 +9708,27 @@ wall{
   stops_projectiles = true,
 }
 
+door{
+  name = "key_door",
+  layer = 0,
+  x = 344,
+  y = 112,
+  direction = 2,
+  sprite = "entities/doors/door_d1_big_key",
+  savegame_variable = "dungeon_1_big_key_door",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_1_big_key",
+  opening_condition_consumed = true,
+}
+
+destructible{
+  layer = 0,
+  x = 56,
+  y = 189,
+  sprite = "entities/dungeon_1/iron_ball",
+  damage_on_enemies = 2,
+}
+
 tile{
   layer = 1,
   x = 1576,
@@ -10173,15 +10186,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "474",
-}
-
-tile{
-  layer = 2,
-  x = 232,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "464",
 }
 
 tile{

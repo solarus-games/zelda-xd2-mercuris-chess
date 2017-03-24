@@ -2526,6 +2526,13 @@ chance !
 }
 
 dialog{
+  id = "forest.perceval",
+  text = [[
+On en a gros !
+]]
+}
+
+dialog{
   id = "found_fairy",
   icon = "81",
   next = "found_fairy.1",

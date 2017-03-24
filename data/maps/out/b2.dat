@@ -8825,6 +8825,16 @@ chest{
   sprite = "entities/chest",
 }
 
+npc{
+  layer = 0,
+  x = 936,
+  y = 653,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/mini_game_man_blue",
+  behavior = "dialog#forest.perceval",
+}
+
 tile{
   layer = 1,
   x = 432,

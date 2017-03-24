@@ -8819,8 +8819,8 @@ destructible{
 
 chest{
   layer = 0,
-  x = 360,
-  y = 165,
+  x = 784,
+  y = 581,
   treasure_name = "fire_rod",
   sprite = "entities/chest",
 }

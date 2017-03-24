@@ -6125,8 +6125,8 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   savegame_variable = "dungeon_1_b2_key_door",
-  opening_method = "interaction_if_item",
-  opening_condition = "small_key",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
 
@@ -6148,8 +6148,8 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   savegame_variable = "dungeon_1_b2_key_door_2",
-  opening_method = "interaction_if_item",
-  opening_condition = "small_key",
+  opening_method = "interaction_if_savegame_variable",
+  opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
 }
 

@@ -2017,6 +2017,8 @@ destructible{
   treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_1_small_key_2",
   sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
@@ -2024,6 +2026,8 @@ destructible{
   x = 1480,
   y = 413,
   sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 stairs{
@@ -9265,22 +9269,8 @@ destructible{
   y = 141,
   treasure_name = "bomb",
   sprite = "entities/vase",
-}
-
-destructible{
-  layer = 0,
-  x = 1160,
-  y = 141,
-  treasure_name = "bomb",
-  sprite = "entities/vase",
-}
-
-destructible{
-  layer = 0,
-  x = 1176,
-  y = 141,
-  treasure_name = "bomb",
-  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 destructible{
@@ -9289,22 +9279,8 @@ destructible{
   y = 141,
   treasure_name = "arrow",
   sprite = "entities/vase",
-}
-
-destructible{
-  layer = 0,
-  x = 760,
-  y = 141,
-  treasure_name = "arrow",
-  sprite = "entities/vase",
-}
-
-destructible{
-  layer = 0,
-  x = 776,
-  y = 141,
-  treasure_name = "arrow",
-  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 npc{
@@ -9353,6 +9329,8 @@ destructible{
   x = 1704,
   y = 301,
   sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 npc{
@@ -9585,6 +9563,46 @@ jumper{
   height = 56,
   direction = 4,
   jump_length = 40,
+}
+
+destructible{
+  layer = 0,
+  x = 1160,
+  y = 141,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 1176,
+  y = 141,
+  treasure_name = "bomb",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 760,
+  y = 141,
+  treasure_name = "arrow",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 776,
+  y = 141,
+  treasure_name = "arrow",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
 }
 
 tile{

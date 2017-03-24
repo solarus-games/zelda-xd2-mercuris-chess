@@ -5546,6 +5546,51 @@ tile{
   pattern = "floor.cracked.3-1",
 }
 
+tile{
+  layer = 0,
+  x = 56,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "bones.1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "bones.5",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 656,
+  width = 8,
+  height = 8,
+  pattern = "bones.6",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 648,
+  width = 8,
+  height = 8,
+  pattern = "bones.2",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 664,
+  width = 8,
+  height = 8,
+  pattern = "bones.6",
+}
+
 stairs{
   layer = 0,
   x = 736,
@@ -6125,8 +6170,8 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   savegame_variable = "dungeon_1_b2_key_door",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
   opening_condition_consumed = true,
 }
 
@@ -6148,8 +6193,8 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_small_key",
   savegame_variable = "dungeon_1_b2_key_door_2",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_small_keys",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
   opening_condition_consumed = true,
 }
 
@@ -6317,6 +6362,16 @@ enemy{
   direction = 3,
   breed = "alttp/snap_dragon",
   treasure_name = "bomb",
+}
+
+npc{
+  name = "bones_2",
+  layer = 0,
+  x = 64,
+  y = 669,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#dungeon_1.b2.bones2",
 }
 
 tile{

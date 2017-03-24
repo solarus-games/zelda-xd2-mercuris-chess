@@ -2094,6 +2094,25 @@ remédier...
 }
 
 dialog{
+  id = "dungeon_1.b2.bones2",
+  text = [[
+Houuu ! Je ne suis pas
+un mauvais esprit mais
+je fais peur...
+Enfin il semblerait.
+Par contre il existe
+dans ce château de très
+mauvais esprits. Le
+mauvais esprit des
+portes joue des tours
+et en a dérouté plus
+d'un. Je te conseille de
+ne pas te fier aux
+apparences...
+]]
+}
+
+dialog{
   id = "dungeon_1.b2.prisoner",
   text = [[
 Quoi ? Tu es venu pour

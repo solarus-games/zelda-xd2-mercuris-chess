@@ -7,7 +7,7 @@ local item_names = {
   "bow",
   "lamp",
   "pegasus_shoes",
-  "", -- TODO hoverboard
+  "",  -- TODO lens_of_truth
   "bottle_1",
 
   "hookshot",

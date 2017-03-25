@@ -558,9 +558,11 @@ dialog{
   icon = "73",
   text = [[
 Tu as trouvé la
-Grande Clé ! Tu peux
-désormais ouvrir le
-grand coffre !
+Grande Clé !
+Tu peux désormais
+ouvrir les grands
+coffres et les
+portes spéciales !
 ]]
 }
 

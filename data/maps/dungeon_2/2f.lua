@@ -55,6 +55,8 @@ function map:on_started()
     ne_chest:set_enabled(false)
   end
 
+  n_fake_chest_for_compass_only:set_enabled(false)
+
 end
 
 function ne_chest_switch:on_activated()

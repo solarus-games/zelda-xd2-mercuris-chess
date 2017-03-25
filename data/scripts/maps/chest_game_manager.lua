@@ -62,7 +62,7 @@ function chest_game_manager:create_chest_game(map, prefix, price, rewards)
     end
   end
 
-  for chest in map:get_entities("chest_") do
+  for chest in map:get_entities(prefix .. "_chest_") do
     if chest:get_type() == "chest" then
       chest.on_opened = on_opened
       num_chests = num_chests + 1

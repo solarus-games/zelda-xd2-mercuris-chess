@@ -122,6 +122,7 @@ sprite{ id = "enemies/chess/rook_auto_white", description = "Moving rook (white)
 sprite{ id = "enemies/chess/rook_black", description = "Rook (black)" }
 sprite{ id = "enemies/chess/rook_white", description = "Rook (white)" }
 sprite{ id = "enemies/creeper", description = "MC Creeper" }
+sprite{ id = "enemies/ct/kilwala", description = "Kilwala" }
 sprite{ id = "enemies/dkc_bananas", description = "DKC bananas" }
 sprite{ id = "enemies/dkc_barrel", description = "DKC barrel" }
 sprite{ id = "enemies/enemy_killed", description = "Enemy killed" }

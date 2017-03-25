@@ -117,7 +117,7 @@ local random_balls = {
     origin_y = 13,
   },
   {
-    sprite = "enemies/alttp/rupee_green",
+    sprite = "enemies/rupee_green",
     sound = "rupee_counter_end",
     width = 16,
     height = 16,
@@ -125,7 +125,7 @@ local random_balls = {
     origin_y = 13,
   },
   {
-    sprite = "enemies/alttp/rupee_blue",
+    sprite = "enemies/rupee_blue",
     sound = "rupee_counter_end",
     width = 16,
     height = 16,
@@ -133,7 +133,7 @@ local random_balls = {
     origin_y = 13,
   },
   {
-    sprite = "enemies/alttp/rupee_red",
+    sprite = "enemies/rupee_red",
     sound = "rupee_counter_end",
     width = 16,
     height = 16,
@@ -147,6 +147,7 @@ function enemy:on_created()
   enemy:set_life(1)
   enemy:set_damage(1)
   enemy:set_invincible()
+  enemy:set_can_hurt_hero_running(true)
 
   local index
   if math.random(3) == 3 then

@@ -8,7 +8,7 @@ properties{
   world = "dungeon_2",
   floor = 8,
   tileset = "dungeon/gray_pink",
-  music = "shield/mm_stone_tower",
+  music = "alttp/ganon_theme",
 }
 
 tile{

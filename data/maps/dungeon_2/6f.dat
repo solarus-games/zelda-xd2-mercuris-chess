@@ -4419,15 +4419,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 344,
-  y = 584,
-  width = 16,
-  height = 32,
-  pattern = "wall_torch.3",
-}
-
-tile{
-  layer = 0,
   x = 600,
   y = 584,
   width = 16,
@@ -5513,6 +5504,105 @@ tile{
   width = 16,
   height = 16,
   pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 656,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 640,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 592,
+  width = 48,
+  height = 16,
+  pattern = "floor_low.13-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 592,
+  width = 16,
+  height = 16,
+  pattern = "door.3",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 584,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 344,
+  y = 608,
+  width = 16,
+  height = 8,
+  pattern = "door.3.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 584,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 608,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
 }
 
 sensor{
@@ -6689,6 +6779,95 @@ crystal_block{
   subtype = 0,
 }
 
+destructible{
+  name = "auto_destructible_8",
+  layer = 0,
+  x = 264,
+  y = 653,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  name = "auto_destructible_9",
+  layer = 0,
+  x = 248,
+  y = 669,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+switch{
+  name = "auto_switch_auto_door_e",
+  layer = 0,
+  x = 256,
+  y = 656,
+  subtype = "walkable",
+  sprite = "entities/switches/switch",
+  sound = "switch",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
+wall{
+  layer = 0,
+  x = 280,
+  y = 592,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 344,
+  y = 592,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+door{
+  name = "auto_door_e",
+  layer = 0,
+  x = 280,
+  y = 592,
+  direction = 0,
+  sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_6f_door_e",
+}
+
+door{
+  name = "auto_door_e_2",
+  layer = 0,
+  x = 344,
+  y = 592,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "dungeon_2_6f_door_e",
+}
+
+destructible{
+  name = "auto_destructible_10",
+  layer = 0,
+  x = 264,
+  y = 669,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
 tile{
   layer = 1,
   x = 696,
@@ -6930,6 +7109,42 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.2-5",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 552,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 552,
+  width = 8,
+  height = 96,
+  pattern = "door_cache.3-5",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.4-5",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 584,
+  width = 8,
+  height = 32,
+  pattern = "door_top.closed.3-5",
 }
 
 dynamic_tile{

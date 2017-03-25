@@ -1956,7 +1956,7 @@ tile{
 }
 
 destructible{
-  name = "vase_key",
+  name = "auto_destructible_1",
   layer = -1,
   x = 1432,
   y = 413,
@@ -1968,6 +1968,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_2",
   layer = -1,
   x = 1480,
   y = 413,
@@ -9265,6 +9266,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_4",
   layer = 0,
   x = 744,
   y = 141,
@@ -9316,6 +9318,7 @@ switch{
 }
 
 destructible{
+  name = "auto_destructible_3",
   layer = 0,
   x = 1704,
   y = 301,
@@ -9576,6 +9579,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_5",
   layer = 0,
   x = 760,
   y = 141,
@@ -9586,6 +9590,7 @@ destructible{
 }
 
 destructible{
+  name = "auto_destructible_6",
   layer = 0,
   x = 776,
   y = 141,

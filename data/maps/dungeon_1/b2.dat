@@ -5794,11 +5794,11 @@ wall{
 }
 
 destructible{
-  name = "small_key_vase",
+  name = "auto_destructible_1",
   layer = 0,
   x = 1168,
   y = 253,
-  treasure_name = "small_key",
+  treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_1_small_key_1",
   sprite = "entities/vase",
   destruction_sound = "stone",

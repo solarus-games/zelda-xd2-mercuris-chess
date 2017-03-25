@@ -991,6 +991,42 @@ enemy{
 
 tile{
   layer = 1,
+  x = 520,
+  y = 16,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 528,
+  y = 136,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 136,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
   x = 64,
   y = 136,
   width = 32,

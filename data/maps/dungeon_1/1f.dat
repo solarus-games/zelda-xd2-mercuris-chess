@@ -2220,6 +2220,24 @@ wall{
 
 tile{
   layer = 0,
+  x = 712,
+  y = 152,
+  width = 80,
+  height = 8,
+  pattern = "door_cache_low.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 1128,
+  y = 152,
+  width = 80,
+  height = 8,
+  pattern = "door_cache_low.1-1",
+}
+
+tile{
+  layer = 0,
   x = 48,
   y = 48,
   width = 544,
@@ -9747,6 +9765,132 @@ wall{
 
 tile{
   layer = 1,
+  x = 1784,
+  y = 256,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 1784,
+  y = 216,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 256,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 216,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 1576,
+  y = 272,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1616,
+  y = 272,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 96,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 96,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
   x = 1576,
   y = 56,
   width = 8,
@@ -9986,6 +10130,24 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.closed.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1576,
+  y = 32,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1616,
+  y = 32,
+  width = 8,
+  height = 64,
+  pattern = "door_cache.3-6",
 }
 
 tile{

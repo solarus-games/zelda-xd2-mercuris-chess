@@ -4810,7 +4810,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1744,
+  x = 1752,
   y = 456,
   width = 16,
   height = 48,
@@ -4819,25 +4819,25 @@ tile{
 
 tile{
   layer = 0,
-  x = 1736,
-  y = 456,
-  width = 8,
-  height = 48,
-  pattern = "barrier.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 1760,
-  y = 456,
-  width = 8,
-  height = 48,
-  pattern = "barrier.2-1",
-}
-
-tile{
-  layer = 0,
   x = 1744,
+  y = 456,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1768,
+  y = 456,
+  width = 8,
+  height = 48,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 1752,
   y = 440,
   width = 16,
   height = 16,
@@ -4846,7 +4846,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1744,
+  x = 1752,
   y = 504,
   width = 16,
   height = 16,
@@ -4855,7 +4855,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1736,
+  x = 1744,
   y = 504,
   width = 8,
   height = 16,
@@ -4864,7 +4864,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1760,
+  x = 1768,
   y = 504,
   width = 8,
   height = 16,
@@ -4873,7 +4873,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1760,
+  x = 1768,
   y = 440,
   width = 8,
   height = 16,
@@ -4882,7 +4882,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1736,
+  x = 1744,
   y = 440,
   width = 8,
   height = 16,
@@ -6302,7 +6302,7 @@ wall{
 door{
   name = "miniboss_weak_wall",
   layer = 0,
-  x = 1744,
+  x = 1752,
   y = 440,
   direction = 3,
   sprite = "entities/doors/door_d1_weak_wall",
@@ -6324,7 +6324,7 @@ wall{
 
 wall{
   layer = 0,
-  x = 1744,
+  x = 1752,
   y = 504,
   width = 16,
   height = 16,
@@ -6372,6 +6372,186 @@ npc{
   direction = 3,
   subtype = 1,
   behavior = "dialog#dungeon_1.b2.bones2",
+}
+
+tile{
+  layer = 1,
+  x = 1720,
+  y = 496,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 1720,
+  y = 456,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 1576,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1616,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 80,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1144,
+  y = 16,
+  width = 64,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 704,
+  y = 16,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 440,
+  y = 256,
+  width = 80,
+  height = 8,
+  pattern = "door_cache.1-6",
+}
+
+tile{
+  layer = 1,
+  x = 456,
+  y = 216,
+  width = 48,
+  height = 8,
+  pattern = "door_cache.2-6",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 560,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 656,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1256,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1296,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
+}
+
+tile{
+  layer = 1,
+  x = 1576,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-6",
+}
+
+tile{
+  layer = 1,
+  x = 1616,
+  y = 320,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.3-6",
 }
 
 tile{
@@ -6970,7 +7150,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1736,
+  x = 1744,
   y = 496,
   width = 32,
   height = 8,
@@ -6979,7 +7159,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 1736,
+  x = 1744,
   y = 456,
   width = 32,
   height = 8,

@@ -8329,6 +8329,15 @@ tile{
   pattern = "480",
 }
 
+tile{
+  layer = 0,
+  x = 88,
+  y = 160,
+  width = 24,
+  height = 24,
+  pattern = "537",
+}
+
 chest{
   layer = 0,
   x = 160,
@@ -10139,15 +10148,6 @@ tile{
   width = 32,
   height = 80,
   pattern = "ceiling.1",
-}
-
-tile{
-  layer = 2,
-  x = 88,
-  y = 160,
-  width = 24,
-  height = 24,
-  pattern = "537",
 }
 
 tile{

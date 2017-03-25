@@ -21,7 +21,7 @@ function item:on_using()
   end
 
   hero:start_jumping((direction4 * 2 + diagonal) % 8,
-      math.random(16, 100), false)
+      math.random(16, 40), false)
   self:set_finished()
 end
 --]]

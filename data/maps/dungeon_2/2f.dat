@@ -2934,8 +2934,8 @@ enemy{
 npc{
   name = "blue_haired_boy",
   layer = -1,
-  x = 448,
-  y = 437,
+  x = 592,
+  y = 365,
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/blue_haired_boy",

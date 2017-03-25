@@ -2317,11 +2317,15 @@ dialog{
   id = "dungeon_2.2f.blue_haired_boy",
   skip = "all",
   text = [[
-À quoi servent toutes
-ces pièces d'échecs ?
+À quoi peuvent bien
+servir toutes ces
+pièces d'échecs ?
+Elles ont l'air de
+cacher quelque chose.
 
-Je n'en sais rien moi,
-je ne suis qu'un gosse !
+Mais quoi ? Je n'en
+sais rien, je ne suis
+qu'un gosse !
 ]]
 }
 

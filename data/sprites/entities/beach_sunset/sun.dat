@@ -1,0 +1,21 @@
+animation{
+  name = "full",
+  src_image = "entities/beach_sunset/sun.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 8 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 8, origin_y = 8 },
+  },
+}
+animation{
+  name = "going_down",
+  src_image = "entities/beach_sunset/sun.png",
+  frame_delay = 1000,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 32 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 32 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 32 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 29, num_frames = 32 },
+  },
+}

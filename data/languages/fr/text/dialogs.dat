@@ -371,6 +371,18 @@ pénible à utiliser.
 }
 
 dialog{
+  id = "_item_description.fire_rod.1",
+  icon = "27",
+  skip = "all",
+  text = [[
+La baguette de feu 
+avec laquelle a été
+incendié le Bureau
+des Objets Trouvés.
+]]
+}
+
+dialog{
   id = "_item_description.flippers.1",
   icon = "26",
   skip = "all",

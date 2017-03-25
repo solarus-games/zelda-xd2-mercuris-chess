@@ -9703,7 +9703,7 @@ door{
   savegame_variable = "dungeon_1_big_key_door",
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_big_key",
-  opening_condition_consumed = true,
+  cannot_open_dialog = "big_key_required",
 }
 
 destructible{

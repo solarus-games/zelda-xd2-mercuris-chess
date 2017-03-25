@@ -8347,7 +8347,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8360,7 +8359,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8373,7 +8371,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8386,7 +8383,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8399,33 +8395,30 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
   layer = 0,
   x = 1800,
   y = 40,
-  width = 80,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 1688,
-  y = 56,
   width = 72,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 1688,
+  y = 56,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 wall{
@@ -8438,7 +8431,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8451,20 +8443,18 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
   layer = 0,
   x = 1400,
   y = 360,
-  width = 32,
+  width = 40,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8472,25 +8462,23 @@ wall{
   x = 1432,
   y = 304,
   width = 8,
-  height = 64,
+  height = 16,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
   layer = 0,
   x = 1432,
   y = 296,
-  width = 32,
+  width = 40,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8503,7 +8491,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8511,12 +8498,11 @@ wall{
   x = 1504,
   y = 368,
   width = 8,
-  height = 16,
+  height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8529,7 +8515,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -8557,12 +8542,11 @@ wall{
   x = 1464,
   y = 136,
   width = 8,
-  height = 168,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -8595,7 +8579,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8608,7 +8591,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -8631,20 +8613,18 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
   layer = 0,
   x = 1504,
   y = 120,
-  width = 184,
+  width = 16,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -8660,14 +8640,13 @@ jumper{
 wall{
   layer = 0,
   x = 1688,
-  y = 64,
+  y = 120,
   width = 8,
-  height = 64,
+  height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -8702,19 +8681,6 @@ jumper{
 
 wall{
   layer = 0,
-  x = 1776,
-  y = 56,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
   x = 1760,
   y = 136,
   width = 8,
@@ -8723,7 +8689,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 wall{
@@ -8731,7 +8696,7 @@ wall{
   x = 80,
   y = 352,
   width = 8,
-  height = 168,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8744,7 +8709,7 @@ wall{
   x = 232,
   y = 352,
   width = 8,
-  height = 168,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8756,7 +8721,7 @@ wall{
   layer = 0,
   x = 88,
   y = 352,
-  width = 64,
+  width = 16,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -8767,9 +8732,9 @@ wall{
 
 wall{
   layer = 0,
-  x = 168,
+  x = 216,
   y = 352,
-  width = 64,
+  width = 16,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -8781,9 +8746,9 @@ wall{
 wall{
   layer = 0,
   x = 80,
-  y = 552,
+  y = 584,
   width = 8,
-  height = 56,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8794,9 +8759,9 @@ wall{
 wall{
   layer = 0,
   x = 232,
-  y = 552,
+  y = 584,
   width = 8,
-  height = 56,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -8808,7 +8773,7 @@ wall{
   layer = 0,
   x = 88,
   y = 600,
-  width = 144,
+  width = 16,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -8821,7 +8786,7 @@ jumper{
   layer = 0,
   x = 176,
   y = 352,
-  width = 56,
+  width = 40,
   height = 8,
   direction = 6,
   jump_length = 40,
@@ -8829,9 +8794,9 @@ jumper{
 
 jumper{
   layer = 0,
-  x = 88,
+  x = 104,
   y = 600,
-  width = 144,
+  width = 112,
   height = 8,
   direction = 2,
   jump_length = 40,
@@ -8840,9 +8805,9 @@ jumper{
 jumper{
   layer = 0,
   x = 80,
-  y = 360,
+  y = 376,
   width = 8,
-  height = 240,
+  height = 208,
   direction = 0,
   jump_length = 40,
 }
@@ -8850,9 +8815,9 @@ jumper{
 jumper{
   layer = 0,
   x = 232,
-  y = 360,
+  y = 376,
   width = 8,
-  height = 240,
+  height = 208,
   direction = 4,
   jump_length = 40,
 }
@@ -9237,19 +9202,9 @@ switch{
 
 jumper{
   layer = 0,
-  x = 88,
+  x = 104,
   y = 352,
-  width = 56,
-  height = 8,
-  direction = 6,
-  jump_length = 40,
-}
-
-jumper{
-  layer = 0,
-  x = 152,
-  y = 352,
-  width = 16,
+  width = 40,
   height = 8,
   direction = 6,
   jump_length = 40,
@@ -9588,7 +9543,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -9705,7 +9659,6 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
-  stops_projectiles = true,
 }
 
 door{
@@ -9727,6 +9680,55 @@ destructible{
   y = 189,
   sprite = "entities/dungeon_1/iron_ball",
   damage_on_enemies = 2,
+}
+
+wall{
+  layer = 0,
+  x = 1464,
+  y = 200,
+  width = 8,
+  height = 80,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 1560,
+  y = 120,
+  width = 80,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 1688,
+  y = 64,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
+  layer = 0,
+  x = 216,
+  y = 600,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

@@ -6990,22 +6990,15 @@ chest{
 
 pickable{
   layer = 0,
-  x = 720,
-  y = 365,
+  x = 744,
+  y = 309,
   treasure_name = "fairy",
 }
 
 pickable{
   layer = 0,
-  x = 752,
-  y = 325,
-  treasure_name = "fairy",
-}
-
-pickable{
-  layer = 0,
-  x = 784,
-  y = 365,
+  x = 760,
+  y = 421,
   treasure_name = "fairy",
 }
 

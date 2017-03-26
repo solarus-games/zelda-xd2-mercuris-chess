@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "entities/beach_sunset/alttp_palm_tree.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 7 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 80, origin_x = 32, origin_y = 77 },
+  },
+}

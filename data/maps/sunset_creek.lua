@@ -10,31 +10,108 @@
 local map = ...
 local game = map:get_game()
 
--- Overlay surface for changing colors.
-local quest_w, quest_h = sol.video.get_quest_size()
-local overlay_surface_1 = sol.surface.create(quest_w, quest_h)
-overlay_surface_1:fill_color({112, 76, 0})
-overlay_surface_1:set_blend_mode("add")
+local sunset_effect = require("scripts/maps/sunset_effect")
 
-local overlay_surface_2 = sol.surface.create(quest_w, quest_h)
-overlay_surface_2:fill_color({255, 155, 197})
-overlay_surface_2:set_blend_mode("multiply")
+-- Cinematic black lines
+local black_stripe = nil
+local cinematic_mode = false
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
-end
-
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
-
+  map:make_seagull_move(seagull_flying_1, 30)
+  map:make_seagull_move(seagull_flying_2, 50)
+  map:make_seagull_move(seagull_flying_3, 40)
 end
 
 -- Call when map needs to be drawn.
 function map:on_draw(dst_surface)
-   overlay_surface_2:draw(dst_surface)
-   overlay_surface_1:draw(dst_surface)
+  sunset_effect:draw(dst_surface)
+  
+  if cinematic_mode then
+    map:draw_cinematic_stripes(dst_surface)
+  end
+end
+
+-- Move the seagull npc
+function map:make_seagull_move(seagull, speed)
+  local seagull_sprite = seagull:get_sprite()
+  seagull_sprite:set_animation("walking")
+  seagull_sprite:set_paused(false)
+
+  local movement = sol.movement.create("target")
+  local seagull_x, seagull_y = seagull:get_position()
+  
+  if seagull_x < 0 then
+    seagull_sprite:set_direction(0) -- right
+    movement:set_target(320 + 32, seagull_y)
+  elseif seagull_x > 320 + 32 then
+    seagull_sprite:set_direction(2) -- left
+    movement:set_target(- 32, seagull_y)
+  -- else
+  --   seagull_sprite:set_direction(0) -- right
+  --   movement:set_target(320 + 32, seagull_y)
+  end
+
+  movement:set_speed(speed)
+  movement:set_smooth(true)
+  movement:set_ignore_obstacles(true)
+
+  movement:start(seagull, function()
+    map:make_seagull_move(seagull, speed)
+  end)
+end
+
+-- Launch the final scene when cinematic sensor activated
+function cinematic_sensor:on_activated()
+  map:set_cinematic_mode(true)
+  map:start_cinematic()
+end
+
+-- Draw the cinematic black stripes
+function map:draw_cinematic_stripes(dst_surface)
+  if black_stripe == nil then
+    local quest_w, quest_h = sol.video.get_quest_size()
+    black_stripe = sol.surface.create(quest_w, 24)
+    black_stripe:fill_color({0, 0, 0})
+  end
+  
+  black_stripe:draw(dst_surface, 0, 0)
+  black_stripe:draw(dst_surface, 0, 216)
+end
+
+-- Enable or disable the cinematic mode
+function map:set_cinematic_mode(is_cinematic)
+
+  -- Cinematic lines
+  cinematic_mode = is_cinematic
+
+  -- Hide or show HUD.
+  game:set_hud_enabled(not is_cinematic)
+
+  -- Freeze hero
+  local hero = map:get_hero()
+  if is_cinematic then
+    hero:freeze()
+  else
+    hero:unfreeze()
+  end
+  
+  -- Prevent or allow the player from pausing the game
+  game:set_pause_allowed(not is_cinematic)
+
+  -- Track the hero with the camera.
+  if not is_cinematic then
+    map:get_camera():start_tracking(hero)
+  end
+end
+
+-- Launch the final cinematic
+function map:start_cinematic()
+  -- TODO
+  -- dialogs, etc
+
+  -- then go to the final map (sunset scene)
+  local hero = map:get_hero()
+  hero:teleport("final_scene", "from_beach", "immediate")
 end

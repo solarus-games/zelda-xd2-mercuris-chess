@@ -6,6 +6,7 @@ properties{
   min_layer = -1,
   max_layer = 2,
   tileset = "beach_sunset",
+  music = "bttf/title",
 }
 
 tile{
@@ -276,19 +277,10 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 176,
-  width = 320,
-  height = 32,
-  pattern = "9",
-}
-
-tile{
-  layer = 0,
-  x = 0,
   y = 168,
   width = 320,
-  height = 8,
-  pattern = "8",
+  height = 40,
+  pattern = "9",
 }
 
 tile{
@@ -352,5 +344,13 @@ tile{
   width = 32,
   height = 24,
   pattern = "21",
+}
+
+destination{
+  name = "from_beach",
+  layer = 0,
+  x = 160,
+  y = 237,
+  direction = 1,
 }
 

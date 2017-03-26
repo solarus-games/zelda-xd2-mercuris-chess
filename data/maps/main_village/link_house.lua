@@ -103,7 +103,7 @@ function map:set_cinematic_mode(is_cinematic)
   -- Hide or show HUD.
   game:set_hud_enabled(not is_cinematic)
 
-  -- Hide of show hero.
+  -- Hide or show hero.
   local hero = map:get_hero()
   if is_cinematic then
     hero:freeze()

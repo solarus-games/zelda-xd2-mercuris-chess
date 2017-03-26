@@ -10,6 +10,8 @@
 local map = ...
 local game = map:get_game()
 
+local sunset_effect = require("scripts/maps/sunset_effect")
+
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
@@ -21,4 +23,8 @@ end
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
+end
+
+function map:on_draw(dst_surface)
+  sunset_effect:draw(dst_surface)
 end

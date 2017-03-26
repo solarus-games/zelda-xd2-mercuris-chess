@@ -11,12 +11,13 @@ animation{
 animation{
   name = "falling",
   src_image = "enemies/oclero/chicken_giant.png",
-  frame_delay = 50,
+  frame_delay = 150,
+  frame_to_loop_on = 1,
   directions = {
     { x = 1344, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
-    { x = 1344, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
-    { x = 1344, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
-    { x = 1344, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 1344, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
+    { x = 1344, y = 192, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
+    { x = 1344, y = 288, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
   },
 }
 animation{
@@ -56,8 +57,7 @@ animation{
 animation{
   name = "laying",
   src_image = "enemies/oclero/chicken_giant.png",
-  frame_delay = 280,
-  frame_to_loop_on = 0,
+  frame_delay = 250,
   directions = {
     { x = 2208, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
     { x = 2208, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
@@ -69,7 +69,6 @@ animation{
   name = "pecking",
   src_image = "enemies/oclero/chicken_giant.png",
   frame_delay = 100,
-  frame_to_loop_on = 0,
   directions = {
     { x = 672, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
     { x = 672, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },

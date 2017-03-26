@@ -17,6 +17,13 @@ door_manager:manage_map(map)
 
 local water_delay = 500
 
+-- Create the boss
+function chicken_boss_switch:on_activated()
+  local x, y, layer = self:get_position()
+  local prop = {x = x, y = y, layer = layer, direction = 3, breed = "oclero/chicken_giant"}
+  map:create_enemy(prop)
+end
+
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
   map:set_doors_open("boss_door")

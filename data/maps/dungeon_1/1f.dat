@@ -2218,6 +2218,17 @@ wall{
   stops_projectiles = true,
 }
 
+switch{
+  name = "chicken_boss_switch",
+  layer = -1,
+  x = 952,
+  y = 216,
+  subtype = "walkable",
+  sprite = "entities/crystal_block",
+  needs_block = false,
+  inactivate_when_leaving = false,
+}
+
 tile{
   layer = 0,
   x = 712,

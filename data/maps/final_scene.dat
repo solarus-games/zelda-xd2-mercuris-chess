@@ -250,16 +250,16 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 224,
+  y = 216,
   width = 320,
-  height = 24,
+  height = 32,
   pattern = "10",
 }
 
 tile{
   layer = 0,
   x = 0,
-  y = 216,
+  y = 208,
   width = 320,
   height = 8,
   pattern = "12",
@@ -268,7 +268,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 208,
+  y = 200,
   width = 320,
   height = 8,
   pattern = "11",
@@ -279,7 +279,7 @@ tile{
   x = 0,
   y = 168,
   width = 320,
-  height = 40,
+  height = 32,
   pattern = "9",
 }
 

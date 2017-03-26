@@ -294,15 +294,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 168,
-  width = 128,
-  height = 56,
-  pattern = "4",
-}
-
-tile{
-  layer = 0,
   x = 8,
   y = 160,
   width = 16,
@@ -346,11 +337,69 @@ tile{
   pattern = "21",
 }
 
+tile{
+  layer = 0,
+  x = 128,
+  y = 200,
+  width = 64,
+  height = 24,
+  pattern = "22",
+}
+
 destination{
   name = "from_beach",
   layer = 0,
   x = 160,
   y = 237,
   direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 128,
+  y = 184,
+  width = 64,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 160,
+  y = 197,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/beach_sunset/mr_grump_and_zelda",
+}
+
+wall{
+  layer = 0,
+  x = 64,
+  y = 160,
+  width = 16,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 240,
+  y = 160,
+  width = 16,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 

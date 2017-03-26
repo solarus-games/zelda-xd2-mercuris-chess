@@ -146,6 +146,17 @@ tile_pattern{
 }
 
 tile_pattern{
+  id = "22",
+  ground = "traversable",
+  default_layer = 0,
+  x = 24,
+  y = 144,
+  width = 64,
+  height = 24,
+  repeat_mode = "none",
+}
+
+tile_pattern{
   id = "3",
   ground = "traversable",
   default_layer = -1,
@@ -158,12 +169,12 @@ tile_pattern{
 
 tile_pattern{
   id = "4",
-  ground = "traversable",
+  ground = "wall",
   default_layer = 0,
-  x = 0,
+  x = 24,
   y = 120,
-  width = 128,
-  height = 56,
+  width = 64,
+  height = 24,
   repeat_mode = "none",
 }
 

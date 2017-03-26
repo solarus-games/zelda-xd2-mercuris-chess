@@ -3445,6 +3445,16 @@ wall{
   stops_projectiles = true,
 }
 
+custom_entity{
+  layer = 0,
+  x = 192,
+  y = 389,
+  width = 16,
+  height = 16,
+  direction = 3,
+  sprite = "entities/beach_sunset/mr_grump_and_zelda",
+}
+
 tile{
   layer = 1,
   x = 320,

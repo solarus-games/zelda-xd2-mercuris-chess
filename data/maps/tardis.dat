@@ -20,18 +20,9 @@ tile{
 
 wall{
   layer = 0,
-  x = 176,
-  y = 144,
-  width = 16,
-  height = 8,
-  stops_npcs = true,
-}
-
-wall{
-  layer = 0,
   x = 128,
-  y = 144,
-  width = 16,
+  y = 136,
+  width = 64,
   height = 8,
   stops_npcs = true,
 }
@@ -347,19 +338,6 @@ wall{
   layer = 0,
   x = 256,
   y = 128,
-  width = 16,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 152,
-  y = 144,
   width = 16,
   height = 8,
   stops_hero = true,
@@ -744,6 +722,19 @@ wall{
   layer = 0,
   x = 200,
   y = 136,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 144,
   width = 16,
   height = 8,
   stops_hero = true,

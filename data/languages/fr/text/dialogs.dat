@@ -3186,7 +3186,7 @@ de... de... de soi.
 }
 
 dialog{
-  id = "prehistoric.doctor_wrong_place",
+  id = "prehistoric.doctor_tardis_arrived",
   text = [[
 Hum...$0
 Nous sommes censés

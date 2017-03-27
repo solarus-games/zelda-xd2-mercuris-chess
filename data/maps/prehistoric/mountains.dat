@@ -5976,6 +5976,16 @@ tile{
   pattern = "13",
 }
 
+wall{
+  name = "jump_target_wall",
+  layer = 0,
+  x = 144,
+  y = 320,
+  width = 128,
+  height = 72,
+  stops_enemies = true,
+}
+
 destination{
   name = "destination",
   layer = 0,

@@ -3276,6 +3276,7 @@ agité...
 
 dialog{
   id = "prehistoric.doctor_tyrannosaurus_pissed_off",
+  skip = "all",
   text = [[
 Le Tyrannosaure aux
 Oeufs d'Or est très
@@ -3304,6 +3305,13 @@ suffise pour annihiler
 le maléfice des rubis !
 Retournons vite à ton
 époque !
+]]
+}
+
+dialog{
+  id = "prehistoric.tyrannosaurus_upset",
+  text = [[
+Grrrrr...
 ]]
 }
 

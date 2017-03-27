@@ -45,3 +45,10 @@ function map:on_opening_transition_finished(destination)
     end)
   end)
 end
+
+function doctor:on_interaction()
+
+  if not game:get_value("prehistoric.tyrannosaurus_happy") then
+    game:start_dialog("prehistoric.doctor_are_you_okay")
+  end
+end

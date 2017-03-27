@@ -481,7 +481,7 @@ sound{ id = "cane", description = "cane" }
 sound{ id = "cannonball", description = "cannonball" }
 sound{ id = "chest_appears", description = "chest_appears" }
 sound{ id = "chest_open", description = "chest_open" }
-sound{ id = "chicken", description = "Chicken" }
+sound{ id = "chicken", description = "chicken" }
 sound{ id = "creeper", description = "creeper" }
 sound{ id = "cursor", description = "cursor" }
 sound{ id = "danger", description = "danger" }
@@ -566,7 +566,7 @@ sound{ id = "sword_spin_attack_release_3", description = "sword_spin_attack_rele
 sound{ id = "sword_spin_attack_release_4", description = "sword_spin_attack_release_4" }
 sound{ id = "sword_tapping", description = "sword_tapping" }
 sound{ id = "sword_tapping_weak_wall", description = "sword_tapping_weak_wall" }
-sound{ id = "tardis", description = "Tardis" }
+sound{ id = "tardis", description = "tardis" }
 sound{ id = "throw", description = "throw" }
 sound{ id = "timer", description = "timer" }
 sound{ id = "timer_hurry", description = "timer_hurry" }

@@ -6684,7 +6684,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "prehistoric/cave",
-  destination = "destination",
+  destination = "from_outside",
 }
 
 destination{
@@ -6808,7 +6808,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/the_doctor",
-  behavior = "dialog#prehistoric.doctor_are_you_okay",
 }
 
 tile{

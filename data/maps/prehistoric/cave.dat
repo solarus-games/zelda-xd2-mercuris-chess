@@ -20,13 +20,12 @@ tile{
 }
 
 destination{
-  name = "destination",
+  name = "from_outside",
   layer = 0,
   x = 128,
   y = 437,
   direction = 1,
   starting_location_mode = "no",
-  default = true,
 }
 
 teletransporter{
@@ -796,6 +795,45 @@ npc{
   subtype = 0,
   sprite = "npc/alttp/mad_batter_purple",
   behavior = "item#perfume_counter",
+}
+
+npc{
+  name = "doctor",
+  layer = 0,
+  x = 136,
+  y = 301,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/the_doctor",
+}
+
+sensor{
+  name = "tyrannosaurus_sensor",
+  layer = 0,
+  x = 88,
+  y = 157,
+  width = 112,
+  height = 16,
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 136,
+  y = 173,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
+}
+
+custom_entity{
+  name = "doctor_target",
+  layer = 0,
+  x = 120,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

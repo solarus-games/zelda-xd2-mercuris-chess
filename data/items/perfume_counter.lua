@@ -13,6 +13,10 @@ end
 -- in front of an NPC related to the perfume item.
 function item:on_npc_interaction_item(npc, item_used)
 
+  if game:get_value("prehistoric_tyrannosaurus_happy") then
+    return false
+  end
+
   if npc:get_name() == "tyrannosaurus" and
       item_used == item then
     npc:use_perfume()
@@ -28,7 +32,12 @@ function item:on_npc_interaction(npc)
     return
   end
 
-  sol.audio.play_sound("monkey")
+  if not game:get_value("prehistoric_tyrannosaurus_happy") then
+    sol.audio.play_sound("monkey")
+    game:start_dialog("prehistoric.tyrannosaurus_upset")
+  else
+    sol.audio.play_sound("mk64_yoshi")
+  end
 end
 
 -- Event called when the hero is using this item.

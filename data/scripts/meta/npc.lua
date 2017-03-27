@@ -12,3 +12,15 @@ function npc_meta:is_hookable()
 
   return sprite:get_animation_set() == "entities/sign"
 end
+
+-- Makes the NPC randomly walk with the given optional speed.
+function npc_meta:random_walk(speed)
+
+  local movement = sol.movement.create("random_path")
+
+  if speed ~= nil then
+    movement:set_speed(speed)
+  end
+
+  movement:start(self)
+end

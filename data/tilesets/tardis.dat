@@ -8,24 +8,13 @@ tile_pattern{
   width = 256,
   height = 224,
 }
-
 tile_pattern{
   id = "2",
-  ground = "wall",
-  default_layer = 1,
-  x = 368,
-  y = 112,
-  width = 32,
-  height = 32,
-}
-
-tile_pattern{
-  id = "3",
   ground = "traversable",
   default_layer = 1,
-  x = 368,
-  y = 192,
-  width = 32,
-  height = 16,
+  x = 256,
+  y = 0,
+  width = 256,
+  height = 224,
 }
 

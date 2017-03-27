@@ -210,7 +210,7 @@ function tardis_sensor:on_activated()
   end
 
   map:close_doors("tardis_door")
-  tardis:disappear("entities/dungeon_2/tardis_cache_dungeon_2.png", function()
+  tardis:disappear("entities/doctor_who/tardis_cache_dungeon_2.png", function()
     hero:teleport("tardis")
   end)
 end

@@ -17,16 +17,18 @@ local black_stripe = nil
 local cinematic_mode = false
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
-function map:on_started()
+function map:on_started(destination)
 
   map:make_seagull_move(seagull_flying_1, 30)
   map:make_seagull_move(seagull_flying_2, 50)
   map:make_seagull_move(seagull_flying_3, 40)
 
-  if destination ~= from_tardis then
+  if destination == from_tardis then
     hero:set_visible(false)
     tardis:set_enabled(false)
     tardis_door:set_enabled(false)
+  else
+    map:set_doors_open("tardis_door", true)
   end
 end
 

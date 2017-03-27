@@ -3442,6 +3442,30 @@ C'est fermé à clé !
 }
 
 dialog{
+  id = "tardis.doctor_back_to_present",
+  skip = "all",
+  text = [[
+Te voilà revenu à ton
+époque.
+
+Tout est rentré dans
+l'ordre, non ?
+
+Nous n'avons pas
+modifié le cours du
+temps.
+Enfin j'espère.
+
+
+Dis, je recrute un
+companion pour mes
+prochains voyages.
+Tu connaîtrais des
+gens intéressés ?
+]]
+}
+
+dialog{
   id = "tardis.doctor_escaping_grump_tower",
   text = [[
 Une telle quantité de

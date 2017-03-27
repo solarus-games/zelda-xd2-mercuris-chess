@@ -42,7 +42,7 @@ wall{
   x = 136,
   y = 192,
   width = 8,
-  height = 48,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -55,7 +55,7 @@ wall{
   x = 176,
   y = 192,
   width = 8,
-  height = 48,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -349,22 +349,9 @@ wall{
 wall{
   layer = 0,
   x = 144,
-  y = 224,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 144,
   y = 216,
   width = 8,
-  height = 8,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -377,7 +364,7 @@ wall{
   x = 168,
   y = 216,
   width = 8,
-  height = 8,
+  height = 24,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -743,6 +730,17 @@ wall{
   stops_projectiles = true,
 }
 
+teletransporter{
+  name = "to_sunset_creek",
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "sunset_creek",
+  destination = "from_tardis_fixed",
+}
+
 tile{
   layer = 1,
   x = 32,
@@ -750,5 +748,32 @@ tile{
   width = 256,
   height = 224,
   pattern = "2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 32,
+  height = 224,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 224,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 224,
+  width = 320,
+  height = 16,
+  pattern = "3",
 }
 

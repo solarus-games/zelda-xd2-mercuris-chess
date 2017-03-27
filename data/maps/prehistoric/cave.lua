@@ -96,6 +96,7 @@ function tardis_sensor:on_activated()
   end
 
   game:start_dialog("prehistoric.doctor_lets_go_back", function()
+    sol.audio.play_music("bttf/title")
     hero:freeze()
     hero:set_visible(false)
     tardis:set_enabled(true)

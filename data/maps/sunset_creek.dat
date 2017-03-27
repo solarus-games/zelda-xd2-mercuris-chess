@@ -3458,8 +3458,27 @@ door{
   sprite = "entities/doctor_who/tardis_door",
 }
 
+teletransporter{
+  layer = 0,
+  x = 224,
+  y = 56,
+  width = 16,
+  height = 16,
+  destination_map = "tardis",
+  destination = "from_outside",
+}
+
 destination{
   name = "from_tardis",
+  layer = 0,
+  x = 232,
+  y = 85,
+  direction = 3,
+  starting_location_mode = "no",
+}
+
+destination{
+  name = "from_tardis_fixed",
   layer = 0,
   x = 232,
   y = 85,

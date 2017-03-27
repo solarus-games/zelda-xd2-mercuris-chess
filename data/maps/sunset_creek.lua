@@ -22,16 +22,42 @@ function map:on_started()
   map:make_seagull_move(seagull_flying_1, 30)
   map:make_seagull_move(seagull_flying_2, 50)
   map:make_seagull_move(seagull_flying_3, 40)
+
+  if destination ~= from_tardis then
+    hero:set_visible(false)
+    tardis:set_enabled(false)
+    tardis_door:set_enabled(false)
+  end
+end
+
+function map:on_opening_transition_finished(destination)
+
+  if destination ~= from_tardis then
+    return
+  end
+
+  hero:freeze()
+  tardis:set_enabled(true)
+  tardis_door:set_enabled(true)
+  tardis:appear("entities/doctor_who/tardis_cache_creek.png", function()
+    map:open_doors("tardis_door")
+    tardis:get_sprite():set_animation("open")
+    sol.timer.start(map, 500, function()
+      hero:set_visible(true)
+      hero:unfreeze()
+      game:set_pause_allowed(true)
+    end)
+  end)
 end
 
 -- Call when map needs to be drawn.
-function map:on_draw(dst_surface)
+map:register_event("on_draw", function(map, dst_surface)
   sunset_effect:draw(dst_surface)
   
   if cinematic_mode then
     map:draw_cinematic_stripes(dst_surface)
   end
-end
+end)
 
 -- Move the seagull npc
 function map:make_seagull_move(seagull, speed)

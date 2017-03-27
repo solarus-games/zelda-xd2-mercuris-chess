@@ -90,6 +90,6 @@ function tardis_sensor:on_activated()
   tardis:set_enabled(true)
   tardis_door:set_enabled(true)
   tardis:appear("entities/doctor_who/tardis_cache_prehistoric_cave.png", function()
-    hero:teleport("sunset_creek")
+    hero:teleport("sunset_creek", "from_tardis")
   end)
 end

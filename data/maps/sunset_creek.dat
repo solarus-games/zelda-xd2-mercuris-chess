@@ -3321,47 +3321,9 @@ tile{
   pattern = "84",
 }
 
-sensor{
-  name = "cinematic_sensor",
-  layer = 0,
-  x = -8,
-  y = 301,
-  width = 368,
-  height = 16,
-}
-
-custom_entity{
-  layer = 0,
-  x = 232,
-  y = 77,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/doctor_who/tardis",
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 232,
-  y = 93,
-  direction = 3,
-  starting_location_mode = "no",
-}
-
-npc{
-  name = "seagull_stopped",
-  layer = 0,
-  x = 56,
-  y = 373,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/seagull",
-}
-
 wall{
   layer = 0,
-  x = 208,
+  x = 240,
   y = 56,
   width = 16,
   height = 24,
@@ -3374,7 +3336,7 @@ wall{
 
 wall{
   layer = 0,
-  x = 240,
+  x = 208,
   y = 56,
   width = 16,
   height = 24,
@@ -3396,6 +3358,37 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+sensor{
+  name = "cinematic_sensor",
+  layer = 0,
+  x = -8,
+  y = 301,
+  width = 368,
+  height = 16,
+}
+
+custom_entity{
+  name = "tardis",
+  layer = 0,
+  x = 232,
+  y = 77,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/doctor_who/tardis",
+  model = "tardis",
+}
+
+npc{
+  name = "seagull_stopped",
+  layer = 0,
+  x = 56,
+  y = 373,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/seagull",
 }
 
 custom_entity{
@@ -3454,6 +3447,24 @@ custom_entity{
   height = 16,
   direction = 3,
   sprite = "entities/beach_sunset/mr_grump_and_zelda",
+}
+
+door{
+  name = "tardis_door",
+  layer = 0,
+  x = 224,
+  y = 64,
+  direction = 3,
+  sprite = "entities/doctor_who/tardis_door",
+}
+
+destination{
+  name = "from_tardis",
+  layer = 0,
+  x = 232,
+  y = 85,
+  direction = 3,
+  starting_location_mode = "no",
 }
 
 tile{

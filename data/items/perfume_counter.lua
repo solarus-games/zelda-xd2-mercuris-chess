@@ -13,7 +13,7 @@ end
 -- in front of an NPC related to the perfume item.
 function item:on_npc_interaction_item(npc, item_used)
 
-  if game:get_value("prehistoric_tyrannosaurus_happy") then
+  if game.prehistoric_tyrannosaurus_happy then
     return false
   end
 
@@ -32,7 +32,7 @@ function item:on_npc_interaction(npc)
     return
   end
 
-  if not game:get_value("prehistoric_tyrannosaurus_happy") then
+  if not game.prehistoric_tyrannosaurus_happy then
     sol.audio.play_sound("monkey")
     game:start_dialog("prehistoric.tyrannosaurus_upset")
   else

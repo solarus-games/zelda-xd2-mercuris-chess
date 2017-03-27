@@ -58,6 +58,10 @@ end
 
 function tyrannosaurus:use_perfume()
 
+  if game.prehistoric_tyrannosaurus_happy then
+    return
+  end
+
   sol.audio.play_sound("secret")
   game:set_pause_allowed(false)  -- Don't allow to save without the perfume.
   game:get_item("perfume_counter"):remove_amount(1)

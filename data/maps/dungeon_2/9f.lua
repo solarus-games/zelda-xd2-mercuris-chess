@@ -211,9 +211,6 @@ function tardis_sensor:on_activated()
   hero:freeze()
   game:set_pause_allowed(false)
 
-  game:set_value("dungeon_2_boss", true)
-  game:set_dungeon_finished(2)
-
   local tardis_opacities = {}
   for i = 1, 3 do
     for opacity = 255, 120, -5 do

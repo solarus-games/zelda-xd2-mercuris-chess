@@ -5311,6 +5311,7 @@ door{
 }
 
 wall{
+  name = "tardis_wall_1",
   layer = 0,
   x = 784,
   y = 48,
@@ -5324,6 +5325,7 @@ wall{
 }
 
 wall{
+  name = "tardis_wall_3",
   layer = 0,
   x = 808,
   y = 48,
@@ -5337,6 +5339,7 @@ wall{
 }
 
 wall{
+  name = "tardis_wall_2",
   layer = 0,
   x = 784,
   y = 40,

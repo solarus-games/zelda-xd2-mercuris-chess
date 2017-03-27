@@ -24,6 +24,7 @@ function map:on_started(destination)
   the_doctor:set_enabled(false)
   tardis:set_enabled(false)
   tardis_door:set_enabled(false)
+  map:set_entities_enabled("tardis_wall", false)
 end
 
 function start_boss_sensor:on_activated()
@@ -163,6 +164,7 @@ function tardis_landing_sensor:on_activated()
   sol.audio.play_sound("tardis")
   tardis:set_enabled(true)
   tardis_door:set_enabled(true)
+  map:set_entities_enabled("tardis_wall", true)
   the_doctor:set_enabled(true)
 end
 

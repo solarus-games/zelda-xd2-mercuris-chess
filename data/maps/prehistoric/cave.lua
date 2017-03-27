@@ -11,13 +11,20 @@ function map:on_started()
     doctor:set_position(doctor_target:get_position())
     doctor:get_sprite():set_direction(1)
   end
+
+  tardis:set_enabled(false)
+  tardis_door:set_enabled(false)
 end
 
 function tyrannosaurus:use_perfume()
 
   sol.audio.play_sound("secret")
   game:set_value("prehistoric_tyrannosaurus_happy", true)
-  game:start_dialog("prehistoric.doctor_tyrannosaurus_solved")
+  game:start_dialog("prehistoric.doctor_tyrannosaurus_solved", function()
+
+    tardis:set_enabled(true)
+    tardis_door:set_enabled(true)
+  end)
 end
 
 function tyrannosaurus_sensor:on_activated()

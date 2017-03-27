@@ -19,6 +19,27 @@ tile{
   pattern = "1",
 }
 
+custom_entity{
+  name = "tardis",
+  layer = 0,
+  x = 136,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/doctor_who/tardis",
+  model = "tardis",
+}
+
+door{
+  name = "tardis_door",
+  layer = 0,
+  x = 128,
+  y = 160,
+  direction = 3,
+  sprite = "entities/doctor_who/tardis_door",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -787,17 +808,6 @@ wall{
 }
 
 npc{
-  name = "tyrannosaurus",
-  layer = 0,
-  x = 136,
-  y = 133,
-  direction = -1,
-  subtype = 0,
-  sprite = "npc/alttp/mad_batter_purple",
-  behavior = "item#perfume_counter",
-}
-
-npc{
   name = "doctor",
   layer = 0,
   x = 136,
@@ -816,6 +826,16 @@ sensor{
   height = 16,
 }
 
+custom_entity{
+  name = "doctor_target",
+  layer = 0,
+  x = 120,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
 destination{
   name = "destination",
   layer = 0,
@@ -826,14 +846,54 @@ destination{
   default = true,
 }
 
-custom_entity{
-  name = "doctor_target",
+wall{
   layer = 0,
   x = 120,
-  y = 173,
-  width = 16,
+  y = 160,
+  width = 8,
   height = 16,
-  direction = 0,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 160,
+  width = 8,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 128,
+  y = 152,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+npc{
+  name = "tyrannosaurus",
+  layer = 0,
+  x = 136,
+  y = 157,
+  direction = -1,
+  subtype = 0,
+  sprite = "npc/alttp/mad_batter_purple",
+  behavior = "item#perfume_counter",
 }
 
 tile{

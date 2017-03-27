@@ -5979,8 +5979,8 @@ tile{
 destination{
   name = "destination",
   layer = 0,
-  x = 480,
-  y = 341,
+  x = 208,
+  y = 349,
   direction = 3,
   starting_location_mode = "yes",
   default = true,
@@ -6676,7 +6676,7 @@ teletransporter{
 }
 
 destination{
-  name = "destination_2",
+  name = "from_tardis",
   layer = 0,
   x = 192,
   y = 117,
@@ -6734,6 +6734,47 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+enemy{
+  layer = 0,
+  x = 80,
+  y = 253,
+  direction = 3,
+  breed = "ct/kilwala",
+}
+
+enemy{
+  layer = 0,
+  x = 376,
+  y = 437,
+  direction = 3,
+  breed = "ct/kilwala",
+}
+
+enemy{
+  layer = 0,
+  x = 96,
+  y = 429,
+  direction = 3,
+  breed = "ct/runner",
+}
+
+enemy{
+  layer = 0,
+  x = 424,
+  y = 501,
+  direction = 3,
+  breed = "ct/runner",
+}
+
+destination{
+  name = "from_cave",
+  layer = 0,
+  x = 480,
+  y = 341,
+  direction = 3,
+  starting_location_mode = "yes",
 }
 
 tile{

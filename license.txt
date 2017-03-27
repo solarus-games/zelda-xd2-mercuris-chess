@@ -49,6 +49,7 @@ sprites/chess/*.png                                 Olivier Cléro
 sprites/enemies/newlink/*.png                       Newlink
 sprites/enemies/newlink/angry_zelda.png             Newlink
 sprites/enemies/oclero/mr_grump.png                 Olivier Cléro
+sprites/entities/shadow_dynamic.png                 Diarandor
 sprites/entities/slot_machine_support.png           Newlink
 sprites/hud/gameover_fade.png                       Metallizer
 sprites/hud/dialog_box.png                          Metallizer

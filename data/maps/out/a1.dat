@@ -9402,6 +9402,16 @@ enemy{
   treasure_name = "random",
 }
 
+npc{
+  layer = 0,
+  x = 504,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/sign",
+  behavior = "dialog#island.grump_tower_sign",
+}
+
 tile{
   layer = 1,
   x = 752,

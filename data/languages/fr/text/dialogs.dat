@@ -2962,6 +2962,13 @@ N'Y VA PAS !!!
 }
 
 dialog{
+  id = "island.grump_tower_sign",
+  text = [[
+Tour Grump
+]]
+}
+
+dialog{
   id = "island.hideseek_mom",
   text = [[
 Je "joue" à cache-cache

@@ -179,7 +179,10 @@ function doctor_coming_sensor:on_activated()
   movement:start(the_doctor, function()
     
     sol.audio.play_music("doctor_octoroc/i_am_the_doctor_1")
+    game:get_dialog_box():set_position("bottom")
     game:start_dialog("dungeon_2.9f.doctor", function()
+
+      game:get_dialog_box():set_position("auto")
 
       local movement = sol.movement.create("target")
       movement:set_target(tardis)

@@ -11,8 +11,8 @@ animation{
 animation{
   name = "falling",
   src_image = "enemies/oclero/chicken_giant.png",
-  frame_delay = 150,
-  frame_to_loop_on = 1,
+  frame_delay = 250,
+  frame_to_loop_on = 5,
   directions = {
     { x = 1344, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },
     { x = 1344, y = 96, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 6 },

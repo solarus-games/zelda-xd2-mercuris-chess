@@ -17,10 +17,25 @@ door_manager:manage_map(map)
 
 local water_delay = 500
 
--- Create the boss
+-- Create the boss.
 function chicken_boss_switch:on_activated()
-  local x, y, layer = self:get_position()
-  local prop = {x = x, y = y, layer = layer, direction = 3, breed = "oclero/chicken_giant"}
+
+  map:create_chicken_boss()
+end
+function map:create_chicken_boss()
+
+  -- Do not create boss if already dead.
+  if game:get_value("is_chicken_boss_dead") then return end
+  -- Play boss music.
+  sol.audio.play_music("alttp/ganon_appears", function()
+    sol.audio.play_music("alttp/boss", true)
+  end)
+  -- Create boss.
+  local dst = map:get_entity("boss_starting_point")
+  local x, y, layer = dst:get_position()
+  local prop = {x = x, y = y, layer = layer, direction = 3, 
+    breed = "oclero/chicken_giant", name = "chicken_giant",
+    savegame_variable = "is_chicken_boss_dead"}
   map:create_enemy(prop)
 end
 

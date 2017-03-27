@@ -10,6 +10,17 @@ animation{
   },
 }
 animation{
+  name = "hurt",
+  src_image = "enemies/oclero/chick_yellow.png",
+  frame_delay = 300,
+  directions = {
+    { x = 432, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 432, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 432, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 432, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+  },
+}
+animation{
   name = "shaking",
   src_image = "enemies/oclero/chick_yellow.png",
   frame_delay = 50,

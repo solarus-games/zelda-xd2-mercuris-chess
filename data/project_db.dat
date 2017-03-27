@@ -82,6 +82,7 @@ sprite{ id = "console/icons", description = "Console icons" }
 sprite{ id = "enemies/alttp/bubble", description = "Bubble" }
 sprite{ id = "enemies/alttp/chain_and_ball", description = "Chain and ball" }
 sprite{ id = "enemies/alttp/chicken", description = "Chicken" }
+sprite{ id = "enemies/alttp/chicken_flying", description = "Chicken flying" }
 sprite{ id = "enemies/alttp/chicken_mortal", description = "Chicken (mortal)" }
 sprite{ id = "enemies/alttp/fire_bat", description = "Fire bat" }
 sprite{ id = "enemies/alttp/fire_circle", description = "Fire circle" }
@@ -263,6 +264,7 @@ sprite{ id = "entities/rotating_platform/barrier", description = "Rotating platf
 sprite{ id = "entities/rotating_platform/base", description = "Rotating platform (base)" }
 sprite{ id = "entities/rupee_icon", description = "Rupee icon" }
 sprite{ id = "entities/shadow", description = "Shadow" }
+sprite{ id = "entities/shadow_dynamic", description = "Dynamic shadow" }
 sprite{ id = "entities/sign", description = "Sign" }
 sprite{ id = "entities/slot_machine_items", description = "Slot machine items" }
 sprite{ id = "entities/slot_machine_support", description = "Slot machine support" }
@@ -712,7 +714,9 @@ enemy{ id = "newlink/zoura_red", description = "Zoura (red)" }
 enemy{ id = "oclero/armos_tie", description = "Armos Tie" }
 enemy{ id = "oclero/chicken_giant", description = "Giant chicken" }
 enemy{ id = "oclero/chocobo_yellow", description = "Yellow chocobo" }
-enemy{ id = "oclero/egg_golden", description = "Golden egg" }
+enemy{ id = "oclero/egg_chicken", description = "Chicken egg" }
+enemy{ id = "oclero/egg_chocobo", description = "Chocobo egg" }
+enemy{ id = "oclero/flying_chicken", description = "Flying chicken" }
 enemy{ id = "oclero/mr_grump", description = "Mr. Grump" }
 enemy{ id = "rupee_blue", description = "Rupee (blue)" }
 enemy{ id = "rupee_green", description = "Rupee (green)" }

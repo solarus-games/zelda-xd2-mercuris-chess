@@ -15,7 +15,8 @@ function enemy:on_created()
   sprite = enemy:create_sprite("enemies/oclero/egg_golden")
   enemy:set_life(1)
   enemy:set_damage(1)
-  self:set_invincible() -- Golden eggs cannot be broken.
+  --enemy:set_invincible() -- Golden eggs cannot be broken.
+  enemy:set_push_hero_on_sword(true)
 end
 
 function enemy:on_restarted()
@@ -48,6 +49,7 @@ end
 function enemy:set_chick_color(new_color)
 
   color = new_color or "Y"
+  if color == "R" then enemy:set_treasure("heart") end
 end
 
 -- Start the hatching animations.

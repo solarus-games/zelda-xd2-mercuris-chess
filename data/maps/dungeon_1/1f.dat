@@ -2174,7 +2174,6 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
-  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2187,7 +2186,6 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
-  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2200,7 +2198,6 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
-  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2213,7 +2210,6 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
-  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2222,11 +2218,19 @@ switch{
   name = "chicken_boss_switch",
   layer = -1,
   x = 952,
-  y = 216,
+  y = 328,
   subtype = "walkable",
-  sprite = "entities/crystal_block",
+  sprite = "entities/switches/switch",
   needs_block = false,
   inactivate_when_leaving = false,
+}
+
+destination{
+  name = "boss_starting_point",
+  layer = -1,
+  x = 960,
+  y = 229,
+  direction = 1,
 }
 
 tile{

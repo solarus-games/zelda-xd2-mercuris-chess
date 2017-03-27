@@ -12,7 +12,7 @@ function enemy:on_created()
   -- like the sprite, the life and the damage.
   sprite = enemy:create_sprite("enemies/oclero/chick_yellow")
   enemy:set_life(2)
-  enemy:set_damage(1)
+  enemy:set_damage(4)
 end
 
 function enemy:on_restarted()

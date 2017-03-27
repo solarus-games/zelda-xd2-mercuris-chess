@@ -7,30 +7,34 @@ local movement
 
 local laying_time = 1000 -- In milliseconds.
 local walking_speed = 48
+local running_speed = 64
 local state_index = 1 -- Current state index.
 local state -- Current state.
 local phase = 0 -- Current battle phase.
-local rounds_per_phase = {4, 4, 4} -- Number of rounds per phase.
-local life_per_round = {5, 6} -- Number of life points per round at each phase.
+local rounds_per_phase = {4, 3, 1} -- Number of rounds per phase.
+local life_per_round = {6, 4, 1} -- Number of life points per round at each phase.
 local round = 1 -- Current round.
 local remaining_life_per_round
 local chocobo_eggs_per_round = { -- Types and number of eggs for each round. Y: yellow, R: red.
-  [1] = {"R", "R", "R", "Y", "Y", "Y", "Y", "Y"},
+  [1] = {"Y", "Y", "R", "Y", "R", "Y", "Y", "R"},
   [2] = {"Y", "Y", "Y", "R", "Y", "Y", "Y", "R", 
-         "Y", "Y", "Y", "R", "Y", "Y", "Y", "R"},
-  [3] = {"Y", "Y", "R", "Y", "Y", "Y", "R", "Y"},
-  [4] = {"Y", "R", "Y", "Y", "Y", "R", "Y", "Y",
+         "Y", "R", "Y", "R", "Y", "Y", "Y", "R"},
+  [3] = {"Y", "R", "Y", "Y", "Y", "R", "Y", "Y",
          "Y", "Y", "Y", "Y", "Y", "Y", "Y", "Y",
          "Y", "Y", "R", "Y", "Y", "Y", "Y", "Y",
-         "Y", "Y", "Y", "Y", "Y", "Y", "R", "R"}
+         "Y", "R", "Y", "Y", "Y", "R", "Y", "Y",
+         "Y", "Y", "Y", "Y", "R", "R", "R", "R"},
+  [4] = {"Y", "Y", "R", "Y", "Y", "Y", "R", "R"}
 }
 -- List of the possible states during each battle phase. States change cyclically.
 local phase_states = {
-  [1] = {"put_chocobo_eggs", "go_peck_hero"},
-  [2] = {"fly_to_center", "put_chicken_eggs", "chicken_attack", "put_chocobo_eggs", "falling_attack"},
-  [3] = {"dying"}
+  [1] = {"put_chocobo_eggs", "go_peck_hero", "fly_to_center"},
+  [2] = {"put_chicken_eggs", "falling_attack", "chicken_attack", 
+         "fly_to_center", "put_chocobo_eggs", "fly_to_center"},
+  [3] = {"put_chicken_eggs", "falling_attack", "chicken_attack", "selfdestroy"}
 }
 local starting_location -- Eggs are created here.
+local chicken_list = {} -- Chicken array for the flying phase.
 
 function enemy:on_created()
 
@@ -54,26 +58,22 @@ end
 
 function enemy:on_restarted()
 
-  -- Phase 0 (before battle).
-  if phase == 0 then
+  if phase == 0 then  -- Phase 0 (before battle).
     enemy:first_fall()
-  -- Phase 1: put chocobo eggs, go peck the hero, wait for chocobos death (flying).
-  elseif phase == 1 then
-    if state == "put_chocobo_eggs" then
-      enemy:put_chocobo_eggs()
-    elseif state == "go_peck_hero" then
-      enemy:go_peck_hero()
-    end
-  -- Phase 2: put chicken eggs and throw chicken, put chocobo eggs, fast flying/stomp attacks. 
-  elseif phase == 2 then
-    if state == "fly_to_center" then
-      enemy:fly_to_center()
-    elseif state == "put_chicken_eggs" then
-      enemy:put_chicken_eggs()
-    end
-  -- Phase 3: dying phase.
-  elseif phase == 3 then
-    enemy:set_life(0) -- Kill the enemy.
+  elseif state == "put_chocobo_eggs" then
+    enemy:put_chocobo_eggs()
+  elseif state == "go_peck_hero" then
+    enemy:go_peck_hero()
+  elseif state == "fly_to_center" then
+    enemy:fly_to_center()
+  elseif state == "put_chicken_eggs" then
+    enemy:put_chicken_eggs()
+  elseif state == "falling_attack" then
+    enemy:falling_attack()
+  elseif state == "chicken_attack" then
+    enemy:chicken_attack()
+  elseif state == "selfdestroy" then
+    enemy:selfdestroy()
   end
 end
 
@@ -89,8 +89,6 @@ function enemy:start_next_state()
       phase = phase + 1
       round = 1
       state_index = 1
-      state = phase_states[phase][1]
-      return
     end
   end
   state = phase_states[phase][state_index]
@@ -115,7 +113,7 @@ function enemy:first_fall()
   enemy:set_invincible()
   sprite:set_animation("falling")
   sprite:set_xy(0, -100) -- Shift the sprite.
-  sol.timer.start(enemy, 5, function()
+  sol.timer.start(enemy, 15, function()
     local dx, dy = sprite:get_xy()
     if dy < 0 then
       dy = dy + 1
@@ -130,10 +128,11 @@ end
 function enemy:prepare_battle()
 
   sprite:set_animation("stopped")
-  phase = 1 -- Start phase 1 (first battle phase).
-  state = phase_states[1][1]
+  phase = 1 -- Starting phase of battle. Change this for testing.
+  ---- round = ? -- Uncomment to start at a given round, for testing.
+  state = phase_states[phase][1]
   remaining_life_per_round = life_per_round[phase]
-  sol.timer.start(enemy, 1000, function()
+  sol.timer.start(enemy, 3000, function()
     enemy:restart()
   end)
 end
@@ -145,12 +144,11 @@ function enemy:put_chocobo_eggs()
 
   enemy:set_invincible()
   sprite:set_animation("laying")
-  local frame_delay = sprite:get_frame_delay()
   local dir = sprite:get_direction()
   local x, y, layer = enemy:get_position()
   local num_eggs = #(chocobo_eggs_per_round[round])
   local eggs_counter = 0
-  local prop = {x = x, y = y, layer = layer, direction = 0, breed = "oclero/egg_golden"}
+  local prop = {x = x, y = y, layer = layer, direction = 0, breed = "oclero/egg_chocobo"}
   -- Change direction and put chocobo eggs.
   function sprite:on_animation_finished()
     -- Create one egg of a pair.
@@ -211,6 +209,7 @@ end
 function enemy:fly_to_center()
 
   enemy:set_invincible() -- Make invincible while flying.
+  self:set_can_attack(false) -- Cannot attack while flying.
   sprite:set_animation("flying")
   movement = sol.movement.create("target")
   movement:set_target(starting_location.x, starting_location.y)
@@ -218,10 +217,159 @@ function enemy:fly_to_center()
   movement:set_ignore_obstacles(true)
   movement:start(enemy)
   function movement:on_finished()
+    enemy:stop_movement()
     enemy:start_next_state()
   end
 end
 
 function enemy:put_chicken_eggs()
 
+  enemy:set_invincible()
+  enemy:set_can_attack(true)
+  sol.timer.stop_all(enemy)
+  sprite:set_animation("laying")
+  sprite:set_direction(3)
+  local x, y, layer = enemy:get_position()
+  local prop = {x = x, y = y, layer = layer, direction = 0, breed = "oclero/egg_chicken"}
+  chicken_list = {}
+  function sprite:on_animation_finished()
+    sprite.on_animation_finished = nil -- Destroy event.
+    function sprite:on_animation_changed(animation)
+      if animation ~= "flying" then
+        sprite:set_animation("flying") -- Fix flying animation.
+      end
+    end
+    sprite:set_animation("flying") -- Start flying.
+    enemy:set_invincible()
+    enemy:set_can_attack(false)
+    -- Create chicken eggs.
+    for dir = 0, 7 do
+      local egg = map:create_enemy(prop)
+      local angle = math.pi * dir / 4
+      local max_distance = 64 -- Max distance before stop rolling.
+      egg:roll(angle, max_distance)
+      egg:add_to_list(chicken_list)
+    end
+  end
+  -- Wait for chicken to start flying.
+  sol.timer.start(enemy, 6000, function()
+    enemy:chicken_circles() -- Prepare flying chicken!
+  end)
+end
+
+-- Make chicken fly in circles.
+function enemy:chicken_circles()
+
+  -- Make chicken fly around the boss for a while.
+  for _, chick in pairs(chicken_list) do
+    chick:fly_around_boss(enemy)
+  end
+  -- Throw the chicken towards the hero.
+  local chicken_index = 1
+  sol.timer.start(enemy, 2000, function()
+    sol.timer.start(enemy, 1000, function()
+      local chick = chicken_list[chicken_index]
+      --   chick:fly_to_hero()
+      chicken_index = chicken_index + 1
+      if chicken_index > #chicken_list then 
+        --   enemy:start_next_state() -- Attack hero: next phase!
+        return
+      end
+      return true
+    end)
+  end)
+  -- Start next battle state!
+  enemy:start_next_state()
+end
+
+function enemy:falling_attack()
+
+  enemy:set_invincible()
+  enemy:set_can_attack(false)
+  function sprite:on_animation_changed(animation)
+    if animation ~= "flying" then
+      sprite:set_animation("flying") -- Fix flying animation.
+    end
+  end
+  sprite:set_animation("flying") -- Start flying.
+  -- Create movement towards hero.
+  movement = sol.movement.create("target")
+  movement:set_target(hero)
+  movement:set_speed(running_speed)
+  movement:start(enemy)
+  -- If the hero is close, start falling attack.
+  function movement:on_position_changed()
+    if enemy:get_distance(hero) < 16 then
+      -- Stop fixing "flying" animation and stop movement.
+      sprite.on_animation_changed = nil
+      enemy:stop_movement()
+      -- Falling attack! Allow to hurt and be hurt.
+      sprite:set_animation("falling")
+      sol.timer.start(enemy, 1000, function()
+        enemy:set_default_attack_consequences()
+        enemy:set_can_attack(true)
+      end)
+      sol.timer.start(enemy, 2000, function()
+        if remaining_life_per_round > 0 then
+          enemy:restart() -- Restart falling attack state.
+        else
+          enemy:start_next_state() -- Next state: throw remaining chicken!
+        end
+      end)
+    end
+  end
+end
+
+-- Throw all remaining chicken towards hero.
+function enemy:chicken_attack()
+
+  enemy:set_invincible()
+  enemy:set_can_attack(false)
+  enemy:stop_movement()
+  function sprite:on_animation_changed(animation)
+    if animation ~= "flying" then
+      sprite:set_animation("flying") -- Fix flying animation.
+    end
+  end
+  sprite:set_animation("flying") -- Start flying.
+  -- Start random movement while flying.
+  movement = sol.movement.create("random")
+  movement:set_speed(walking_speed)
+  movement:start(enemy)
+  -- Throw remaining chicken.
+  local chick_index = 1
+  sol.timer.start(enemy, 1000, function()
+    chick = chicken_list[chick_index]
+    if chick:exists() then chick:fly_to_hero() end
+    chick_index = chick_index + 1
+    if chick_index <= #chicken_list then
+      return true -- Throw next chicken.
+    else
+      sprite.on_animation_changed = nil -- Remove event.
+      enemy:stop_movement()
+      enemy:start_next_state()
+    end
+  end)
+end
+
+------------------------- Phase 3: death -------------------------
+
+-- Create explosions and kill the enemy.
+function enemy:selfdestroy()
+
+  -- Kill remaining chocobos and flying chicken, if any.
+  for chick in map:get_entities_by_type("enemy") do
+    local breed = chick:get_breed()
+    if breed == "oclero/chocobo_yellow" or breed == "oclero/flying_chicken" then
+      chick:set_life(0) -- Destroy chick.
+    end
+  end
+  -- Kill the enemy.
+  enemy:set_life(0)
+end
+
+function enemy:on_dead()
+
+  sol.audio.play_music(map:get_music()) -- Restore original music.
+  -- DEFINE SOME MAP EVENT HERE!
 end

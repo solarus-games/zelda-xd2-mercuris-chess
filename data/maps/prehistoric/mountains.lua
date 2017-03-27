@@ -48,7 +48,7 @@ end
 
 function doctor:on_interaction()
 
-  if not game:get_value("prehistoric_tyrannosaurus_happy") then
+  if not game.prehistoric_tyrannosaurus_happy then
     game:start_dialog("prehistoric.doctor_are_you_okay")
   end
 end

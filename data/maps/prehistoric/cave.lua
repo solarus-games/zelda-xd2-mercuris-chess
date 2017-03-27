@@ -5,7 +5,7 @@ function map:on_started()
 
   tyrannosaurus:get_sprite():set_animation("walking")
 
-  if game:get_value("prehistoric_tyrannosaurus_explained") then
+  if game.prehistoric_tyrannosaurus_explained then
     doctor:set_position(tyrannosaurus_doctor_target:get_position())
     doctor:random_walk()
   else
@@ -18,7 +18,7 @@ end
 
 function tyrannosaurus_sensor:on_activated()
 
-  if not game:get_value("prehistoric_tyrannosaurus_explained") then
+  if not game.prehistoric_tyrannosaurus_explained then
     hero:freeze()
     doctor:set_enabled(true)
     local movement = sol.movement.create("path")
@@ -41,7 +41,7 @@ function tyrannosaurus_sensor:on_activated()
       game:start_dialog("prehistoric.doctor_tyrannosaurus", function()
         hero:unfreeze()
         doctor:random_walk()
-        game:set_value("prehistoric_tyrannosaurus_explained", true)
+        game.prehistoric_tyrannosaurus_explained = true
       end)
     end)
   end
@@ -49,7 +49,7 @@ end
 
 function doctor:on_interaction()
 
-  if game:get_value("prehistoric_tyrannosaurus_happy") then
+  if game.prehistoric_tyrannosaurus_happy then
     return
   end
 
@@ -59,8 +59,9 @@ end
 function tyrannosaurus:use_perfume()
 
   sol.audio.play_sound("secret")
+  game:set_pause_allowed(false)  -- Don't allow to save without the perfume.
   game:get_item("perfume_counter"):remove_amount(1)
-  game:set_value("prehistoric_tyrannosaurus_happy", true)
+  game.prehistoric_tyrannosaurus_happy = true
   doctor:get_sprite():set_direction(doctor:get_direction4_to(tyrannosaurus))
   game:start_dialog("prehistoric.doctor_tyrannosaurus_solved", function()
 
@@ -90,7 +91,7 @@ end
 
 function tardis_sensor:on_activated()
 
-  if not game:get_value("prehistoric_tyrannosaurus_happy") then
+  if not game.prehistoric_tyrannosaurus_happy then
     return
   end
 

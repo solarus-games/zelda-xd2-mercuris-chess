@@ -41,6 +41,7 @@ function tardis:on_created()
   tardis:set_size(32, 56)
   tardis:set_origin(16, 53)
   tardis:set_traversable_by(true)
+  tardis:set_drawn_in_y_order(false)
 
   map:register_event("on_draw", function(map, dst_surface)
 
@@ -55,7 +56,6 @@ end
 
 function tardis:disappear(cache_file, callback)
 
-  hero:set_visible(false)
   hero:freeze()
   game:set_pause_allowed(false)
 
@@ -85,7 +85,6 @@ end
 
 function tardis:appear(cache_file, callback)
 
-  hero:set_visible(false)
   hero:freeze()
   game:set_pause_allowed(false)
 

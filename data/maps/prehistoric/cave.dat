@@ -868,7 +868,7 @@ sensor{
   name = "tardis_sensor",
   layer = 0,
   x = 136,
-  y = 237,
+  y = 253,
   width = 16,
   height = 16,
 }

@@ -212,6 +212,7 @@ function tardis_sensor:on_activated()
   end
 
   map:close_doors("tardis_door")
+  hero:set_visible(false)
   tardis:disappear("entities/doctor_who/tardis_cache_dungeon_2.png", function()
     hero:teleport("tardis")
   end)

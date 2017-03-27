@@ -810,9 +810,9 @@ npc{
 sensor{
   name = "tyrannosaurus_sensor",
   layer = 0,
-  x = 88,
-  y = 157,
-  width = 112,
+  x = 136,
+  y = 173,
+  width = 16,
   height = 16,
 }
 
@@ -820,7 +820,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 136,
-  y = 173,
+  y = 181,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

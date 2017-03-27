@@ -5,7 +5,6 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
-  world = "dungeon_2",
   tileset = "tardis",
   music = "doctor_octoroc/i_am_the_doctor_1",
 }
@@ -25,6 +24,7 @@ destination{
   x = 160,
   y = 221,
   direction = 1,
+  starting_location_mode = "no",
   default = true,
 }
 

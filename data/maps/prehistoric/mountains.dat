@@ -5,7 +5,6 @@ properties{
   height = 608,
   min_layer = 0,
   max_layer = 4,
-  world = "dungeon_2",
   tileset = "ct/prehistoric_outside",
   music = "ct/mystic_mountain",
 }
@@ -6682,7 +6681,7 @@ destination{
   x = 192,
   y = 117,
   direction = 3,
-  starting_location_mode = "yes",
+  starting_location_mode = "no",
 }
 
 wall{
@@ -6775,7 +6774,7 @@ destination{
   x = 480,
   y = 341,
   direction = 3,
-  starting_location_mode = "yes",
+  starting_location_mode = "no",
 }
 
 tile{

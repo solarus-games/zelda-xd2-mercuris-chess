@@ -11,7 +11,6 @@ elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
 local fighting_boss = false
 local escaping_after_boss = false
-local tardis_cache
 
 function map:on_started(destination)
 
@@ -206,67 +205,9 @@ function tardis_sensor:on_activated()
     return
   end
 
-  map:close_doors("tardis_door")
-  hero:set_visible(false)
-  hero:freeze()
-  game:set_pause_allowed(false)
-
-  local tardis_opacities = {}
-  for i = 1, 3 do
-    for opacity = 255, 120, -5 do
-      tardis_opacities[#tardis_opacities + 1] = opacity
-    end
-    for opacity = 125, 250, 5 do
-      tardis_opacities[#tardis_opacities + 1] = opacity
-    end
-  end
-  for i = 1, 2 do
-    for opacity = 255, 0, -5 do
-      tardis_opacities[#tardis_opacities + 1] = opacity
-    end
-    for opacity = 5, 250, 5 do
-      tardis_opacities[#tardis_opacities + 1] = opacity
-    end
-  end
-  for opacity = 255, 0, -5 do
-    tardis_opacities[#tardis_opacities + 1] = opacity
-  end
-  for i = 1, 3 do
-    for opacity = 0, 125, 5 do
-      tardis_opacities[#tardis_opacities + 1] = opacity
-    end
-    for opacity = 120, 0, -5 do
-      tardis_opacities[#tardis_opacities + 1] = opacity
-    end
-  end
-
-  local timer = sol.timer.start(map, 500, function()
-    sol.audio.play_sound("tardis")
-    tardis:get_sprite():set_animation("blinking")
-    
-    tardis_cache = sol.surface.create("entities/dungeon_2/tardis_cache_dungeon_2.png")
-
-    local i = 1
-    tardis_cache:set_opacity(0)
-    sol.timer.start(map, 20, function()
-      tardis_cache:set_opacity(255 - tardis_opacities[i])
-      i = i + 1
-      if i <= #tardis_opacities then
-        return true  -- Repeat.
-      end
-      hero:teleport("tardis")
-    end)
+  tardis:disappear("entities/dungeon_2/tardis_cache_dungeon_2.png", function()
+    hero:teleport("tardis")
   end)
-  timer:set_suspended_with_map(false)
-end
-
-function map:on_draw(dst_surface)
-
-  if tardis_cache == nil then
-    return
-  end
-
-  map:draw_visual(tardis_cache, 768, 24)
 end
 
 function map:on_finished()

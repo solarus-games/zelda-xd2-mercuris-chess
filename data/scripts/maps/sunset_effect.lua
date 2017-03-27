@@ -14,20 +14,19 @@ local game = sol.main.game
 
 -- Overlay surfaces for changing colors.
 local quest_w, quest_h = sol.video.get_quest_size()
-local overlay_surface_1 = sol.surface.create(quest_w, quest_h)
-overlay_surface_1:fill_color({112, 76, 0})
-overlay_surface_1:set_blend_mode("add")
-overlay_surface_1:set_opacity(143)
-
-local overlay_surface_2 = sol.surface.create(quest_w, quest_h)
-overlay_surface_2:fill_color({255, 155, 197})
-overlay_surface_2:set_blend_mode("multiply")
-overlay_surface_2:set_opacity(127)
+local overlay_surface_yellow = sol.surface.create(quest_w, quest_h)
+overlay_surface_yellow:set_opacity(64)
+overlay_surface_yellow:set_blend_mode("add")
+overlay_surface_yellow:fill_color({245, 128, 33})
+local overlay_surface_red = sol.surface.create(quest_w, quest_h)
+overlay_surface_red:set_opacity(64)
+overlay_surface_red:set_blend_mode("multiply")
+overlay_surface_red:fill_color({255, 209, 221})
 
 -- Draw
 function sunset_effect:draw(dst_surface)
-   overlay_surface_2:draw(dst_surface)
-   overlay_surface_1:draw(dst_surface)
+   overlay_surface_red:draw(dst_surface)
+   overlay_surface_yellow:draw(dst_surface)
 end
 
 -- Return

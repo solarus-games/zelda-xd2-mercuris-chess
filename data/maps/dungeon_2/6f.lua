@@ -34,6 +34,8 @@ function map:on_started()
   map:set_doors_open("miniboss_door", true)
   if game:get_value("dungeon_2_miniboss") then
     miniboss_chicken_npc:set_enabled(false)
+    map:set_entities_enabled("miniboss_spikes", true)
+    miniboss_spikes_exit:set_enabled(false)
   else
     miniboss_chicken_npc:set_traversable(true)
     local movement = sol.movement.create("random")

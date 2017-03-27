@@ -9,6 +9,16 @@ function item:on_created()
   item:set_assignable(true)
 end
 
+-- Called when the player obtains the fire rod.
+function item:on_obtained(variant, savegame_variable)
+
+  -- Give the magic bar if necessary.
+  local magic_bar = self:get_game():get_item("magic_bar")
+  if not magic_bar:has_variant() then
+    magic_bar:set_variant(1)
+  end
+end
+
 -- Shoots some fire on the map.
 function item:shoot()
 

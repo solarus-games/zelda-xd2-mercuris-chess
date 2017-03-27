@@ -61,4 +61,3 @@ function item:on_obtained(variant, savegame_variable)
     magic_bar:set_variant(1)
   end
 end
-

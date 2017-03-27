@@ -7,9 +7,9 @@ function map:on_started(destination)
     hero:set_visible(false)
     tardis:set_enabled(false)
     tardis_door:set_enabled(false)
-    doctor:set_enabled(false)
   end
 
+  doctor:set_enabled(false)
 end
 
 function map:on_opening_transition_finished(destination)
@@ -48,7 +48,7 @@ end
 
 function doctor:on_interaction()
 
-  if not game:get_value("prehistoric.tyrannosaurus_happy") then
+  if not game:get_value("prehistoric_tyrannosaurus_happy") then
     game:start_dialog("prehistoric.doctor_are_you_okay")
   end
 end

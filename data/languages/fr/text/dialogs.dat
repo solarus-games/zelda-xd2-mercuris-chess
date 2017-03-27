@@ -1702,11 +1702,12 @@ de façon... impossible.
 dialog{
   id = "chill_valley.l_house",
   text = [[
-C'est l'enfer!
-Complètement gelé!
+C'est l'enfer !
+Complètement gelé !
 
-Je comprend pas, j'ai
-le chauffage à fond...
+Je ne comprends pas,
+j'ai le chauffage à
+fond...
 ]]
 }
 
@@ -3267,8 +3268,8 @@ Cela ne peut être que
 lui qui a engendré la
 poule aux oeufs d'or
 de M. Grump et qui a
-créé l'invasion de
-rubis.
+donc causé l'invasion
+de rubis.
 Mais il a l'air très
 agité...
 ]]

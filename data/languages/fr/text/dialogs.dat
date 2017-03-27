@@ -3122,6 +3122,28 @@ pour le 300 ?
 }
 
 dialog{
+  id = "not_now.cat_food",
+  icon = "49",
+  skip = "all",
+  text = [[
+Cette nourriture est
+pour Flocon-de-Neige,
+le chat de Zelda !
+]]
+}
+
+dialog{
+  id = "not_now.perfume",
+  icon = "49",
+  skip = "all",
+  text = [[
+Ce n'est pas le
+moment de se mettre
+du parfum !
+]]
+}
+
+dialog{
   id = "otis",
   skip = "all",
   text = [[

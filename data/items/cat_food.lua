@@ -23,6 +23,7 @@ function item:on_npc_interaction_item(npc, item_used)
   if npc:get_name() == "tigriss_npc_docile" and
       item_used == item then
     npc:use_food()
+    return true
   end
 end
 
@@ -43,5 +44,7 @@ end
 -- Event called when the hero is using this item.
 function item:on_using()
 
+  sol.audio.play_sound("wrong")
+  game:start_dialog("not_now.cat_food")
   item:set_finished()
 end

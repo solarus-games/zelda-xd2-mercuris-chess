@@ -11,12 +11,16 @@ function options_submenu:on_started()
   local width, height = sol.video.get_quest_size()
   local center_x, center_y = width / 2, height / 2
 
+  self.column_color = { 255, 255, 255}
+  self.text_color = { 115, 59, 22 }
+
   self.video_mode_label_text = sol.text_surface.create{
     horizontal_alignment = "left",
     vertical_alignment = "top",
     font = font,
     font_size = font_size,
     text_key = "selection_menu.options.video_mode",
+    color = self.text_color,
   }
   self.video_mode_label_text:set_xy(center_x - 50, center_y - 58)
 
@@ -26,6 +30,7 @@ function options_submenu:on_started()
     font = font,
     font_size = font_size,
     text = sol.video.get_mode(),
+    color = self.text_color,
   }
   self.video_mode_text:set_xy(center_x + 104, center_y - 58)
 
@@ -35,6 +40,7 @@ function options_submenu:on_started()
     font = font,
     font_size = font_size,
     text_key = "options.commands_column",
+    color = self.column_color,
   }
   self.command_column_text:set_xy(center_x - 76, center_y - 37)
 
@@ -44,6 +50,7 @@ function options_submenu:on_started()
     font = font,
     font_size = font_size,
     text_key = "options.keyboard_column",
+    color = self.column_color,
   }
   self.keyboard_column_text:set_xy(center_x - 7, center_y - 37)
 
@@ -53,6 +60,7 @@ function options_submenu:on_started()
     font = font,
     font_size = font_size,
     text_key = "options.joypad_column",
+    color = self.column_color,
   }
   self.joypad_column_text:set_xy(center_x + 69, center_y - 37)
 
@@ -73,6 +81,7 @@ function options_submenu:on_started()
       font = font,
       font_size = font_size,
       text_key = "options.command." .. self.command_names[i],
+      color = self.text_color,
     }
 
     self.keyboard_texts[i] = sol.text_surface.create{
@@ -80,6 +89,7 @@ function options_submenu:on_started()
       vertical_alignment = "top",
       font = font,
       font_size = font_size,
+      color = self.text_color,
     }
 
     self.joypad_texts[i] = sol.text_surface.create{
@@ -87,6 +97,7 @@ function options_submenu:on_started()
       vertical_alignment = "top",
       font = font,
       font_size = font_size,
+      color = self.text_color,
     }
   end
 

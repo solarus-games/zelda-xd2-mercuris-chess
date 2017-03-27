@@ -14,42 +14,43 @@ end
 function submenu:on_started()
 
   self.background_surfaces = sol.surface.create("pause_submenus.png", true)
-  self.background_surfaces:set_opacity(216)
+  self.background_surfaces:set_opacity(255)
   self.save_dialog_sprite = sol.sprite.create("menus/pause_save_dialog")
   self.save_dialog_state = 0
+  self.text_color = { 115, 59, 22 }
 
-  local dialog_font, dialog_font_size = language_manager:get_dialog_font()
+  --local dialog_font, dialog_font_size = language_manager:get_dialog_font()
   local menu_font, menu_font_size = language_manager:get_menu_font()
 
   self.question_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
-    font = dialog_font,
-    font_size = dialog_font_size,
+    color = self.text_color,
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.question_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
-    font = dialog_font,
-    font_size = dialog_font_size,
+    color = self.text_color,
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.answer_text_1 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
+    color = self.text_color,
     text_key = "save_dialog.yes",
-    font = dialog_font,
-    font_size = dialog_font_size,
+    font = menu_font,
+    font_size = menu_font_size,
   }
   self.answer_text_2 = sol.text_surface.create{
     horizontal_alignment = "center",
     vertical_alignment = "middle",
-    color = {8, 8, 8},
+    color = self.text_color,
     text_key = "save_dialog.no",
-    font = dialog_font,
-    font_size = dialog_font_size,
+    font = menu_font,
+    font_size = menu_font_size,
   }
 
   self.caption_text_1 = sol.text_surface.create{
@@ -57,6 +58,7 @@ function submenu:on_started()
     vertical_alignment = "middle",
     font = menu_font,
     font_size = menu_font_size,
+    color = self.text_color,
   }
 
   self.caption_text_2 = sol.text_surface.create{
@@ -64,6 +66,7 @@ function submenu:on_started()
     vertical_alignment = "middle",
     font = menu_font,
     font_size = menu_font_size,
+    color = self.text_color,    
   }
 
   self.game:set_custom_command_effect("action", nil)
@@ -221,10 +224,10 @@ function submenu:draw_save_dialog_if_any(dst_surface)
     local x = width / 2
     local y = height / 2
     self.save_dialog_sprite:draw(dst_surface, x - 110, y - 33)
-    self.question_text_1:draw(dst_surface, x, y - 8)
-    self.question_text_2:draw(dst_surface, x, y + 8)
-    self.answer_text_1:draw(dst_surface, x - 60, y + 28)
-    self.answer_text_2:draw(dst_surface, x + 59, y + 28)
+    self.question_text_1:draw(dst_surface, x, y - 16)
+    self.question_text_2:draw(dst_surface, x, y)
+    self.answer_text_1:draw(dst_surface, x - 60, y + 24)
+    self.answer_text_2:draw(dst_surface, x + 59, y + 24)
   end
 end
 

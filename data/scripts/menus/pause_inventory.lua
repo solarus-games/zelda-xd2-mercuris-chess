@@ -191,6 +191,9 @@ function inventory_submenu:on_draw(dst_surface)
   self:draw_background(dst_surface)
   self:draw_caption(dst_surface)
 
+ -- Draw the cursor.
+  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 77 + 32 * self.cursor_row)
+
   -- Draw each inventory item.
   local y = 82
   local k = 0
@@ -214,9 +217,6 @@ function inventory_submenu:on_draw(dst_surface)
     end
     y = y + 32
   end
-
-  -- Draw the cursor.
-  self.cursor_sprite:draw(dst_surface, 64 + 32 * self.cursor_column, 77 + 32 * self.cursor_row)
 
   -- Draw the item being assigned if any.
   if self:is_assigning_item() then

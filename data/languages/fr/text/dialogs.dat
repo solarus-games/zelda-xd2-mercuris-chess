@@ -1700,6 +1700,13 @@ de façon... impossible.
 }
 
 dialog{
+  id = "chill_valley.l_house",
+  text = [[
+C'est l'enfer
+]]
+}
+
+dialog{
   id = "chill_valley.no_entry_1",
   text = [[
 ...

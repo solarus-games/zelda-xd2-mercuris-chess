@@ -128,7 +128,7 @@ local function miniboss_enemy_on_dead()
   if not map:has_entities("miniboss_enemy") then
     sol.audio.play_music(previous_music)
     map:open_doors("miniboss_door")
-    map:set_entities_enabled("miniboss_spikes", false)
+    miniboss_spikes_exit:set_enabled(false)
     game:set_value("dungeon_2_miniboss", true)
   end
 end

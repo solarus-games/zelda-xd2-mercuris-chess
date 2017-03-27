@@ -6506,7 +6506,7 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "miniboss_spikes_17",
+  name = "miniboss_spikes_exit",
   layer = 0,
   x = 464,
   y = 280,

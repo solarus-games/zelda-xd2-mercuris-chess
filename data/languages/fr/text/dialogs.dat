@@ -1885,27 +1885,29 @@ Va chercher le courrier.
 dialog{
   id = "chores.chore_2_thanks_0",
   text = [[
-Merci, 
-c'est pas trop tôt...
+Merci,
+mieux vaut tard que
+jamais...
+Ah !$0
+C'est un courrier de
+Monsieur Grump,
+l'immonde directeur du
+Bureau des Objets
+Trouvés.
+Il ne veut toujours
+pas m'envoyer le
+laisser-passer A38 !
+Quel grossier
+personnage.
 
-C'est une lettre de
-mon amie la princesse
-Peach.
-"Je suis en vacances à
-Delfino, dit-elle,
-le temps est superbe,
-les cocktails sont
-délicieux, et on dort
-à l'hotêl de
-Aaaaaaargh !"$0
-Oui, elle a vraiment
-écrit "Aaaaaaargh".
-Je crois qu'elle n'a
-pas eu le temps de
-finir sa lettre,
-elle s'est
-faite capturer !
-Sapristi !
+Pourtant j'ai bien
+rempli le formulaire
+bleu !
+Quels tas d'incompétents
+dans cette
+administration...
+Je suis quand même une
+princesse !
 ]]
 }
 
@@ -1968,6 +1970,33 @@ chouette !
 
 Au fait, prenez un 
 chewing-gum, $v.
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_4",
+  text = [[
+Merci, 
+c'est pas trop tôt...
+
+C'est une lettre de
+mon amie la princesse
+Peach.
+"Je suis en vacances à
+Delfino, dit-elle,
+le temps est superbe,
+les cocktails sont
+délicieux, et on dort
+à l'hotêl de
+Aaaaaaargh !"$0
+Oui, elle a vraiment
+écrit "Aaaaaaargh".
+Je crois qu'elle n'a
+pas eu le temps de
+finir sa lettre,
+elle s'est
+faite capturer !
+Sapristi !
 ]]
 }
 

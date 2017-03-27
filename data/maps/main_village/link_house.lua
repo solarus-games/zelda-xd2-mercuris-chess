@@ -11,6 +11,7 @@ local map = ...
 local game = map:get_game()
 
 local zelda_chores = require("scripts/maps/zelda_chores")
+local num_letters = 4  -- Number of letters to Zelda except the first one.
 
 -- White surface for fade-in/out.
 local white_surface = nil
@@ -358,7 +359,9 @@ function zelda:on_interaction()
       -- Get a different letter than last time.
       local chore_thanks = game:get_value("introduction_chore_2_thanks")
       if chore_thanks == nil then
-        chore_thanks = math.random(4) - 1
+        -- The first one is always 0 (about Grump) and then the sequence is random.
+        chore_thanks = 0
+        game:set_value("introduction_chore_2_thanks", math.random(num_letters))
       end
 
       -- Take the letter from the hero.
@@ -369,7 +372,8 @@ function zelda:on_interaction()
       game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, game:get_player_name(), function()
 
         -- Write in savegame the next letter.
-        chore_thanks = (chore_thanks + 1) % 4
+        chore_thanks = game:get_value("introduction_chore_2_thanks")
+        chore_thanks = chore_thanks % num_letters + 1
         game:set_value("introduction_chore_2_thanks", chore_thanks)
 
         local should_give_back_light_saber = not all_chores_done

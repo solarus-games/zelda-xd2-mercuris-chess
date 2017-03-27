@@ -6729,26 +6729,28 @@ wall{
 
 enemy{
   layer = 0,
-  x = 80,
-  y = 253,
+  x = 88,
+  y = 109,
   direction = 3,
   breed = "ct/kilwala",
+  treasure_name = "heart",
 }
 
 enemy{
   layer = 0,
   x = 376,
-  y = 437,
+  y = 445,
   direction = 3,
   breed = "ct/kilwala",
 }
 
 enemy{
   layer = 0,
-  x = 96,
-  y = 429,
+  x = 192,
+  y = 501,
   direction = 3,
   breed = "ct/runner",
+  treasure_name = "heart",
 }
 
 enemy{
@@ -6766,6 +6768,15 @@ destination{
   y = 341,
   direction = 3,
   starting_location_mode = "no",
+}
+
+enemy{
+  layer = 0,
+  x = 88,
+  y = 333,
+  direction = 3,
+  breed = "ct/kilwala",
+  treasure_name = "heart",
 }
 
 tile{

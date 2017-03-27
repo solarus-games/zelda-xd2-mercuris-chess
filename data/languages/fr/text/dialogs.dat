@@ -3186,6 +3186,20 @@ de... de... de soi.
 }
 
 dialog{
+  id = "prehistoric.doctor_wrong_place",
+  text = [[
+Hum...$0
+Nous sommes censés
+être arrivés.
+Le Tardis a pisté
+l'origine des rubis
+tueurs mais...$0
+Sommes-nous vraiment
+au bon endroit ?
+]]
+}
+
+dialog{
   id = "slot_machine.choose_bet",
   question = "1",
   text = [[

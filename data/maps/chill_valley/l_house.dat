@@ -685,6 +685,17 @@ teletransporter{
   destination = "from_l_house",
 }
 
+npc{
+  name = "l_house_guy",
+  layer = 0,
+  x = 168,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/red_hood_man",
+  behavior = "dialog#chill_valley.l_house",
+}
+
 tile{
   layer = 1,
   x = 88,

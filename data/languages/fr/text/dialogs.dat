@@ -1702,7 +1702,11 @@ de façon... impossible.
 dialog{
   id = "chill_valley.l_house",
   text = [[
-C'est l'enfer
+C'est l'enfer!
+Complètement gelé!
+
+Je comprend pas, j'ai
+le chauffage à fond...
 ]]
 }
 

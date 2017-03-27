@@ -96,6 +96,7 @@ function map:grump_finished(grump)
   escaping_after_boss = true
 
   elevator_b_sensor:set_enabled(false)
+  map:close_doors("elevator_b_door")
 
   sol.timer.start(map, 3000, function()
     sol.timer.start(map, 1000, function()

@@ -728,6 +728,7 @@ enemy{ id = "rupee_red", description = "Rupee (red)" }
 entity{ id = "delorean", description = "DeLorean" }
 entity{ id = "fire", description = "Fire" }
 entity{ id = "hookable", description = "Hookable" }
+entity{ id = "ladder", description = "Ladder" }
 entity{ id = "low_wall", description = "Low wall" }
 entity{ id = "rotating_platform", description = "Rotating Platform" }
 entity{ id = "tardis", description = "Tardis" }

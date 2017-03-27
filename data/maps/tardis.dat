@@ -5,6 +5,7 @@ properties{
   height = 240,
   min_layer = 0,
   max_layer = 2,
+  world = "dungeon_2",
   tileset = "tardis",
   music = "doctor_octoroc/i_am_the_doctor_1",
 }
@@ -361,6 +362,65 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 224,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 216,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 157,
+  width = 16,
+  height = 24,
+  direction = 0,
+  model = "ladder",
+}
+
+custom_entity{
+  layer = 0,
+  x = 184,
+  y = 157,
+  width = 16,
+  height = 24,
+  direction = 0,
+  model = "ladder",
 }
 
 tile{

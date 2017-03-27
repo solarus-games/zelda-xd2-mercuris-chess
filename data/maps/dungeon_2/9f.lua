@@ -123,10 +123,10 @@ function map:grump_finished(grump)
 
       -- Add harmless explosions and fire sometimes.
       sol.timer.start(map, 8000, function()
-        map:open_doors("boss_door")
         sol.audio.play_music("alttp/soldiers")
         game:start_dialog("dungeon_2.9f.grump_building_collapsing", function()
 
+          map:open_doors("boss_door")
           sol.timer.start(map, 250, function()
             if math.random(4) == 1 then
               sol.audio.play_sound("explosion")

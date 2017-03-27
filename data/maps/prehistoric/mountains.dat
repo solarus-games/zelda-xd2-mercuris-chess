@@ -6683,7 +6683,8 @@ teletransporter{
   y = 320,
   width = 16,
   height = 16,
-  destination_map = "prehistoric/mountains",
+  destination_map = "prehistoric/cave",
+  destination = "destination",
 }
 
 destination{

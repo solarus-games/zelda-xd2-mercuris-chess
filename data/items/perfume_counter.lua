@@ -9,6 +9,29 @@ function item:on_created()
   item:set_assignable(true)
 end
 
+-- Event called when the hero is using any item
+-- in front of an NPC related to the perfume item.
+function item:on_npc_interaction_item(npc, item_used)
+
+  if npc:get_name() == "tyrannosaurus" and
+      item_used == item then
+    npc:use_perfume()
+    return true  -- Stop the propagation of the event.
+  end
+end
+
+-- Called when the hero talks to an NPC related to
+-- the perfume item.
+function item:on_npc_interaction(npc)
+
+  if npc:get_name() ~= "tyrannosaurus" then
+    return
+  end
+
+  sol.audio.play_sound("monkey")
+end
+
+-- Event called when the hero is using this item.
 function item:on_using()
 
   sol.audio.play_sound("wrong")

@@ -787,6 +787,17 @@ wall{
   stops_projectiles = true,
 }
 
+npc{
+  name = "tyrannosaurus",
+  layer = 0,
+  x = 136,
+  y = 133,
+  direction = -1,
+  subtype = 0,
+  sprite = "npc/alttp/mad_batter_purple",
+  behavior = "item#perfume_counter",
+}
+
 tile{
   layer = 1,
   x = 0,

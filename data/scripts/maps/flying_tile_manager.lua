@@ -4,27 +4,33 @@ local flying_tile_manager = {}
 
 function flying_tile_manager:create_flying_tiles(map, prefix)
 
-  -- Starts the attack of flying tiles
+  local next_index = 1  -- Index of the next flying tile to spawn.
+
+  local function spawn_next()
+
+    map:get_entity(prefix .. "_enemy_" .. next_index):set_enabled(true)
+    map:get_entity(prefix .. "_after_" .. next_index):set_enabled(true)
+    next_index = next_index + 1
+  end
+
+  -- Start the attack of flying tiles
   -- (this function can be called when the hero enters the room of flying tiles).
   local function start_flying_tiles()
 
     local total = map:get_entities_count(prefix .. "_enemy")
-    local next_index = 1  -- Index of the next flying tile to spawn.
     local spawn_delay = 1500  -- Delay between two flying tiles.
 
     map:set_entities_enabled(prefix .. "_enemy", false)
     map:set_entities_enabled(prefix .. "_after", false)
 
-    -- Spawns a tile and schedules the next one.
+    -- Spawn a tile and schedule the next one.
+    spawn_next()
     sol.timer.start(map, spawn_delay, function()
-
-      map:get_entity(prefix .. "_enemy_" .. next_index):set_enabled(true)
-      map:get_entity(prefix .. "_after_" .. next_index):set_enabled(true)
-      next_index = next_index + 1
+      spawn_next()
       return next_index <= total
     end)
 
-    -- Plays a sound repeatedly as long as at least one tile is moving.
+    -- Play a sound repeatedly as long as at least one tile is moving.
     sol.timer.start(map, 150, function()
 
       sol.audio.play_sound("walk_on_grass")

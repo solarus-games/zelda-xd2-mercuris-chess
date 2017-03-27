@@ -6628,8 +6628,8 @@ jumper{
 destination{
   name = "destination",
   layer = 0,
-  x = 704,
-  y = 389,
+  x = 880,
+  y = 429,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

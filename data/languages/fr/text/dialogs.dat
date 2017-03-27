@@ -2518,6 +2518,17 @@ Cours !$1
 }
 
 dialog{
+  id = "dungeon_2.9f.grump_building_collapsing",
+  text = [[
+Ahhhh !$0
+Je ne peux plus
+contôler mes rubis !!!
+La tour est en train de
+s'effondrer !
+]]
+}
+
+dialog{
   id = "dungeon_2.9f.grump_eyeglass_found",
   text = [[
 C'est bon !

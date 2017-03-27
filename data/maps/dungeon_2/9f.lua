@@ -125,29 +125,30 @@ function map:grump_finished(grump)
       sol.timer.start(map, 8000, function()
         map:open_doors("boss_door")
         sol.audio.play_music("alttp/soldiers")
+        game:start_dialog("dungeon_2.9f.grump_building_collapsing", function()
 
-        sol.timer.start(map, 250, function()
-          if math.random(4) == 1 then
-            sol.audio.play_sound("explosion")
-            local x, y = hero:get_position()
-            for i = 1, 3 + math.random(5) do
-              if math.random(2) == 1 then
-                map:create_explosion({
-                  x = x + math.random(300) - 150,
-                  y = y + math.random(300) - 150,
-                  layer = 2,
-                })
-                map:create_fire({
-                  x = x + math.random(300) - 150,
-                  y = y + math.random(300) - 150,
-                  layer = 2,
-                })
+          sol.timer.start(map, 250, function()
+            if math.random(4) == 1 then
+              sol.audio.play_sound("explosion")
+              local x, y = hero:get_position()
+              for i = 1, 3 + math.random(5) do
+                if math.random(2) == 1 then
+                  map:create_explosion({
+                    x = x + math.random(300) - 150,
+                    y = y + math.random(300) - 150,
+                    layer = 2,
+                  })
+                  map:create_fire({
+                    x = x + math.random(300) - 150,
+                    y = y + math.random(300) - 150,
+                    layer = 2,
+                  })
+                end
               end
             end
-          end
-          return true
+            return true
+          end)
         end)
-
       end)
     end)
   end)

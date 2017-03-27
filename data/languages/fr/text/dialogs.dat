@@ -464,7 +464,17 @@ récupéer 3 Coeurs.
 }
 
 dialog{
-  id = "_item_description.parfum_counter.1",
+  id = "_item_description.pegasus_shoes.1",
+  icon = "13",
+  skip = "all",
+  text = [[
+Les Bottes de Pégase
+font vraiment n'imp.
+]]
+}
+
+dialog{
+  id = "_item_description.perfume_counter.1",
   icon = "49",
   skip = "all",
   text = [[
@@ -473,16 +483,6 @@ renommée, ce Kipu
 les fera toutes
 tomber comme des
 mouches !
-]]
-}
-
-dialog{
-  id = "_item_description.pegasus_shoes.1",
-  icon = "13",
-  skip = "all",
-  text = [[
-Les Bottes de Pégase
-font vraiment n'imp.
 ]]
 }
 
@@ -1239,19 +1239,6 @@ récupérer 3 Coeurs.
 }
 
 dialog{
-  id = "_treasure.parfum.1",
-  icon = "49",
-  text = [[
-On te donne le
-parfum Kipu de
-Cacaco Charnel, va
-vite le refourguer
-à quelqu'un avant de
-mourir asphyxié !
-]]
-}
-
-dialog{
   id = "_treasure.pegasus_shoes.1",
   icon = "13",
   text = [[
@@ -1261,6 +1248,19 @@ sans lacets !
 C'est dur à manier,
 mais tu peux aller
 super vite !
+]]
+}
+
+dialog{
+  id = "_treasure.perfume.1",
+  icon = "49",
+  text = [[
+Tu as trouvé le
+parfum Kipu de
+Cacaco Charnel !
+Tu vas pouvoir faire
+craquer toutes les
+filles !
 ]]
 }
 

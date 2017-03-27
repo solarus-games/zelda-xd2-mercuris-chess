@@ -23,7 +23,7 @@ local item_names = {
   "vip_card",
   "glove",
   "flippers",
-  "parfum_counter",
+  "perfume_counter",
   "bottle_3",
 }
 

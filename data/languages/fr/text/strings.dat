@@ -38,8 +38,8 @@ text{ key = "inventory.caption.item.hookshot.1", value = "Hookshot" }
 text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
 text{ key = "inventory.caption.item.mail.1", value = "Lettre pour Zelda" }
 text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Pains au chocolat" }
-text{ key = "inventory.caption.item.parfum_counter.1", value = "Parfums" }
 text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
+text{ key = "inventory.caption.item.perfume_counter.1", value = "Parfums" }
 text{ key = "inventory.caption.item.vip_card.1", value = "Carte VIP" }
 text{ key = "map.caption.dungeon_name_1", value = "Château doré" }
 text{ key = "map.caption.dungeon_name_2", value = "Tour Grump" }

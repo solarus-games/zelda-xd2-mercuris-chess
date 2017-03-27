@@ -240,7 +240,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/the_doctor",
-  behavior = "dialog#tardis.doctor_escaping_grump_tower",
 }
 
 wall{

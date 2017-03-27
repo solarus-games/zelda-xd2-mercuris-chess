@@ -209,6 +209,7 @@ function tardis_sensor:on_activated()
     return
   end
 
+  map:close_doors("tardis_door")
   tardis:disappear("entities/dungeon_2/tardis_cache_dungeon_2.png", function()
     hero:teleport("tardis")
   end)

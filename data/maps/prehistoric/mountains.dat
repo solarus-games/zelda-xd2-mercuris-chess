@@ -6046,15 +6046,6 @@ wall{
   stops_projectiles = true,
 }
 
-sensor{
-  name = "tardis_sensor",
-  layer = 0,
-  x = 192,
-  y = 101,
-  width = 16,
-  height = 16,
-}
-
 wall{
   layer = 0,
   x = 32,

@@ -1,24 +1,24 @@
--- Lua script of map prehistoric/outside.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
-function map:on_started()
+function map:on_started(destination)
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if destination == from_tardis then
+    hero:set_visible(false)
+    tardis:set_enabled(false)
+    tardis_door:set_enabled(false)
+  end
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_opening_transition_finished(destination)
 
+  if destination ~= from_tardis then
+    return
+  end
+
+  tardis:set_enabled(true)
+  tardis_door:set_enabled(true)
+  tardis:appear("entities/doctor_who/tardis_cache_prehistoric.png", function()
+    -- TODO
+  end)
 end

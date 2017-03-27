@@ -7,7 +7,9 @@ function map:on_started(destination)
     hero:set_visible(false)
     tardis:set_enabled(false)
     tardis_door:set_enabled(false)
+    doctor:set_enabled(false)
   end
+
 end
 
 function map:on_opening_transition_finished(destination)
@@ -35,6 +37,8 @@ function map:on_opening_transition_finished(destination)
             hero:unfreeze()
             jump_target_wall:set_enabled(false)
             map:set_doors_open("tardis_door", false)
+            doctor:set_enabled(true)
+            game:set_pause_allowed(true)
           end)
         end)
       end)

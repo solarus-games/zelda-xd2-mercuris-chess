@@ -3186,6 +3186,13 @@ de... de... de soi.
 }
 
 dialog{
+  id = "prehistoric.doctor_are_you_okay",
+  text = [[
+Rien de cassé ?
+]]
+}
+
+dialog{
   id = "prehistoric.doctor_tardis_arrived",
   text = [[
 Hum...$0

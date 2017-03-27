@@ -6798,6 +6798,17 @@ enemy{
   treasure_name = "heart",
 }
 
+npc{
+  name = "doctor",
+  layer = 0,
+  x = 160,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/the_doctor",
+  behavior = "dialog#prehistoric.doctor_are_you_okay",
+}
+
 tile{
   layer = 1,
   x = 504,

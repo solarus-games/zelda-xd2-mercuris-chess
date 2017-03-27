@@ -56,7 +56,7 @@ end
 function item:on_obtained(variant, savegame_variable)
 
   -- Give the magic bar if necessary.
-  local magic_bar = self:get_game():get_item("magic_bar")
+  local magic_bar = game:get_item("magic_bar")
   if not magic_bar:has_variant() then
     magic_bar:set_variant(1)
   end

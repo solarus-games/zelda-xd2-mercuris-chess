@@ -57,4 +57,5 @@ Pieces of heart:
 2) 6F, 8 queens puzzle: dungeon_2_6f_8_queens_puzzle_piece_of_heart
 3) 4F, east room after weak wall: dungeon_2_4f_e_piece_of_heart
 4) 7F, chest in the statues room after elevator B: dungeon_2_7f_se_piece_of_heart_chest
+5) 7F, Morphy's Opera checkmate
 

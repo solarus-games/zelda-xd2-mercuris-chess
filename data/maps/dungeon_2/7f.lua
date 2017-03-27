@@ -9,6 +9,8 @@ door_manager:manage_map(map)
 local elevator_manager = require("scripts/maps/elevator_manager")
 elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 
+local opera_puzzle_finished = false
+
 function map:on_started(destination)
 
   map:set_doors_open("nw_room_door")
@@ -45,3 +47,40 @@ function close_loud_nw_room_door_sensor:on_activated()
   getmetatable(self).on_activated(self)
   map:set_entities_enabled("nw_room_enemy", true)
 end
+
+local function opera_puzzle_wrong_piece_on_moved(piece)
+  opera_puzzle_finished = true
+end
+
+local function opera_puzzle_rook_on_moved(rook)
+  
+  if opera_puzzle_finished then
+    return
+  end
+
+  if game:get_value("opera_puzzle_piece_of_heart") then
+    -- Already found.
+    return
+  end
+
+  if rook:overlaps(opera_puzzle_placeholder, "containing") then
+    sol.audio.play_sound("secret")
+    map:create_pickable({
+      x = 624,
+      y = 77,
+      layer = 0,
+      treasure_name = "piece_of_heart",
+      treasure_variant = 1,
+      treasure_savegame_variable = "opera_puzzle_piece_of_heart"
+    })
+    opera_puzzle_finished = true
+  end
+end
+
+for pawn in map:get_entities("pawn") do
+  pawn.on_moved = opera_puzzle_wrong_piece_on_moved
+end
+
+bishop_1.on_moved = opera_puzzle_wrong_piece_on_moved
+king.on_moved = opera_puzzle_wrong_piece_on_moved
+rook_1.on_moved = opera_puzzle_rook_on_moved

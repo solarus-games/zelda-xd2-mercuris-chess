@@ -2174,6 +2174,7 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
+  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2186,6 +2187,7 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
+  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2198,6 +2200,7 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
+  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
 }
@@ -2210,8 +2213,19 @@ wall{
   height = 16,
   stops_hero = true,
   stops_npcs = true,
+  stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+chest{
+  name = "exit_door_key_chest",
+  layer = -1,
+  x = 960,
+  y = 213,
+  treasure_name = "boss_key",
+  treasure_savegame_variable = "dungeon_1_boss_key",
+  sprite = "entities/chest",
 }
 
 switch{
@@ -8362,15 +8376,6 @@ tile{
   pattern = "480",
 }
 
-tile{
-  layer = 0,
-  x = 88,
-  y = 160,
-  width = 24,
-  height = 24,
-  pattern = "537",
-}
-
 chest{
   layer = 0,
   x = 160,
@@ -8390,6 +8395,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8402,6 +8408,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8414,6 +8421,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8426,6 +8434,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8438,6 +8447,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8450,6 +8460,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8462,6 +8473,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8474,6 +8486,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8486,6 +8499,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8498,6 +8512,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8510,6 +8525,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8522,6 +8538,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8534,6 +8551,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8546,6 +8564,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8558,6 +8577,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -8590,6 +8610,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -8622,6 +8643,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8634,6 +8656,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -8656,6 +8679,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -8668,6 +8692,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -8690,6 +8715,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -8724,6 +8750,19 @@ jumper{
 
 wall{
   layer = 0,
+  x = 1776,
+  y = 56,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
   x = 1760,
   y = 136,
   width = 8,
@@ -8732,6 +8771,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 wall{
@@ -9247,7 +9287,17 @@ jumper{
   layer = 0,
   x = 104,
   y = 352,
-  width = 40,
+  width = 56,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 152,
+  y = 352,
+  width = 16,
   height = 8,
   direction = 6,
   jump_length = 40,
@@ -9588,6 +9638,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -9706,6 +9757,7 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+  stops_projectiles = true,
 }
 
 door{
@@ -9727,6 +9779,15 @@ destructible{
   y = 189,
   sprite = "entities/dungeon_1/iron_ball",
   damage_on_enemies = 2,
+}
+
+sensor{
+  name = "exit_door_sensor",
+  layer = 0,
+  x = 888,
+  y = 365,
+  width = 160,
+  height = 16,
 }
 
 wall{

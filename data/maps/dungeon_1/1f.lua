@@ -42,6 +42,10 @@ end
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
   map:set_doors_open("boss_door")
+  map:get_entity("exit_door_key_chest"):set_enabled(false)
+  if not game:get_value("dungeon_1_exit_door_closed") == true then
+    map:set_doors_open("exit_door")
+  end
 end
 
 -- Event called after the opening transition effect of the map,
@@ -49,6 +53,14 @@ end
 function map:on_opening_transition_finished(destination)
   if destination == from_outside then
     game:start_dialog("dungeon_1.welcome")
+  end
+end
+
+function exit_door_sensor:on_activated()
+  if not game:get_value("dungeon_1_exit_door_closed") == true then
+    map:close_doors("exit_door")
+    sol.audio.play_sound("sm64_bowser_message")
+    game:set_value("dungeon_1_exit_door_closed", true)
   end
 end
 

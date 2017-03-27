@@ -3236,6 +3236,14 @@ préhistoire.
 }
 
 dialog{
+  id = "prehistoric.doctor_lets_go_back",
+  text = [[
+Retournons vers le
+futur !
+]]
+}
+
+dialog{
   id = "prehistoric.doctor_tardis_arrived",
   text = [[
 Hum...$0
@@ -3271,7 +3279,7 @@ de M. Grump et qui a
 donc causé l'invasion
 de rubis.
 Mais il a l'air très
-agité...
+perturbé...
 ]]
 }
 
@@ -3304,8 +3312,8 @@ relaxant sur lui.
 Espérons que cela
 suffise pour annihiler
 le maléfice des rubis !
-Retournons vite à ton
-époque !
+Repartons vite à ton
+époque.
 ]]
 }
 

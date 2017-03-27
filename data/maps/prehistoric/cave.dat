@@ -19,6 +19,26 @@ tile{
   pattern = "1",
 }
 
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 189,
+  width = 16,
+  height = 48,
+  direction = 0,
+  model = "ladder",
+}
+
+custom_entity{
+  layer = 0,
+  x = 136,
+  y = 269,
+  width = 16,
+  height = 48,
+  direction = 0,
+  model = "ladder",
+}
+
 wall{
   layer = 0,
   x = 144,
@@ -832,7 +852,7 @@ npc{
   x = 136,
   y = 133,
   direction = -1,
-  subtype = 0,
+  subtype = 1,
   sprite = "npc/alttp/mad_batter_purple",
   behavior = "item#perfume_counter",
 }

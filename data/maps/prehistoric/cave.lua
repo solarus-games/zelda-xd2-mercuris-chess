@@ -28,6 +28,16 @@ function tyrannosaurus_sensor:on_activated()
     movement:start(doctor, function()
       hero:set_direction(1)
       doctor:get_sprite():set_direction(1)
+
+      local timer = sol.timer.start(map, 4500, function()
+        doctor:get_sprite():set_direction(0)
+      end)
+      timer:set_suspended_with_map(false)
+      timer = sol.timer.start(map, 9000, function()
+        doctor:get_sprite():set_direction(1)
+      end)
+      timer:set_suspended_with_map(false)
+
       game:start_dialog("prehistoric.doctor_tyrannosaurus", function()
         hero:unfreeze()
         doctor:random_walk()
@@ -84,12 +94,18 @@ function tardis_sensor:on_activated()
     return
   end
 
-  hero:freeze()
-  hero:set_visible(false)
-  doctor:set_visible(false)
-  tardis:set_enabled(true)
-  tardis_door:set_enabled(true)
-  tardis:appear("entities/doctor_who/tardis_cache_prehistoric_cave.png", function()
-    hero:teleport("sunset_creek", "from_tardis")
+  game:start_dialog("prehistoric.doctor_lets_go_back", function()
+    hero:freeze()
+    hero:set_visible(false)
+    tardis:set_enabled(true)
+    tardis_door:set_enabled(true)
+
+    sol.timer.start(map, 2000, function()
+      doctor:set_visible(false)
+    end)
+
+    tardis:appear("entities/doctor_who/tardis_cache_prehistoric_cave.png", function()
+      hero:teleport("sunset_creek", "from_tardis")
+    end)
   end)
 end

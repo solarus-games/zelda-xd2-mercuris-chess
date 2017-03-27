@@ -3209,8 +3209,17 @@ de... de... de soi.
 
 dialog{
   id = "prehistoric.doctor_are_you_okay",
+  skip = "all",
   text = [[
-Rien de cassé ?
+Rien de cassé ?$0
+Le Tardis indique que
+nous sommes proches de
+l'origine des rubis
+tueurs.
+
+Mais attention à ne pas
+changer le cours de la
+préhistoire.
 ]]
 }
 
@@ -3225,6 +3234,64 @@ l'origine des rubis
 tueurs mais...$0
 Sommes-nous vraiment
 au bon endroit ?
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus",
+  text = [[
+C'est impossible !$0
+
+
+Le Tyrannosaure aux
+Oeufs d'Or est censé
+être une légende !$0
+Ohhh...$0 oh... mais
+tout s'explique à
+présent.
+Brillant !$0
+Tout ceci est
+absolument brillant !
+Cela ne peut être que
+lui qui a engendré la
+poule aux oeufs d'or
+de M. Grump et qui a
+créé l'invasion de
+rubis.
+Mais il a l'air très
+agité...
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_pissed_off",
+  text = [[
+Le Tyrannosaure aux
+Oeufs d'Or est très
+agité.
+Tu n'aurais pas
+quelque chose sous la
+main pour le calmer ?
+J'ai bien mon tournevis
+sonique, mais cela ne
+ferait que l'énerver
+encore plus !
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_solved",
+  text = [[
+Fantastique !$0
+
+
+On dirait que ce drôle
+de parfum a un effet
+relaxant sur lui.
+Espérons que cela
+suffise pour annihiler
+le maléfice des rubis !
+Retournons 
 ]]
 }
 

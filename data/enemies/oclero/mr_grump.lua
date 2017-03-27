@@ -290,7 +290,7 @@ function enemy:start_state_finished()
     sol.timer.start(enemy, 150, function()
 
       num_explosions = num_explosions + 1
-      local num_rupees = math.min(15, num_explosions)
+      local num_rupees = math.min(10, num_explosions)
       for i = 1, num_rupees do
         local n = math.random(3)
         local sprite_id = "enemies/rupee_green"
@@ -311,9 +311,9 @@ function enemy:start_state_finished()
         })
         local movement = sol.movement.create("straight")
         movement:set_ignore_obstacles(true)
-        movement:set_max_distance(960)
+        movement:set_max_distance(832)
         movement:set_angle(math.random() * 2 * math.pi)
-        movement:set_speed(320)
+        movement:set_speed(256)
         movement:start(rupee, function()
           rupee:remove()
         end)

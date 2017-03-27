@@ -23,7 +23,7 @@ function item:on_npc_interaction_item(npc, item_used)
   if npc:get_name() == "tigriss_npc_docile" and
       item_used == item then
     npc:use_food()
-    return true
+    return true  -- Stop the propagation of the event.
   end
 end
 

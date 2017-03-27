@@ -21,7 +21,7 @@ function map:on_started()
   map:set_doors_open("miniboss_door")
   if game:get_value("dungeon_1_miniboss_clear") then
     for enemy in map:get_entities("miniboss_enemy") do
-      enemy:destroy()
+      enemy:remove()
     end
   end
 end

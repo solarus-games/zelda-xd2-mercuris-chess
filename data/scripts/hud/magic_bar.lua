@@ -18,13 +18,11 @@ function magic_bar_builder:new(game, config)
   -- and updates it if necessary.
   function magic_bar:check()
 
-    local need_rebuild = false
     local max_magic = game:get_max_magic()
     local magic = game:get_magic()
 
     -- Maximum magic.
     if max_magic ~= magic_bar.max_magic_displayed then
-      need_rebuild = true
       if magic_bar.magic_displayed > max_magic then
         magic_bar.magic_displayed = max_magic
       end
@@ -36,7 +34,6 @@ function magic_bar_builder:new(game, config)
 
     -- Current magic.
     if magic ~= magic_bar.magic_displayed then
-      need_rebuild = true
       local increment
       if magic < magic_bar.magic_displayed then
         increment = -1
@@ -53,26 +50,10 @@ function magic_bar_builder:new(game, config)
       end
     end
 
-    -- Redraw the surface only if something has changed.
-    if need_rebuild then
-      magic_bar:rebuild_surface()
-    end
-
     -- Schedule the next check.
     sol.timer.start(game, 20, function()
       magic_bar:check()
     end)
-  end
-
-  function magic_bar:rebuild_surface()
-
-    magic_bar.surface:clear()
-
-    -- Max magic.
-    magic_bar.container_sprite:draw(self.surface)
-
-    -- Current magic.
-    magic_bar.magic_bar_img:draw_region(46, 24, 2 + magic_bar.magic_displayed, 8, magic_bar.surface)
   end
 
   function magic_bar:get_surface()
@@ -92,12 +73,15 @@ function magic_bar_builder:new(game, config)
         y = height + y
       end
 
-      magic_bar.surface:draw(dst_surface, x, y)
+      -- Max magic.
+      magic_bar.container_sprite:draw(dst_surface, x, y)
+
+      -- Current magic.
+      magic_bar.magic_bar_img:draw_region(46, 24, 2 + magic_bar.magic_displayed, 8, dst_surface, x, y)
     end
   end
 
   magic_bar:check()
-  magic_bar:rebuild_surface()
 
   return magic_bar
 end

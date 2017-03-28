@@ -442,6 +442,22 @@ compteur magique !
 }
 
 dialog{
+  id = "_item_description.lens_of_truth.1",
+  icon = "14",
+  skip = "all",
+  text = [[
+Utilise le Monocle
+des Vérités
+Alternatives
+pour y voir plus
+clair et démêler le
+vrai du faux.
+Mais surveille ton
+compteur magique !
+]]
+}
+
+dialog{
   id = "_item_description.mail.1",
   icon = "38",
   skip = "all",
@@ -1176,6 +1192,20 @@ oui je trouvais
 que ça manquait
 un peu de lumière
 ici.
+]]
+}
+
+dialog{
+  id = "_treasure.lens_of_truth.1",
+  icon = "14",
+  next = "warning_magic",
+  text = [[
+Tu as trouvé le
+Monocle des Vérités
+Alternatives !$0
+Utilise-le pour
+tenter de démêler le
+vrai du faux.
 ]]
 }
 

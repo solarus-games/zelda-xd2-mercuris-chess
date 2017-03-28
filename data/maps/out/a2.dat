@@ -12,8 +12,8 @@ properties{
 
 tile{
   layer = 0,
-  x = 16,
-  y = 0,
+  x = 8,
+  y = 8,
   width = 1016,
   height = 1016,
   pattern = "223",
@@ -5365,6 +5365,33 @@ tile{
   pattern = "6046",
 }
 
+tile{
+  layer = 0,
+  x = 168,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "101",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 248,
+  width = 8,
+  height = 8,
+  pattern = "100",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 240,
+  width = 8,
+  height = 8,
+  pattern = "99",
+}
+
 teletransporter{
   name = "teletransporter_2",
   layer = 0,
@@ -7117,8 +7144,26 @@ tile{
 
 tile{
   layer = 1,
-  x = 800,
+  x = 792,
   y = 464,
+  width = 8,
+  height = 8,
+  pattern = "6294",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 472,
+  width = 8,
+  height = 8,
+  pattern = "6294",
+}
+
+tile{
+  layer = 1,
+  x = 792,
+  y = 456,
   width = 8,
   height = 8,
   pattern = "6294",
@@ -7135,26 +7180,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 800,
-  y = 456,
-  width = 8,
-  height = 8,
-  pattern = "6294",
-}
-
-tile{
-  layer = 1,
-  x = 800,
-  y = 472,
-  width = 8,
-  height = 8,
-  pattern = "6294",
-}
-
-tile{
-  layer = 1,
-  x = 432,
-  y = 376,
+  x = 416,
+  y = 360,
   width = 8,
   height = 8,
   pattern = "5980",
@@ -7162,8 +7189,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 424,
-  y = 376,
+  x = 416,
+  y = 368,
   width = 8,
   height = 8,
   pattern = "5980",
@@ -7180,8 +7207,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 408,
-  y = 376,
+  x = 416,
+  y = 384,
   width = 8,
   height = 8,
   pattern = "5980",
@@ -7225,8 +7252,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 200,
-  y = 72,
+  x = 216,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "5980",
@@ -7235,7 +7262,7 @@ tile{
 tile{
   layer = 1,
   x = 208,
-  y = 72,
+  y = 96,
   width = 8,
   height = 8,
   pattern = "5980",
@@ -7244,7 +7271,7 @@ tile{
 tile{
   layer = 1,
   x = 208,
-  y = 80,
+  y = 104,
   width = 8,
   height = 8,
   pattern = "5980",
@@ -7253,7 +7280,7 @@ tile{
 tile{
   layer = 1,
   x = 216,
-  y = 80,
+  y = 88,
   width = 8,
   height = 8,
   pattern = "5980",

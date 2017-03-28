@@ -489,37 +489,11 @@ door{
 npc{
   layer = 0,
   x = 304,
-  y = 141,
+  y = 133,
   direction = 3,
   subtype = 1,
-  sprite = "entities/sign",
+  sprite = "entities/hint_stone",
   behavior = "dialog#chill_valley.bath.employee_only",
-}
-
-wall{
-  layer = 0,
-  x = 328,
-  y = 168,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 328,
-  y = 192,
-  width = 32,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
 }
 
 jumper{
@@ -655,20 +629,29 @@ custom_entity{
 
 tile{
   layer = 1,
-  x = 72,
-  y = 16,
-  width = 32,
-  height = 8,
-  pattern = "door_top.1-1",
-}
-
-tile{
-  layer = 1,
   x = 192,
   y = 112,
   width = 32,
   height = 8,
-  pattern = "door_top.1-1",
+  pattern = "door_top.stairs.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 16,
+  width = 32,
+  height = 8,
+  pattern = "door_top.stairs.1-2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "door_top.stairs_up.2-1",
 }
 
 tile{
@@ -686,7 +669,7 @@ tile{
   y = 112,
   width = 32,
   height = 8,
-  pattern = "door_top.1-1",
+  pattern = "door_top.closed.1-5",
 }
 
 tile{
@@ -732,14 +715,5 @@ tile{
   width = 352,
   height = 96,
   pattern = "882",
-}
-
-tile{
-  layer = 2,
-  x = 80,
-  y = 16,
-  width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.2-1",
 }
 

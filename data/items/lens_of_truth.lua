@@ -46,6 +46,28 @@ function item:set_lens_active(active)
   end
 end
 
+-- Shows an entity only when the lens is active.
+function item:update_invisible_entity(entity)
+
+  if item:is_lens_active() and not entity:is_visible() then
+    entity:set_visible(true)
+  elseif not item:is_lens_active() and entity:is_visible() then
+    entity:set_visible(false)
+  end
+
+end
+
+-- Shows an entity only when the lens is inactive.
+function item:update_fake_entity(entity)
+
+  if item:is_lens_active() and entity:is_visible() then
+    entity:set_visible(false)
+  elseif not item:is_lens_active() and not entity:is_visible() then
+    entity:set_visible(true)
+  end
+
+end
+
 function item:on_created()
 
   item:set_savegame_variable("possession_lens_of_truth")

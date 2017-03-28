@@ -2,7 +2,11 @@
 -- Methods: is_lit(), set_lit()
 -- Events: on_lit(), on_unlit()
 -- The initial state depends on the direction: unlit if direction 0, lit otherwise.
+--
+-- Torches whose name starts with "timed_torch" have a limited light duration.
+-- You can also use torch:set_duration() for more control.
 local torch = ...
+local map = torch:get_map()
 local sprite
 
 function torch:on_created()
@@ -15,14 +19,14 @@ function torch:on_created()
   end
   sprite = torch:get_sprite()
 
-  local lit
-
-  if lit == nil then
-    lit = torch:get_direction() ~= 0
-  end
+  local lit = torch:get_direction() ~= 0
 
   sprite:set_direction(0)
   torch:set_lit(lit)
+
+  if torch:get_name():match("^timed_torch") then
+    torch:set_duration(10000)
+  end
 end
 
 function torch:is_lit()
@@ -33,10 +37,27 @@ function torch:set_lit(lit)
 
   if lit then
     sprite:set_animation("lit")
+    if torch.duration ~= nil then
+      sol.timer.start(torch, torch.duration, function()
+        torch:set_lit(false)
+      end)
+    end
   else
     sprite:set_animation("unlit")
   end
 
+  if map.torch_changed ~= nil then
+    map:torch_changed(torch, lit)
+  end
+end
+
+function torch:get_duration()
+  return torch.duration
+end
+
+-- Sets the light duration. nil means unlimited.
+function torch:set_duration(duration)
+  torch.duration = duration
 end
 
 local function on_collision(torch, other, torch_sprite, other_sprite)

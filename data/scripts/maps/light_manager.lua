@@ -26,13 +26,19 @@ local black = {0, 0, 0}
 
 local map_meta = sol.main.get_metatable("map")
 
-map_meta.light = 1
-
 local function dark_map_on_draw(map, dst_surface)
 
-  if map.light ~= 0 then
+  if map:get_light() ~= 0 then
     -- Normal light: nothing special to do.
     return
+  end
+
+  -- Map normally dark but maybe there are torches.
+  for torch in pairs(map.lit_torches) do
+    if torch:exists() and
+        torch:is_enabled() then
+      return
+    end
   end
 
   -- Dark room.
@@ -70,7 +76,7 @@ end
 
 function map_meta:get_light()
 
-  return self.light
+  return self.light or 1
 end
 
 function map_meta:set_light(light)
@@ -83,6 +89,19 @@ function map_meta:set_light(light)
   end
 
   self:register_event("on_draw", dark_map_on_draw)
+end
+
+-- Function called by the torch script when a torch state has changed.
+function map_meta:torch_changed(torch)
+
+  self.lit_torches = self.lit_torches or {}
+
+  local lit = torch:is_lit()
+  if lit then
+    self.lit_torches[torch] = true
+  else
+    self.lit_torches[torch] = nil
+  end
 end
 
 return light_manager

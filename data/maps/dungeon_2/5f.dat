@@ -7043,8 +7043,8 @@ wall{
 destination{
   name = "destination",
   layer = 0,
-  x = 384,
-  y = 605,
+  x = 272,
+  y = 413,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -7316,6 +7316,7 @@ sensor{
 }
 
 custom_entity{
+  name = "timed_torch_1",
   layer = 0,
   x = 728,
   y = 557,
@@ -7327,6 +7328,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "timed_torch_3",
   layer = 0,
   x = 728,
   y = 653,
@@ -7338,6 +7340,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "timed_torch_2",
   layer = 0,
   x = 872,
   y = 557,
@@ -7349,28 +7352,7 @@ custom_entity{
 }
 
 custom_entity{
-  layer = 0,
-  x = 752,
-  y = 421,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
-  layer = 0,
-  x = 752,
-  y = 309,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "entities/torch",
-  model = "torch",
-}
-
-custom_entity{
+  name = "timed_torch_4",
   layer = 0,
   x = 440,
   y = 381,
@@ -7382,6 +7364,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "timed_torch_5",
   layer = 0,
   x = 520,
   y = 381,

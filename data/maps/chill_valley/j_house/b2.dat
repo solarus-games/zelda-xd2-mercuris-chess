@@ -478,6 +478,141 @@ tile{
   pattern = "water.transparent",
 }
 
+tile{
+  layer = 0,
+  x = 360,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.1.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 112,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.1.top",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.1.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 112,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.1-5",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.1.top",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 168,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-5",
+}
+
+tile{
+  layer = 0,
+  x = 352,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 432,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "wall_decor.2-5",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.2.top",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 232,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.2.top",
+}
+
+tile{
+  layer = 0,
+  x = 488,
+  y = 176,
+  width = 8,
+  height = 16,
+  pattern = "waterfall.4.top",
+}
+
+tile{
+  layer = 0,
+  x = 480,
+  y = 176,
+  width = 8,
+  height = 16,
+  pattern = "waterfall.4.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.2.bottom",
+}
+
+tile{
+  layer = 0,
+  x = 440,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "waterfall.2.bottom",
+}
+
 door{
   layer = 0,
   x = 272,

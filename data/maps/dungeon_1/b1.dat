@@ -1011,7 +1011,7 @@ tile{
   layer = 1,
   x = 40,
   y = 136,
-  width = 80,
+  width = 64,
   height = 8,
   pattern = "door_cache.1-6",
 }

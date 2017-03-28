@@ -46,6 +46,9 @@ function map:on_started()
   if not game:get_value("dungeon_1_exit_door_closed") == true then
     map:set_doors_open("exit_door")
   end
+
+  library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.
+  west_fake_door:get_sprite():set_xy(0, 16)
 end
 
 -- Event called after the opening transition effect of the map,

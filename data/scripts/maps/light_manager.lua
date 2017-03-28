@@ -82,7 +82,7 @@ function map_meta:set_light(light)
     return
   end
 
-  map:register_event("on_draw", dark_map_on_draw)
+  self:register_event("on_draw", dark_map_on_draw)
 end
 
 return light_manager

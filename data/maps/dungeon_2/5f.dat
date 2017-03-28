@@ -7044,7 +7044,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 384,
-  y = 589,
+  y = 605,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

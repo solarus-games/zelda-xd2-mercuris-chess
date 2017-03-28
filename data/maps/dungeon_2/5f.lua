@@ -15,12 +15,46 @@ cannonball_manager:create_cannons(map, "cannon_")
 local ice_knights_targets = {}
 local ice_knights = {}
 
-function map:on_started()
+function map:on_started(destination)
+
+  if destination == from_6f_s or destination == from_4f_e then
+    -- Dark part of the floor.
+    map:set_light(0)
+  end
 
   if not ice_knights_puzzle_chest:is_open() then
     ice_knights_puzzle_chest:set_enabled(false)
   end
 
+end
+
+function auto_separator_3:on_activating(direction4)
+
+  local x, y = hero:get_position()
+  if direction4 == 0 and y > 240 then
+    map:set_light(0)
+  end
+end
+
+function auto_separator_3:on_activated(direction4)
+
+  if direction4 ~= 0 then
+    map:set_light(1)
+  end
+end
+
+function auto_separator_1:on_activating(direction4)
+
+  if direction4 == 3 then
+    map:set_light(0)
+  end
+end
+
+function auto_separator_1:on_activated(direction4)
+
+  if direction4 ~= 3 then
+    map:set_light(1)
+  end
 end
 
 local function check_ice_knight(block)

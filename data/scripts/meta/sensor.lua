@@ -76,6 +76,20 @@ function sensor_meta:on_activated()
     return
   end
 
+  -- Sensors named "start_dark_sensor" put the map in the dark.
+  local dark_prefix = name:match("^start_dark_sensor")
+  if dark_prefix ~= nil then
+    map:set_light(0)
+    return
+  end
+
+  -- Sensors named "stop_dark_sensor" put back the map in the light.
+  local dark_prefix = name:match("^stop_dark_sensor")
+  if dark_prefix ~= nil then
+    map:set_light(1)
+    return
+  end
+
 end
 
 function sensor_meta:on_activated_repeat()

@@ -5591,17 +5591,6 @@ tile{
   pattern = "barrier_big.2-1",
 }
 
-dynamic_tile{
-  name = "lens_invisible_tile_60",
-  layer = 0,
-  x = 1512,
-  y = 624,
-  pattern = "floor.cracked.5-1",
-  width = 16,
-  height = 16,
-  enabled_at_start = true,
-}
-
 stairs{
   layer = 0,
   x = 736,
@@ -5822,7 +5811,7 @@ block{
   x = 1512,
   y = 637,
   sprite = "entities/block",
-  pushable = true,
+  pushable = false,
   pullable = true,
   maximum_moves = 2,
 }
@@ -6969,14 +6958,15 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
-custom_entity{
+dynamic_tile{
+  name = "invisible_tile_1",
   layer = 0,
-  x = 1512,
-  y = 637,
+  x = 1504,
+  y = 624,
+  pattern = "floor.cracked.5-1",
   width = 16,
   height = 16,
-  direction = 0,
-  model = "traversable",
+  enabled_at_start = true,
 }
 
 tile{

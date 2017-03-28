@@ -24,7 +24,8 @@ function torch:on_created()
   sprite:set_direction(0)
   torch:set_lit(lit)
 
-  if torch:get_name():match("^timed_torch") then
+  local name = torch:get_name()
+  if name ~= nil and name:match("^timed_torch") then
     torch:set_duration(10000)
   end
 end

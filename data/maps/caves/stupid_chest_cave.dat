@@ -3,11 +3,11 @@ properties{
   y = 0,
   width = 400,
   height = 240,
-  world = "inside_world",
   min_layer = 0,
   max_layer = 2,
+  world = "inside_world",
   tileset = "cave_legacy",
-  music = "cave",
+  music = "alttp/cave",
 }
 
 tile{
@@ -16,7 +16,7 @@ tile{
   y = 200,
   width = 112,
   height = 24,
-  pattern = 52,
+  pattern = "52",
 }
 
 tile{
@@ -25,7 +25,7 @@ tile{
   y = 200,
   width = 24,
   height = 24,
-  pattern = 47,
+  pattern = "47",
 }
 
 tile{
@@ -34,7 +34,7 @@ tile{
   y = 40,
   width = 24,
   height = 160,
-  pattern = 51,
+  pattern = "51",
 }
 
 tile{
@@ -43,7 +43,7 @@ tile{
   y = 16,
   width = 24,
   height = 24,
-  pattern = 45,
+  pattern = "45",
 }
 
 tile{
@@ -52,7 +52,7 @@ tile{
   y = 16,
   width = 144,
   height = 24,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -61,7 +61,7 @@ tile{
   y = 16,
   width = 24,
   height = 24,
-  pattern = 46,
+  pattern = "46",
 }
 
 tile{
@@ -70,7 +70,7 @@ tile{
   y = 40,
   width = 24,
   height = 160,
-  pattern = 50,
+  pattern = "50",
 }
 
 tile{
@@ -79,7 +79,7 @@ tile{
   y = 200,
   width = 24,
   height = 24,
-  pattern = 48,
+  pattern = "48",
 }
 
 tile{
@@ -88,7 +88,7 @@ tile{
   y = 40,
   width = 8,
   height = 8,
-  pattern = 14,
+  pattern = "14",
 }
 
 tile{
@@ -97,7 +97,7 @@ tile{
   y = 40,
   width = 128,
   height = 8,
-  pattern = 179,
+  pattern = "179",
 }
 
 tile{
@@ -106,7 +106,7 @@ tile{
   y = 40,
   width = 8,
   height = 8,
-  pattern = 15,
+  pattern = "15",
 }
 
 tile{
@@ -115,7 +115,7 @@ tile{
   y = 48,
   width = 8,
   height = 144,
-  pattern = 182,
+  pattern = "182",
 }
 
 tile{
@@ -124,7 +124,7 @@ tile{
   y = 192,
   width = 8,
   height = 8,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -133,7 +133,7 @@ tile{
   y = 192,
   width = 128,
   height = 8,
-  pattern = 180,
+  pattern = "180",
 }
 
 tile{
@@ -142,7 +142,7 @@ tile{
   y = 192,
   width = 8,
   height = 8,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -151,7 +151,7 @@ tile{
   y = 48,
   width = 8,
   height = 144,
-  pattern = 181,
+  pattern = "181",
 }
 
 tile{
@@ -160,7 +160,7 @@ tile{
   y = 48,
   width = 128,
   height = 144,
-  pattern = 2,
+  pattern = "2",
 }
 
 tile{
@@ -169,7 +169,7 @@ tile{
   y = 16,
   width = 24,
   height = 24,
-  pattern = 46,
+  pattern = "46",
 }
 
 tile{
@@ -178,7 +178,7 @@ tile{
   y = 40,
   width = 24,
   height = 160,
-  pattern = 50,
+  pattern = "50",
 }
 
 tile{
@@ -187,7 +187,7 @@ tile{
   y = 200,
   width = 24,
   height = 24,
-  pattern = 48,
+  pattern = "48",
 }
 
 tile{
@@ -196,7 +196,7 @@ tile{
   y = 40,
   width = 24,
   height = 160,
-  pattern = 51,
+  pattern = "51",
 }
 
 tile{
@@ -205,7 +205,7 @@ tile{
   y = 200,
   width = 24,
   height = 24,
-  pattern = 47,
+  pattern = "47",
 }
 
 tile{
@@ -214,7 +214,7 @@ tile{
   y = 200,
   width = 144,
   height = 24,
-  pattern = 52,
+  pattern = "52",
 }
 
 tile{
@@ -223,7 +223,7 @@ tile{
   y = 192,
   width = 8,
   height = 8,
-  pattern = 17,
+  pattern = "17",
 }
 
 tile{
@@ -232,7 +232,7 @@ tile{
   y = 48,
   width = 8,
   height = 144,
-  pattern = 182,
+  pattern = "182",
 }
 
 tile{
@@ -241,7 +241,7 @@ tile{
   y = 40,
   width = 8,
   height = 8,
-  pattern = 15,
+  pattern = "15",
 }
 
 tile{
@@ -250,7 +250,7 @@ tile{
   y = 16,
   width = 24,
   height = 24,
-  pattern = 45,
+  pattern = "45",
 }
 
 tile{
@@ -259,7 +259,7 @@ tile{
   y = 16,
   width = 112,
   height = 24,
-  pattern = 49,
+  pattern = "49",
 }
 
 tile{
@@ -268,7 +268,7 @@ tile{
   y = 192,
   width = 96,
   height = 8,
-  pattern = 180,
+  pattern = "180",
 }
 
 tile{
@@ -277,7 +277,7 @@ tile{
   y = 192,
   width = 8,
   height = 8,
-  pattern = 16,
+  pattern = "16",
 }
 
 tile{
@@ -286,7 +286,7 @@ tile{
   y = 48,
   width = 8,
   height = 144,
-  pattern = 181,
+  pattern = "181",
 }
 
 tile{
@@ -295,7 +295,7 @@ tile{
   y = 40,
   width = 8,
   height = 8,
-  pattern = 14,
+  pattern = "14",
 }
 
 tile{
@@ -304,7 +304,7 @@ tile{
   y = 40,
   width = 96,
   height = 8,
-  pattern = 179,
+  pattern = "179",
 }
 
 tile{
@@ -313,7 +313,7 @@ tile{
   y = 48,
   width = 96,
   height = 144,
-  pattern = 2,
+  pattern = "2",
 }
 
 tile{
@@ -322,7 +322,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 296,
+  pattern = "296",
 }
 
 tile{
@@ -331,7 +331,7 @@ tile{
   y = 112,
   width = 16,
   height = 16,
-  pattern = 295,
+  pattern = "295",
 }
 
 tile{
@@ -340,7 +340,7 @@ tile{
   y = 112,
   width = 32,
   height = 16,
-  pattern = 2,
+  pattern = "2",
 }
 
 tile{
@@ -349,7 +349,7 @@ tile{
   y = 104,
   width = 16,
   height = 8,
-  pattern = 69,
+  pattern = "69",
 }
 
 tile{
@@ -358,7 +358,7 @@ tile{
   y = 128,
   width = 16,
   height = 8,
-  pattern = 69,
+  pattern = "69",
 }
 
 tile{
@@ -367,7 +367,7 @@ tile{
   y = 200,
   width = 16,
   height = 32,
-  pattern = 2,
+  pattern = "2",
 }
 
 tile{
@@ -376,7 +376,7 @@ tile{
   y = 224,
   width = 8,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -385,7 +385,7 @@ tile{
   y = 240,
   width = 16,
   height = 8,
-  pattern = 70,
+  pattern = "70",
 }
 
 tile{
@@ -394,7 +394,7 @@ tile{
   y = 224,
   width = 8,
   height = 16,
-  pattern = 71,
+  pattern = "71",
 }
 
 tile{
@@ -403,7 +403,7 @@ tile{
   y = 200,
   width = 16,
   height = 16,
-  pattern = 294,
+  pattern = "294",
 }
 
 tile{
@@ -412,7 +412,7 @@ tile{
   y = 128,
   width = 16,
   height = 8,
-  pattern = 300,
+  pattern = "300",
 }
 
 tile{
@@ -421,7 +421,7 @@ tile{
   y = 128,
   width = 16,
   height = 8,
-  pattern = 299,
+  pattern = "299",
 }
 
 tile{
@@ -430,7 +430,7 @@ tile{
   y = 104,
   width = 16,
   height = 8,
-  pattern = 297,
+  pattern = "297",
 }
 
 tile{
@@ -439,7 +439,7 @@ tile{
   y = 104,
   width = 16,
   height = 8,
-  pattern = 298,
+  pattern = "298",
 }
 
 tile{
@@ -448,7 +448,7 @@ tile{
   y = 200,
   width = 8,
   height = 16,
-  pattern = 303,
+  pattern = "303",
 }
 
 tile{
@@ -457,14 +457,14 @@ tile{
   y = 200,
   width = 8,
   height = 16,
-  pattern = 302,
+  pattern = "302",
 }
 
 destination{
+  name = "from_outside",
   layer = 0,
   x = 304,
   y = 213,
-  name = "start_position",
   direction = 1,
 }
 
@@ -472,665 +472,665 @@ chest{
   layer = 0,
   x = 104,
   y = 189,
-  name = "uselesschest",
+  treasure_name = "lens_of_truth",
+  treasure_savegame_variable = "stupid_chest_cave_lens_of_truth_chest",
   sprite = "entities/chest",
-  treasure_variant = 1,
 }
 
 stream{
-  sprite = "entities/conveyor_belt",
-  allow_movement = false,
-  allow_attack = false,
-  allow_item = false,
   layer = 0,
   x = 168,
   y = 101,
   direction = 2,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 168,
   y = 85,
   direction = 2,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 168,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 120,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 69,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 69,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 85,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 85,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 101,
   direction = 1,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 120,
   y = 85,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 101,
   direction = 1,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 85,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 85,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 101,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 117,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 117,
   direction = 3,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 120,
   y = 101,
   direction = 3,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 85,
   direction = 5,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 101,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 101,
   direction = 3,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 85,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 101,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 117,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 133,
   direction = 1,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 117,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 133,
   direction = 1,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 120,
   y = 117,
   direction = 7,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 133,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 133,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 149,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 149,
   direction = 3,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 120,
   y = 133,
   direction = 3,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 117,
   direction = 5,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 133,
   direction = 3,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 117,
   direction = 5,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 133,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 149,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 165,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 56,
   y = 181,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 181,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 181,
   direction = 2,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 165,
   direction = 4,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 165,
   direction = 2,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 72,
   y = 149,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 88,
   y = 149,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 149,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 120,
   y = 149,
   direction = 5,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 104,
   y = 165,
   direction = 6,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 165,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 136,
   y = 181,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 165,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 152,
   y = 181,
   direction = 0,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 168,
   y = 181,
   direction = 2,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 168,
   y = 165,
   direction = 2,
-}
-
-stream{
   sprite = "entities/conveyor_belt",
   allow_movement = false,
   allow_attack = false,
   allow_item = false,
+}
+
+stream{
   layer = 0,
   x = 168,
   y = 149,
   direction = 2,
+  sprite = "entities/conveyor_belt",
+  allow_movement = false,
+  allow_attack = false,
+  allow_item = false,
 }
 
 crystal{
+  name = "crystal_switch",
   layer = 0,
   x = 344,
   y = 189,
-  name = "crystal_switch",
 }
 
 crystal_block{
@@ -1139,7 +1139,7 @@ crystal_block{
   y = 144,
   width = 16,
   height = 48,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1148,7 +1148,7 @@ crystal_block{
   y = 96,
   width = 16,
   height = 48,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1157,7 +1157,7 @@ crystal_block{
   y = 144,
   width = 16,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1166,7 +1166,7 @@ crystal_block{
   y = 144,
   width = 32,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1175,7 +1175,7 @@ crystal_block{
   y = 80,
   width = 48,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1184,7 +1184,7 @@ crystal_block{
   y = 64,
   width = 16,
   height = 32,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1193,7 +1193,7 @@ crystal_block{
   y = 96,
   width = 32,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1202,7 +1202,7 @@ crystal_block{
   y = 112,
   width = 32,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1211,7 +1211,7 @@ crystal_block{
   y = 112,
   width = 32,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1220,7 +1220,7 @@ crystal_block{
   y = 48,
   width = 96,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1229,7 +1229,7 @@ crystal_block{
   y = 64,
   width = 64,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1238,7 +1238,7 @@ crystal_block{
   y = 96,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1247,7 +1247,7 @@ crystal_block{
   y = 96,
   width = 16,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1256,7 +1256,7 @@ crystal_block{
   y = 80,
   width = 16,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1265,7 +1265,7 @@ crystal_block{
   y = 160,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1274,7 +1274,7 @@ crystal_block{
   y = 160,
   width = 16,
   height = 32,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1283,7 +1283,7 @@ crystal_block{
   y = 144,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1292,7 +1292,7 @@ crystal_block{
   y = 128,
   width = 64,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1301,7 +1301,7 @@ crystal_block{
   y = 128,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1310,7 +1310,7 @@ crystal_block{
   y = 176,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1319,14 +1319,14 @@ crystal_block{
   y = 160,
   width = 16,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal{
+  name = "crystal_switch_3",
   layer = 0,
   x = 280,
   y = 125,
-  name = "crystal_switch_3",
 }
 
 crystal_block{
@@ -1335,7 +1335,7 @@ crystal_block{
   y = 144,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1344,14 +1344,14 @@ crystal_block{
   y = 160,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal{
+  name = "crystal_switch_2",
   layer = 0,
   x = 344,
   y = 77,
-  name = "crystal_switch_2",
 }
 
 crystal_block{
@@ -1360,7 +1360,7 @@ crystal_block{
   y = 80,
   width = 16,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 crystal_block{
@@ -1369,7 +1369,7 @@ crystal_block{
   y = 160,
   width = 16,
   height = 16,
-  subtype = "1",
+  subtype = 1,
 }
 
 crystal_block{
@@ -1378,7 +1378,7 @@ crystal_block{
   y = 96,
   width = 16,
   height = 16,
-  subtype = "0",
+  subtype = 0,
 }
 
 teletransporter{
@@ -1387,10 +1387,8 @@ teletransporter{
   y = 224,
   width = 16,
   height = 16,
-  name = "teletransporter",
-  transition = "fade",
-  destination_map = "1",
-  destination = "stupid_cave_out",
+  destination_map = "out/b1",
+  destination = "from_stupid_chest_cave",
 }
 
 tile{
@@ -1399,7 +1397,7 @@ tile{
   y = 216,
   width = 96,
   height = 8,
-  pattern = 412,
+  pattern = "412",
 }
 
 tile{
@@ -1408,7 +1406,7 @@ tile{
   y = 64,
   width = 8,
   height = 96,
-  pattern = 415,
+  pattern = "415",
 }
 
 tile{
@@ -1417,7 +1415,7 @@ tile{
   y = 64,
   width = 8,
   height = 96,
-  pattern = 416,
+  pattern = "416",
 }
 
 tile{
@@ -1426,7 +1424,7 @@ tile{
   y = 16,
   width = 16,
   height = 208,
-  pattern = 170,
+  pattern = "170",
 }
 
 tile{
@@ -1435,7 +1433,7 @@ tile{
   y = 224,
   width = 400,
   height = 16,
-  pattern = 170,
+  pattern = "170",
 }
 
 tile{
@@ -1444,7 +1442,7 @@ tile{
   y = 0,
   width = 16,
   height = 224,
-  pattern = 170,
+  pattern = "170",
 }
 
 tile{
@@ -1453,7 +1451,7 @@ tile{
   y = 0,
   width = 384,
   height = 16,
-  pattern = 170,
+  pattern = "170",
 }
 
 tile{
@@ -1462,7 +1460,7 @@ tile{
   y = 16,
   width = 16,
   height = 208,
-  pattern = 170,
+  pattern = "170",
 }
 
 tile{
@@ -1471,7 +1469,7 @@ tile{
   y = 104,
   width = 8,
   height = 32,
-  pattern = 306,
+  pattern = "306",
 }
 
 tile{
@@ -1480,7 +1478,7 @@ tile{
   y = 104,
   width = 8,
   height = 32,
-  pattern = 305,
+  pattern = "305",
 }
 
 tile{
@@ -1489,6 +1487,6 @@ tile{
   y = 216,
   width = 32,
   height = 8,
-  pattern = 312,
+  pattern = "312",
 }
 

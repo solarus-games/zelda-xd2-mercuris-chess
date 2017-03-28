@@ -15286,8 +15286,8 @@ destructible{
 
 enemy{
   layer = 0,
-  x = 320,
-  y = 269,
+  x = 312,
+  y = 261,
   direction = 3,
   breed = "alttp/chicken",
   treasure_name = "random",
@@ -15540,6 +15540,40 @@ teletransporter{
   height = 16,
   destination_map = "main_village/water_house",
   destination = "from_outside",
+}
+
+destination{
+  name = "from_vase_house",
+  layer = 0,
+  x = 856,
+  y = 589,
+  direction = 3,
+}
+
+destination{
+  name = "from_stupid_chest_cave",
+  layer = 0,
+  x = 952,
+  y = 117,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 848,
+  y = 560,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/vases_house",
+}
+
+teletransporter{
+  layer = 0,
+  x = 944,
+  y = 88,
+  width = 16,
+  height = 16,
+  destination_map = "caves/stupid_chest_cave",
 }
 
 tile{

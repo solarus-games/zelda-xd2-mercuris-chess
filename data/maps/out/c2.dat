@@ -7867,6 +7867,24 @@ npc{
   sprite = "entities/sign",
 }
 
+destination{
+  name = "from_geek_house",
+  layer = 0,
+  x = 104,
+  y = 181,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 96,
+  y = 152,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/geek_house",
+  destination = "from_outside",
+}
+
 tile{
   layer = 1,
   x = 88,

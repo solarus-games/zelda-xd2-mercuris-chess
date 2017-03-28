@@ -1,5 +1,5 @@
-map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
-map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
+map{ id = "caves/freaking_cave", description = "Freaking Cave 2" }
+map{ id = "caves/freaking_cave_entrance", description = "Freaking Cave 1" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
 map{ id = "chill_valley/j_house/1f", description = "J House 1F" }
@@ -228,6 +228,7 @@ sprite{ id = "entities/bush_green", description = "Bush (green)" }
 sprite{ id = "entities/bush_purple", description = "Bush (purple)" }
 sprite{ id = "entities/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "entities/chest", description = "Chest" }
+sprite{ id = "entities/conveyor_belt", description = "Stream" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }

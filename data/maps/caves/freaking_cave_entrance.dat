@@ -882,7 +882,7 @@ tile{
 }
 
 destination{
-  name = "start_position",
+  name = "from_outside",
   layer = 1,
   x = 160,
   y = 381,
@@ -901,14 +901,13 @@ jumper{
 }
 
 teletransporter{
-  name = "teletransporter",
   layer = 1,
   x = 152,
   y = 392,
   width = 16,
   height = 16,
-  destination_map = "2",
-  destination = "freaking_cave_out",
+  destination_map = "out/c1",
+  destination = "from_freaking_cave",
 }
 
 destination{

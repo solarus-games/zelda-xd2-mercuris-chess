@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "cave_legacy",
-  music = "cave",
+  music = "alttp/cave",
 }
 
 tile{
@@ -233,7 +233,7 @@ teletransporter{
   y = 408,
   width = 16,
   height = 16,
-  destination_map = "2",
+  destination_map = "out/c1",
   destination = "from_piece_of_heart_cave",
 }
 
@@ -992,7 +992,7 @@ wall{
   x = 168,
   y = 320,
   width = 8,
-  height = 32,
+  height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -1005,7 +1005,7 @@ wall{
   x = 144,
   y = 320,
   width = 8,
-  height = 32,
+  height = 8,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,

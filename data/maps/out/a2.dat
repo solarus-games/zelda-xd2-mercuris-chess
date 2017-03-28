@@ -13,7 +13,7 @@ properties{
 tile{
   layer = 0,
   x = 8,
-  y = 8,
+  y = 0,
   width = 1016,
   height = 1016,
   pattern = "223",

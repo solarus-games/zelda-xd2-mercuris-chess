@@ -522,6 +522,8 @@ sound{ id = "item_in_water", description = "item_in_water" }
 sound{ id = "jump", description = "jump" }
 sound{ id = "la_seagull", description = "la_seagull" }
 sound{ id = "lamp", description = "lamp" }
+sound{ id = "lens_end", description = "Lens of Truth end" }
+sound{ id = "lens_start", description = "Lens of Truth start" }
 sound{ id = "lift", description = "lift" }
 sound{ id = "magic_bar", description = "magic_bar" }
 sound{ id = "message_end", description = "message_end" }

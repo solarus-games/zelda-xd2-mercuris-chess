@@ -89,6 +89,7 @@ sprites/menus/title_screen/title_grump.png          Olivier Cléro
 sprites/menus/title_screen/title_troll.png          Olivier Cléro
 sprites/npc/newlink/newlink.png                     Newlink
 sprites/npc/seagull.png                             Olivier Cléro
+sprites/npc/oclero/golden_tyranosaurus.png          Olivier Cléro
 
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------

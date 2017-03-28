@@ -853,7 +853,7 @@ npc{
   y = 133,
   direction = -1,
   subtype = 1,
-  sprite = "npc/alttp/mad_batter_purple",
+  sprite = "npc/oclero/golden_tyranosaurus",
   behavior = "item#perfume_counter",
 }
 

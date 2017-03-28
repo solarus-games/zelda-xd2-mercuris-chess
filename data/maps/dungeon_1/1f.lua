@@ -17,11 +17,13 @@ door_manager:manage_map(map)
 
 local water_delay = 500
 
+local chicken_giant = nil
+
 -- Create the boss.
 function chicken_boss_switch:on_activated()
-
   map:create_chicken_boss()
 end
+
 function map:create_chicken_boss()
 
   -- Do not create boss if already dead.
@@ -33,11 +35,13 @@ function map:create_chicken_boss()
   -- Create boss.
   local dst = map:get_entity("boss_starting_point")
   local x, y, layer = dst:get_position()
-  local prop = {x = x, y = y, layer = layer, direction = 3, 
+  local chicken_giant = {x = x, y = y, layer = layer, direction = 3, 
     breed = "oclero/chicken_giant", name = "chicken_giant",
     savegame_variable = "is_chicken_boss_dead"}
   map:create_enemy(prop)
 end
+
+
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()

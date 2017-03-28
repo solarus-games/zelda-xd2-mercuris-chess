@@ -1,4 +1,3 @@
-map{ id = "beach_store", description = "Beach Store" }
 map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
 map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
@@ -28,11 +27,12 @@ map{ id = "dungeon_2/8f", description = "Dungeon 2 8F" }
 map{ id = "dungeon_2/9f", description = "Dungeon 2 9F" }
 map{ id = "dungeon_2/entrance", description = "Dungeon 2 entrance" }
 map{ id = "dungeon_2/store", description = "Dungeon 2 Store" }
-map{ id = "enemy_store", description = "Enemy Store" }
-map{ id = "enemy_store_alttp", description = "Enemy Store (ALTTP)" }
-map{ id = "enemy_store_newlink", description = "Enemy Store (Newlink)" }
-map{ id = "examples/Kakariko_Village", description = "examples/Kakariko_Village" }
-map{ id = "examples/hyrule_castle", description = "examples/hyrule_castle" }
+map{ id = "examples/beach_store", description = "Beach Store" }
+map{ id = "examples/enemy_store", description = "Enemy Store" }
+map{ id = "examples/enemy_store_alttp", description = "Enemy Store (ALTTP)" }
+map{ id = "examples/enemy_store_newlink", description = "Enemy Store (Newlink)" }
+map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle" }
+map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "final_scene", description = "Final scene on the beach" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
@@ -50,7 +50,7 @@ map{ id = "out/c1", description = "C1 (Desert)" }
 map{ id = "out/c2", description = "C2 (Swamp)" }
 map{ id = "prehistoric/cave", description = "Cave" }
 map{ id = "prehistoric/mountains", description = "Prehistoric mountains" }
-map{ id = "sunset_creek", description = "Final map (Closed creek)" }
+map{ id = "sunset_creek", description = "Sunset Creek" }
 map{ id = "tardis", description = "Tardis" }
 
 tileset{ id = "beach_sunset", description = "Beach sunset" }

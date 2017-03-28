@@ -44,6 +44,16 @@ function game_manager:create(file)
     return game:get_dungeon() ~= nil
   end
 
+  -- Returns whether something is consuming magic continuously.
+  function game:is_magic_decreasing()
+    return game.magic_decreasing or false
+  end
+
+  -- Sets whether something is consuming magic continuously.
+  function game:set_magic_decreasing(magic_decreasing)
+    game.magic_decreasing = magic_decreasing
+  end
+
   return game
 end
 

@@ -50,6 +50,16 @@ function magic_bar_builder:new(game, config)
       end
     end
 
+    -- Magic decreasing animation.
+    if game.is_magic_decreasing ~= nil then
+      local sprite = magic_bar.container_sprite
+      if game:is_magic_decreasing() and sprite:get_animation() ~= "decreasing" then
+        sprite:set_animation("decreasing")
+      elseif not game:is_magic_decreasing() and sprite:get_animation() ~= "normal" then
+        sprite:set_animation("normal")
+      end
+    end
+
     -- Schedule the next check.
     sol.timer.start(game, 20, function()
       magic_bar:check()

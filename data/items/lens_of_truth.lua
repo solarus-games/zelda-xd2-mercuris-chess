@@ -18,6 +18,7 @@ end
 function item:set_lens_active(active)
 
   lens_active = active
+  game:set_magic_decreasing(active)
 
   if active then
 
@@ -32,7 +33,7 @@ function item:set_lens_active(active)
     sol.timer.start(lens_menu, 1500, function()
       game:remove_magic(1)
       if game:get_magic() == 0 then
-        item:set_active(false)
+        item:set_lens_active(false)
         return
       end
       return true

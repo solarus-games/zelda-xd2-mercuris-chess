@@ -3,6 +3,9 @@ map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
 map{ id = "chill_valley/j_house", description = "J House" }
+map{ id = "chill_valley/j_house_b1", description = "J House B1 (Cold Bath)" }
+map{ id = "chill_valley/j_house_b2", description = "J House B2 (Warm Bath)" }
+map{ id = "chill_valley/j_house_b3", description = "J House B3 (Lava bath)" }
 map{ id = "chill_valley/l_house", description = "L House" }
 map{ id = "chill_valley/o_house", description = "O House" }
 map{ id = "chill_valley/s_house", description = "S House" }
@@ -419,6 +422,10 @@ sprite{ id = "npc/newlink/tigriss_brown_docile", description = "Docile and cute 
 sprite{ id = "npc/newlink/tom", description = "Tom" }
 sprite{ id = "npc/newlink/yoda", description = "Yoda" }
 sprite{ id = "npc/seagull", description = "Seagull" }
+sprite{ id = "npc/swimming/child", description = "Swimming Child" }
+sprite{ id = "npc/swimming/lady", description = "Swimming Lady" }
+sprite{ id = "npc/swimming/librarian", description = "Swimming Librarian" }
+sprite{ id = "npc/swimming/old_man", description = "Swimming Old Man" }
 sprite{ id = "npc/the_doctor", description = "The Doctor" }
 
 music{ id = "alttp/agahnim", description = "Agahnim theme" }
@@ -735,6 +742,7 @@ entity{ id = "hookable", description = "Hookable" }
 entity{ id = "ladder", description = "Ladder" }
 entity{ id = "low_wall", description = "Low wall" }
 entity{ id = "rotating_platform", description = "Rotating Platform" }
+entity{ id = "swimming_npc", description = "Swimming NPC" }
 entity{ id = "tardis", description = "Tardis" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "traversable", description = "Traversable" }

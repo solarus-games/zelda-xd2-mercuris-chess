@@ -1761,6 +1761,160 @@ Bonne chance héhé !
 }
 
 dialog{
+  id = "chill_valley.bath.cleaning_old_lady",
+  skip = "all",
+  text = [[
+La dernière fois, un
+gars un peu enveloppé
+aux jolies tresses
+rousses a voulu faire
+un plongeon dans
+cette piscine. Hélas,
+il n'y avait pas assez
+de place pour l'eau et
+lui dans le même bac.
+J'ai mis toute la
+journée à éponger le
+sol, une cata.
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.cold",
+  skip = "all",
+  text = [[
+J'ai essayé le Lava
+Pool Challenge il y a
+quelques jours...
+Depuis, je ne jure que
+par cette piscine
+glacée !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.employee_only",
+  skip = "all",
+  text = [[
+ Bains de Bougre-de-
+   Sagouin Jeanson
+ !! DANGER DE MORT !!
+
+  Personnel autorisé
+    uniquement !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.entrance",
+  skip = "all",
+  text = [[
+Bonjour et bienvenue !
+Vous avez de la chance
+car aujourd'hui, nos
+bains sont en libre-
+service ! N'hésitez
+pas à vous revigorer
+au premier sous-sol,
+à vous détendre au
+second, ou à surmonter
+le défi du troisième !
+
+
+Et n'oubliez pas de
+toujours avoir une
+serviette sur vous !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.envy_champagne_pool",
+  skip = "all",
+  text = [[
+Ils sont nuls ces
+bains... Il paraît
+qu'il existe des bains
+faits d'or et de
+champagne, avec des
+bulles qui vous
+caressent et vous font
+perdre la tête...
+Pourquoi on n'a pas ça
+dans ces bains si
+réputés !?
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.hungry_child",
+  skip = "all",
+  text = [[
+Mouais... C'est pas
+mal, ça détend...
+
+Il manque quelque
+chose. Je saurais pas
+dire quoi, mais il
+manque quelque chose.
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.lava_challenge",
+  skip = "all",
+  text = [[
+Toi aussi, relève le
+Lava Pool Challenge !
+
+Si tu y parviens, je
+te donnerai ton poids
+en rubis !
+C'est simple : reste
+plus d'une minute
+dans la lave et tu
+peux réclamer ton prix
+à l'entrée !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.lovers_brassens",
+  skip = "all",
+  text = [[
+J'ai entendu dire que
+parfois, les amoureux
+se bécotent dans les
+bains publics. Un gars
+en a même fait une
+chanson.
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.miserable_myrtle",
+  skip = "all",
+  text = [[
+Un jour, un fantôme
+m'a dit qu'ouvrir un
+oeuf en or sous l'eau
+dévoilerait une énigme
+digne d'un grand mage.
+J'te raconte pas la
+frousse...
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.warning_sockets",
+  skip = "all",
+  text = [[
+Petit bain.
+Pensez à retirer vos
+chaussettes !
+]]
+}
+
+dialog{
   id = "chill_valley.big_bird",
   text = [[
 Une aventure contre un

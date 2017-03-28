@@ -3,25 +3,31 @@ local game = item:get_game()
 
 function item:on_created()
 
-  self:set_savegame_variable("possession_pegasus_shoes")
-  self:set_assignable(true)
+  item:set_savegame_variable("possession_pegasus_shoes")
+  item:set_assignable(true)
 
-  -- TODO only if shoelaces
-  game:set_ability("run", 1)
+  if item:get_variant() > 1 then
+    game:set_ability("run", 1)
+  end
 end
 
 function item:on_using()
 
--- TODO
---  local hero = self:get_map():get_entity("hero")
---  hero:set_direction(math.random(0, 3))
-  game:get_hero():start_running()
-  self:set_finished()
+  local hero = game:get_hero()
+
+  if item:get_variant() == 1 then
+    hero:set_direction(math.random(0, 3))
+  end
+  hero:start_running()
+  item:set_finished()
 end
 
 function item:on_variant_changed(variant)
 
-  -- TODO only if shoelaces
-  game:set_ability("run", variant)
+  if variant > 1 then
+    -- Allow to run with the action command
+    -- when the boots are not broken.
+    game:set_ability("run", 1)
+  end
 end
 

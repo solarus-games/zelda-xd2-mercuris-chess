@@ -620,7 +620,8 @@ item{ id = "mail", description = "Mail" }
 item{ id = "map", description = "Dungeon map" }
 item{ id = "pain_au_chocolat", description = "Pain au chocolat" }
 item{ id = "pains_au_chocolat_counter", description = "Pains au chocolat counter" }
-item{ id = "pegasus_shoes", description = "Pegasus shoes" }
+item{ id = "pegasus_shoelaces", description = "Pegasus boots shoelaces" }
+item{ id = "pegasus_shoes", description = "Pegasus boots" }
 item{ id = "perfume", description = "Perfume" }
 item{ id = "perfume_counter", description = "Perfume counter" }
 item{ id = "piece_of_heart", description = "Piece of heart" }

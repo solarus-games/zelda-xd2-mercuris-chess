@@ -498,14 +498,26 @@ dialog{
   icon = "13",
   skip = "all",
   text = [[
-Les Bottes de Pégase
-font vraiment n'imp.
+Sans lacets, les Bottes
+de Pégase font vraiment
+n'importe quoi.
+]]
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.2",
+  icon = "13",
+  skip = "all",
+  text = [[
+Fonce partout avec les
+Bottes de Pégase en
+appuyant sur Action.
 ]]
 }
 
 dialog{
   id = "_item_description.perfume_counter.1",
-  icon = "49",
+  icon = "39",
   skip = "all",
   text = [[
 Parfum de marque
@@ -1302,6 +1314,24 @@ récupérer 3 Coeurs.
 }
 
 dialog{
+  id = "_treasure.pegasus_shoelaces.1",
+  icon = "22",
+  text = [[
+Tu as retrouvé les
+lacets de tes Bottes
+de Pégase !$0
+Tu peux enfin te
+diriger correctement
+quand tu fonces.
+Appuie sur Action
+pour courir.
+
+Mais attention
+à ne pas les casser !
+]]
+}
+
+dialog{
   id = "_treasure.pegasus_shoes.1",
   icon = "13",
   text = [[
@@ -1315,8 +1345,20 @@ super vite !
 }
 
 dialog{
+  id = "_treasure.pegasus_shoes.2",
+  icon = "23",
+  text = [[
+Tu as trouvé les
+Bottes de Pégase !
+
+Tu peux foncer
+partout !
+]]
+}
+
+dialog{
   id = "_treasure.perfume.1",
-  icon = "49",
+  icon = "39",
   text = [[
 Tu as trouvé le
 parfum Kipu de

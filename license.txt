@@ -31,9 +31,9 @@ fonts/minecraftia.ttf                               Andrew Tyler: http://www.and
 
 languages/fr/images/action_icon.png                 Metallizer, Olivier Cléro
 languages/fr/images/floors.png                      Metallizer, Olivier Cléro
-languages/fr/images/gameover_menu.png               Metallizer
+languages/fr/images/gameover_menu.png               Metallizer, Olivier Cléro
 languages/fr/images/pause_icon.png                  Metallizer, Olivier Cléro
-languages/fr/images/pause_submenus.png              Metallizer
+languages/fr/images/pause_submenus.png              Metallizer, Olivier Cléro
 languages/fr/images/sword_icon.png                  Metallizer, Olivier Cléro
 
 logos/icon.icns                                     Olivier Cléro
@@ -52,7 +52,7 @@ sprites/enemies/oclero/mr_grump.png                 Olivier Cléro
 sprites/entities/shadow_dynamic.png                 Diarandor
 sprites/entities/slot_machine_support.png           Newlink
 sprites/hud/gameover_fade.png                       Metallizer
-sprites/hud/dialog_box.png                          Metallizer
+sprites/hud/dialog_box.png                          Metallizer, Olivier Cléro
 sprites/hud/hearts.png                              Olivier Cléro
 sprites/hud/icons_flip.png                          Metallizer, Olivier Cléro
 sprites/hud/item_icon_1.png                         Metallizer, Olivier Cléro
@@ -61,15 +61,15 @@ sprites/hud/magic_bar.png                           Metallizer, Olivier Cléro
 sprites/hud/rupee_icon.png                          Metallizer, Olivier Cléro
 sprites/hud/small_key_icon.png                      Olivier Cléro
 sprites/menus/arrow.png                             Metallizer
-sprites/menus/dungeon_map_background.png            Metallizer
+sprites/menus/dungeon_map_background.png            Metallizer, Olivier Cléro
 sprites/menus/dungeon_maps/map2.png                 Christopho
 sprites/menus/gplv3_logo.png                        Olivier Cléro
 sprites/menus/hero_point.png                        Christopho
-sprites/menus/options_cursor.png                    Christopho
+sprites/menus/options_cursor.png                    Christopho, Olivier Cléro
 sprites/menus/outside_world_clouds.png              Metallizer
-sprites/menus/pause_cursor.png                      Metallizer
-sprites/menus/pause_save_dialog.png                 Metallizer
-sprites/menus/quest_status_pieces_of_heart.png      Metallizer
+sprites/menus/pause_cursor.png                      Metallizer, Olivier Cléro
+sprites/menus/pause_save_dialog.png                 Metallizer, Olivier Cléro
+sprites/menus/quest_status_pieces_of_heart.png      Metallizer, Olivier Cléro
 sprites/menus/selection_menu_background.png         Olivier Cléro
 sprites/menus/selection_menu_cursor.png             Metallizer, Olivier Cléro
 sprites/menus/selection_menu_letters.png            Olivier Cléro
@@ -178,4 +178,3 @@ sprites/npc/alttp/fat_fairy.png
 sprites/npc/alttp/ghostly_proprietor.png
 sprites/npc/alttp/great_fairy.png
 sprites/npc/alttp/witch.png
-

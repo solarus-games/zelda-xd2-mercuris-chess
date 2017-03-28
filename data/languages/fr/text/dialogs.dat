@@ -371,6 +371,19 @@ pénible à utiliser.
 }
 
 dialog{
+  id = "_item_description.feather.2",
+  icon = "20",
+  skip = "all",
+  text = [[
+Cette iPlume permet
+de sauter au-dessus
+des trous
+mais bien plus
+encore.
+]]
+}
+
+dialog{
   id = "_item_description.fire_rod.1",
   icon = "27",
   skip = "all",
@@ -654,12 +667,11 @@ dialog{
   id = "_treasure.bomb_bag.2",
   icon = "55",
   text = [[
-Tu as trouvé le
-Grand Sac de
-Bombes !$0
-Trop bien !
-Il peut contenir
-jusqu'à 11 Bombes !
+Tu as trouvé le Sac
+de Bombes !$0Tu peux
+exploser les murs...
+Ah ? Tu l'as déjà ?
+Dommage... !
 ]]
 }
 
@@ -1089,7 +1101,25 @@ Tu as trouvé la
 Plume !$0 Utilise-la
 pour sauter...
 Ah ? Tu l'as déjà ?
-Dommage...!
+Dommage... !
+]]
+}
+
+dialog{
+  id = "_treasure.feather.2",
+  icon = "20",
+  text = [[
+Tu as acheté une
+iPlume !$0
+
+Elle ne fait rien de
+plus qu'une Plume
+normale, mais elle
+fait croire aux
+gens que tu as la
+classe.
+C'est vrai que le
+logo est pas mal.
 ]]
 }
 
@@ -3370,6 +3400,33 @@ dialog{
   id = "prehistoric.tyrannosaurus_upset",
   text = [[
 Grrrrr...
+]]
+}
+
+dialog{
+  id = "shop.iplume",
+  next = "_unknown",
+  text = [[
+Une iPlume.
+C'est une révolution.
+
+Jamais une Plume
+n'avait été aussi bien
+conçue que l'iPlume.
+Disponible dès
+maintenant partout
+dans le monde
+dans les boutiques
+iPlume officielles.
+]]
+}
+
+dialog{
+  id = "shop.red_rupee",
+  next = "_unknown",
+  text = [[
+Un Rubis rouge.
+Rarissime !
 ]]
 }
 

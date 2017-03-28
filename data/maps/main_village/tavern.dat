@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "house_legacy",
-  music = "village",
+  music = "alttp/village",
 }
 
 tile{
@@ -1235,7 +1235,17 @@ tile{
 }
 
 wall{
-  name = "custom_obstacle_2",
+  layer = 1,
+  x = 504,
+  y = 280,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+}
+
+wall{
   layer = 1,
   x = 120,
   y = 280,
@@ -1253,8 +1263,8 @@ teletransporter{
   y = 304,
   width = 16,
   height = 16,
-  destination_map = "1",
-  destination = "from_shop",
+  destination_map = "out/b1",
+  destination = "from_tavern_w",
 }
 
 teletransporter{
@@ -1264,40 +1274,8 @@ teletransporter{
   y = 304,
   width = 16,
   height = 16,
-  destination_map = "2",
-  destination = "from_shop",
-}
-
-npc{
-  name = "npc",
-  layer = 1,
-  x = 272,
-  y = 101,
-  direction = 1,
-  subtype = 1,
-  sprite = "npc/thief",
-  behavior = "dialog#shop.near_wizard",
-}
-
-npc{
-  name = "interactive_entity_5",
-  layer = 1,
-  x = 144,
-  y = 85,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/newlink5",
-}
-
-npc{
-  name = "wizard",
-  layer = 1,
-  x = 272,
-  y = 69,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/wizard",
-  behavior = "dialog#shop.wizard",
+  destination_map = "out/c1",
+  destination = "from_tavern_e",
 }
 
 npc{
@@ -1307,12 +1285,12 @@ npc{
   y = 77,
   direction = 3,
   subtype = 1,
-  sprite = "npc/static_villager11",
+  sprite = "npc/alttp/merchant_blue",
   behavior = "dialog#shop.salesman",
 }
 
 destination{
-  name = "from_outside_NO",
+  name = "from_outside_w",
   layer = 1,
   x = 128,
   y = 293,
@@ -1320,7 +1298,7 @@ destination{
 }
 
 destination{
-  name = "from_outside_NE",
+  name = "from_outside_e",
   layer = 1,
   x = 512,
   y = 293,
@@ -1328,43 +1306,6 @@ destination{
 }
 
 shop_treasure{
-  name = "shop_item",
-  layer = 1,
-  x = 552,
-  y = 120,
-  treasure_name = "apple_pie",
-  price = 42,
-  font = "la",
-  dialog = "shop.apple_pie",
-}
-
-shop_treasure{
-  name = "shop_item_2",
-  layer = 1,
-  x = 480,
-  y = 120,
-  treasure_name = "rupee_bag",
-  treasure_variant = 3,
-  treasure_savegame_variable = "b49",
-  price = 999,
-  font = "la",
-  dialog = "shop.huge_rupee_bag",
-}
-
-shop_treasure{
-  name = "shop_item_3",
-  layer = 1,
-  x = 408,
-  y = 120,
-  treasure_name = "heart_container",
-  treasure_savegame_variable = "b50",
-  price = 10,
-  font = "la",
-  dialog = "shop.heart_container",
-}
-
-shop_treasure{
-  name = "shop_item_4",
   layer = 1,
   x = 408,
   y = 64,
@@ -1375,45 +1316,13 @@ shop_treasure{
   dialog = "shop.red_rupee",
 }
 
-npc{
-  name = "last_night_guy",
-  layer = 1,
-  x = 192,
-  y = 149,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/static_villager2",
-  behavior = "dialog#shop.last_night_guy",
-}
-
-npc{
-  name = "pub_woman",
-  layer = 1,
-  x = 144,
-  y = 125,
-  direction = 3,
-  subtype = 0,
-  behavior = "dialog#shop.pub_woman",
-}
-
-npc{
-  name = "lady_a",
-  layer = 1,
-  x = 184,
-  y = 213,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/villager1",
-  behavior = "dialog#shop.lady_a",
-}
-
 wall{
   name = "custom_obstacle",
   layer = 1,
   x = 384,
   y = 40,
   width = 8,
-  height = 240,
+  height = 120,
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
@@ -1444,6 +1353,30 @@ enemy{
   direction = 3,
   breed = "alttp/chicken",
   treasure_name = "random",
+}
+
+shop_treasure{
+  layer = 1,
+  x = 408,
+  y = 120,
+  treasure_name = "feather",
+  treasure_variant = 2,
+  treasure_savegame_variable = "shop_iplume",
+  price = 299,
+  font = "la",
+  dialog = "shop.iplume",
+}
+
+wall{
+  name = "custom_obstacle_2",
+  layer = 1,
+  x = 392,
+  y = 160,
+  width = 208,
+  height = 8,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
 }
 
 tile{

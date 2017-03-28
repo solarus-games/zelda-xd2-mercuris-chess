@@ -31,6 +31,7 @@ text{ key = "inventory.caption.item.bow.2", value = "Arc cassé & Flèches" }
 text{ key = "inventory.caption.item.cat_food.1", value = "Nourriture pour chat" }
 text{ key = "inventory.caption.item.croissants_counter.1", value = "Croissants" }
 text{ key = "inventory.caption.item.feather.1", value = "Plume de Dodo" }
+text{ key = "inventory.caption.item.feather.2", value = "iPlume" }
 text{ key = "inventory.caption.item.fire_rod.1", value = "Baguette de feu" }
 text{ key = "inventory.caption.item.flippers.1", value = "Palmes" }
 text{ key = "inventory.caption.item.glove.1", value = "Poigne de Fer" }

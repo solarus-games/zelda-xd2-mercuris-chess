@@ -12152,6 +12152,24 @@ npc{
   behavior = "dialog#otis",
 }
 
+destination{
+  name = "from_tavern_e",
+  layer = 0,
+  x = 64,
+  y = 829,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 56,
+  y = 800,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/tavern",
+  destination = "from_outside_e",
+}
+
 tile{
   layer = 1,
   x = 328,

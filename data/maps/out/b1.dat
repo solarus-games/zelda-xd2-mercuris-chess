@@ -15401,6 +15401,24 @@ enemy{
   treasure_name = "random",
 }
 
+destination{
+  name = "from_tavern_w",
+  layer = 0,
+  x = 968,
+  y = 829,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 960,
+  y = 800,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/tavern",
+  destination = "from_outside_w",
+}
+
 tile{
   layer = 1,
   x = 624,

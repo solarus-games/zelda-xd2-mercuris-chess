@@ -20,6 +20,17 @@ tile{
 }
 
 custom_entity{
+  name = "egg_2",
+  layer = 0,
+  x = 184,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/oclero/egg_golden",
+}
+
+custom_entity{
   layer = 0,
   x = 136,
   y = 189,
@@ -705,22 +716,9 @@ wall{
 
 wall{
   layer = 0,
-  x = 192,
-  y = 128,
-  width = 8,
-  height = 48,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 160,
+  x = 184,
   y = 120,
-  width = 32,
+  width = 8,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -735,19 +733,6 @@ wall{
   y = 104,
   width = 24,
   height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 72,
-  y = 112,
-  width = 8,
-  height = 48,
   stops_hero = true,
   stops_npcs = true,
   stops_enemies = true,
@@ -850,7 +835,7 @@ npc{
   name = "tyrannosaurus",
   layer = 0,
   x = 136,
-  y = 133,
+  y = 149,
   direction = -1,
   subtype = 1,
   sprite = "npc/oclero/golden_tyranosaurus",
@@ -880,7 +865,7 @@ wall{
   x = 128,
   y = 96,
   width = 16,
-  height = 24,
+  height = 40,
   stops_npcs = true,
 }
 
@@ -891,6 +876,93 @@ sensor{
   y = 253,
   width = 16,
   height = 16,
+}
+
+custom_entity{
+  name = "egg_1",
+  layer = 0,
+  x = 80,
+  y = 125,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/oclero/egg_golden",
+}
+
+custom_entity{
+  name = "egg_3",
+  layer = 0,
+  x = 200,
+  y = 173,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/oclero/egg_golden",
+}
+
+wall{
+  layer = 0,
+  x = 104,
+  y = 136,
+  width = 64,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 112,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 80,
+  y = 112,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 120,
+  width = 8,
+  height = 40,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 128,
+  width = 8,
+  height = 48,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{

@@ -3,7 +3,11 @@ local game = map:get_game()
 
 function map:on_started()
 
-  tyrannosaurus:get_sprite():set_animation("walking")
+  tyrannosaurus:get_sprite():set_animation("stopped")
+  tyrannosaurus:get_sprite():set_ignore_suspend(true)
+  for egg in map:get_entities("egg_") do
+    egg:get_sprite():set_animation("stopped")
+  end
 
   if game.prehistoric_tyrannosaurus_explained then
     doctor:set_position(tyrannosaurus_doctor_target:get_position())
@@ -20,6 +24,7 @@ function tyrannosaurus_sensor:on_activated()
 
   if not game.prehistoric_tyrannosaurus_explained then
     hero:freeze()
+    tyrannosaurus:get_sprite():set_animation("anger")
     doctor:set_enabled(true)
     local movement = sol.movement.create("path")
     movement:set_path({2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,4,4})
@@ -63,6 +68,7 @@ function tyrannosaurus:use_perfume()
   end
 
   sol.audio.play_sound("secret")
+  tyrannosaurus:get_sprite():set_animation("yes", "stopped")
   game:set_pause_allowed(false)  -- Don't allow to save without the perfume.
   game:get_item("perfume_counter"):remove_amount(1)
   game.prehistoric_tyrannosaurus_happy = true

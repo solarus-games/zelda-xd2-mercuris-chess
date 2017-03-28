@@ -34,6 +34,7 @@ function item:on_npc_interaction(npc)
 
   if not game.prehistoric_tyrannosaurus_happy then
     sol.audio.play_sound("monkey")
+    npc:get_sprite():set_animation("no", "stopped")
     game:start_dialog("prehistoric.tyrannosaurus_upset")
   else
     sol.audio.play_sound("mk64_yoshi")

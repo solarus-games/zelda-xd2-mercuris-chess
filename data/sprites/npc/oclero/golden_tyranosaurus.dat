@@ -24,7 +24,6 @@ animation{
   name = "no",
   src_image = "npc/oclero/golden_tyranosaurus.png",
   frame_delay = 50,
-  frame_to_loop_on = 0,
   directions = {
     { x = 864, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
     { x = 864, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
@@ -36,7 +35,6 @@ animation{
   name = "yes",
   src_image = "npc/oclero/golden_tyranosaurus.png",
   frame_delay = 50,
-  frame_to_loop_on = 0,
   directions = {
     { x = 96, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
     { x = 96, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },

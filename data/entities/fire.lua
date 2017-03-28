@@ -73,7 +73,7 @@ fire:add_collision_test(bush_collision_test, function(fire, entity)
     end
     local bush = entity
 
-    local bush_sprite = destructible:get_sprite()
+    local bush_sprite = entity:get_sprite()
     if bush_sprite:get_animation() ~= "on_ground" then
       -- Possibly already being destroyed.
       return

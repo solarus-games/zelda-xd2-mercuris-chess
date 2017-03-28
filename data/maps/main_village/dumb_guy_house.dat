@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "house_legacy",
-  music = "village",
+  music = "alttp/rabbit",
 }
 
 tile{
@@ -316,15 +316,41 @@ tile{
   pattern = "125",
 }
 
+tile{
+  layer = 0,
+  x = 40,
+  y = 16,
+  width = 240,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 40,
+  width = 24,
+  height = 80,
+  pattern = "51",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "45",
+}
+
 npc{
-  name = "boulet",
   layer = 0,
   x = 208,
   y = 85,
-  direction = 3,
+  direction = 0,
   subtype = 1,
   sprite = "npc/newlink/blue_haired_boy",
-  behavior = "dialog#main_village.guy_in_bed",
+  behavior = "dialog#main_village.dumb_guy_house.in_bed",
 }
 
 stairs{
@@ -369,6 +395,15 @@ enemy{
   direction = 3,
   breed = "alttp/chicken",
   treasure_name = "random",
+}
+
+npc{
+  layer = 0,
+  x = 216,
+  y = 77,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#main_village.dumb_guy_house.in_bed",
 }
 
 tile{
@@ -607,29 +642,11 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
-  y = 16,
-  width = 240,
-  height = 24,
-  pattern = "49",
-}
-
-tile{
-  layer = 1,
   x = 16,
-  y = 40,
+  y = 120,
   width = 24,
-  height = 160,
+  height = 80,
   pattern = "51",
-}
-
-tile{
-  layer = 1,
-  x = 16,
-  y = 16,
-  width = 24,
-  height = 24,
-  pattern = "45",
 }
 
 tile{
@@ -714,7 +731,7 @@ tile{
 }
 
 destination{
-  name = "start_position",
+  name = "from_outside",
   layer = 1,
   x = 80,
   y = 213,
@@ -822,14 +839,23 @@ jumper{
 }
 
 teletransporter{
-  name = "teletransporter_2",
   layer = 1,
   x = 72,
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "1",
-  destination = "stupid_guy_house_out",
+  destination_map = "out/b1",
+  destination = "from_dumb_guy_house",
+}
+
+npc{
+  name = "bed",
+  layer = 1,
+  x = 208,
+  y = 77,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/bed",
 }
 
 tile{

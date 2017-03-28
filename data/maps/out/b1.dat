@@ -15488,6 +15488,35 @@ destructible{
   ground = "grass",
 }
 
+destination{
+  name = "from_dumb_guy_house",
+  layer = 0,
+  x = 640,
+  y = 773,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 632,
+  y = 744,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/dumb_guy_house",
+  destination = "from_outside",
+}
+
+npc{
+  name = "random_walk_npc",
+  layer = 0,
+  x = 720,
+  y = 829,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/running_man",
+  behavior = "dialog#main_village.villager_tunnels",
+}
+
 tile{
   layer = 1,
   x = 624,

@@ -2,6 +2,18 @@
 
 local npc_meta = sol.main.get_metatable("npc")
 
+function npc_meta:on_created()
+
+  local name = self:get_name()
+  if name == nil then
+    return
+  end
+
+  if name:match("^random_walk_npc") then
+    self:random_walk()
+  end
+end
+
 -- Make signs hooks for the hookshot.
 function npc_meta:is_hookable()
 

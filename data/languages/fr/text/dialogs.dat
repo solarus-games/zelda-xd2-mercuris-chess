@@ -3255,6 +3255,36 @@ pour le 300 ?
 }
 
 dialog{
+  id = "main_village.dumb_guy_house.in_bed",
+  text = [[
+Sa fé 5 jours ke je
+campé dvt le magasin.
+
+Je voulait être sur
+d'avoir une iPlume en
+1er.
+Sais pr sa ke je
+suis fatiguer mnt.
+]]
+}
+
+dialog{
+  id = "main_village.villager_tunnels",
+  skip = "all",
+  text = [[
+Des gens affirment
+que les maisons et
+les cavernes sont
+reliées par des tunnels
+souterrains.
+
+C'est n'importe quoi...
+Ils ont trop joué à
+Minecraft !
+]]
+}
+
+dialog{
   id = "not_now.cat_food",
   icon = "49",
   skip = "all",

@@ -42,7 +42,7 @@ function debug:on_key_pressed(key, modifiers)
     if key == "p" then
       game:add_life(5)
     elseif key == "m" then
-      game:remove_life(1)
+      game:remove_life(4)
     elseif key == "o" then
       game:add_money(50)
     elseif key == "l" then

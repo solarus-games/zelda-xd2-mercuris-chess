@@ -3484,7 +3484,7 @@ eau ???
 
 dialog{
   id = "not_now.cat_food",
-  icon = "49",
+  icon = "37",
   skip = "all",
   text = [[
 Cette nourriture est

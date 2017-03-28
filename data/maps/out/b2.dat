@@ -9830,7 +9830,7 @@ tile{
   x = 856,
   y = 344,
   width = 8,
-  height = 32,
+  height = 8,
   pattern = "632",
 }
 
@@ -10057,15 +10057,6 @@ tile{
   width = 8,
   height = 8,
   pattern = "657",
-}
-
-tile{
-  layer = 2,
-  x = 760,
-  y = 336,
-  width = 8,
-  height = 8,
-  pattern = "632",
 }
 
 tile{

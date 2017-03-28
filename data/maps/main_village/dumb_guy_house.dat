@@ -319,12 +319,12 @@ tile{
 npc{
   name = "boulet",
   layer = 0,
-  x = 240,
+  x = 208,
   y = 85,
   direction = 3,
   subtype = 1,
-  sprite = "npc/newlink1",
-  behavior = "dialog#maison_boulet.boulet",
+  sprite = "npc/newlink/blue_haired_boy",
+  behavior = "dialog#main_village.guy_in_bed",
 }
 
 stairs{
@@ -358,6 +358,7 @@ chest{
   layer = 0,
   x = 72,
   y = 85,
+  treasure_name = "creeper",
   sprite = "entities/chest",
 }
 

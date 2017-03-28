@@ -169,7 +169,6 @@ sprites/hero/*.png
 sprites/hud/dialog_icons.png
 sprites/hud/hearts.png
 sprites/menus/dungeon_map_icons.png
-sprites/menus/fairy_cursor.png
 sprites/menus/hero_head.png
 sprites/menus/link_cursor.png
 sprites/menus/outside_world_map.png

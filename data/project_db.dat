@@ -2,10 +2,10 @@ map{ id = "caves/freaking_cave_1", description = "Freaking Cave 1" }
 map{ id = "caves/freaking_cave_2", description = "Freaking Cave 2" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
-map{ id = "chill_valley/j_house", description = "J House" }
-map{ id = "chill_valley/j_house_b1", description = "J House B1 (Cold Bath)" }
-map{ id = "chill_valley/j_house_b2", description = "J House B2 (Warm Bath)" }
-map{ id = "chill_valley/j_house_b3", description = "J House B3 (Lava bath)" }
+map{ id = "chill_valley/j_house/1f", description = "J House 1F" }
+map{ id = "chill_valley/j_house/b1", description = "J House B1 (Cold Bath)" }
+map{ id = "chill_valley/j_house/b2", description = "J House B2 (Warm Bath)" }
+map{ id = "chill_valley/j_house/b3", description = "J House B3 (Lava bath)" }
 map{ id = "chill_valley/l_house", description = "L House" }
 map{ id = "chill_valley/o_house", description = "O House" }
 map{ id = "chill_valley/s_house", description = "S House" }

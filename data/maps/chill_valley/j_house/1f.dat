@@ -6,6 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "chill_valley_j_house",
+  floor = 0,
   tileset = "dungeon/light_brown",
   music = "alttp/village",
 }
@@ -522,7 +523,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/j_house_b1",
+  destination_map = "chill_valley/j_house/b1",
 }
 
 npc{

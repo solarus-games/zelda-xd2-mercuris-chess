@@ -5542,7 +5542,7 @@ teletransporter{
   y = 256,
   width = 16,
   height = 16,
-  destination_map = "chill_valley/j_house",
+  destination_map = "chill_valley/j_house/1f",
   destination = "from_outside",
 }
 

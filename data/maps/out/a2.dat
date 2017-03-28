@@ -4764,8 +4764,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 784,
-  y = 280,
+  x = 848,
+  y = 248,
   width = 16,
   height = 8,
   pattern = "6157",
@@ -5637,6 +5637,16 @@ custom_entity{
   height = 16,
   direction = 0,
   model = "delorean",
+}
+
+npc{
+  layer = 0,
+  x = 776,
+  y = 277,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/sign",
+  behavior = "dialog#chill_valley.bath_sign",
 }
 
 tile{
@@ -7099,8 +7109,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 784,
-  y = 264,
+  x = 848,
+  y = 232,
   width = 16,
   height = 16,
   pattern = "6517",

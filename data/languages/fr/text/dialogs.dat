@@ -1916,6 +1916,24 @@ chaussettes !
 }
 
 dialog{
+  id = "chill_valley.bath_sign",
+  skip = "all",
+  text = [[
+Chill Valley,
+ville thermale.
+
+Venez profiter d'un
+moment inoubliable de
+détente et de
+relaxation dans nos
+spas et nos saunas.
+
+Ici, le bien-être
+est un art !
+]]
+}
+
+dialog{
   id = "chill_valley.big_bird",
   text = [[
 Une aventure contre un

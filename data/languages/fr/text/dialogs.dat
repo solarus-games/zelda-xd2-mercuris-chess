@@ -2193,6 +2193,21 @@ dialog{
 }
 
 dialog{
+  id = "dungeon_2.1f.5f_issues_man",
+  text = [[
+Ils font n'importe quoi
+au quatrième étage.
+
+La climatisation est
+tellement forte que
+l'éclairage est coupé.
+Il fait un froid de
+canard et on n'y voit
+rien !
+]]
+}
+
+dialog{
   id = "dungeon_2.1f.bartender",
   question = "1",
   skip = "all",

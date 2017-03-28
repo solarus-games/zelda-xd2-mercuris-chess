@@ -8369,6 +8369,25 @@ custom_entity{
   model = "hookable",
 }
 
+npc{
+  layer = 0,
+  x = 392,
+  y = 85,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/average_middle_aged_man",
+  behavior = "dialog#dungeon_2.1f.5f_issues_man",
+}
+
+npc{
+  layer = 0,
+  x = 392,
+  y = 93,
+  direction = -1,
+  subtype = 0,
+  behavior = "dialog#dungeon_2.1f.5f_issues_man",
+}
+
 tile{
   layer = 1,
   x = 840,

@@ -40,11 +40,11 @@ map{ id = "final_scene", description = "Final scene on the beach" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
 map{ id = "main_village/geek_house", description = "Geek House" }
-map{ id = "main_village/humid_house", description = "Humid House" }
 map{ id = "main_village/link_cave", description = "Link Cave" }
 map{ id = "main_village/link_house", description = "Link House" }
 map{ id = "main_village/tavern", description = "Tavern" }
 map{ id = "main_village/vases_house", description = "Vases House" }
+map{ id = "main_village/water_house", description = "Water House" }
 map{ id = "out/a1", description = "A1 (Island)" }
 map{ id = "out/a2", description = "A2 (Chill Valley)" }
 map{ id = "out/b1", description = "B1 (Castle)" }

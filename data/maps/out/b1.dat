@@ -14316,7 +14316,6 @@ wall{
 }
 
 wall{
-  name = "custom_obstacle_2",
   layer = 0,
   x = 888,
   y = 912,
@@ -14336,7 +14335,6 @@ wall{
 }
 
 wall{
-  name = "custom_obstacle_4",
   layer = 0,
   x = 600,
   y = 584,
@@ -15004,7 +15002,6 @@ destructible{
 }
 
 wall{
-  name = "custom_obstacle_5",
   layer = 0,
   x = 488,
   y = 1008,
@@ -15515,6 +15512,34 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/running_man",
   behavior = "dialog#main_village.villager_tunnels",
+}
+
+npc{
+  layer = 0,
+  x = 552,
+  y = 797,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/thief_yellow",
+  behavior = "dialog#main_village.rtfm",
+}
+
+destination{
+  name = "from_water_house",
+  layer = 0,
+  x = 520,
+  y = 957,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 512,
+  y = 928,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/water_house",
+  destination = "from_outside",
 }
 
 tile{

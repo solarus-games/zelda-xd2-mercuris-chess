@@ -3423,6 +3423,15 @@ suis fatiguer mnt.
 }
 
 dialog{
+  id = "main_village.rtfm",
+  text = [[
+Tu es perdu dans les
+commandes ?
+RTFM.
+]]
+}
+
+dialog{
   id = "main_village.villager_tunnels",
   skip = "all",
   text = [[
@@ -3435,6 +3444,41 @@ souterrains.
 C'est n'importe quoi...
 Les gens joué trop à
 Minecraft !
+]]
+}
+
+dialog{
+  id = "main_village.water_house.hello",
+  skip = "all",
+  text = [[
+J'adore l'eau.
+L'eau, c'est la vie !$0
+Non ?
+M. Grump, le Directeur
+du Bureau des Objets
+Trouvés, est quelqu'un
+d'odieux qui n'a jamais
+voulu de mon eau.
+
+Résultat, lorsque le
+Bureau des Objets
+Trouvés a été
+incendié, ils n'ont
+rien pu faire !
+]]
+}
+
+dialog{
+  id = "main_village.water_house.upset",
+  text = [[
+Qui a installé ce
+mécanisme diabolique ?!$0
+
+C'est complètement
+fou !
+
+Où est passée mon
+eau ???
 ]]
 }
 

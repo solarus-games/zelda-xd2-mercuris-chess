@@ -802,6 +802,17 @@ wall{
   stops_projectiles = true,
 }
 
+npc{
+  name = "random_walk_npc_1",
+  layer = 0,
+  x = 88,
+  y = 189,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/bun_woman",
+  behavior = "dialog#chill_valley.bath.cold",
+}
+
 tile{
   layer = 1,
   x = 192,

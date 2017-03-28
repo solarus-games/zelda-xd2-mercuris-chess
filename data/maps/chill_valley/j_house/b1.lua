@@ -17,7 +17,16 @@ function map:on_started()
   -- map entities here.
 
   swimming_lady:set_dialog_id("chill_valley.bath.lovers_brassens")
-  swimming_old_man:set_dialog_id("chill_valley.bath.cold")
+  swimming_old_man:set_interaction(function()
+    sol.audio.play_sound("tea_for_two")
+    hero:freeze()
+    hero:set_animation("swimming_slow")
+    sol.timer.start(map, 500, function()
+      game:start_dialog("chill_valley.bath.tea_for_two", function()
+        hero:unfreeze()
+      end)
+    end)
+  end)
 end
 
 -- Event called after the opening transition effect of the map,

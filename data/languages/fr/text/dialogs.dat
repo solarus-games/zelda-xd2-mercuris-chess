@@ -1906,6 +1906,13 @@ frousse...
 }
 
 dialog{
+  id = "chill_valley.bath.tea_for_two",
+  text = [[
+Are you? ...
+]]
+}
+
+dialog{
   id = "chill_valley.bath.warning_sockets",
   skip = "all",
   text = [[

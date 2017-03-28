@@ -5,7 +5,9 @@ properties{
   height = 384,
   min_layer = 0,
   max_layer = 2,
+  world = "inside_world",
   tileset = "dungeon/light_brown",
+  music = "alttp/ganon_battle",
 }
 
 tile{
@@ -316,24 +318,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
-  y = 296,
-  width = 32,
-  height = 48,
-  pattern = "bed.made",
-}
-
-tile{
-  layer = 0,
-  x = 224,
-  y = 296,
-  width = 32,
-  height = 48,
-  pattern = "bed.made",
-}
-
-tile{
-  layer = 0,
   x = 192,
   y = 344,
   width = 32,
@@ -404,6 +388,231 @@ tile{
   pattern = "wall.corner_reverse.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 144,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.3",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "wine_rack.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 32,
+  width = 16,
+  height = 24,
+  pattern = "barrel",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 176,
+  width = 32,
+  height = 32,
+  pattern = "trunk_table",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 304,
+  width = 32,
+  height = 32,
+  pattern = "cafe_table.full",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 312,
+  width = 24,
+  height = 24,
+  pattern = "269",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 144,
+  width = 32,
+  height = 24,
+  pattern = "cabinet.6a",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 176,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 80,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-6",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 80,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-7",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 176,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-7",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 288,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.3-5",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 288,
+  width = 24,
+  height = 32,
+  pattern = "wall_decor.4-4",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "table.9",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "table.6",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "table.3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "table.2",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "table.5",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "table.8",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "table.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "table.7",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 104,
+  width = 8,
+  height = 8,
+  pattern = "table.4",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -422,6 +631,131 @@ teletransporter{
   height = 16,
   destination_map = "out/a2",
   destination = "from_s_house",
+}
+
+npc{
+  name = "random_walk_npc_dogman",
+  layer = 0,
+  x = 88,
+  y = 173,
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/newlink/dogman_blue",
+  behavior = "dialog#chill_valley.s_house.dogman",
+}
+
+npc{
+  layer = 0,
+  x = 112,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/alttp/ganon",
+  behavior = "dialog#chill_valley.s_house.ganon",
+}
+
+npc{
+  name = "random_walk_npc_gibdo",
+  layer = 0,
+  x = 112,
+  y = 149,
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/alttp/gibdo",
+  behavior = "dialog#chill_valley.s_house.gibdo",
+}
+
+npc{
+  name = "random_walk_npc_mandible",
+  layer = 0,
+  x = 240,
+  y = 197,
+  direction = 2,
+  subtype = 1,
+  sprite = "enemies/newlink/mandible",
+  behavior = "dialog#chill_valley.s_house.mandible",
+}
+
+npc{
+  name = "random_walk_npc_skeletor",
+  layer = 0,
+  x = 208,
+  y = 221,
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/newlink/skeletor",
+  behavior = "dialog#chill_valley.s_house.skel",
+}
+
+npc{
+  name = "random_walk_npc_snap_dragon",
+  layer = 0,
+  x = 176,
+  y = 197,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/alttp/snap_dragon",
+  behavior = "dialog#chill_valley.s_house.snap_dragon",
+}
+
+npc{
+  name = "random_walk_npc_vipeross",
+  layer = 0,
+  x = 136,
+  y = 181,
+  direction = 1,
+  subtype = 1,
+  sprite = "enemies/newlink/vipeross",
+  behavior = "dialog#chill_valley.s_house.vipeross",
+}
+
+wall{
+  layer = 0,
+  x = 96,
+  y = 80,
+  width = 32,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+npc{
+  layer = 0,
+  x = 112,
+  y = 117,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.s_house.ganon",
+}
+
+npc{
+  layer = 0,
+  x = 104,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.s_house.ganon",
+}
+
+npc{
+  layer = 0,
+  x = 120,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.s_house.ganon",
+}
+
+wall{
+  layer = 0,
+  x = 96,
+  y = 232,
+  width = 16,
+  height = 8,
+  stops_npcs = true,
 }
 
 tile{
@@ -485,5 +819,14 @@ tile{
   width = 136,
   height = 128,
   pattern = "882",
+}
+
+tile{
+  layer = 2,
+  x = 192,
+  y = 120,
+  width = 32,
+  height = 24,
+  pattern = "cabinet.6b",
 }
 

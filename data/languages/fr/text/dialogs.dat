@@ -1649,12 +1649,21 @@ accéder à tous les
 
 dialog{
   id = "arrow_knee",
+  skip = "all",
   text = [[
-Moi aussi j'étais
-aventurier autrefois.
-
-Et puis j'ai pris une
+Avant j'étais sympa.
+Puis j'ai pris une
 flèche dans le genou.
+Depuis, j'ai cette
+haine en moi, si forte
+et inextinguible. Mais
+je n'ai pas fait de 
+mal à des innocents
+depuis six semaines,
+trois jours, deux
+heures, cinq minutes,
+et soixante-huit
+secondes...
 ]]
 }
 
@@ -2054,6 +2063,149 @@ Et maintenant ils ont
 construit le circuit
 autour.
 *sob* *sob*
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.dogman",
+  skip = "all",
+  text = [[
+Je m'appelle Ernest et
+au fond, je suis pas
+méchant, je joue juste
+un rôle dans cette
+partie... En vrai, on
+dit que je suis un
+gros bisounours... Si
+seulement j'avais le
+droit de faire des
+câlins au lieu de
+foncer dans le tas,
+j'hésiterais pas une
+seconde, crois-moi...
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.ganon",
+  skip = "all",
+  text = [[
+Oh, c'est toi...
+Vas-y, rigole de ce
+que je suis devenu...
+Un pauvre SDF. Ils ont
+détruit ma tour, non
+mais sérieux... La
+dernière fois, tu m'as
+laissé pour mort dans
+la lave... Tu étais
+l'élu, mais tu aurais
+pu m'aider... Certes,
+j'ai dit "Duel à mort"
+mais tu sais bien que
+je peux m'emporter
+rapidement... Du coup,
+j'ai ouvert ce club
+pour monstres repentis
+et ça a pas mal de
+succès. Tu devrais
+goûter nos petits
+fours, c'est un vrai
+délice.
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.gibdo",
+  skip = "all",
+  text = [[
+Ma soeur est danseuse
+dans une crypte. Ça
+a l'air de le faire
+pour elle. Et moi, que
+fais-je de ma non-vie,
+je te le demande ? Je
+devrais peut-être
+aller voir aussi ce
+"Necrodancer", tu ne
+crois pas ?
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.mandible",
+  skip = "all",
+  text = [[
+QUOI ? Qu'est-ce tu
+m'veux ? Tu m'cherches
+ou tu veux ma photo ?
+Ouais chuis un mutant,
+ET ALORS ?
+...
+...
+...
+...
+Pardon, j'recommence
+à m'vénère pour d'la
+demer... J'viens ici
+pour apprendre à
+m'contrôler... Sans
+rancune frangin ?
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.skel",
+  skip = "all",
+  text = [[
+MON COUSIN A TROUVÉ UN
+CDI AVEC UNE TORTUE
+GEANTE ET QUATRE
+ÉLÉPHANTS. IL DIT ÊTRE
+UNE... PER... SONNI...
+FICATION... EUUUH...
+ANTHRO... POMORPHIQUE.
+JE SAIS PAS CE QUE
+C'EST, MAIS CA A L'AIR
+COOL.
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.snap_dragon",
+  skip = "all",
+  text = [[
+Je compte ouvrir
+un salon de coiffure
+pour me racheter de
+toutes ces pauvres
+bêtes que j'ai mangé
+dans ma vie maléfique
+passée. N'hésite pas
+à passer me voir chez
+Extra-Ordinn'Hair.
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.vipeross",
+  skip = "all",
+  text = [[
+Un jour, y a un gars
+qu'est arrivé et qui
+m'a marravé la face.
+Le loup blanc qu'il
+se faisait appeler,
+non mais t'y crois toi
+à un nom si cliché ?
+Il se la pétait avec
+ses deux épées mais
+il savait y faire.
+Je peux te dire que ça
+m'a remis les idées en
+place, plus question
+de boulotter de
+l'humain après ça !
 ]]
 }
 

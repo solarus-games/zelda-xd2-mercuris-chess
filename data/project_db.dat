@@ -98,6 +98,7 @@ sprite{ id = "enemies/alttp/fireball_triple_red", description = "Big tirple fire
 sprite{ id = "enemies/alttp/flame_blue", description = "Flame (blue)" }
 sprite{ id = "enemies/alttp/flame_red", description = "Flame (red)" }
 sprite{ id = "enemies/alttp/flying_tile", description = "Flying Tile" }
+sprite{ id = "enemies/alttp/ganon", description = "Ganon" }
 sprite{ id = "enemies/alttp/gibdo", description = "Gibdo" }
 sprite{ id = "enemies/alttp/hardhat_beetle_blue", description = "Hardhat Beetle (blue)" }
 sprite{ id = "enemies/alttp/hardhat_beetle_red", description = "Hardhat Beetle (red)" }

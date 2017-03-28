@@ -8,7 +8,6 @@ animation{
     { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
-
 animation{
   name = "bite",
   src_image = "enemies/alttp/snap_dragon.png",
@@ -20,31 +19,6 @@ animation{
     { x = 24, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
   },
 }
-
-animation{
-  name = "immobilized",
-  src_image = "enemies/alttp/snap_dragon.png",
-  directions = {
-    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-    { x = 96, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
-  },
-}
-
-animation{
-  name = "shaking",
-  src_image = "enemies/alttp/snap_dragon.png",
-  frame_delay = 50,
-  frame_to_loop_on = 0,
-  directions = {
-    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 96, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-    { x = 96, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
-  },
-}
-
 animation{
   name = "hurt",
   src_image = "enemies/alttp/snap_dragon.png",
@@ -57,4 +31,35 @@ animation{
     { x = 48, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 3 },
   },
 }
-
+animation{
+  name = "immobilized",
+  src_image = "enemies/alttp/snap_dragon.png",
+  directions = {
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 96, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+  },
+}
+animation{
+  name = "shaking",
+  src_image = "enemies/alttp/snap_dragon.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 96, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+    { x = 96, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21, num_frames = 2 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "enemies/alttp/snap_dragon.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 24, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 48, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+    { x = 0, y = 72, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 21 },
+  },
+}

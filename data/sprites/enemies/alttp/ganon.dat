@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/alttp/ganon.png",
+  directions = {
+    { x = 0, y = 40, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 0, y = 40, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+    { x = 0, y = 40, frame_width = 48, frame_height = 40, origin_x = 24, origin_y = 37 },
+  },
+}

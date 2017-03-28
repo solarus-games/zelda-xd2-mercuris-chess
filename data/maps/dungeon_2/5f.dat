@@ -7370,6 +7370,28 @@ custom_entity{
   model = "torch",
 }
 
+custom_entity{
+  layer = 0,
+  x = 440,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 520,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
 tile{
   layer = 1,
   x = 336,

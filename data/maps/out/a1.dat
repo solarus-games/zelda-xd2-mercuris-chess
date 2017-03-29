@@ -13,19 +13,28 @@ properties{
 tile{
   layer = 0,
   x = 0,
-  y = 0,
+  y = 976,
   width = 1032,
-  height = 976,
-  pattern = "112",
+  height = 48,
+  pattern = "223",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 992,
+  width = 16,
+  height = 16,
+  pattern = "1038",
 }
 
 tile{
   layer = 0,
   x = 0,
-  y = 976,
+  y = 0,
   width = 1032,
-  height = 48,
-  pattern = "223",
+  height = 976,
+  pattern = "112",
 }
 
 tile{
@@ -8121,15 +8130,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 1016,
-  y = 728,
-  width = 32,
-  height = 32,
-  pattern = "1085",
-}
-
-tile{
-  layer = 0,
   x = 992,
   y = 944,
   width = 48,
@@ -9012,14 +9012,6 @@ npc{
   behavior = "dialog#island.liquid_gentiane",
 }
 
-chest{
-  layer = 0,
-  x = 1000,
-  y = 757,
-  treasure_name = "flippers",
-  sprite = "entities/chest",
-}
-
 npc{
   name = "island_beach_board_up",
   layer = 0,
@@ -9185,6 +9177,16 @@ npc{
   subtype = 1,
   sprite = "entities/sign",
   behavior = "dialog#island.grump_tower_sign",
+}
+
+npc{
+  layer = 0,
+  x = 768,
+  y = 1005,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/sign",
+  behavior = "dialog#island.south_sign",
 }
 
 tile{
@@ -10121,15 +10123,6 @@ tile{
   width = 48,
   height = 8,
   pattern = "1451",
-}
-
-tile{
-  layer = 1,
-  x = 1016,
-  y = 728,
-  width = 32,
-  height = 32,
-  pattern = "1503",
 }
 
 tile{

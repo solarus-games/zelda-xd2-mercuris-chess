@@ -1975,6 +1975,19 @@ météorologique.
 }
 
 dialog{
+  id = "chill_valley.east_sign",
+  skip = "all",
+  text = [[
+Est : Forêt
+
+
+Nord : Chill Valley,
+la ville dont le nom
+est synonyme de succès.
+]]
+}
+
+dialog{
   id = "chill_valley.l_house",
   text = [[
 C'est l'enfer !
@@ -1983,6 +1996,22 @@ Complètement gelé !
 Je ne comprends pas,
 j'ai le chauffage à
 fond...
+]]
+}
+
+dialog{
+  id = "chill_valley.mercuris_time_travel",
+  skip = "all",
+  text = [[
+Je n'en peux plus
+d'attendre la sortie de
+Zelda Mercuris' Chest.
+Je voudrais qu'on soit
+déjà en 2023 !
+Alors j'ai fait appel
+aux meilleurs
+spécialistes du voyage
+dans le temps.
 ]]
 }
 
@@ -2012,6 +2041,13 @@ C'est pas parce que tu
 sauves le monde que
 toutes les portes te
 sont ouvertes.
+]]
+}
+
+dialog{
+  id = "chill_valley.north_sign",
+  text = [[
+Nord : Île des Rubis
 ]]
 }
 
@@ -2226,6 +2262,25 @@ m'a remis les idées en
 place, plus question
 de boulotter de
 l'humain après ça !
+]]
+}
+
+dialog{
+  id = "chill_valley.south_east_sign",
+  skip = "all",
+  text = [[
+]]
+}
+
+dialog{
+  id = "chill_valley.welcome_sign",
+  skip = "all",
+  text = [[
+Bienvenue à Chill
+Valley !
+
+Le nom de cette ville
+est synonyme de succès.
 ]]
 }
 
@@ -3564,6 +3619,13 @@ rubis.
 }
 
 dialog{
+  id = "island.south_sign",
+  text = [[
+Sud : Chill Valley
+]]
+}
+
+dialog{
   id = "island.zoo_adopt",
   text = [[
 On peut en adopter un ?
@@ -3617,6 +3679,18 @@ d'avoir une iPlume en
 1er.
 Sais pr sa ke je
 suis fatiguer mnt.
+]]
+}
+
+dialog{
+  id = "main_village.north_sign",
+  text = [[
+Ouest : Château Doré
+Est : Désert Bakasable
+Mont Tipiton
+Ouest : Île des Rubis
+Sous vos pieds :
+Herbe verte
 ]]
 }
 

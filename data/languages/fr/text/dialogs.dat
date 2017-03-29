@@ -4470,6 +4470,7 @@ Chill Valley
 
 dialog{
   id = "main_village.vase_house",
+  skip = "all",
   text = [[
 Il y a eu un acte de
 vandalisme. Un
@@ -4477,9 +4478,9 @@ individu s'est
 introduit ici et a
 détruit des centaines
 de vases.
-Alors ça fait 2
+Alors ça fait deux
 semaines que je
-nettoye cette maison.
+nettoie cette maison.
 Les gens ne respectent
 plus rien.
 ]]

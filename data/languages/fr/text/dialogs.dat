@@ -4137,6 +4137,136 @@ C'est fermé à clé !
 }
 
 dialog{
+  id = "swamp.3_months",
+  skip = "all",
+  text = [[
+Ces immeubles
+complètement difformes
+ont été construits à
+l'arrache !
+
+
+Forcément, Monsieur
+Grump avait décidé sur
+un coup de tête que
+tout devait être fini
+en 3 mois et pas un
+jour de plus.
+Alors le chantier a été
+bâclé.
+
+Sans parler des
+conditions de travail
+des ouvriers.
+Purement et simplement
+de l'esclavage !
+
+Heureusement que la
+boutique de potions a
+sponsorisé le chantier,
+sans cela je crois
+qu'ils n'auraient
+jamais réussi à finir.
+]]
+}
+
+dialog{
+  id = "swamp.architecture",
+  skip = "all",
+  text = [[
+L'architecte de cet
+immeuble a décidé de
+mettre une porte au
+deuxième étage qui
+donne sur le vide à
+l'extérieur.
+Il anticipe ! Si jamais
+on veut construire une
+terrasse un jour,
+bah on a déjà la porte.
+$0Malin !
+]]
+}
+
+dialog{
+  id = "swamp.buildings_now",
+  skip = "all",
+  text = [[
+Avant, il y avait un
+marécage ici.
+C'était typique !
+Peu de gens le savent,
+mais on pouvait même
+sauter de flaque en
+flaque. Les
+enfants adoraient ça.
+
+Monsieur Grump, le
+magnat de l'immobilier,
+a tout racheté pour
+construire ces affreux
+blocs d'immeubles à la
+place.
+]]
+}
+
+dialog{
+  id = "swamp.ganon_palace",
+  skip = "all",
+  text = [[
+Pfff....$0
+On détruit le paysage
+au profit de la
+spéculation
+immobilière !
+
+D'accord, Ganon était
+du côté des forces du
+mal, mais quand même,
+son palais faisait
+partie de notre
+patrimoine.
+Qu'on le veuille ou
+non !
+]]
+}
+
+dialog{
+  id = "swamp.no_palace",
+  skip = "all",
+  text = [[
+Le palais de Ganon a
+été complètement rasé.
+
+Pas de palais...
+pas de palais.
+]]
+}
+
+dialog{
+  id = "swamp.otis",
+  skip = "all",
+  text = [[
+Tu cherches les gens
+qui ont construit ces
+immeubles insalubres ?
+Ce n'est pas de leur
+faute.
+
+Ils n'ont fait
+qu'obéir à Monsieur
+Grump.
+En tout cas, l'archi-
+tecte a un collègue
+absolument charmant,
+qui est parti méditer
+dans le désert au nord
+avec son chameau.
+Et moi aussi je médite.
+]]
+}
+
+dialog{
   id = "tardis.doctor_back_to_present",
   skip = "all",
   text = [[

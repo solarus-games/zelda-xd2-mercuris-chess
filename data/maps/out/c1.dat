@@ -12286,7 +12286,7 @@ teletransporter{
   y = 56,
   width = 16,
   height = 16,
-  destination_map = "caves/freaking_cave_entrance",
+  destination_map = "caves/freaking_cave",
   destination = "from_outside",
 }
 

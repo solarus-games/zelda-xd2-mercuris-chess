@@ -5,6 +5,7 @@ properties{
   height = 736,
   min_layer = -1,
   max_layer = 2,
+  world = "inside_world",
   tileset = "dungeon/blue",
   music = "doctor_octoroc/i_am_the_doctor_2",
 }

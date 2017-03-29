@@ -4523,6 +4523,7 @@ Chill Valley
 
 dialog{
   id = "main_village.tavern.tenant",
+  skip = "all",
   text = [[
 La clientèle se fait
 rare.

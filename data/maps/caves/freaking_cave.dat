@@ -1,7 +1,7 @@
 properties{
   x = 0,
   y = 0,
-  width = 800,
+  width = 920,
   height = 1256,
   min_layer = 0,
   max_layer = 2,
@@ -13,20 +13,29 @@ properties{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 64,
+  width = 760,
+  height = 640,
+  pattern = "340",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 64,
+  width = 24,
+  height = 640,
+  pattern = "225",
+}
+
+tile{
+  layer = 0,
   x = 416,
   y = 704,
   width = 80,
   height = 80,
   pattern = "3",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 56,
-  width = 800,
-  height = 648,
-  pattern = "340",
 }
 
 tile{
@@ -42,7 +51,7 @@ tile{
   layer = 0,
   x = 520,
   y = 704,
-  width = 288,
+  width = 240,
   height = 24,
   pattern = "226",
 }
@@ -249,7 +258,7 @@ tile{
   layer = 0,
   x = 480,
   y = 688,
-  width = 320,
+  width = 256,
   height = 16,
   pattern = "322",
 }
@@ -715,9 +724,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 0,
+  x = -8,
   y = 40,
-  width = 800,
+  width = 768,
   height = 24,
   pattern = "224",
 }
@@ -933,7 +942,7 @@ tile{
   layer = 0,
   x = 592,
   y = 64,
-  width = 208,
+  width = 144,
   height = 16,
   pattern = "320",
 }
@@ -1550,6 +1559,69 @@ tile{
   pattern = "170",
 }
 
+tile{
+  layer = 0,
+  x = 744,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "318",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 704,
+  width = 24,
+  height = 24,
+  pattern = "60",
+}
+
+tile{
+  layer = 0,
+  x = 760,
+  y = 40,
+  width = 24,
+  height = 24,
+  pattern = "58",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "317",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "320",
+}
+
+tile{
+  layer = 0,
+  x = 728,
+  y = 688,
+  width = 16,
+  height = 16,
+  pattern = "322",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 80,
+  width = 16,
+  height = 608,
+  pattern = "323",
+}
+
 block{
   name = "block_2",
   layer = 0,
@@ -1756,7 +1828,7 @@ destructible{
   layer = 0,
   x = 416,
   y = 749,
-  treasure_name = "heart",
+  treasure_name = "magic_flask",
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -1796,7 +1868,7 @@ destructible{
   layer = 0,
   x = 496,
   y = 765,
-  treasure_name = "heart",
+  treasure_name = "magic_flask",
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -1947,7 +2019,7 @@ tile{
   layer = 1,
   x = 0,
   y = 16,
-  width = 800,
+  width = 784,
   height = 24,
   pattern = "49",
 }
@@ -1974,7 +2046,7 @@ tile{
   layer = 1,
   x = 544,
   y = 728,
-  width = 256,
+  width = 240,
   height = 24,
   pattern = "52",
 }
@@ -2564,6 +2636,168 @@ tile{
   pattern = "54",
 }
 
+tile{
+  layer = 1,
+  x = 800,
+  y = 432,
+  width = 80,
+  height = 24,
+  pattern = "49",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 464,
+  width = 96,
+  height = 80,
+  pattern = "2",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 568,
+  width = 24,
+  height = 160,
+  pattern = "50",
+}
+
+tile{
+  layer = 1,
+  x = 800,
+  y = 552,
+  width = 80,
+  height = 24,
+  pattern = "52",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 552,
+  width = 24,
+  height = 24,
+  pattern = "53",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 40,
+  width = 24,
+  height = 400,
+  pattern = "50",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 16,
+  width = 24,
+  height = 24,
+  pattern = "46",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 432,
+  width = 24,
+  height = 24,
+  pattern = "46",
+}
+
+tile{
+  layer = 1,
+  x = 824,
+  y = 440,
+  width = 16,
+  height = 16,
+  pattern = "250",
+}
+
+tile{
+  layer = 1,
+  x = 816,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "304",
+}
+
+tile{
+  layer = 1,
+  x = 840,
+  y = 440,
+  width = 8,
+  height = 16,
+  pattern = "301",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 456,
+  width = 96,
+  height = 8,
+  pattern = "179",
+}
+
+tile{
+  layer = 1,
+  x = 880,
+  y = 456,
+  width = 24,
+  height = 96,
+  pattern = "50",
+}
+
+tile{
+  layer = 1,
+  x = 872,
+  y = 456,
+  width = 8,
+  height = 96,
+  pattern = "182",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 544,
+  width = 96,
+  height = 8,
+  pattern = "180",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 432,
+  width = 24,
+  height = 24,
+  pattern = "55",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 464,
+  width = 16,
+  height = 32,
+  pattern = "364",
+}
+
+tile{
+  layer = 1,
+  x = 784,
+  y = 528,
+  width = 16,
+  height = 16,
+  pattern = "364",
+}
+
 jumper{
   layer = 1,
   x = 320,
@@ -2790,7 +3024,7 @@ dynamic_tile{
   x = 376,
   y = 504,
   pattern = "386",
-  width = 424,
+  width = 408,
   height = 16,
   enabled_at_start = true,
 }
@@ -2799,7 +3033,7 @@ jumper{
   layer = 1,
   x = 360,
   y = 520,
-  width = 440,
+  width = 424,
   height = 8,
   direction = 6,
   jump_length = 16,
@@ -2809,7 +3043,7 @@ jumper{
   layer = 1,
   x = 384,
   y = 496,
-  width = 416,
+  width = 400,
   height = 8,
   direction = 2,
   jump_length = 16,
@@ -2872,11 +3106,121 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+custom_entity{
+  name = "timed_torch_6",
+  layer = 1,
+  x = 856,
+  y = 533,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  name = "timed_torch_7",
+  layer = 1,
+  x = 856,
+  y = 485,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+destination{
+  name = "from_tipiton_cave",
+  layer = 1,
+  x = 832,
+  y = 453,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 824,
+  y = 440,
+  width = 16,
+  height = 16,
+  destination_map = "caves/tipiton_cave/2f",
+  destination = "from_freaking_cave",
+}
+
+stairs{
+  layer = 1,
+  x = 824,
+  y = 440,
+  direction = 1,
+  subtype = 0,
+}
+
+destructible{
+  layer = 1,
+  x = 792,
+  y = 493,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 792,
+  y = 477,
+  treasure_name = "magic_flask",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 792,
+  y = 541,
+  treasure_name = "magic_flask",
+  treasure_variant = 2,
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+jumper{
+  layer = 1,
+  x = 776,
+  y = 456,
+  width = 8,
+  height = 40,
+  direction = 4,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 1,
+  x = 776,
+  y = 528,
+  width = 8,
+  height = 24,
+  direction = 4,
+  jump_length = 40,
+}
+
+tile{
+  layer = 2,
+  x = 808,
+  y = 432,
+  width = 64,
+  height = 8,
+  pattern = "411",
+}
+
 tile{
   layer = 2,
   x = 0,
   y = 0,
-  width = 800,
+  width = 920,
   height = 16,
   pattern = "170",
 }
@@ -2894,7 +3238,7 @@ tile{
   layer = 2,
   x = 552,
   y = 752,
-  width = 248,
+  width = 368,
   height = 80,
   pattern = "170",
 }
@@ -2903,7 +3247,7 @@ tile{
   layer = 2,
   x = 0,
   y = 832,
-  width = 800,
+  width = 920,
   height = 16,
   pattern = "170",
 }
@@ -2939,7 +3283,7 @@ tile{
   layer = 2,
   x = 576,
   y = 864,
-  width = 224,
+  width = 344,
   height = 392,
   pattern = "170",
 }
@@ -2948,7 +3292,7 @@ tile{
   layer = 2,
   x = 0,
   y = 848,
-  width = 800,
+  width = 920,
   height = 16,
   pattern = "170",
 }
@@ -2995,6 +3339,69 @@ tile{
   y = 1208,
   width = 16,
   height = 16,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 784,
+  y = 728,
+  width = 24,
+  height = 24,
+  pattern = "48",
+}
+
+tile{
+  layer = 2,
+  x = 880,
+  y = 552,
+  width = 24,
+  height = 24,
+  pattern = "48",
+}
+
+tile{
+  layer = 2,
+  x = 816,
+  y = 432,
+  width = 32,
+  height = 8,
+  pattern = "309",
+}
+
+tile{
+  layer = 2,
+  x = 824,
+  y = 432,
+  width = 16,
+  height = 8,
+  pattern = "346",
+}
+
+tile{
+  layer = 2,
+  x = 808,
+  y = 576,
+  width = 112,
+  height = 176,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 808,
+  y = 16,
+  width = 96,
+  height = 416,
+  pattern = "170",
+}
+
+tile{
+  layer = 2,
+  x = 904,
+  y = 16,
+  width = 16,
+  height = 560,
   pattern = "170",
 }
 

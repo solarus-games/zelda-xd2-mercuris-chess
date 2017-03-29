@@ -11033,7 +11033,7 @@ teletransporter{
   y = 24,
   width = 16,
   height = 16,
-  destination_map = "caves/tipiton_cave",
+  destination_map = "caves/tipiton_cave/1f",
   destination = "from_outside_e",
 }
 

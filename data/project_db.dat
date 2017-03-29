@@ -1,7 +1,8 @@
 map{ id = "caves/freaking_cave", description = "Freaking Cave" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
-map{ id = "caves/tipiton_cave", description = "Tipiton Cave" }
+map{ id = "caves/tipiton_cave/1f", description = "Tipiton Cave 1F" }
+map{ id = "caves/tipiton_cave/2f", description = "Tipiton Cave 2F" }
 map{ id = "chill_valley/j_house/1f", description = "J House 1F" }
 map{ id = "chill_valley/j_house/b1", description = "J House B1 (Cold Bath)" }
 map{ id = "chill_valley/j_house/b2", description = "J House B2 (Warm Bath)" }

@@ -407,6 +407,17 @@ dans l'eau profonde.
 }
 
 dialog{
+  id = "_item_description.flippers.2",
+  icon = "26",
+  skip = "all",
+  text = [[
+Les Palmes te
+permettent de nager
+dans l'eau profonde.
+]]
+}
+
+dialog{
   id = "_item_description.glove.1",
   icon = "32",
   skip = "all",
@@ -1159,6 +1170,19 @@ Tu peux maintenant
 apprécier les
 millesimes de Grump
 à leur juste valeur.
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.2",
+  icon = "26",
+  text = [[
+Tu as trouvé les
+Palmes !$0
+
+Tu les as bien payées,
+cette fois-ci elles
+sont à toi.
 ]]
 }
 

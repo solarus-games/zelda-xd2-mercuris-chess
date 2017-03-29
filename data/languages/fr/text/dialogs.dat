@@ -1917,7 +1917,11 @@ frousse...
 dialog{
   id = "chill_valley.bath.tea_for_two",
   text = [[
-Are you? ...
+Are you ? ...$0
+Comment ça ?
+
+But alors you are
+French ?
 ]]
 }
 
@@ -3543,6 +3547,7 @@ N'Y VA PAS !!!
 
 dialog{
   id = "island.grump_tower_sign",
+  skip = "all",
   text = [[
 Tour Grump
 ]]
@@ -3684,13 +3689,20 @@ suis fatiguer mnt.
 
 dialog{
   id = "main_village.north_sign",
+  skip = "all",
   text = [[
 Ouest : Château Doré
+de M. Grump
+
 Est : Désert Bakasable
 Mont Tipiton
+
 Ouest : Île des Rubis
-Sous vos pieds :
-Herbe verte
+de M. Grump
+
+Sous vos pieds : Herbe
+verte que M. Grump n'a
+pas encore rachetée
 ]]
 }
 

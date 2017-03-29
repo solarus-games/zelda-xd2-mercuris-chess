@@ -784,13 +784,12 @@ destination{
 }
 
 teletransporter{
-  name = "teletransporter",
   layer = 1,
   x = 184,
   y = 224,
   width = 16,
   height = 16,
-  destination_map = "2",
+  destination_map = "out/c1",
   destination = "from_desert_east_house",
 }
 
@@ -799,8 +798,8 @@ chest{
   layer = 1,
   x = 96,
   y = 85,
-  treasure_name = "bone_key",
-  treasure_savegame_variable = "b58",
+  treasure_name = "croissant",
+  treasure_savegame_variable = "desert_east_house_croissant_chest",
   sprite = "entities/chest",
 }
 
@@ -811,7 +810,8 @@ npc{
   y = 61,
   direction = 3,
   subtype = 1,
-  sprite = "npc/static_villager5",
+  sprite = "npc/alttp/broom_grandma",
+  behavior = "dialog#desert.east_house",
 }
 
 tile{

@@ -2601,6 +2601,48 @@ Mia-mia-miaou.
 }
 
 dialog{
+  id = "desert.cursed_cave_entrance",
+  skip = "all",
+  text = [[
+Accès condamné par
+sécurité à la suite de
+débordements.
+Il n'y a rien à voir
+ici.
+]]
+}
+
+dialog{
+  id = "desert.east_house",
+  skip = "all",
+  text = [[
+Je me demande si je ne
+vais pas déménager à
+Chill Valley !
+C'est bien plus animé
+là-bas, alors qu'ici
+c'est limite désertique.
+]]
+}
+
+dialog{
+  id = "desert.small_house",
+  skip = "all",
+  text = [[
+TODO lacets
+]]
+}
+
+dialog{
+  id = "desert.west_house",
+  skip = "all",
+  text = [[
+TODO ile des rubis
+en forme des rubis
+]]
+}
+
+dialog{
   id = "dungeon_1.1f.julien_dore",
   text = [[
 T'aimer sur les bords

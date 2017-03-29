@@ -7023,6 +7023,33 @@ npc{
   behavior = "dialog#chill_valley.south_east_sign",
 }
 
+npc{
+  layer = 0,
+  x = 240,
+  y = 637,
+  direction = 0,
+  subtype = 1,
+  sprite = "entities/karts/mario",
+}
+
+npc{
+  layer = 0,
+  x = 464,
+  y = 709,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/karts/yoshi",
+}
+
+npc{
+  layer = 0,
+  x = 128,
+  y = 837,
+  direction = 1,
+  subtype = 1,
+  sprite = "entities/karts/toad",
+}
+
 tile{
   layer = 1,
   x = 896,

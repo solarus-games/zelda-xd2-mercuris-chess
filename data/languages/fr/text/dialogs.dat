@@ -632,6 +632,19 @@ portes spéciales !
 }
 
 dialog{
+  id = "_treasure.blue_potion.1",
+  icon = "98",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+prendre un nouveau
+départ
+]]
+}
+
+dialog{
   id = "_treasure.bomb.1",
   icon = "82",
   next = "_treasure.bomb.1.1",
@@ -1209,6 +1222,19 @@ noires !
 }
 
 dialog{
+  id = "_treasure.green_potion.1",
+  icon = "97",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+te sentir humoriste
+dans l'âme
+]]
+}
+
+dialog{
   id = "_treasure.heart.1",
   icon = "84",
   text = [[
@@ -1421,6 +1447,19 @@ Carquois Géant !$0
 Il peut contenir
 jusqu'à 100 Flèches
 au lieu de 30 !
+]]
+}
+
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = "96",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour te doper
+et enchaîner les
+mobs !
 ]]
 }
 
@@ -4499,6 +4538,118 @@ dans cette cave.
 Et cela ne valait
 sûrement pas ces 20
 rubis.
+]]
+}
+
+dialog{
+  id = "island.shop.blue_potion",
+  text = [[
+LA potion ultime. Avec
+ça, tu redeviens un
+jouvanceau. Vu la
+modique somme que j'en
+demande, je me tranche
+la gorge...
+]]
+}
+
+dialog{
+  id = "island.shop.flippers",
+  text = [[
+Les palmes les plus
+rapides des sept mers.
+Avec ça, plus besoin
+de bateau, tu deviens
+le hors-bord. Donné, 
+foi de PJMTLG.
+]]
+}
+
+dialog{
+  id = "island.shop.green_potion",
+  text = [[
+Si tu veux éveiller
+la Force qui sommeille
+en toi, c'est un très
+bon choix. Et à ce
+prix, je me tranche
+la gorge !
+]]
+}
+
+dialog{
+  id = "island.shop.kitchen",
+  skip = "all",
+  text = [[
+Tu te crois à la
+cantina ? Tu crois
+qu'un gros poilu va
+venir te souffler
+dans les bronches ?
+T'es pas ici pour
+manger, alors choisis
+un truc à acheter ou
+tire-toi.
+]]
+}
+
+dialog{
+  id = "island.shop.laboratory",
+  skip = "all",
+  text = [[
+Touche pas au matos,
+petit. Laisse faire le
+pro et contente-toi
+de ce qui est déjà en
+vente. Si je venais à
+manquer de produits,
+j'en referai illico.
+]]
+}
+
+dialog{
+  id = "island.shop.merchant",
+  skip = "all",
+  text = [[
+Salut, moi c'est
+Planteur. Je suppose
+que tu viens pour ma
+spécialité de
+saucisses dans des
+petits pains... Hélas,
+je suis en rupture.
+Toute ma marchandise
+est là, et j'te jure
+que vu les prix, je
+suis pas sûr de m'en
+tirer ce mois-ci.
+]]
+}
+
+dialog{
+  id = "island.shop.red_potion",
+  text = [[
+Quand tu te sens un
+peu faible, rien de
+tel que la potion
+magique. A ce prix-là,
+vraiment, je me
+tranche la gorge !
+]]
+}
+
+dialog{
+  id = "island.shop.vault",
+  skip = "all",
+  text = [[
+HEY ! Tu crois faire
+quoi là !? Tu me
+prends pour une banque
+ou un libre-service ?
+Va faire ton casse
+ailleurs, frangin, tu
+fais pas le poids face
+à Planteur.
 ]]
 }
 

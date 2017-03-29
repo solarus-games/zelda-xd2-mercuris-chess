@@ -38,6 +38,7 @@ map{ id = "examples/enemy_store_newlink", description = "Enemy Store (Newlink)" 
 map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle" }
 map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "final_scene", description = "Final scene on the beach" }
+map{ id = "island/shop", description = "Island Shop" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
 map{ id = "main_village/link_cave", description = "Link Cave" }
@@ -605,6 +606,7 @@ sound{ id = "zora", description = "zora" }
 
 item{ id = "arrow", description = "Arrows (x1 / x5 / x10)" }
 item{ id = "big_key", description = "Dungeon big key" }
+item{ id = "blue_potion", description = "Blue Potion" }
 item{ id = "bomb", description = "Bombs (x1 / x3 / x8)" }
 item{ id = "bomb_bag", description = "Bomb bag (small / large / huge)" }
 item{ id = "bombs_counter", description = "Bombs counter" }
@@ -625,6 +627,7 @@ item{ id = "feather", description = "Feather" }
 item{ id = "fire_rod", description = "Fire rod" }
 item{ id = "flippers", description = "Flippers" }
 item{ id = "glove", description = "Iron glove / Golden glove" }
+item{ id = "green_potion", description = "Green Potion" }
 item{ id = "heart", description = "Heart (x1)" }
 item{ id = "heart_container", description = "Heart container" }
 item{ id = "heart_hundreth", description = "1/100 of heart" }
@@ -644,6 +647,7 @@ item{ id = "perfume_counter", description = "Perfume counter" }
 item{ id = "piece_of_heart", description = "Piece of heart" }
 item{ id = "quiver", description = "Quiver (small / large / huge)" }
 item{ id = "random", description = "(Random)" }
+item{ id = "red_potion", description = "Red Potion" }
 item{ id = "rupee", description = "Rupees (x1 / x5 / x20 / x50 / x100 / x300)" }
 item{ id = "rupee_bag", description = "Rupee bag (small / large / huge)" }
 item{ id = "shield", description = "Shield" }

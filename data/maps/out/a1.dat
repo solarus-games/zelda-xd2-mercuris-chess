@@ -9618,6 +9618,23 @@ wall{
   stops_projectiles = true,
 }
 
+destination{
+  name = "from_shop",
+  layer = 0,
+  x = 760,
+  y = 461,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 752,
+  y = 432,
+  width = 16,
+  height = 16,
+  destination_map = "island/shop",
+}
+
 tile{
   layer = 1,
   x = 104,

@@ -3857,6 +3857,147 @@ chance !
 }
 
 dialog{
+  id = "final.mr_grump_1",
+  text = [[
+...$0
+Princesse Zelda,
+ce moment est exquis.
+Cela fait 3 ans, 
+jour pour jour, que
+nous nous sommes connus.
+]]
+}
+
+dialog{
+  id = "final.mr_grump_2",
+  text = [[
+Oh, tu sais, c'est un
+parfum qui a beacoup
+de valeur !
+C'est mon grand-père qui
+me l'a transmis.
+
+Je ne peux pas trop
+t'en dire davantage, 
+ma chérie.
+]]
+}
+
+dialog{
+  id = "final.the_doctor_1",
+  text = [[
+OH !$0
+Tu vois ce que je vois?$0
+Mr Grump et Zelda...$0
+Ils...$0
+Non...$0
+C'est impossible...?!
+Doc Emmett Brown...
+Et son histoire de
+continuum espace-temps!
+Ce vieux fou avait
+raison! On a modifié 
+le passé!
+Oooooh...
+Je crois comprendre!
+Toi, tu as saisi ?
+Chhhhhht! $0
+Ecoutons leur
+conversation...
+]]
+}
+
+dialog{
+  id = "final.the_doctor_2",
+  text = [[
+Serait-ce possible ?!$0
+Cette odeur me rappelle
+quelque chose...
+C'est...$0
+Eureka !
+J'ai compris !
+Alors accroche-toi,
+car c'est totalement
+tiré par les cheveux.
+Le flacon de parfum
+qu'on a donné au T-rex,
+tu te souviens?
+Il a dû résister durant
+toutes ces années, 
+jusqu'à aujourd'hui.
+Le tyranosaure a évolué
+en poule au fil des
+millénaires.
+M. Grump a récupéré le
+flacon grâce à sa poule
+aux oeufs d'or...
+... qui n'est autre que
+LA DESCENDANTE DU T-REX !
+NOM DE ZEUS !
+]]
+}
+
+dialog{
+  id = "final.zelda_1",
+  text = [[
+Oui mon chéri...
+J'ai l'impression que
+c'était hier.
+Mon petit coeur a
+fondu quand tu m'as
+offert ce parfum.
+Ce fut vraiment le
+coup de fatal-foudre,
+comme disent les jeunes.
+Tu es tellement plus
+raffiné que ce boulet
+de $v...
+Dis-moi d'où il vient, 
+car mon flacon est
+quasiment vide...
+]]
+}
+
+dialog{
+  id = "final.zelda_2",
+  text = [[
+Hé!$0
+Chéri! Tu n'aurais pas
+entendu quelque chose ?
+]]
+}
+
+dialog{
+  id = "final.zelda_3",
+  text = [[
+$v!$0
+C'est toi ?
+Que fais-tu ?
+Tu nous espionnes ?
+Tu es vraiment sans
+gêne, n'est-ce pas?
+Personne ne t'a appris
+la politesse?
+
+Déjà, tu brises les pots
+dès que tu entres chez
+quelqu'un...
+En plus, tu pilles les
+temples de leurs trésors.
+
+Par-dessus le tout, tu 
+m'avais séquestrée dans
+ta cave! 
+Et voilà que tu espionnes
+un couple qui passe un
+moment romantique... !
+Tu vas devoir payer pour
+ton impolitesse! Encore
+une fois!
+]]
+}
+
+dialog{
   id = "forest.perceval",
   text = [[
 On en a gros !

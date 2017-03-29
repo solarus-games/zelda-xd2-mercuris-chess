@@ -3361,11 +3361,11 @@ wall{
 }
 
 sensor{
-  name = "cinematic_sensor",
+  name = "cinematic_sensor_1",
   layer = 0,
-  x = -8,
+  x = 24,
   y = 301,
-  width = 368,
+  width = 336,
   height = 16,
 }
 
@@ -3440,6 +3440,7 @@ wall{
 }
 
 custom_entity{
+  name = "grump_and_zelda",
   layer = 0,
   x = 192,
   y = 389,
@@ -3484,6 +3485,25 @@ destination{
   y = 85,
   direction = 3,
   starting_location_mode = "no",
+}
+
+npc{
+  name = "doctor_who",
+  layer = 0,
+  x = 192,
+  y = 237,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/the_doctor",
+}
+
+sensor{
+  name = "cinematic_sensor_3",
+  layer = 0,
+  x = 104,
+  y = 253,
+  width = 16,
+  height = 48,
 }
 
 tile{
@@ -4708,6 +4728,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "75",
+}
+
+sensor{
+  name = "cinematic_sensor_2",
+  layer = 1,
+  x = 8,
+  y = 253,
+  width = 96,
+  height = 16,
 }
 
 npc{

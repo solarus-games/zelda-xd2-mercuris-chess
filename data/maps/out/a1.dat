@@ -9280,6 +9280,80 @@ tile{
   pattern = "12842",
 }
 
+tile{
+  layer = 0,
+  x = 752,
+  y = 432,
+  width = 16,
+  height = 16,
+  pattern = "6008",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "5974",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "5920",
+}
+
+tile{
+  layer = 0,
+  x = 744,
+  y = 448,
+  width = 8,
+  height = 8,
+  pattern = "5919",
+}
+
+tile{
+  layer = 0,
+  x = 768,
+  y = 432,
+  width = 8,
+  height = 16,
+  pattern = "5975",
+}
+
+tile{
+  layer = 0,
+  x = 736,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "12458",
+}
+
+tile{
+  layer = 0,
+  x = 776,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "12459",
+}
+
+custom_entity{
+  name = "beach_hut",
+  layer = 0,
+  x = 760,
+  y = 445,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/beach_hut",
+}
+
 teletransporter{
   layer = 0,
   x = 8,
@@ -9431,8 +9505,8 @@ npc{
 
 destination{
   layer = 0,
-  x = 1000,
-  y = 933,
+  x = 744,
+  y = 485,
   direction = 3,
   default = true,
 }
@@ -9477,6 +9551,71 @@ destructible{
   destruction_sound = "stone",
   weight = 1,
   damage_on_enemies = 2,
+}
+
+wall{
+  layer = 0,
+  x = 744,
+  y = 440,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 768,
+  y = 440,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 736,
+  y = 408,
+  width = 48,
+  height = 24,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 736,
+  y = 432,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 776,
+  y = 432,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
@@ -15255,6 +15394,15 @@ tile{
   width = 48,
   height = 16,
   pattern = "12842",
+}
+
+tile{
+  layer = 1,
+  x = 744,
+  y = 416,
+  width = 32,
+  height = 16,
+  pattern = "5976",
 }
 
 dynamic_tile{

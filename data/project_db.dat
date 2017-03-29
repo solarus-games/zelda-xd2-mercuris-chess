@@ -213,6 +213,7 @@ sprite{ id = "enemies/smk_mario", description = "SMK Mario" }
 sprite{ id = "enemies/smk_toad", description = "SMK Toad" }
 sprite{ id = "enemies/smk_yoshi", description = "SMK Yoshi" }
 sprite{ id = "entities/arrow", description = "Arrow" }
+sprite{ id = "entities/beach_hut", description = "Beach Hut" }
 sprite{ id = "entities/beach_sunset/alttp_palm_tree", description = "Palm tree (not in ffomega tileset)" }
 sprite{ id = "entities/beach_sunset/mr_grump_and_zelda", description = "Mr Grump and Zelda" }
 sprite{ id = "entities/beach_sunset/sun", description = "Sun" }

@@ -151,6 +151,7 @@ sprites/enemies/la/*.png
 sprites/entities/dungeon_2/*.png
 sprites/entities/karts/*.png
 sprites/entities/arrow.png
+sprites/entities/beach_hut.png
 sprites/entities/bomb.png
 sprites/entities/boomerang.png
 sprites/entities/bush.png

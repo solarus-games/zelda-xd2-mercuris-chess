@@ -1982,11 +1982,8 @@ dialog{
   id = "chill_valley.east_sign",
   skip = "all",
   text = [[
-Est : Forêt
-
-
-Nord : Chill Valley,
-la ville dont le nom
+  - Chill Valley -
+La ville dont le nom
 est synonyme de succès.
 ]]
 }
@@ -2273,6 +2270,12 @@ dialog{
   id = "chill_valley.south_east_sign",
   skip = "all",
   text = [[
+Est : Forêt
+
+
+Nord : Chill Valley,
+la ville dont le nom
+est synonyme de succès.
 ]]
 }
 
@@ -3150,6 +3153,22 @@ dialog{
   id = "forest.perceval",
   text = [[
 On en a gros !
+]]
+}
+
+dialog{
+  id = "forest.south_west_sign",
+  skip = "all",
+  text = [[
+Ouest : Chill Valley
+]]
+}
+
+dialog{
+  id = "forest.west_sign",
+  skip = "all",
+  text = [[
+Ouest : Chill Valley
 ]]
 }
 

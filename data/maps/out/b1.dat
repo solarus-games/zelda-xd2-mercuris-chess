@@ -4476,15 +4476,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
-  y = 1008,
-  width = 32,
-  height = 32,
-  pattern = "526",
-}
-
-tile{
-  layer = 0,
   x = 672,
   y = 504,
   width = 16,
@@ -13078,6 +13069,33 @@ tile{
   pattern = "1039",
 }
 
+tile{
+  layer = 0,
+  x = -32,
+  y = 1016,
+  width = 96,
+  height = 40,
+  pattern = "502",
+}
+
+tile{
+  layer = 0,
+  x = -8,
+  y = 864,
+  width = 96,
+  height = 40,
+  pattern = "502",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 1016,
+  width = 32,
+  height = 32,
+  pattern = "526",
+}
+
 destructible{
   layer = 0,
   x = 936,
@@ -15547,7 +15565,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "entities/sign",
-  behavior = "dialog#island.south_sign",
+  behavior = "dialog#main_village.south_sign",
 }
 
 tile{
@@ -16624,7 +16642,7 @@ tile{
 tile{
   layer = 2,
   x = -32,
-  y = 1008,
+  y = 1000,
   width = 96,
   height = 16,
   pattern = "512",
@@ -16637,5 +16655,23 @@ tile{
   width = 48,
   height = 16,
   pattern = "512",
+}
+
+tile{
+  layer = 2,
+  x = -32,
+  y = 1016,
+  width = 96,
+  height = 40,
+  pattern = "511",
+}
+
+tile{
+  layer = 2,
+  x = 64,
+  y = 1008,
+  width = 8,
+  height = 40,
+  pattern = "514",
 }
 

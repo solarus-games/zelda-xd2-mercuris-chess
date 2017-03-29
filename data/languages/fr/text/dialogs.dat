@@ -721,10 +721,6 @@ immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-Il y a plusieurs"
-techniques pour le
-manipuler, à toi
-de les découvrir !
 ]]
 }
 
@@ -3291,6 +3287,18 @@ une bonne méthode.
 Du coup, autant que tu
 en prennes des nouveaux
 car là ça me stresse.
+]]
+}
+
+dialog{
+  id = "desert.tipiton_sign",
+  skip = "all",
+  text = [[
+Sommet du Mont Tipiton
+
+
+Altitude :
+pas super haut, en fait
 ]]
 }
 

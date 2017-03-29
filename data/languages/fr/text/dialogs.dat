@@ -3626,7 +3626,9 @@ rubis.
 dialog{
   id = "island.south_sign",
   text = [[
+Nord : Île des Rubis
 Sud : Chill Valley
+Est : Village
 ]]
 }
 
@@ -3713,6 +3715,19 @@ dialog{
 Tu es perdu dans les
 commandes ?
 RTFM.
+]]
+}
+
+dialog{
+  id = "main_village.south_sign",
+  skip = "all",
+  text = [[
+Ouest : Île des Rubis
+Tour Grump
+
+Sud : Forêt
+Sud-Ouest :
+Chill Valley
 ]]
 }
 

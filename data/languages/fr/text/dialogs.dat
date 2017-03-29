@@ -4140,7 +4140,7 @@ dialog{
   id = "swamp.3_months",
   skip = "all",
   text = [[
-Ces immeubles
+Ces blocs de béton
 complètement difformes
 ont été construits à
 l'arrache !

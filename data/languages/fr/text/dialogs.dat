@@ -4458,6 +4458,23 @@ Chill Valley
 }
 
 dialog{
+  id = "main_village.vase_house",
+  text = [[
+Il y a eu un acte de
+vandalisme. Un
+individu s'est
+introduit ici et a
+détruit des centaines
+de vases.
+Alors ça fait 2
+semaines que je
+nettoye cette maison.
+Les gens ne respectent
+plus rien.
+]]
+}
+
+dialog{
   id = "main_village.villager_tunnels",
   skip = "all",
   text = [[
@@ -4505,6 +4522,37 @@ fou !
 
 Où est passée mon
 eau ???
+]]
+}
+
+dialog{
+  id = "main_village.yoda_house.done",
+  skip = "all",
+  text = [[
+Relogé ici, j'ai été
+lorsque le Marais de
+la ForceTri on a rasé.
+Mais du côté humide je
+reste dans cette
+maison champignon.
+]]
+}
+
+dialog{
+  id = "main_village.yoda_house.give_green_saber",
+  text = [[
+Relogé ici, j'ai été
+lorsque le Marais de
+la ForceTri on a rasé.
+Mais du côté humide je
+reste dans cette
+maison champignon.
+Ton Sabre Laser taggué
+a été ?
+
+À tes habits assorti,
+plus convenable un
+Sabre Laser serait.
 ]]
 }
 

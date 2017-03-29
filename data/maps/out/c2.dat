@@ -11043,16 +11043,6 @@ wall{
 }
 
 npc{
-  name = "yoda",
-  layer = 0,
-  x = 72,
-  y = 189,
-  direction = 3,
-  subtype = 1,
-  sprite = "npc/newlink/yoda",
-}
-
-npc{
   name = "sign",
   layer = 0,
   x = 32,
@@ -11076,7 +11066,7 @@ teletransporter{
   y = 152,
   width = 16,
   height = 16,
-  destination_map = "main_village/geek_house",
+  destination_map = "main_village/yoda_house",
   destination = "from_outside",
 }
 

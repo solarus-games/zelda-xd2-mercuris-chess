@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "house_legacy",
-  music = "fortune_teller",
+  music = "alttp/village",
 }
 
 tile{
@@ -1219,6 +1219,16 @@ destination{
   x = 176,
   y = 309,
   direction = 1,
+}
+
+npc{
+  name = "yoda",
+  layer = 1,
+  x = 176,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/yoda",
 }
 
 tile{

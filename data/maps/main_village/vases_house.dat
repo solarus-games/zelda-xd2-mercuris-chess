@@ -12,6 +12,96 @@ properties{
 
 tile{
   layer = 0,
+  x = 40,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "14",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 40,
+  width = 224,
+  height = 8,
+  pattern = "18",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "20",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "16",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 192,
+  width = 224,
+  height = 8,
+  pattern = "21",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "17",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 8,
+  height = 144,
+  pattern = "19",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 40,
+  width = 8,
+  height = 8,
+  pattern = "15",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 48,
+  width = 224,
+  height = 144,
+  pattern = "2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 40,
+  width = 240,
+  height = 160,
+  pattern = "1",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 200,
   width = 24,
@@ -145,87 +235,6 @@ tile{
   pattern = "77",
 }
 
-tile{
-  layer = 0,
-  x = 48,
-  y = 48,
-  width = 224,
-  height = 144,
-  pattern = "2",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "14",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 40,
-  width = 224,
-  height = 8,
-  pattern = "18",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 48,
-  width = 8,
-  height = 144,
-  pattern = "20",
-}
-
-tile{
-  layer = 0,
-  x = 40,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "16",
-}
-
-tile{
-  layer = 0,
-  x = 48,
-  y = 192,
-  width = 224,
-  height = 8,
-  pattern = "21",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 192,
-  width = 8,
-  height = 8,
-  pattern = "17",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 48,
-  width = 8,
-  height = 144,
-  pattern = "19",
-}
-
-tile{
-  layer = 0,
-  x = 272,
-  y = 40,
-  width = 8,
-  height = 8,
-  pattern = "15",
-}
-
 destination{
   name = "from_outside",
   layer = 0,
@@ -243,6 +252,16 @@ teletransporter{
   height = 16,
   destination_map = "out/b1",
   destination = "from_vase_house",
+}
+
+npc{
+  layer = 0,
+  x = 104,
+  y = 109,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/broom_grandma",
+  behavior = "dialog#main_village.vase_house",
 }
 
 tile{

@@ -34,10 +34,12 @@ local function dark_map_on_draw(map, dst_surface)
   end
 
   -- Map normally dark but maybe there are torches.
-  for torch in pairs(map.lit_torches) do
-    if torch:exists() and
-        torch:is_enabled() then
-      return
+  if map.lit_torches ~= nil then
+    for torch in pairs(map.lit_torches) do
+      if torch:exists() and
+          torch:is_enabled() then
+        return
+      end
     end
   end
 

@@ -4456,6 +4456,59 @@ RTFM.
 }
 
 dialog{
+  id = "main_village.shop.croissant",
+  next = "_unknown",
+  text = [[
+Un croissant.
+
+
+À consommer plus tard
+pour récupérer beaucoup
+de vie.
+]]
+}
+
+dialog{
+  id = "main_village.shop.iplume",
+  next = "_unknown",
+  text = [[
+Une iPlume.
+C'est une révolution.
+
+Jamais une Plume
+n'avait été aussi bien
+conçue que l'iPlume.
+Disponible dès
+maintenant partout
+dans le monde
+dans les boutiques
+iPlume officielles.
+]]
+}
+
+dialog{
+  id = "main_village.shop.pain_au_chocolat",
+  next = "_unknown",
+  text = [[
+Un pain au chocolat.
+
+
+À consommer plus tard
+pour récupérer un peu
+de vie.
+]]
+}
+
+dialog{
+  id = "main_village.shop.red_rupee",
+  next = "_unknown",
+  text = [[
+Un Rubis rouge.
+Rarissime !
+]]
+}
+
+dialog{
   id = "main_village.south_sign",
   skip = "all",
   text = [[
@@ -4465,6 +4518,18 @@ Tour Grump
 Sud : Forêt
 Sud-Ouest :
 Chill Valley
+]]
+}
+
+dialog{
+  id = "main_village.tavern.tenant",
+  text = [[
+La clientèle se fait
+rare.
+
+Les gens vont tous
+à Chill Valley ou sur
+l'Île des Rubis !
 ]]
 }
 
@@ -4756,33 +4821,6 @@ dialog{
   id = "prehistoric.tyrannosaurus_upset",
   text = [[
 Grrrrr...
-]]
-}
-
-dialog{
-  id = "shop.iplume",
-  next = "_unknown",
-  text = [[
-Une iPlume.
-C'est une révolution.
-
-Jamais une Plume
-n'avait été aussi bien
-conçue que l'iPlume.
-Disponible dès
-maintenant partout
-dans le monde
-dans les boutiques
-iPlume officielles.
-]]
-}
-
-dialog{
-  id = "shop.red_rupee",
-  next = "_unknown",
-  text = [[
-Un Rubis rouge.
-Rarissime !
 ]]
 }
 

@@ -1308,12 +1308,12 @@ destination{
 shop_treasure{
   layer = 1,
   x = 408,
-  y = 64,
+  y = 120,
   treasure_name = "rupee",
   treasure_variant = 3,
   price = 50,
   font = "la",
-  dialog = "shop.red_rupee",
+  dialog = "main_village.shop.red_rupee",
 }
 
 wall{
@@ -1358,13 +1358,13 @@ enemy{
 shop_treasure{
   layer = 1,
   x = 408,
-  y = 120,
+  y = 64,
   treasure_name = "feather",
   treasure_variant = 2,
   treasure_savegame_variable = "shop_iplume",
   price = 299,
   font = "la",
-  dialog = "shop.iplume",
+  dialog = "main_village.shop.iplume",
 }
 
 wall{
@@ -1377,6 +1377,47 @@ wall{
   stops_npcs = true,
   stops_enemies = true,
   stops_blocks = true,
+}
+
+npc{
+  name = "interactive_entity_5",
+  layer = 1,
+  x = 136,
+  y = 85,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/bun_woman",
+  behavior = "dialog#main_village_tavern.tenant",
+}
+
+npc{
+  name = "pub_woman",
+  layer = 1,
+  x = 136,
+  y = 125,
+  direction = 3,
+  subtype = 0,
+  behavior = "dialog#main_village.tavern.tenant",
+}
+
+shop_treasure{
+  layer = 1,
+  x = 480,
+  y = 120,
+  treasure_name = "croissant",
+  price = 30,
+  font = "la",
+  dialog = "main_village.shop.croissant",
+}
+
+shop_treasure{
+  layer = 1,
+  x = 552,
+  y = 120,
+  treasure_name = "pain_au_chocolat",
+  price = 15,
+  font = "la",
+  dialog = "main_village.shop.pain_au_chocolat",
 }
 
 tile{

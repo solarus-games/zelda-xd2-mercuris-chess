@@ -11529,8 +11529,8 @@ jumper{
 
 npc{
   layer = 0,
-  x = 720,
-  y = 165,
+  x = 696,
+  y = 109,
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",

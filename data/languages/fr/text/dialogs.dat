@@ -3460,13 +3460,6 @@ obligatoire.
 }
 
 dialog{
-  id = "island.beach_board_up",
-  text = [[
-Vers la Grump Tower
-]]
-}
-
-dialog{
   id = "island.beach_jelly1",
   text = [[
 Haha, on a attrapé une
@@ -3532,16 +3525,23 @@ dangereux ces trucs-là ?
 }
 
 dialog{
+  id = "island.beach_north_sign",
+  text = [[
+Vers la Tour Grump
+]]
+}
+
+dialog{
   id = "island.dontgo_board",
   text = [[
-N'Y ALLEZ PAS !!!
+N'y allez pas !!!
 ]]
 }
 
 dialog{
   id = "island.dontgo_guy",
   text = [[
-N'Y VA PAS !!!
+N'y vas pas !!!
 ]]
 }
 
@@ -3659,8 +3659,8 @@ admirer.
 dialog{
   id = "island.zoo_reproduct",
   text = [[
-Est-ce qu'ils peuvent se
-reproduire ?
+Est-ce qu'ils peuvent
+se reproduire ?
 ]]
 }
 

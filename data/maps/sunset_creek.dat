@@ -4713,8 +4713,8 @@ tile{
 npc{
   name = "seagull_flying_1",
   layer = 2,
-  x = 336,
-  y = 61,
+  x = 464,
+  y = 101,
   direction = 0,
   subtype = 1,
   sprite = "npc/seagull",
@@ -4723,8 +4723,8 @@ npc{
 npc{
   name = "seagull_flying_2",
   layer = 2,
-  x = -16,
-  y = 213,
+  x = -32,
+  y = 189,
   direction = 2,
   subtype = 1,
   sprite = "npc/seagull",

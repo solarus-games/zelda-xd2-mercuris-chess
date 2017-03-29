@@ -70,15 +70,14 @@ function map:make_seagull_move(seagull, speed)
   local movement = sol.movement.create("target")
   local seagull_x, seagull_y = seagull:get_position()
   
-  if seagull_x < 0 then
+  if seagull_x < 160 then
+    -- Seagull is in the left part of screen
     seagull_sprite:set_direction(0) -- right
-    movement:set_target(320 + 32, seagull_y)
-  elseif seagull_x > 320 + 32 then
+    movement:set_target(320 + 64, seagull_y)
+  else
+    -- Seagull is in the right part of screen
     seagull_sprite:set_direction(2) -- left
-    movement:set_target(- 32, seagull_y)
-  -- else
-  --   seagull_sprite:set_direction(0) -- right
-  --   movement:set_target(320 + 32, seagull_y)
+    movement:set_target(- 64, seagull_y)
   end
 
   movement:set_speed(speed)

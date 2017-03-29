@@ -45,25 +45,22 @@ end
 
 -- The TARDIS arrive in the creek
 function map:on_opening_transition_finished(destination)
-  hero:set_visible(true)
+  if destination ~= from_tardis then
+    return
+  end
+
+  hero:freeze()
+  tardis:set_enabled(true)
+  tardis_door:set_enabled(true)
+  tardis:appear("entities/doctor_who/tardis_cache_creek.png", function()
+    map:open_doors("tardis_door")
+    tardis:get_sprite():set_animation("open")
+    sol.timer.start(map, 500, function()
+      hero:set_visible(true)
       hero:unfreeze()
       game:set_pause_allowed(true)
-  -- if destination ~= from_tardis then
-  --   return
-  -- end
-
-  -- hero:freeze()
-  -- tardis:set_enabled(true)
-  -- tardis_door:set_enabled(true)
-  -- tardis:appear("entities/doctor_who/tardis_cache_creek.png", function()
-  --   map:open_doors("tardis_door")
-  --   tardis:get_sprite():set_animation("open")
-  --   sol.timer.start(map, 500, function()
-  --     hero:set_visible(true)
-  --     hero:unfreeze()
-  --     game:set_pause_allowed(true)
-  --   end)
-  -- end)
+    end)
+  end)
 end
 
 -- Call when map needs to be drawn.

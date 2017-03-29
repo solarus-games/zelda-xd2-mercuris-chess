@@ -5,7 +5,9 @@ properties{
   height = 272,
   min_layer = 0,
   max_layer = 2,
+  world = "inside_world",
   tileset = "dungeon/light_brown",
+  music = "alttp/village",
 }
 
 tile{
@@ -316,25 +318,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 232,
-  y = 184,
-  width = 32,
-  height = 48,
-  pattern = "bed.made",
-}
-
-tile{
-  layer = 0,
-  x = 296,
-  y = 184,
-  width = 32,
-  height = 48,
-  pattern = "bed.made",
-}
-
-tile{
-  layer = 0,
-  x = 264,
+  x = 280,
   y = 232,
   width = 32,
   height = 24,
@@ -404,6 +388,321 @@ tile{
   pattern = "wall.corner_reverse.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 104,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 24,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 120,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 120,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 120,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 88,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 48,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 144,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 192,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 176,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 24,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 24,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 40,
+  width = 32,
+  height = 16,
+  pattern = "book_case.2a",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 72,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 72,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "book_case.1a",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "book_case.1a",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "book_case.1a",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 168,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.3",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 168,
+  width = 48,
+  height = 32,
+  pattern = "bookshelf.2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 168,
+  width = 16,
+  height = 32,
+  pattern = "bookshelf.1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 184,
+  width = 32,
+  height = 16,
+  pattern = "book_case.2a",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 176,
+  width = 32,
+  height = 8,
+  pattern = "book_case.2b",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "book_case.1b",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "book_case.1b",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "book_case.1b",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -424,6 +723,265 @@ teletransporter{
   destination = "from_z_house",
 }
 
+npc{
+  layer = 0,
+  x = 56,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.curse_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 80,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.magic_book",
+}
+
+npc{
+  layer = 0,
+  x = 104,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.fight_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 104,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.economy_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 80,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.politic_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 56,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.space_conquest_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 168,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.urbanism_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 192,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.geography_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 216,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.zoology_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 216,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.weapon_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 168,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.recipe_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 192,
+  y = 101,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.exploration_for_dummies",
+}
+
+npc{
+  layer = 0,
+  x = 264,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.love_book",
+}
+
+npc{
+  layer = 0,
+  x = 288,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.horror_book",
+}
+
+npc{
+  layer = 0,
+  x = 312,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.sf_book",
+}
+
+npc{
+  layer = 0,
+  x = 312,
+  y = 197,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.theater_script",
+}
+
+npc{
+  layer = 0,
+  x = 288,
+  y = 197,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.science_book",
+}
+
+npc{
+  layer = 0,
+  x = 264,
+  y = 197,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.security_systems",
+}
+
+npc{
+  layer = 0,
+  x = 176,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.child_book",
+}
+
+npc{
+  layer = 0,
+  x = 208,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.adult_book",
+}
+
+npc{
+  layer = 0,
+  x = 136,
+  y = 53,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.biography_grump",
+}
+
+npc{
+  name = "encyclopedia",
+  layer = 0,
+  x = 216,
+  y = 197,
+  direction = 3,
+  subtype = 1,
+}
+
+npc{
+  layer = 0,
+  x = 176,
+  y = 197,
+  direction = 3,
+  subtype = 1,
+  behavior = "dialog#chill_valley.z_house.hyrule_times",
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 128,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 200,
+  y = 128,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 176,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 200,
+  y = 176,
+  width = 32,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
 tile{
   layer = 1,
   x = 64,
@@ -431,6 +989,15 @@ tile{
   width = 32,
   height = 8,
   pattern = "door_top.stairs.2-2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 32,
+  width = 32,
+  height = 8,
+  pattern = "book_case.2b",
 }
 
 tile{

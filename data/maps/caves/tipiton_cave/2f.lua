@@ -1,24 +1,29 @@
--- Lua script of map caves/tipiton_cave/2f.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  map:set_light(0)
+
+  if game:get_value("tipiton_cave_2f_weak_floor") then
+    map:set_entities_enabled("weak_floor_a_open", true)
+    map:set_entities_enabled("weak_floor_a_closed", false)
+    weak_floor_a_sensor:set_enabled(false)
+  else
+    map:set_entities_enabled("weak_floor_a_open", false)
+    map:set_entities_enabled("weak_floor_a_closed", true)
+    weak_floor_a_teletransporter:set_enabled(false)
+  end
+
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+-- Weak floor.
+function weak_floor_a_sensor:on_collision_explosion()
 
+  sol.audio.play_sound("secret")
+  map:set_entities_enabled("weak_floor_a_open", true)
+  map:set_entities_enabled("weak_floor_a_closed", false)
+  weak_floor_a_sensor:set_enabled(false)
+  weak_floor_a_teletransporter:set_enabled(true)
+  game:set_value("tipiton_cave_2f_weak_floor", true)
 end

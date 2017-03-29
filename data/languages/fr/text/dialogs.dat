@@ -498,9 +498,9 @@ dialog{
   icon = "13",
   skip = "all",
   text = [[
-Sans lacets, les Bottes
-de Pégase font vraiment
-n'importe quoi.
+Sans lacets, les
+Bottes de Pégase
+font n'importe quoi.
 ]]
 }
 
@@ -509,7 +509,7 @@ dialog{
   icon = "13",
   skip = "all",
   text = [[
-Fonce partout avec les
+Fonce avec les
 Bottes de Pégase en
 appuyant sur Action.
 ]]
@@ -1317,17 +1317,17 @@ dialog{
   id = "_treasure.pegasus_shoelaces.1",
   icon = "22",
   text = [[
-Tu as retrouvé les
-lacets de tes Bottes
-de Pégase !$0
+Tu as trouvé des
+lacets pour tes
+Bottes de Pégase !$0
 Tu peux enfin te
 diriger correctement
 quand tu fonces.
 Appuie sur Action
 pour courir.
 
-Mais attention
-à ne pas les casser !
+Mais attention à
+ne pas les casser !
 ]]
 }
 
@@ -3212,12 +3212,18 @@ dialog{
   id = "desert.east_house",
   skip = "all",
   text = [[
-Je me demande si je ne
-vais pas déménager à
-Chill Valley !
-C'est bien plus animé
-là-bas, alors qu'ici
-c'est limite désertique.
+Il paraît que Monsieur
+Grump possède une île
+en forme de rubis.
+Et qu'il en a fait une
+station balnéaire,
+avec une immense tour.
+Une véritable pompe à
+fric.
+On est quand même
+mieux ici, au calme,
+loin de tout ce
+bling-bling...
 ]]
 }
 
@@ -3225,7 +3231,31 @@ dialog{
   id = "desert.small_house",
   skip = "all",
   text = [[
-TODO lacets
+Je suis en train de
+réfléchir à mon avenir.
+
+Par rapport au tien, en
+tant que diseur de
+bonne aventure tu peux
+me croire : fais très
+attention à la fortune
+de Monsieur Grump.
+]]
+}
+
+dialog{
+  id = "desert.small_house_shoelaces",
+  skip = "all",
+  text = [[
+Si tu cherches un
+moyen de mettre fin à
+tes jours, te promener
+sans lacets comme tu
+le fais là n'est pas
+une bonne méthode.
+Du coup, autant que tu
+en prennes des nouveaux
+car là ça me stresse.
 ]]
 }
 
@@ -3233,8 +3263,12 @@ dialog{
   id = "desert.west_house",
   skip = "all",
   text = [[
-TODO ile des rubis
-en forme des rubis
+Je me demande si je ne
+vais pas déménager à
+Chill Valley !
+C'est bien plus animé
+là-bas, alors qu'ici
+c'est limite désertique.
 ]]
 }
 

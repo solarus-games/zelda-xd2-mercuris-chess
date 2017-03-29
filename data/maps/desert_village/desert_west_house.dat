@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "house_legacy",
-  music = "village",
+  music = "alttp/village",
 }
 
 tile{

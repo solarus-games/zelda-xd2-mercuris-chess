@@ -28,6 +28,8 @@ function item:on_variant_changed(variant)
     -- Allow to run with the action command
     -- when the boots are not broken.
     game:set_ability("run", 1)
+  else
+    game:set_ability("run", 0)
   end
 end
 

@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   tileset = "house_legacy",
-  music = "fortune_teller",
+  music = "alttp/fortune_teller",
 }
 
 tile{
@@ -352,14 +352,13 @@ destination{
 }
 
 npc{
-  name = "wizard_2",
+  name = "wizard",
   layer = 1,
   x = 160,
   y = 125,
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/wizard",
-  behavior = "dialog#desert.small_house",
 }
 
 teletransporter{

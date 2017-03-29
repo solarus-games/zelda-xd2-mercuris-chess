@@ -3638,13 +3638,6 @@ On peut en adopter un ?
 }
 
 dialog{
-  id = "island.zoo_board",
-  text = [[
-Enclos à rubis
-]]
-}
-
-dialog{
   id = "island.zoo_chief",
   text = [[
 C'est ici que Monsieur
@@ -3670,6 +3663,14 @@ dialog{
 Ils n'avaient plus de
 couleur disponible
 pour le 300 ?
+]]
+}
+
+dialog{
+  id = "island.zoo_sign",
+  skip = "all",
+  text = [[
+Enclos à rubis
 ]]
 }
 

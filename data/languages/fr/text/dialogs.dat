@@ -1975,25 +1975,6 @@ météorologique.
 }
 
 dialog{
-  id = "chill_valley.doctor_who",
-  skip = "all",
-  text = [[
-Bonjour, je suis le
-Docteur.
-
-Il y a quelque chose
-qui ne tourne pas rond
-par ici.
-Tu aurais des infos à
-propos des rubis ?
-
-Je crois que les
-rubis se comportent
-de façon... impossible.
-]]
-}
-
-dialog{
   id = "chill_valley.l_house",
   text = [[
 C'est l'enfer !
@@ -2031,6 +2012,45 @@ C'est pas parce que tu
 sauves le monde que
 toutes les portes te
 sont ouvertes.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_1",
+  skip = "all",
+  text = [[
+Bonjour, je suis le
+Docteur.
+
+Il y a quelque chose
+qui ne tourne pas rond
+par ici.
+Tu aurais des infos à
+propos des rubis ?
+
+Je crois que les
+rubis se comportent
+de façon... impossible.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_2",
+  skip = "all",
+  text = [[
+Les gens pensent que
+le temps est une
+simple progression de
+cause à effet. Mais,
+en vérité, d'un point
+de vue non-linéaire,
+d'un point de vue non
+subjectif, c'est
+plutôt une sorte
+d'énorme boule où le
+temps s'enchevêtre
+comme un méli-mélo
+très complexe.
 ]]
 }
 

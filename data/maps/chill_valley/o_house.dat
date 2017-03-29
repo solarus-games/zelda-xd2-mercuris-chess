@@ -191,14 +191,13 @@ destination{
 }
 
 npc{
-  name = "the_doctor",
+  name = "random_walk_npc_doctor",
   layer = 0,
   x = 240,
   y = 541,
   direction = 3,
   subtype = 1,
   sprite = "npc/the_doctor",
-  behavior = "dialog#chill_valley.doctor_who",
 }
 
 custom_entity{

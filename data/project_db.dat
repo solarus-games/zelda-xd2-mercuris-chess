@@ -416,6 +416,9 @@ sprite{ id = "npc/newlink/blue_haired_boy", description = "Blue-haired boy" }
 sprite{ id = "npc/newlink/broom_woman", description = "Broom woman" }
 sprite{ id = "npc/newlink/brown_haired_woman", description = "Brown-haired woman" }
 sprite{ id = "npc/newlink/bun_woman", description = "Bun woman" }
+sprite{ id = "npc/newlink/deku_dark_green", description = "Deku (dark green)" }
+sprite{ id = "npc/newlink/deku_green", description = "Deku (green)" }
+sprite{ id = "npc/newlink/deku_red", description = "Deku (red)" }
 sprite{ id = "npc/newlink/green_hat_man", description = "Green hat man" }
 sprite{ id = "npc/newlink/otis_camel", description = "Otis on camel" }
 sprite{ id = "npc/newlink/red_hood_man", description = "Red hood man" }

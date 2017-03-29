@@ -102,8 +102,9 @@ sprites/enemies/oclero/chicken_giant.png            Olivier Cléro
 sprites/entities/la_beach/la_background.png         Olivier Cléro
 sprites/entities/la_beach/la_swell.png              Olivier Cléro
 sprites/entities/la_beach/la_wreck.png              Olivier Cléro
+sprites/npc/deku_*.png                              Newlink
 sprites/npc/marine.png                              Newlink
-sprites/npc/swimming/npc.png						Newlink/Renkineko
+sprites/npc/swimming/npc.png                        Newlink, Renkineko
 
 tilesets/la_beach.entities.png                      Christopho
 tilesets/la_beach.tiles.png                         Olivier Cléro

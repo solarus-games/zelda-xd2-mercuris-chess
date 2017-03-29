@@ -311,6 +311,16 @@ end
 -- Hovever, only the first times are mandatory.
 function zelda:on_interaction()
 
+  -- Give the pink saber if the player got the green one.
+  local sword = game:get_item("sword"):get_variant()
+  if sword == 4 then
+    -- Green Saber.
+    game:start_dialog("main_village.link_house.zelda_give_pink_saber_again", function()
+      hero:start_treasure("sword", 3)
+    end)
+    return
+  end
+
   -- Get chores state.
   local chore_step, chore_done, all_chores_done = zelda_chores:get_chores_state()
 

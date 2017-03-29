@@ -4417,6 +4417,17 @@ suis fatiguer mnt.
 }
 
 dialog{
+  id = "main_village.link_house.zelda_give_pink_saber_again",
+  text = [[
+Qui t'a transformé ton
+Sabre Laser en
+vert ???
+Laisse-moi rectifier
+cela.
+]]
+}
+
+dialog{
   id = "main_village.north_sign",
   skip = "all",
   text = [[
@@ -4969,7 +4980,7 @@ dialog{
   id = "swamp.ganon_palace",
   skip = "all",
   text = [[
-Pfff....$0
+Pfff....
 On détruit le paysage
 au profit de la
 spéculation

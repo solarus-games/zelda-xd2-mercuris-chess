@@ -8569,6 +8569,15 @@ tile{
   pattern = "116",
 }
 
+tile{
+  layer = 0,
+  x = 184,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "1038",
+}
+
 teletransporter{
   name = "teletransporter_2",
   layer = 0,
@@ -8809,7 +8818,7 @@ npc{
 custom_entity{
   layer = 0,
   x = 320,
-  y = 941,
+  y = 973,
   width = 16,
   height = 16,
   direction = 0,
@@ -8902,6 +8911,16 @@ npc{
   direction = 1,
   subtype = 1,
   sprite = "entities/karts/toad",
+}
+
+npc{
+  layer = 0,
+  x = 192,
+  y = 213,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#chill_valley.library_sign",
 }
 
 tile{
@@ -10216,5 +10235,23 @@ tile{
   width = 8,
   height = 8,
   pattern = "6151",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 152,
+  width = 32,
+  height = 32,
+  pattern = "6073",
+}
+
+tile{
+  layer = 1,
+  x = 272,
+  y = 152,
+  width = 32,
+  height = 32,
+  pattern = "6073",
 }
 

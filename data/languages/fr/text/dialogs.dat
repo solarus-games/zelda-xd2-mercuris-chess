@@ -2001,6 +2001,14 @@ fond...
 }
 
 dialog{
+  id = "chill_valley.library_sign",
+  skip = "all",
+  text = [[
+Bibliothèque municipale
+]]
+}
+
+dialog{
   id = "chill_valley.mercuris_time_travel",
   skip = "all",
   text = [[
@@ -2013,6 +2021,9 @@ Alors j'ai fait appel
 aux meilleurs
 spécialistes du voyage
 dans le temps.
+Mais je ne sais pas
+s'ils accepteront de
+m'aider !
 ]]
 }
 

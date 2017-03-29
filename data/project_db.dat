@@ -1,5 +1,4 @@
-map{ id = "caves/freaking_cave", description = "Freaking Cave 2" }
-map{ id = "caves/freaking_cave_entrance", description = "Freaking Cave 1" }
+map{ id = "caves/freaking_cave", description = "Freaking Cave" }
 map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
 map{ id = "chill_valley/j_house/1f", description = "J House 1F" }

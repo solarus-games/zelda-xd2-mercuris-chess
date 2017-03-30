@@ -11504,7 +11504,7 @@ custom_entity{
   y = 973,
   width = 16,
   height = 16,
-  direction = 0,
+  direction = 2,
   model = "delorean",
 }
 
@@ -11610,6 +11610,60 @@ custom_entity{
   height = 16,
   direction = 3,
   sprite = "entities/karts/yoshi",
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 912,
+  width = 32,
+  height = 8,
+  stops_npcs = true,
+}
+
+wall{
+  layer = 0,
+  x = 224,
+  y = 920,
+  width = 32,
+  height = 8,
+  stops_npcs = true,
+}
+
+wall{
+  layer = 0,
+  x = 256,
+  y = 928,
+  width = 160,
+  height = 8,
+  stops_npcs = true,
+}
+
+wall{
+  layer = 0,
+  x = 408,
+  y = 808,
+  width = 8,
+  height = 72,
+  stops_npcs = true,
+}
+
+wall{
+  layer = 0,
+  x = 416,
+  y = 880,
+  width = 8,
+  height = 48,
+  stops_npcs = true,
+}
+
+wall{
+  layer = 0,
+  x = 216,
+  y = 864,
+  width = 32,
+  height = 8,
+  stops_npcs = true,
 }
 
 tile{

@@ -32,3 +32,13 @@ animation{
     { x = 0, y = 216, frame_width = 72, frame_height = 56, origin_x = 36, origin_y = 53, num_frames = 6 },
   },
 }
+animation{
+  name = "walking",
+  src_image = "entities/bttf/delorean.png",
+  directions = {
+    { x = 0, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+    { x = 0, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+    { x = 72, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+    { x = 72, y = 112, frame_width = 72, frame_height = 48, origin_x = 36, origin_y = 45 },
+  },
+}

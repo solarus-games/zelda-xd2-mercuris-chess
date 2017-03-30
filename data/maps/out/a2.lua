@@ -24,7 +24,7 @@ local track_path = {
   1,1, 1,1, 1,1, 1,1,
 }
 
-local function start_kart(kart, initial_path_index)
+local function start_kart(kart, initial_path_index, speed)
 
   local path = {}
   for i = initial_path_index, #track_path do
@@ -34,14 +34,23 @@ local function start_kart(kart, initial_path_index)
     path[#path + 1] = track_path[i]
   end
 
+  kart:set_traversable_by("hero", false)
+  kart:set_traversable_by("custom_entity", true)
+
+  local sprite = kart:get_sprite()
+  sprite:set_animation("walking")
+
   local movement = sol.movement.create("path")
 
   movement:set_path(path)
-  movement:set_speed(96)
+  movement:set_speed(speed)
   movement:set_loop(true)
   movement:set_ignore_obstacles(true)
-  -- TODO different speed for each, and changing speeds
   movement:start(kart)
+
+  function movement:on_changed()
+    sprite:set_direction(movement:get_direction4())
+  end
 
 end
 
@@ -50,12 +59,15 @@ function map:on_started()
   local movement = sol.movement.create("random_path")
   movement:start(doc)
 
-  deloreane:get_sprite():set_animation("flying")
+  start_kart(toad, 133, math.random(96, 128))
+  start_kart(mario, 7, math.random(64, 128))
+  start_kart(yoshi, 45, math.random(96, 192))
+  start_kart(deloreane, 95, math.random(64, 96))
 
-  start_kart(toad, 133)
-  start_kart(mario, 7)
-  start_kart(yoshi, 45)
-  start_kart(deloreane, 95)
+  deloreane:get_sprite():set_animation("flying_no_shadow")
+  deloreane:set_traversable_by(true)  -- Because flying.
+  deloreane:set_traversable_by("hero", true)
+  deloreane:get_sprite():set_direction(2)
 
 end
 

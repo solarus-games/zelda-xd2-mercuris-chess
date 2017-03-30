@@ -5835,6 +5835,30 @@ A la fraiche ?
 }
 
 dialog{
+  id = "lafoo_riot.perfume_npc",
+  text = [[
+Hé toi !
+
+
+Tiens, 
+prends ce parfum !
+
+Je n'ai jamais
+réussi à le refourguer 
+contre une hache.
+Au passage, asperge-toi
+car tu fouettes comme
+un phoque.
+Tu as passé la journée à
+faire des corvées ou
+quoi ?!
+Bon, je file, j'aime
+pas la foule, et là
+c'est une émeute !
+]]
+}
+
+dialog{
   id = "main_village.dumb_guy_house.in_bed",
   text = [[
 Sa fé 5 jours ke je

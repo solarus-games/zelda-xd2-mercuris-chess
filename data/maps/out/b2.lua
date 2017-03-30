@@ -64,7 +64,7 @@ function map:on_started()
   -- Hide the Fire Rod NPC if player already has the fire rod
   local fire_rod = game:get_item("fire_rod"):get_variant()
   local has_fire_rod = fire_rod >= 1
-  if has_fire_rod then 
+  if has_fire_rod and npc_riot_25 ~= nil then 
     npc_riot_25:remove()
   end
 

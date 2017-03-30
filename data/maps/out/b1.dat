@@ -15901,6 +15901,25 @@ npc{
   behavior = "dialog#lafoo_riot.npc_38",
 }
 
+sensor{
+  name = "perfume_sensor",
+  layer = 0,
+  x = 96,
+  y = 925,
+  width = 128,
+  height = 16,
+}
+
+npc{
+  name = "perfume_npc",
+  layer = 0,
+  x = 136,
+  y = 1013,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/alttp/woman_yellow",
+}
+
 tile{
   layer = 1,
   x = 624,

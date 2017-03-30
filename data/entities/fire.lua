@@ -7,7 +7,7 @@ local enemies_touched = { }
 
 fire:set_size(8, 8)
 fire:set_origin(4, 5)
-sprite = fire:create_sprite("entities/fire")
+sprite = fire:get_sprite() or fire:create_sprite("entities/fire")
 sprite:set_direction(fire:get_direction())
 
 -- Remove the sprite if the animation finishes.
@@ -128,6 +128,5 @@ fire:add_collision_test("sprite", function(fire, entity)
 end)
 
 function fire:on_obstacle_reached()
-
   fire:remove()
 end

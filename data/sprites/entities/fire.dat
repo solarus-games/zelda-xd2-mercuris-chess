@@ -19,3 +19,15 @@ animation{
     { x = 96, y = 32, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21 },
   },
 }
+animation{
+  name = "repeating",
+  src_image = "entities/fire.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 32, origin_x = 16, origin_y = 21, num_frames = 2 },
+  },
+}

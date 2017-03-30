@@ -3450,8 +3450,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 704,
-  y = 472,
+  x = 648,
+  y = 528,
   width = 8,
   height = 16,
   pattern = "6510",
@@ -3459,8 +3459,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 688,
-  y = 472,
+  x = 632,
+  y = 528,
   width = 16,
   height = 16,
   pattern = "6509",
@@ -3468,8 +3468,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 680,
-  y = 472,
+  x = 624,
+  y = 528,
   width = 8,
   height = 16,
   pattern = "6508",
@@ -3873,8 +3873,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 624,
-  y = 520,
+  x = 696,
+  y = 672,
   width = 16,
   height = 16,
   pattern = "1038",
@@ -9343,6 +9343,15 @@ tile{
   pattern = "12459",
 }
 
+sensor{
+  name = "grump_sensor_2",
+  layer = 0,
+  x = 760,
+  y = 461,
+  width = 16,
+  height = 16,
+}
+
 custom_entity{
   name = "beach_hut",
   layer = 0,
@@ -9368,8 +9377,8 @@ teletransporter{
 npc{
   name = "beach_board",
   layer = 0,
-  x = 632,
-  y = 533,
+  x = 704,
+  y = 685,
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
@@ -9379,8 +9388,8 @@ npc{
 npc{
   name = "island_hideseek_mom",
   layer = 0,
-  x = 696,
-  y = 485,
+  x = 640,
+  y = 541,
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/blonde_woman",
@@ -9505,8 +9514,8 @@ npc{
 
 destination{
   layer = 0,
-  x = 744,
-  y = 485,
+  x = 704,
+  y = 509,
   direction = 3,
   default = true,
 }
@@ -9633,6 +9642,34 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "island/shop",
+}
+
+sensor{
+  name = "grump_sensor_1",
+  layer = 0,
+  x = 704,
+  y = 405,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "grump_sensor_3",
+  layer = 0,
+  x = 664,
+  y = 445,
+  width = 80,
+  height = 16,
+}
+
+custom_entity{
+  name = "grump_target_2",
+  layer = 0,
+  x = 680,
+  y = 421,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{
@@ -16954,6 +16991,26 @@ sensor{
   y = 389,
   width = 16,
   height = 16,
+}
+
+npc{
+  name = "grump",
+  layer = 1,
+  x = 704,
+  y = 277,
+  direction = 3,
+  subtype = 1,
+  sprite = "enemies/oclero/mr_grump",
+}
+
+custom_entity{
+  name = "grump_target_1",
+  layer = 1,
+  x = 704,
+  y = 381,
+  width = 16,
+  height = 16,
+  direction = 0,
 }
 
 tile{

@@ -4590,8 +4590,9 @@ banni du restaurant !
 
 dialog{
   id = "island.beach_board",
+  skip = "all",
   text = [[
-Grump beach
+Île des Rubis
 
 
 Maillot de bain
@@ -4682,6 +4683,22 @@ dialog{
   id = "island.dontgo_guy",
   text = [[
 N'y vas pas !!!
+]]
+}
+
+dialog{
+  id = "island.grump_hey",
+  text = [[
+Hé !
+]]
+}
+
+dialog{
+  id = "island.grump_my_flippers",
+  text = [[
+Mais ce sont mes
+palmes !$0
+Gardes ! Sécurité !
 ]]
 }
 

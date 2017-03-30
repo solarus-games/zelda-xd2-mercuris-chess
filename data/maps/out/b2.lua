@@ -48,6 +48,9 @@ function map:on_started()
     end
   end
 
+  if hidden_chest:is_open() then
+    lens_fake_tile_1:set_enabled(false)
+  end
 end
 
 -- Called each time a bush in Link's garden is cut.
@@ -80,3 +83,11 @@ function link_mailbox:on_interaction()
     zelda_chores:set_chore_done(true)
   end
 end
+
+function map:on_obtaining_treasure(item, variant, savegame_variable)
+
+  if savegame_variable == "forest_invisible_rupee_chest" then
+    lens_fake_tile_1:set_enabled(false)
+  end
+end
+

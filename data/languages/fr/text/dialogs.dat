@@ -4032,6 +4032,62 @@ chance !
 }
 
 dialog{
+  id = "final.credits",
+  text = [[
+$1 Ce jeu parodique a été
+réalisé en dix
+semaines par la
+Solarus Team à
+l'occasion du
+1er avril 2017,
+avec l'aide de quelques
+pizzas et de fortes
+doses de café.
+
+         Crédits
+
+     Programmation
+       du moteur :
+Christopho
+       Scénario :
+Olivier Cléro
+Christopho
+Metallizer
+Valoo
+
+      Réalisation
+       des maps :
+
+Christopho
+Metallizer
+Renkineko
+BenObiWan
+Valoo
+Mymy
+
+
+
+       Conception
+      des donjons :
+
+      Château Doré :
+Metallizer
+
+       Tour Grump :
+Christopho
+
+       Graphismes :
+Olivier Cléro
+Newlink
+        Tests :
+Binbin
+
+
+ www.zelda-solarus.com
+]]
+}
+
+dialog{
   id = "final.mr_grump_1",
   text = [[
 ...$0

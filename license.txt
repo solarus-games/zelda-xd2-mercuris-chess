@@ -95,6 +95,7 @@ sprites/npc/oclero/golden_tyranosaurus.png          Olivier Cléro
 Original art inspired from Nintendo:                Author
 ------------------------------------                ------
 musics/bulby/*.ogg                                  Bulby: https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ
+musics/metallizer/la_eagle_tower.ogg                Metallizer
 musics/oclero/la_link_is_awake.ogg                  Olivier Cléro
 musics/shield/*.spc                                 Shield
 

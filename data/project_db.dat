@@ -45,6 +45,7 @@ map{ id = "la_dream", description = "Link's dream (LA beach)" }
 map{ id = "main_village/dumb_guy_house", description = "Dumb Guy House" }
 map{ id = "main_village/link_cave", description = "Link Cave" }
 map{ id = "main_village/link_house", description = "Link House" }
+map{ id = "main_village/lost_found_office", description = "Lost and Found Office" }
 map{ id = "main_village/tavern", description = "Tavern" }
 map{ id = "main_village/vases_house", description = "Vases House" }
 map{ id = "main_village/water_house", description = "Water House" }
@@ -486,6 +487,7 @@ music{ id = "doctor_octoroc/victory_fanfare", description = "Victory fanfare" }
 music{ id = "doctor_octoroc/victory_fanfare_main", description = "Victory fanfare main" }
 music{ id = "larryinc64/queen_another_one", description = "Queen - Another one bites the dust" }
 music{ id = "larryinc64/sm64_slider", description = "Super Mario 64 - Slider" }
+music{ id = "metallizer/la_eagle_tower", description = "Eagle Tower" }
 music{ id = "oclero/la_link_is_awake", description = "Link Is Awake (SNES version)" }
 music{ id = "shield/mm_stone_tower", description = "Stone Tower" }
 music{ id = "smas/underworld", description = "Underworld (Super Mario)" }

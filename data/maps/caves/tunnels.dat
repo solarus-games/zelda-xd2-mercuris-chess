@@ -4756,6 +4756,16 @@ tile{
 
 teletransporter{
   layer = -1,
+  x = 1432,
+  y = 1136,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/lost_found_office",
+  destination = "from_tunnels",
+}
+
+teletransporter{
+  layer = -1,
   x = 104,
   y = 896,
   width = 16,
@@ -4966,7 +4976,7 @@ stairs{
   layer = -1,
   x = 1432,
   y = 1136,
-  direction = 1,
+  direction = 3,
   subtype = 2,
 }
 
@@ -5749,6 +5759,16 @@ stairs{
   y = 608,
   direction = 1,
   subtype = 2,
+}
+
+destination{
+  name = "destination",
+  layer = -1,
+  x = 1440,
+  y = 1117,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{
@@ -10687,16 +10707,6 @@ dynamic_tile{
   width = 32,
   height = 8,
   enabled_at_start = true,
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 216,
-  y = 885,
-  direction = 1,
-  starting_location_mode = "yes",
-  default = true,
 }
 
 chest{

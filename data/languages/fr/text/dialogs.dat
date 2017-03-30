@@ -4996,6 +4996,9 @@ dialog{
   id = "main_village.water_house.hello",
   skip = "all",
   text = [[
+Je reviens tout juste
+d'une cure thermale aux
+bains de Chill Valley.
 J'adore l'eau.
 L'eau, c'est la vie !$0
 Non ?

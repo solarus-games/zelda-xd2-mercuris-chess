@@ -613,6 +613,195 @@ tile{
   pattern = "table.4",
 }
 
+tile{
+  layer = 0,
+  x = 192,
+  y = 224,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 232,
+  width = 32,
+  height = 56,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 224,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 232,
+  width = 8,
+  height = 56,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 232,
+  width = 8,
+  height = 56,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 288,
+  width = 32,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 288,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 136,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 144,
+  width = 32,
+  height = 56,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 144,
+  width = 8,
+  height = 56,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 144,
+  width = 8,
+  height = 56,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 200,
+  width = 32,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 176,
+  width = 8,
+  height = 16,
+  pattern = "wine_bottle",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 184,
+  width = 8,
+  height = 16,
+  pattern = "wine_bottle",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "table_piece.1",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -637,7 +826,7 @@ npc{
   name = "random_walk_npc_dogman",
   layer = 0,
   x = 88,
-  y = 173,
+  y = 149,
   direction = 1,
   subtype = 1,
   sprite = "enemies/newlink/dogman_blue",
@@ -657,8 +846,8 @@ npc{
 npc{
   name = "random_walk_npc_gibdo",
   layer = 0,
-  x = 112,
-  y = 149,
+  x = 136,
+  y = 141,
   direction = 1,
   subtype = 1,
   sprite = "enemies/alttp/gibdo",
@@ -680,7 +869,7 @@ npc{
   name = "random_walk_npc_skeletor",
   layer = 0,
   x = 208,
-  y = 221,
+  y = 229,
   direction = 1,
   subtype = 1,
   sprite = "enemies/newlink/skeletor",
@@ -701,8 +890,8 @@ npc{
 npc{
   name = "random_walk_npc_vipeross",
   layer = 0,
-  x = 136,
-  y = 181,
+  x = 112,
+  y = 173,
   direction = 1,
   subtype = 1,
   sprite = "enemies/newlink/vipeross",

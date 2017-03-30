@@ -4899,6 +4899,367 @@ Enclos à rubis
 }
 
 dialog{
+  id = "lafoo.entrance",
+  text = [[
+Mieux vaut ne pas entrer
+là-dedans...
+
+... ça risque de
+s'écrouler à tout 
+moment !
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_1",
+  text = [[
+A partir d'ici:
+1h d'attente.
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_2",
+  text = [[
+A partir d'ici:
+45 minutes d'attente.
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_3",
+  text = [[
+A partir d'ici:
+44 minutes 59 secondes
+d'attente.
+Oui, ça n'avance pas
+vite...
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_4",
+  text = [[
+A partir d'ici, il
+faudrait penser à 
+prendre un ticket.
+Une fois obtenu,
+veuillez compter 1h
+d'attente supplémentaire.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_1",
+  text = [[
+J'ai des papillons au
+ventre...
+
+C'est sans doute le
+bonheur de voir cet
+édifice brûler!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_10",
+  text = [[
+Mr Grump aurait commencé
+à bâtir sa fortune en
+nettoyant le caca des
+morts à l'hôpital 
+Tessier... 
+
+Ne riez pas,
+il n'y a pas de
+sous-métier.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_11",
+  text = [[
+Je suis persuadé que cet
+incendie n'a pas été
+causé par le peuple...
+Non, c'est un complot
+de l'intérieur, fait par
+le gouvernement !
+Tu as déjà entendu 
+parler de ceux qu'on 
+appelle les Illuminatis?
+Nan ?
+Et des Reptiliens?
+Non plus ?
+C'est les sociétés
+secrètes responsables
+de cet incendie,
+j'en suis sûr !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_12",
+  text = [[
+J'ai senti comme une
+odeur de brulé...
+
+Je croyais au début que
+c'était la ouiche
+lorraine que j'avais
+laissée dans le four.
+Que Nenni!
+C'était ce maudit Bureau
+que le peuple eut décidé
+de brûler!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_13",
+  text = [[
+Bah fais quelque chose!
+Ne reste pas les bras
+croisés!
+Enfin, je dis ça, mais
+je ne suis pas mieux
+moi !
+Quelqu'un a appelé les
+pompiers, au moins ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_14",
+  text = [[
+D'un côté, c'est triste
+quand il y a un incendie
+...
+Mais d'un autre, c'est
+un plaisir de voir
+ce truc brûler!
+Mr Grump, son proprio,
+est ignoble avec les
+femmes.
+Il mérite qu'on lui
+remette les idées en
+place !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_15",
+  text = [[
+J'ai vu des gens du
+village mettre le feu
+à ce bâtiment!
+C'est le Bureau des
+Objets Trouvés.
+
+J'étais là quand ça a
+commencé!
+
+J'ai tout vu, mais je ne
+dirai rien!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_16",
+  text = [[
+Ce fichu Bureau des
+Objets Trouvés...
+Il brûle enfin !
+Je me rapelle avoir
+passé une journée
+entière dedans.
+C'était à n'en plus
+finir, cette paperasse
+administrative !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_17",
+  text = [[
+Le feu, ça brûle...$0
+Et l'eau, ça mouille.
+
+Tiens, ça ferait une
+bonne chanson, ça!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_18",
+  text = [[
+Certains l'appelaient le
+Bureau des Objets 
+Trouvés.
+Moi je l'appelais: le
+Bureau du Temps Perdu !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_19",
+  text = [[
+Aucun pays ne s'est
+jamais élevé sans s'être
+purifié au feu de la
+souffrance.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_2",
+  text = [[
+OUI MONSIEUR!
+N'AYONS PAS PEUR DES
+MOTS !!!
+Ce bâtiment qui brûle,
+c'est tout un symbole!
+
+C'est le peuple qui
+s'est exprimé et qui
+revendique sa colère!
+Assez des démarches
+administratives!
+
+Assez de la bureaucratie
+cosmopolito-bourgeoise!
+
+Assez de tout ça!
+REVOLUTION !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_20",
+  text = [[
+La grogne du peuple
+s'est faite entendre !
+
+Heureusement que les
+employés ont réussi
+à sortir à temps.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_21",
+  text = [[
+Allumeeeeeez le feu !
+Allumeeeeeez le feu !
+
+Et faire danser les
+diables et les dieux !
+
+Tu connais Johnny ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_22",
+  text = [[
+Tu sais ce qui serait
+cool ?
+
+C'est qu'on passe le
+Boléro du Feu pendant
+cet incendie !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_3",
+  text = [[
+J'ai une admiration
+pour les hommes
+intègres...
+...et sache-le, petit,
+le directeur du Bureau
+des Objets Trouvés
+n'en était pas un!
+Alors, qu'il aille au 
+diable!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_4",
+  text = [[
+Le directeur du Bureau
+des Objets Trouvés
+s'appelle Mr Grump.
+Il vit dans le château
+royal, qui a racheté
+avec sa fortune...
+Quel bachi-bouzouk !
+Moule-à-gaufre!
+Saltinbanque!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_5",
+  text = [[
+Certains hommes veulent
+seulement regarder le
+monde brûler...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_6",
+  text = [[
+Et qui va nettoyer les
+cendres dûes a cet
+incendie?
+C'est encore mamie...
+
+
+Ah, pour faire le souk,
+ils sont bons, ces 
+jeunes gens!
+Par contre, dès qu'il
+s'agit de ranger...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_7",
+  text = [[
+Je faisais mon footing
+hebdomadaire, quand
+soudain...
+... mon lacet s'est
+défait.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_8",
+  text = [[
+Gné-hé-hé...
+J'ai toujours eu une
+passion pour le feu...
+Mais j'tassure,
+c'est pas moi, pour
+une fois !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_9",
+  text = [[
+On est pas bien, là ?
+Paisible ? 
+A la fraiche ?
+]]
+}
+
+dialog{
   id = "main_village.dumb_guy_house.in_bed",
   text = [[
 Sa fé 5 jours ke je

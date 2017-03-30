@@ -4922,7 +4922,8 @@ destructible{
   layer = -1,
   x = 2008,
   y = 77,
-  treasure_name = "random",
+  treasure_name = "rupee",
+  treasure_variant = 2,
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -5505,7 +5506,8 @@ destructible{
   layer = -1,
   x = 1528,
   y = 1037,
-  treasure_name = "random",
+  treasure_name = "rupee",
+  treasure_variant = 2,
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -10705,6 +10707,16 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+chest{
+  layer = 0,
+  x = 1464,
+  y = 325,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "tunnels_50_rupee_chest",
+  sprite = "entities/chest",
 }
 
 tile{

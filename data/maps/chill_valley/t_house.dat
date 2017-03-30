@@ -859,15 +859,6 @@ teletransporter{
 
 tile{
   layer = 1,
-  x = 64,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.2-2",
-}
-
-tile{
-  layer = 1,
   x = 40,
   y = 16,
   width = 24,
@@ -927,6 +918,15 @@ tile{
   width = 16,
   height = 8,
   pattern = "cafe_chair.1b",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 152,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-1",
 }
 
 tile{

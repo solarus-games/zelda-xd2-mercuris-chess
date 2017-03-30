@@ -798,8 +798,9 @@ chest{
   layer = 1,
   x = 96,
   y = 85,
-  treasure_name = "croissant",
-  treasure_savegame_variable = "desert_east_house_croissant_chest",
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "desert_east_house_rupees_chest",
   sprite = "entities/chest",
 }
 

@@ -7734,6 +7734,24 @@ tile{
   pattern = "torch",
 }
 
+tile{
+  layer = 1,
+  x = 608,
+  y = 304,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.4",
+}
+
+tile{
+  layer = 1,
+  x = 336,
+  y = 304,
+  width = 16,
+  height = 32,
+  pattern = "wall_torch.3",
+}
+
 dynamic_tile{
   name = "lens_fake_tile_1",
   layer = 1,

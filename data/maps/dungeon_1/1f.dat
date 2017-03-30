@@ -8403,24 +8403,6 @@ tile{
   pattern = "door.1.support.2-1",
 }
 
-door{
-  name = "west_fake_door",
-  layer = 0,
-  x = 344,
-  y = 336,
-  direction = 2,
-  sprite = "entities/doors/door_d1_normal",
-}
-
-door{
-  name = "library_door",
-  layer = 0,
-  x = 1800,
-  y = 264,
-  direction = 1,
-  sprite = "entities/doors/door_d1_normal",
-}
-
 chest{
   layer = 0,
   x = 160,
@@ -9338,16 +9320,6 @@ jumper{
   jump_length = 40,
 }
 
-jumper{
-  layer = 0,
-  x = 152,
-  y = 352,
-  width = 16,
-  height = 8,
-  direction = 6,
-  jump_length = 40,
-}
-
 dynamic_tile{
   name = "animated_river_4_4",
   layer = 0,
@@ -9887,32 +9859,6 @@ wall{
   stops_projectiles = true,
 }
 
-wall{
-  layer = 0,
-  x = 144,
-  y = 352,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  layer = 0,
-  x = 168,
-  y = 352,
-  width = 8,
-  height = 8,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 dynamic_tile{
   name = "lens_invisible_tile_2",
   layer = 0,
@@ -9987,6 +9933,24 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+door{
+  name = "west_fake_door",
+  layer = 0,
+  x = 344,
+  y = 352,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "library_door",
+  layer = 0,
+  x = 1816,
+  y = 264,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
 }
 
 tile{

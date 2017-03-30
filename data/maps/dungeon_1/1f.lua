@@ -41,14 +41,20 @@ function map:create_chicken_boss()
   map:create_enemy(prop)
 end
 
-
+function boss:on_dead()
+  exit_door_key_chest:set_enabled(true)
+end
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
   map:set_doors_open("boss_door")
-  map:get_entity("exit_door_key_chest"):set_enabled(false)
+  
   if not game:get_value("dungeon_1_exit_door_closed") == true then
     map:set_doors_open("exit_door")
+  end
+
+  if not game:get_value("is_chicken_boss_dead") == true then
+    map:get_entity("exit_door_key_chest"):set_enabled(false)
   end
 
   library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.

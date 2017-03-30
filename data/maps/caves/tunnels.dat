@@ -7,7 +7,7 @@ properties{
   max_layer = 2,
   world = "inside_world",
   floor = -1,
-  tileset = "dungeon/dark_brown",
+  tileset = "dungeon/blue",
   music = "smas/underworld",
 }
 
@@ -1179,15 +1179,6 @@ tile{
   width = 144,
   height = 24,
   pattern = "wall_low.1-2",
-}
-
-tile{
-  layer = -1,
-  x = 792,
-  y = 608,
-  width = 16,
-  height = 16,
-  pattern = "door_stairs.straight_up.1",
 }
 
 tile{
@@ -4754,6 +4745,15 @@ tile{
   pattern = "door_stairs.straight_down.2",
 }
 
+tile{
+  layer = -1,
+  x = 792,
+  y = 608,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.spiral_up.1",
+}
+
 teletransporter{
   layer = -1,
   x = 104,
@@ -4860,14 +4860,6 @@ destination{
   x = 800,
   y = 621,
   direction = 1,
-}
-
-stairs{
-  layer = -1,
-  x = 792,
-  y = 608,
-  direction = 1,
-  subtype = 2,
 }
 
 wall{
@@ -5749,6 +5741,14 @@ door{
   direction = 3,
   sprite = "entities/doors/door_d2_normal",
   savegame_variable = "tunnels_door_a",
+}
+
+stairs{
+  layer = -1,
+  x = 792,
+  y = 608,
+  direction = 1,
+  subtype = 2,
 }
 
 tile{
@@ -11199,14 +11199,14 @@ tile{
   x = 1280,
   y = 496,
   width = 16,
-  height = 200,
+  height = 208,
   pattern = "ceiling.2",
 }
 
 tile{
   layer = 2,
   x = 1584,
-  y = 488,
+  y = 496,
   width = 16,
   height = 208,
   pattern = "ceiling.2",
@@ -11224,7 +11224,7 @@ tile{
 tile{
   layer = 2,
   x = 1280,
-  y = 696,
+  y = 704,
   width = 320,
   height = 16,
   pattern = "ceiling.2",
@@ -11235,7 +11235,7 @@ tile{
   x = 1296,
   y = 624,
   width = 288,
-  height = 72,
+  height = 80,
   pattern = "ceiling.2",
 }
 

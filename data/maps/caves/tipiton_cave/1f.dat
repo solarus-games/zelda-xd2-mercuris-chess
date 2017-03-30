@@ -966,8 +966,8 @@ teletransporter{
 enemy{
   name = "enemy_3",
   layer = 0,
-  x = 568,
-  y = 77,
+  x = 448,
+  y = 61,
   direction = 3,
   breed = "newlink/bee_guard",
   treasure_name = "random",

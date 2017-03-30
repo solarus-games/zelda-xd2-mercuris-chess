@@ -370,6 +370,77 @@ tile{
   pattern = "wall_hole.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 552,
+  y = 40,
+  width = 8,
+  height = 48,
+  pattern = "hole.3",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-6",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 16,
+  width = 16,
+  height = 32,
+  pattern = "wall_pillar.1-6",
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_6",
+  layer = 0,
+  x = 552,
+  y = 48,
+  pattern = "floor.cracked.4-1",
+  width = 48,
+  height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_3",
+  layer = 0,
+  x = 592,
+  y = 40,
+  pattern = "wall_border.4-2",
+  width = 8,
+  height = 48,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_1",
+  layer = 0,
+  x = 552,
+  y = 40,
+  pattern = "wall_border.1-2",
+  width = 48,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_5",
+  layer = 0,
+  x = 552,
+  y = 80,
+  pattern = "wall_border.2-2",
+  width = 48,
+  height = 8,
+  enabled_at_start = true,
+}
+
 teletransporter{
   layer = 0,
   x = 96,
@@ -416,65 +487,14 @@ enemy{
   treasure_name = "random",
 }
 
-dynamic_tile{
+enemy{
+  name = "auto_enemy_3",
   layer = 0,
-  x = 552,
-  y = 40,
-  pattern = "wall_border.1-2",
-  width = 48,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  layer = 0,
-  x = 592,
-  y = 40,
-  pattern = "wall_border.4-2",
-  width = 8,
-  height = 48,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  layer = 0,
-  x = 552,
-  y = 80,
-  pattern = "wall_border.2-2",
-  width = 48,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  layer = 0,
-  x = 592,
-  y = 40,
-  pattern = "wall_border.corner.2-2",
-  width = 8,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  layer = 0,
-  x = 592,
-  y = 80,
-  pattern = "wall_border.corner.4-2",
-  width = 8,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "weak_floor_a",
-  layer = 0,
-  x = 552,
-  y = 40,
-  pattern = "floor.cracked.4-1",
-  width = 48,
-  height = 48,
-  enabled_at_start = true,
+  x = 520,
+  y = 69,
+  direction = 3,
+  breed = "creeper",
+  treasure_name = "random",
 }
 
 teletransporter{
@@ -488,6 +508,28 @@ teletransporter{
   destination = "from_2f_hole",
 }
 
+dynamic_tile{
+  name = "weak_floor_a_closed_2",
+  layer = 0,
+  x = 592,
+  y = 40,
+  pattern = "wall_border.corner.2-2",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_floor_a_closed_4",
+  layer = 0,
+  x = 592,
+  y = 80,
+  pattern = "wall_border.corner.4-2",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
 sensor{
   name = "weak_floor_a_sensor",
   layer = 0,
@@ -499,9 +541,9 @@ sensor{
 
 tile{
   layer = 1,
-  x = 32,
+  x = 72,
   y = 16,
-  width = 80,
+  width = 64,
   height = 8,
   pattern = "door_cache.1-2",
 }
@@ -522,24 +564,6 @@ tile{
   width = 16,
   height = 8,
   pattern = "door_top.stairs_down.1-1",
-}
-
-tile{
-  layer = 1,
-  x = 56,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "wall_pillar.1-6",
-}
-
-tile{
-  layer = 1,
-  x = 136,
-  y = 16,
-  width = 16,
-  height = 32,
-  pattern = "wall_pillar.1-6",
 }
 
 tile{

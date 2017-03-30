@@ -11026,6 +11026,15 @@ tile{
   pattern = "386",
 }
 
+tile{
+  layer = 0,
+  x = 960,
+  y = 96,
+  width = 32,
+  height = 24,
+  pattern = "901",
+}
+
 teletransporter{
   name = "teletransporter_6",
   layer = 0,
@@ -12371,10 +12380,10 @@ jumper{
   layer = 0,
   x = 928,
   y = 64,
-  width = 32,
+  width = 40,
   height = 8,
   direction = 6,
-  jump_length = 176,
+  jump_length = 184,
 }
 
 jumper{
@@ -12395,6 +12404,19 @@ chest{
   treasure_name = "boomerang",
   treasure_savegame_variable = "desert_boomerang_chest",
   sprite = "entities/chest",
+}
+
+wall{
+  layer = 0,
+  x = 920,
+  y = 56,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 tile{
@@ -13169,14 +13191,5 @@ tile{
   width = 8,
   height = 40,
   pattern = "519",
-}
-
-tile{
-  layer = 2,
-  x = 960,
-  y = 96,
-  width = 32,
-  height = 24,
-  pattern = "901",
 }
 

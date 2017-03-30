@@ -217,6 +217,16 @@ tile{
   pattern = "28",
 }
 
+teletransporter{
+  layer = 0,
+  x = 168,
+  y = 40,
+  width = 16,
+  height = 16,
+  destination_map = "caves/tunnels",
+  destination = "from_water_house",
+}
+
 stairs{
   name = "stairs",
   layer = 0,
@@ -224,6 +234,22 @@ stairs{
   y = 88,
   direction = 3,
   subtype = 4,
+}
+
+destination{
+  name = "from_tunnels",
+  layer = 0,
+  x = 176,
+  y = 53,
+  direction = 1,
+}
+
+stairs{
+  layer = 0,
+  x = 168,
+  y = 40,
+  direction = 1,
+  subtype = 1,
 }
 
 tile{

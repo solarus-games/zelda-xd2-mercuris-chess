@@ -1495,6 +1495,16 @@ teletransporter{
   destination = "from_stupid_chest_cave",
 }
 
+chest{
+  layer = 0,
+  x = 264,
+  y = 45,
+  treasure_name = "rupee",
+  treasure_variant = 5,
+  treasure_savegame_variable = "stupid_chest_cave_rupees_chest",
+  sprite = "entities/chest",
+}
+
 dynamic_tile{
   name = "weak_wall_a_open_2",
   layer = 1,

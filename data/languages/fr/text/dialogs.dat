@@ -5248,6 +5248,107 @@ cet incendie !
 }
 
 dialog{
+  id = "lafoo_riot.npc_23",
+  text = [[
+Tu vois la fumée dans 
+le ciel ?
+
+Ca vient de la forêt.
+Ca serait pas le Bureau
+des Objets Trouvés ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_24",
+  text = [[
+On entend une foule qui
+crie...
+
+Et ça sent terriblement
+le brûlé...
+
+Tu devrais aller voir
+d'où ça vient!
+
+Nous, on est juste là
+pour faire un mur
+artificiel car les 
+développeurs n'ont pas
+trouvé d'idée plus
+logique.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_25",
+  text = [[
+Heu, tu veux un cadeau?
+
+
+Tiens, c'est pour toi !
+Et si on te pose des
+questions, tu ne me
+connais pas, tu ne m'as
+pas vu, on ne s'est
+jamais rencontrés.
+Et maintenant, je vais
+faire profil bas et 
+disparaître.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_26",
+  text = [[
+Tu ne devrais pas aller
+par là car les 
+développeurs du jeu
+veulent que tu ailles
+d'abord voir ce qui se
+passe dans la forêt.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_27",
+  text = [[
+Comment ça, je ne suis
+qu'une barrière
+artificielle ?
+Dis-toi que c'était ça
+ou un mur invisible !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_28",
+  text = [[
+Il y a l'air d'y avoir
+une émeute au fond
+de la forêt !
+Par la sainte barbe de
+MacGregor, cours-y
+vite !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_29",
+  text = [[
+Mais que fait la
+police ?
+
+Il y a l'air d'y avoir
+un atroupement au fond
+de la forêt.
+Et en plus, on voit ce
+panache de fumée et ça
+sent le cramoisi !
+]]
+}
+
+dialog{
   id = "lafoo_riot.npc_3",
   text = [[
 J'ai une admiration
@@ -5259,6 +5360,60 @@ des Objets Trouvés
 n'en était pas un!
 Alors, qu'il aille au 
 diable!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_30",
+  text = [[
+Les pompiers ne
+devraient pas tarder à
+arriver !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_31",
+  text = [[
+Ca ne serait pas le
+Bureau des Objets
+Trouvés qui flambe ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_32",
+  text = [[
+Il commence à y avoir
+du grabuge par là-bas.
+
+D'ailleurs, ce mot,
+"grabuge"
+...
+il pourrait
+être élu Mot Le Plus
+Moche De Tous Les Temps.
+L'année dernière, c'est
+le mot "chasuble" qui
+a gagné.
+C'est fou hein ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_33",
+  text = [[
+Sabre de bois !
+J'ai l'impression qu'il
+y a un truc qui brûle !
+Il n'y a pas de fumée
+sans feu, 
+disent certains.
+D'autres disent : 
+"un tiens vaut mieux que
+deux tu l'auras".
+Mais cela n'a rien à
+voir!
 ]]
 }
 

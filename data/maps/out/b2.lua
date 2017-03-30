@@ -11,6 +11,7 @@ local map = ...
 local game = map:get_game()
 
 local zelda_chores = require("scripts/maps/zelda_chores")
+local lafoo_riot = require("scripts/maps/lafoo_riot")
 
 local bush_count = 0
 local current_chore_step = -1
@@ -48,8 +49,16 @@ function map:on_started()
     end
   end
 
+  -- Hidden chest
   if hidden_chest:is_open() then
     lens_fake_tile_1:set_enabled(false)
+  end
+
+  -- Show or hide the riot
+  local riot_finished = true -- lafoo_riot:is_finished()
+  if riot_finished then
+    map:remove_entities("npc_riot")
+    map:remove_entities("random_walk_npc_riot")
   end
 end
 

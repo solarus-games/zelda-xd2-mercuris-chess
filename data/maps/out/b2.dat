@@ -10140,6 +10140,126 @@ wall{
   stops_npcs = true,
 }
 
+npc{
+  name = "npc_riot_23",
+  layer = 0,
+  x = 504,
+  y = 293,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/newlink/blond_boy",
+  behavior = "dialog#lafoo_riot.npc_23",
+}
+
+npc{
+  name = "npc_riot_24",
+  layer = 0,
+  x = 520,
+  y = 277,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/newlink/brown_haired_woman",
+  behavior = "dialog#lafoo_riot.npc_24",
+}
+
+npc{
+  name = "random_walk_npc_riot_25",
+  layer = 0,
+  x = 192,
+  y = 325,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/newlink/blond_boy",
+}
+
+npc{
+  name = "npc_riot_26",
+  layer = 0,
+  x = 64,
+  y = 301,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/green_hat_man",
+  behavior = "dialog#lafoo_riot.npc_26",
+}
+
+npc{
+  name = "npc_riot_27",
+  layer = 0,
+  x = 72,
+  y = 317,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/red_hood_man",
+  behavior = "dialog#lafoo_riot.npc_27",
+}
+
+npc{
+  name = "npc_riot_28",
+  layer = 0,
+  x = 88,
+  y = 325,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/bun_woman",
+  behavior = "dialog#lafoo_riot.npc_28",
+}
+
+npc{
+  name = "npc_riot_29",
+  layer = 0,
+  x = 80,
+  y = 341,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/blonde_woman",
+  behavior = "dialog#lafoo_riot.npc_29",
+}
+
+npc{
+  name = "random_walk_npc_riot_30",
+  layer = 0,
+  x = 168,
+  y = 253,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/blind_hideout_man",
+  behavior = "dialog#lafoo_riot.npc_30",
+}
+
+npc{
+  name = "random_walk_npc_riot_31",
+  layer = 0,
+  x = 136,
+  y = 349,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/running_man",
+  behavior = "dialog#lafoo_riot.npc_31",
+}
+
+npc{
+  name = "random_walk_npc_riot_32",
+  layer = 0,
+  x = 88,
+  y = 165,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/lady_red",
+  behavior = "dialog#lafoo_riot.npc_32",
+}
+
+npc{
+  name = "random_walk_npc_riot_33",
+  layer = 0,
+  x = 152,
+  y = 61,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/average_middle_aged_man",
+  behavior = "dialog#lafoo_riot.npc_33",
+}
+
 tile{
   layer = 1,
   x = 432,
@@ -12766,5 +12886,15 @@ wall{
   width = 48,
   height = 16,
   stops_npcs = true,
+}
+
+wall{
+  layer = 2,
+  x = 264,
+  y = 440,
+  width = 192,
+  height = 16,
+  stops_enemies = true,
+  stops_projectiles = true,
 }
 

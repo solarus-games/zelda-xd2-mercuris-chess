@@ -10,12 +10,25 @@
 local map = ...
 local game = map:get_game()
 
+local function spike_collision()
+  local cam_x, cam_y = map:get_camera():get_position()
+  print(cam_x)
+  print(cam_y)
+  if cam_x >= 1600 and cam_y >= 480 then
+    sol.audio.play_sound("switch")
+    map:change_crystal_state()
+  end
+end
+
 function map:on_started()
   -- rotating platform states
   local rp1_state = game:get_value("dungeon_1_b2_rp1_state")
   local rp2_state = game:get_value("dungeon_1_b2_rp1_state")
   map:get_entity("rp_1"):set_state(rp1_state)
   map:get_entity("rp_2"):set_state(rp2_state)
+
+  -- spike and crystal
+  crystal_sensor:add_collision_test("touching", spike_collision)
 
   -- miniboss
   map:set_doors_open("miniboss_door")
@@ -39,10 +52,6 @@ function miniboss_sensor:on_activated()
   if not game:get_value("dungeon_1_miniboss_clear") then
     map:close_doors("miniboss_door")
   end
-end
-
-function spike_cristal:on_interaction()
-  sol.audio.play_sound("cane")
 end
 
 local function miniboss_enemy_on_dead()

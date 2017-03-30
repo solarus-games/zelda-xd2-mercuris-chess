@@ -6973,6 +6973,16 @@ npc{
   behavior = "dialog#dungeon_1.b2.scared_man",
 }
 
+custom_entity{
+  name = "crystal_sensor",
+  layer = 0,
+  x = 1848,
+  y = 541,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
 enemy{
   name = "spike",
   layer = 0,

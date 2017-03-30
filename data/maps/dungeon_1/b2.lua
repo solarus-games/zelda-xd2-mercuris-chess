@@ -41,6 +41,10 @@ function miniboss_sensor:on_activated()
   end
 end
 
+function spike_cristal:on_interaction()
+  sol.audio.play_sound("cane")
+end
+
 local function miniboss_enemy_on_dead()
   if not map:has_entities("miniboss_enemy") and miniboss_door:is_closed() then
     sol.audio.play_sound("secret")

@@ -5591,6 +5591,15 @@ tile{
   pattern = "barrier_big.2-1",
 }
 
+tile{
+  layer = 0,
+  x = 864,
+  y = 104,
+  width = 64,
+  height = 48,
+  pattern = "floor.cracked.5-1",
+}
+
 stairs{
   layer = 0,
   x = 736,
@@ -6066,16 +6075,6 @@ door{
   opening_condition_consumed = true,
 }
 
-chest{
-  name = "compass_chest",
-  layer = 0,
-  x = 224,
-  y = 533,
-  treasure_name = "compass",
-  treasure_savegame_variable = "dungeon_1_compass",
-  sprite = "entities/chest",
-}
-
 door{
   name = "key_door_2",
   layer = 0,
@@ -6100,24 +6099,6 @@ npc{
 }
 
 enemy{
-  name = "auto_enemy_25",
-  layer = 0,
-  x = 968,
-  y = 325,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
-  name = "auto_enemy_26",
-  layer = 0,
-  x = 968,
-  y = 181,
-  direction = 3,
-  breed = "alttp/medusa",
-}
-
-enemy{
   name = "auto_enemy_27",
   layer = 0,
   x = 160,
@@ -6133,7 +6114,7 @@ enemy{
   y = 541,
   direction = 3,
   breed = "newlink/zoura_green",
-  treasure_name = "random",
+  treasure_name = "fairy",
 }
 
 enemy{
@@ -6143,7 +6124,7 @@ enemy{
   y = 549,
   direction = 3,
   breed = "newlink/zoura_green",
-  treasure_name = "random",
+  treasure_name = "heart",
 }
 
 enemy{
@@ -6178,17 +6159,6 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
-}
-
-door{
-  name = "miniboss_weak_wall",
-  layer = 0,
-  x = 1752,
-  y = 440,
-  direction = 3,
-  sprite = "entities/doors/door_d1_weak_wall",
-  savegame_variable = "dungeon_1_miniboss_weak_wall",
-  opening_method = "explosion",
 }
 
 wall{
@@ -6271,22 +6241,14 @@ enemy{
   y = 661,
   direction = 3,
   breed = "newlink/zoura_green",
-  treasure_name = "random",
+  treasure_name = "heart",
 }
 
 crystal{
+  name = "spike_cristal",
   layer = 0,
   x = 1848,
   y = 541,
-}
-
-custom_entity{
-  layer = 0,
-  x = 1848,
-  y = 589,
-  width = 16,
-  height = 16,
-  direction = 0,
 }
 
 destination{
@@ -6967,6 +6929,57 @@ dynamic_tile{
   width = 16,
   height = 16,
   enabled_at_start = true,
+}
+
+chest{
+  layer = 0,
+  x = 224,
+  y = 533,
+  treasure_name = "big_key",
+  treasure_savegame_variable = "dungeon_1_big_key",
+  sprite = "entities/chest",
+}
+
+dynamic_tile{
+  name = "miniboss_weak_wall_closed",
+  layer = 0,
+  x = 1728,
+  y = 440,
+  pattern = "wall.2-6",
+  width = 64,
+  height = 24,
+  enabled_at_start = true,
+}
+
+door{
+  name = "miniboss_weak_wall",
+  layer = 0,
+  x = 1752,
+  y = 440,
+  direction = 3,
+  sprite = "entities/doors/door_d1_weak_wall",
+  savegame_variable = "dungeon_1_miniboss_weak_wall",
+  opening_method = "explosion",
+}
+
+npc{
+  name = "scared_man",
+  layer = 0,
+  x = 896,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/mustache_man",
+  behavior = "dialog#dungeon_1.b2.scared_man",
+}
+
+enemy{
+  name = "spike",
+  layer = 0,
+  x = 1848,
+  y = 565,
+  direction = 1,
+  breed = "alttp/pike_auto",
 }
 
 tile{
@@ -7718,15 +7731,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 1744,
-  y = 456,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2-3",
-}
-
-tile{
-  layer = 1,
   x = 152,
   y = 576,
   width = 16,
@@ -7771,6 +7775,17 @@ dynamic_tile{
   pattern = "pillar.top",
   width = 16,
   height = 16,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "miniboss_weak_wall_opened",
+  layer = 1,
+  x = 1744,
+  y = 456,
+  pattern = "door_top.2-3",
+  width = 32,
+  height = 8,
   enabled_at_start = true,
 }
 

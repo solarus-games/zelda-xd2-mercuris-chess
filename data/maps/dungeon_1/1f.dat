@@ -8450,15 +8450,6 @@ switch{
   inactivate_when_leaving = false,
 }
 
-chest{
-  layer = 0,
-  x = 160,
-  y = 645,
-  treasure_name = "big_key",
-  treasure_savegame_variable = "dungeon_1_big_key",
-  sprite = "entities/chest",
-}
-
 wall{
   layer = 0,
   x = 1496,
@@ -10064,6 +10055,27 @@ destructible{
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
+}
+
+npc{
+  name = "scared_woman",
+  layer = 0,
+  x = 392,
+  y = 93,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/lady_red",
+  behavior = "dialog#dungeon_1.1f.scared_woman",
+}
+
+chest{
+  name = "compass_chest",
+  layer = 0,
+  x = 160,
+  y = 645,
+  treasure_name = "compass",
+  treasure_savegame_variable = "dungeon_1_compass",
+  sprite = "entities/chest",
 }
 
 tile{

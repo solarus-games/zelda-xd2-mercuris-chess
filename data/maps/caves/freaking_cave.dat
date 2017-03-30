@@ -2306,6 +2306,15 @@ tile{
   pattern = "391",
 }
 
+tile{
+  layer = 0,
+  x = 152,
+  y = 1200,
+  width = 16,
+  height = 16,
+  pattern = "352",
+}
+
 block{
   name = "block_2",
   layer = 0,
@@ -2761,6 +2770,74 @@ stairs{
   y = 576,
   direction = 1,
   subtype = 4,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 896,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 784,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+destination{
+  name = "from_tunnels",
+  layer = 0,
+  x = 160,
+  y = 1213,
+  direction = 1,
+}
+
+stairs{
+  layer = 0,
+  x = 152,
+  y = 1200,
+  direction = 3,
+  subtype = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 1200,
+  width = 16,
+  height = 16,
+  destination_map = "caves/tunnels",
+  destination = "from_freaking_cave",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 800,
+  width = 96,
+  height = 8,
+  pattern = "414",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 888,
+  width = 96,
+  height = 8,
+  pattern = "413",
 }
 
 tile{
@@ -3701,15 +3778,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 152,
-  y = 1200,
-  width = 16,
-  height = 16,
-  pattern = "352",
-}
-
-tile{
-  layer = 1,
   x = 224,
   y = 16,
   width = 24,
@@ -3863,15 +3931,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 176,
-  y = 432,
-  width = 72,
-  height = 32,
-  pattern = "385",
-}
-
-tile{
-  layer = 1,
   x = 136,
   y = 432,
   width = 8,
@@ -3882,18 +3941,9 @@ tile{
 tile{
   layer = 1,
   x = 176,
-  y = 464,
+  y = 432,
   width = 8,
-  height = 104,
-  pattern = "407",
-}
-
-tile{
-  layer = 1,
-  x = 184,
-  y = 464,
-  width = 64,
-  height = 8,
+  height = 136,
   pattern = "407",
 }
 
@@ -3901,7 +3951,7 @@ tile{
   layer = 1,
   x = 136,
   y = 424,
-  width = 112,
+  width = 48,
   height = 8,
   pattern = "407",
 }
@@ -3922,6 +3972,54 @@ tile{
   width = 16,
   height = 16,
   pattern = "364",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 560,
+  width = 8,
+  height = 8,
+  pattern = "69",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 560,
+  width = 16,
+  height = 8,
+  pattern = "70",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 1216,
+  width = 16,
+  height = 8,
+  pattern = "349",
+}
+
+wall{
+  layer = 1,
+  x = 1120,
+  y = 440,
+  width = 16,
+  height = 16,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
 }
 
 jumper{
@@ -4115,9 +4213,9 @@ custom_entity{
 
 jumper{
   layer = 1,
-  x = 248,
+  x = 272,
   y = 432,
-  width = 424,
+  width = 400,
   height = 8,
   direction = 2,
   jump_length = 16,
@@ -4125,9 +4223,9 @@ jumper{
 
 jumper{
   layer = 1,
-  x = 248,
+  x = 272,
   y = 456,
-  width = 400,
+  width = 376,
   height = 8,
   direction = 6,
   jump_length = 16,
@@ -4318,7 +4416,7 @@ jumper{
   x = 1072,
   y = 456,
   width = 8,
-  height = 48,
+  height = 40,
   direction = 4,
   jump_length = 40,
 }
@@ -4326,37 +4424,11 @@ jumper{
 jumper{
   layer = 1,
   x = 1072,
-  y = 520,
+  y = 528,
   width = 8,
-  height = 32,
+  height = 24,
   direction = 4,
   jump_length = 40,
-}
-
-destination{
-  name = "from_tunnels",
-  layer = 1,
-  x = 160,
-  y = 1213,
-  direction = 1,
-}
-
-stairs{
-  layer = 1,
-  x = 152,
-  y = 1200,
-  direction = 3,
-  subtype = 3,
-}
-
-teletransporter{
-  layer = 1,
-  x = 152,
-  y = 1200,
-  width = 16,
-  height = 16,
-  destination_map = "caves/tunnels",
-  destination = "from_freaking_cave",
 }
 
 custom_entity{
@@ -4441,7 +4513,7 @@ destructible{
   layer = 1,
   x = 56,
   y = 429,
-  treasure_name = "random",
+  treasure_name = "magic_flask",
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -4461,7 +4533,7 @@ wall{
   layer = 1,
   x = 1056,
   y = 496,
-  width = 16,
+  width = 24,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -4474,7 +4546,7 @@ wall{
   layer = 1,
   x = 1056,
   y = 520,
-  width = 16,
+  width = 24,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -4501,6 +4573,72 @@ wall{
   x = 168,
   y = 568,
   width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+jumper{
+  layer = 1,
+  x = 72,
+  y = 568,
+  width = 72,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 1,
+  x = 176,
+  y = 568,
+  width = 72,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 1,
+  x = 248,
+  y = 376,
+  width = 8,
+  height = 56,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 1,
+  x = 248,
+  y = 464,
+  width = 8,
+  height = 104,
+  direction = 0,
+  jump_length = 40,
+}
+
+wall{
+  layer = 1,
+  x = 248,
+  y = 432,
+  width = 24,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 1,
+  x = 248,
+  y = 456,
+  width = 24,
   height = 8,
   stops_hero = true,
   stops_npcs = true,
@@ -4750,15 +4888,6 @@ tile{
   width = 16,
   height = 816,
   pattern = "170",
-}
-
-tile{
-  layer = 2,
-  x = 152,
-  y = 1216,
-  width = 16,
-  height = 8,
-  pattern = "349",
 }
 
 tile{

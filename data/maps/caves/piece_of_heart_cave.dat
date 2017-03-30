@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   world = "inside_world",
-  floor = 0,
+  floor = -1,
   tileset = "cave_legacy",
   music = "alttp/cave",
 }
@@ -262,6 +262,17 @@ stairs{
   y = 408,
   direction = 3,
   subtype = 2,
+}
+
+door{
+  name = "weak_wall_b",
+  layer = 0,
+  x = -16,
+  y = 248,
+  direction = 3,
+  sprite = "entities/doors/door_d2_weak_wall",
+  savegame_variable = "tunnels_weak_wall_b",
+  opening_method = "explosion",
 }
 
 tile{
@@ -714,6 +725,60 @@ tile{
   pattern = "182",
 }
 
+tile{
+  layer = 1,
+  x = 24,
+  y = 248,
+  width = 16,
+  height = 16,
+  pattern = "295",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 240,
+  width = 16,
+  height = 8,
+  pattern = "297",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 264,
+  width = 16,
+  height = 8,
+  pattern = "299",
+}
+
+tile{
+  layer = 1,
+  x = -8,
+  y = 248,
+  width = 32,
+  height = 16,
+  pattern = "2",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 240,
+  width = 16,
+  height = 8,
+  pattern = "70",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 264,
+  width = 16,
+  height = 8,
+  pattern = "70",
+}
+
 pickable{
   layer = 1,
   x = 104,
@@ -1020,6 +1085,44 @@ crystal{
   y = 197,
 }
 
+dynamic_tile{
+  name = "weak_wall_b_closed",
+  layer = 1,
+  x = 16,
+  y = 232,
+  pattern = "51",
+  width = 24,
+  height = 48,
+  enabled_at_start = true,
+}
+
+teletransporter{
+  layer = 1,
+  x = 0,
+  y = 248,
+  width = 16,
+  height = 16,
+  destination_map = "caves/tunnels",
+  destination = "from_piece_of_heart_cave",
+}
+
+destination{
+  name = "from_tunnels",
+  layer = 1,
+  x = 32,
+  y = 261,
+  direction = 0,
+}
+
+tile{
+  layer = 2,
+  x = 16,
+  y = 208,
+  width = 8,
+  height = 96,
+  pattern = "415",
+}
+
 tile{
   layer = 2,
   x = 0,
@@ -1063,5 +1166,16 @@ tile{
   width = 16,
   height = 8,
   pattern = "347",
+}
+
+dynamic_tile{
+  name = "weak_wall_b_open",
+  layer = 2,
+  x = 16,
+  y = 240,
+  pattern = "307",
+  width = 8,
+  height = 32,
+  enabled_at_start = true,
 }
 

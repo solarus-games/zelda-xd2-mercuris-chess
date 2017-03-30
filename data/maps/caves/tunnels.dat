@@ -8480,17 +8480,6 @@ tile{
 }
 
 dynamic_tile{
-  name = "weak_wall_b_open",
-  layer = 0,
-  x = 2216,
-  y = 1064,
-  pattern = "door_top.low.4-3",
-  width = 8,
-  height = 32,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
   name = "weak_wall_b_closed",
   layer = 0,
   x = 2200,
@@ -8518,7 +8507,7 @@ door{
   x = 800,
   y = 24,
   direction = 1,
-  sprite = "entities/doors/door_d1_very_weak_wall",
+  sprite = "entities/doors/door_d2_very_weak_wall",
   savegame_variable = "tunnels_weak_wall_a",
   opening_method = "explosion",
 }
@@ -8775,7 +8764,7 @@ door{
   x = 2200,
   y = 1072,
   direction = 0,
-  sprite = "entities/doors/door_d1_weak_wall",
+  sprite = "entities/doors/door_d2_weak_wall",
   savegame_variable = "tunnels_weak_wall_b",
   opening_method = "explosion",
 }
@@ -8851,6 +8840,7 @@ teletransporter{
   width = 16,
   height = 16,
   destination_map = "caves/piece_of_heart_cave",
+  destination = "from_tunnels",
 }
 
 dynamic_tile{
@@ -8888,6 +8878,15 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 2216,
+  y = 1040,
+  width = 8,
+  height = 80,
+  pattern = "door_cache.4-3",
 }
 
 tile{
@@ -9017,6 +9016,17 @@ dynamic_tile{
   pattern = "door_top.stairs_up.1-1",
   width = 16,
   height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "weak_wall_b_open",
+  layer = 1,
+  x = 2216,
+  y = 1064,
+  pattern = "door_top.low.4-3",
+  width = 8,
+  height = 32,
   enabled_at_start = true,
 }
 

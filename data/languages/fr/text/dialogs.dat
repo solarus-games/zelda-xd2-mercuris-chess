@@ -2422,6 +2422,7 @@ est synonyme de succès.
 
 dialog{
   id = "chill_valley.t_house",
+  skip = "all",
   text = [[
 C'est devenu très
 animé autour de chez

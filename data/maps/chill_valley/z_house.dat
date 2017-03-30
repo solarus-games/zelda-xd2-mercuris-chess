@@ -990,7 +990,8 @@ enemy{
   direction = 3,
   breed = "alttp/rat",
   savegame_variable = "chill_valley_z_house_library_rat",
-  treasure_name = "fairy",
+  treasure_name = "library_award",
+  treasure_savegame_variable = "chill_valley_z_house_library_award",
 }
 
 wall{

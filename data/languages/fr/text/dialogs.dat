@@ -1342,10 +1342,17 @@ dialog{
   id = "_treasure.library_award.1",
   icon = "31",
   text = [[
-Tu as obtenu l'award
-du rat de
-bibliothèque !
-Félicitations !
+Tu as débloqué
+le succès "Rat de
+bibliothèque" !
+Peut-être y en
+a-t-il d'autres ?
+Hein ?
+À quoi ça sert ?
+Juste à frimer et à
+montrer qu'un jour
+tu seras le
+meilleur joueur.
 ]]
 }
 
@@ -2470,22 +2477,6 @@ Valley !
 
 Le nom de cette ville
 est synonyme de succès.
-]]
-}
-
-dialog{
-  id = "chill_valley.z_house.achievement",
-  skip = "all",
-  text = [[
-Bravo, tu as débloqué
-le succès "Rat de
-bibliothèque" ! Peut-
-être y en a-t-il
-d'autres ? Hein ? A
-quoi ça sert ? Juste
-à frimer et à montrer
-qu'un jour tu seras le
-meilleur joueur.
 ]]
 }
 

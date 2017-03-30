@@ -13,17 +13,17 @@ local item_names = {
   "hookshot",
   "boomerang",
   "fire_rod",
-  "",
   "pains_au_chocolat_counter",
   "croissants_counter",
+  "glove",
   "bottle_2",
 
-  "mail_counter",
   "cat_food",
-  "vip_card",
-  "glove",
-  "flippers",
+  "mail_counter",
   "perfume_counter",
+  "library_award",
+  "vip_card",
+  "flippers",
   "bottle_3",
 }
 

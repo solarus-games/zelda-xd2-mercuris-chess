@@ -32,9 +32,7 @@ function map:on_started()
   
   if game:get_value('chill_valley_z_house_library_rat') ~= true then
     function library_rat:on_dead()
-      sol.audio.play_sound("treasure")
       sol.audio.play_music("alttp/village")
-      game:start_dialog("chill_valley.z_house.achievement")
       map:get_hero():start_victory()
     end
   end

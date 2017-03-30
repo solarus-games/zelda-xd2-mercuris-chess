@@ -114,6 +114,7 @@ sprite{ id = "enemies/alttp/medusa_rupees", description = "Medusa (with rupees)"
 sprite{ id = "enemies/alttp/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/alttp/pike_detect", description = "Pike (moves near hero)" }
 sprite{ id = "enemies/alttp/pike_fixed", description = "Pike (never moving)" }
+sprite{ id = "enemies/alttp/rat", description = "Rat" }
 sprite{ id = "enemies/alttp/ropa", description = "Ropa" }
 sprite{ id = "enemies/alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 sprite{ id = "enemies/alttp/snap_dragon", description = "Snap Dragon" }
@@ -689,6 +690,7 @@ enemy{ id = "alttp/medusa_rupees", description = "Medusa (with rupees)" }
 enemy{ id = "alttp/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "alttp/pike_detect", description = "Pike (moves near hero)" }
 enemy{ id = "alttp/pike_fixed", description = "Pike (never moving)" }
+enemy{ id = "alttp/rat", description = "Rat" }
 enemy{ id = "alttp/ropa", description = "Ropa" }
 enemy{ id = "alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }

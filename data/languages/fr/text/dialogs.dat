@@ -4673,6 +4673,17 @@ Vers la Tour Grump
 }
 
 dialog{
+  id = "island.deku_done",
+  skip = "all",
+  text = [[
+Et voilà patron !
+Nos avons récupéré vos
+Palmes !
+Sur ce, on se rentre !
+]]
+}
+
+dialog{
   id = "island.dontgo_board",
   text = [[
 N'y allez pas !!!
@@ -4683,6 +4694,17 @@ dialog{
   id = "island.dontgo_guy",
   text = [[
 N'y vas pas !!!
+]]
+}
+
+dialog{
+  id = "island.grump_done",
+  text = [[
+Un malotru !
+Voilà ce que tu es.
+
+Ne touche plus à mes
+Palmes !
 ]]
 }
 

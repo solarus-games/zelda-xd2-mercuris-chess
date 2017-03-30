@@ -3919,7 +3919,7 @@ dialog{
   id = "final.mr_grump_2",
   text = [[
 Oh, tu sais, c'est un
-parfum qui a beacoup
+parfum qui a beaucoup
 de valeur !
 C'est mon grand-père qui
 me l'a transmis.
@@ -3934,11 +3934,11 @@ dialog{
   id = "final.mr_grump_3",
   text = [[
 Quelle bonne idée, ma
-Zeldachou d'amour!
+Zeldachou d'amour !
 
 Je vais prendre un
 Mojo-ito, et toi ma
-choupinette?
+choupinette ?
 ]]
 }
 
@@ -4054,8 +4054,8 @@ passe un moment
 romantique... !
 
 
-Tu vas devoir payer pour
-ton impolitesse !
+Tu vas devoir payer
+pour ton impolitesse !
 Encore une fois !
 ]]
 }
@@ -4066,7 +4066,8 @@ dialog{
 $v,
 Viens ici, veux-tu ?
 
-Allez! Plus vite que ça!
+Allez !
+Plus vite que ça !
 
 ]]
 }
@@ -4083,9 +4084,9 @@ amoureux,
 il va falloir que tu
 remontes grandement
 le niveau.
-Je te propose... non!
-Je t'ORDONNE de nous
-apporter les cocktails!
+Je te propose... non !
+Je T'ORDONNE de nous
+apporter les cocktails !
 Que veux-tu boire, mon
 Grumpinou d'amour ?
 ]]
@@ -4098,25 +4099,25 @@ Pour moi, ça sera une
 Zora Colada !
 
 Allez, $v,
-au boulot!
+au boulot !
 ]]
 }
 
 dialog{
   id = "final.zelda_7",
   text = [[
-Merci, $v!$0
+Merci, $v !$0
 
 
 Glou$0 glou$0 glou$0
-C'était délicieux!
+C'était délicieux !
 
 Tiens, $v,
 tu n'entendrais pas
-des miaulements?
-C'est Flocon-de-neige!
-Il a faim! $0
-Allez, va le nourir!
+des miaulements ?
+C'est Flocon-de-neige !
+Il a faim ! $0
+Allez, va le nourir !
 ]]
 }
 
@@ -4125,7 +4126,7 @@ dialog{
   text = [[
 Rhâaaa...
 Quel boulet, 
-n'est-ce pas?
+n'est-ce pas ?
 Bon, on en était où,
 tous les deux ?
 
@@ -4136,7 +4137,7 @@ Koholint, tu dis ?
 Et il y a une baleine
 volante ?
 Dis-donc, ça a l'air
-trop chouette!
+trop chouette !
 On y va ?
 ]]
 }

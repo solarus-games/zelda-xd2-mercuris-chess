@@ -2188,6 +2188,51 @@ très complexe.
 }
 
 dialog{
+  id = "chill_valley.o_house.doctor_3",
+  skip = "all",
+  text = [[
+Ne t'occupe pas trop de
+ces ces statues,
+tout va bien.
+Par contre, évite juste
+de cligner des yeux.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_4",
+  skip = "all",
+  text = [[
+Il y a une sorte de
+savant fou au sud de
+cette ville.
+Il n'en parle pas mais
+il a quelques notions
+basiques sur les
+voyages dans le temps,
+même plutôt bonnes pour
+un humain.
+Il estime que la
+cohérence du
+continuum espace-temps
+doit être maintenue.
+
+
+Pourtant, le temps peut
+être réécrit ! Enfin,
+sauf les points fixes.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_5",
+  skip = "all",
+  text = [[
+Oh... River...
+]]
+}
+
+dialog{
   id = "chill_valley.one_day",
   text = [[
 Il paraît que Zelda
@@ -3333,7 +3378,6 @@ station balnéaire,
 avec une immense tour.
 Une véritable pompe à
 fric !
-
 On est quand même
 mieux ici, au calme,
 loin de tout ce

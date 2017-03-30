@@ -114,14 +114,15 @@ Original art inspired from various references:      Author
 musics/larryinc64/*.ogg                             LarryInc64: https://www.youtube.com/channel/UCp8cixTHfmu7slFJFFlyFPA
 musics/doctoroctoroc/*.ogg                          DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
 sprites/enemies/creeper.png                         Christopho
-sprites/npc/newlink/yoda.png                        Newlink
-sprites/the_doctor.png                              Rockfootdude
 sprites/entities/bttf/delorean.png                  Olivier Cléro
 sprites/entities/doctor_who/tardis.png              Olivier Cléro
+sprites/entities/doctor_who/weeping_angel.png       CollegeHumor
 sprites/npc/bttf/doc_emmett_brown.png               Olivier Cléro
 sprites/npc/bttf/marty_mcfly.png                    Olivier Cléro
-tileset/tardis.entities.png                         DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
-tileset/tardis.tiles.png                            DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
+sprites/npc/newlink/yoda.png                        Newlink
+sprites/the_doctor.png                              Rockfootdude
+tileset/tardis.entities.png                         CollegeHumor
+tileset/tardis.tiles.png                            CollegeHumor
 
 Files that include content from Nintendo:
 -----------------------------------------

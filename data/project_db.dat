@@ -240,6 +240,7 @@ sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
 sprite{ id = "entities/doctor_who/tardis", description = "Tardis" }
 sprite{ id = "entities/doctor_who/tardis_door", description = "Tardis door" }
+sprite{ id = "entities/doctor_who/weeping_angel", description = "Weeping Angel" }
 sprite{ id = "entities/doors/door_d1_big_key", description = "Dungeon door (big key)" }
 sprite{ id = "entities/doors/door_d1_boss_key", description = "Dungeon door (boss key)" }
 sprite{ id = "entities/doors/door_d1_normal", description = "Dungeon door (normal)" }
@@ -763,6 +764,7 @@ entity{ id = "swimming_npc", description = "Swimming NPC" }
 entity{ id = "tardis", description = "Tardis" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "traversable", description = "Traversable" }
+entity{ id = "weeping_angel", description = "Weeping angel" }
 
 language{ id = "fr", description = "Français" }
 

@@ -1,8 +1,14 @@
 local map = ...
 local game = map:get_game()
 
-local num_dialogs = 2
+local num_dialogs = 5
 local dialog_index = math.random(num_dialogs)
+
+function map:on_started()
+
+  tardis:set_drawn_in_y_order(true)
+  tardis:get_sprite():set_animation("closed")
+end
 
 function random_walk_npc_doctor:on_interaction()
 

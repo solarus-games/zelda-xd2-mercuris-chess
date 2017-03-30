@@ -166,6 +166,7 @@ function tardis_landing_sensor:on_activated()
   tardis_door:set_enabled(true)
   map:set_entities_enabled("tardis_wall", true)
   the_doctor:set_enabled(true)
+  tardis_landing_sensor:set_enabled(false)
 end
 
 function doctor_coming_sensor:on_activated()
@@ -174,6 +175,7 @@ function doctor_coming_sensor:on_activated()
     return
   end
 
+  doctor_coming_sensor:set_enabled(false)
   local movement = sol.movement.create("straight")
   movement:set_speed(96)
   movement:set_angle(3 * math.pi / 2)

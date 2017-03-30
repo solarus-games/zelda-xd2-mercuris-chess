@@ -3931,10 +3931,10 @@ Gardes ! Sécurité !
 Au secours !$0
 Qu'est ce que tu me
 veux, au juste ?
-
 Tu veux ma fortune ?
 Tiens, j'en ai trop !
-Prends ça et dégage !
+Prends ça et
+déguerpille !
 ]]
 }
 
@@ -4079,12 +4079,15 @@ tiré par les cheveux.
 Le flacon de parfum
 qu'on a donné au T-rex,
 tu te souviens ?
-Il a dû résister durant
+Il a dû perdurer durant
 toutes ces années, 
 jusqu'à aujourd'hui.
-Le tyrannosaure a évolué
-en poule au fil des
-millénaires.
+Et se bonifier avec le
+temps, jusqu'à devenir
+irrésistible.
+Le tyrannosaure a
+évolué en poule au fil
+des millénaires.
 M. Grump a récupéré le
 flacon grâce à sa poule
 aux oeufs d'or...
@@ -5143,7 +5146,7 @@ le chat de Zelda !
 
 dialog{
   id = "not_now.perfume",
-  icon = "49",
+  icon = "39",
   skip = "all",
   text = [[
 Ce n'est pas le

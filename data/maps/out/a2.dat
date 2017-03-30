@@ -12194,7 +12194,7 @@ custom_entity{
   name = "deloreane",
   layer = 0,
   x = 312,
-  y = 909,
+  y = 973,
   width = 16,
   height = 16,
   direction = 0,

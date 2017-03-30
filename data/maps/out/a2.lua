@@ -37,7 +37,9 @@ local function start_kart(kart, initial_path_index)
   local movement = sol.movement.create("path")
 
   movement:set_path(path)
-  movement:set_speed(128)
+  movement:set_speed(96)
+  movement:set_loop(true)
+  movement:set_ignore_obstacles(true)
   -- TODO different speed for each, and changing speeds
   movement:start(kart)
 
@@ -48,7 +50,12 @@ function map:on_started()
   local movement = sol.movement.create("random_path")
   movement:start(doc)
 
-  start_kart(toad, 138)
+  deloreane:get_sprite():set_animation("flying")
+
+  start_kart(toad, 133)
+  start_kart(mario, 7)
+  start_kart(yoshi, 45)
+  start_kart(deloreane, 95)
 
 end
 

@@ -5,7 +5,7 @@ properties{
   height = 272,
   min_layer = -1,
   max_layer = 2,
-  world = "chill_valley_j_house",
+  world = "inside_world",
   floor = -1,
   tileset = "dungeon/light_brown",
   music = "alttp/village",

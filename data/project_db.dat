@@ -488,6 +488,7 @@ music{ id = "larryinc64/queen_another_one", description = "Queen - Another one b
 music{ id = "larryinc64/sm64_slider", description = "Super Mario 64 - Slider" }
 music{ id = "oclero/la_link_is_awake", description = "Link Is Awake (SNES version)" }
 music{ id = "shield/mm_stone_tower", description = "Stone Tower" }
+music{ id = "smas/underworld", description = "Underworld (Super Mario)" }
 
 sound{ id = "arrow_hit", description = "arrow_hit" }
 sound{ id = "bomb", description = "bomb" }

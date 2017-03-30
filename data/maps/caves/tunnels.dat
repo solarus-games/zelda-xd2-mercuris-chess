@@ -8,7 +8,7 @@ properties{
   world = "inside_world",
   floor = -1,
   tileset = "dungeon/dark_brown",
-  music = "alttp/cave",
+  music = "smas/underworld",
 }
 
 tile{
@@ -4666,15 +4666,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 104,
-  y = 896,
-  width = 16,
-  height = 16,
-  pattern = "door_stairs.straight_up.2",
-}
-
-tile{
-  layer = -1,
   x = 536,
   y = 584,
   width = 32,
@@ -4752,6 +4743,15 @@ tile{
   width = 8,
   height = 64,
   pattern = "water_shallow.3",
+}
+
+tile{
+  layer = -1,
+  x = 104,
+  y = 896,
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_down.2",
 }
 
 teletransporter{
@@ -5441,7 +5441,8 @@ destructible{
   layer = -1,
   x = 1168,
   y = 565,
-  treasure_name = "random",
+  treasure_name = "bomb",
+  treasure_variant = 2,
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,
@@ -5669,8 +5670,8 @@ wall{
 enemy{
   name = "auto_enemy_18",
   layer = -1,
-  x = 136,
-  y = 885,
+  x = 176,
+  y = 877,
   direction = 3,
   breed = "alttp/tentacle",
   treasure_name = "random",
@@ -5731,13 +5732,23 @@ stairs{
   x = 104,
   y = 896,
   direction = 3,
-  subtype = 2,
+  subtype = 3,
 }
 
 crystal{
   layer = -1,
   x = 1848,
   y = 653,
+}
+
+door{
+  name = "auto_door_a",
+  layer = -1,
+  x = 104,
+  y = 896,
+  direction = 3,
+  sprite = "entities/doors/door_d2_normal",
+  savegame_variable = "tunnels_door_a",
 }
 
 tile{
@@ -10668,7 +10679,7 @@ wall{
 }
 
 dynamic_tile{
-  name = "auto_door_a_closed",
+  name = "auto_door_a_open_2",
   layer = 0,
   x = 96,
   y = 912,
@@ -10676,27 +10687,6 @@ dynamic_tile{
   width = 32,
   height = 8,
   enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "auto_door_a_open",
-  layer = 0,
-  x = 104,
-  y = 912,
-  pattern = "door_top.stairs_up.2-1",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-door{
-  name = "auto_door_a",
-  layer = 0,
-  x = 104,
-  y = 896,
-  direction = 3,
-  sprite = "entities/doors/door_d2_normal",
-  savegame_variable = "tunnels_door_a",
 }
 
 destination{
@@ -10866,6 +10856,17 @@ dynamic_tile{
   pattern = "door_top.low.4-3",
   width = 8,
   height = 32,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "auto_door_a_open",
+  layer = 1,
+  x = 104,
+  y = 912,
+  pattern = "door_top.stairs_down.2-1",
+  width = 16,
+  height = 8,
   enabled_at_start = true,
 }
 

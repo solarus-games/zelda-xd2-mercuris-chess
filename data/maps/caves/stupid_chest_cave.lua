@@ -1,24 +1,19 @@
--- Lua script of map caves/stupid_chest_cave.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if hidden_chest:is_open() then
+    lens_fake_tile_1:set_enabled(false)
+    lens_fake_tile_2:set_enabled(false)
+  end
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_obtaining_treasure(item, variant, savegame_variable)
 
+  if savegame_variable == "stupid_chest_cave_rupees_chest" then
+    lens_fake_tile_1:set_enabled(false)
+    lens_fake_tile_2:set_enabled(false)
+  end
 end
+

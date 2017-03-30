@@ -524,6 +524,17 @@ tile{
   pattern = "294",
 }
 
+chest{
+  name = "hidden_chest",
+  layer = 0,
+  x = 264,
+  y = 45,
+  treasure_name = "rupee",
+  treasure_variant = 5,
+  treasure_savegame_variable = "stupid_chest_cave_rupees_chest",
+  sprite = "entities/chest",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -1495,14 +1506,26 @@ teletransporter{
   destination = "from_stupid_chest_cave",
 }
 
-chest{
+dynamic_tile{
+  name = "lens_fake_tile_2",
   layer = 0,
-  x = 264,
-  y = 45,
-  treasure_name = "rupee",
-  treasure_variant = 5,
-  treasure_savegame_variable = "stupid_chest_cave_rupees_chest",
-  sprite = "entities/chest",
+  x = 256,
+  y = 40,
+  pattern = "179",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "lens_fake_tile_1",
+  layer = 0,
+  x = 248,
+  y = 16,
+  pattern = "49",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
 }
 
 dynamic_tile{

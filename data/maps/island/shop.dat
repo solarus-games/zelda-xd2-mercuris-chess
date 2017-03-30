@@ -1104,7 +1104,7 @@ shop_treasure{
   x = 120,
   y = 160,
   treasure_name = "green_potion",
-  price = 60,
+  price = 59,
   font = "la",
   dialog = "island.shop.green_potion",
 }
@@ -1114,7 +1114,7 @@ shop_treasure{
   x = 144,
   y = 112,
   treasure_name = "blue_potion",
-  price = 180,
+  price = 159,
   font = "la",
   dialog = "island.shop.blue_potion",
 }
@@ -1124,7 +1124,7 @@ shop_treasure{
   x = 192,
   y = 152,
   treasure_name = "red_potion",
-  price = 120,
+  price = 119,
   font = "la",
   dialog = "island.shop.red_potion",
 }
@@ -1135,7 +1135,7 @@ shop_treasure{
   y = 120,
   treasure_name = "flippers",
   treasure_variant = 2,
-  price = 200,
+  price = 199,
   font = "la",
   dialog = "island.shop.flippers",
 }

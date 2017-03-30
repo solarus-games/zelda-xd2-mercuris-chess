@@ -390,15 +390,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 272,
-  y = 120,
-  width = 16,
-  height = 16,
-  pattern = "door.1",
-}
-
-tile{
-  layer = 0,
   x = 320,
   y = 224,
   width = 8,
@@ -613,12 +604,23 @@ tile{
   pattern = "waterfall.2.bottom",
 }
 
-door{
+tile{
   layer = 0,
   x = 272,
   y = 120,
-  direction = 1,
-  sprite = "entities/doors/door_d1_normal",
+  width = 16,
+  height = 16,
+  pattern = "door_stairs.straight_up.1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 272,
+  y = 120,
+  width = 16,
+  height = 16,
+  destination_map = "caves/tunnels",
+  destination = "from_chill_valley_bath",
 }
 
 npc{
@@ -827,6 +829,32 @@ wall{
   stops_projectiles = true,
 }
 
+destination{
+  name = "from_tunnels",
+  layer = 0,
+  x = 280,
+  y = 133,
+  direction = 1,
+}
+
+stairs{
+  layer = 0,
+  x = 272,
+  y = 120,
+  direction = 1,
+  subtype = 2,
+}
+
+door{
+  name = "tunnels_door_a",
+  layer = 0,
+  x = 272,
+  y = 120,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+  savegame_variable = "tunnels_door_a",
+}
+
 tile{
   layer = 1,
   x = 192,
@@ -863,13 +891,37 @@ tile{
   pattern = "door_top.stairs_up.1-1",
 }
 
-tile{
+dynamic_tile{
+  name = "tunnels_door_a_closed",
   layer = 1,
   x = 264,
   y = 112,
+  pattern = "door_top.closed.1-5",
   width = 32,
   height = 8,
-  pattern = "door_top.closed.1-5",
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "tunnels_door_a_open_2",
+  layer = 1,
+  x = 264,
+  y = 112,
+  pattern = "door_top.stairs.1-2",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "tunnels_door_a_open",
+  layer = 1,
+  x = 272,
+  y = 112,
+  pattern = "door_top.stairs_up.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{

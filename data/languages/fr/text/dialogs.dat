@@ -4987,14 +4987,14 @@ dialog{
   id = "main_village.villager_tunnels",
   skip = "all",
   text = [[
-Certains affirment
-que les maisons et
-les cavernes seraient
-reliées par des tunnels
+Certains prétendent
+que les cavernes
+seraient reliées par
+des tunnels
 souterrains.
 
 C'est n'importe quoi...
-Les gens joué trop à
+Les gens jouent trop à
 Minecraft !
 ]]
 }

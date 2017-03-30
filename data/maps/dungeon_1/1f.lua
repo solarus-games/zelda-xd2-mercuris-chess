@@ -39,7 +39,7 @@ function map:create_chicken_boss()
     savegame_variable = "is_chicken_boss_dead"}
   local boss = map:create_enemy(prop)
   
-  function chicken_giant:on_dead()
+  function boss:on_dead()
     exit_door_key_chest:set_enabled(true)
   end
 end

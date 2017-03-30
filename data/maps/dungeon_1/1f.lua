@@ -25,7 +25,6 @@ function chicken_boss_switch:on_activated()
 end
 
 function map:create_chicken_boss()
-
   -- Do not create boss if already dead.
   if game:get_value("is_chicken_boss_dead") then return end
   -- Play boss music.
@@ -38,11 +37,11 @@ function map:create_chicken_boss()
   local chicken_giant = {x = x, y = y, layer = layer, direction = 3, 
     breed = "oclero/chicken_giant", name = "chicken_giant",
     savegame_variable = "is_chicken_boss_dead"}
-  map:create_enemy(prop)
-end
-
-function boss:on_dead()
-  exit_door_key_chest:set_enabled(true)
+  local boss = map:create_enemy(prop)
+  
+  function chicken_giant:on_dead()
+    exit_door_key_chest:set_enabled(true)
+  end
 end
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
@@ -56,6 +55,8 @@ function map:on_started()
   if not game:get_value("is_chicken_boss_dead") == true then
     map:get_entity("exit_door_key_chest"):set_enabled(false)
   end
+
+  pool_switch_empty:set_activated(true);
 
   library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.
   west_fake_door:get_sprite():set_xy(0, 16)
@@ -108,9 +109,10 @@ function mario_reset_switch:on_activated()
   end
 end
 
--- Pool switch mechanism
+-- Pool fill switch mechanism
 -- The switch fills up the champagne swimming pool
-function pool_switch:on_activated()
+function pool_switch_fill:on_activated()
+  pool_switch_empty:set_activated(false);
   sol.audio.play_sound("water_fill_begin")
   sol.audio.play_sound("water_fill")
   local water_tile_index = 5
@@ -125,6 +127,31 @@ function pool_switch:on_activated()
       previous_tile:set_enabled(false)
     end
     water_tile_index = water_tile_index - 1
+    return true
+  end)
+end
+
+-- Pool empty switch mechanism
+-- The switch drains the champagne swimming pool
+function pool_switch_empty:on_activated()
+  pool_switch_fill:set_activated(false);
+  sol.audio.play_sound("water_drain_begin")
+  sol.audio.play_sound("water_drain")
+  local water_tile_index = 1
+  sol.timer.start(water_delay, function()
+    print(water_tile_index)
+    local next_tile = map:get_entity("pool_" .. water_tile_index + 1)
+    local previous_tile = map:get_entity("pool_" .. water_tile_index)
+    if next_tile ~= nil then    
+      next_tile:set_enabled(true)
+    end
+    if previous_tile ~= nil then
+      previous_tile:set_enabled(false)
+    end
+    water_tile_index = water_tile_index + 1
+    if next_tile == nil then
+      return false
+    end
     return true
   end)
 end

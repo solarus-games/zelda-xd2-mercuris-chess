@@ -12402,6 +12402,7 @@ chest{
   x = 464,
   y = 21,
   treasure_name = "boomerang",
+  treasure_variant = 2,
   treasure_savegame_variable = "desert_boomerang_chest",
   sprite = "entities/chest",
 }

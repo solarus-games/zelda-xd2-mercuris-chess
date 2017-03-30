@@ -264,7 +264,7 @@ sprite{ id = "entities/dungeon_2_entrance/sky", description = "Grump Tower Sky" 
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
 sprite{ id = "entities/grass", description = "Grass" }
-sprite{ id = "entities/heart_fade", description = "Heart fade in-out" }
+sprite{ id = "entities/heart_fade", description = "Heart fade" }
 sprite{ id = "entities/hint_stone", description = "Hint stone" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }

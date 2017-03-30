@@ -3324,6 +3324,16 @@ bling-bling...
 }
 
 dialog{
+  id = "desert.piece_of_heart_cave_sign",
+  skip = "all",
+  text = [[
+Seul le vrai héros
+obtiendra le trésor.$0$0
+Ou pas.
+]]
+}
+
+dialog{
   id = "desert.small_house",
   skip = "all",
   text = [[

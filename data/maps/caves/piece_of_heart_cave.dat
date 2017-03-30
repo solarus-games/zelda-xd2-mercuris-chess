@@ -1011,7 +1011,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
-  behavior = "dialog#caverne_fragments.sign",
+  behavior = "dialog#desert.piece_of_heart_cave_sign",
 }
 
 jumper{

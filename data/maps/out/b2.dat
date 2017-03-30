@@ -4071,47 +4071,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 440,
-  y = 480,
-  width = 48,
-  height = 16,
-  pattern = "505",
-}
-
-tile{
-  layer = 0,
-  x = 448,
-  y = 496,
-  width = 32,
-  height = 8,
-  pattern = "523",
-}
-
-tile{
-  layer = 0,
-  x = 432,
-  y = 472,
-  width = 8,
-  height = 16,
-  pattern = "503",
-}
-
-tile{
-  layer = 0,
   x = 488,
   y = 472,
   width = 8,
   height = 16,
   pattern = "504",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 440,
-  width = 48,
-  height = 40,
-  pattern = "502",
 }
 
 tile{
@@ -4800,8 +4764,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
-  y = 512,
+  x = 352,
+  y = 496,
   width = 32,
   height = 32,
   pattern = "527",
@@ -9942,7 +9906,7 @@ npc{
   name = "npc_riot_10",
   layer = 0,
   x = 1000,
-  y = 605,
+  y = 613,
   direction = 1,
   subtype = 1,
   sprite = "npc/alttp/drunk_man",
@@ -10115,17 +10079,17 @@ wall{
 
 wall{
   layer = 0,
-  x = 832,
-  y = 512,
+  x = 896,
+  y = 504,
   width = 16,
-  height = 24,
+  height = 40,
   stops_npcs = true,
 }
 
 npc{
   layer = 0,
-  x = 816,
-  y = 509,
+  x = 872,
+  y = 517,
   direction = 3,
   subtype = 1,
   behavior = "dialog#lafoo.entrance",
@@ -10134,7 +10098,7 @@ npc{
 wall{
   layer = 0,
   x = 1008,
-  y = 464,
+  y = 456,
   width = 16,
   height = 152,
   stops_npcs = true,
@@ -10299,6 +10263,124 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/young_girl_red",
   behavior = "dialog#lafoo_riot.npc_44",
+}
+
+sensor{
+  layer = 0,
+  x = 808,
+  y = 517,
+  width = 32,
+  height = 16,
+}
+
+npc{
+  name = "npc_riot_66",
+  layer = 0,
+  x = 80,
+  y = 885,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/running_man",
+  behavior = "dialog#lafoo_riot.npc_66",
+}
+
+npc{
+  name = "npc_riot_67",
+  layer = 0,
+  x = 80,
+  y = 901,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/bun_woman",
+  behavior = "dialog#lafoo_riot.npc_67",
+}
+
+npc{
+  name = "npc_riot_68",
+  layer = 0,
+  x = 984,
+  y = 933,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lady_blue",
+  behavior = "dialog#lafoo_riot.npc_68",
+}
+
+npc{
+  name = "npc_riot_69",
+  layer = 0,
+  x = 984,
+  y = 949,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/newlink/blue_haired_boy",
+  behavior = "dialog#lafoo_riot.npc_69",
+}
+
+npc{
+  name = "npc_riot_70",
+  layer = 0,
+  x = 1016,
+  y = 605,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/flute_boy",
+  behavior = "dialog#lafoo_riot.npc_70",
+}
+
+npc{
+  name = "npc_riot_71",
+  layer = 0,
+  x = 1016,
+  y = 581,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/grandson",
+  behavior = "dialog#lafoo_riot.npc_71",
+}
+
+npc{
+  name = "npc_riot_72",
+  layer = 0,
+  x = 1016,
+  y = 557,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lady_blue",
+  behavior = "dialog#lafoo_riot.npc_72",
+}
+
+npc{
+  name = "npc_riot_73",
+  layer = 0,
+  x = 1008,
+  y = 533,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lost_old_man",
+  behavior = "dialog#lafoo_riot.npc_73",
+}
+
+npc{
+  name = "npc_riot_74",
+  layer = 0,
+  x = 1016,
+  y = 517,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lady_red",
+  behavior = "dialog#lafoo_riot.npc_74",
+}
+
+npc{
+  name = "npc_riot_75",
+  layer = 0,
+  x = 1016,
+  y = 493,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/mustache_man",
+  behavior = "dialog#lafoo_riot.npc_75",
 }
 
 tile{
@@ -12085,42 +12167,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 440,
-  y = 440,
-  width = 48,
-  height = 40,
-  pattern = "511",
-}
-
-tile{
-  layer = 2,
-  x = 432,
-  y = 432,
-  width = 8,
-  height = 40,
-  pattern = "513",
-}
-
-tile{
-  layer = 2,
-  x = 488,
-  y = 432,
-  width = 8,
-  height = 40,
-  pattern = "514",
-}
-
-tile{
-  layer = 2,
-  x = 440,
-  y = 424,
-  width = 48,
-  height = 16,
-  pattern = "512",
-}
-
-tile{
-  layer = 2,
   x = 464,
   y = 488,
   width = 96,
@@ -12937,5 +12983,14 @@ wall{
   height = 16,
   stops_enemies = true,
   stops_projectiles = true,
+}
+
+wall{
+  layer = 2,
+  x = 456,
+  y = 424,
+  width = 8,
+  height = 80,
+  stops_enemies = true,
 }
 

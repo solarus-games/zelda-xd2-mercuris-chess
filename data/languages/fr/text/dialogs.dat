@@ -5803,6 +5803,50 @@ s'agit de ranger...
 }
 
 dialog{
+  id = "lafoo_riot.npc_66",
+  text = [[
+Va voir à l'Est, j'ai
+comme l'impression que
+les développeurs
+veulent que tu ailles
+par là-bas !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_67",
+  text = [[
+Le village est en état 
+d'urgence.
+
+Désolé mon bonhomme,
+c'est bloqué !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_68",
+  text = [[
+Alors comme ça tu ne
+veux pas suive les
+évènements scriptés
+que t'ont préparé les
+développeurs du jeu ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_69",
+  text = [[
+On t'a dit d'aller voir
+au Nord, il y a le
+Bureau des Objets
+Trouvés qui flambe comme
+une tarte flambée.
+]]
+}
+
+dialog{
   id = "lafoo_riot.npc_7",
   text = [[
 Je faisais mon footing
@@ -5810,6 +5854,90 @@ hebdomadaire, quand
 soudain...
 ... mon lacet s'est
 défait.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_70",
+  text = [[
+Saprisiti, tout le
+village est attroupé
+ici !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_71",
+  text = [[
+J'ai cru voir s'enfuir 
+le type qui a mis le feu
+au bâtiment.
+Il avait un bâton qui
+lance du feu.
+
+Comme toi...
+
+
+Dis-moi, c'est toi ?
+
+
+Non parce que si c'est
+toi, je ne t'en veux pas
+au contraire !
+Tu es un héros !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_72",
+  text = [[
+On observe le bidule
+cramer et on apprécie
+le spectacle.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_73",
+  text = [[
+Tout ce raffut ...
+
+
+Faudrait que je lance
+un parc d'attraction
+moyen-âgeux, 
+où il y aurait des
+reconstitutions
+d'évènements historiques
+comme celui-ci.
+
+
+Ha bon, 
+ça existe déjà ?!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_74",
+  text = [[
+C'est bête qu'on ne soit
+pas en hiver, ça aurait
+réchauffé tout le monde.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_75",
+  text = [[
+Je voulais emmener ma
+copine voir un spectacle
+mais je suis fauché.
+Alors je l'ai amenée
+voir cet incendie.
+
+Désolé de ne pas faire
+dans le banal,
+môOôssieur !
 ]]
 }
 

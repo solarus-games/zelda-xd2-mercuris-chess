@@ -20,7 +20,7 @@ trucs !
 
 dialog{
   id = "_item_description.boomerang.1",
-  icon = "4",
+  icon = "34",
   skip = "all",
   text = [[
 Utilise le Boomerang
@@ -33,7 +33,7 @@ distance.
 
 dialog{
   id = "_item_description.boomerang.2",
-  icon = "4",
+  icon = "35",
   skip = "all",
   text = [[
 Utilise le Boomerang
@@ -739,7 +739,7 @@ jusqu'à 12 Bombes !
 
 dialog{
   id = "_treasure.boomerang.1",
-  icon = "4",
+  icon = "34",
   text = [[
 Tu as trouvé le
 Boomerang !$0 Tu peux
@@ -752,7 +752,7 @@ distance.
 
 dialog{
   id = "_treasure.boomerang.2",
-  icon = "4",
+  icon = "35",
   text = [[
 Tu as trouvé le
 Boomerang !$0 Tu peux

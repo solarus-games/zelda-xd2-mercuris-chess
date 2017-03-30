@@ -58,6 +58,7 @@ local function grump_sensor_on_activated()
           movement:stop()
           grump_sprite:set_animation("stopped")
           grump_sprite:set_direction(3)
+          grump_target_2:remove()
 
           local num_sounds = 4
           sol.timer.start(map, 300, function()
@@ -115,6 +116,7 @@ local function grump_sensor_on_activated()
                     sol.timer.start(map, 2000, function()
                       map:remove_entities("deku_")
                       hero:unfreeze()
+                      hero:set_direction(hero:get_direction4_to(grump))
                       game:set_value("island_grump_flippers_done", true)
                       game:start_dialog("island.grump_done")
                     end)
@@ -130,7 +132,7 @@ local function grump_sensor_on_activated()
 end
 
 function grump:on_interaction()
-  game:start_dialog("island.grump_done")
+  game:start_dialog("island.grump_done_again")
 end
 
 for sensor in map:get_entities("grump_sensor_") do

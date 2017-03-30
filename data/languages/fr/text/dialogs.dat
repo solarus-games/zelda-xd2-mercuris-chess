@@ -4708,6 +4708,18 @@ Palmes !
 }
 
 dialog{
+  id = "island.grump_done_again",
+  skip = "all",
+  text = [[
+À l'avenir, quand tu
+trouves un objet dans
+un donjon,
+ne le prends pas.
+C'est du vol !
+]]
+}
+
+dialog{
   id = "island.grump_hey",
   text = [[
 Hé !

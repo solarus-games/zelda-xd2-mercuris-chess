@@ -3,6 +3,7 @@ map{ id = "caves/piece_of_heart_cave", description = "Piece of Heart Cave" }
 map{ id = "caves/stupid_chest_cave", description = "Stupid Chest Cave" }
 map{ id = "caves/tipiton_cave/1f", description = "Tipiton Cave 1F" }
 map{ id = "caves/tipiton_cave/2f", description = "Tipiton Cave 2F" }
+map{ id = "caves/tunnels", description = "Tunnels" }
 map{ id = "chill_valley/j_house/1f", description = "J House 1F" }
 map{ id = "chill_valley/j_house/b1", description = "J House B1 (Cold Bath)" }
 map{ id = "chill_valley/j_house/b2", description = "J House B2 (Warm Bath)" }
@@ -32,6 +33,7 @@ map{ id = "dungeon_2/9f", description = "Dungeon 2 9F" }
 map{ id = "dungeon_2/entrance", description = "Dungeon 2 entrance" }
 map{ id = "dungeon_2/store", description = "Dungeon 2 Store" }
 map{ id = "examples/beach_store", description = "Beach Store" }
+map{ id = "examples/cave_store", description = "Cave Store" }
 map{ id = "examples/enemy_store", description = "Enemy Store" }
 map{ id = "examples/enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "examples/enemy_store_newlink", description = "Enemy Store (Newlink)" }

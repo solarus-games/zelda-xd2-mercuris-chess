@@ -238,7 +238,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
+  x = 96,
   y = 232,
   width = 32,
   height = 24,
@@ -338,7 +338,7 @@ tile{
 tile{
   layer = 0,
   x = 160,
-  y = 184,
+  y = 192,
   width = 32,
   height = 32,
   pattern = "cafe_table.empty",
@@ -387,15 +387,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "seat.2",
-}
-
-tile{
-  layer = 0,
-  x = 248,
-  y = 160,
-  width = 16,
-  height = 16,
-  pattern = "seat.1",
 }
 
 tile{
@@ -468,6 +459,150 @@ tile{
   width = 16,
   height = 24,
   pattern = "pew.1",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "seat.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.7",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "carpet.8",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "carpet.1",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.9",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 56,
+  width = 32,
+  height = 16,
+  pattern = "carpet.5",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "carpet.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "carpet.6",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "wine_bottle",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 232,
+  width = 32,
+  height = 24,
+  pattern = "window.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 168,
+  width = 24,
+  height = 32,
+  pattern = "window.4-1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 168,
+  width = 24,
+  height = 32,
+  pattern = "window.3-1",
 }
 
 destination{

@@ -1875,29 +1875,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 344,
-  y = 824,
-  width = 96,
+  x = 368,
+  y = 776,
+  width = 48,
   height = 16,
   pattern = "505",
-}
-
-tile{
-  layer = 0,
-  x = 440,
-  y = 816,
-  width = 8,
-  height = 16,
-  pattern = "504",
-}
-
-tile{
-  layer = 0,
-  x = 336,
-  y = 816,
-  width = 8,
-  height = 16,
-  pattern = "503",
 }
 
 tile{
@@ -1911,8 +1893,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 400,
-  y = 840,
+  x = 376,
+  y = 792,
   width = 32,
   height = 8,
   pattern = "523",
@@ -3648,8 +3630,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 480,
-  y = 832,
+  x = 504,
+  y = 824,
   width = 16,
   height = 16,
   pattern = "37",
@@ -3666,8 +3648,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
-  y = 928,
+  x = 408,
+  y = 832,
   width = 16,
   height = 8,
   pattern = "36",
@@ -3792,8 +3774,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 392,
-  y = 840,
+  x = 352,
+  y = 888,
   width = 16,
   height = 16,
   pattern = "524",
@@ -6807,7 +6789,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
+  x = 352,
   y = 792,
   width = 16,
   height = 16,
@@ -6816,8 +6798,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 320,
-  y = 808,
+  x = 416,
+  y = 792,
   width = 16,
   height = 16,
   pattern = "524",
@@ -7044,15 +7026,6 @@ tile{
   x = 320,
   y = 736,
   width = 48,
-  height = 40,
-  pattern = "502",
-}
-
-tile{
-  layer = 0,
-  x = 344,
-  y = 784,
-  width = 96,
   height = 40,
   pattern = "502",
 }
@@ -12207,7 +12180,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 344,
+  x = 352,
   y = 936,
   width = 16,
   height = 16,
@@ -12225,8 +12198,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 360,
-  y = 904,
+  x = 320,
+  y = 808,
   width = 16,
   height = 8,
   pattern = "36",
@@ -13096,6 +13069,24 @@ tile{
   pattern = "526",
 }
 
+tile{
+  layer = 0,
+  x = 272,
+  y = 832,
+  width = 48,
+  height = 40,
+  pattern = "502",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 832,
+  width = 48,
+  height = 40,
+  pattern = "502",
+}
+
 destructible{
   layer = 0,
   x = 936,
@@ -13572,8 +13563,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 400,
-  y = 853,
+  x = 360,
+  y = 901,
   treasure_name = "random",
   sprite = "entities/bush_green",
   destruction_sound = "bush",
@@ -14212,7 +14203,7 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 328,
+  x = 360,
   y = 805,
   treasure_name = "random",
   sprite = "entities/bush_green",
@@ -14223,8 +14214,8 @@ destructible{
 
 destructible{
   layer = 0,
-  x = 328,
-  y = 821,
+  x = 424,
+  y = 805,
   treasure_name = "random",
   sprite = "entities/bush_green",
   destruction_sound = "bush",
@@ -15568,6 +15559,348 @@ npc{
   behavior = "dialog#main_village.south_sign",
 }
 
+npc{
+  name = "npc_riot_34",
+  layer = 0,
+  x = 448,
+  y = 997,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/drunk_man",
+  behavior = "dialog#lafoo_riot.npc_34",
+}
+
+npc{
+  name = "npc_riot_35",
+  layer = 0,
+  x = 448,
+  y = 973,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/flute_boy",
+  behavior = "dialog#lafoo_riot.npc_35",
+}
+
+npc{
+  name = "npc_riot_36",
+  layer = 0,
+  x = 440,
+  y = 949,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/grandson",
+  behavior = "dialog#lafoo_riot.npc_36",
+}
+
+npc{
+  name = "npc_riot_37",
+  layer = 0,
+  x = 432,
+  y = 925,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lady_blue",
+  behavior = "dialog#lafoo_riot.npc_37",
+}
+
+npc{
+  name = "npc_riot_38",
+  layer = 0,
+  x = 440,
+  y = 901,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lost_old_man",
+  behavior = "dialog#lafoo_riot.npc_38",
+}
+
+npc{
+  name = "npc_riot_39",
+  layer = 0,
+  x = 424,
+  y = 877,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/lady_red",
+  behavior = "dialog#lafoo_riot.npc_39",
+}
+
+npc{
+  name = "npc_riot_40",
+  layer = 0,
+  x = 432,
+  y = 853,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/mustache_man",
+  behavior = "dialog#lafoo_riot.npc_40",
+}
+
+npc{
+  name = "npc_riot_43",
+  layer = 0,
+  x = 424,
+  y = 829,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/wise_old_man_green",
+  behavior = "dialog#lafoo_riot.npc_42",
+}
+
+npc{
+  name = "npc_riot_42",
+  layer = 0,
+  x = 408,
+  y = 813,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/woman_blue",
+  behavior = "dialog#lafoo_riot.npc_41",
+}
+
+npc{
+  name = "npc_riot_45",
+  layer = 0,
+  x = 304,
+  y = 781,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/woman_green",
+  behavior = "dialog#lafoo_riot.npc_45",
+}
+
+npc{
+  name = "npc_riot_46",
+  layer = 0,
+  x = 280,
+  y = 773,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/woman_yellow",
+  behavior = "dialog#lafoo_riot.npc_46",
+}
+
+npc{
+  name = "npc_riot_47",
+  layer = 0,
+  x = 256,
+  y = 781,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/young_girl_red",
+  behavior = "dialog#lafoo_riot.npc_47",
+}
+
+npc{
+  name = "npc_riot_48",
+  layer = 0,
+  x = 232,
+  y = 781,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bttf/doc_emmett_brown",
+  behavior = "dialog#lafoo_riot.npc_48",
+}
+
+npc{
+  name = "npc_riot_49",
+  layer = 0,
+  x = 208,
+  y = 789,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/bttf/marty_mcfly",
+  behavior = "dialog#lafoo_riot.npc_49",
+}
+
+npc{
+  name = "npc_riot_50",
+  layer = 0,
+  x = 184,
+  y = 789,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/blond_boy",
+  behavior = "dialog#lafoo_riot.npc_50",
+}
+
+npc{
+  name = "npc_riot_51",
+  layer = 0,
+  x = 160,
+  y = 797,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/blonde_woman",
+  behavior = "dialog#lafoo_riot.npc_51",
+}
+
+npc{
+  name = "npc_riot_52",
+  layer = 0,
+  x = 144,
+  y = 813,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/blue_haired_boy",
+  behavior = "dialog#lafoo_riot.npc_52",
+}
+
+npc{
+  name = "npc_riot_53",
+  layer = 0,
+  x = 128,
+  y = 837,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/brown_haired_woman",
+  behavior = "dialog#lafoo_riot.npc_53",
+}
+
+npc{
+  name = "npc_riot_54",
+  layer = 0,
+  x = 88,
+  y = 933,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/bun_woman",
+  behavior = "dialog#lafoo_riot.npc_54",
+}
+
+npc{
+  name = "npc_riot_55",
+  layer = 0,
+  x = 80,
+  y = 957,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/green_hat_man",
+  behavior = "dialog#lafoo_riot.npc_55",
+}
+
+npc{
+  name = "random_walk_npc_riot_56",
+  layer = 0,
+  x = 152,
+  y = 973,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/newlink/red_hood_man",
+  behavior = "dialog#lafoo_riot.npc_56",
+}
+
+wall{
+  layer = 0,
+  x = 88,
+  y = 912,
+  width = 16,
+  height = 104,
+  stops_npcs = true,
+}
+
+npc{
+  name = "random_walk_npc_riot_57",
+  layer = 0,
+  x = 168,
+  y = 885,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/running_man",
+  behavior = "dialog#lafoo_riot.npc_57",
+}
+
+npc{
+  name = "random_walk_npc_riot_58",
+  layer = 0,
+  x = 376,
+  y = 973,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/blacksmith",
+  behavior = "dialog#lafoo_riot.npc_58",
+}
+
+wall{
+  layer = 0,
+  x = 96,
+  y = 840,
+  width = 152,
+  height = 16,
+  stops_npcs = true,
+}
+
+npc{
+  name = "npc_riot_60",
+  layer = 0,
+  x = 120,
+  y = 805,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/lady_red",
+}
+
+npc{
+  name = "npc_riot_63",
+  layer = 0,
+  x = 208,
+  y = 757,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/mustache_man",
+}
+
+npc{
+  name = "npc_riot_65",
+  layer = 0,
+  x = 248,
+  y = 749,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/wise_old_man_green",
+}
+
+npc{
+  name = "npc_riot_61",
+  layer = 0,
+  x = 136,
+  y = 781,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/flute_boy",
+}
+
+npc{
+  name = "npc_riot_62",
+  layer = 0,
+  x = 168,
+  y = 765,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/drunk_man",
+}
+
+npc{
+  name = "npc_riot_64",
+  layer = 0,
+  x = 224,
+  y = 733,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/lady_blue",
+}
+
+npc{
+  name = "npc_riot_41",
+  layer = 0,
+  x = 56,
+  y = 941,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/alttp/lost_old_man",
+  behavior = "dialog#lafoo_riot.npc_38",
+}
+
 tile{
   layer = 1,
   x = 624,
@@ -15795,24 +16128,6 @@ tile{
 
 tile{
   layer = 2,
-  x = 344,
-  y = 768,
-  width = 96,
-  height = 16,
-  pattern = "512",
-}
-
-tile{
-  layer = 2,
-  x = 344,
-  y = 784,
-  width = 96,
-  height = 40,
-  pattern = "511",
-}
-
-tile{
-  layer = 2,
   x = 280,
   y = 584,
   width = 8,
@@ -15845,24 +16160,6 @@ tile{
   width = 8,
   height = 40,
   pattern = "513",
-}
-
-tile{
-  layer = 2,
-  x = 336,
-  y = 776,
-  width = 8,
-  height = 40,
-  pattern = "513",
-}
-
-tile{
-  layer = 2,
-  x = 440,
-  y = 776,
-  width = 8,
-  height = 40,
-  pattern = "514",
 }
 
 tile{

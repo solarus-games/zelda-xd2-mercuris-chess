@@ -496,6 +496,16 @@ Vérité !
 }
 
 dialog{
+  id = "_item_description.library_award.1",
+  icon = "31",
+  skip = "all",
+  text = [[
+Diplôme du meilleur
+rat de bibliothèque.
+]]
+}
+
+dialog{
   id = "_item_description.mail_counter.1",
   icon = "38",
   skip = "all",
@@ -505,16 +515,6 @@ Princesse Zelda.
 
 Va vite le lui
 apporter !
-]]
-}
-
-dialog{
-  id = "_item_description.library_award.1",
-  icon = "31",
-  skip = "all",
-  text = [[
-Diplôme du meilleur
-rat de bibliothèque.
 ]]
 }
 
@@ -4271,13 +4271,6 @@ On y va ?
 }
 
 dialog{
-  id = "forest.perceval",
-  text = [[
-On en a gros !
-]]
-}
-
-dialog{
   id = "forest.south_west_sign",
   skip = "all",
   text = [[
@@ -5418,6 +5411,86 @@ voir!
 }
 
 dialog{
+  id = "lafoo_riot.npc_34",
+  text = [[
+Dis-donc, qu'est ce que
+tu faisais à trainer
+chez toi?
+Tu ne vois pas qu'il y
+a l'air d'y avoir
+un souci dans la forêt ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_35",
+  text = [[
+Snif$0 snif$0
+Ca sent comme une odeur
+de brûlé !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_36",
+  text = [[
+La situation me donne
+envie de clamer un
+poème.
+  D'étranges volutes
+de fumée,
+  s'échappent de la 
+canopée.
+  Qu'est-ce ? Mystère.
+  D'un feu, ça m'en a
+tout l'air.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_37",
+  text = [[
+Dis-donc, mon p'tit 
+bonhomme! Tu connais
+Mr Grump ?
+C'est le directeur du
+Bureau des Objets 
+Trouvés.
+Le village est très
+remonté contre lui.
+
+Je crois qu'ils sont
+allés revendiquer leur
+colère là-bas.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_38",
+  text = [[
+Il parait qu'il y a un
+pyromane dans le 
+village...
+Et qu'il aurait fait des
+siennes au Bureau des
+Objets Trouvés !
+Saperlotte!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_39",
+  text = [[
+Je suis quasiment sûr
+que nous avons à faire
+à Pyroman et Dorothé.
+Au commissariat, 
+ils ne sont pas inconnus
+ces deux-là.
+]]
+}
+
+dialog{
   id = "lafoo_riot.npc_4",
   text = [[
 Le directeur du Bureau
@@ -5433,11 +5506,264 @@ Saltinbanque!
 }
 
 dialog{
+  id = "lafoo_riot.npc_40",
+  text = [[
+Il ne peut plus rien
+nous arriver d'affreux,
+maintenant !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_41",
+  text = [[
+Attention, ce jeu n'est
+pas un jeu sur le
+cyclimse.
+Merci de votre
+compréhension.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_42",
+  text = [[
+Si je vais bien ?
+
+
+Ma foi, comme un lundi, 
+frais dans la matinée,
+soleil l'après-midi,
+la recette des sports
+d'hiver réussis! 
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_43",
+  text = [[
+Tu es au courant de ce
+qu'il s'est passé ?
+
+Non ?!
+
+
+Ben informe-toi un peu,
+mon grand gaillard !
+S'agirait d'grandir...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_44",
+  text = [[
+Mon papa serait un
+voleur, car il a volé
+toutes les étoiles du
+ciel pour les mettre
+dans mes yeux...
+
+Enfin c'est ce que tous
+les garçons disent.
+
+Moi je sais que mon Papa
+c'est pas un voleur.
+
+Par contre il aurait des
+tendances pyromanes...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_45",
+  text = [[
+C'est les développeurs
+qui m'ont dit de te dire
+qu'il faut que tu ailles
+au Bureau des Objets
+Trouvés.
+
+Pourquoi ?
+
+
+J'en sais rien, j'suis
+qu'un PNJ, moi!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_46",
+  text = [[
+VOUS. 
+
+
+NE.
+
+
+PASSEREZ.
+
+
+PAS !!!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_47",
+  text = [[
+Essaie de passer et je
+t'en colle une.
+
+Tu vois pas qu'on forme
+un mur artificiel ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_48",
+  text = [[
+Nom de Zeus !
+
+
+Un incendie aurait 
+ravagé le Bureau des
+Objets Trouvés !
+Ca me rapelle une
+anecdote qui s'était
+passée en 1955,
+sauf que c'était la
+foudre et non le feu,
+et c'était une horloge
+au lieu d'un bureau.
+
+
+En fait ça n'avait rien
+à voir...
+Nom de Zeus !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_49",
+  text = [[
+Ne me traite JAMAIS
+de mauviette.
+JA-MAIS, tu entends ?
+]]
+}
+
+dialog{
   id = "lafoo_riot.npc_5",
   text = [[
 Certains hommes veulent
 seulement regarder le
 monde brûler...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_50",
+  text = [[
+L'autre jour, ça sentait
+aussi le brûlé, comme
+aujourd'hui.
+Sauf que c'était mon
+gigot que j'avais
+oublié dans le four.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_51",
+  text = [[
+On en a gros !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_52",
+  text = [[
+On aimerait que Monsieur
+Grump nous considère en
+tant que tels.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_53",
+  text = [[
+Nous les employés du
+Bureau des Objets
+Trouvés, sommes souvent
+victimes des colibris.
+
+
+Je veux dire, nous
+sommes souvent victimes
+des colifichets.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_54",
+  text = [[
+J'étais employée du
+Bureau des Objets
+Trouvés, et désormais,
+grâce à cet incendie,
+je suis libre!
+
+Adieu Mr Grump !
+Adieu vous et votre
+façon horrible de 
+traiter vos employés !
+Hasta la vista baby !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_55",
+  text = [[
+Au guichet 22,
+tu sais quoi ?
+
+Ils se prenaient pour le
+meilleur guichet du
+monde.
+Et bah comme le reste, 
+tout est parti en fumée.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_56",
+  text = [[
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_57",
+  text = [[
+Tu n'aurais vu pas vu le
+mec du guichet 32 ?
+
+Il est parti avec toutes
+les clés.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_58",
+  text = [[
+Le gars du guichet 41
+du Bureau des Objets 
+Trouvés s'est fait virer
+car il était tout le 
+temps en pause.
+
+Il paraît qu'il a
+retrouvé du boulot au
+restaurant de la 
+Tour Grump !
 ]]
 }
 

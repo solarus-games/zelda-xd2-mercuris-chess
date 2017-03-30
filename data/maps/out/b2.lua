@@ -68,7 +68,7 @@ function map:increase_bush_count()
   end
 end
 
--- Called when the hero talks to the mailbox
+-- Called when the hero talks to the mailbox.
 function link_mailbox:on_interaction()
   if current_chore_step ~= 2 then
     game:start_dialog("chores.mailbox_empty")
@@ -76,7 +76,7 @@ function link_mailbox:on_interaction()
   end
 
   -- Give a letter to the hero if he has not got one yet.
-  if game:has_item("mail") then
+  if game:has_item("mail_counter") and game:get_item("mail_counter"):has_amount() then
     game:start_dialog("chores.mailbox_empty")
   else
     hero:start_treasure("mail", 1)

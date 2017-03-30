@@ -68,12 +68,6 @@ animation{
   },
 }
 animation{
-  name = "bone_key",
-  src_image = "entities/items.png",
-  directions = {
-  },
-}
-animation{
   name = "boomerang",
   src_image = "entities/items.png",
   directions = {
@@ -145,13 +139,6 @@ animation{
   },
 }
 animation{
-  name = "cane_of_somaria",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 144, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "cat_food",
   src_image = "entities/items.png",
   directions = {
@@ -209,20 +196,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 304, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "fire_stone",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 416, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "fire_stones_counter",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 416, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -301,13 +274,6 @@ animation{
   },
 }
 animation{
-  name = "magic_cape",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 304, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
   name = "magic_flask",
   src_image = "entities/items.png",
   directions = {
@@ -323,17 +289,17 @@ animation{
   },
 }
 animation{
+  name = "mail_counter",
+  src_image = "entities/items.png",
+  directions = {
+    { x = 352, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
   name = "map",
   src_image = "entities/items.png",
   directions = {
     { x = 560, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "mystic_mirror",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 128, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{
@@ -472,13 +438,6 @@ animation{
   src_image = "entities/items.png",
   directions = {
     { x = 208, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
-  },
-}
-animation{
-  name = "wooden_key",
-  src_image = "entities/items.png",
-  directions = {
-    { x = 368, y = 0, frame_width = 16, frame_height = 16, origin_x = 8, origin_y = 13 },
   },
 }
 animation{

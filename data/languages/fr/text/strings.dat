@@ -40,7 +40,7 @@ text{ key = "inventory.caption.item.glove.1", value = "Poigne de Fer" }
 text{ key = "inventory.caption.item.hookshot.1", value = "Hookshot" }
 text{ key = "inventory.caption.item.lamp.1", value = "Lanterne" }
 text{ key = "inventory.caption.item.lens_of_truth.1", value = "Monocle des$Vérités Alternatives" }
-text{ key = "inventory.caption.item.mail.1", value = "Lettre pour Zelda" }
+text{ key = "inventory.caption.item.mail_counter.1", value = "Courrier pour Zelda" }
 text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Pains au chocolat" }
 text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
 text{ key = "inventory.caption.item.perfume_counter.1", value = "Parfums" }

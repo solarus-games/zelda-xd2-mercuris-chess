@@ -496,13 +496,15 @@ Vérité !
 }
 
 dialog{
-  id = "_item_description.mail.1",
+  id = "_item_description.mail_counter.1",
   icon = "38",
   skip = "all",
   text = [[
-Une lettre pour
-Zelda. Va vite la
-lui apporter !
+Du courrier pour la
+Princesse Zelda.
+
+Va vite le lui
+apporter !
 ]]
 }
 

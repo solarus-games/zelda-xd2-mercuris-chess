@@ -363,8 +363,8 @@ function zelda:on_interaction()
     if chore_done then
 
       -- Take the letter from the hero.
-      local mail = game:get_item("mail")
-      mail:set_variant(0)
+      local mail = game:get_item("mail_counter")
+      mail:remove_amount(1)
 
       -- Get a different letter than last time.
       local chore_thanks = game:get_value("introduction_chore_2_thanks")
@@ -373,10 +373,6 @@ function zelda:on_interaction()
         chore_thanks = 0
         game:set_value("introduction_chore_2_thanks", math.random(num_letters))
       end
-
-      -- Take the letter from the hero.
-      local mail = game:get_item("mail")
-      mail:set_variant(0)
 
       -- Zelda thanks Link and reads the letter.
       game:start_dialog("chores.chore_2_thanks_" .. chore_thanks, game:get_player_name(), function()

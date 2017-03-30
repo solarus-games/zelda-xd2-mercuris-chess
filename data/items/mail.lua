@@ -1,30 +1,11 @@
--- Lua script of item mail.
--- This script is executed only once for the whole game.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation for the full specification
--- of types, events and methods:
--- http://www.solarus-games.org/doc/latest
-
 local item = ...
 local game = item:get_game()
 
--- Event called when the game is initialized.
-function item:on_started()
+function item:on_obtaining(variant, savegame_variable)
 
-  -- Initialize the properties of your item here,
-  -- like whether it can be saved, whether it has an amount
-  -- and whether it can be assigned.
-end
-
--- Event called when the hero is using this item.
-function item:on_using()
-  item:set_finished()
-end
-
-function item:on_created()
-  item:set_savegame_variable("possession_mail")
-  self:set_assignable(false)
+  local mail_counter = self:get_game():get_item("mail_counter")
+  if mail_counter:get_variant() == 0 then
+    mail_counter:set_variant(1)
+  end
+  mail_counter:add_amount(1)
 end

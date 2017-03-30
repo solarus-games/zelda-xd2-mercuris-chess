@@ -114,7 +114,6 @@ sprite{ id = "enemies/alttp/medusa_rupees", description = "Medusa (with rupees)"
 sprite{ id = "enemies/alttp/pike_auto", description = "Pike (always moving)" }
 sprite{ id = "enemies/alttp/pike_detect", description = "Pike (moves near hero)" }
 sprite{ id = "enemies/alttp/pike_fixed", description = "Pike (never moving)" }
-sprite{ id = "enemies/alttp/rat", description = "Rat" }
 sprite{ id = "enemies/alttp/ropa", description = "Ropa" }
 sprite{ id = "enemies/alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 sprite{ id = "enemies/alttp/snap_dragon", description = "Snap Dragon" }
@@ -645,6 +644,7 @@ item{ id = "lens_of_truth", description = "Lens of Alternative Truth" }
 item{ id = "magic_bar", description = "Maximum of magic (none / half / full)" }
 item{ id = "magic_flask", description = "Magic flask (small / big)" }
 item{ id = "mail", description = "Mail" }
+item{ id = "mail_counter", description = "Mail counter" }
 item{ id = "map", description = "Dungeon map" }
 item{ id = "pain_au_chocolat", description = "Pain au chocolat" }
 item{ id = "pains_au_chocolat_counter", description = "Pains au chocolat counter" }
@@ -688,7 +688,6 @@ enemy{ id = "alttp/medusa_rupees", description = "Medusa (with rupees)" }
 enemy{ id = "alttp/pike_auto", description = "Pike (always moving)" }
 enemy{ id = "alttp/pike_detect", description = "Pike (moves near hero)" }
 enemy{ id = "alttp/pike_fixed", description = "Pike (never moving)" }
-enemy{ id = "alttp/rat", description = "Rat" }
 enemy{ id = "alttp/ropa", description = "Ropa" }
 enemy{ id = "alttp/simple_soldier_green", description = "Simple Soldier (green)" }
 enemy{ id = "alttp/snap_dragon", description = "Snap Dragon" }

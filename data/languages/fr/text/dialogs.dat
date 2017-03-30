@@ -2451,6 +2451,21 @@ est synonyme de succès.
 }
 
 dialog{
+  id = "chill_valley.z_house.achievement",
+  text = [[
+Bravo, tu as débloqué
+le succès "Rat de
+bibliothèque" ! Peut-
+être y en a-t-il
+d'autres ? Hein ? A
+quoi ça sert ? Juste
+à frimer et à montrer
+qu'un jour tu seras le
+meilleur joueur.
+]]
+}
+
+dialog{
   id = "chill_valley.z_house.adult_book",
   skip = "all",
   text = [[
@@ -2459,6 +2474,22 @@ Un livre pour adulte !
 
 Tu n'as pas l'âge pour
 ce genre de lecture !
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.all_read",
+  text = [[
+Squick ! T'es chez moi
+là, et tu lis tous mes
+livres comme s'ils
+étaient à toi ! Squick
+squick, jamais vu un
+culot pareil ! Il ne
+peut y avoir qu'un
+seul rat de bibliothè-
+que et c'est moi !
+TAIAUUUT ! SQUICK !
 ]]
 }
 

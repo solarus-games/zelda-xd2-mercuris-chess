@@ -724,192 +724,192 @@ teletransporter{
 }
 
 npc{
+  name = "curse_for_dummies",
   layer = 0,
   x = 56,
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.curse_for_dummies",
 }
 
 npc{
+  name = "magic_book",
   layer = 0,
   x = 80,
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.magic_book",
 }
 
 npc{
+  name = "fight_for_dummies",
   layer = 0,
   x = 104,
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.fight_for_dummies",
 }
 
 npc{
+  name = "economy_for_dummies",
   layer = 0,
   x = 104,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.economy_for_dummies",
 }
 
 npc{
+  name = "politic_for_dummies",
   layer = 0,
   x = 80,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.politic_for_dummies",
 }
 
 npc{
+  name = "space_conquest_for_dummies",
   layer = 0,
   x = 56,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.space_conquest_for_dummies",
 }
 
 npc{
+  name = "urbanism_for_dummies",
   layer = 0,
   x = 168,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.urbanism_for_dummies",
 }
 
 npc{
+  name = "geography_for_dummies",
   layer = 0,
   x = 192,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.geography_for_dummies",
 }
 
 npc{
+  name = "zoology_for_dummies",
   layer = 0,
   x = 216,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.zoology_for_dummies",
 }
 
 npc{
+  name = "weapon_for_dummies",
   layer = 0,
   x = 216,
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.weapon_for_dummies",
 }
 
 npc{
+  name = "recipe_for_dummies",
   layer = 0,
   x = 168,
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.recipe_for_dummies",
 }
 
 npc{
+  name = "exploration_for_dummies",
   layer = 0,
   x = 192,
   y = 101,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.exploration_for_dummies",
 }
 
 npc{
+  name = "love_book",
   layer = 0,
   x = 264,
   y = 149,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.love_book",
 }
 
 npc{
+  name = "horror_book",
   layer = 0,
   x = 288,
   y = 149,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.horror_book",
 }
 
 npc{
+  name = "sf_book",
   layer = 0,
   x = 312,
   y = 149,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.sf_book",
 }
 
 npc{
+  name = "theater_script",
   layer = 0,
   x = 312,
   y = 197,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.theater_script",
 }
 
 npc{
+  name = "science_book",
   layer = 0,
   x = 288,
   y = 197,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.science_book",
 }
 
 npc{
+  name = "security_systems",
   layer = 0,
   x = 264,
   y = 197,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.security_systems",
 }
 
 npc{
+  name = "child_book",
   layer = 0,
   x = 176,
   y = 149,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.child_book",
 }
 
 npc{
+  name = "adult_book",
   layer = 0,
   x = 208,
   y = 149,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.adult_book",
 }
 
 npc{
+  name = "biography_grump",
   layer = 0,
   x = 136,
   y = 53,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.biography_grump",
 }
 
 npc{
@@ -922,12 +922,12 @@ npc{
 }
 
 npc{
+  name = "hyrule_times",
   layer = 0,
   x = 176,
   y = 197,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#chill_valley.z_house.hyrule_times",
 }
 
 wall{
@@ -980,6 +980,26 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+enemy{
+  name = "library_rat",
+  layer = 0,
+  x = 144,
+  y = 229,
+  direction = 3,
+  breed = "alttp/rat",
+  savegame_variable = "chill_valley_z_house_library_rat",
+  treasure_name = "fairy",
+}
+
+wall{
+  layer = 0,
+  x = 72,
+  y = 136,
+  width = 16,
+  height = 8,
+  stops_enemies = true,
 }
 
 tile{

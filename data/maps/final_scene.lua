@@ -9,10 +9,16 @@
 
 local map = ...
 local game = map:get_game()
+local player_name = game:get_player_name()
 
+-- Sunset effect
 local sunset_effect = require("scripts/maps/sunset_effect")
 -- Cinematic black lines
 local black_stripe = nil
+-- Final fade sprite
+local fade_sprite = nil
+local fade_x = 0
+local fade_y = 0
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -23,6 +29,9 @@ function map:on_started()
   -- Prevent or allow the player from pausing the game
   game:set_pause_allowed(false)
 
+  -- Let the sprite animation running.
+  grump_and_zelda:get_sprite():set_ignore_suspend(true)
+
 end
 
 -- Event called after the opening transition effect of the map,
@@ -31,24 +40,137 @@ function map:on_opening_transition_finished()
 
   -- Freeze hero
   local hero = map:get_hero()
+  hero:set_visible(true)
+  hero:set_enabled(true)
   hero:freeze()
 
+  -- Launch cinematic
+  map:start_cinematic()
 end
 
+-- Draw sunset then black stripes.
 function map:on_draw(dst_surface)
+
+  -- Sunset
   sunset_effect:draw(dst_surface)
+  
+  -- Black stripes
   map:draw_cinematic_stripes(dst_surface)
+
+  -- Fade
+  if fade_sprite ~= nil then
+    fade_sprite:draw(dst_surface, fade_x, fade_y)
+  end
+
 end
 
 
 -- Draw the cinematic black stripes
 function map:draw_cinematic_stripes(dst_surface)
+
+  -- Lazy creation of the black stripes
   if black_stripe == nil then
     local quest_w, quest_h = sol.video.get_quest_size()
     black_stripe = sol.surface.create(quest_w, 24)
     black_stripe:fill_color({0, 0, 0})
   end
   
+  -- Draw them
   black_stripe:draw(dst_surface, 0, 0)
   black_stripe:draw(dst_surface, 0, 216)
+end
+
+-- Final cinematic
+function map:start_cinematic()
+
+  sol.timer.start(map, 500, function()
+    game:start_dialog("final.zelda_4", player_name, function()
+      local hero_movement_1 = sol.movement.create("target")
+      local hero_sprite = hero:get_sprite()
+      hero_sprite:set_direction(1) -- up
+      hero_sprite:set_animation("walking")
+      hero_movement_1:set_target(104, 192)
+      hero_movement_1:set_speed(50)
+      hero_movement_1:set_smooth(true)
+      hero_movement_1:set_ignore_obstacles(true)
+      hero_movement_1:start(hero, function()
+        hero_sprite:set_direction(0) -- right
+        hero_sprite:set_animation("stopped")
+        hero_sprite:set_paused(true)
+
+        sol.timer.start(map, 500, function()
+          game:start_dialog("final.zelda_5", player_name, function()
+            sol.timer.start(map, 500, function()
+              game:start_dialog("final.mr_grump_3", function()
+                sol.timer.start(map, 500, function()
+                  game:start_dialog("final.zelda_6", player_name, function()
+                  
+                  -- Make the player disapear
+                  local hero_movement_2 = sol.movement.create("target")
+                  hero_sprite:set_direction(2) -- left
+                  hero_sprite:set_animation("walking")
+                  hero_movement_2:set_target(-32, 192)
+                  hero_movement_2:set_speed(80)
+                  hero_movement_2:set_smooth(true)
+                  hero_movement_2:set_ignore_obstacles(true)
+                  hero_movement_2:start(hero, function()
+
+                    sol.timer.start(map, 500, function()
+                      -- Then come back with cocktails
+                      local hero_movement_3 = sol.movement.create("target")
+                      hero_sprite:set_direction(0) -- right
+                      hero_sprite:set_animation("carrying_walking")
+                      hero_movement_3:set_target(104, 192)
+                      hero_movement_3:set_speed(80)
+                      hero_movement_3:set_smooth(true)
+                      hero_movement_3:set_ignore_obstacles(true)
+                      hero_movement_3:start(hero, function()
+                        hero_sprite:set_animation("stopped")
+                        hero_sprite:set_paused(true)
+
+                        game:start_dialog("final.zelda_7", player_name, function()
+                          sol.timer.start(map, 500, function()
+                            hero_sprite:set_animation("dying")
+
+                            sol.timer.start(map, 2000, function()
+                              local hero_movement_4 = sol.movement.create("target")
+                              hero_sprite:set_animation("walking")
+                              hero_sprite:set_direction(2) -- left
+                              hero_movement_4:set_target(-32, 192)
+                              hero_movement_4:set_speed(80)
+                              hero_movement_4:set_smooth(true)
+                              hero_movement_4:set_ignore_obstacles(true)
+                              hero_movement_4:start(hero, function()
+                                sol.timer.start(map, 1000, function()
+                                  game:start_dialog("final.zelda_8", function()
+                                    sol.timer.start(map, 500, function()
+                                      -- TODO draw heart shape instead of ellipse
+                                      fade_sprite = sol.sprite.create("entities/heart_fade")
+                                      local camera_x, camera_y = map:get_camera():get_position()
+                                      local zelda_x, zelda_y = grump_and_zelda:get_position()
+                                      fade_x = zelda_x - camera_x
+                                      fade_y = zelda_y - camera_y - 16
+                                      fade_sprite:set_animation("close")
+                                      fade_sprite.on_animation_finished = function()
+                                        -- TODO Ending credits
+                                      end
+                                    end)
+                                  end)
+                                end)
+                              end)
+                            end)
+                          end)
+                        end)
+                      end)
+                    end)
+                  end)
+                end)
+              end)
+            end)
+          end)
+        end)
+      end)
+    end)
+  end)
+  end)
 end

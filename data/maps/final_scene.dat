@@ -349,8 +349,8 @@ tile{
 destination{
   name = "from_beach",
   layer = 0,
-  x = 160,
-  y = 237,
+  x = 104,
+  y = 245,
   direction = 1,
 }
 
@@ -368,6 +368,7 @@ wall{
 }
 
 custom_entity{
+  name = "grump_and_zelda",
   layer = 0,
   x = 160,
   y = 197,

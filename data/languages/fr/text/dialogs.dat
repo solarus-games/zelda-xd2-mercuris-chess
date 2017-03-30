@@ -3931,6 +3931,18 @@ ma chérie.
 }
 
 dialog{
+  id = "final.mr_grump_3",
+  text = [[
+Quelle bonne idée, ma
+Zeldachou d'amour!
+
+Je vais prendre un
+Mojo-ito, et toi ma
+choupinette?
+]]
+}
+
+dialog{
   id = "final.the_doctor_1",
   text = [[
 OH !$0
@@ -4045,6 +4057,87 @@ romantique... !
 Tu vas devoir payer pour
 ton impolitesse !
 Encore une fois !
+]]
+}
+
+dialog{
+  id = "final.zelda_4",
+  text = [[
+$v,
+Viens ici, veux-tu ?
+
+Allez! Plus vite que ça!
+
+]]
+}
+
+dialog{
+  id = "final.zelda_5",
+  text = [[
+Comme punition,
+mon cher $v,
+j'ai une idée...
+Comme tu as gâché notre
+petit moment en
+amoureux,
+il va falloir que tu
+remontes grandement
+le niveau.
+Je te propose... non!
+Je t'ORDONNE de nous
+apporter les cocktails!
+Que veux-tu boire, mon
+Grumpinou d'amour ?
+]]
+}
+
+dialog{
+  id = "final.zelda_6",
+  text = [[
+Pour moi, ça sera une
+Zora Colada !
+
+Allez, $v,
+au boulot!
+]]
+}
+
+dialog{
+  id = "final.zelda_7",
+  text = [[
+Merci, $v!$0
+
+
+Glou$0 glou$0 glou$0
+C'était délicieux!
+
+Tiens, $v,
+tu n'entendrais pas
+des miaulements?
+C'est Flocon-de-neige!
+Il a faim! $0
+Allez, va le nourir!
+]]
+}
+
+dialog{
+  id = "final.zelda_8",
+  text = [[
+Rhâaaa...
+Quel boulet, 
+n'est-ce pas?
+Bon, on en était où,
+tous les deux ?
+
+Ha oui, tu me parlais
+d'une île où on pourrait
+passer nos vacances.
+Koholint, tu dis ?
+Et il y a une baleine
+volante ?
+Dis-donc, ça a l'air
+trop chouette!
+On y va ?
 ]]
 }
 

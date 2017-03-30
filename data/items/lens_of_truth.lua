@@ -31,6 +31,9 @@ function item:set_lens_active(active)
 
     game:remove_magic(1)
     sol.timer.start(lens_menu, 1500, function()
+      if game:is_suspended() then
+        return true
+      end
       game:remove_magic(1)
       if game:get_magic() == 0 then
         item:set_lens_active(false)

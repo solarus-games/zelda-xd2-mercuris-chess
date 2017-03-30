@@ -2452,6 +2452,7 @@ est synonyme de succès.
 
 dialog{
   id = "chill_valley.z_house.achievement",
+  skip = "all",
   text = [[
 Bravo, tu as débloqué
 le succès "Rat de
@@ -2479,6 +2480,7 @@ ce genre de lecture !
 
 dialog{
   id = "chill_valley.z_house.all_read",
+  skip = "all",
   text = [[
 Squick ! T'es chez moi
 là, et tu lis tous mes

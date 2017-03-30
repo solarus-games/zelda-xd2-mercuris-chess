@@ -10163,13 +10163,14 @@ npc{
 }
 
 npc{
-  name = "random_walk_npc_riot_25",
+  name = "npc_riot_25",
   layer = 0,
-  x = 192,
-  y = 325,
+  x = 352,
+  y = 429,
   direction = 2,
   subtype = 1,
   sprite = "npc/newlink/blond_boy",
+  behavior = "dialog#",
 }
 
 npc{
@@ -10217,7 +10218,7 @@ npc{
 }
 
 npc{
-  name = "random_walk_npc_riot_30",
+  name = "npc_riot_30",
   layer = 0,
   x = 168,
   y = 253,
@@ -10230,8 +10231,8 @@ npc{
 npc{
   name = "random_walk_npc_riot_31",
   layer = 0,
-  x = 136,
-  y = 349,
+  x = 128,
+  y = 173,
   direction = 0,
   subtype = 1,
   sprite = "npc/alttp/running_man",
@@ -10258,6 +10259,24 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/average_middle_aged_man",
   behavior = "dialog#lafoo_riot.npc_33",
+}
+
+sensor{
+  name = "fire_rod_sensor",
+  layer = 0,
+  x = 240,
+  y = 373,
+  width = 16,
+  height = 96,
+}
+
+wall{
+  layer = 0,
+  x = 248,
+  y = 360,
+  width = 48,
+  height = 16,
+  stops_npcs = true,
 }
 
 tile{

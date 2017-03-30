@@ -55,11 +55,19 @@ function map:on_started()
   end
 
   -- Show or hide the riot
-  local riot_finished = true -- lafoo_riot:is_finished()
+  local riot_finished = lafoo_riot:is_finished()
   if riot_finished then
     map:remove_entities("npc_riot")
     map:remove_entities("random_walk_npc_riot")
   end
+
+  -- Hide the Fire Rod NPC if player already has the fire rod
+  local fire_rod = game:get_item("fire_rod"):get_variant()
+  local has_fire_rod = fire_rod >= 1
+  if has_fire_rod then 
+    npc_riot_25:remove()
+  end
+
 end
 
 -- Called each time a bush in Link's garden is cut.
@@ -100,3 +108,44 @@ function map:on_obtaining_treasure(item, variant, savegame_variable)
   end
 end
 
+function fire_rod_sensor:on_activated()
+  local fire_rod = game:get_item("fire_rod"):get_variant()
+  local has_fire_rod = fire_rod >= 1
+  if has_fire_rod then 
+    return
+  end
+  
+  -- block hero
+  local hero = map:get_hero()
+  hero:freeze()
+  game:set_hud_enabled(false)
+  game:set_pause_allowed(false)
+
+  local npc_movement_1 = sol.movement.create("target")
+  local hero_x, hero_y = hero:get_position()
+  npc_movement_1:set_speed(100)
+  npc_movement_1:set_smooth(true)
+  npc_movement_1:set_ignore_obstacles(true)
+  npc_movement_1:set_target(hero_x + 32, hero_y)
+  npc_movement_1:start(npc_riot_25, function()
+    sol.timer.start(map, 800, function()
+      npc_riot_25:get_sprite():set_direction(2) --left
+      npc_riot_25:get_sprite():set_paused(true)
+      game:start_dialog("lafoo_riot.npc_25_fire_rod", function()
+        hero:unfreeze()
+        hero:start_treasure("fire_rod", 1)
+        game:set_hud_enabled(true)
+        game:set_pause_allowed(true)
+        
+        local npc_movement_2 = sol.movement.create("target")
+        npc_movement_2:set_speed(180)
+        npc_movement_2:set_smooth(true)
+        npc_movement_2:set_target(128, 24)
+        --npc_movement_2:set_ignore_obstacles(true)
+        npc_movement_2:start(npc_riot_25, function()
+          npc_riot_25:remove()
+        end)
+      end)
+    end)
+  end)
+end

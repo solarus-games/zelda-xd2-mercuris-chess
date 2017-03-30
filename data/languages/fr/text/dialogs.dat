@@ -496,16 +496,6 @@ Vérité !
 }
 
 dialog{
-  id = "_item_description.library_award.1",
-  icon = "31",
-  skip = "all",
-  text = [[
-Diplôme du meilleur
-rat de bibliothèque.
-]]
-}
-
-dialog{
   id = "_item_description.mail_counter.1",
   icon = "38",
   skip = "all",
@@ -515,6 +505,16 @@ Princesse Zelda.
 
 Va vite le lui
 apporter !
+]]
+}
+
+dialog{
+  id = "_item_description.library_award.1",
+  icon = "31",
+  skip = "all",
+  text = [[
+Diplôme du meilleur
+rat de bibliothèque.
 ]]
 }
 
@@ -2452,7 +2452,6 @@ est synonyme de succès.
 
 dialog{
   id = "chill_valley.t_house",
-  skip = "all",
   text = [[
 C'est devenu très
 animé autour de chez
@@ -2489,23 +2488,6 @@ Un livre pour adulte !
 
 Tu n'as pas l'âge pour
 ce genre de lecture !
-]]
-}
-
-dialog{
-  id = "chill_valley.z_house.all_read",
-  skip = "all",
-  text = [[
-Squick ! T'es chez moi
-là, et tu lis tous mes
-livres comme s'ils
-étaient à toi ! Squick
-squick, jamais vu un
-culot pareil ! Il ne
-peut y avoir qu'un
-seul rat de bibliothè-
-que et c'est moi !
-TAIAUUUT ! SQUICK !
 ]]
 }
 
@@ -3543,26 +3525,6 @@ dis !
 }
 
 dialog{
-  id = "dungeon_1.1f.scared_woman",
-  text = [[
-J'étais venue passer un
-entretien pour devenir
-assistante secrétaire
-rattachée à la
-photocopie et au service
-du café mais je
-regrette. J'entends
-des voix dans les
-tableaux accrochés aux
-murs de ce château,
-c'est vraiment
-effrayant.
-Je te ferai exploser
-tout ça moi...!
-]]
-}
-
-dialog{
   id = "dungeon_1.b2.bones",
   text = [[
 J'ai beau être en
@@ -3621,26 +3583,6 @@ on ne s'ennuie pas. Il
 y a une place dans la
 cellule d'à-côté.
 Fais-toi plaisir.
-]]
-}
-
-dialog{
-  id = "dungeon_1.b2.scared_man",
-  text = [[
-Hiiiii ! J'étais venu
-passer un séjour tous
-frais payés avec ma
-femme dans ce luxueux
-château mais regardez
-ça jeune homme : ce
-sous-sol est lugubre à
-souhait ! Il y a dix
-minutes, je suis tombé
-nez-à-nez avec un
-squelette qui m'a parlé.
-J'ai préféré me réfugier
-ici mais je commence à
-avoir faim...
 ]]
 }
 
@@ -5294,6 +5236,13 @@ logique.
 
 dialog{
   id = "lafoo_riot.npc_25",
+  text = [[
+Laisse moi fuir !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_25_fire_rod",
   text = [[
 Heu, tu veux un cadeau?
 

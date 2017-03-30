@@ -641,6 +641,7 @@ item{ id = "heart_hundreth", description = "1/100 of heart" }
 item{ id = "hookshot", description = "Hookshot" }
 item{ id = "lamp", description = "Lamp" }
 item{ id = "lens_of_truth", description = "Lens of Alternative Truth" }
+item{ id = "library_award", description = "Bookworm Award" }
 item{ id = "magic_bar", description = "Maximum of magic (none / half / full)" }
 item{ id = "magic_flask", description = "Magic flask (small / big)" }
 item{ id = "mail", description = "Mail" }

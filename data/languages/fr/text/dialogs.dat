@@ -496,6 +496,16 @@ Vérité !
 }
 
 dialog{
+  id = "_item_description.library_award.1",
+  icon = "31",
+  skip = "all",
+  text = [[
+Diplôme du meilleur
+rat de bibliothèque.
+]]
+}
+
+dialog{
   id = "_item_description.mail_counter.1",
   icon = "38",
   skip = "all",
@@ -1325,6 +1335,17 @@ essayer d'y voir
 plus clair et de
 démêler le vrai du
 faux !
+]]
+}
+
+dialog{
+  id = "_treasure.library_award.1",
+  icon = "31",
+  text = [[
+Tu as obtenu l'award
+du rat de
+bibliothèque !
+Félicitations !
 ]]
 }
 

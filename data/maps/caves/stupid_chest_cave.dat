@@ -461,6 +461,60 @@ tile{
   pattern = "302",
 }
 
+tile{
+  layer = 0,
+  x = 112,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "302",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "303",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "294",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "71",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "71",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 216,
+  width = 16,
+  height = 32,
+  pattern = "2",
+}
+
 destination{
   name = "from_outside",
   layer = 0,
@@ -1390,6 +1444,57 @@ teletransporter{
   height = 16,
   destination_map = "out/b1",
   destination = "from_stupid_chest_cave",
+}
+
+dynamic_tile{
+  name = "weak_wall_a_closed",
+  layer = 0,
+  x = 88,
+  y = 200,
+  pattern = "52",
+  width = 32,
+  height = 24,
+  enabled_at_start = true,
+}
+
+door{
+  name = "weak_wall_a",
+  layer = 0,
+  x = 96,
+  y = 240,
+  direction = 3,
+  sprite = "entities/doors/door_d1_weak_wall",
+  savegame_variable = "tunnels_weak_wall_a",
+  opening_method = "explosion",
+}
+
+destination{
+  name = "from_tunnels",
+  layer = 0,
+  x = 104,
+  y = 213,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 0,
+  x = 96,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "caves/tunnels",
+  destination = "from_stupid_chest_cave",
+}
+
+dynamic_tile{
+  name = "weak_wall_a_open",
+  layer = 1,
+  x = 88,
+  y = 216,
+  pattern = "312",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{

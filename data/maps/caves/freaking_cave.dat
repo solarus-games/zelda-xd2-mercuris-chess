@@ -3,7 +3,7 @@ properties{
   y = 0,
   width = 1216,
   height = 1256,
-  min_layer = 0,
+  min_layer = -1,
   max_layer = 2,
   world = "inside_world",
   floor = 0,
@@ -1796,7 +1796,7 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 1200,
+  y = 1192,
   width = 8,
   height = 16,
   pattern = "288",
@@ -1805,7 +1805,7 @@ tile{
 tile{
   layer = 0,
   x = 168,
-  y = 1200,
+  y = 1192,
   width = 8,
   height = 16,
   pattern = "287",
@@ -2309,7 +2309,7 @@ tile{
 tile{
   layer = 0,
   x = 152,
-  y = 1200,
+  y = 1192,
   width = 16,
   height = 16,
   pattern = "352",
@@ -2800,14 +2800,14 @@ destination{
   name = "from_tunnels",
   layer = 0,
   x = 160,
-  y = 1213,
+  y = 1205,
   direction = 1,
 }
 
 stairs{
   layer = 0,
   x = 152,
-  y = 1200,
+  y = 1192,
   direction = 3,
   subtype = 3,
 }
@@ -2815,7 +2815,7 @@ stairs{
 teletransporter{
   layer = 0,
   x = 152,
-  y = 1200,
+  y = 1192,
   width = 16,
   height = 16,
   destination_map = "caves/tunnels",
@@ -3815,7 +3815,7 @@ tile{
 tile{
   layer = 1,
   x = 144,
-  y = 1216,
+  y = 1208,
   width = 32,
   height = 8,
   pattern = "312",
@@ -4004,7 +4004,7 @@ tile{
 tile{
   layer = 1,
   x = 152,
-  y = 1216,
+  y = 1208,
   width = 16,
   height = 8,
   pattern = "349",

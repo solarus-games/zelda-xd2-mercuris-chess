@@ -53,7 +53,7 @@ function perfume_sensor:on_activated()
       perfume_npc:get_sprite():set_paused(true)
       game:start_dialog("lafoo_riot.perfume_npc", function()
         hero:unfreeze()
-        hero:start_treasure("perfume_counter", 1)
+        hero:start_treasure("perfume", 1)
         game:set_hud_enabled(true)
         game:set_pause_allowed(true)
         

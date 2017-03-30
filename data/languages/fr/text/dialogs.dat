@@ -2376,6 +2376,23 @@ est synonyme de succès.
 }
 
 dialog{
+  id = "chill_valley.t_house",
+  text = [[
+C'est devenu très
+animé autour de chez
+nous.
+Au moins, c'est vivant,
+on ne s'ennuie pas !
+
+Pas comme ça soeur qui
+vit dans le désert.
+
+Elle se morfond toute
+la journée !
+]]
+}
+
+dialog{
   id = "chill_valley.welcome_sign",
   skip = "all",
   text = [[
@@ -3315,7 +3332,8 @@ Et qu'il en a fait une
 station balnéaire,
 avec une immense tour.
 Une véritable pompe à
-fric.
+fric !
+
 On est quand même
 mieux ici, au calme,
 loin de tout ce

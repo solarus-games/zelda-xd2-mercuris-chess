@@ -37,7 +37,6 @@ function item:on_obtained(variant)
 
   local num_pieces_of_heart = item:get_num_pieces_of_heart()
 
-  local nb_pieces_of_heart = game:get_value("i1030") or 0
   game:start_dialog(message_id[num_pieces_of_heart + 1], function()
 
     game:set_value("num_pieces_of_heart", (num_pieces_of_heart + 1) % 4)

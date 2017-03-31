@@ -5119,16 +5119,25 @@ Enclos à rubis
 dialog{
   id = "lafoo.after_explosion",
   text = [[
-Et voilà, le bâtiment
-du Bureau des Objets
-Trouvés s'est effondré.
+Ça y est !!!
+
+
+Le bâtiment du Bureau
+des Objets Trouvés
+s'est effondré !
+Mais les gens sont déjà
+tous partis... car
+apparemment, il y a un
+Métamorph à l'état
+sauvage qui serait
+apparu dans le coin.
 Cependant, on n'a pas
 fini de se venger de 
 Monsieur Grump.
 Il habite au château
 royal, il l'a racheté
 avec sa grande fortune.
-Il parait qu'il a
+Il paraît qu'il a
 recouvert les murs
 d'une couche d'or !
 Si tu le cherches, il

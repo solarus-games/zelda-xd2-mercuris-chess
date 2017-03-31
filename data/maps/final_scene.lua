@@ -19,6 +19,7 @@ local black_stripe = nil
 local fade_sprite = nil
 local fade_x = 0
 local fade_y = 0
+local black_surface = nil
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -32,55 +33,67 @@ function map:on_started()
   -- Let the sprite animation running.
   grump_and_zelda:get_sprite():set_ignore_suspend(true)
 
+  -- Let the swell animation running.
+  for i = 1, 10 do
+    local swell_name = "swell_" .. i
+    local swell_entity = map:get_entity(swell_name)
+    if swell_entity ~= nil then
+        swell_entity:get_sprite():set_ignore_suspend(true)
+    end
+  end
 end
 
 -- Event called after the opening transition effect of the map,
 -- that is, when the player takes control of the hero.
 function map:on_opening_transition_finished()
 
-  -- Freeze hero
+  -- Freeze hero.
   local hero = map:get_hero()
   hero:set_visible(true)
   hero:set_enabled(true)
   hero:freeze()
 
-  -- Launch cinematic
+  -- Launch cinematic.
   map:start_cinematic()
 end
 
 -- Draw sunset then black stripes.
 function map:on_draw(dst_surface)
 
-  -- Sunset
+  -- Sunset.
   sunset_effect:draw(dst_surface)
   
-  -- Black stripes
+  -- Black stripes.
   map:draw_cinematic_stripes(dst_surface)
 
-  -- Fade
+  -- Fade.
   if fade_sprite ~= nil then
     fade_sprite:draw(dst_surface, fade_x, fade_y)
   end
 
+  -- Full black.
+  if black_surface then
+    black_surface:draw(dst_surface)
+  end
 end
 
 
--- Draw the cinematic black stripes
+-- Draw the cinematic black stripes.
 function map:draw_cinematic_stripes(dst_surface)
 
-  -- Lazy creation of the black stripes
+  -- Lazy creation of the black stripes.
   if black_stripe == nil then
     local quest_w, quest_h = sol.video.get_quest_size()
     black_stripe = sol.surface.create(quest_w, 24)
     black_stripe:fill_color({0, 0, 0})
   end
   
-  -- Draw them
+  -- Draw them.
   black_stripe:draw(dst_surface, 0, 0)
   black_stripe:draw(dst_surface, 0, 216)
 end
 
--- Final cinematic
+-- Final cinematic.
 function map:start_cinematic()
 
   sol.timer.start(map, 500, function()
@@ -170,6 +183,9 @@ function map:start_cinematic()
                                         fade_sprite:set_animation("close")
                                         fade_sprite.on_animation_finished = function()
                                           -- TODO Ending credits
+                                          local quest_w, quest_h = sol.video.get_quest_size()
+                                          black_surface = sol.surface.create(quest_w, quest_h)
+                                          black_surface:fill_color({0, 0, 0})
                                         end
                                       end)
                                     end)

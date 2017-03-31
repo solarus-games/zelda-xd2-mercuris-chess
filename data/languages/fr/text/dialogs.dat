@@ -2513,7 +2513,6 @@ seul rat de bibliothè-
 que et c'est moi !
 TAIAUUUT ! SQUICK !
 ]]
-	
 }
 
 dialog{
@@ -3565,24 +3564,22 @@ dis !
 
 dialog{
   id = "dungeon_1.1f.scared_woman",
+  skip = "all",
   text = [[
-Je suis venue dans
-ce château pour
-passer un
+Je suis venue dans ce
+château pour passer un
 entretien comme
-assistante
-affectée à la
+assistante affectée à la
 photocopie et au
-service de café
-mais je regrette.
-J'entends des
-voix dans les
-tableaux accrochés
-aux murs. C'est
-effrayant.
-Je te ferai
+service de café mais je
+regrette.
+J'entends des voix dans
+les tableaux accrochés
+aux murs.
+C'est effrayant.
+Je te ferais
 exploser tout ça
-moi...!
+moi... !
 ]]
 }
 

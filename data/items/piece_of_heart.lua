@@ -47,13 +47,16 @@ function item:on_obtained(variant)
   end)
 end
 
--- 40 pieces of hearts (10 hearts):
+-- 4 hearts initially (9 and then 4 because of Zelda).
+
+-- 10 hearts from 40 pieces of hearts:
 -- - 5 in Dungeon 2
 -- - 28 in Pieces of heart cave
 -- - 1 in Lost and Found Office
 -- - 6 in outside world (1 per map, needs lens of truth)
 
--- Heart containers: initially 14, then 9 because of Zelda
+-- 6 heart containers:
+-- - 5 in the main village shop.
 -- - 1 in the library.
 
--- Total: 20 heart containers.
+-- Total: 20 hearts.

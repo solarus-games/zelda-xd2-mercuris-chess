@@ -390,11 +390,11 @@ function zelda:on_interaction()
         if should_give_back_light_saber then
           game:start_dialog("intro.zelda_removing_hearts", function()
 
-            -- Remove 4 heart containers.
+            -- Remove 5 heart containers.
             local hearts_timer = sol.timer.start(game, 500, function()
               sol.audio.play_sound("danger")
               game:set_max_life(game:get_max_life() - 4)
-              return game:get_max_life() > (5 * 4)
+              return game:get_max_life() > (4 * 4)
             end)
             hearts_timer:set_suspended_with_map(false)
 

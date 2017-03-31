@@ -6155,6 +6155,19 @@ de vie.
 }
 
 dialog{
+  id = "main_village.shop.heart_container",
+  next = "_unknown",
+  text = [[
+Un Réceptacle de Coeur
+authentique.
+
+Les premiers qui
+en achètent les auront
+moins cher !
+]]
+}
+
+dialog{
   id = "main_village.shop.iplume",
   next = "_unknown",
   text = [[
@@ -6189,8 +6202,24 @@ dialog{
   id = "main_village.shop.red_rupee",
   next = "_unknown",
   text = [[
-Un Rubis rouge.
+Un Rubis rouge
+fabrication maison.
 Rarissime !
+]]
+}
+
+dialog{
+  id = "main_village.shop.salesman",
+  text = [[
+Tout les commerces se
+délocalisent en
+périphérie du centre
+historique.
+
+
+Si ça continue comme ça
+on va devoir déménager
+nous aussi !
 ]]
 }
 
@@ -6204,6 +6233,27 @@ Tour Grump
 Sud : Forêt
 Sud-Ouest :
 Chill Valley
+]]
+}
+
+dialog{
+  id = "main_village.tavern.heart_container_price_increasing",
+  text = [[
+Merci bien !
+Tu as fait une bonne
+affaire :
+le prix augmente pour
+les prochains clients,
+héhéhé.
+]]
+}
+
+dialog{
+  id = "main_village.tavern.heart_containers_done",
+  text = [[
+Merci bien ! Bon bah,
+on dirait que tu as
+acheté tout le stock.
 ]]
 }
 

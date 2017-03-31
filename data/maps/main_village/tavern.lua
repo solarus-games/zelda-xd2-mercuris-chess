@@ -1,24 +1,43 @@
--- Lua script of map main_village/tavern.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if heart_container_1 ~= nil then
+    heart_container_2:set_enabled(false)
+    heart_container_3:set_enabled(false)
+    heart_container_4:set_enabled(false)
+    heart_container_5:set_enabled(false)
+  elseif heart_container_2 ~= nil then
+    heart_container_3:set_enabled(false)
+    heart_container_4:set_enabled(false)
+    heart_container_5:set_enabled(false)
+  elseif heart_container_3 ~= nil then
+    heart_container_4:set_enabled(false)
+    heart_container_5:set_enabled(false)
+  elseif heart_container_4 ~= nil then
+    heart_container_5:set_enabled(false)
+  end
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+function map:on_obtained_treasure(item, variant, savegame_variable)
 
+  local next_heart_container
+  if savegame_variable == "main_village_shop_heart_container_1" then
+    next_heart_container = heart_container_2
+  elseif savegame_variable == "main_village_shop_heart_container_2" then
+    next_heart_container = heart_container_3
+  elseif savegame_variable == "main_village_shop_heart_container_3" then
+    next_heart_container = heart_container_4
+  elseif savegame_variable == "main_village_shop_heart_container_4" then
+    next_heart_container = heart_container_5
+  elseif savegame_variable == "main_village_shop_heart_container_5" then
+    game:start_dialog("main_village.tavern.heart_containers_done")
+  end
+
+  if next_heart_container ~= nil then
+    game:start_dialog("main_village.tavern.heart_container_price_increasing", function()
+      next_heart_container:set_enabled(true)
+    end)
+  end
 end

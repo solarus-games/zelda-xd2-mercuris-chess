@@ -8388,6 +8388,50 @@ npc{
   behavior = "dialog#dungeon_2.1f.5f_issues_man",
 }
 
+dynamic_tile{
+  name = "lens_invisible_tile_1",
+  layer = 0,
+  x = 472,
+  y = 344,
+  pattern = "877",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "lens_invisible_tile_2",
+  layer = 0,
+  x = 488,
+  y = 352,
+  pattern = "877",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "lens_invisible_tile_3",
+  layer = 0,
+  x = 464,
+  y = 360,
+  pattern = "877",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "lens_invisible_tile_4",
+  layer = 0,
+  x = 480,
+  y = 368,
+  pattern = "877",
+  width = 8,
+  height = 8,
+  enabled_at_start = true,
+}
+
 tile{
   layer = 1,
   x = 840,

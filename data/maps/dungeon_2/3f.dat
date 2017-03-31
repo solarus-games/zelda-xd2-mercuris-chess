@@ -5479,6 +5479,204 @@ tile{
   pattern = "torch_big.bottom",
 }
 
+tile{
+  layer = 0,
+  x = 832,
+  y = 336,
+  width = 48,
+  height = 48,
+  pattern = "886",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 360,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 840,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 856,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 872,
+  y = 368,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 376,
+  width = 8,
+  height = 8,
+  pattern = "1043",
+}
+
+tile{
+  layer = 0,
+  x = 864,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "877",
+}
+
+tile{
+  layer = 0,
+  x = 848,
+  y = 344,
+  width = 8,
+  height = 8,
+  pattern = "877",
+}
+
+tile{
+  layer = 0,
+  x = 832,
+  y = 352,
+  width = 8,
+  height = 8,
+  pattern = "877",
+}
+
 sensor{
   name = "dungeon_room_8_1",
   layer = 0,
@@ -6777,6 +6975,28 @@ sensor{
   y = 493,
   width = 16,
   height = 16,
+}
+
+dynamic_tile{
+  name = "lens_fake_tile_1",
+  layer = 0,
+  x = 832,
+  y = 336,
+  pattern = "floor.13-2",
+  width = 48,
+  height = 48,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "lens_fake_tile_2",
+  layer = 0,
+  x = 832,
+  y = 336,
+  pattern = "2162",
+  width = 48,
+  height = 48,
+  enabled_at_start = true,
 }
 
 tile{

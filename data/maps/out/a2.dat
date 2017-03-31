@@ -4449,7 +4449,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 616,
   width = 48,
   height = 8,
@@ -4512,7 +4512,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 576,
   width = 48,
   height = 40,
@@ -4557,7 +4557,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 40,
+  x = 32,
   y = 560,
   width = 48,
   height = 16,
@@ -5439,7 +5439,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 88,
+  x = 80,
   y = 576,
   width = 8,
   height = 40,
@@ -19712,6 +19712,139 @@ pickable{
   treasure_savegame_variable = "chill_valley_invisible_piece_of_heart",
 }
 
+jumper{
+  layer = 0,
+  x = 80,
+  y = 544,
+  width = 440,
+  height = 8,
+  direction = 2,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 584,
+  y = 640,
+  width = 80,
+  height = 8,
+  direction = 2,
+  jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 544,
+  y = 576,
+  width = 8,
+  height = 32,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 520,
+  y = 552,
+  width = 24,
+  height = 24,
+  direction = 1,
+  jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 544,
+  y = 608,
+  width = 40,
+  height = 40,
+  direction = 1,
+  jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 664,
+  y = 648,
+  width = 8,
+  height = 8,
+  direction = 1,
+  jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 672,
+  y = 656,
+  width = 8,
+  height = 80,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 624,
+  y = 760,
+  width = 24,
+  height = 8,
+  direction = 6,
+  jump_length = 48,
+}
+
+wall{
+  layer = 0,
+  x = 584,
+  y = 760,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+jumper{
+  layer = 0,
+  x = 648,
+  y = 736,
+  width = 24,
+  height = 24,
+  direction = 7,
+  jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 544,
+  y = 760,
+  width = 40,
+  height = 40,
+  direction = 7,
+  jump_length = 56,
+}
+
+jumper{
+  layer = 0,
+  x = 544,
+  y = 800,
+  width = 8,
+  height = 176,
+  direction = 0,
+  jump_length = 40,
+}
+
+jumper{
+  layer = 0,
+  x = 544,
+  y = 976,
+  width = 32,
+  height = 32,
+  direction = 1,
+  jump_length = 48,
+}
+
 tile{
   layer = 1,
   x = 896,
@@ -20398,7 +20531,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 32,
   y = 544,
   width = 48,
   height = 48,
@@ -20407,7 +20540,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 32,
   y = 592,
   width = 48,
   height = 8,
@@ -20416,7 +20549,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 88,
+  x = 80,
   y = 544,
   width = 8,
   height = 48,
@@ -20425,7 +20558,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 40,
+  x = 32,
   y = 536,
   width = 48,
   height = 8,
@@ -20434,7 +20567,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 32,
+  x = 24,
   y = 544,
   width = 8,
   height = 48,

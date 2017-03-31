@@ -15920,6 +15920,15 @@ npc{
   sprite = "npc/alttp/woman_yellow",
 }
 
+pickable{
+  name = "lens_invisible_pickable_1",
+  layer = 0,
+  x = 832,
+  y = 661,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "main_village_invisible_piece_of_heart_1",
+}
+
 tile{
   layer = 1,
   x = 624,

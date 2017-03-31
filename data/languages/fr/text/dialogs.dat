@@ -6093,6 +6093,16 @@ suis fatiguer mnt.
 }
 
 dialog{
+  id = "main_village.east_sign",
+  text = [[
+Nord : Désert Bakasable
+Mont Tipiton
+
+Sud : Grump Résidences
+]]
+}
+
+dialog{
   id = "main_village.link_house.zelda_give_pink_saber_again",
   text = [[
 Qui t'a transformé ton

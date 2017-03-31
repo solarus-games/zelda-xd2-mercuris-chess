@@ -9,6 +9,10 @@ function sensor_meta:on_activated()
   local map = self:get_map()
   local name = self:get_name()
 
+  if name == nil then
+    return
+  end
+
   -- Sensors named "to_layer_X_sensor" move the hero on that layer.
   -- TODO use a custom entity or a wall to block enemies and thrown items?
   if name:match("^layer_up_sensor") then

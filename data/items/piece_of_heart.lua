@@ -22,8 +22,7 @@ end
 -- Returns the number of pieces of hearts existing in the game.
 function item:get_max_pieces_of_heart()
 
-  -- TODO
-  return 36
+  return 40
 end
 
 
@@ -48,3 +47,8 @@ function item:on_obtained(variant)
   end)
 end
 
+-- - 5 in Dungeon 2
+-- - 28 in Pieces of heart cave
+-- - 1 in Lost and Found Office
+-- - 6 in outside world (1 per map, needs lens of truth)
+-- Total: 40 (10 hearts)

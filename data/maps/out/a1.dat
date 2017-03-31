@@ -9753,6 +9753,15 @@ npc{
   behavior = "dialog#island.arrow_knee",
 }
 
+pickable{
+  name = "lens_invisible_pickable_1",
+  layer = 0,
+  x = 544,
+  y = 725,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "island_invisible_piece_of_heart",
+}
+
 tile{
   layer = 1,
   x = 104,

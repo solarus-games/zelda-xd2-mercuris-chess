@@ -3117,15 +3117,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 328,
-  y = 680,
-  width = 16,
-  height = 16,
-  pattern = "1039",
-}
-
-tile{
-  layer = 0,
   x = -16,
   y = 576,
   width = 32,
@@ -11111,16 +11102,6 @@ destructible{
   damage_on_enemies = 2,
 }
 
-npc{
-  name = "panel1_3",
-  layer = 0,
-  x = 336,
-  y = 693,
-  direction = 3,
-  subtype = 0,
-  sprite = "entities/sign",
-}
-
 destructible{
   layer = 0,
   x = 456,
@@ -11772,6 +11753,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#main_village.east_sign",
 }
 
 jumper{
@@ -12418,6 +12400,15 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+pickable{
+  name = "lens_invisible_pickable_1",
+  layer = 0,
+  x = 1016,
+  y = 693,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "desert_invisible_piece_of_heart",
 }
 
 tile{

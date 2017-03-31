@@ -10394,6 +10394,15 @@ sensor{
   height = 32,
 }
 
+pickable{
+  name = "lens_invisible_pickable_1",
+  layer = 0,
+  x = 616,
+  y = 829,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "forest_invisible_piece_of_heart",
+}
+
 tile{
   layer = 1,
   x = 432,

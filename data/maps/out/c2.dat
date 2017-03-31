@@ -11141,6 +11141,15 @@ destination{
   default = true,
 }
 
+pickable{
+  name = "lens_invisible_pickable_1",
+  layer = 0,
+  x = 968,
+  y = 669,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "swamp_invisible_piece_of_heart",
+}
+
 tile{
   layer = 1,
   x = 88,

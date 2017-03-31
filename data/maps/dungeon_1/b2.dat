@@ -8230,6 +8230,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_8",
   layer = 2,
   x = 1272,
   y = 0,
@@ -8238,6 +8239,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_9",
   layer = 2,
   x = 1592,
   y = 0,
@@ -8246,6 +8248,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_4",
   layer = 2,
   x = 1280,
   y = 232,
@@ -8254,6 +8257,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_5",
   layer = 2,
   x = 1600,
   y = 472,
@@ -8262,6 +8266,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_7",
   layer = 2,
   x = 632,
   y = 0,
@@ -8270,6 +8275,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_6",
   layer = 2,
   x = 312,
   y = 0,
@@ -8278,6 +8284,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 0,
   y = 232,
@@ -8286,6 +8293,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_2",
   layer = 2,
   x = 0,
   y = 472,
@@ -8294,6 +8302,7 @@ separator{
 }
 
 separator{
+  name = "auto_separator_3",
   layer = 2,
   x = 640,
   y = 472,

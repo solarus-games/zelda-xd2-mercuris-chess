@@ -1206,6 +1206,7 @@ tile{
 }
 
 separator{
+  name = "auto_separator_1",
   layer = 2,
   x = 312,
   y = 0,

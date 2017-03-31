@@ -10,6 +10,10 @@ function map:on_started()
 
   island_beach_jellyfish:set_life(2000000)
   beach_hut:set_drawn_in_y_order(true)
+
+  if game:is_dungeon_finished(1) then
+    map:remove_entities("grump_tower_guard_")
+  end
 end
 
 function island_scaring_rupee_sensor:on_activated()
@@ -137,4 +141,30 @@ end
 
 for sensor in map:get_entities("grump_sensor_") do
   sensor.on_activated = grump_sensor_on_activated
+end
+
+function grump_tower_guard_1:on_interaction()
+
+  local sprite_1 = grump_tower_guard_1:get_sprite()
+  local sprite_2 = grump_tower_guard_2:get_sprite()
+
+  sprite_1:set_direction(3)
+  sprite_2:set_direction(3)
+
+  game:start_dialog("island.grump_tower_guard_1", function()
+    sprite_2:set_direction(2)
+    game:start_dialog("island.grump_tower_guard_2", function()
+      sprite_2:set_direction(3)
+      game:start_dialog("island.grump_tower_guard_3", function()
+        sprite_1:set_direction(0)
+        game:start_dialog("island.grump_tower_guard_4", function()
+          sprite_1:set_direction(3)
+        end)
+      end)
+    end)
+  end)
+end
+
+function grump_tower_guard_2:on_interaction()
+  grump_tower_guard_1:on_interaction()
 end

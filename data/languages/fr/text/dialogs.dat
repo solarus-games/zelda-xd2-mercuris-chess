@@ -4816,6 +4816,64 @@ Gardes ! Sécurité !
 }
 
 dialog{
+  id = "island.grump_tower_guard_1",
+  skip = "all",
+  text = [[
+La Tour Grump est
+actuellement en
+travaux.
+Veuillez revenir
+plus tard.
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_2",
+  skip = "all",
+  text = [[
+Arrête de raconter du
+pipeau, José !
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_3",
+  skip = "all",
+  text = [[
+On a été chargé de
+te bloquer car tu as
+oublié de finir le
+premier donjon.
+
+
+On n'est pas dans un
+open world ici !
+
+Chez nous il y a un
+ordre dans les
+donjons.
+Sinon c'est la porte
+ouverte à toutes les
+fenêtres !
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_4",
+  skip = "all",
+  text = [[
+Bof, c'est le grand
+débat du moment...
+jeu linéaire ou non
+linéaire... Moi ça me
+passe par-dessus. Tant
+qu'on mon paie à faire
+le mur humain, ça me
+va.
+]]
+}
+
+dialog{
   id = "island.grump_tower_sign",
   skip = "all",
   text = [[

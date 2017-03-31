@@ -11,6 +11,8 @@ local map = ...
 local game = map:get_game()
 local player_name = game:get_player_name()
 
+local language_manager = require("scripts/language_manager")
+
 -- Sunset effect
 local sunset_effect = require("scripts/maps/sunset_effect")
 -- Cinematic black lines
@@ -20,6 +22,7 @@ local fade_sprite = nil
 local fade_x = 0
 local fade_y = 0
 local black_surface = nil
+local end_text = nil
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
@@ -74,6 +77,12 @@ function map:on_draw(dst_surface)
   -- Full black.
   if black_surface then
     black_surface:draw(dst_surface)
+  end
+
+  -- End text.
+  if end_text then
+    local quest_w, quest_h = sol.video.get_quest_size()
+    end_text:draw(dst_surface, quest_w / 2, quest_h / 2)
   end
 end
 
@@ -182,10 +191,34 @@ function map:start_cinematic()
                                         fade_y = zelda_y - camera_y - 16
                                         fade_sprite:set_animation("close")
                                         fade_sprite.on_animation_finished = function()
-                                          -- TODO Ending credits
+                                          -- Fill screen with black.
                                           local quest_w, quest_h = sol.video.get_quest_size()
                                           black_surface = sol.surface.create(quest_w, quest_h)
                                           black_surface:fill_color({0, 0, 0})
+
+                                          sol.timer.start(map, 1000, function()
+                                            local menu_font, menu_font_size = language_manager:get_menu_font()
+                                            end_text = sol.text_surface.create{
+                                              horizontal_alignment = "center",
+                                              vertical_alignment = "middle",
+                                              color = {255, 255, 255},
+                                              font = menu_font,
+                                              font_size = menu_font_size * 2,
+                                              text_key = "final.end_text",
+                                            }
+
+                                            sol.timer.start(map, 2000, function()
+                                              -- Hide text
+                                              end_text = nil
+                                              -- Launch Ending credits.
+                                              local dialog_box = game:get_dialog_box()
+                                              dialog_box:set_position("bottom")
+                                              game:start_dialog("final.credits", function()
+                                                -- Reset game.
+                                                sol.main.reset()
+                                              end)
+                                            end)
+                                          end)
                                         end
                                       end)
                                     end)

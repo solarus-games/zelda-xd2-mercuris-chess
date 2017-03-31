@@ -5,6 +5,7 @@ text{ key = "copyright_menu.solarus_license.line1", value = "Solarus est un logi
 text{ key = "copyright_menu.solarus_license.line2", value = "sous licence GPL v3." }
 text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda est" }
 text{ key = "copyright_menu.tloz_trademark.line2", value = "une marque déposée de Nintendo." }
+text{ key = "final.end_text", value = "Fin" }
 text{ key = "inventory.caption.item.apple_pie_counter.1", value = "Tarte aux Pommes" }
 text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
 text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }

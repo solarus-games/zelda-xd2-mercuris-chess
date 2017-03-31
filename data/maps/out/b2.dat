@@ -10207,7 +10207,7 @@ npc{
 npc{
   name = "npc_riot_27",
   layer = 0,
-  x = 72,
+  x = 80,
   y = 317,
   direction = 0,
   subtype = 1,
@@ -10218,7 +10218,7 @@ npc{
 npc{
   name = "npc_riot_28",
   layer = 0,
-  x = 88,
+  x = 96,
   y = 325,
   direction = 0,
   subtype = 1,

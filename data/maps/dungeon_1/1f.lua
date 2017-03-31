@@ -34,7 +34,7 @@ function map:create_chicken_boss()
   -- Create boss.
   local dst = map:get_entity("boss_starting_point")
   local x, y, layer = dst:get_position()
-  local chicken_giant = {x = x, y = y, layer = layer, direction = 3, 
+  local prop = {x = x, y = y, layer = layer, direction = 3, 
     breed = "oclero/chicken_giant", name = "chicken_giant",
     savegame_variable = "is_chicken_boss_dead"}
   local boss = map:create_enemy(prop)
@@ -56,7 +56,7 @@ function map:on_started()
     heart_container_chest:set_enabled(false)
   end
 
-  pool_switch_empty:set_activated(true);
+  pool_switch_empty:set_activated(true)
 
   library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.
   west_fake_door:get_sprite():set_xy(0, 16)

@@ -11962,6 +11962,15 @@ tile{
   pattern = "265",
 }
 
+tile{
+  layer = 0,
+  x = 1128,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "395",
+}
+
 destructible{
   layer = 0,
   x = 312,
@@ -12067,19 +12076,6 @@ jumper{
   jump_length = 32,
 }
 
-wall{
-  name = "custom_obstacle",
-  layer = 0,
-  x = 1096,
-  y = 24,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-}
-
 npc{
   name = "sign",
   layer = 0,
@@ -12180,8 +12176,8 @@ pickable{
 
 chest{
   layer = 0,
-  x = 1088,
-  y = 37,
+  x = 1104,
+  y = 53,
   treasure_name = "rupee",
   treasure_variant = 4,
   treasure_savegame_variable = "swamp_rupee_chest",

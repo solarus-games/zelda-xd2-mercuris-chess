@@ -12,6 +12,24 @@ properties{
 
 tile{
   layer = 0,
+  x = 0,
+  y = 872,
+  width = 32,
+  height = 8,
+  pattern = "60",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 880,
+  width = 32,
+  height = 16,
+  pattern = "49",
+}
+
+tile{
+  layer = 0,
   x = 792,
   y = 488,
   width = 16,
@@ -8463,8 +8481,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 24,
-  y = 336,
+  x = 152,
+  y = 352,
   width = 16,
   height = 16,
   pattern = "42",
@@ -8482,7 +8500,7 @@ tile{
 tile{
   layer = 0,
   x = 24,
-  y = 304,
+  y = 296,
   width = 16,
   height = 16,
   pattern = "37",
@@ -8599,7 +8617,7 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 888,
+  y = 880,
   width = 8,
   height = 8,
   pattern = "546",
@@ -8720,6 +8738,105 @@ tile{
   width = 32,
   height = 8,
   pattern = "523",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 896,
+  width = 32,
+  height = 8,
+  pattern = "55",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 880,
+  width = 8,
+  height = 16,
+  pattern = "57",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 872,
+  width = 8,
+  height = 8,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 896,
+  width = 8,
+  height = 8,
+  pattern = "50",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 312,
+  width = 32,
+  height = 8,
+  pattern = "60",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 320,
+  width = 32,
+  height = 16,
+  pattern = "49",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 320,
+  width = 8,
+  height = 8,
+  pattern = "546",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 336,
+  width = 32,
+  height = 8,
+  pattern = "55",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 320,
+  width = 8,
+  height = 16,
+  pattern = "57",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 312,
+  width = 8,
+  height = 8,
+  pattern = "52",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "50",
 }
 
 custom_entity{

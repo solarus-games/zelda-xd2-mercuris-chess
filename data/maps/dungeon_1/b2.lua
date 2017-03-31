@@ -1,12 +1,3 @@
--- Lua script of map dungeon_1/b2.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
 local game = map:get_game()
 
@@ -109,7 +100,7 @@ local function miniboss_enemy_on_dead(enemy)
   if not map:has_entities("miniboss_enemy") then
     sol.audio.play_sound("secret")
     sol.audio.play_music(previous_music)
-    miniboss_center:remove()
+    miniboss_center:set_enabled(false)
     map:open_doors("miniboss_door")
     game:set_value("dungeon_1_miniboss_clear", true)
   end
@@ -118,4 +109,19 @@ end
 for enemy in map:get_entities("miniboss_enemy") do
   enemy.on_dead = miniboss_enemy_on_dead
   enemy.on_dying = miniboss_enemy_on_dying
+end
+
+function auto_separator_5:on_activated(direction4)
+
+  if direction4 ~= 3 then
+    return
+  end
+
+  if fighting_miniboss then
+    -- Leaving the miniboss during the fight!
+    map:set_entities_enabled("miniboss_enemy", false)
+    miniboss_center:set_enabled(false)
+    sol.audio.play_music(previous_music)
+    fighting_miniboss = false
+  end
 end

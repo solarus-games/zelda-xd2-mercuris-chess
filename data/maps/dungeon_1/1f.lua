@@ -53,7 +53,7 @@ function map:on_started()
   end
 
   if not game:get_value("is_chicken_boss_dead") == true then
-    map:get_entity("exit_door_key_chest"):set_enabled(false)
+    heart_container_chest:set_enabled(false)
   end
 
   pool_switch_empty:set_activated(true);

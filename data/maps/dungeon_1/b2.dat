@@ -6076,9 +6076,9 @@ sensor{
   name = "miniboss_sensor",
   layer = 0,
   x = 1648,
-  y = 349,
+  y = 365,
   width = 16,
-  height = 48,
+  height = 16,
 }
 
 door{
@@ -6146,16 +6146,6 @@ enemy{
   treasure_name = "heart",
 }
 
-enemy{
-  name = "miniboss_enemy_1",
-  layer = 0,
-  x = 1760,
-  y = 397,
-  direction = 3,
-  breed = "alttp/snap_dragon",
-  treasure_name = "bomb",
-}
-
 wall{
   layer = 0,
   x = 1624,
@@ -6204,36 +6194,6 @@ wall{
   stops_projectiles = true,
 }
 
-enemy{
-  name = "miniboss_enemy_2",
-  layer = 0,
-  x = 1728,
-  y = 365,
-  direction = 3,
-  breed = "alttp/snap_dragon",
-  treasure_name = "bomb",
-}
-
-enemy{
-  name = "miniboss_enemy_3",
-  layer = 0,
-  x = 1760,
-  y = 333,
-  direction = 3,
-  breed = "alttp/snap_dragon",
-  treasure_name = "bomb",
-}
-
-enemy{
-  name = "miniboss_enemy_4",
-  layer = 0,
-  x = 1800,
-  y = 365,
-  direction = 3,
-  breed = "alttp/snap_dragon",
-  treasure_name = "bomb",
-}
-
 npc{
   name = "bones_2",
   layer = 0,
@@ -6273,9 +6233,10 @@ crystal{
 destination{
   name = "debug_destination",
   layer = 0,
-  x = 1512,
-  y = 605,
+  x = 1552,
+  y = 365,
   direction = 1,
+  starting_location_mode = "yes",
   default = true,
 }
 
@@ -7171,6 +7132,105 @@ sensor{
   y = 605,
   width = 16,
   height = 16,
+}
+
+sensor{
+  name = "miniboss_sensor_2",
+  layer = 0,
+  x = 1760,
+  y = 437,
+  width = 16,
+  height = 16,
+}
+
+custom_entity{
+  name = "miniboss_center",
+  layer = 0,
+  x = 1760,
+  y = 365,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "miniboss_center_wall_1",
+  layer = 0,
+  x = 1696,
+  y = 317,
+  width = 144,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "miniboss_center_wall_4",
+  layer = 0,
+  x = 1696,
+  y = 413,
+  width = 144,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "miniboss_center_wall_3",
+  layer = 0,
+  x = 1680,
+  y = 333,
+  width = 16,
+  height = 80,
+  direction = 0,
+}
+
+custom_entity{
+  name = "miniboss_center_wall_2",
+  layer = 0,
+  x = 1840,
+  y = 333,
+  width = 16,
+  height = 80,
+  direction = 0,
+}
+
+enemy{
+  name = "miniboss_enemy_2",
+  layer = 0,
+  x = 1720,
+  y = 365,
+  direction = 2,
+  breed = "oclero/armos_tie",
+  treasure_name = "bomb",
+}
+
+enemy{
+  name = "miniboss_enemy_1",
+  layer = 0,
+  x = 1760,
+  y = 405,
+  direction = 3,
+  breed = "oclero/armos_tie",
+  treasure_name = "bomb",
+}
+
+enemy{
+  name = "miniboss_enemy_4",
+  layer = 0,
+  x = 1800,
+  y = 365,
+  direction = 0,
+  breed = "oclero/armos_tie",
+  treasure_name = "bomb",
+}
+
+enemy{
+  name = "miniboss_enemy_3",
+  layer = 0,
+  x = 1760,
+  y = 325,
+  direction = 1,
+  breed = "oclero/armos_tie",
+  treasure_name = "bomb",
 }
 
 tile{

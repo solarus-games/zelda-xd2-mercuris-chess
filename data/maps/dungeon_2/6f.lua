@@ -132,6 +132,7 @@ local function miniboss_enemy_on_dead()
     map:open_doors("miniboss_door")
     miniboss_spikes_exit:set_enabled(false)
     game:set_value("dungeon_2_miniboss", true)
+    fighting_miniboss = false
   end
 end
 

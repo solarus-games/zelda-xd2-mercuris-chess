@@ -10,11 +10,11 @@
 local map = ...
 local game = map:get_game()
 
+local fighting_miniboss = false
+local previous_music = sol.audio.get_music()
+
 local function spike_collision()
-  local cam_x, cam_y = map:get_camera():get_position()
-  print(cam_x)
-  print(cam_y)
-  if cam_x >= 1600 and cam_y >= 480 then
+  if hero:is_in_same_region(crystal_sensor) then
     sol.audio.play_sound("switch")
     map:change_crystal_state()
   end
@@ -32,10 +32,11 @@ function map:on_started()
 
   -- miniboss
   map:set_doors_open("miniboss_door")
-  if game:get_value("dungeon_1_miniboss_clear") then
-    for enemy in map:get_entities("miniboss_enemy") do
-      enemy:remove()
-    end
+  map:set_entities_enabled("miniboss_enemy", false)
+
+  for stopper in map:get_entities("miniboss_center_wall") do
+    stopper:set_traversable_by(true)
+    stopper:set_traversable_by("custom_entity", false)  -- Limit the movement of the center.
   end
 end
 
@@ -47,16 +48,68 @@ function map:on_finished()
   game:set_value("dungeon_1_b2_rp2_state", rp2_state)
 end
 
+function miniboss_weak_wall:on_opened()
+  sol.audio.play_sound("secret")
+end
+
 -- mini boss room
 function miniboss_sensor:on_activated()
-  if not game:get_value("dungeon_1_miniboss_clear") then
-    map:close_doors("miniboss_door")
+
+  if game:get_value("dungeon_1_miniboss_clear") then
+    return
+  end
+
+  if fighting_miniboss then
+    return
+  end
+
+  map:close_doors("miniboss_door")
+  miniboss_enemy_1:set_color("red")
+  miniboss_enemy_2:set_color("green")
+  miniboss_enemy_3:set_color("blue")
+  miniboss_enemy_4:set_color("yellow")
+  
+  hero:freeze()
+  sol.audio.stop_music()
+  fighting_miniboss = true
+  sol.timer.start(map, 1000, function()
+    sol.audio.play_music("alttp/boss")
+    hero:unfreeze()
+
+    for enemy in map:get_entities("miniboss_enemy") do
+      enemy:set_enabled(true)
+      enemy:set_center(miniboss_center)
+    end
+
+    local movement = sol.movement.create("target")
+    movement:set_target(hero)
+    movement:set_speed(32)
+    movement:start(miniboss_center)
+  end)
+end
+
+function miniboss_sensor_2:on_activated()
+  miniboss_sensor:on_activated()
+end
+
+local function miniboss_enemy_on_dying(enemy)
+
+  -- The next move is fatal: change the hurt style to normal
+  -- except for the last enemy, to avoid multiple
+  -- series of explosions.
+  if map:get_entities_count("miniboss_enemy") > 1 then
+    enemy:set_hurt_style("normal")
+  else
+    enemy:set_hurt_style("boss")
   end
 end
 
-local function miniboss_enemy_on_dead()
-  if not map:has_entities("miniboss_enemy") and miniboss_door:is_closed() then
+local function miniboss_enemy_on_dead(enemy)
+
+  if not map:has_entities("miniboss_enemy") then
     sol.audio.play_sound("secret")
+    sol.audio.play_music(previous_music)
+    miniboss_center:remove()
     map:open_doors("miniboss_door")
     game:set_value("dungeon_1_miniboss_clear", true)
   end
@@ -64,4 +117,5 @@ end
 
 for enemy in map:get_entities("miniboss_enemy") do
   enemy.on_dead = miniboss_enemy_on_dead
+  enemy.on_dying = miniboss_enemy_on_dying
 end

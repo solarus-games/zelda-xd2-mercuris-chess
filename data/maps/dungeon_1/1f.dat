@@ -8739,6 +8739,33 @@ tile{
   pattern = "480",
 }
 
+tile{
+  layer = 0,
+  x = 944,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 968,
+  y = 464,
+  width = 8,
+  height = 16,
+  pattern = "barrier.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 952,
+  y = 480,
+  width = 16,
+  height = 8,
+  pattern = "barrier.1-1",
+}
+
 door{
   name = "boss_door_south",
   layer = 0,
@@ -9594,8 +9621,8 @@ dynamic_tile{
 teletransporter{
   name = "to_outside",
   layer = 0,
-  x = 984,
-  y = 416,
+  x = 952,
+  y = 464,
   width = 16,
   height = 16,
   destination_map = "out/b1",

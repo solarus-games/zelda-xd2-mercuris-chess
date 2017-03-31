@@ -47,6 +47,11 @@ function map:create_chicken_boss()
   
   function boss:on_dead()
 
+    -- Remove all smaller enemies.
+    for enemy in map:get_entities_by_type("enemy") do
+      enemy:remove()
+    end
+
     -- Create a heart container but removing it with a falling hand
     -- when the hero gets close.
     local fake_heart_container
@@ -64,6 +69,7 @@ function map:create_chicken_boss()
       end
       
       hero:freeze()
+      sol.audio.play_sound("enemy_awake")
       map:get_camera():shake()
       sol.timer.start(map, 500, function()
         sol.audio.play_sound("jump")
@@ -90,6 +96,7 @@ function map:create_chicken_boss()
             fake_heart_container:set_enabled(false)
             map:open_doors("boss_door")
             sol.audio.stop_music()
+            game:set_dungeon_finished(1)
             hero:unfreeze()
           end)
         end)

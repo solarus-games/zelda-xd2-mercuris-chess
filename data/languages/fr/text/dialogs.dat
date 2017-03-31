@@ -1,5 +1,6 @@
 dialog{
   id = "_crystal",
+  skip = "all",
   text = [[
 C'est un interrupteur
 de cristal. Frappe-le
@@ -1814,6 +1815,7 @@ couper ces buissons...
 
 dialog{
   id = "cannot_lift_still_too_heavy",
+  skip = "all",
   text = [[
 C'est largement trop
 pour tes petits bras !
@@ -2020,8 +2022,9 @@ frousse...
 
 dialog{
   id = "chill_valley.bath.tea_for_two",
+  skip = "all",
   text = [[
-Are you ? ...$0
+Are you ? ...
 Comment ça ?
 
 But alors you are
@@ -2059,6 +2062,7 @@ est un art !
 
 dialog{
   id = "chill_valley.big_bird",
+  skip = "all",
   text = [[
 Une aventure contre un
 gros zozio ?
@@ -2094,6 +2098,7 @@ est synonyme de succès.
 
 dialog{
   id = "chill_valley.l_house",
+  skip = "all",
   text = [[
 C'est l'enfer !
 Complètement gelé !
@@ -2133,6 +2138,7 @@ m'aider !
 
 dialog{
   id = "chill_valley.no_entry_1",
+  skip = "all",
   text = [[
 ...
 
@@ -2150,6 +2156,7 @@ inconnus comme ça ?
 
 dialog{
   id = "chill_valley.no_entry_2",
+  skip = "all",
   text = [[
 Hey, tu te prends pour
 qui a rentrer partout ?
@@ -2162,6 +2169,7 @@ sont ouvertes.
 
 dialog{
   id = "chill_valley.north_sign",
+  skip = "all",
   text = [[
 Nord : Île des Rubis
 ]]
@@ -2253,6 +2261,7 @@ Oh... River...
 
 dialog{
   id = "chill_valley.one_day",
+  skip = "all",
   text = [[
 Il paraît que Zelda
 Mercuris' Chest va
@@ -2262,6 +2271,7 @@ sortir un jour.
 
 dialog{
   id = "chill_valley.out_soon",
+  skip = "all",
   text = [[
 La sortie de Zelda
 Mercuris' Chest n'a
@@ -2272,6 +2282,7 @@ aussi proche !
 
 dialog{
   id = "chill_valley.race_track_old_guy",
+  skip = "all",
   text = [[
 Ils ont voulu racheter
 ma maison.
@@ -2441,6 +2452,7 @@ est synonyme de succès.
 
 dialog{
   id = "chill_valley.t_house",
+  skip = "all",
   text = [[
 C'est devenu très
 animé autour de chez
@@ -2627,7 +2639,6 @@ l'intérieur.
 dialog{
   id = "chill_valley.z_house.encyclopedia.not_opened",
   question = "1",
-  skip = "all",
   text = [[
 Une encyclopédie. Sa 
 largeur et son
@@ -3473,6 +3484,7 @@ c'est limite désertique.
 
 dialog{
   id = "dungeon_1.1f.julien_dore",
+  skip = "all",
   text = [[
 T'aimer sur les bords
 du lac.
@@ -3487,6 +3499,7 @@ et du pire.
 
 dialog{
   id = "dungeon_1.1f.library_man_look_for_book",
+  skip = "all",
   text = [[
 Mais où a bien pu passer
 ce précieux grimoire ?
@@ -3497,6 +3510,7 @@ J'étais persuadé qu'il
 
 dialog{
   id = "dungeon_1.1f.pool_grandma",
+  skip = "all",
   text = [[
 Oh mes aïeux !
 Nettoyer une piscine
@@ -3515,6 +3529,7 @@ dis !
 
 dialog{
   id = "dungeon_1.b2.bones",
+  skip = "all",
   text = [[
 J'ai beau être en
 piteux état, j'ai quand
@@ -3541,6 +3556,7 @@ remédier...
 
 dialog{
   id = "dungeon_1.b2.bones2",
+  skip = "all",
   text = [[
 Houuu ! Je ne suis pas
 un mauvais esprit mais
@@ -3560,6 +3576,7 @@ apparences...
 
 dialog{
   id = "dungeon_1.b2.prisoner",
+  skip = "all",
   text = [[
 Quoi ? Tu es venu pour
 me sauver ?
@@ -3585,6 +3602,7 @@ dialog{
 
 dialog{
   id = "dungeon_2.1f.5f_issues_man",
+  skip = "all",
   text = [[
 Ils font n'importe quoi
 au quatrième étage.
@@ -3791,6 +3809,7 @@ une récompense !
 
 dialog{
   id = "dungeon_2.2f.casino_receptionnist",
+  skip = "all",
   text = [[
 Vous êtes ici au
 Casino Grump.
@@ -3875,6 +3894,7 @@ Tarif : Mises de
 
 dialog{
   id = "dungeon_2.3f.6_queens_puzzle",
+  skip = "all",
   text = [[
 Jeu des 6 Dames
 
@@ -3888,6 +3908,7 @@ qu'une autre.
 
 dialog{
   id = "dungeon_2.3f.6_rooks_puzzle",
+  skip = "all",
   text = [[
 Jeu des 6 Tours
 
@@ -3903,6 +3924,7 @@ qu'une seule fois !
 
 dialog{
   id = "dungeon_2.6f.8_queens_puzzle",
+  skip = "all",
   text = [[
 Jeu des 8 Dames
 
@@ -4004,6 +4026,7 @@ dialog{
 
 dialog{
   id = "elevator.access_refused.vip_card",
+  skip = "all",
   text = [[
 Accès refusé.
 Cet ascenseur est
@@ -4639,6 +4662,7 @@ secondes...
 
 dialog{
   id = "island.banished_guy1",
+  skip = "all",
   text = [[
 Je suis addict au jeu.
 
@@ -4651,6 +4675,7 @@ banni du casino !
 
 dialog{
   id = "island.banished_guy2",
+  skip = "all",
   text = [[
 Je suis un mangeur
 compulsif.
@@ -4675,6 +4700,7 @@ obligatoire.
 
 dialog{
   id = "island.beach_jelly1",
+  skip = "all",
   text = [[
 Haha, on a attrapé une
 méduse !
@@ -4686,6 +4712,7 @@ petits morceaux !
 
 dialog{
   id = "island.beach_jelly2",
+  skip = "all",
   text = [[
 Haha, on a attrapé une
 méduse !
@@ -4697,6 +4724,7 @@ loupe !
 
 dialog{
   id = "island.beach_jelly3",
+  skip = "all",
   text = [[
 Haha, on a attrapé une
 méduse !
@@ -4707,6 +4735,7 @@ On va la noyer !
 
 dialog{
   id = "island.beach_jelly4",
+  skip = "all",
   text = [[
 Haha, on a attrapé une
 méduse !
@@ -4718,6 +4747,7 @@ du poison !
 
 dialog{
   id = "island.beach_jelly5",
+  skip = "all",
   text = [[
 Haha, on a attrapé une
 méduse !
@@ -4729,6 +4759,7 @@ psychologiquement !
 
 dialog{
   id = "island.beach_jelly6",
+  skip = "all",
   text = [[
 Haha, on a attrapé une
 méduse !
@@ -4740,6 +4771,7 @@ dangereux ces trucs-là ?
 
 dialog{
   id = "island.beach_north_sign",
+  skip = "all",
   text = [[
 Vers la Tour Grump
 ]]
@@ -4758,6 +4790,7 @@ Sur ce, on se rentre !
 
 dialog{
   id = "island.dontgo_board",
+  skip = "all",
   text = [[
 N'y allez pas !!!
 ]]
@@ -4765,6 +4798,7 @@ N'y allez pas !!!
 
 dialog{
   id = "island.dontgo_guy",
+  skip = "all",
   text = [[
 N'y vas pas !!!
 ]]
@@ -4803,6 +4837,7 @@ dialog{
   id = "island.grump_hey",
   text = [[
 Hé !
+Dis donc !
 ]]
 }
 
@@ -4883,6 +4918,7 @@ Tour Grump
 
 dialog{
   id = "island.hideseek_mom",
+  skip = "all",
   text = [[
 Je "joue" à cache-cache
 avec mon fils.
@@ -4894,6 +4930,7 @@ un moment...
 
 dialog{
   id = "island.hideseek_son",
+  skip = "all",
   text = [[
 Je joue à cache-cache
 avec ma maman.
@@ -4905,6 +4942,7 @@ gagner.
 
 dialog{
   id = "island.liquid_champaign",
+  skip = "all",
   text = [[
 C'est du champagne.
 ]]
@@ -4912,6 +4950,7 @@ C'est du champagne.
 
 dialog{
   id = "island.liquid_empty",
+  skip = "all",
   text = [[
 C'est vide.
 ]]
@@ -4919,6 +4958,7 @@ C'est vide.
 
 dialog{
   id = "island.liquid_gentiane",
+  skip = "all",
   text = [[
 C'est du violet de
 gentiane phéniqué.
@@ -4927,6 +4967,7 @@ gentiane phéniqué.
 
 dialog{
   id = "island.liquid_milk",
+  skip = "all",
   text = [[
 C'est du lait.
 ]]
@@ -4934,6 +4975,7 @@ C'est du lait.
 
 dialog{
   id = "island.liquid_water",
+  skip = "all",
   text = [[
 C'est de l'eau.
 ]]
@@ -5065,6 +5107,7 @@ fais pas le poids face
 
 dialog{
   id = "island.south_sign",
+  skip = "all",
   text = [[
 Nord : Île des Rubis
 Sud : Chill Valley
@@ -5074,6 +5117,7 @@ Est : Village
 
 dialog{
   id = "island.zoo_adopt",
+  skip = "all",
   text = [[
 On peut en adopter un ?
 ]]
@@ -5081,6 +5125,7 @@ On peut en adopter un ?
 
 dialog{
   id = "island.zoo_chief",
+  skip = "all",
   text = [[
 C'est ici que Monsieur
 Grump fait prendre
@@ -5093,6 +5138,7 @@ admirer.
 
 dialog{
   id = "island.zoo_reproduct",
+  skip = "all",
   text = [[
 Est-ce qu'ils peuvent
 se reproduire ?
@@ -5101,6 +5147,7 @@ se reproduire ?
 
 dialog{
   id = "island.zoo_rgb",
+  skip = "all",
   text = [[
 Ils n'avaient plus de
 couleur disponible
@@ -5147,6 +5194,7 @@ est sûrement là-bas !
 
 dialog{
   id = "lafoo.before_explosion",
+  skip = "all",
   text = [[
 Mieux vaut ne pas
 entrer là-dedans...
@@ -5159,6 +5207,7 @@ moment !
 
 dialog{
   id = "lafoo.queue_sign_1",
+  skip = "all",
   text = [[
 A partir d'ici :
 1h d'attente.
@@ -5167,6 +5216,7 @@ A partir d'ici :
 
 dialog{
   id = "lafoo.queue_sign_2",
+  skip = "all",
   text = [[
 A partir d'ici :
 45 minutes d'attente.
@@ -5175,6 +5225,7 @@ A partir d'ici :
 
 dialog{
   id = "lafoo.queue_sign_3",
+  skip = "all",
   text = [[
 A partir d'ici :
 44 minutes 59 secondes
@@ -5186,6 +5237,7 @@ vite...
 
 dialog{
   id = "lafoo.queue_sign_4",
+  skip = "all",
   text = [[
 A partir d'ici, il
 faudrait penser à 
@@ -5199,6 +5251,7 @@ supplémentaire.
 
 dialog{
   id = "lafoo_riot.npc_1",
+  skip = "all",
   text = [[
 J'ai des papillons au
 ventre...
@@ -5211,6 +5264,7 @@ bonheur de voir cet
 
 dialog{
   id = "lafoo_riot.npc_10",
+  skip = "all",
   text = [[
 Mr Grump aurait
 commencé à bâtir sa
@@ -5226,6 +5280,7 @@ sous-métier.
 
 dialog{
   id = "lafoo_riot.npc_11",
+  skip = "all",
   text = [[
 Je suis persuadé que
 cet incendie n'a pas
@@ -5252,6 +5307,7 @@ parle !
 
 dialog{
   id = "lafoo_riot.npc_12",
+  skip = "all",
   text = [[
 J'ai senti comme une
 odeur de brûlé...
@@ -5269,6 +5325,7 @@ décidé de brûler !
 
 dialog{
   id = "lafoo_riot.npc_13",
+  skip = "all",
   text = [[
 Bah fais quelque
 chose ! Ne reste pas
@@ -5283,6 +5340,7 @@ pompiers, au moins ?
 
 dialog{
   id = "lafoo_riot.npc_14",
+  skip = "all",
   text = [[
 D'un côté, c'est triste
 quand il y a un
@@ -5301,6 +5359,7 @@ place !
 
 dialog{
   id = "lafoo_riot.npc_15",
+  skip = "all",
   text = [[
 J'ai vu des gens du
 village mettre le feu
@@ -5318,6 +5377,7 @@ ne dirai rien !
 
 dialog{
   id = "lafoo_riot.npc_16",
+  skip = "all",
   text = [[
 Ce fichu Bureau des
 Objets Trouvés...
@@ -5333,6 +5393,7 @@ administrative !
 
 dialog{
   id = "lafoo_riot.npc_17",
+  skip = "all",
   text = [[
 Le feu, ça brûle...$0
 Et l'eau, ça mouille.
@@ -5344,6 +5405,7 @@ bonne chanson, ça !
 
 dialog{
   id = "lafoo_riot.npc_18",
+  skip = "all",
   text = [[
 Certains l'appelaient
 le Bureau des Objets 
@@ -5355,6 +5417,7 @@ Bureau du Temps Perdu !
 
 dialog{
   id = "lafoo_riot.npc_19",
+  skip = "all",
   text = [[
 Aucun pays ne s'est
 jamais élevé sans
@@ -5365,6 +5428,7 @@ de la souffrance.
 
 dialog{
   id = "lafoo_riot.npc_2",
+  skip = "all",
   text = [[
 OUI MONSIEUR !
 N'AYONS PAS PEUR DES
@@ -5388,6 +5452,7 @@ RÉVOLUTION !
 
 dialog{
   id = "lafoo_riot.npc_20",
+  skip = "all",
   text = [[
 La grogne des
 villageois s'est faite
@@ -5400,6 +5465,7 @@ employés ont réussi
 
 dialog{
   id = "lafoo_riot.npc_21",
+  skip = "all",
   text = [[
 Allumeeeeeez le feu !
 Allumeeeeeez le feu !
@@ -5413,6 +5479,7 @@ Tu connais Johnny ?
 
 dialog{
   id = "lafoo_riot.npc_22",
+  skip = "all",
   text = [[
 Tu sais ce qui serait
 cool ?
@@ -5425,6 +5492,7 @@ cet incendie !
 
 dialog{
   id = "lafoo_riot.npc_23",
+  skip = "all",
   text = [[
 Tu vois la fumée dans 
 le ciel ?
@@ -5437,6 +5505,7 @@ des Objets Trouvés ?
 
 dialog{
   id = "lafoo_riot.npc_24",
+  skip = "all",
   text = [[
 On entend une foule qui
 crie...
@@ -5451,6 +5520,7 @@ J'essaie de voir d'où
 
 dialog{
   id = "lafoo_riot.npc_25",
+  skip = "all",
   text = [[
 Laisse moi fuir !
 ]]
@@ -5476,6 +5546,7 @@ disparaître.
 
 dialog{
   id = "lafoo_riot.npc_26",
+  skip = "all",
   text = [[
 Quelqu'un est en train
 de faire un barbecue ?
@@ -5484,6 +5555,7 @@ de faire un barbecue ?
 
 dialog{
   id = "lafoo_riot.npc_27",
+  skip = "all",
   text = [[
 Ne pars pas comme ça !
 Reste un peu faire la
@@ -5498,6 +5570,7 @@ ou un mur invisible !
 
 dialog{
   id = "lafoo_riot.npc_28",
+  skip = "all",
   text = [[
 Il y a l'air d'y avoir
 une émeute au fond
@@ -5510,6 +5583,7 @@ vite !
 
 dialog{
   id = "lafoo_riot.npc_29",
+  skip = "all",
   text = [[
 Mais que fait la
 police ?
@@ -5525,6 +5599,7 @@ sent le cramoisi !
 
 dialog{
   id = "lafoo_riot.npc_3",
+  skip = "all",
   text = [[
 J'ai une admiration
 pour les hommes
@@ -5540,6 +5615,7 @@ diable !
 
 dialog{
   id = "lafoo_riot.npc_30",
+  skip = "all",
   text = [[
 Les pompiers ne
 devraient pas tarder à
@@ -5549,6 +5625,7 @@ arriver !
 
 dialog{
   id = "lafoo_riot.npc_31",
+  skip = "all",
   text = [[
 Ca ne serait pas le
 Bureau des Objets
@@ -5558,6 +5635,7 @@ Trouvés qui flambe ?
 
 dialog{
   id = "lafoo_riot.npc_32",
+  skip = "all",
   text = [[
 Il commence à y avoir
 du grabuge par là-bas.
@@ -5577,6 +5655,7 @@ C'est fou hein ?
 
 dialog{
   id = "lafoo_riot.npc_33",
+  skip = "all",
   text = [[
 Sabre de bois !
 J'ai l'impression qu'il
@@ -5594,6 +5673,7 @@ voir !
 
 dialog{
   id = "lafoo_riot.npc_34",
+  skip = "all",
   text = [[
 Dis-donc, qu'est ce que
 tu faisais à traîner
@@ -5606,6 +5686,7 @@ souci dans la forêt ?
 
 dialog{
   id = "lafoo_riot.npc_35",
+  skip = "all",
   text = [[
 Snif$0 snif$0
 Ca sent comme une odeur
@@ -5615,6 +5696,7 @@ de brûlé !
 
 dialog{
   id = "lafoo_riot.npc_36",
+  skip = "all",
   text = [[
 La situation me donne
 envie de clamer un
@@ -5631,6 +5713,7 @@ tout l'air.
 
 dialog{
   id = "lafoo_riot.npc_37",
+  skip = "all",
   text = [[
 Dis-donc, mon p'tit 
 bonhomme ! Tu connais
@@ -5649,6 +5732,7 @@ colère là-bas.
 
 dialog{
   id = "lafoo_riot.npc_38",
+  skip = "all",
   text = [[
 Il paraît qu'il y a un
 pyromane dans le 
@@ -5662,6 +5746,7 @@ Saperlotte !
 
 dialog{
   id = "lafoo_riot.npc_39",
+  skip = "all",
   text = [[
 Je suis quasiment sûr
 que nous avons à faire
@@ -5674,6 +5759,7 @@ inconnus ces deux-là.
 
 dialog{
   id = "lafoo_riot.npc_4",
+  skip = "all",
   text = [[
 Le directeur du Bureau
 des Objets Trouvés
@@ -5689,6 +5775,7 @@ Saltinbanque !
 
 dialog{
   id = "lafoo_riot.npc_40",
+  skip = "all",
   text = [[
 Il ne peut plus rien
 nous arriver d'affreux,
@@ -5698,6 +5785,7 @@ maintenant !
 
 dialog{
   id = "lafoo_riot.npc_41",
+  skip = "all",
   text = [[
 Attention, ce jeu n'est
 pas un jeu sur le
@@ -5709,6 +5797,7 @@ compréhension.
 
 dialog{
   id = "lafoo_riot.npc_42",
+  skip = "all",
   text = [[
 Si je vais bien ?
 
@@ -5723,6 +5812,7 @@ d'hiver réussis !
 
 dialog{
   id = "lafoo_riot.npc_43",
+  skip = "all",
   text = [[
 Tu es au courant de ce
 qu'il s'est passé ?
@@ -5738,6 +5828,7 @@ S'agirait d'grandir...
 
 dialog{
   id = "lafoo_riot.npc_44",
+  skip = "all",
   text = [[
 Mon papa serait un
 voleur, car il a volé
@@ -5758,6 +5849,7 @@ tendances pyromanes...
 
 dialog{
   id = "lafoo_riot.npc_45",
+  skip = "all",
   text = [[
 C'est les développeurs
 qui m'ont dit de te
@@ -5772,6 +5864,7 @@ qu'un PNJ, moi !
 
 dialog{
   id = "lafoo_riot.npc_46",
+  skip = "all",
   text = [[
 VOUS. 
 
@@ -5788,6 +5881,7 @@ PAS !!!
 
 dialog{
   id = "lafoo_riot.npc_47",
+  skip = "all",
   text = [[
 Essaie de passer et je
 t'en colle une.
@@ -5800,6 +5894,7 @@ grave au sud ?
 
 dialog{
   id = "lafoo_riot.npc_48",
+  skip = "all",
   text = [[
 Nom de Zeus !
 
@@ -5824,6 +5919,7 @@ Nom de Zeus !
 
 dialog{
   id = "lafoo_riot.npc_49",
+  skip = "all",
   text = [[
 Ne me traite JAMAIS
 de mauviette.
@@ -5833,6 +5929,7 @@ JA-MAIS, tu entends ?
 
 dialog{
   id = "lafoo_riot.npc_5",
+  skip = "all",
   text = [[
 Certains hommes veulent
 seulement regarder le
@@ -5842,6 +5939,7 @@ monde brûler...
 
 dialog{
   id = "lafoo_riot.npc_50",
+  skip = "all",
   text = [[
 L'autre jour, ça
 sentait aussi le brûlé
@@ -5854,6 +5952,7 @@ oublié dans le four.
 
 dialog{
   id = "lafoo_riot.npc_51",
+  skip = "all",
   text = [[
 On en a gros !
 ]]
@@ -5861,6 +5960,7 @@ On en a gros !
 
 dialog{
   id = "lafoo_riot.npc_52",
+  skip = "all",
   text = [[
 On aimerait que
 M. Grump nous considère
@@ -5870,6 +5970,7 @@ en tant que tels.
 
 dialog{
   id = "lafoo_riot.npc_53",
+  skip = "all",
   text = [[
 Nous les employés du
 Bureau des Objets
@@ -5885,6 +5986,7 @@ des colifichets.
 
 dialog{
   id = "lafoo_riot.npc_54",
+  skip = "all",
   text = [[
 J'étais employée du
 Bureau des Objets
@@ -5902,6 +6004,7 @@ Hasta la vista baby !
 
 dialog{
   id = "lafoo_riot.npc_55",
+  skip = "all",
   text = [[
 Au guichet 22,
 tu sais quoi ?
@@ -5916,6 +6019,7 @@ tout est parti en fumée.
 
 dialog{
   id = "lafoo_riot.npc_56",
+  skip = "all",
   text = [[
 Il y a tellement de
 badauds que je n'arrive
@@ -5928,6 +6032,7 @@ te plaît.
 
 dialog{
   id = "lafoo_riot.npc_57",
+  skip = "all",
   text = [[
 Tu n'aurais vu pas vu
 le mec du guichet 32 ?
@@ -5939,6 +6044,7 @@ toutes les clés.
 
 dialog{
   id = "lafoo_riot.npc_58",
+  skip = "all",
   text = [[
 Le gars du guichet 41
 du Bureau des Objets 
@@ -5955,6 +6061,7 @@ Tour Grump !
 
 dialog{
   id = "lafoo_riot.npc_6",
+  skip = "all",
   text = [[
 Et qui va nettoyer les
 cendres dues a cet
@@ -5972,6 +6079,7 @@ s'agit de ranger...
 
 dialog{
   id = "lafoo_riot.npc_66",
+  skip = "all",
   text = [[
 Va voir à l'Est, j'ai
 comme l'impression que
@@ -5982,6 +6090,7 @@ tu ailles par là-bas !
 
 dialog{
   id = "lafoo_riot.npc_67",
+  skip = "all",
   text = [[
 Le village est en état 
 d'urgence.
@@ -5993,6 +6102,7 @@ c'est bloqué !
 
 dialog{
   id = "lafoo_riot.npc_68",
+  skip = "all",
   text = [[
 Alors comme ça tu ne
 veux pas suive les
@@ -6005,6 +6115,7 @@ Petit malin !
 
 dialog{
   id = "lafoo_riot.npc_69",
+  skip = "all",
   text = [[
 Au nord se trouve le
 Bureau des Objets
@@ -6016,6 +6127,7 @@ flambée.
 
 dialog{
   id = "lafoo_riot.npc_7",
+  skip = "all",
   text = [[
 Je faisais mon footing
 hebdomadaire, quand
@@ -6027,6 +6139,7 @@ défait.
 
 dialog{
   id = "lafoo_riot.npc_70",
+  skip = "all",
   text = [[
 Saprisiti, tout le
 village est attroupé
@@ -6036,6 +6149,7 @@ ici !
 
 dialog{
   id = "lafoo_riot.npc_71",
+  skip = "all",
   text = [[
 J'ai cru voir s'enfuir 
 le type qui a mis le feu
@@ -6058,6 +6172,7 @@ Tu es un héros !
 
 dialog{
   id = "lafoo_riot.npc_72",
+  skip = "all",
   text = [[
 On observe le bidule
 cramer et on apprécie
@@ -6067,6 +6182,7 @@ le spectacle.
 
 dialog{
   id = "lafoo_riot.npc_73",
+  skip = "all",
   text = [[
 Tout ce raffut ...
 
@@ -6087,6 +6203,7 @@ Ah bon,
 
 dialog{
   id = "lafoo_riot.npc_74",
+  skip = "all",
   text = [[
 C'est bête qu'on ne
 soit pas en hiver, ça
@@ -6097,6 +6214,7 @@ le monde.
 
 dialog{
   id = "lafoo_riot.npc_75",
+  skip = "all",
   text = [[
 Je voulais emmener ma
 copine voir un
@@ -6112,6 +6230,7 @@ môOôssieur !
 
 dialog{
   id = "lafoo_riot.npc_76",
+  skip = "all",
   text = [[
 J'étais loin de me
 douter que le village
@@ -6128,6 +6247,7 @@ pyrotechniques.
 
 dialog{
   id = "lafoo_riot.npc_77",
+  skip = "all",
   text = [[
 Le Bureau des Objets
 Trouvés était tout sauf
@@ -6140,6 +6260,7 @@ historique !
 
 dialog{
   id = "lafoo_riot.npc_78",
+  skip = "all",
   text = [[
 Je ne sais pas si c'est
 une émeute ou une fête.
@@ -6152,6 +6273,7 @@ l'air enchantés.
 
 dialog{
   id = "lafoo_riot.npc_79",
+  skip = "all",
   text = [[
 Les livres d'histoire
 raconteront ce moment
@@ -6162,6 +6284,7 @@ administratif.
 
 dialog{
   id = "lafoo_riot.npc_8",
+  skip = "all",
   text = [[
 Gné-hé-hé...
 J'ai toujours eu une
@@ -6174,6 +6297,7 @@ une fois !
 
 dialog{
   id = "lafoo_riot.npc_9",
+  skip = "all",
   text = [[
 On est pas bien, là ?
 Paisible ? 
@@ -6194,8 +6318,8 @@ Je n'ai jamais
 réussi à le refourguer 
 contre une hache.
 Au passage, asperge-toi
-car tu ne sens pas
-exactement la fraîcheur.
+car ça sent franchement
+le fauve.
 Tu as passé la journée à
 faire des corvées ou
 quoi ?!
@@ -6230,6 +6354,7 @@ les clés.
 
 dialog{
   id = "main_village.dumb_guy_house.in_bed",
+  skip = "all",
   text = [[
 Sa fé 5 jours ke je
 campé dvt le magasin.
@@ -6244,6 +6369,7 @@ suis fatiguer mnt.
 
 dialog{
   id = "main_village.east_sign",
+  skip = "all",
   text = [[
 Nord : Désert Bakasable
 Mont Tipiton
@@ -6284,6 +6410,7 @@ pas encore rachetée
 
 dialog{
   id = "main_village.rtfm",
+  skip = "all",
   text = [[
 Tu es perdu dans les
 commandes ?
@@ -6360,6 +6487,7 @@ Rarissime !
 
 dialog{
   id = "main_village.shop.salesman",
+  skip = "all",
   text = [[
 Tout les commerces se
 délocalisent en
@@ -6480,6 +6608,7 @@ rien pu faire !
 
 dialog{
   id = "main_village.water_house.upset",
+  skip = "all",
   text = [[
 Qui a installé ce
 mécanisme diabolique ?!$0
@@ -6709,6 +6838,7 @@ Rentrons vite à ton
 
 dialog{
   id = "prehistoric.tyrannosaurus_upset",
+  skip = "all",
   text = [[
 Grrrrr...
 ]]
@@ -7010,6 +7140,7 @@ Allons-y !
 
 dialog{
   id = "torch.need_lamp",
+  skip = "all",
   text = [[
 Il y a sûrement un
 moyen d'allumer

@@ -2,7 +2,7 @@ local submenu = require("scripts/menus/pause_submenu")
 local map_submenu = submenu:new()
 
 local outside_world_size = { width = 3184, height = 2048 }
-local outside_world_minimap_size = { width = 225, height = 388 }  -- TODO
+local outside_world_minimap_size = { width = 207, height = 133 }  -- TODO
 local max_floors_displayed = 6
 
 function map_submenu:on_started()
@@ -23,13 +23,10 @@ function map_submenu:on_started()
 
     local hero_minimap_x = math.floor(hero_absolute_x * outside_world_minimap_size.width / outside_world_size.width)
     local hero_minimap_y = math.floor(hero_absolute_y * outside_world_minimap_size.height / outside_world_size.height)
-    self.hero_x = hero_minimap_x + 40
+    self.hero_x = hero_minimap_x + 49
     self.hero_y = hero_minimap_y + 53
 
-    self.world_minimap_movement = nil
-    self.world_minimap_visible_xy = {x = 0, y = 0}
     self.world_minimap_img = sol.surface.create("menus/outside_world_map.png")
-    self.world_minimap_visible_xy.y = math.min(outside_world_minimap_size.height - 133, math.max(0, hero_minimap_y - 65))
 
   else
     -- In a dungeon.
@@ -105,45 +102,7 @@ function map_submenu:on_command_pressed(command)
 
   elseif command == "up" or command == "down" then
 
-    if not self.game:is_in_dungeon() then
-      -- Move the outside world minimap.
-      if (command == "up" and self.world_minimap_visible_xy.y > 0) or
-          (command == "down" and self.world_minimap_visible_xy.y < outside_world_minimap_size.height - 134) then
-
-          local angle
-          if command == "up" then
-            angle = math.pi / 2
-          else
-            angle = 3 * math.pi / 2
-          end
-
-        if self.world_minimap_movement ~= nil then
-          self.world_minimap_movement:stop()
-        end
-
-        local movement = sol.movement.create("straight")
-        movement:set_speed(96)
-        movement:set_angle(angle)
-        local submenu = self
-
-        function movement:on_position_changed()
-          if not submenu.game:is_command_pressed("up")
-              and not submenu.game:is_command_pressed("down") then
-            self:stop()
-            submenu.world_minimap_movement = nil
-          end
-
-          if (command == "up" and submenu.world_minimap_visible_xy.y <= 0) or
-              (command == "down" and submenu.world_minimap_visible_xy.y >= outside_world_minimap_size.height - 134) then
-            self:stop()
-            submenu.world_minimap_movement = nil
-          end
-        end
-
-        movement:start(self.world_minimap_visible_xy)
-        self.world_minimap_movement = movement
-      end
-    else
+    if self.game:is_in_dungeon() then
       -- We are in a dungeon: select another floor.
       local new_selected_floor
       if command == "up" then
@@ -187,26 +146,10 @@ end
 function map_submenu:draw_world_map(dst_surface)
 
   -- Draw the minimap.
-  self.world_minimap_img:draw_region(
-      self.world_minimap_visible_xy.x, self.world_minimap_visible_xy.y, 255, 133,
-      dst_surface, 48, 59)
+  self.world_minimap_img:draw(dst_surface, 57, 59)
 
   -- Draw the hero's position.
-  local hero_visible_y = self.hero_y - self.world_minimap_visible_xy.y
-  if hero_visible_y >= 51 and hero_visible_y <= 133 + 51 then
-    self.hero_head_sprite:draw(dst_surface, self.hero_x, hero_visible_y)
-  end
-
-  -- Draw the arrows.
-  if self.world_minimap_visible_xy.y > 0 then
-    self.up_arrow_sprite:draw(dst_surface, 96, 55)
-    self.up_arrow_sprite:draw(dst_surface, 211, 55)
-  end
-
-  if self.world_minimap_visible_xy.y < outside_world_minimap_size.height - 134 then
-    self.down_arrow_sprite:draw(dst_surface, 96, 188)
-    self.down_arrow_sprite:draw(dst_surface, 211, 188)
-  end
+  self.hero_head_sprite:draw(dst_surface, self.hero_x, self.hero_y)
 end
 
 function map_submenu:draw_dungeon_map(dst_surface)

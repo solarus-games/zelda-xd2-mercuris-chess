@@ -13026,8 +13026,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
-  y = 896,
+  x = 72,
+  y = 696,
   width = 16,
   height = 16,
   pattern = "1039",
@@ -15546,8 +15546,8 @@ npc{
 
 npc{
   layer = 0,
-  x = 104,
-  y = 909,
+  x = 80,
+  y = 709,
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",

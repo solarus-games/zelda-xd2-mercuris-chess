@@ -9548,7 +9548,7 @@ destructible{
   layer = 0,
   x = 48,
   y = 1005,
-  treasure_name = "magic_bar",
+  treasure_name = "magic_flask",
   treasure_variant = 2,
   sprite = "entities/stone_white",
   destruction_sound = "stone",

@@ -3423,6 +3423,17 @@ bling-bling...
 }
 
 dialog{
+  id = "desert.nw_sign",
+  text = [[
+Nord : Mont Tipiton
+Est : Désert Bakasable
+
+Ouest : Château Doré
+de Monsieur Grump
+]]
+}
+
+dialog{
   id = "desert.piece_of_heart_cave_sign",
   skip = "all",
   text = [[
@@ -6454,7 +6465,7 @@ dialog{
   id = "main_village.north_sign",
   skip = "all",
   text = [[
-Ouest : Château Doré
+Nord : Château Doré
 de M. Grump
 
 Est : Désert Bakasable
@@ -6681,7 +6692,7 @@ mécanisme diabolique ?!$0
 C'est complètement
 absurde !
 
-Où est passée mon
+Où est passée toute mon
 eau ???
 ]]
 }

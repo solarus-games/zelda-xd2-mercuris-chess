@@ -5418,10 +5418,9 @@ de faire un barbecue ?
 dialog{
   id = "lafoo_riot.npc_27",
   text = [[
-Ne pars pas comme ça,
-La méga-fête
-
-
+Ne pars pas comme ça !
+Reste un peu faire la
+fête avec les autres.$0
 Comment ça, je ne suis
 qu'une barrière
 artificielle ?

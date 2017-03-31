@@ -22,7 +22,7 @@ local function initialize_dungeon_features(game)
         "dungeon_1/2f",
       },
       boss = {
-        floor = 0,
+        floor = 1,
         savegame_variable = "dungeon_1_boss",
         x = 960,
         y = 480 + 224,

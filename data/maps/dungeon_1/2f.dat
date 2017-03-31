@@ -1144,6 +1144,26 @@ sensor{
   height = 16,
 }
 
+chest{
+  layer = 0,
+  x = 56,
+  y = 301,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "dungeon_1_rupee_chest_E",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 264,
+  y = 301,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "dungeon_1_rupee_chest_F",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 144,

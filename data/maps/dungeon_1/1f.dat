@@ -10321,6 +10321,26 @@ chest{
   sprite = "entities/chest",
 }
 
+chest{
+  layer = 0,
+  x = 160,
+  y = 309,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "dungeon_1_rupee_chest_D",
+  sprite = "entities/chest",
+}
+
+chest{
+  layer = 0,
+  x = 1864,
+  y = 653,
+  treasure_name = "rupee",
+  treasure_variant = 5,
+  treasure_savegame_variable = "dungeon_1_rupee_chest_G",
+  sprite = "entities/chest",
+}
+
 tile{
   layer = 1,
   x = 1576,

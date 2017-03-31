@@ -6026,144 +6026,67 @@ enemy{
   treasure_name = "random",
 }
 
-destructible{
+pickable{
   layer = -1,
-  x = 2008,
+  x = 2048,
   y = 829,
   treasure_name = "rupee",
   treasure_variant = 2,
   treasure_savegame_variable = "tunnels_rupee_1",
-  sprite = "",
 }
 
-destructible{
+pickable{
   layer = -1,
-  x = 2040,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_2",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2072,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_3",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2104,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_4",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2136,
+  x = 2304,
   y = 829,
   treasure_name = "rupee",
   treasure_variant = 2,
   treasure_savegame_variable = "tunnels_rupee_5",
-  sprite = "",
 }
 
-destructible{
+pickable{
   layer = -1,
-  x = 2168,
+  x = 2112,
+  y = 829,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "tunnels_rupee_2",
+}
+
+pickable{
+  layer = -1,
+  x = 2176,
+  y = 829,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "tunnels_rupee_3",
+}
+
+pickable{
+  layer = -1,
+  x = 2368,
   y = 829,
   treasure_name = "rupee",
   treasure_variant = 2,
   treasure_savegame_variable = "tunnels_rupee_6",
-  sprite = "",
 }
 
-destructible{
+pickable{
   layer = -1,
-  x = 2200,
+  x = 2240,
+  y = 829,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "tunnels_rupee_4",
+}
+
+pickable{
+  layer = -1,
+  x = 2432,
   y = 829,
   treasure_name = "rupee",
   treasure_variant = 2,
   treasure_savegame_variable = "tunnels_rupee_7",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2232,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_8",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2264,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_9",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2296,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_10",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2328,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_11",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2360,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_12",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2392,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_13",
-  sprite = "",
-}
-
-destructible{
-  layer = -1,
-  x = 2424,
-  y = 829,
-  treasure_name = "rupee",
-  treasure_variant = 2,
-  treasure_savegame_variable = "tunnels_rupee_14",
-  sprite = "",
 }
 
 tile{

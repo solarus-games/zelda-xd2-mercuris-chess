@@ -5,6 +5,7 @@ properties{
   height = 240,
   min_layer = -1,
   max_layer = 2,
+  world = "ending",
   tileset = "beach_sunset",
   music = "bttf/title",
 }
@@ -352,6 +353,7 @@ destination{
   x = 104,
   y = 245,
   direction = 1,
+  starting_location_mode = "no",
 }
 
 wall{

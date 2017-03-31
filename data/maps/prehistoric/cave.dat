@@ -5,7 +5,7 @@ properties{
   height = 448,
   min_layer = 0,
   max_layer = 2,
-  world = "prehistoric",
+  world = "ending",
   tileset = "ct/prehistoric_cave",
   music = "ct/mystic_mountain",
 }

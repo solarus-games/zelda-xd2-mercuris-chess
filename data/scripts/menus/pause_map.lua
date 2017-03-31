@@ -148,8 +148,11 @@ function map_submenu:draw_world_map(dst_surface)
   -- Draw the minimap.
   self.world_minimap_img:draw(dst_surface, 57, 59)
 
-  -- Draw the hero's position.
-  self.hero_head_sprite:draw(dst_surface, self.hero_x, self.hero_y)
+  local map = self.game:get_map()
+  if map:get_world() ~= "ending" then
+    -- Draw the hero's position.
+    self.hero_head_sprite:draw(dst_surface, self.hero_x, self.hero_y)
+  end
 end
 
 function map_submenu:draw_dungeon_map(dst_surface)

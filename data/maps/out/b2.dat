@@ -8668,6 +8668,15 @@ tile{
   pattern = "910",
 }
 
+tile{
+  layer = 0,
+  x = 704,
+  y = 376,
+  width = 32,
+  height = 8,
+  pattern = "523",
+}
+
 teletransporter{
   name = "teletransporter",
   layer = 0,

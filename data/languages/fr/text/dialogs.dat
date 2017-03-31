@@ -4034,20 +4034,20 @@ chance !
 dialog{
   id = "final.credits",
   text = [[
-$1 Ce jeu parodique a été
+$1Ce jeu parodique a été
 réalisé en dix
-semaines par la
-Solarus Team à
+semaines
+par la Solarus Team à
 l'occasion du
 1er avril 2017,
-avec l'aide de quelques
-pizzas et de fortes
+toujours avec l'aide
+de pizzas et de fortes
 doses de café.
 
          Crédits
 
      Programmation
-       du moteur :
+      du moteur :
 Christopho
        Scénario :
 Olivier Cléro
@@ -4063,8 +4063,8 @@ Metallizer
 Renkineko
 BenObiWan
 Valoo
+Diarandor
 Mymy
-
 
 
        Conception
@@ -4078,9 +4078,24 @@ Christopho
 
        Graphismes :
 Olivier Cléro
-Newlink
-        Tests :
+
+       Musiques :
+Olivier Cléro
+Metallizer
+         Tests :
 Binbin
+
+     Remerciements
+       spéciaux :
+
+LarryInc64
+DoctorOctoroc
+Bulby
+HelpTheWretched
+Rockfootdude
+Newlink
+
+Merci d'avoir joué !
 
 
  www.zelda-solarus.com

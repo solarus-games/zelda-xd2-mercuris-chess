@@ -5600,6 +5600,24 @@ tile{
   pattern = "floor.cracked.5-1",
 }
 
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 1176,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 0,
+  x = 744,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
 stairs{
   layer = 0,
   x = 736,
@@ -6991,6 +7009,168 @@ enemy{
   y = 565,
   direction = 1,
   breed = "alttp/pike_auto",
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 480,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_3",
+  layer = 0,
+  x = 1272,
+  y = 125,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_4",
+  layer = 0,
+  x = 1272,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_5",
+  layer = 0,
+  x = 648,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_3_1",
+  layer = 0,
+  x = 1288,
+  y = 125,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_4_1",
+  layer = 0,
+  x = 312,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_1",
+  layer = 0,
+  x = 328,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_2",
+  layer = 0,
+  x = 328,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_3",
+  layer = 0,
+  x = 480,
+  y = 253,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_5_4",
+  layer = 0,
+  x = 632,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_1",
+  layer = 0,
+  x = 1288,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_2",
+  layer = 0,
+  x = 1592,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_6_3",
+  layer = 0,
+  x = 1592,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_1",
+  layer = 0,
+  x = 1608,
+  y = 365,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_7_2",
+  layer = 0,
+  x = 1760,
+  y = 477,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_8_1",
+  layer = 0,
+  x = 312,
+  y = 605,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_9_1",
+  layer = 0,
+  x = 1760,
+  y = 493,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_9_2",
+  layer = 0,
+  x = 1608,
+  y = 605,
+  width = 16,
+  height = 16,
 }
 
 tile{

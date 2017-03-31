@@ -821,6 +821,42 @@ tile{
   pattern = "wall_pillar.2-6",
 }
 
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 560,
+  y = 165,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 0,
+  x = 560,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_2",
+  layer = 0,
+  x = 80,
+  y = 165,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 80,
+  y = 45,
+  width = 16,
+  height = 16,
+}
+
 stairs{
   layer = 0,
   x = 72,

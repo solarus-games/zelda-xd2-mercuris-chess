@@ -1046,6 +1046,24 @@ tile{
   pattern = "480",
 }
 
+sensor{
+  name = "dungeon_room_2_2",
+  layer = 0,
+  x = 160,
+  y = 445,
+  width = 16,
+  height = 16,
+}
+
+sensor{
+  name = "dungeon_room_1_1",
+  layer = 0,
+  x = 160,
+  y = 237,
+  width = 16,
+  height = 16,
+}
+
 stairs{
   layer = 0,
   x = 152,
@@ -1162,6 +1180,15 @@ chest{
   treasure_variant = 4,
   treasure_savegame_variable = "dungeon_1_rupee_chest_F",
   sprite = "entities/chest",
+}
+
+sensor{
+  name = "dungeon_room_2_1",
+  layer = 0,
+  x = 160,
+  y = 253,
+  width = 16,
+  height = 16,
 }
 
 tile{

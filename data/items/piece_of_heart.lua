@@ -47,8 +47,13 @@ function item:on_obtained(variant)
   end)
 end
 
+-- 40 pieces of hearts (10 hearts):
 -- - 5 in Dungeon 2
 -- - 28 in Pieces of heart cave
 -- - 1 in Lost and Found Office
 -- - 6 in outside world (1 per map, needs lens of truth)
--- Total: 40 (10 hearts)
+
+-- Heart containers: initially 14, then 9 because of Zelda
+-- - 1 in the library.
+
+-- Total: 20 heart containers.

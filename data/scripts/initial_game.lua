@@ -13,7 +13,7 @@ function initial_game:initialize_new_savegame(game)
 
   game:set_ability("jump_over_water", 1)
 
-  game:set_max_life(4 * 9)
+  game:set_max_life(4 * 14)
   game:set_life(game:get_max_life())
   game:get_item("rupee_bag"):set_variant(2)
   game:set_money(42)

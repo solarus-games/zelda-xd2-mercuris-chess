@@ -1135,6 +1135,7 @@ shop_treasure{
   y = 120,
   treasure_name = "flippers",
   treasure_variant = 2,
+  treasure_savegame_variable = "island_shop_flippers",
   price = 199,
   font = "la",
   dialog = "island.shop.flippers",

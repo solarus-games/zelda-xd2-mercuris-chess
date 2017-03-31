@@ -116,3 +116,5 @@ function sensor_meta:on_activated_repeat()
     end
   end
 end
+
+return true

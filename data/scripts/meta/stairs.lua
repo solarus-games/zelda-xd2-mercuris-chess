@@ -62,3 +62,5 @@ function stairs_meta:get_direction()
   self.direction = result or 3
   return result
 end
+
+return true

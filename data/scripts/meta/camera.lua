@@ -55,3 +55,5 @@ function camera_meta:shake(config, callback)
 
   shake_step()
 end
+
+return true

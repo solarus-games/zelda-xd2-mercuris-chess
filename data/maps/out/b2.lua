@@ -168,9 +168,10 @@ end
 
 local function explosion_sensor_activated()
   if not explosion_cinematic then
-    map:move_camera(816, 416, 250, function()
+    map:set_cinematic_mode(true)
+    map:move_camera(816, 432, 250, function()
       map:start_explosion_cinematic()
-    end, 1000, 10000)
+    end, 1000, 5000)
 
     sol.timer.start(map, 10, function()
       map:set_cinematic_mode(false)
@@ -199,7 +200,6 @@ function map:start_explosion_cinematic()
   explosion_cinematic = true
 
   local camera = map:get_camera()
-  map:set_cinematic_mode(true)
 
   sol.timer.start(map, 1000, function()
     sol.audio.play_sound("explosion")

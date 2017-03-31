@@ -36,3 +36,5 @@ function npc_meta:random_walk(speed)
 
   movement:start(self)
 end
+
+return true

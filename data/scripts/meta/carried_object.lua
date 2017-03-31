@@ -10,3 +10,5 @@ function carried_object_meta:on_removed()
     map:create_destructible({name = "iron_ball", layer = layer, x = x, y = y, sprite = sprite:get_animation_set()})
   end
 end
+
+return true

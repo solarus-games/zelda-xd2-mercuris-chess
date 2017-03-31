@@ -31,3 +31,5 @@ function dynamic_tile_meta:on_created()
     end)
   end
 end
+
+return true

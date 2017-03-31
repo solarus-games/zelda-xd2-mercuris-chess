@@ -19,3 +19,5 @@ function pickable_meta:on_created()
   end
 
 end
+
+return true

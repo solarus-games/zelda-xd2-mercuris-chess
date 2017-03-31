@@ -40,3 +40,5 @@ function enemy_meta:receive_attack_consequence(attack, reaction)
   end
 
 end
+
+return true

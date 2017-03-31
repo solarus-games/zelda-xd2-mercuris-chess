@@ -406,3 +406,14 @@ wall{
   stops_projectiles = true,
 }
 
+custom_entity{
+  name = "cocktails",
+  layer = 1,
+  x = -16,
+  y = 181,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cocktails",
+}
+

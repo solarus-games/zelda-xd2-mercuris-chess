@@ -124,36 +124,54 @@ function map:start_cinematic()
                       hero_movement_3:set_speed(80)
                       hero_movement_3:set_smooth(true)
                       hero_movement_3:set_ignore_obstacles(true)
+
+                      -- Make the cocktails move along the hero
+                      cocktails:get_sprite():set_animation("walking")
+                      local hero_x, hero_y = hero:get_position()
+                      cocktails:set_position(hero_x, hero_y - 16)
+
+                      function hero_movement_3:on_position_changed()
+                        if cocktails then
+                          local hero_x, hero_y = hero:get_position()
+                          cocktails:set_position(hero_x, hero_y - 16)                      
+                          end
+                      end
+
                       hero_movement_3:start(hero, function()
-                        hero_sprite:set_animation("stopped")
-                        hero_sprite:set_paused(true)
 
-                        game:start_dialog("final.zelda_7", player_name, function()
-                          sol.timer.start(map, 500, function()
-                            hero_sprite:set_animation("dying")
+                        sol.timer.start(map, 1500, function()
+                        
+                          cocktails:remove()
+                          hero_sprite:set_animation("stopped")
+                          hero_sprite:set_paused(true)
 
-                            sol.timer.start(map, 2000, function()
-                              local hero_movement_4 = sol.movement.create("target")
-                              hero_sprite:set_animation("walking")
-                              hero_sprite:set_direction(2) -- left
-                              hero_movement_4:set_target(-32, 192)
-                              hero_movement_4:set_speed(80)
-                              hero_movement_4:set_smooth(true)
-                              hero_movement_4:set_ignore_obstacles(true)
-                              hero_movement_4:start(hero, function()
-                                sol.timer.start(map, 1000, function()
-                                  game:start_dialog("final.zelda_8", function()
-                                    sol.timer.start(map, 500, function()
-                                      -- TODO draw heart shape instead of ellipse
-                                      fade_sprite = sol.sprite.create("entities/heart_fade")
-                                      local camera_x, camera_y = map:get_camera():get_position()
-                                      local zelda_x, zelda_y = grump_and_zelda:get_position()
-                                      fade_x = zelda_x - camera_x
-                                      fade_y = zelda_y - camera_y - 16
-                                      fade_sprite:set_animation("close")
-                                      fade_sprite.on_animation_finished = function()
-                                        -- TODO Ending credits
-                                      end
+                          game:start_dialog("final.zelda_7", player_name, function()
+                            sol.timer.start(map, 500, function()
+                              hero_sprite:set_animation("dying")
+
+                              sol.timer.start(map, 2000, function()
+                                local hero_movement_4 = sol.movement.create("target")
+                                hero_sprite:set_animation("walking")
+                                hero_sprite:set_direction(2) -- left
+                                hero_movement_4:set_target(-32, 192)
+                                hero_movement_4:set_speed(80)
+                                hero_movement_4:set_smooth(true)
+                                hero_movement_4:set_ignore_obstacles(true)
+                                hero_movement_4:start(hero, function()
+                                  sol.timer.start(map, 1000, function()
+                                    game:start_dialog("final.zelda_8", function()
+                                      sol.timer.start(map, 500, function()
+                                        -- TODO draw heart shape instead of ellipse
+                                        fade_sprite = sol.sprite.create("entities/heart_fade")
+                                        local camera_x, camera_y = map:get_camera():get_position()
+                                        local zelda_x, zelda_y = grump_and_zelda:get_position()
+                                        fade_x = zelda_x - camera_x
+                                        fade_y = zelda_y - camera_y - 16
+                                        fade_sprite:set_animation("close")
+                                        fade_sprite.on_animation_finished = function()
+                                          -- TODO Ending credits
+                                        end
+                                      end)
                                     end)
                                   end)
                                 end)

@@ -158,7 +158,7 @@ end
 function map_submenu:draw_dungeon_map(dst_surface)
 
   -- Background.
-  self.dungeon_map_background_img:draw(dst_surface, 48, 59)
+  self.dungeon_map_background_img:draw(dst_surface, 47, 58)
 
   -- Items.
   self:draw_dungeon_items(dst_surface)

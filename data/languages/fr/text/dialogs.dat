@@ -6081,6 +6081,9 @@ c'est une émeute !
 dialog{
   id = "main_village.castle_entrance",
   text = [[
+C'est bon, tu peux
+entrer. On a retrouvé
+les clés.
 ]]
 }
 

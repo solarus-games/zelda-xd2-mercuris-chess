@@ -11025,6 +11025,17 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+npc{
+  name = "npc_riot_79",
+  layer = 0,
+  x = 760,
+  y = 533,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/frog",
+  behavior = "dialog#lafoo_riot.npc_79",
+}
+
 tile{
   layer = 1,
   x = 600,
@@ -11338,16 +11349,6 @@ dynamic_tile{
   x = 864,
   y = 368,
   pattern = "657",
-  width = 8,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  layer = 1,
-  x = 760,
-  y = 336,
-  pattern = "632",
   width = 8,
   height = 8,
   enabled_at_start = true,

@@ -6052,8 +6052,10 @@ avait autant
 d'habitants !
 C'est un
 truc de fou !
-Il devrait y avoir plus
-souvent des spectacles.
+Il devraient organiser
+plus souvent ce genre
+de spectacles
+pyrotechniques.
 ]]
 }
 
@@ -6064,8 +6066,8 @@ Le Bureau des Objets
 Trouvés était tout sauf
 un monument historique.
 Mais le voir partir en
-fumée est un vrai
-moment historique !
+fumée, c'est un moment
+historique !
 ]]
 }
 
@@ -6078,6 +6080,16 @@ Il y a un incendie hors
 de contrôle en pleine
 forêt, et les gens ont
 l'air enchantés.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_79",
+  text = [[
+Les livres d'histoire
+raconteront ce moment
+comme la Chute du Mur
+administratif.
 ]]
 }
 

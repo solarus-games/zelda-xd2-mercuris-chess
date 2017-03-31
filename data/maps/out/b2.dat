@@ -10379,7 +10379,7 @@ sensor{
   name = "explosion_sensor_1",
   layer = 0,
   x = 808,
-  y = 525,
+  y = 533,
   width = 32,
   height = 16,
 }
@@ -10497,8 +10497,8 @@ npc{
 sensor{
   name = "explosion_sensor_2",
   layer = 0,
-  x = 1064,
-  y = 493,
+  x = 856,
+  y = 517,
   width = 16,
   height = 32,
 }

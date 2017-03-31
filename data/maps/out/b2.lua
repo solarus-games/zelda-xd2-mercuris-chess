@@ -183,13 +183,15 @@ explosion_sensor_1.on_activated = explosion_sensor_activated
 explosion_sensor_2.on_activated = explosion_sensor_activated
 
 -- Makes the Lost and Found Office collapse gradually.
-local function collapse_office(duration)
+local function collapse_office()
 
   -- Remove all unamed dynamic tiles in the area.
+  local i = 0
   for tile in map:get_entities_by_type("dynamic_tile") do
     if tile:get_name() == nil then
       -- This is a tile from the building.
-      sol.timer.start(map, math.random(10, duration), function()
+      i = i + 1
+      sol.timer.start(map, i * 20, function()
         tile:remove()
       end)
     end
@@ -214,7 +216,7 @@ function map:start_explosion_cinematic()
 
     sol.timer.start(map, 800, function()
 
-      collapse_office(2000)
+      collapse_office()
 
       sol.audio.play_sound("explosion")
       sol.audio.play_sound("enemy_awake")

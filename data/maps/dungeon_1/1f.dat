@@ -2273,6 +2273,37 @@ sensor{
   height = 16,
 }
 
+custom_entity{
+  name = "fake_heart_container_1",
+  layer = -1,
+  x = 960,
+  y = 165,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "fake_heart_container_2",
+  layer = -1,
+  x = 960,
+  y = 261,
+  width = 16,
+  height = 16,
+  direction = 0,
+}
+
+custom_entity{
+  name = "heart_container_hand",
+  layer = -1,
+  x = 960,
+  y = -11,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/alttp/wallmaster",
+}
+
 tile{
   layer = 0,
   x = 712,
@@ -8709,6 +8740,15 @@ tile{
 }
 
 door{
+  name = "boss_door_south",
+  layer = 0,
+  x = 952,
+  y = 440,
+  direction = 3,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
   name = "library_door",
   layer = 0,
   x = 1800,
@@ -9554,8 +9594,8 @@ dynamic_tile{
 teletransporter{
   name = "to_outside",
   layer = 0,
-  x = 952,
-  y = 448,
+  x = 984,
+  y = 416,
   width = 16,
   height = 16,
   destination_map = "out/b1",

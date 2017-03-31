@@ -7233,6 +7233,26 @@ enemy{
   treasure_name = "bomb",
 }
 
+enemy{
+  name = "auto_enemy_23",
+  layer = 0,
+  x = 1432,
+  y = 125,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_24",
+  layer = 0,
+  x = 480,
+  y = 69,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 1720,

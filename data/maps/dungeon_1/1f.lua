@@ -29,10 +29,14 @@ function map:create_chicken_boss()
   if game:get_value("dungeon_1_boss") then
     return
   end
+  -- Close doors.
+  map:close_doors("boss_door")
+
   -- Play boss music.
   sol.audio.play_music("alttp/ganon_appears", function()
     sol.audio.play_music("alttp/boss", true)
   end)
+
   -- Create boss.
   local dst = map:get_entity("boss_starting_point")
   local x, y, layer = dst:get_position()
@@ -42,22 +46,69 @@ function map:create_chicken_boss()
   boss = map:create_enemy(prop)
   
   function boss:on_dead()
-    -- TODO create heart_container
+
+    -- Create a heart container but removing it with a falling hand
+    -- when the hero gets close.
+    local fake_heart_container
+    if hero:get_distance(fake_heart_container_1) > hero:get_distance(fake_heart_container_2) then
+      fake_heart_container = fake_heart_container_1
+    else
+      fake_heart_container = fake_heart_container_2
+    end
+    fake_heart_container:set_enabled(true)
+    local heart_container_sprite = fake_heart_container:create_sprite("entities/items")
+    heart_container_sprite:set_animation("heart_container")
+    sol.timer.start(map, 10, function()
+      if hero:get_distance(fake_heart_container) > 32 then
+        return true  -- Wait for the hero to get close.
+      end
+      
+      hero:freeze()
+      map:get_camera():shake()
+      sol.timer.start(map, 500, function()
+        sol.audio.play_sound("jump")
+      end)
+      local hand_sprite = heart_container_hand:get_sprite()
+      hand_sprite:set_animation("closed")
+      local movement = sol.movement.create("target")
+      movement:set_target(fake_heart_container)
+      movement:set_speed(192)
+      movement:set_ignore_obstacles(true)
+      movement:start(heart_container_hand, function()
+        hand_sprite:set_animation("closed")
+        sol.timer.start(map, 2000, function()
+          local movement = sol.movement.create("straight")
+          movement:set_angle(math.pi / 2)
+          movement:set_speed(192)
+          movement:set_max_distance(180)
+          movement:set_ignore_obstacles(true)
+          function heart_container_hand:on_position_changed()
+            fake_heart_container:set_position(heart_container_hand:get_position())
+          end
+          movement:start(heart_container_hand, function()
+            heart_container_hand:set_enabled(false)
+            fake_heart_container:set_enabled(false)
+            map:open_doors("boss_door")
+            sol.audio.stop_music()
+            hero:unfreeze()
+          end)
+        end)
+      end)
+    end)
   end
 end
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
   map:set_doors_open("boss_door")
-  
-  if not game:get_value("dungeon_1_exit_door_closed") == true then
-    map:set_doors_open("exit_door")
-  end
 
   pool_switch_empty:set_activated(true)
 
   library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.
   west_fake_door:get_sprite():set_xy(0, 16)
+
+  fake_heart_container_1:set_enabled(false)
+  fake_heart_container_2:set_enabled(false)
 end
 
 -- Event called after the opening transition effect of the map,

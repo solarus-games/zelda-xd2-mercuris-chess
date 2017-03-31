@@ -210,3 +210,9 @@ function river_switch:on_activated()
     tile:set_enabled(false)
   end
 end
+
+function pillar_collision(carried_object)
+  sol.audio.play_sound("cane")
+end
+
+map.pillar_collision = pillar_collision

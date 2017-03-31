@@ -5050,7 +5050,27 @@ Enclos à rubis
 }
 
 dialog{
-  id = "lafoo.entrance",
+  id = "lafoo.after_explosion",
+  text = [[
+Et voilà, le bâtiment du
+Bureau des Objets
+Trouvés s'est effondré.
+Cependant, on n'a pas
+fini de se venger de 
+Monsieur Grump.
+Il habite au château
+royal, il l'a racheté
+avec sa grande fortune.
+Il parait qu'il a
+recouvert les murs
+d'une couche d'or!
+Si tu le cherches, il
+est sûrement là-bas !
+]]
+}
+
+dialog{
+  id = "lafoo.before_explosion",
   text = [[
 Mieux vaut ne pas entrer
 là-dedans...

@@ -9808,7 +9808,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 808,
-  y = 541,
+  y = 565,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -10087,12 +10087,13 @@ wall{
 }
 
 npc{
+  name = "lafoo_npc",
   layer = 0,
-  x = 872,
+  x = 880,
   y = 517,
   direction = 3,
   subtype = 1,
-  behavior = "dialog#lafoo.entrance",
+  sprite = "npc/newlink/blond_boy",
 }
 
 wall{
@@ -10266,9 +10267,10 @@ npc{
 }
 
 sensor{
+  name = "explosion_sensor_1",
   layer = 0,
   x = 808,
-  y = 517,
+  y = 549,
   width = 32,
   height = 16,
 }
@@ -10381,6 +10383,15 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/mustache_man",
   behavior = "dialog#lafoo_riot.npc_75",
+}
+
+sensor{
+  name = "explosion_sensor_2",
+  layer = 0,
+  x = 856,
+  y = 517,
+  width = 16,
+  height = 32,
 }
 
 tile{

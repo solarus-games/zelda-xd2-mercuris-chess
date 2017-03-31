@@ -16,6 +16,12 @@ local lafoo_riot = require("scripts/maps/lafoo_riot")
 local bush_count = 0
 local current_chore_step = -1
 
+local explosion_cinematic = false
+
+-- Cinematic black lines
+local black_stripe = nil
+local cinematic_mode = false
+
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
 
@@ -149,3 +155,122 @@ function fire_rod_sensor:on_activated()
     end)
   end)
 end
+
+function lafoo_npc:on_interaction()
+  local riot_finished = lafoo_riot:is_finished()
+  
+  if riot_finished then
+      game:start_dialog("lafoo.after_explosion")
+  else
+      game:start_dialog("lafoo.before_explosion")
+  end
+end
+
+function explosion_sensor_1:on_activated()
+  if not explosion_cinematic then
+    map:start_explosion_cinematic()
+  end
+end
+
+function explosion_sensor_2:on_activated()
+  if not explosion_cinematic then
+    map:start_explosion_cinematic()
+  end
+end
+
+function map:start_explosion_cinematic()
+  explosion_cinematic = true
+
+  map:set_cinematic_mode(true)
+
+  sol.timer.start(map, 1000, function()
+    map:create_explosion{
+      layer = map:get_max_layer(),
+      x = 744, 
+      y = 488,
+    }
+
+    sol.timer.start(map, 800, function()
+      map:create_explosion{
+        layer = map:get_max_layer(),
+        x = 840, 
+        y = 472,
+      }
+
+      sol.timer.start(map, 500, function()
+        map:create_explosion{
+          layer = map:get_max_layer(),
+          x = 896, 
+          y = 440,
+        }
+
+        sol.timer.start(map, 800, function()
+          map:create_explosion{
+            layer = map:get_max_layer(),
+            x = 784, 
+            y = 464,
+          }
+
+          sol.timer.start(map, 500, function()
+            -- TODO
+            -- Fade-out to black, 
+            -- then make all the NPC disapear
+            -- then make the hero move to position 880, 528
+            -- then fade to normal
+            -- then start dialog lafoo/after_explosion
+            -- then 
+            map:set_cinematic_mode(false) 
+          end)
+        end)
+      end)
+    end)
+  end)
+
+end
+
+-- Enable or disable the cinematic mode
+function map:set_cinematic_mode(is_cinematic)
+
+  -- Cinematic lines
+  cinematic_mode = is_cinematic
+
+  -- Hide or show HUD.
+  game:set_hud_enabled(not is_cinematic)
+
+  -- Freeze hero
+  local hero = map:get_hero()
+  if is_cinematic then
+    hero:freeze()
+  else
+    hero:unfreeze()
+  end
+  
+  -- Prevent or allow the player from pausing the game
+  game:set_pause_allowed(not is_cinematic)
+
+  -- Track the hero with the camera.
+  if not is_cinematic then
+    map:get_camera():start_tracking(hero)
+  end
+end
+
+-- Draw the cinematic black stripes
+function map:draw_cinematic_stripes(dst_surface)
+  if black_stripe == nil then
+    local quest_w, quest_h = sol.video.get_quest_size()
+    black_stripe = sol.surface.create(quest_w, 24)
+    black_stripe:fill_color({0, 0, 0})
+  end
+  
+  black_stripe:draw(dst_surface, 0, 0)
+  black_stripe:draw(dst_surface, 0, 216)
+end
+
+-- Call when map needs to be drawn.
+map:register_event("on_draw", function(map, dst_surface)
+ 
+  if cinematic_mode then
+    map:draw_cinematic_stripes(dst_surface)
+  end
+end)
+

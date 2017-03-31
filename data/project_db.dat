@@ -466,18 +466,12 @@ music{ id = "alttp/triforce", description = "Triforce" }
 music{ id = "alttp/victory", description = "Victory" }
 music{ id = "alttp/village", description = "Kakariko Village" }
 music{ id = "alttp/zelda", description = "Zelda theme" }
-music{ id = "bttf/storyline", description = "Storyline" }
 music{ id = "bttf/title", description = "Title screen" }
 music{ id = "bulby/great_sea", description = "Great Sea" }
 music{ id = "ct/mystic_mountain", description = "Mystic mountain" }
 music{ id = "doctor_octoroc/demons_run", description = "Demons run" }
-music{ id = "doctor_octoroc/doctor_who_theme_2010", description = "Doctor Who Theme (2010)" }
 music{ id = "doctor_octoroc/i_am_the_doctor_1", description = "I am the Doctor 1" }
 music{ id = "doctor_octoroc/i_am_the_doctor_2", description = "I am the Doctor 2" }
-music{ id = "doctor_octoroc/this_planet_is_ours", description = "This planet is ours" }
-music{ id = "doctor_octoroc/useful_striker", description = "Useful striker" }
-music{ id = "doctor_octoroc/victory_fanfare", description = "Victory fanfare" }
-music{ id = "doctor_octoroc/victory_fanfare_main", description = "Victory fanfare main" }
 music{ id = "larryinc64/queen_another_one", description = "Queen - Another one bites the dust" }
 music{ id = "larryinc64/sm64_slider", description = "Super Mario 64 - Slider" }
 music{ id = "metallizer/la_eagle_tower", description = "Eagle Tower" }

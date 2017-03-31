@@ -53,7 +53,6 @@ function map:on_opening_transition_finished()
   -- Freeze hero.
   local hero = map:get_hero()
   hero:set_visible(true)
-  hero:set_enabled(true)
   hero:freeze()
 
   -- Launch cinematic.
@@ -108,17 +107,15 @@ function map:start_cinematic()
   sol.timer.start(map, 500, function()
     game:start_dialog("final.zelda_4", player_name, function()
       local hero_movement_1 = sol.movement.create("target")
-      local hero_sprite = hero:get_sprite()
-      hero_sprite:set_direction(1) -- up
-      hero_sprite:set_animation("walking")
+      hero:set_direction(1) -- up
+      hero:set_animation("walking")
       hero_movement_1:set_target(104, 192)
       hero_movement_1:set_speed(50)
       hero_movement_1:set_smooth(true)
       hero_movement_1:set_ignore_obstacles(true)
       hero_movement_1:start(hero, function()
-        hero_sprite:set_direction(0) -- right
-        hero_sprite:set_animation("stopped")
-        hero_sprite:set_paused(true)
+        hero:set_direction(0) -- right
+        hero:set_animation("stopped")
 
         sol.timer.start(map, 500, function()
           game:start_dialog("final.zelda_5", player_name, function()
@@ -129,8 +126,8 @@ function map:start_cinematic()
                   
                   -- Make the player disapear
                   local hero_movement_2 = sol.movement.create("target")
-                  hero_sprite:set_direction(2) -- left
-                  hero_sprite:set_animation("walking")
+                  hero:set_direction(2) -- left
+                  hero:set_animation("walking")
                   hero_movement_2:set_target(-32, 192)
                   hero_movement_2:set_speed(80)
                   hero_movement_2:set_smooth(true)
@@ -140,8 +137,8 @@ function map:start_cinematic()
                     sol.timer.start(map, 500, function()
                       -- Then come back with cocktails
                       local hero_movement_3 = sol.movement.create("target")
-                      hero_sprite:set_direction(0) -- right
-                      hero_sprite:set_animation("carrying_walking")
+                      hero:set_direction(0) -- right
+                      hero:set_animation("carrying_walking")
                       hero_movement_3:set_target(104, 192)
                       hero_movement_3:set_speed(80)
                       hero_movement_3:set_smooth(true)
@@ -164,17 +161,16 @@ function map:start_cinematic()
                         sol.timer.start(map, 1500, function()
                         
                           cocktails:remove()
-                          hero_sprite:set_animation("stopped")
-                          hero_sprite:set_paused(true)
+                          hero:set_animation("stopped")
 
                           game:start_dialog("final.zelda_7", player_name, function()
                             sol.timer.start(map, 500, function()
-                              hero_sprite:set_animation("dying")
+                              hero:set_animation("dying")
 
                               sol.timer.start(map, 2000, function()
                                 local hero_movement_4 = sol.movement.create("target")
-                                hero_sprite:set_animation("walking")
-                                hero_sprite:set_direction(2) -- left
+                                hero:set_animation("walking")
+                                hero:set_direction(2) -- left
                                 hero_movement_4:set_target(-32, 192)
                                 hero_movement_4:set_speed(80)
                                 hero_movement_4:set_smooth(true)

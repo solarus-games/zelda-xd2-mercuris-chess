@@ -6079,6 +6079,12 @@ c'est une émeute !
 }
 
 dialog{
+  id = "main_village.castle_entrance",
+  text = [[
+]]
+}
+
+dialog{
   id = "main_village.dumb_guy_house.in_bed",
   text = [[
 Sa fé 5 jours ke je

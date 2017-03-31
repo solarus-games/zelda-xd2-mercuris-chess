@@ -7742,3 +7742,23 @@ tile_pattern{
   height = 16,
 }
 
+tile_pattern{
+  id = "bush_placement_transparent",
+  ground = "traversable",
+  default_layer = 0,
+  x = 80,
+  y = 248,
+  width = 16,
+  height = 16,
+}
+
+tile_pattern{
+  id = "rock_placement_transparent",
+  ground = "traversable",
+  default_layer = 0,
+  x = 96,
+  y = 248,
+  width = 16,
+  height = 16,
+}
+

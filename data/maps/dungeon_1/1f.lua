@@ -186,7 +186,8 @@ end
 -- Pool fill switch mechanism
 -- The switch fills up the champagne swimming pool
 function pool_switch_fill:on_activated()
-  pool_switch_empty:set_activated(false);
+  hero:freeze()
+  pool_switch_empty:set_activated(false)
   sol.audio.play_sound("water_fill_begin")
   sol.audio.play_sound("water_fill")
   local water_tile_index = 5
@@ -194,6 +195,7 @@ function pool_switch_fill:on_activated()
     local next_tile = map:get_entity("pool_" .. water_tile_index)
     local previous_tile = map:get_entity("pool_" .. water_tile_index + 1)
     if next_tile == nil then
+      hero:unfreeze()
       return false
     end
     next_tile:set_enabled(true)
@@ -208,12 +210,12 @@ end
 -- Pool empty switch mechanism
 -- The switch drains the champagne swimming pool
 function pool_switch_empty:on_activated()
-  pool_switch_fill:set_activated(false);
+  hero:freeze()
+  pool_switch_fill:set_activated(false)
   sol.audio.play_sound("water_drain_begin")
   sol.audio.play_sound("water_drain")
   local water_tile_index = 1
   sol.timer.start(water_delay, function()
-    print(water_tile_index)
     local next_tile = map:get_entity("pool_" .. water_tile_index + 1)
     local previous_tile = map:get_entity("pool_" .. water_tile_index)
     if next_tile ~= nil then    
@@ -224,6 +226,7 @@ function pool_switch_empty:on_activated()
     end
     water_tile_index = water_tile_index + 1
     if next_tile == nil then
+      hero:unfreeze()
       return false
     end
     return true

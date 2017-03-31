@@ -633,9 +633,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
+  x = 128,
   y = 992,
-  width = 864,
+  width = 880,
   height = 16,
   pattern = "190",
 }
@@ -2046,16 +2046,16 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 144,
   y = 1008,
-  width = 864,
+  width = 880,
   height = 8,
   pattern = "119",
 }
 
 tile{
   layer = 0,
-  x = 144,
+  x = 128,
   y = 1008,
   width = 16,
   height = 16,
@@ -2064,7 +2064,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 144,
+  x = 128,
   y = 1000,
   width = 16,
   height = 8,
@@ -2325,7 +2325,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 152,
+  x = 136,
   y = 1016,
   width = 8,
   height = 8,
@@ -2334,9 +2334,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 160,
+  x = 144,
   y = 1016,
-  width = 976,
+  width = 992,
   height = 16,
   pattern = "49",
 }
@@ -7563,26 +7563,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 128,
-  y = 992,
-  width = 16,
-  height = 16,
-  pattern = "91",
-}
-
-tile{
-  layer = 0,
   x = 112,
-  y = 1008,
-  width = 16,
-  height = 16,
-  pattern = "91",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 1008,
+  y = 992,
   width = 16,
   height = 16,
   pattern = "91",
@@ -7594,12 +7576,30 @@ tile{
   y = 1008,
   width = 16,
   height = 16,
-  pattern = "395",
+  pattern = "91",
 }
 
 tile{
   layer = 0,
   x = 112,
+  y = 1008,
+  width = 16,
+  height = 16,
+  pattern = "91",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 1008,
+  width = 16,
+  height = 16,
+  pattern = "395",
+}
+
+tile{
+  layer = 0,
+  x = 96,
   y = 992,
   width = 16,
   height = 16,
@@ -7608,8 +7608,17 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
+  x = 88,
   y = 1000,
+  width = 16,
+  height = 16,
+  pattern = "395",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 984,
   width = 16,
   height = 16,
   pattern = "395",
@@ -7619,16 +7628,7 @@ tile{
   layer = 0,
   x = 120,
   y = 984,
-  width = 16,
-  height = 16,
-  pattern = "395",
-}
-
-tile{
-  layer = 0,
-  x = 136,
-  y = 984,
-  width = 560,
+  width = 576,
   height = 8,
   pattern = "625",
 }
@@ -7689,16 +7689,16 @@ tile{
 
 tile{
   layer = 0,
-  x = 136,
+  x = 120,
   y = 976,
-  width = 560,
+  width = 576,
   height = 8,
   pattern = "420",
 }
 
 tile{
   layer = 0,
-  x = 128,
+  x = 112,
   y = 976,
   width = 8,
   height = 8,
@@ -12561,5 +12561,14 @@ tile{
   width = 8,
   height = 8,
   pattern = "680",
+}
+
+tile{
+  layer = 2,
+  x = 72,
+  y = 1000,
+  width = 8,
+  height = 40,
+  pattern = "514",
 }
 

@@ -178,40 +178,79 @@ function explosion_sensor_2:on_activated()
   end
 end
 
+-- Makes the Lost and Found Office collapse gradually.
+local function collapse_office(duration)
+
+  -- Remove all unamed dynamic tiles in the area.
+  for tile in map:get_entities_by_type("dynamic_tile") do
+    if tile:get_name() == nil then
+      -- This is a tile from the building.
+      sol.timer.start(map, math.random(10, duration), function()
+        tile:remove()
+      end)
+    end
+  end
+end
+
 function map:start_explosion_cinematic()
   explosion_cinematic = true
 
+  local camera = map:get_camera()
   map:set_cinematic_mode(true)
 
   sol.timer.start(map, 1000, function()
-    map:create_explosion{
-      layer = map:get_max_layer(),
-      x = 744, 
-      y = 488,
-    }
-
-    sol.timer.start(map, 800, function()
+    sol.audio.play_sound("explosion")
+    camera:shake()
+    for i = 1, 5 do
       map:create_explosion{
         layer = map:get_max_layer(),
-        x = 840, 
-        y = 472,
+        x = 744 + math.random(-32, 32), 
+        y = 488 + math.random(-32, 32),
       }
+    end
 
-      sol.timer.start(map, 500, function()
+    sol.timer.start(map, 800, function()
+
+      collapse_office(2000)
+
+      sol.audio.play_sound("explosion")
+      sol.audio.play_sound("enemy_awake")
+      camera:shake()
+      for i = 1, 5 do
         map:create_explosion{
           layer = map:get_max_layer(),
-          x = 896, 
-          y = 440,
+          x = 840 + math.random(-32, 32), 
+          y = 472 + math.random(-32, 32),
         }
-
-        sol.timer.start(map, 800, function()
+      end
+ 
+      sol.timer.start(map, 500, function()
+        sol.audio.play_sound("explosion")
+        camera:shake()
+        for i = 1, 5 do
           map:create_explosion{
             layer = map:get_max_layer(),
-            x = 784, 
-            y = 464,
+            x = 896 + math.random(-32, 32), 
+            y = 440 + math.random(-32, 32),
           }
+        end
+
+        sol.timer.start(map, 800, function()
+          sol.audio.play_sound("explosion")
+          sol.audio.play_sound("enemy_awake")
+          camera:shake()
+          for i = 1, 5 do
+            map:create_explosion{
+              layer = map:get_max_layer(),
+              x = 784 + math.random(-32, 32), 
+              y = 464 + math.random(-32, 32),
+            }
+          end
 
           sol.timer.start(map, 500, function()
+            sol.audio.play_sound("explosion")
+            sol.audio.play_sound("enemy_awake")
+            camera:shake()
             -- TODO
             -- Fade-out to black, 
             -- then make all the NPC disapear
@@ -219,7 +258,9 @@ function map:start_explosion_cinematic()
             -- then fade to normal
             -- then start dialog lafoo/after_explosion
             -- then 
-            map:set_cinematic_mode(false) 
+            sol.timer.start(map, 2000, function()
+              map:set_cinematic_mode(false) 
+            end)
           end)
         end)
       end)

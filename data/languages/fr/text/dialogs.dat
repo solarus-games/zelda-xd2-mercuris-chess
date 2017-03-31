@@ -2499,6 +2499,24 @@ ce genre de lecture !
 }
 
 dialog{
+  id = "chill_valley.z_house.all_read",
+  skip = "all",
+  text = [[
+Squick ! T'es chez moi
+là, et tu lis tous mes
+livres comme s'ils
+étaient à toi ! Squick
+squick, jamais vu un
+culot pareil ! Il ne
+peut y avoir qu'un
+seul rat de bibliothè-
+que et c'est moi !
+TAIAUUUT ! SQUICK !
+]]
+	
+}
+
+dialog{
   id = "chill_valley.z_house.biography_grump",
   skip = "all",
   text = [[

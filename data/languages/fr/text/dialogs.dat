@@ -3534,6 +3534,33 @@ c'est limite désertique.
 }
 
 dialog{
+  id = "dungeon_1.1f.iron_ball_man",
+  text = [[
+Hips... tu veux que
+j'te dise mon gars ?
+J'ai tellement
+transporté de boulets
+dans ma vie que j'ai
+sombré dans l'al...
+Hips... Bref on dirait
+pas comme ça mais en
+plus mais c'est méga
+sol... hips ces trucs !
+Tu pourrais détruire
+plein de trucs dans
+ce château avec !
+Je me suis toujours
+demand... Hips si le
+grenier au-dessus de
+l'entrée du château
+cachait pas un énorme
+trés... Hips.
+Je dis ça je dis rien
+hein ! 
+]]
+}
+
+dialog{
   id = "dungeon_1.1f.julien_dore",
   skip = "all",
   text = [[

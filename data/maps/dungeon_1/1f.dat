@@ -2197,32 +2197,12 @@ wall{
   stops_projectiles = true,
 }
 
-switch{
-  name = "chicken_boss_switch",
-  layer = -1,
-  x = 952,
-  y = 328,
-  subtype = "walkable",
-  sprite = "entities/switches/switch",
-  needs_block = false,
-  inactivate_when_leaving = false,
-}
-
 destination{
   name = "boss_starting_point",
   layer = -1,
   x = 960,
   y = 229,
   direction = 1,
-}
-
-destructible{
-  name = "iron_ball",
-  layer = -1,
-  x = 896,
-  y = 309,
-  sprite = "entities/dungeon_1/iron_ball",
-  damage_on_enemies = 2,
 }
 
 sensor{
@@ -10646,6 +10626,26 @@ sensor{
   y = 253,
   width = 16,
   height = 16,
+}
+
+destructible{
+  name = "iron_ball",
+  layer = 0,
+  x = 56,
+  y = 189,
+  sprite = "entities/dungeon_1/iron_ball",
+  damage_on_enemies = 2,
+}
+
+npc{
+  name = "iron_ball_man",
+  layer = 0,
+  x = 120,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/drunk_man",
+  behavior = "dialog#dungeon_1.1f.iron_ball_man",
 }
 
 tile{

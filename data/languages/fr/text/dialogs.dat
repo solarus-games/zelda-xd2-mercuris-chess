@@ -1197,7 +1197,6 @@ logo est pas mal.
 dialog{
   id = "_treasure.fire_rod.1",
   icon = "27",
-  next = "warning_magic",
   text = [[
 Le pyromane du
 Bureau des Objets
@@ -1208,11 +1207,15 @@ la Baguette de Feu !
 Tu peux tout 
 cramer !!!
 
-Heu... En fait, tu
-ne devrais peut-être
-pas trop t'afficher
-en possession de
-cette arme.
+Mais surveille ton
+compteur magique !
+
+Heu... Tout bien
+réfléchi, tu ne devrais
+peut-être pas trop
+t'afficher en
+possession de cette
+arme.
 ]]
 }
 
@@ -3338,6 +3341,7 @@ Il y a du courrier !
 
 dialog{
   id = "chores.mailbox_empty",
+  skip = "all",
   text = [[
 Rien dans la boîte
 aux lettres.
@@ -5494,12 +5498,9 @@ dialog{
   id = "lafoo_riot.npc_23",
   skip = "all",
   text = [[
-Tu vois la fumée dans 
-le ciel ?
-
+Tu as vu cette fumée
+dans le ciel ?
 Ca vient de la forêt.
-Ca serait pas le Bureau
-des Objets Trouvés ?
 ]]
 }
 
@@ -6236,8 +6237,7 @@ J'étais loin de me
 douter que le village
 avait autant
 d'habitants !
-C'est un
-truc de fou !
+C'est un truc de fou !
 Il devraient organiser
 plus souvent ce genre
 de spectacles
@@ -6292,6 +6292,18 @@ passion pour le feu...
 Mais j'tassure,
 c'est pas moi, pour
 une fois !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_80",
+  skip = "all",
+  text = [[
+Je n'ose pas regarder
+en direction de
+l'incendie.
+C'est trop d'émotions
+fortes pour moi.
 ]]
 }
 
@@ -6643,9 +6655,9 @@ la ForceTri on a rasé.
 Mais du côté humide je
 reste dans cette
 maison champignon.
-Ton Sabre Laser taggué
-a été ?
-
+Ton Sabre Laser
+injustement taggué a
+été ?
 À tes habits assorti,
 plus convenable un
 Sabre Laser serait.
@@ -7088,7 +7100,17 @@ absolument charmant,
 qui est parti méditer
 dans le désert au nord
 avec son chameau.
-Et moi aussi je médite.
+D'ailleurs, moi aussi
+je médite.
+]]
+}
+
+dialog{
+  id = "swamp.west_sign",
+  text = [[
+Ouest : Forêt
+Bureau des Objets
+Trouvés
 ]]
 }
 

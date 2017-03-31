@@ -9935,14 +9935,14 @@ npc{
 }
 
 npc{
-  name = "random_walk_npc_riot_2",
+  name = "random_walk_npc_riot_80",
   layer = 0,
   x = 904,
   y = 677,
   direction = 1,
   subtype = 1,
   sprite = "npc/alttp/average_middle_aged_man",
-  behavior = "dialog#lafoo_riot.npc_2",
+  behavior = "dialog#lafoo_riot.npc_80",
 }
 
 npc{
@@ -11042,6 +11042,17 @@ destination{
   x = 880,
   y = 533,
   direction = 1,
+}
+
+npc{
+  name = "random_walk_npc_riot_2",
+  layer = 0,
+  x = 608,
+  y = 493,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/alttp/average_middle_aged_man",
+  behavior = "dialog#lafoo_riot.npc_2",
 }
 
 tile{

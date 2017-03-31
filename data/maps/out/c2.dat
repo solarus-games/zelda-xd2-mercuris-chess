@@ -11050,6 +11050,7 @@ npc{
   direction = 3,
   subtype = 0,
   sprite = "entities/sign",
+  behavior = "dialog#swamp.west_sign",
 }
 
 destination{
@@ -11148,6 +11149,16 @@ pickable{
   y = 669,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "swamp_invisible_piece_of_heart",
+}
+
+chest{
+  layer = 0,
+  x = 1088,
+  y = 37,
+  treasure_name = "rupee",
+  treasure_variant = 4,
+  treasure_savegame_variable = "swamp_rupee_chest",
+  sprite = "entities/chest",
 }
 
 tile{

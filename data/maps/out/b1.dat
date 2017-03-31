@@ -15535,13 +15535,13 @@ teletransporter{
 }
 
 npc{
+  name = "castle_guard",
   layer = 0,
   x = 296,
   y = 157,
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/tom",
-  behavior = "dialog#main_village.castle_entrance",
 }
 
 npc{

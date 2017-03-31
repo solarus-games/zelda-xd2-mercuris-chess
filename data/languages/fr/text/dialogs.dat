@@ -6206,7 +6206,21 @@ c'est une émeute !
 }
 
 dialog{
-  id = "main_village.castle_entrance",
+  id = "main_village.castle_guard_after_dungeon_1",
+  skip = "all",
+  text = [[
+Ah vous cherchez le
+patron ?
+Monsieur Grump est en
+déplacement de l'autre
+côté de l'océan, en
+voyage d'affaires.
+]]
+}
+
+dialog{
+  id = "main_village.castle_guard_before_dungeon_1",
+  skip = "all",
   text = [[
 C'est bon, tu peux
 entrer. On a retrouvé

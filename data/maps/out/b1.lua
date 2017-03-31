@@ -70,3 +70,12 @@ function perfume_sensor:on_activated()
     end)
   end)
 end
+
+function castle_guard:on_interaction()
+
+  if not game:is_dungeon_finished(1) then
+    game:start_dialog("main_village.castle_guard_before_dungeon_1")
+  else
+    game:start_dialog("main_village.castle_guard_after_dungeon_1")
+  end
+end

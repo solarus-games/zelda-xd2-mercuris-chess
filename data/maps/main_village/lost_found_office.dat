@@ -1,6 +1,6 @@
 properties{
-  x = 0,
-  y = 0,
+  x = 1840,
+  y = 1464,
   width = 368,
   height = 480,
   min_layer = -1,

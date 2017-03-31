@@ -356,6 +356,7 @@ destination{
 }
 
 custom_entity{
+  name = "swell_1",
   layer = 1,
   x = 8,
   y = 405,
@@ -366,6 +367,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_2",
   layer = 1,
   x = 40,
   y = 405,
@@ -376,6 +378,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_3",
   layer = 1,
   x = 72,
   y = 405,
@@ -386,6 +389,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_4",
   layer = 1,
   x = 104,
   y = 405,
@@ -396,6 +400,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_5",
   layer = 1,
   x = 136,
   y = 405,
@@ -406,6 +411,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_6",
   layer = 1,
   x = 168,
   y = 405,
@@ -416,6 +422,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_7",
   layer = 1,
   x = 200,
   y = 405,
@@ -426,6 +433,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_8",
   layer = 1,
   x = 232,
   y = 405,
@@ -436,6 +444,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_9",
   layer = 1,
   x = 264,
   y = 405,
@@ -446,6 +455,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_10",
   layer = 1,
   x = 296,
   y = 405,
@@ -456,6 +466,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_11",
   layer = 1,
   x = 328,
   y = 405,
@@ -466,6 +477,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_13",
   layer = 1,
   x = 392,
   y = 405,
@@ -476,6 +488,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_14",
   layer = 1,
   x = 424,
   y = 405,
@@ -486,6 +499,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_15",
   layer = 1,
   x = 456,
   y = 405,
@@ -496,6 +510,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_16",
   layer = 1,
   x = 488,
   y = 405,
@@ -506,6 +521,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_17",
   layer = 1,
   x = 520,
   y = 405,
@@ -516,6 +532,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_18",
   layer = 1,
   x = 552,
   y = 405,
@@ -526,6 +543,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_19",
   layer = 1,
   x = 584,
   y = 405,
@@ -536,6 +554,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_20",
   layer = 1,
   x = 616,
   y = 405,
@@ -546,6 +565,7 @@ custom_entity{
 }
 
 custom_entity{
+  name = "swell_12",
   layer = 1,
   x = 360,
   y = 405,

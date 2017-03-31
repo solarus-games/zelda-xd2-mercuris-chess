@@ -21,6 +21,15 @@ function map:on_started()
   -- Fade-in from white to simulate a cloudy mountain top
   map:start_fadein_from_white(6000)
 
+  -- Let the swell animation running.
+  for i = 1, 20 do
+    local swell_name = "swell_" .. i
+    local swell_entity = map:get_entity(swell_name)
+    if swell_entity ~= nil then
+        swell_entity:get_sprite():set_ignore_suspend(true)
+    end
+  end
+
   -- Camera is moved manually
   local camera = map:get_camera()
   camera:start_manual()

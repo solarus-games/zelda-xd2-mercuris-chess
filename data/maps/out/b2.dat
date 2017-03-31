@@ -10202,7 +10202,7 @@ npc{
   y = 517,
   direction = 3,
   subtype = 1,
-  sprite = "npc/newlink/blond_boy",
+  sprite = "npc/newlink/green_hat_man",
 }
 
 wall{
@@ -11034,6 +11034,14 @@ npc{
   subtype = 1,
   sprite = "npc/alttp/frog",
   behavior = "dialog#lafoo_riot.npc_79",
+}
+
+destination{
+  name = "from_explosion_cinematic",
+  layer = 0,
+  x = 880,
+  y = 533,
+  direction = 1,
 }
 
 tile{

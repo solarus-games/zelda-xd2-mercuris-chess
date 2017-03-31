@@ -256,13 +256,28 @@ function map:start_explosion_cinematic()
             sol.audio.play_sound("explosion")
             sol.audio.play_sound("enemy_awake")
            -- camera:shake()
-            -- TODO
-            -- Fade-out to black, 
-            -- then make all the NPC disapear
-            -- then make the hero move to position 880, 528
-            -- then fade to normal
-            -- then start dialog lafoo/after_explosion
-            -- then map:set_cinematic_mode(false) 
+            sol.timer.start(map, 2000, function()
+              hero:teleport(map:get_id(), "from_explosion_cinematic")
+
+              local timer = sol.timer.start(map, 1000, function()
+                map:remove_entities("npc_riot_")
+                map:remove_entities("random_walk_npc_riot_")
+              end)
+              timer:set_suspended_with_map(false)
+
+              timer = sol.timer.start(map, 2000, function()
+                game:start_dialog("lafoo.after_explosion")
+              end)
+              timer:set_suspended_with_map(false)
+
+              -- TODO
+              -- Fade-out to black, 
+              -- then make all the NPC disapear
+              -- then make the hero move to position 880, 528
+              -- then fade to normal
+              -- then start dialog lafoo/after_explosion
+              -- then map:set_cinematic_mode(false) 
+            end)
           end)
         end)
       end)

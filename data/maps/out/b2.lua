@@ -76,6 +76,18 @@ function map:on_started()
 
 end
 
+function map:on_opening_transition_finished(destination)
+
+  if destination == from_explosion_cinematic then
+    hero:freeze()
+    sol.timer.start(map, 500, function()
+      hero:unfreeze()
+      game:set_value("lafoo_riot_finished", true)
+      game:start_dialog("lafoo.after_explosion")
+    end)
+  end
+end
+
 -- Called each time a bush in Link's garden is cut.
 -- When all the bushes are cut, the chore is done.
 function map:increase_bush_count()
@@ -259,14 +271,9 @@ function map:start_explosion_cinematic()
             sol.timer.start(map, 2000, function()
               hero:teleport(map:get_id(), "from_explosion_cinematic")
 
-              local timer = sol.timer.start(map, 1000, function()
+              local timer = sol.timer.start(map, 500, function()
                 map:remove_entities("npc_riot_")
                 map:remove_entities("random_walk_npc_riot_")
-              end)
-              timer:set_suspended_with_map(false)
-
-              timer = sol.timer.start(map, 2000, function()
-                game:start_dialog("lafoo.after_explosion")
               end)
               timer:set_suspended_with_map(false)
 

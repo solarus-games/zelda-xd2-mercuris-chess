@@ -9743,6 +9743,16 @@ npc{
   sprite = "npc/newlink/deku_red",
 }
 
+npc{
+  layer = 0,
+  x = 160,
+  y = 989,
+  direction = 1,
+  subtype = 1,
+  sprite = "npc/alttp/octopus",
+  behavior = "dialog#island.arrow_knee",
+}
+
 tile{
   layer = 1,
   x = 104,

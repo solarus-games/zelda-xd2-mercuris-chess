@@ -1763,26 +1763,6 @@ accéder à tous les
 }
 
 dialog{
-  id = "arrow_knee",
-  skip = "all",
-  text = [[
-Avant j'étais sympa.
-Puis j'ai pris une
-flèche dans le genou.
-Depuis, j'ai cette
-haine en moi, si forte
-et inextinguible. Mais
-je n'ai pas fait de 
-mal à des innocents
-depuis six semaines,
-trois jours, deux
-heures, cinq minutes,
-et soixante-huit
-secondes...
-]]
-}
-
-dialog{
   id = "big_key_required",
   icon = "73",
   text = [[
@@ -4625,6 +4605,26 @@ dialog{
 REVEILLE-TOOOI !
 ALLEEEEEEZ !
 DEBOOOUUUUT !
+]]
+}
+
+dialog{
+  id = "island.arrow_knee",
+  skip = "all",
+  text = [[
+Avant j'étais sympa.
+Puis j'ai pris une
+flèche dans le genou.
+Depuis, j'ai cette
+haine en moi, si forte
+et inextinguible. Mais
+je n'ai pas fait de
+mal à des innocents
+depuis six semaines,
+trois jours, deux
+heures, cinq minutes,
+et soixante-huit
+secondes...
 ]]
 }
 

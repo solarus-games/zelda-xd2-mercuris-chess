@@ -1198,11 +1198,20 @@ dialog{
   icon = "27",
   next = "warning_magic",
   text = [[
-Tu as trouvé la
-Baguette de Feu !
+Le pyromane du
+Bureau des Objets
+Trouvés t'a refilé
+la Baguette de Feu !
 
-Tu peux tout
+
+Tu peux tout 
 cramer !!!
+
+Heu... En fait, tu
+ne devrais peut-être
+pas trop t'afficher
+en possession de
+cette arme.
 ]]
 }
 
@@ -5129,19 +5138,19 @@ ventre...
 
 C'est sans doute le
 bonheur de voir cet
-édifice brûler!
+édifice brûler !
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_10",
   text = [[
-Mr Grump aurait commencé
-à bâtir sa fortune en
-nettoyant le caca des
+Mr Grump aurait
+commencé à bâtir sa
+fortune en nettoyant
+le caca des
 morts à l'hôpital 
-Tessier... 
-
+Tessier...
 Ne riez pas,
 il n'y a pas de
 sous-métier.
@@ -5151,22 +5160,26 @@ sous-métier.
 dialog{
   id = "lafoo_riot.npc_11",
   text = [[
-Je suis persuadé que cet
-incendie n'a pas été
-causé par le peuple...
+Je suis persuadé que
+cet incendie n'a pas
+été causé par le
+peuple.
+
+
 Non, c'est un complot
-de l'intérieur, fait par
-le gouvernement !
+de l'intérieur, fait
+par le gouvernement !
 Tu as déjà entendu 
-parler de ceux qu'on 
-appelle les Illuminatis?
+parler des
+Illuminatis ?
 Nan ?
 Et des Reptiliens?
 Non plus ?
 C'est les sociétés
 secrètes responsables
 de cet incendie,
-j'en suis sûr !
+et ça, personne n'en
+parle !
 ]]
 }
 
@@ -5174,28 +5187,28 @@ dialog{
   id = "lafoo_riot.npc_12",
   text = [[
 J'ai senti comme une
-odeur de brulé...
+odeur de brûlé...
 
 Je croyais au début que
 c'était la ouiche
 lorraine que j'avais
 laissée dans le four.
-Que Nenni!
-C'était ce maudit Bureau
-que le peuple eut décidé
-de brûler!
+Que nenni !
+C'était ce maudit
+Bureau que le peuple a
+décidé de brûler !
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_13",
   text = [[
-Bah fais quelque chose!
-Ne reste pas les bras
-croisés!
+Bah fais quelque
+chose ! Ne reste pas
+les bras croisés !
 Enfin, je dis ça, mais
 je ne suis pas mieux
-moi !
+moi à bavarrder ici !
 Quelqu'un a appelé les
 pompiers, au moins ?
 ]]
@@ -5205,11 +5218,11 @@ dialog{
   id = "lafoo_riot.npc_14",
   text = [[
 D'un côté, c'est triste
-quand il y a un incendie
-...
+quand il y a un
+incendie...
 Mais d'un autre, c'est
 un plaisir de voir
-ce truc brûler!
+ce truc brûler !
 Mr Grump, son proprio,
 est ignoble avec les
 femmes.
@@ -5224,15 +5237,15 @@ dialog{
   text = [[
 J'ai vu des gens du
 village mettre le feu
-à ce bâtiment!
+à ce bâtiment !
 C'est le Bureau des
 Objets Trouvés.
 
 J'étais là quand ça a
-commencé!
+commencé !
 
-J'ai tout vu, mais je ne
-dirai rien!
+J'ai tout vu, mais je
+ne dirai rien !
 ]]
 }
 
@@ -5258,17 +5271,17 @@ Le feu, ça brûle...$0
 Et l'eau, ça mouille.
 
 Tiens, ça ferait une
-bonne chanson, ça!
+bonne chanson, ça !
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_18",
   text = [[
-Certains l'appelaient le
-Bureau des Objets 
+Certains l'appelaient
+le Bureau des Objets 
 Trouvés.
-Moi je l'appelais: le
+Moi je l'appelais : le
 Bureau du Temps Perdu !
 ]]
 }
@@ -5277,41 +5290,41 @@ dialog{
   id = "lafoo_riot.npc_19",
   text = [[
 Aucun pays ne s'est
-jamais élevé sans s'être
-purifié au feu de la
-souffrance.
+jamais élevé sans
+s'être purifié au feu
+de la souffrance.
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_2",
   text = [[
-OUI MONSIEUR!
+OUI MONSIEUR !
 N'AYONS PAS PEUR DES
 MOTS !!!
 Ce bâtiment qui brûle,
-c'est tout un symbole!
+c'est tout un symbole !
 
 C'est le peuple qui
 s'est exprimé et qui
-revendique sa colère!
+revendique sa colère !
 Assez des démarches
-administratives!
+administratives !
 
-Assez de la bureaucratie
-cosmopolito-bourgeoise!
-
-Assez de tout ça!
-REVOLUTION !
+Assez de la
+bureaucratie
+cosmopolito-bourgeoise !
+Assez de tout ça !
+RÉVOLUTION !
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_20",
   text = [[
-La grogne du peuple
-s'est faite entendre !
-
+La grogne des
+villageois s'est faite
+entendre !
 Heureusement que les
 employés ont réussi
 à sortir à temps.
@@ -5364,15 +5377,8 @@ crie...
 Et ça sent terriblement
 le brûlé...
 
-Tu devrais aller voir
-d'où ça vient!
-
-Nous, on est juste là
-pour faire un mur
-artificiel car les 
-développeurs n'ont pas
-trouvé d'idée plus
-logique.
+J'essaie de voir d'où
+ça vient !
 ]]
 }
 
@@ -5386,15 +5392,15 @@ Laisse moi fuir !
 dialog{
   id = "lafoo_riot.npc_25_fire_rod",
   text = [[
-Heu, tu veux un cadeau?
-
+Heu, tu veux un
+cadeau ?
 
 Tiens, c'est pour toi !
 Et si on te pose des
 questions, tu ne me
 connais pas, tu ne m'as
 pas vu, on ne s'est
-jamais rencontrés.
+jamais rencontré.
 Et maintenant, je vais
 faire profil bas et 
 disparaître.
@@ -5404,12 +5410,8 @@ disparaître.
 dialog{
   id = "lafoo_riot.npc_26",
   text = [[
-Tu ne devrais pas aller
-par là car les 
-développeurs du jeu
-veulent que tu ailles
-d'abord voir ce qui se
-passe dans la forêt.
+Quelqu'un est en train
+de faire un barbecue ?
 ]]
 }
 
@@ -5460,9 +5462,9 @@ intègres...
 ...et sache-le, petit,
 le directeur du Bureau
 des Objets Trouvés
-n'en était pas un!
+n'en était pas un !
 Alors, qu'il aille au 
-diable!
+diable !
 ]]
 }
 
@@ -5513,10 +5515,10 @@ Il n'y a pas de fumée
 sans feu, 
 disent certains.
 D'autres disent : 
-"un tiens vaut mieux que
+"un tien vaut mieux que
 deux tu l'auras".
 Mais cela n'a rien à
-voir!
+voir !
 ]]
 }
 
@@ -5524,11 +5526,11 @@ dialog{
   id = "lafoo_riot.npc_34",
   text = [[
 Dis-donc, qu'est ce que
-tu faisais à trainer
-chez toi?
+tu faisais à traîner
+chez toi ?
 Tu ne vois pas qu'il y
-a l'air d'y avoir
-un souci dans la forêt ?
+a l'air d'y avoir un
+souci dans la forêt ?
 ]]
 }
 
@@ -5561,7 +5563,7 @@ dialog{
   id = "lafoo_riot.npc_37",
   text = [[
 Dis-donc, mon p'tit 
-bonhomme! Tu connais
+bonhomme ! Tu connais
 Mr Grump ?
 C'est le directeur du
 Bureau des Objets 
@@ -5578,13 +5580,13 @@ colère là-bas.
 dialog{
   id = "lafoo_riot.npc_38",
   text = [[
-Il parait qu'il y a un
+Il paraît qu'il y a un
 pyromane dans le 
-village...
-Et qu'il aurait fait des
-siennes au Bureau des
-Objets Trouvés !
-Saperlotte!
+village... Et qu'il
+aurait fait des
+siennes près du Bureau
+des Objets Trouvés !
+Saperlotte !
 ]]
 }
 
@@ -5595,8 +5597,8 @@ Je suis quasiment sûr
 que nous avons à faire
 à Pyroman et Dorothé.
 Au commissariat, 
-ils ne sont pas inconnus
-ces deux-là.
+ils ne sont pas
+inconnus ces deux-là.
 ]]
 }
 
@@ -5607,11 +5609,11 @@ Le directeur du Bureau
 des Objets Trouvés
 s'appelle Mr Grump.
 Il vit dans le château
-royal, qui a racheté
+royal, qu'il a racheté
 avec sa fortune...
 Quel bachi-bouzouk !
-Moule-à-gaufre!
-Saltinbanque!
+Moule-à-gaufre !
+Saltinbanque !
 ]]
 }
 
@@ -5645,7 +5647,7 @@ Ma foi, comme un lundi,
 frais dans la matinée,
 soleil l'après-midi,
 la recette des sports
-d'hiver réussis! 
+d'hiver réussis ! 
 ]]
 }
 
@@ -5676,9 +5678,9 @@ dans mes yeux...
 Enfin c'est ce que tous
 les garçons disent.
 
-Moi je sais que mon Papa
-c'est pas un voleur.
-
+Moi je sais que mon
+Papa c'est pas un
+voleur.
 Par contre il aurait des
 tendances pyromanes...
 ]]
@@ -5688,16 +5690,13 @@ dialog{
   id = "lafoo_riot.npc_45",
   text = [[
 C'est les développeurs
-qui m'ont dit de te dire
-qu'il faut que tu ailles
-au Bureau des Objets
-Trouvés.
-
+qui m'ont dit de te
+bloquer le passage.
 Pourquoi ?
 
 
 J'en sais rien, j'suis
-qu'un PNJ, moi!
+qu'un PNJ, moi !
 ]]
 }
 
@@ -5723,8 +5722,9 @@ dialog{
 Essaie de passer et je
 t'en colle une.
 
-Tu vois pas qu'on forme
-un mur artificiel ?
+Tu vois pas qu'il se
+passe quelque chose de
+grave au sud ?
 ]]
 }
 
@@ -5773,9 +5773,9 @@ monde brûler...
 dialog{
   id = "lafoo_riot.npc_50",
   text = [[
-L'autre jour, ça sentait
-aussi le brûlé, comme
-aujourd'hui.
+L'autre jour, ça
+sentait aussi le brûlé
+comme aujourd'hui.
 Sauf que c'était mon
 gigot que j'avais
 oublié dans le four.
@@ -5792,9 +5792,9 @@ On en a gros !
 dialog{
   id = "lafoo_riot.npc_52",
   text = [[
-On aimerait que Monsieur
-Grump nous considère en
-tant que tels.
+On aimerait que
+M. Grump nous considère
+en tant que tels.
 ]]
 }
 
@@ -5820,7 +5820,7 @@ J'étais employée du
 Bureau des Objets
 Trouvés, et désormais,
 grâce à cet incendie,
-je suis libre!
+je suis libre !
 
 Adieu Mr Grump !
 Adieu vous et votre
@@ -5836,8 +5836,8 @@ dialog{
 Au guichet 22,
 tu sais quoi ?
 
-Ils se prenaient pour le
-meilleur guichet du
+Ils se prenaient pour
+le meilleur guichet du
 monde.
 Et bah comme le reste, 
 tout est parti en fumée.
@@ -5847,17 +5847,23 @@ tout est parti en fumée.
 dialog{
   id = "lafoo_riot.npc_56",
   text = [[
+Il y a tellement de
+badauds que je n'arrive
+pas à rentrer chez moi
+à Chill Valley !
+Pousse-toi un peu s'il
+te plaît.
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_57",
   text = [[
-Tu n'aurais vu pas vu le
-mec du guichet 32 ?
+Tu n'aurais vu pas vu
+le mec du guichet 32 ?
 
-Il est parti avec toutes
-les clés.
+Il est parti avec
+toutes les clés.
 ]]
 }
 
@@ -5866,13 +5872,13 @@ dialog{
   text = [[
 Le gars du guichet 41
 du Bureau des Objets 
-Trouvés s'est fait virer
-car il était tout le 
-temps en pause.
+Trouvés s'est fait
+virer car il prenait
+tout le des pauses.
 
 Il paraît qu'il a
 retrouvé du boulot au
-restaurant de la 
+restaurant de la
 Tour Grump !
 ]]
 }
@@ -5881,14 +5887,14 @@ dialog{
   id = "lafoo_riot.npc_6",
   text = [[
 Et qui va nettoyer les
-cendres dûes a cet
-incendie?
+cendres dues a cet
+incendie ?
 C'est encore mamie...
 
 
 Ah, pour faire le souk,
 ils sont bons, ces 
-jeunes gens!
+jeunes gens !
 Par contre, dès qu'il
 s'agit de ranger...
 ]]
@@ -5899,9 +5905,8 @@ dialog{
   text = [[
 Va voir à l'Est, j'ai
 comme l'impression que
-les développeurs
-veulent que tu ailles
-par là-bas !
+les gens veulent que
+tu ailles par là-bas !
 ]]
 }
 
@@ -5924,17 +5929,18 @@ veux pas suive les
 évènements scriptés
 que t'ont préparé les
 développeurs du jeu ?
+Petit malin !
 ]]
 }
 
 dialog{
   id = "lafoo_riot.npc_69",
   text = [[
-On t'a dit d'aller voir
-au Nord, il y a le
+Au nord se trouve le
 Bureau des Objets
-Trouvés qui flambe comme
-une tarte flambée.
+Trouvés qui flambe
+comme une tarte
+flambée.
 ]]
 }
 
@@ -5974,8 +5980,8 @@ Dis-moi, c'est toi ?
 
 
 Non parce que si c'est
-toi, je ne t'en veux pas
-au contraire !
+toi, je ne t'en veux
+pas au contraire !
 Tu es un héros !
 ]]
 }
@@ -6004,7 +6010,7 @@ d'évènements historiques
 comme celui-ci.
 
 
-Ha bon, 
+Ah bon, 
 ça existe déjà ?!
 ]]
 }
@@ -6012,9 +6018,10 @@ Ha bon,
 dialog{
   id = "lafoo_riot.npc_74",
   text = [[
-C'est bête qu'on ne soit
-pas en hiver, ça aurait
-réchauffé tout le monde.
+C'est bête qu'on ne
+soit pas en hiver, ça
+aurait réchauffé tout
+le monde.
 ]]
 }
 
@@ -6022,14 +6029,52 @@ dialog{
   id = "lafoo_riot.npc_75",
   text = [[
 Je voulais emmener ma
-copine voir un spectacle
-mais je suis fauché.
+copine voir un
+spectacle mais je suis
+fauché.
 Alors je l'ai amenée
 voir cet incendie.
-
 Désolé de ne pas faire
 dans le banal,
 môOôssieur !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_76",
+  text = [[
+J'étais loin de me
+douter que le village
+avait autant
+d'habitants !
+C'est un
+truc de fou !
+Il devrait y avoir plus
+souvent des spectacles.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_77",
+  text = [[
+Le Bureau des Objets
+Trouvés était tout sauf
+un monument historique.
+Mais le voir partir en
+fumée est un vrai
+moment historique !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_78",
+  text = [[
+Je ne sais pas si c'est
+une émeute ou une fête.
+Il y a un incendie hors
+de contrôle en pleine
+forêt, et les gens ont
+l'air enchantés.
 ]]
 }
 
@@ -6050,7 +6095,7 @@ dialog{
   text = [[
 On est pas bien, là ?
 Paisible ? 
-A la fraiche ?
+A la fraîche ?
 ]]
 }
 
@@ -6067,8 +6112,8 @@ Je n'ai jamais
 réussi à le refourguer 
 contre une hache.
 Au passage, asperge-toi
-car tu fouettes comme
-un phoque.
+car tu ne sens pas
+exactement la fraîcheur.
 Tu as passé la journée à
 faire des corvées ou
 quoi ?!

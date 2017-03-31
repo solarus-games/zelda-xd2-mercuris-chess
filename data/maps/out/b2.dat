@@ -8614,6 +8614,60 @@ tile{
   pattern = "645",
 }
 
+tile{
+  layer = 0,
+  x = 784,
+  y = 664,
+  width = 16,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 680,
+  width = 32,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 784,
+  y = 696,
+  width = 64,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 896,
+  y = 696,
+  width = 80,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 680,
+  width = 32,
+  height = 16,
+  pattern = "910",
+}
+
+tile{
+  layer = 0,
+  x = 944,
+  y = 664,
+  width = 32,
+  height = 16,
+  pattern = "910",
+}
+
 teletransporter{
   name = "teletransporter",
   layer = 0,
@@ -8959,7 +9013,8 @@ destructible{
   layer = 0,
   x = 904,
   y = 709,
-  treasure_name = "random",
+  treasure_name = "rupee",
+  treasure_variant = 2,
   sprite = "entities/grass",
   destruction_sound = "bush",
   weight = -1,
@@ -10216,14 +10271,14 @@ npc{
 }
 
 npc{
-  name = "random_walk_npc_riot_33",
+  name = "random_walk_npc_riot_76",
   layer = 0,
   x = 152,
   y = 61,
   direction = 2,
   subtype = 1,
-  sprite = "npc/alttp/average_middle_aged_man",
-  behavior = "dialog#lafoo_riot.npc_33",
+  sprite = "npc/alttp/pink_ball",
+  behavior = "dialog#lafoo_riot.npc_76",
 }
 
 sensor{
@@ -10401,6 +10456,39 @@ pickable{
   y = 829,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "forest_invisible_piece_of_heart",
+}
+
+npc{
+  name = "npc_riot_33",
+  layer = 0,
+  x = 104,
+  y = 69,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/alttp/average_middle_aged_man",
+  behavior = "dialog#lafoo_riot.npc_33",
+}
+
+npc{
+  name = "npc_riot_77",
+  layer = 0,
+  x = 744,
+  y = 565,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/little_elephant",
+  behavior = "dialog#lafoo_riot.npc_77",
+}
+
+npc{
+  name = "random_walk_npc_riot_78",
+  layer = 0,
+  x = 928,
+  y = 541,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/little_tree",
+  behavior = "dialog#lafoo_riot.npc_78",
 }
 
 tile{

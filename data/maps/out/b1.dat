@@ -15751,25 +15751,25 @@ npc{
 }
 
 npc{
-  name = "npc_riot_53",
+  name = "npc_riot_54",
   layer = 0,
   x = 128,
   y = 837,
   direction = 0,
   subtype = 1,
   sprite = "npc/newlink/brown_haired_woman",
-  behavior = "dialog#lafoo_riot.npc_53",
+  behavior = "dialog#lafoo_riot.npc_54",
 }
 
 npc{
-  name = "npc_riot_54",
+  name = "npc_riot_53",
   layer = 0,
   x = 88,
   y = 933,
   direction = 0,
   subtype = 1,
   sprite = "npc/newlink/bun_woman",
-  behavior = "dialog#lafoo_riot.npc_54",
+  behavior = "dialog#lafoo_riot.npc_53",
 }
 
 npc{
@@ -15917,8 +15917,8 @@ sensor{
 npc{
   name = "perfume_npc",
   layer = 0,
-  x = 136,
-  y = 1013,
+  x = 128,
+  y = 989,
   direction = 1,
   subtype = 1,
   sprite = "npc/alttp/woman_yellow",

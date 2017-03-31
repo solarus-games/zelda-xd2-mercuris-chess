@@ -1253,10 +1253,10 @@ dialog{
   text = [[
 Tu as trouvé les
 Palmes !$0
-
-Tu les as bien payées,
-cette fois-ci elles
-sont à toi.
+Tu les as bien
+payées, cette
+fois-ci elles sont
+à toi.
 ]]
 }
 
@@ -3440,7 +3440,10 @@ dialog{
 Il paraît que Monsieur
 Grump possède une île
 en forme de rubis.
-Et qu'il en a fait une
+Les rubis y poussent
+sur les arbres !
+
+Il en a fait une
 station balnéaire,
 avec une immense tour.
 Une véritable pompe à

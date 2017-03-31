@@ -12,7 +12,7 @@ local function initialize_dungeon_features(game)
 
     [1] = {
       floor_width = 1920,
-      floor_height = 720,
+      floor_height = 1200,
       lowest_floor = -2,
       highest_floor = 1,
       maps = {
@@ -22,10 +22,10 @@ local function initialize_dungeon_features(game)
         "dungeon_1/2f",
       },
       boss = {
-        floor = -2,
+        floor = 0,
         savegame_variable = "dungeon_1_boss",
-        x = 320,
-        y = 240,
+        x = 960,
+        y = 480 + 224,
       },
     },
 

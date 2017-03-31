@@ -3532,6 +3532,29 @@ dis !
 }
 
 dialog{
+  id = "dungeon_1.1f.scared_woman",
+  text = [[
+Je suis venue dans
+ce château pour
+passer un
+entretien comme
+assistante
+affectée à la
+photocopie et au
+service de café
+mais je regrette.
+J'entends des
+voix dans les
+tableaux accrochés
+aux murs. C'est
+effrayant.
+Je te ferai
+exploser tout ça
+moi...!
+]]
+}
+
+dialog{
   id = "dungeon_1.b2.bones",
   skip = "all",
   text = [[
@@ -3593,6 +3616,29 @@ on ne s'ennuie pas. Il
 y a une place dans la
 cellule d'à-côté.
 Fais-toi plaisir.
+]]
+}
+
+dialog{
+  id = "dungeon_1.b2.scared_man",
+  text = [[
+Je pensais que ce
+château était un
+haut lieu du
+tourisme raffiné
+mais en visitant
+les caves, je me
+suis retrouvé nez-
+à-nez avec des
+squelettes qui
+m'ont parlé !
+Je me suis réfugié
+ici, au moins je
+suis certain de
+passer le restant
+de mes jours à
+l'abri de ces
+monstres !
 ]]
 }
 

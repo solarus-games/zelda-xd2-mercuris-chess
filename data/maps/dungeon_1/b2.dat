@@ -5847,8 +5847,8 @@ chest{
   layer = 0,
   x = 1440,
   y = 485,
-  treasure_name = "feather",
-  treasure_savegame_variable = "dungeon_1_feather",
+  treasure_name = "glove",
+  treasure_savegame_variable = "dungeon_1_glove",
   sprite = "entities/chest",
 }
 
@@ -6092,6 +6092,7 @@ door{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
 }
 
 door{
@@ -6105,6 +6106,7 @@ door{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_small_keys",
   opening_condition_consumed = true,
+  cannot_open_dialog = "small_key_required",
 }
 
 npc{
@@ -6233,8 +6235,8 @@ crystal{
 destination{
   name = "debug_destination",
   layer = 0,
-  x = 1552,
-  y = 365,
+  x = 1376,
+  y = 525,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -6964,7 +6966,7 @@ custom_entity{
 }
 
 enemy{
-  name = "spike",
+  name = "auto_enemy_spike",
   layer = 0,
   x = 1848,
   y = 565,

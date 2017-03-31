@@ -1197,6 +1197,18 @@ logo est pas mal.
 }
 
 dialog{
+  id = "_treasure.feather.3",
+  icon = "20",
+  text = [[
+Tu as trouvé la
+Plume !$0 Utilise-la
+pour sauter...
+Ah ? Tu l'as déjà ?
+Dommage... !
+]]
+}
+
+dialog{
   id = "_treasure.fire_rod.1",
   icon = "27",
   text = [[
@@ -1253,11 +1265,10 @@ dialog{
   icon = "32",
   text = [[
 Tu as trouvé la
-Poigne de Fer !$0
-
-Tu peux sûrement
-soulever des trucs,
-maintenant !
+Poigne de Fer !$0Tu
+peux soulever les...
+Ah ? Tu l'as déjà ?
+Dommage... !
 ]]
 }
 

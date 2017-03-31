@@ -74,7 +74,7 @@ function miniboss_sensor:on_activated()
 
     local movement = sol.movement.create("target")
     movement:set_target(hero)
-    movement:set_speed(32)
+    movement:set_speed(24)
     movement:start(miniboss_center)
   end)
 end

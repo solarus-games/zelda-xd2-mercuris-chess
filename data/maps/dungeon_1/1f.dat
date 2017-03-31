@@ -1363,7 +1363,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 1424,
+  x = 1440,
   y = 400,
   width = 16,
   height = 16,
@@ -1372,7 +1372,7 @@ tile{
 
 tile{
   layer = -1,
-  x = 1472,
+  x = 1456,
   y = 400,
   width = 16,
   height = 16,
@@ -1976,7 +1976,7 @@ sensor{
 destructible{
   name = "auto_destructible_1",
   layer = -1,
-  x = 1432,
+  x = 1448,
   y = 413,
   treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_1_small_key_2",
@@ -1988,7 +1988,7 @@ destructible{
 destructible{
   name = "auto_destructible_2",
   layer = -1,
-  x = 1480,
+  x = 1464,
   y = 413,
   sprite = "entities/vase",
   destruction_sound = "stone",

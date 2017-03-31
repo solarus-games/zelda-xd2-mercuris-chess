@@ -5857,7 +5857,8 @@ chest{
   x = 1040,
   y = 125,
   treasure_name = "rupee",
-  treasure_savegame_variable = "dungeon_1_rupee_chest",
+  treasure_variant = 3,
+  treasure_savegame_variable = "dungeon_1_rupee_chest_A",
   sprite = "entities/chest",
 }
 

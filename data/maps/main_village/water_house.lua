@@ -43,7 +43,7 @@ end
 function torch_on_lit(torch)
 
   num_torches_lit = num_torches_lit + 1
-  if num_torches_lit == 4 then
+  if num_torches_lit == 4 and not game:get_value("water_house_pool_empty") then
     empty_pool()
   end
 end

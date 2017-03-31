@@ -65,6 +65,14 @@ function map:on_started()
   if riot_finished then
     map:remove_entities("npc_riot")
     map:remove_entities("random_walk_npc_riot")
+    map:remove_entities("explosion_sensor_1")
+    map:remove_entities("explosion_sensor_2")
+    lafoo_npc:remove()
+    for tile in map:get_entities_by_type("dynamic_tile") do
+      if tile:get_name() == nil then
+        tile:remove()
+      end
+    end
   end
 
   -- Hide the Fire Rod NPC if player already has the fire rod

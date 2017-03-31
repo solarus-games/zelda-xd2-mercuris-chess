@@ -153,11 +153,13 @@ function map:start_cinematic()
                         if cocktails then
                           local hero_x, hero_y = hero:get_position()
                           cocktails:set_position(hero_x, hero_y - 16)                      
-                          end
+                        end
                       end
 
                       hero_movement_3:start(hero, function()
 
+                        hero:set_animation("carrying_stopped")
+                        cocktails:get_sprite():set_animation("on_ground")
                         sol.timer.start(map, 1500, function()
                         
                           cocktails:remove()
@@ -185,8 +187,7 @@ function map:start_cinematic()
                                         local zelda_x, zelda_y = grump_and_zelda:get_position()
                                         fade_x = zelda_x - camera_x
                                         fade_y = zelda_y - camera_y - 16
-                                        fade_sprite:set_animation("close")
-                                        fade_sprite.on_animation_finished = function()
+                                        fade_sprite:set_animation("close", function()
                                           -- Fill screen with black.
                                           local quest_w, quest_h = sol.video.get_quest_size()
                                           black_surface = sol.surface.create(quest_w, quest_h)
@@ -215,7 +216,7 @@ function map:start_cinematic()
                                               end)
                                             end)
                                           end)
-                                        end
+                                        end)
                                       end)
                                     end)
                                   end)

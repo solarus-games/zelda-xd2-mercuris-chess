@@ -2236,16 +2236,6 @@ wall{
   stops_projectiles = true,
 }
 
-chest{
-  name = "heart_container_chest",
-  layer = -1,
-  x = 960,
-  y = 213,
-  treasure_name = "heart_container",
-  treasure_savegame_variable = "dungeon_1_heart_container",
-  sprite = "entities/chest",
-}
-
 switch{
   name = "chicken_boss_switch",
   layer = -1,

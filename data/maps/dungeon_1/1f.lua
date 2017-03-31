@@ -17,7 +17,7 @@ door_manager:manage_map(map)
 
 local water_delay = 500
 
-local chicken_giant = nil
+local boss = nil
 
 -- Create the boss.
 function chicken_boss_switch:on_activated()
@@ -26,7 +26,9 @@ end
 
 function map:create_chicken_boss()
   -- Do not create boss if already dead.
-  if game:get_value("is_chicken_boss_dead") then return end
+  if game:get_value("dungeon_1_boss") then
+    return
+  end
   -- Play boss music.
   sol.audio.play_music("alttp/ganon_appears", function()
     sol.audio.play_music("alttp/boss", true)
@@ -35,12 +37,12 @@ function map:create_chicken_boss()
   local dst = map:get_entity("boss_starting_point")
   local x, y, layer = dst:get_position()
   local prop = {x = x, y = y, layer = layer, direction = 3, 
-    breed = "oclero/chicken_giant", name = "chicken_giant",
-    savegame_variable = "is_chicken_boss_dead"}
-  local boss = map:create_enemy(prop)
+    breed = "oclero/chicken_giant", name = "boss",
+    savegame_variable = "dungeon_1_boss"}
+  boss = map:create_enemy(prop)
   
   function boss:on_dead()
-    heart_container_chest:set_enabled(true)
+    -- TODO create heart_container
   end
 end
 
@@ -50,10 +52,6 @@ function map:on_started()
   
   if not game:get_value("dungeon_1_exit_door_closed") == true then
     map:set_doors_open("exit_door")
-  end
-
-  if not game:get_value("is_chicken_boss_dead") == true then
-    heart_container_chest:set_enabled(false)
   end
 
   pool_switch_empty:set_activated(true)

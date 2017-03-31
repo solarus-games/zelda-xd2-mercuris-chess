@@ -100,6 +100,10 @@ end
 -- Update remaining life for each round.
 function enemy:on_hurt()
 
+  if enemy:get_life() <= 0 then
+    return
+  end
+
   remaining_life_per_round = remaining_life_per_round - 1
   if remaining_life_per_round == 0 then
     enemy:start_next_state()
@@ -366,10 +370,4 @@ function enemy:selfdestroy()
   end
   -- Kill the enemy.
   enemy:set_life(0)
-end
-
-function enemy:on_dead()
-
-  sol.audio.play_music(map:get_music()) -- Restore original music.
-  -- DEFINE SOME MAP EVENT HERE!
 end

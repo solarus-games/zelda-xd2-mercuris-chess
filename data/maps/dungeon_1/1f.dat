@@ -8718,6 +8718,24 @@ tile{
   pattern = "480",
 }
 
+door{
+  name = "library_door",
+  layer = 0,
+  x = 1800,
+  y = 264,
+  direction = 1,
+  sprite = "entities/doors/door_d1_normal",
+}
+
+door{
+  name = "west_fake_door",
+  layer = 0,
+  x = 344,
+  y = 336,
+  direction = 2,
+  sprite = "entities/doors/door_d1_normal",
+}
+
 sensor{
   name = "dungeon_room_5_4",
   layer = 0,
@@ -10257,24 +10275,6 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
-}
-
-door{
-  name = "west_fake_door",
-  layer = 0,
-  x = 344,
-  y = 336,
-  direction = 2,
-  sprite = "entities/doors/door_d1_normal",
-}
-
-door{
-  name = "library_door",
-  layer = 0,
-  x = 1800,
-  y = 264,
-  direction = 1,
-  sprite = "entities/doors/door_d1_normal",
 }
 
 destructible{

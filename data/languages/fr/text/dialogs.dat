@@ -5052,8 +5052,8 @@ Enclos à rubis
 dialog{
   id = "lafoo.after_explosion",
   text = [[
-Et voilà, le bâtiment du
-Bureau des Objets
+Et voilà, le bâtiment
+du Bureau des Objets
 Trouvés s'est effondré.
 Cependant, on n'a pas
 fini de se venger de 
@@ -5063,7 +5063,7 @@ royal, il l'a racheté
 avec sa grande fortune.
 Il parait qu'il a
 recouvert les murs
-d'une couche d'or!
+d'une couche d'or !
 Si tu le cherches, il
 est sûrement là-bas !
 ]]
@@ -5072,8 +5072,8 @@ est sûrement là-bas !
 dialog{
   id = "lafoo.before_explosion",
   text = [[
-Mieux vaut ne pas entrer
-là-dedans...
+Mieux vaut ne pas
+entrer là-dedans...
 
 ... ça risque de
 s'écrouler à tout 
@@ -5084,7 +5084,7 @@ moment !
 dialog{
   id = "lafoo.queue_sign_1",
   text = [[
-A partir d'ici:
+A partir d'ici :
 1h d'attente.
 ]]
 }
@@ -5092,7 +5092,7 @@ A partir d'ici:
 dialog{
   id = "lafoo.queue_sign_2",
   text = [[
-A partir d'ici:
+A partir d'ici :
 45 minutes d'attente.
 ]]
 }
@@ -5100,7 +5100,7 @@ A partir d'ici:
 dialog{
   id = "lafoo.queue_sign_3",
   text = [[
-A partir d'ici:
+A partir d'ici :
 44 minutes 59 secondes
 d'attente.
 Oui, ça n'avance pas
@@ -5116,7 +5116,8 @@ faudrait penser à
 prendre un ticket.
 Une fois obtenu,
 veuillez compter 1h
-d'attente supplémentaire.
+d'attente
+supplémentaire.
 ]]
 }
 

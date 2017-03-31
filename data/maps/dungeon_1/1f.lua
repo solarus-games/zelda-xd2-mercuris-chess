@@ -40,7 +40,7 @@ function map:create_chicken_boss()
   local boss = map:create_enemy(prop)
   
   function boss:on_dead()
-    exit_door_key_chest:set_enabled(true)
+    heart_container_chest:set_enabled(true)
   end
 end
 
@@ -67,14 +67,6 @@ end
 function map:on_opening_transition_finished(destination)
   if destination == from_outside then
     game:start_dialog("dungeon_1.welcome")
-  end
-end
-
-function exit_door_sensor:on_activated()
-  if not game:get_value("dungeon_1_exit_door_closed") == true then
-    map:close_doors("exit_door")
-    sol.audio.play_sound("sm64_bowser_message")
-    game:set_value("dungeon_1_exit_door_closed", true)
   end
 end
 

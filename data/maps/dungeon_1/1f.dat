@@ -2219,12 +2219,12 @@ wall{
 }
 
 chest{
-  name = "exit_door_key_chest",
+  name = "heart_container_chest",
   layer = -1,
   x = 960,
   y = 213,
-  treasure_name = "boss_key",
-  treasure_savegame_variable = "dungeon_1_boss_key",
+  treasure_name = "heart_container",
+  treasure_savegame_variable = "dungeon_1_heart_container",
   sprite = "entities/chest",
 }
 
@@ -9926,18 +9926,6 @@ door{
   sprite = "entities/doors/door_d1_normal",
 }
 
-door{
-  name = "exit_door",
-  layer = 0,
-  x = 952,
-  y = 440,
-  direction = 3,
-  sprite = "entities/doors/door_d1_boss_key",
-  opening_method = "interaction_if_savegame_variable",
-  opening_condition = "dungeon_1_boss_key",
-  opening_condition_consumed = true,
-}
-
 wall{
   layer = 0,
   x = 1504,
@@ -10081,15 +10069,6 @@ door{
   opening_method = "interaction_if_savegame_variable",
   opening_condition = "dungeon_1_big_key",
   cannot_open_dialog = "big_key_required",
-}
-
-sensor{
-  name = "exit_door_sensor",
-  layer = 0,
-  x = 888,
-  y = 365,
-  width = 160,
-  height = 16,
 }
 
 wall{

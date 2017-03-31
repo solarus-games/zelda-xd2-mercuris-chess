@@ -3535,6 +3535,7 @@ c'est limite désertique.
 
 dialog{
   id = "dungeon_1.1f.iron_ball_man",
+  skip = "all",
   text = [[
 Hips... tu veux que
 j'te dise mon gars ?

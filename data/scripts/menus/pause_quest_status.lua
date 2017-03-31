@@ -76,28 +76,10 @@ function quest_status_submenu:on_started()
 
   -- Pieces of heart.
   local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
-  local x = 51 * (self.game:get_value("pieces_of_heart") or 0)
+  local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
+  local x = 51 * num_pieces_of_heart
   pieces_of_heart_img:draw_region(x, 0, 51, 50, self.quest_items_surface, 101, 81)
   self.caption_text_keys[4] = "quest_status.caption.pieces_of_heart"
-
-  -- Dungeons finished
-  local dungeons_img = sol.surface.create("menus/quest_status_dungeons.png")
-  local dst_positions = {
-    { 209,  69 },
-    { 232,  74 },
-    { 243,  97 },
-    { 232, 120 },
-    { 209, 127 },
-    { 186, 120 },
-    { 175,  97 },
-    { 186,  74 },
-  }
-  for i, dst_position in ipairs(dst_positions) do
-    if self.game:is_dungeon_finished(i) then
-      dungeons_img:draw_region(20 * (i - 1), 0, 20, 20,
-          self.quest_items_surface, dst_position[1], dst_position[2])
-    end
-  end
 
   -- Cursor.
   self:set_cursor_position(0)

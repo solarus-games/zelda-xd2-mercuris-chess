@@ -265,8 +265,14 @@ end
 
 local pillar_count = 4
 
-local function destroy_pillar(number)  
+local function destroy_pillar(number)
+
   local pillar = map:get_entity("pillar_" .. number)
+  local pillar_base = map:get_entity("pillar_base_" .. number)
+  if pillar_base == nil then
+    return  -- Already destroyed.
+  end
+
   local x, y, layer = pillar:get_position()
 
   sol.audio.play_sound("explosion")

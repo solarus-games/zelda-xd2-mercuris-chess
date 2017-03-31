@@ -9524,7 +9524,9 @@ destructible{
   layer = 0,
   x = 48,
   y = 973,
-  treasure_name = "random",
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_stone_rupee",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
@@ -9546,7 +9548,8 @@ destructible{
   layer = 0,
   x = 48,
   y = 1005,
-  treasure_name = "random",
+  treasure_name = "magic_bar",
+  treasure_variant = 2,
   sprite = "entities/stone_white",
   destruction_sound = "stone",
   weight = 1,
@@ -9754,12 +9757,72 @@ npc{
 }
 
 pickable{
-  name = "lens_invisible_pickable_1",
+  name = "lens_invisible_pickable_piece_of_heart",
   layer = 0,
   x = 544,
   y = 725,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "island_invisible_piece_of_heart",
+}
+
+pickable{
+  name = "lens_invisible_pickable_8",
+  layer = 0,
+  x = 776,
+  y = 573,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_8",
+}
+
+pickable{
+  name = "lens_invisible_pickable_10",
+  layer = 0,
+  x = 632,
+  y = 653,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_10",
+}
+
+pickable{
+  name = "lens_invisible_pickable_9",
+  layer = 0,
+  x = 600,
+  y = 653,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_9",
+}
+
+pickable{
+  name = "lens_invisible_pickable_11",
+  layer = 0,
+  x = 616,
+  y = 485,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_11",
+}
+
+pickable{
+  name = "lens_invisible_pickable_12",
+  layer = 0,
+  x = 632,
+  y = 493,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_12",
+}
+
+pickable{
+  name = "lens_invisible_pickable_13",
+  layer = 0,
+  x = 648,
+  y = 485,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_13",
 }
 
 tile{
@@ -17103,6 +17166,205 @@ custom_entity{
   direction = 0,
 }
 
+pickable{
+  name = "lens_invisible_pickable_1",
+  layer = 1,
+  x = 416,
+  y = 165,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_1",
+}
+
+pickable{
+  name = "lens_invisible_pickable_2",
+  layer = 1,
+  x = 416,
+  y = 125,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_2",
+}
+
+pickable{
+  name = "lens_invisible_pickable_3",
+  layer = 1,
+  x = 416,
+  y = 85,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_3",
+}
+
+pickable{
+  name = "lens_invisible_pickable_4",
+  layer = 1,
+  x = 480,
+  y = 85,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_4",
+}
+
+pickable{
+  name = "lens_invisible_pickable_5",
+  layer = 1,
+  x = 480,
+  y = 125,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_5",
+}
+
+pickable{
+  name = "lens_invisible_pickable_6",
+  layer = 1,
+  x = 480,
+  y = 165,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_6",
+}
+
+pickable{
+  name = "lens_invisible_pickable_7",
+  layer = 1,
+  x = 560,
+  y = 413,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_7",
+}
+
+pickable{
+  name = "lens_invisible_pickable_14",
+  layer = 1,
+  x = 120,
+  y = 485,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_14",
+}
+
+pickable{
+  name = "lens_invisible_pickable_15",
+  layer = 1,
+  x = 152,
+  y = 485,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_15",
+}
+
+pickable{
+  name = "lens_invisible_pickable_16",
+  layer = 1,
+  x = 136,
+  y = 493,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_16",
+}
+
+pickable{
+  name = "lens_invisible_pickable_17",
+  layer = 1,
+  x = 280,
+  y = 493,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_17",
+}
+
+pickable{
+  name = "lens_invisible_pickable_18",
+  layer = 1,
+  x = 312,
+  y = 493,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_18",
+}
+
+pickable{
+  name = "lens_invisible_pickable_19",
+  layer = 1,
+  x = 232,
+  y = 85,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_19",
+}
+
+pickable{
+  name = "lens_invisible_pickable_20",
+  layer = 1,
+  x = 264,
+  y = 85,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_20",
+}
+
+pickable{
+  name = "lens_invisible_pickable_21",
+  layer = 1,
+  x = 200,
+  y = 53,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_21",
+}
+
+pickable{
+  name = "lens_invisible_pickable_22",
+  layer = 1,
+  x = 96,
+  y = 269,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_22",
+}
+
+pickable{
+  name = "lens_invisible_pickable_23",
+  layer = 1,
+  x = 112,
+  y = 173,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_23",
+}
+
+pickable{
+  name = "lens_invisible_pickable_24",
+  layer = 1,
+  x = 688,
+  y = 69,
+  treasure_name = "rupee",
+  treasure_variant = 3,
+  treasure_savegame_variable = "island_rupee_24",
+}
+
+pickable{
+  name = "lens_invisible_pickable_25",
+  layer = 1,
+  x = 656,
+  y = 69,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_25",
+}
+
+pickable{
+  name = "lens_invisible_pickable_26",
+  layer = 1,
+  x = 792,
+  y = 197,
+  treasure_name = "rupee",
+  treasure_savegame_variable = "island_rupee_26",
+}
+
 tile{
   layer = 2,
   x = 512,
@@ -17790,15 +18052,6 @@ tile{
 tile{
   layer = 2,
   x = 112,
-  y = 472,
-  width = 48,
-  height = 8,
-  pattern = "3186",
-}
-
-tile{
-  layer = 2,
-  x = 112,
   y = 416,
   width = 48,
   height = 8,
@@ -17830,5 +18083,14 @@ tile{
   width = 48,
   height = 48,
   pattern = "3170",
+}
+
+tile{
+  layer = 2,
+  x = 112,
+  y = 472,
+  width = 48,
+  height = 8,
+  pattern = "3186",
 }
 

@@ -2184,19 +2184,6 @@ custom_entity{
   sprite = "entities/dungeon_1/pillar_base",
 }
 
-wall{
-  layer = -1,
-  x = 888,
-  y = 264,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 destination{
   name = "boss_starting_point",
   layer = -1,
@@ -2246,6 +2233,7 @@ custom_entity{
 }
 
 wall{
+  name = "pillar_wall_1",
   layer = -1,
   x = 888,
   y = 168,
@@ -2259,6 +2247,7 @@ wall{
 }
 
 wall{
+  name = "pillar_wall_2",
   layer = -1,
   x = 1016,
   y = 168,
@@ -2272,6 +2261,21 @@ wall{
 }
 
 wall{
+  name = "pillar_wall_3",
+  layer = -1,
+  x = 888,
+  y = 264,
+  width = 16,
+  height = 16,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  name = "pillar_wall_4",
   layer = -1,
   x = 1016,
   y = 264,

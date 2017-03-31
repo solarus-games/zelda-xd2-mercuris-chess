@@ -20,11 +20,6 @@ local water_delay = 500
 
 local boss = nil
 
--- Create the boss.
-function chicken_boss_switch:on_activated()
-  map:create_chicken_boss()
-end
-
 function map:create_chicken_boss()
   -- Do not create boss if already dead.
   if game:get_value("dungeon_1_boss") then
@@ -286,6 +281,7 @@ local function destroy_pillar(number)
   end)
 
   map:remove_entities("pillar_base_" .. number)
+  map:remove_entities("pillar_wall_" .. number)
   hero:freeze()
 
   pillar:get_sprite():set_animation("destroy", function() 

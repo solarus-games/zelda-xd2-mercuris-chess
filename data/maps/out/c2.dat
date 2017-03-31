@@ -12158,8 +12158,8 @@ npc{
 
 destination{
   layer = 0,
-  x = 312,
-  y = 621,
+  x = 680,
+  y = 13,
   direction = 3,
   starting_location_mode = "yes",
   default = true,
@@ -15067,12 +15067,12 @@ jumper{
 jumper{
   name = "jump_sensor_5",
   layer = 0,
-  x = 656,
+  x = 648,
   y = 32,
-  width = 64,
+  width = 80,
   height = 8,
   direction = 6,
-  jump_length = 112,
+  jump_length = 104,
 }
 
 tile{

@@ -2027,6 +2027,9 @@ dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
   text = [[
+Tea... for two
+and two for tea...
+
 Are you ? ...
 Comment ça ?
 

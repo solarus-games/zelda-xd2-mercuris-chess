@@ -229,6 +229,7 @@ sprite{ id = "entities/bush_green", description = "Bush (green)" }
 sprite{ id = "entities/bush_purple", description = "Bush (purple)" }
 sprite{ id = "entities/bush_yellow", description = "Bush (yellow)" }
 sprite{ id = "entities/chest", description = "Chest" }
+sprite{ id = "entities/cocktails", description = "Cocktails plateau" }
 sprite{ id = "entities/conveyor_belt", description = "Stream" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }

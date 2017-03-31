@@ -3650,22 +3650,21 @@ Fais-toi plaisir.
 
 dialog{
   id = "dungeon_1.b2.scared_man",
+  skip = "all",
   text = [[
 Je pensais que ce
-château était un
-haut lieu du
-tourisme raffiné
-mais en visitant
-les caves, je me
-suis retrouvé nez-
+château était un haut
+lieu du tourisme
+raffiné mais en
+visitant les caves, je
+me suis retrouvé nez-
 à-nez avec des
-squelettes qui
-m'ont parlé !
-Je me suis réfugié
-ici, au moins je
-suis certain de
-passer le restant
-de mes jours à
+squelettes qui m'ont
+parlé !
+Je me suis réfugié ici,
+au moins je suis
+certain de passer le
+restant de mes jours à
 l'abri de ces
 monstres !
 ]]

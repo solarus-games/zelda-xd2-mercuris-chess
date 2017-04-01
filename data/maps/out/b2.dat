@@ -11166,9 +11166,9 @@ npc{
   layer = 0,
   x = 608,
   y = 493,
-  direction = 1,
+  direction = 3,
   subtype = 1,
-  sprite = "npc/alttp/average_middle_aged_man",
+  sprite = "npc/newlink/tom",
   behavior = "dialog#lafoo_riot.npc_2",
 }
 

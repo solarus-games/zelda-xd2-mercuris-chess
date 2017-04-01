@@ -4,6 +4,7 @@ Zelda XD2: Mercuris Chess 1.0.1 (in progress)
 ____________________________________________
 
 * Fix typos.
+* Various minor improvements.
 
 ____________________________________________
 

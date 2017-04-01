@@ -5013,21 +5013,3 @@ separator{
   height = 416,
 }
 
-separator{
-  name = "auto_separator_3",
-  layer = 2,
-  x = 600,
-  y = 848,
-  width = 16,
-  height = 416,
-}
-
-separator{
-  name = "auto_separator_4",
-  layer = 2,
-  x = 880,
-  y = 848,
-  width = 16,
-  height = 416,
-}
-

@@ -1212,12 +1212,9 @@ dialog{
   id = "_treasure.fire_rod.1",
   icon = "27",
   text = [[
-Le pyromane du
-Bureau des Objets
-Trouvés t'a refilé
-la Baguette de Feu !
-
-
+Le pyromane t'a
+refilé la Baguette
+de Feu !
 Tu peux tout 
 cramer !!!
 
@@ -1225,11 +1222,11 @@ Mais surveille ton
 compteur magique !
 
 Heu... Tout bien
-réfléchi, tu ne devrais
-peut-être pas trop
-t'afficher en
-possession de cette
-arme.
+réfléchi, tu ne
+devrais peut-être
+pas trop t'afficher
+en possession de
+cette arme.
 ]]
 }
 

@@ -4922,7 +4922,7 @@ dialog{
   id = "island.dontgo_guy",
   skip = "all",
   text = [[
-N'y vas pas !!!
+N'y va pas !!!
 ]]
 }
 

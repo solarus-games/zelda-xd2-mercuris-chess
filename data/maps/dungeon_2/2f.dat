@@ -7903,7 +7903,6 @@ destructible{
   layer = 0,
   x = 912,
   y = 197,
-  treasure_name = "random",
   sprite = "entities/vase",
   destruction_sound = "stone",
   damage_on_enemies = 2,

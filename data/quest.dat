@@ -7,7 +7,7 @@ quest{
 The second parodic game by the Solarus team, released on April 1st, 2017.
 Link is seeking for forgiveness and revenge!]],
   author = "Christopho",
-  quest_version = "1.0",
+  quest_version = "1.0.1",
   release_date = "",
   website = "www.solarus-games.org",
   normal_quest_size = "320x240",

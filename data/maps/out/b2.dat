@@ -11127,6 +11127,13 @@ npc{
   behavior = "dialog#lafoo_riot.npc_2",
 }
 
+pickable{
+  layer = 0,
+  x = 192,
+  y = 885,
+  treasure_name = "banana_skin",
+}
+
 tile{
   layer = 1,
   x = 600,

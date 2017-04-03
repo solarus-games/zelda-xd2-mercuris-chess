@@ -601,6 +601,8 @@ sound{ id = "zonzifleur/solarus_team_logo", description = "Solarus Team logo" }
 sound{ id = "zora", description = "zora" }
 
 item{ id = "arrow", description = "Arrows (x1 / x5 / x10)" }
+item{ id = "banana_skin", description = "Banana skin" }
+item{ id = "banana_skin_counter", description = "Banana skin counter" }
 item{ id = "big_key", description = "Dungeon big key" }
 item{ id = "blue_potion", description = "Blue Potion" }
 item{ id = "bomb", description = "Bombs (x1 / x3 / x8)" }

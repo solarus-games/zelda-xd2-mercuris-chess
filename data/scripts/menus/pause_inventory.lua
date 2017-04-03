@@ -21,7 +21,7 @@ local item_names = {
   "cat_food",
   "mail_counter",
   "perfume_counter",
-  "library_award",
+  "banana_skin_counter",
   "vip_card",
   "flippers",
   "bottle_3",

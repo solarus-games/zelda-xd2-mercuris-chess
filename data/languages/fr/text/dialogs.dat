@@ -9,6 +9,19 @@ avec quelque chose...
 }
 
 dialog{
+  id = "_item_description.banana_skin_counter.1",
+  icon = "30",
+  skip = "all",
+  text = [[
+Une peau de banane
+que le singe de la
+forêt t'a vendu.
+Tu t'es fais
+arnaquer.
+]]
+}
+
+dialog{
   id = "_item_description.bombs_counter.1",
   icon = "1",
   skip = "all",
@@ -499,16 +512,6 @@ Vérité !
 }
 
 dialog{
-  id = "_item_description.library_award.1",
-  icon = "31",
-  skip = "all",
-  text = [[
-Diplôme du meilleur
-rat de bibliothèque.
-]]
-}
-
-dialog{
   id = "_item_description.mail_counter.1",
   icon = "38",
   skip = "all",
@@ -643,6 +646,19 @@ dialog{
 Tu as trouvé 10
 Flèches !$0
 Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.banana_skin.1",
+  icon = "30",
+  text = [[
+Tu as trouvé une
+banane !
+
+Heu ?
+En fait il n'y a que
+la peau !
 ]]
 }
 

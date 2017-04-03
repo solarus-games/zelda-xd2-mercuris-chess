@@ -9992,7 +9992,6 @@ destination{
   y = 565,
   direction = 1,
   starting_location_mode = "yes",
-  default = true,
 }
 
 npc{
@@ -11132,6 +11131,26 @@ pickable{
   x = 192,
   y = 885,
   treasure_name = "banana_skin",
+}
+
+npc{
+  name = "monkey",
+  layer = 0,
+  x = 568,
+  y = 869,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/alttp/monkey",
+}
+
+destination{
+  name = "debug_destination",
+  layer = 0,
+  x = 568,
+  y = 885,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{

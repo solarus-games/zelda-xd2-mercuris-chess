@@ -82,6 +82,10 @@ function map:on_started()
     npc_riot_25:remove()
   end
 
+  -- Monkey movement.
+  local movement = sol.movement.create("random_path")
+  movement:set_speed(48)
+  movement:start(monkey)
 end
 
 function map:on_opening_transition_finished(destination)
@@ -284,14 +288,6 @@ function map:start_explosion_cinematic()
                 map:remove_entities("random_walk_npc_riot_")
               end)
               timer:set_suspended_with_map(false)
-
-              -- TODO
-              -- Fade-out to black, 
-              -- then make all the NPC disapear
-              -- then make the hero move to position 880, 528
-              -- then fade to normal
-              -- then start dialog lafoo/after_explosion
-              -- then map:set_cinematic_mode(false) 
             end)
           end)
         end)
@@ -347,3 +343,19 @@ map:register_event("on_draw", function(map, dst_surface)
   end
 end)
 
+function monkey:on_interaction()
+
+  local banana_price = 50
+  sol.audio.play_sound("monkey")
+  game:start_dialog("forest.monkey", function(answer)
+    sol.audio.play_sound("monkey")
+    if answer == 2 then
+      return
+    elseif game:get_money() < banana_price then
+      game:start_dialog("forest.monkey_not_enough_money")
+    else
+      game:remove_money(banana_price)
+      hero:start_treasure("banana_skin")
+    end
+  end)
+end

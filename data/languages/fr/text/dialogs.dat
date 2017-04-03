@@ -4490,6 +4490,33 @@ On y va ?
 }
 
 dialog{
+  id = "forest.monkey",
+  question = "1",
+  text = [[
+Ook !
+Tu veux une de mes
+bananes ?
+Je ne refile pas ma
+nourriture comme ça !
+Ook ! Ook !
+C'est 50 rubis !
+Oui
+Pas question
+]]
+}
+
+dialog{
+  id = "forest.monkey_not_enough_money",
+  text = [[
+Tu n'as pas assez de
+rubis !
+
+N'essaie pas de
+m'arnaquer !
+]]
+}
+
+dialog{
   id = "forest.south_west_sign",
   skip = "all",
   text = [[

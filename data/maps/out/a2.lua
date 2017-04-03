@@ -34,6 +34,7 @@ local function start_kart(kart, initial_path_index, speed)
     path[#path + 1] = track_path[i]
   end
 
+  kart:set_can_traverse("hero", true)
   kart:set_traversable_by("hero", false)
   kart:set_traversable_by("custom_entity", true)
 
@@ -50,6 +51,25 @@ local function start_kart(kart, initial_path_index, speed)
 
   function movement:on_changed()
     sprite:set_direction(movement:get_direction4())
+  end
+
+  function movement:on_position_changed()
+
+    local translations = {
+      {  1,  0 },
+      {  0, -1 },
+      { -1,  0 },
+      {  0,  1 },
+    }
+
+    if kart:overlaps(hero) and hero:test_obstacles() then
+      local hero_x, hero_y = hero:get_position()
+      local direction4 = kart:get_direction4_to(hero)
+      local dx, dy = unpack(translations[direction4 + 1])
+      if not hero:test_obstacles(dx, dy) then
+        hero:set_position(hero_x + dx, hero_y + dy)
+      end
+    end
   end
 
 end

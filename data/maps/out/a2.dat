@@ -19381,6 +19381,7 @@ destination{
   x = 224,
   y = 829,
   direction = 3,
+  default = true,
 }
 
 teletransporter{
@@ -19437,7 +19438,6 @@ destination{
   x = 424,
   y = 221,
   direction = 3,
-  default = true,
 }
 
 teletransporter{
@@ -19704,10 +19704,10 @@ wall{
 }
 
 pickable{
-  name = "lens_invisible_pickable_yoshi",
+  name = "kart_piece_of_heart",
   layer = 0,
-  x = 504,
-  y = 701,
+  x = -24,
+  y = 749,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "chill_valley_invisible_piece_of_heart",
 }

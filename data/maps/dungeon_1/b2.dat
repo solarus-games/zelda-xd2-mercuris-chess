@@ -2813,7 +2813,7 @@ tile{
 tile{
   layer = 0,
   x = 1112,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -2822,7 +2822,7 @@ tile{
 tile{
   layer = 0,
   x = 1208,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4055,7 +4055,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 448,
+  y = 440,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4064,7 +4064,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 448,
+  y = 440,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4073,7 +4073,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 688,
+  y = 680,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4082,7 +4082,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 688,
+  y = 680,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4090,7 +4090,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 40,
   width = 16,
   height = 32,
@@ -4099,7 +4099,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 72,
   width = 16,
   height = 32,
@@ -4108,7 +4108,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 104,
   width = 16,
   height = 32,
@@ -4117,7 +4117,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 136,
   width = 16,
   height = 32,
@@ -4126,7 +4126,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 168,
   width = 16,
   height = 32,
@@ -4135,7 +4135,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 40,
   width = 16,
   height = 32,
@@ -4144,7 +4144,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 72,
   width = 16,
   height = 32,
@@ -4153,7 +4153,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 104,
   width = 16,
   height = 32,
@@ -4162,7 +4162,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 136,
   width = 16,
   height = 32,
@@ -4171,7 +4171,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 168,
   width = 16,
   height = 32,
@@ -4181,7 +4181,7 @@ tile{
 tile{
   layer = 0,
   x = 360,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4190,7 +4190,7 @@ tile{
 tile{
   layer = 0,
   x = 392,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4199,7 +4199,7 @@ tile{
 tile{
   layer = 0,
   x = 424,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4208,7 +4208,7 @@ tile{
 tile{
   layer = 0,
   x = 504,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4217,7 +4217,7 @@ tile{
 tile{
   layer = 0,
   x = 536,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4226,7 +4226,7 @@ tile{
 tile{
   layer = 0,
   x = 568,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4235,7 +4235,7 @@ tile{
 tile{
   layer = 0,
   x = 360,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4244,7 +4244,7 @@ tile{
 tile{
   layer = 0,
   x = 392,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4253,7 +4253,7 @@ tile{
 tile{
   layer = 0,
   x = 424,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4262,7 +4262,7 @@ tile{
 tile{
   layer = 0,
   x = 464,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4271,7 +4271,7 @@ tile{
 tile{
   layer = 0,
   x = 568,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4280,7 +4280,7 @@ tile{
 tile{
   layer = 0,
   x = 536,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4289,7 +4289,7 @@ tile{
 tile{
   layer = 0,
   x = 504,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -8121,7 +8121,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 608,
+  x = 600,
   y = 304,
   width = 16,
   height = 32,
@@ -8130,7 +8130,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 336,
+  x = 344,
   y = 304,
   width = 16,
   height = 32,

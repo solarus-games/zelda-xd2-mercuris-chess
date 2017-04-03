@@ -6157,10 +6157,10 @@ enemy{
 }
 
 enemy{
-  name = "crystal_enemy_1",
+  name = "auto_enemy_1",
   layer = 0,
-  x = 1680,
-  y = 549,
+  x = 1688,
+  y = 533,
   direction = 3,
   breed = "newlink/zoura_green",
   treasure_name = "heart",
@@ -6225,7 +6225,7 @@ npc{
 }
 
 enemy{
-  name = "crystal_enemy_2",
+  name = "auto_enemy_2",
   layer = 0,
   x = 1776,
   y = 661,

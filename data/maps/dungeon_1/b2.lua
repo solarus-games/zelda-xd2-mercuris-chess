@@ -4,11 +4,14 @@ local game = map:get_game()
 local fighting_miniboss = false
 local previous_music = sol.audio.get_music()
 
+local separator_manager = require("scripts/maps/separator_manager")
+separator_manager:manage_map(map)
+local door_manager = require("scripts/maps/door_manager")
+door_manager:manage_map(map)
+
 local function spike_collision()
-  if hero:is_in_same_region(crystal_sensor) then
-    sol.audio.play_sound("switch")
-    map:change_crystal_state()
-  end
+  sol.audio.play_sound("switch")
+  map:change_crystal_state()
 end
 
 function map:on_started()
@@ -111,7 +114,7 @@ for enemy in map:get_entities("miniboss_enemy") do
   enemy.on_dying = miniboss_enemy_on_dying
 end
 
-function auto_separator_5:on_activated(direction4)
+auto_separator_5:register_event("on_activated", function(separator, direction4)
 
   if direction4 ~= 3 then
     return
@@ -124,4 +127,4 @@ function auto_separator_5:on_activated(direction4)
     sol.audio.play_music(previous_music)
     fighting_miniboss = false
   end
-end
+end)

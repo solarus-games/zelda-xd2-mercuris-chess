@@ -74,3 +74,9 @@ end
 function no_entry_sensor:on_activated()
   game:start_dialog("chill_valley.no_entry_2")
 end
+
+function yoshi:on_position_changed()
+  if lens_invisible_pickable_yoshi ~= nil then
+    lens_invisible_pickable_yoshi:set_position(yoshi:get_position())
+  end
+end

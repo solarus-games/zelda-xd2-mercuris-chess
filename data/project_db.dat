@@ -537,6 +537,7 @@ sound{ id = "mk64_mario_mammamia", description = "mk64_mario_mammamia" }
 sound{ id = "mk64_mario_yeah", description = "mk64_mario_yeah" }
 sound{ id = "mk64_toad", description = "mk64_toad" }
 sound{ id = "mk64_yoshi", description = "mk64_yoshi" }
+sound{ id = "mk64_yoshi_hurt", description = "mk64_yoshi_hurt" }
 sound{ id = "monkey", description = "monkey" }
 sound{ id = "monster_hurt", description = "monster_hurt" }
 sound{ id = "octorok", description = "octorok" }

@@ -5567,7 +5567,7 @@ tile{
 tile{
   layer = 0,
   x = 1808,
-  y = 656,
+  y = 632,
   width = 16,
   height = 24,
   pattern = "barrier_big.border.2-3",
@@ -5587,7 +5587,7 @@ tile{
   x = 1808,
   y = 528,
   width = 16,
-  height = 128,
+  height = 104,
   pattern = "barrier_big.2-1",
 }
 
@@ -5598,6 +5598,24 @@ tile{
   width = 64,
   height = 48,
   pattern = "floor.cracked.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 1864,
+  y = 632,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 1824,
+  y = 632,
+  width = 40,
+  height = 24,
+  pattern = "barrier_big.1-1",
 }
 
 sensor{
@@ -5863,9 +5881,9 @@ chest{
 
 crystal_block{
   layer = 0,
-  x = 1648,
+  x = 1664,
   y = 560,
-  width = 80,
+  width = 32,
   height = 80,
   subtype = 0,
 }
@@ -6204,15 +6222,6 @@ npc{
   direction = 3,
   subtype = 1,
   behavior = "dialog#dungeon_1.b2.bones2",
-}
-
-crystal_block{
-  layer = 0,
-  x = 1728,
-  y = 560,
-  width = 80,
-  height = 80,
-  subtype = 1,
 }
 
 enemy{
@@ -7253,6 +7262,105 @@ enemy{
   direction = 3,
   breed = "alttp/wallmaster",
   treasure_name = "random",
+}
+
+crystal_block{
+  layer = 0,
+  x = 1696,
+  y = 560,
+  width = 64,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1696,
+  y = 576,
+  width = 16,
+  height = 48,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1696,
+  y = 624,
+  width = 64,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1728,
+  y = 592,
+  width = 32,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1744,
+  y = 608,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1792,
+  y = 560,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1648,
+  y = 560,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1760,
+  y = 560,
+  width = 32,
+  height = 80,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1712,
+  y = 576,
+  width = 48,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1712,
+  y = 592,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1712,
+  y = 608,
+  width = 32,
+  height = 16,
+  subtype = 0,
 }
 
 tile{

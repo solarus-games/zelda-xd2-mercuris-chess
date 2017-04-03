@@ -98,10 +98,17 @@ function map:create_chicken_boss()
   -- Create boss.
   local dst = map:get_entity("boss_starting_point")
   local x, y, layer = dst:get_position()
-  local prop = {x = x, y = y, layer = layer, direction = 3, 
+  local prop = {x = x, y = y, layer = layer + 1, direction = 3, 
     breed = "oclero/chicken_giant", name = "boss",
     savegame_variable = "dungeon_1_boss"}
   boss = map:create_enemy(prop)
+
+  -- Put the boss on the correct layer only after some time
+  -- so that he appears above the north tiles.
+  sol.timer.start(boss, 1000, function()
+    local x, y, layer = boss:get_position()
+    boss:set_position(x, y, layer - 1)
+  end)
   
   function boss:on_dead()
 

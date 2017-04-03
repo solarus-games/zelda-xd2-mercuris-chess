@@ -24,7 +24,7 @@ local track_path = {
   1,1, 1,1, 1,1, 1,1,
 }
 
-local function start_kart(kart, initial_path_index, speed)
+local function start_kart(kart, initial_path_index, speed, harmful)
 
   local path = {}
   for i = initial_path_index, #track_path do
@@ -35,8 +35,21 @@ local function start_kart(kart, initial_path_index, speed)
   end
 
   kart:set_can_traverse("hero", true)
-  kart:set_traversable_by("hero", false)
+  kart:set_traversable_by("hero", true)
   kart:set_traversable_by("custom_entity", true)
+
+  if harmful then
+    -- Hurt the hero.
+    kart:add_collision_test("sprite", function(kart, other)
+      if other ~= hero then
+        return
+      end
+
+      if not hero:is_invincible() then
+        hero:start_hurt(kart, 6)
+      end
+    end)
+  end
 
   local sprite = kart:get_sprite()
   sprite:set_animation("walking")
@@ -53,25 +66,6 @@ local function start_kart(kart, initial_path_index, speed)
     sprite:set_direction(movement:get_direction4())
   end
 
-  function movement:on_position_changed()
-
-    local translations = {
-      {  1,  0 },
-      {  0, -1 },
-      { -1,  0 },
-      {  0,  1 },
-    }
-
-    if kart:overlaps(hero) and hero:test_obstacles() then
-      local hero_x, hero_y = hero:get_position()
-      local direction4 = kart:get_direction4_to(hero)
-      local dx, dy = unpack(translations[direction4 + 1])
-      if not hero:test_obstacles(dx, dy) then
-        hero:set_position(hero_x + dx, hero_y + dy)
-      end
-    end
-  end
-
 end
 
 function map:on_started()
@@ -79,10 +73,10 @@ function map:on_started()
   local movement = sol.movement.create("random_path")
   movement:start(doc)
 
-  start_kart(toad, 133, math.random(96, 128))
-  start_kart(mario, 7, math.random(64, 128))
-  start_kart(yoshi, 45, math.random(96, 192))
-  start_kart(deloreane, 95, math.random(64, 96))
+  start_kart(toad, 133, math.random(96, 128), true)
+  start_kart(mario, 7, math.random(64, 128), true)
+  start_kart(yoshi, 45, math.random(96, 192), true)
+  start_kart(deloreane, 95, math.random(64, 96), false)
 
   deloreane:get_sprite():set_animation("flying_no_shadow")
   deloreane:set_traversable_by(true)  -- Because flying.

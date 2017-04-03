@@ -123,9 +123,11 @@ function action_icon_builder:new(game, config)
     action_icon.surface:draw(dst_surface, x, y)
   end
 
-  action_icon:compute_icon_region_y()
-  action_icon:check()
-  action_icon:rebuild_surface()
+  function action_icon:on_started()
+    action_icon:compute_icon_region_y()
+    action_icon:check()
+    action_icon:rebuild_surface()
+  end
 
   return action_icon
 end

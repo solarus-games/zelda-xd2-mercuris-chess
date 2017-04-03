@@ -23,6 +23,9 @@ function hearts_builder:new(game, config)
     -- Unlike other HUD elements, the timers were canceled because they
     -- are attached to the menu and not to the game
     -- (this is because the hearts are also used in the savegame menu).
+
+    -- After game-over don't show gradually getting the life back.
+    hearts.nb_current_hearts_displayed = game:get_life()
     hearts.danger_sound_timer = nil
     hearts:check()
     hearts:rebuild_surface()
@@ -154,9 +157,6 @@ function hearts_builder:new(game, config)
     -- Everything was already drawn on self.surface.
     hearts.surface:draw(dst_surface, x, y)
   end
-
-  hearts:check()
-  hearts:rebuild_surface()
 
   return hearts
 end

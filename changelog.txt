@@ -3,6 +3,7 @@ ____________________________________________
 Zelda XD2: Mercuris Chess 1.0.1 (in progress)
 ____________________________________________
 
+* Fix duplicated menus after game-over (#2).
 * Fix camera jumping in the freaking cave (#1).
 * Fix typos.
 * Various minor improvements.

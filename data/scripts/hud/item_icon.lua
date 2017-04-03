@@ -120,8 +120,10 @@ function item_icon_builder:new(game, config)
     end
   end
 
-  item_icon:check()
-  item_icon:rebuild_surface()
+  function item_icon:on_started()
+    item_icon:check()
+    item_icon:rebuild_surface()
+  end
 
   return item_icon
 end

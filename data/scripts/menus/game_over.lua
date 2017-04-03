@@ -8,7 +8,13 @@ require("scripts/multi_events")
 -- Creates and sets up a game-over menu for the specified game.
 local function initialize_game_over_features(game)
 
+  if game.game_over_menu ~= nil then
+    -- Already done.
+    return
+  end
+
   local game_over_menu = {}  -- The game-over menu.
+  game.game_over_menu = game_over_menu
 
   local music
   local background_img

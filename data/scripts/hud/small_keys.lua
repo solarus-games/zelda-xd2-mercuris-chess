@@ -74,10 +74,12 @@ function small_keys_builder:new(game, config)
     end
   end
 
-  sol.timer.start(game, 40, function()
-    small_keys:check()
-    return true
-  end)
+  function small_keys:on_started()
+    sol.timer.start(game, 40, function()
+      small_keys:check()
+      return true
+    end)
+  end
 
   small_keys:rebuild_surface()
 

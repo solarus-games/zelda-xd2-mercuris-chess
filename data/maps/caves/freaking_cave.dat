@@ -4743,6 +4743,28 @@ wall{
   stops_projectiles = true,
 }
 
+pickable{
+  layer = 1,
+  x = 680,
+  y = 485,
+  treasure_name = "piece_of_heart",
+  treasure_savegame_variable = "forest_invisible_piece_of_heart",
+}
+
+pickable{
+  layer = 1,
+  x = 520,
+  y = 453,
+  treasure_name = "rupee",
+}
+
+pickable{
+  layer = 1,
+  x = 888,
+  y = 517,
+  treasure_name = "rupee",
+}
+
 tile{
   layer = 2,
   x = 1104,

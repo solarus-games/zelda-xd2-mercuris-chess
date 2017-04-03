@@ -53,7 +53,12 @@ end
 -- - 5 in Dungeon 2
 -- - 28 in Pieces of heart cave
 -- - 1 in Lost and Found Office
--- - 6 in outside world (1 per map, needs lens of truth)
+-- - 1 in Rupee Island (needs lens of truth)
+-- - 1 in Swamp (needs lens of truth)
+-- - 1 in Desert (needs lens of truth)
+-- - 1 in Main Village (needs lens of truth)
+-- - 1 in Chill Valley with the karts: chill_valley_invisible_piece_of_heart
+-- - 1 in Freaking Cave: forest_invisible_piece_of_heart
 
 -- 6 heart containers:
 -- - 5 in the main village shop.

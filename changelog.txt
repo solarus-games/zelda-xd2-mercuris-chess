@@ -5,6 +5,7 @@ ____________________________________________
 
 * Fix duplicated menus after game-over (#2).
 * Make karts hurt the hero and react to bananas (#36).
+* Allow to use the lens of truth in water and some other states (#48).
 * Fix camera jumping in the freaking cave (#1).
 * Fix typos.
 * Move the piece of heart from the forest to the freaking cave (#40).

@@ -1,6 +1,8 @@
 local item = ...
 local game = item:get_game()
 
+local sound_timer
+
 local lens_menu = {}
 local lens_active = false
 
@@ -75,6 +77,59 @@ function item:on_created()
 
   item:set_savegame_variable("possession_lens_of_truth")
   item:set_assignable(true)
+
+  -- Allow to start and stop the lens of truth when in water.
+  game:register_event("on_command_pressed", function(game, command)
+
+    if game:is_suspended() then
+      return
+    end
+
+    local lens_command
+    local item_1 = game:get_item_assigned(1)
+    local item_2 = game:get_item_assigned(2)
+    if item_1 ~= nil and item_1:get_name() == "lens_of_truth" then
+      lens_command = "item_1"
+    elseif item_2 ~= nil and item_2:get_name() == "lens_of_truth" then
+      lens_command = "item_2"
+    end
+
+    if lens_command == nil then
+      return
+    end
+
+    if command ~= lens_command then
+      return
+    end
+
+    local state = game:get_hero():get_state()
+    local allowed_states = {
+      ["free"] = true,
+      ["carrying"] = true,
+      ["running"] = true,
+      ["stream"] = true,
+      ["swimming"] = true,
+      ["sword loading"] = true,
+    }
+
+    if item:is_lens_active() then
+      item:set_lens_active(false)
+      return true  -- Stop the propagation of the event.
+    end
+
+    if game:get_magic() <= 0 then
+      if sound_timer == nil then
+        sol.audio.play_sound("wrong")
+        sound_timer = sol.timer.start(game, 500, function()
+          sound_timer = nil
+        end)
+      end
+      return true  -- Stop the propagation of the event.
+    end
+
+    item:set_lens_active(true)
+    return true  -- Stop the propagation of the event.
+  end)
 end
 
 function item:on_obtained(variant, savegame_variable)
@@ -84,24 +139,6 @@ function item:on_obtained(variant, savegame_variable)
   if not magic_bar:has_variant() then
     magic_bar:set_variant(1)
   end
-end
-
-function item:on_using()
-
-  if item:is_lens_active() then
-    item:set_lens_active(false)
-    item:set_finished()
-    return
-  end
-
-  if game:get_magic() <= 0 then
-    sol.audio.play_sound("wrong")
-    item:set_finished()
-    return
-  end
-
-  item:set_lens_active(true)
-  item:set_finished()
 end
 
 function item:on_map_changed(map)

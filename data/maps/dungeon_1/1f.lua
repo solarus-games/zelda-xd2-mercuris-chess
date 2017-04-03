@@ -20,6 +20,68 @@ local water_delay = 500
 
 local boss = nil
 
+function map:create_fake_heart_container()
+
+  local fake_heart_container
+  if hero:get_distance(fake_heart_container_1) > hero:get_distance(fake_heart_container_2) then
+    fake_heart_container = fake_heart_container_1
+  else
+    fake_heart_container = fake_heart_container_2
+  end
+  fake_heart_container:set_drawn_in_y_order(true)
+  fake_heart_container:set_enabled(true)
+  local heart_container_sprite = fake_heart_container:create_sprite("entities/items")
+  heart_container_sprite:set_animation("heart_container")
+  sol.timer.start(map, 10, function()
+    if hero:get_distance(fake_heart_container) > 32 then
+      return true  -- Wait for the hero to get close.
+    end
+    
+    hero:freeze()
+    sol.audio.play_sound("enemy_awake")
+    map:get_camera():shake()
+    sol.timer.start(map, 500, function()
+      sol.audio.play_sound("jump")
+    end)
+    local hand_sprite = heart_container_hand:get_sprite()
+    hand_sprite:set_animation("closed")
+    local movement = sol.movement.create("target")
+    movement:set_target(fake_heart_container)
+    movement:set_speed(192)
+    movement:set_ignore_obstacles(true)
+    movement:start(heart_container_hand, function()
+      hand_sprite:set_animation("closed")
+      sol.timer.start(map, 1500, function()
+        local movement = sol.movement.create("straight")
+        movement:set_angle(math.pi / 2)
+        movement:set_speed(192)
+        movement:set_max_distance(180)
+        movement:set_ignore_obstacles(true)
+        function heart_container_hand:on_position_changed()
+          local x, y, layer = heart_container_hand:get_position()
+          layer = layer - 1
+          fake_heart_container:set_position(x, y, layer)
+        end
+        movement:start(heart_container_hand, function()
+          heart_container_hand:set_enabled(false)
+          fake_heart_container:set_enabled(false)
+
+          sol.audio.play_music("alttp/victory")
+          hero:set_direction(3)
+          sol.timer.start(9000, function()
+            sol.audio.play_sound("secret")
+            map:open_doors("boss_door")
+            game:set_value("dungeon_1_fake_heart_container_disappeared", true)
+            hero:start_victory(function()
+              hero:unfreeze()
+            end)
+          end)
+        end)
+      end)
+    end)
+  end)
+end
+
 function map:create_chicken_boss()
   -- Do not create boss if already dead.
   if game:get_value("dungeon_1_boss") then
@@ -50,54 +112,8 @@ function map:create_chicken_boss()
 
     -- Create a heart container but removing it with a falling hand
     -- when the hero gets close.
-    local fake_heart_container
-    if hero:get_distance(fake_heart_container_1) > hero:get_distance(fake_heart_container_2) then
-      fake_heart_container = fake_heart_container_1
-    else
-      fake_heart_container = fake_heart_container_2
-    end
-    fake_heart_container:set_enabled(true)
-    local heart_container_sprite = fake_heart_container:create_sprite("entities/items")
-    heart_container_sprite:set_animation("heart_container")
-    sol.timer.start(map, 10, function()
-      if hero:get_distance(fake_heart_container) > 32 then
-        return true  -- Wait for the hero to get close.
-      end
-      
-      hero:freeze()
-      sol.audio.play_sound("enemy_awake")
-      map:get_camera():shake()
-      sol.timer.start(map, 500, function()
-        sol.audio.play_sound("jump")
-      end)
-      local hand_sprite = heart_container_hand:get_sprite()
-      hand_sprite:set_animation("closed")
-      local movement = sol.movement.create("target")
-      movement:set_target(fake_heart_container)
-      movement:set_speed(192)
-      movement:set_ignore_obstacles(true)
-      movement:start(heart_container_hand, function()
-        hand_sprite:set_animation("closed")
-        sol.timer.start(map, 2000, function()
-          local movement = sol.movement.create("straight")
-          movement:set_angle(math.pi / 2)
-          movement:set_speed(192)
-          movement:set_max_distance(180)
-          movement:set_ignore_obstacles(true)
-          function heart_container_hand:on_position_changed()
-            fake_heart_container:set_position(heart_container_hand:get_position())
-          end
-          movement:start(heart_container_hand, function()
-            heart_container_hand:set_enabled(false)
-            fake_heart_container:set_enabled(false)
-            map:open_doors("boss_door")
-            sol.audio.stop_music()
-            game:set_dungeon_finished(1)
-            hero:unfreeze()
-          end)
-        end)
-      end)
-    end)
+    map:create_fake_heart_container()
+    game:set_dungeon_finished(1)
   end
 end
 
@@ -112,6 +128,10 @@ function map:on_started()
 
   fake_heart_container_1:set_enabled(false)
   fake_heart_container_2:set_enabled(false)
+
+  if game:get_value("dungeon_1_boss") and not game:get_value("dungeon_1_fake_heart_container_disappeared") then
+    map:create_fake_heart_container()
+  end
 end
 
 -- Event called after the opening transition effect of the map,

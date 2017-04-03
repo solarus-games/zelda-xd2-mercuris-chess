@@ -2221,17 +2221,6 @@ custom_entity{
   direction = 0,
 }
 
-custom_entity{
-  name = "heart_container_hand",
-  layer = -1,
-  x = 960,
-  y = -11,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "enemies/alttp/wallmaster",
-}
-
 wall{
   name = "pillar_wall_1",
   layer = -1,
@@ -11381,5 +11370,16 @@ separator{
   y = 232,
   width = 640,
   height = 16,
+}
+
+custom_entity{
+  name = "heart_container_hand",
+  layer = 2,
+  x = 960,
+  y = -11,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/alttp/wallmaster",
 }
 

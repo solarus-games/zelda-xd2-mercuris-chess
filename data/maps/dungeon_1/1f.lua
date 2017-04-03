@@ -129,8 +129,11 @@ function map:on_started()
   fake_heart_container_1:set_enabled(false)
   fake_heart_container_2:set_enabled(false)
 
-  if game:get_value("dungeon_1_boss") and not game:get_value("dungeon_1_fake_heart_container_disappeared") then
-    map:create_fake_heart_container()
+  if game:get_value("dungeon_1_boss") then
+    if not game:get_value("dungeon_1_fake_heart_container_disappeared") then
+      map:create_fake_heart_container()
+    end
+    map:set_entities_enabled("pillar_", false)
   end
 end
 

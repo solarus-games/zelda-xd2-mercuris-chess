@@ -44,7 +44,8 @@ text{ key = "inventory.caption.item.lens_of_truth.1", value = "Monocle des$Véri
 text{ key = "inventory.caption.item.library_award.1", value = "Award du$Rat de bibliothèque" }
 text{ key = "inventory.caption.item.mail_counter.1", value = "Courrier pour Zelda" }
 text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Pains au chocolat" }
-text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase" }
+text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase$sans lacets" }
+text{ key = "inventory.caption.item.pegasus_shoes.2", value = "Bottes de Pégase" }
 text{ key = "inventory.caption.item.perfume_counter.1", value = "Parfums" }
 text{ key = "inventory.caption.item.vip_card.1", value = "Carte VIP" }
 text{ key = "map.caption.dungeon_name_1", value = "Château doré" }

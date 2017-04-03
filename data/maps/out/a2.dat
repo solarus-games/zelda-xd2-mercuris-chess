@@ -19703,15 +19703,6 @@ wall{
   stops_npcs = true,
 }
 
-pickable{
-  name = "kart_piece_of_heart",
-  layer = 0,
-  x = -24,
-  y = 749,
-  treasure_name = "piece_of_heart",
-  treasure_savegame_variable = "chill_valley_invisible_piece_of_heart",
-}
-
 jumper{
   layer = 0,
   x = 80,

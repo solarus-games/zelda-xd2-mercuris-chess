@@ -39,12 +39,12 @@ function item:on_using()
     y = y + 16
   end
 
-  local banana = map:create_pickable{
+  local banana = map:create_pickable({
     x = x,
     y = y,
     layer = layer,
     treasure_name = "banana_skin",
-  }
+  })
 
   item:set_finished()
 end

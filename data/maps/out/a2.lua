@@ -30,6 +30,7 @@ local function start_kart(kart, properties)
   local speed = properties.speed or 96
   local harmful = properties.harmful or false
   local hurt_sound = properties.hurt_sound
+  local treasure = properties.treasure or {}
 
   local path = {}
   for i = initial_path_index, #track_path do
@@ -102,6 +103,20 @@ local function start_kart(kart, properties)
         sol.audio.play_sound(hurt_sound)
       end
 
+      -- Create the treasure if any.
+      sol.timer.start(map, 300, function()
+        local treasure_name, treasure_variant, treasure_savegame_variable = unpack(treasure)
+        local x, y, layer = kart:get_position()
+        map:create_pickable({
+          x = x,
+          y = y,
+          layer = layer,
+          treasure_name = treasure_name,
+          treasure_variant = treasure_variant,
+          treasure_savegame_variable = treasure_savegame_variable,
+        })
+      end)
+
       sol.timer.start(kart, 100, function()
         sprite:set_direction((sprite:get_direction() + 1) % 4)
         -- Keep turning while the movement is active.
@@ -115,7 +130,7 @@ local function start_kart(kart, properties)
       hurt_movement:set_angle(angle)
       hurt_movement:set_speed(speed)
       hurt_movement:set_max_distance(192)
-      hurt_movement:set_smooth(true)
+      hurt_movement:set_smooth(false)
       hurt_movement:start(kart, function()
         hurt_movement:on_obstacle_reached()
       end)
@@ -127,7 +142,7 @@ local function start_kart(kart, properties)
           return true
         end)
         sol.timer.start(kart, 1000, function()
-          kart:remove()
+          kart:set_enabled(false)
         end)
       end
     end)
@@ -145,18 +160,33 @@ function map:on_started()
     speed = math.random(96, 128),
     harmful = true,
     hurt_sound = "mk64_toad",
+    treasure = {
+      "piece_of_heart",
+      1,
+      "chill_valley_invisible_piece_of_heart",
+      -- Savegame variable from 1.0.0 when the
+      -- piece of heart was not in the kart.
+    }
   })
   start_kart(mario, {
     initial_path_index = 7,
     speed = math.random(64, 128),
     harmful = true,
     hurt_sound = "mk64_mario_mammamia",
+    treasure = {
+      "rupee",
+      3,
+    }
   })
   start_kart(yoshi, {
     initial_path_index = 45,
     speed = math.random(96, 192),
     harmful = true,
     hurt_sound = "mk64_yoshi_hurt",
+    treasure = {
+      "rupee",
+      2,
+    }
   })
   start_kart(deloreane, {
     initial_path_index = 95,

@@ -2277,6 +2277,15 @@ wall{
   stops_projectiles = true,
 }
 
+destructible{
+  name = "iron_ball_2",
+  layer = -1,
+  x = 984,
+  y = 405,
+  sprite = "entities/dungeon_1/iron_ball",
+  damage_on_enemies = 2,
+}
+
 tile{
   layer = 0,
   x = 712,

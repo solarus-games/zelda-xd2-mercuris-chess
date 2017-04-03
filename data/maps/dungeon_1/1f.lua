@@ -98,7 +98,7 @@ function map:create_chicken_boss()
   -- Create boss.
   local dst = map:get_entity("boss_starting_point")
   local x, y, layer = dst:get_position()
-  local prop = {x = x, y = y, layer = layer + 1, direction = 3, 
+  local prop = {x = x, y = y, layer = layer + 1, direction = 3,
     breed = "oclero/chicken_giant", name = "boss",
     savegame_variable = "dungeon_1_boss"}
   boss = map:create_enemy(prop)
@@ -303,6 +303,12 @@ local function destroy_pillar(number)
     return  -- Already destroyed.
   end
 
+  pillar_count = pillar_count - 1
+  if pillar_count == 0 then
+    -- Make sure the iron ball won't block the boss or the hero.
+    iron_ball:set_enabled(false)
+  end
+
   local x, y, layer = pillar:get_position()
 
   sol.audio.play_sound("explosion")
@@ -323,8 +329,6 @@ local function destroy_pillar(number)
   pillar:get_sprite():set_animation("destroy", function() 
     pillar:remove()
     hero:unfreeze()
-
-    pillar_count = pillar_count - 1
 
     if pillar_count == 0 then
       map:create_chicken_boss()

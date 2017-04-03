@@ -34,6 +34,7 @@ local function start_kart(kart, initial_path_index, speed, harmful)
     path[#path + 1] = track_path[i]
   end
 
+  kart:set_drawn_in_y_order(true)
   kart:set_can_traverse("hero", true)
   kart:set_traversable_by("hero", true)
   kart:set_traversable_by("custom_entity", true)

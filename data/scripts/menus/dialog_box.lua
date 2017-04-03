@@ -85,11 +85,9 @@ local function initialize_dialog_box_features(game)
   -- Called by the engine when a dialog starts.
   game:register_event("on_dialog_started", function(game, dialog, info)
 
-    if not sol.menu.is_started(dialog_box) then
-      dialog_box.dialog = dialog
-      dialog_box.info = info
-      sol.menu.start(game, dialog_box)
-    end
+    dialog_box.dialog = dialog
+    dialog_box.info = info
+    sol.menu.start(game, dialog_box)
   end)
 
   -- Called by the engine when a dialog finishes.

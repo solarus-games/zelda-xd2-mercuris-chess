@@ -24,7 +24,6 @@ function item:set_lens_active(active)
 
   if active then
 
-    sol.audio.play_sound("lens_start")
     active = true
     local map = game:get_map()
     sol.menu.start(map, lens_menu, false)
@@ -38,6 +37,7 @@ function item:set_lens_active(active)
       end
       game:remove_magic(1)
       if game:get_magic() == 0 then
+        sol.audio.play_sound("lens_end")
         item:set_lens_active(false)
         return
       end
@@ -45,7 +45,6 @@ function item:set_lens_active(active)
     end)
 
   else
-    sol.audio.play_sound("lens_end")
     sol.menu.stop(lens_menu)
     active = false
   end
@@ -113,6 +112,7 @@ function item:on_created()
     }
 
     if item:is_lens_active() then
+      sol.audio.play_sound("lens_end")
       item:set_lens_active(false)
       return true  -- Stop the propagation of the event.
     end
@@ -127,6 +127,7 @@ function item:on_created()
       return true  -- Stop the propagation of the event.
     end
 
+    sol.audio.play_sound("lens_start")
     item:set_lens_active(true)
     return true  -- Stop the propagation of the event.
   end)
@@ -145,6 +146,6 @@ function item:on_map_changed(map)
 
   -- Keep the lens of truth active accross maps.
   if item:is_lens_active() then
-    sol.menu.start(map, lens_menu, false)
+    item:set_lens_active(false)
   end
 end

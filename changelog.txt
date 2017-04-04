@@ -8,6 +8,7 @@ ____________________________________________
 * Allow to use the lens of truth in water and some other states (#48).
 * Move the piece of heart from the forest to the freaking cave (#40).
 * Fix stuck in a wall after diagonal jump in Chill Valley.
+* Fix stuck in dungeon 2 2F if wallmaster is killed (#16).
 * Fix stuck in the final scene when going to the left (#46).
 * Fix camera jumping in the freaking cave (#1).
 * Fix typos.

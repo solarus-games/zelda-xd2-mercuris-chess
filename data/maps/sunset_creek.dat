@@ -3516,6 +3516,15 @@ sensor{
   height = 48,
 }
 
+sensor{
+  name = "cinematic_sensor_2",
+  layer = 0,
+  x = 8,
+  y = 253,
+  width = 96,
+  height = 16,
+}
+
 tile{
   layer = 1,
   x = 320,
@@ -4738,15 +4747,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "75",
-}
-
-sensor{
-  name = "cinematic_sensor_2",
-  layer = 1,
-  x = 8,
-  y = 253,
-  width = 96,
-  height = 16,
 }
 
 npc{

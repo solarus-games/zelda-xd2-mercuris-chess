@@ -21,6 +21,7 @@ function map:on_started(destination)
   -- Access to the kitchen.
   if game:get_value("dungeon_2_kitchen_guard_access") then
     kitchen_guard:set_position(kitchen_guard_access_placeholder:get_position())
+    kitchen_guard_access_placeholder:set_enabled(false)
   end
 
   kitchen_chicken_under_vase:set_enabled(false)
@@ -47,6 +48,7 @@ function unblock_kitchen_guard_sensor:on_activated()
 
   game:set_value("dungeon_2_kitchen_guard_access", true)
   kitchen_guard:set_position(kitchen_guard_access_placeholder:get_position())
+  kitchen_guard_access_placeholder:set_enabled(false)
 end
 
 -- Bartender.

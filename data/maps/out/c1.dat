@@ -12,6 +12,33 @@ properties{
 
 tile{
   layer = 0,
+  x = 544,
+  y = 968,
+  width = 592,
+  height = 64,
+  pattern = "49",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 976,
+  width = 16,
+  height = 16,
+  pattern = "608",
+}
+
+tile{
+  layer = 0,
+  x = 600,
+  y = 976,
+  width = 16,
+  height = 16,
+  pattern = "607",
+}
+
+tile{
+  layer = 0,
   x = 512,
   y = 104,
   width = 624,
@@ -134,15 +161,6 @@ tile{
   width = 8,
   height = 544,
   pattern = "616",
-}
-
-tile{
-  layer = 0,
-  x = 544,
-  y = 968,
-  width = 592,
-  height = 64,
-  pattern = "49",
 }
 
 tile{
@@ -3938,7 +3956,7 @@ tile{
   layer = 0,
   x = 576,
   y = 984,
-  width = 544,
+  width = 32,
   height = 8,
   pattern = "615",
 }
@@ -3947,7 +3965,7 @@ tile{
   layer = 0,
   x = 576,
   y = 976,
-  width = 544,
+  width = 32,
   height = 8,
   pattern = "266",
 }
@@ -11053,6 +11071,42 @@ tile{
   pattern = "194",
 }
 
+tile{
+  layer = 0,
+  x = 1008,
+  y = 984,
+  width = 112,
+  height = 8,
+  pattern = "615",
+}
+
+tile{
+  layer = 0,
+  x = 1008,
+  y = 976,
+  width = 112,
+  height = 8,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 1000,
+  y = 976,
+  width = 8,
+  height = 8,
+  pattern = "436",
+}
+
+tile{
+  layer = 0,
+  x = 608,
+  y = 976,
+  width = 8,
+  height = 8,
+  pattern = "611",
+}
+
 teletransporter{
   name = "teletransporter_6",
   layer = 0,
@@ -12437,6 +12491,17 @@ pickable{
   y = 693,
   treasure_name = "piece_of_heart",
   treasure_savegame_variable = "desert_invisible_piece_of_heart",
+}
+
+jumper{
+  name = "jump_sensor_27",
+  layer = 0,
+  x = 616,
+  y = 968,
+  width = 384,
+  height = 8,
+  direction = 2,
+  jump_length = 40,
 }
 
 tile{

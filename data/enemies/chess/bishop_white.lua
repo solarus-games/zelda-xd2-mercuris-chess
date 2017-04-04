@@ -6,7 +6,7 @@ local last_direction8 = 0
 function enemy:on_created()
 
   enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_damage(2)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)

@@ -5907,8 +5907,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
-  y = 768,
+  x = 32,
+  y = 744,
   width = 16,
   height = 16,
   pattern = "913",
@@ -5916,8 +5916,8 @@ tile{
 
 tile{
   layer = 0,
-  x = 56,
-  y = 768,
+  x = 32,
+  y = 744,
   width = 16,
   height = 16,
   pattern = "1039",
@@ -9827,6 +9827,33 @@ pickable{
 
 tile{
   layer = 1,
+  x = 136,
+  y = 24,
+  width = 632,
+  height = 328,
+  pattern = "14667",
+}
+
+tile{
+  layer = 1,
+  x = 688,
+  y = 176,
+  width = 32,
+  height = 176,
+  pattern = "907",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 208,
+  width = 32,
+  height = 144,
+  pattern = "907",
+}
+
+tile{
+  layer = 1,
   x = 104,
   y = 456,
   width = 224,
@@ -9841,15 +9868,6 @@ tile{
   width = 88,
   height = 104,
   pattern = "209",
-}
-
-tile{
-  layer = 1,
-  x = 136,
-  y = 24,
-  width = 632,
-  height = 328,
-  pattern = "14667",
 }
 
 tile{
@@ -11344,15 +11362,6 @@ tile{
   width = 32,
   height = 24,
   pattern = "10965",
-}
-
-tile{
-  layer = 1,
-  x = 200,
-  y = 208,
-  width = 32,
-  height = 136,
-  pattern = "13892",
 }
 
 tile{
@@ -15110,15 +15119,6 @@ tile{
 
 tile{
   layer = 1,
-  x = 688,
-  y = 176,
-  width = 32,
-  height = 176,
-  pattern = "907",
-}
-
-tile{
-  layer = 1,
   x = 216,
   y = 320,
   width = 8,
@@ -15848,8 +15848,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 808,
-  y = 104,
+  x = 832,
+  y = 256,
   width = 8,
   height = 8,
   pattern = "100",
@@ -15857,8 +15857,8 @@ tile{
 
 tile{
   layer = 1,
-  x = 816,
-  y = 104,
+  x = 840,
+  y = 256,
   width = 8,
   height = 8,
   pattern = "101",
@@ -16366,6 +16366,15 @@ tile{
   width = 16,
   height = 48,
   pattern = "1111",
+}
+
+tile{
+  layer = 1,
+  x = 832,
+  y = 200,
+  width = 16,
+  height = 48,
+  pattern = "728",
 }
 
 dynamic_tile{
@@ -17112,7 +17121,7 @@ jumper{
   width = 40,
   height = 40,
   direction = 5,
-  jump_length = 32,
+  jump_length = 40,
 }
 
 enemy{
@@ -17484,7 +17493,8 @@ destructible{
   layer = 1,
   x = 136,
   y = 341,
-  treasure_name = "random",
+  treasure_name = "rupee",
+  treasure_variant = 2,
   sprite = "entities/bush_green",
   destruction_sound = "bush",
   weight = 1,
@@ -17511,6 +17521,50 @@ destructible{
   destruction_sound = "bush",
   weight = 1,
   can_be_cut = true,
+}
+
+destructible{
+  layer = 1,
+  x = 840,
+  y = 229,
+  treasure_name = "magic_flask",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 840,
+  y = 245,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+destructible{
+  layer = 1,
+  x = 840,
+  y = 213,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+  weight = 1,
+  damage_on_enemies = 2,
+}
+
+pickable{
+  name = "lens_invisible_pickable_27",
+  layer = 1,
+  x = 144,
+  y = 173,
+  treasure_name = "rupee",
+  treasure_variant = 2,
+  treasure_savegame_variable = "island_rupee_27",
 }
 
 tile{

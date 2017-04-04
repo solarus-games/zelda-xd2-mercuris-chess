@@ -234,12 +234,14 @@ function map_submenu:draw_dungeon_floors(dst_surface)
   end
 
   -- Draw the boss icon if any.
+  local boss = self.dungeon.boss
   if self.game:has_dungeon_compass()
-      and self.boss_floor ~= nil
-      and self.boss_floor >= lowest_floor_displayed
-      and self.boss_floor <= highest_floor_displayed then
+      and boss ~= nil
+      and boss.floor ~= nil
+      and boss.floor >= lowest_floor_displayed
+      and boss.floor <= self.highest_floor_displayed then
 
-    dst_y = old_dst_y + (self.highest_floor_displayed - self.boss_floor) * 12 + 3
+    dst_y = old_dst_y + (self.highest_floor_displayed - boss.floor) * 12 + 3
     self.dungeon_map_icons_img:draw_region(78, 0, 8, 8, dst_surface, 113, dst_y)
   end
 

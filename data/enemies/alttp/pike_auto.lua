@@ -12,7 +12,7 @@ local recent_obstacle = 0
 function enemy:on_created()
 
   enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_damage(2)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_can_hurt_hero_running(true)
@@ -40,11 +40,7 @@ function enemy:on_obstacle_reached()
   local direction4 = sprite:get_direction()
   sprite:set_direction((direction4 + 2) % 4)
 
-  local x, y = enemy:get_position()
-  local hero_x, hero_y = hero:get_position()
   if recent_obstacle == 0
-      and math.abs(x - hero_x) < 184
-      and math.abs(y - hero_y) < 144
       and not enemy:test_obstacles() then
     sol.audio.play_sound("sword_tapping")
   end

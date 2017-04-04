@@ -7043,8 +7043,8 @@ wall{
 destination{
   name = "destination",
   layer = 0,
-  x = 272,
-  y = 413,
+  x = 408,
+  y = 157,
   direction = 1,
   starting_location_mode = "yes",
   default = true,

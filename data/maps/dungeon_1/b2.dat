@@ -67,15 +67,6 @@ tile{
 
 tile{
   layer = -1,
-  x = 1216,
-  y = 208,
-  width = 24,
-  height = 112,
-  pattern = "wall_low_lit.4-3",
-}
-
-tile{
-  layer = -1,
   x = 400,
   y = 280,
   width = 160,
@@ -90,6 +81,123 @@ tile{
   width = 160,
   height = 24,
   pattern = "wall_low_lit.2-3",
+}
+
+tile{
+  layer = -1,
+  x = 1216,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 1200,
+  y = 216,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 1216,
+  y = 240,
+  width = 24,
+  height = 16,
+  pattern = "wall_low.4-1",
+}
+
+tile{
+  layer = -1,
+  x = 1200,
+  y = 256,
+  width = 16,
+  height = 24,
+  pattern = "wall_low.2-1",
+}
+
+tile{
+  layer = -1,
+  x = 1216,
+  y = 256,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.4-1",
+}
+
+tile{
+  layer = -1,
+  x = 1176,
+  y = 256,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.3-1",
+}
+
+tile{
+  layer = -1,
+  x = 1176,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall_low.corner.1-1",
+}
+
+tile{
+  layer = -1,
+  x = 1176,
+  y = 240,
+  width = 24,
+  height = 16,
+  pattern = "wall_low.3-1",
+}
+
+tile{
+  layer = -1,
+  x = 1200,
+  y = 240,
+  width = 16,
+  height = 16,
+  pattern = "882",
+}
+
+tile{
+  layer = 0,
+  x = 1072,
+  y = 288,
+  width = 168,
+  height = 104,
+  pattern = "2719",
+}
+
+tile{
+  layer = 0,
+  x = 1216,
+  y = 288,
+  width = 24,
+  height = 48,
+  pattern = "wall_low_lit.4-3",
+}
+
+tile{
+  layer = 0,
+  x = 1184,
+  y = 224,
+  width = 48,
+  height = 48,
+  pattern = "water.transparent",
+}
+
+tile{
+  layer = 0,
+  x = 808,
+  y = 296,
+  width = 264,
+  height = 96,
+  pattern = "2719",
 }
 
 tile{
@@ -132,8 +240,8 @@ tile{
   layer = 0,
   x = 704,
   y = 64,
-  width = 512,
-  height = 328,
+  width = 488,
+  height = 104,
   pattern = "2719",
 }
 
@@ -2813,7 +2921,7 @@ tile{
 tile{
   layer = 0,
   x = 1112,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -2822,7 +2930,7 @@ tile{
 tile{
   layer = 0,
   x = 1208,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -2832,7 +2940,7 @@ tile{
   layer = 0,
   x = 808,
   y = 168,
-  width = 384,
+  width = 368,
   height = 128,
   pattern = "floor.cracked.5-1",
 }
@@ -3084,14 +3192,14 @@ tile{
   layer = 0,
   x = 1088,
   y = 200,
-  width = 88,
+  width = 72,
   height = 24,
   pattern = "barrier_big.1-2",
 }
 
 tile{
   layer = 0,
-  x = 1176,
+  x = 1160,
   y = 200,
   width = 16,
   height = 24,
@@ -3100,7 +3208,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1176,
+  x = 1160,
   y = 272,
   width = 16,
   height = 24,
@@ -3111,7 +3219,7 @@ tile{
   layer = 0,
   x = 1088,
   y = 272,
-  width = 88,
+  width = 72,
   height = 24,
   pattern = "barrier_big.1-2",
 }
@@ -3163,7 +3271,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 1160,
+  x = 1144,
   y = 240,
   width = 16,
   height = 16,
@@ -3172,9 +3280,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 864,
+  x = 856,
   y = 296,
-  width = 208,
+  width = 224,
   height = 32,
   pattern = "floor.cracked.5-1",
 }
@@ -3184,7 +3292,7 @@ tile{
   x = 1192,
   y = 104,
   width = 48,
-  height = 96,
+  height = 112,
   pattern = "floor.cracked.5-1",
 }
 
@@ -3292,7 +3400,7 @@ tile{
   x = 1232,
   y = 40,
   width = 8,
-  height = 160,
+  height = 176,
   pattern = "wall_border.4-6",
 }
 
@@ -3965,7 +4073,7 @@ tile{
 tile{
   layer = 0,
   x = 1192,
-  y = 200,
+  y = 328,
   width = 8,
   height = 8,
   pattern = "barrier.border-1",
@@ -3973,9 +4081,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 1200,
-  y = 200,
-  width = 32,
+  x = 1184,
+  y = 280,
+  width = 48,
   height = 8,
   pattern = "barrier.1-1",
 }
@@ -3983,34 +4091,7 @@ tile{
 tile{
   layer = 0,
   x = 1232,
-  y = 200,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 1192,
-  y = 320,
-  width = 8,
-  height = 8,
-  pattern = "barrier.border-1",
-}
-
-tile{
-  layer = 0,
-  x = 1200,
-  y = 320,
-  width = 32,
-  height = 8,
-  pattern = "barrier.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 1232,
-  y = 320,
+  y = 328,
   width = 8,
   height = 8,
   pattern = "barrier.border-1",
@@ -4055,7 +4136,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 448,
+  y = 440,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4064,7 +4145,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 448,
+  y = 440,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4073,7 +4154,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 688,
+  y = 680,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4082,7 +4163,7 @@ tile{
 tile{
   layer = 0,
   x = 208,
-  y = 688,
+  y = 680,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4090,7 +4171,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 40,
   width = 16,
   height = 32,
@@ -4099,7 +4180,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 72,
   width = 16,
   height = 32,
@@ -4108,7 +4189,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 104,
   width = 16,
   height = 32,
@@ -4117,7 +4198,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 136,
   width = 16,
   height = 32,
@@ -4126,7 +4207,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 168,
   width = 16,
   height = 32,
@@ -4135,7 +4216,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 40,
   width = 16,
   height = 32,
@@ -4144,7 +4225,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 72,
   width = 16,
   height = 32,
@@ -4153,7 +4234,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 104,
   width = 16,
   height = 32,
@@ -4162,7 +4243,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 136,
   width = 16,
   height = 32,
@@ -4171,7 +4252,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 168,
   width = 16,
   height = 32,
@@ -4181,7 +4262,7 @@ tile{
 tile{
   layer = 0,
   x = 360,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4190,7 +4271,7 @@ tile{
 tile{
   layer = 0,
   x = 392,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4199,7 +4280,7 @@ tile{
 tile{
   layer = 0,
   x = 424,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4208,7 +4289,7 @@ tile{
 tile{
   layer = 0,
   x = 504,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4217,7 +4298,7 @@ tile{
 tile{
   layer = 0,
   x = 536,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4226,7 +4307,7 @@ tile{
 tile{
   layer = 0,
   x = 568,
-  y = 208,
+  y = 200,
   width = 32,
   height = 16,
   pattern = "wall_torch.2",
@@ -4235,7 +4316,7 @@ tile{
 tile{
   layer = 0,
   x = 360,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4244,7 +4325,7 @@ tile{
 tile{
   layer = 0,
   x = 392,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4253,7 +4334,7 @@ tile{
 tile{
   layer = 0,
   x = 424,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4262,7 +4343,7 @@ tile{
 tile{
   layer = 0,
   x = 464,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4271,7 +4352,7 @@ tile{
 tile{
   layer = 0,
   x = 568,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4280,7 +4361,7 @@ tile{
 tile{
   layer = 0,
   x = 536,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -4289,7 +4370,7 @@ tile{
 tile{
   layer = 0,
   x = 504,
-  y = 16,
+  y = 24,
   width = 32,
   height = 16,
   pattern = "wall_torch.1",
@@ -5567,7 +5648,7 @@ tile{
 tile{
   layer = 0,
   x = 1808,
-  y = 656,
+  y = 632,
   width = 16,
   height = 24,
   pattern = "barrier_big.border.2-3",
@@ -5587,7 +5668,7 @@ tile{
   x = 1808,
   y = 528,
   width = 16,
-  height = 128,
+  height = 104,
   pattern = "barrier_big.2-1",
 }
 
@@ -5598,6 +5679,69 @@ tile{
   width = 64,
   height = 48,
   pattern = "floor.cracked.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 1864,
+  y = 632,
+  width = 16,
+  height = 24,
+  pattern = "barrier_big.border.2-3",
+}
+
+tile{
+  layer = 0,
+  x = 1824,
+  y = 632,
+  width = 40,
+  height = 24,
+  pattern = "barrier_big.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 704,
+  y = 168,
+  width = 8,
+  height = 80,
+  pattern = "2719",
+}
+
+tile{
+  layer = 0,
+  x = 1176,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 1176,
+  y = 168,
+  width = 16,
+  height = 48,
+  pattern = "floor.cracked.5-1",
+}
+
+tile{
+  layer = 0,
+  x = 1232,
+  y = 280,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = 0,
+  x = 1200,
+  y = 328,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1-1",
 }
 
 sensor{
@@ -5823,7 +5967,7 @@ wall{
 destructible{
   name = "auto_destructible_1",
   layer = 0,
-  x = 1168,
+  x = 1152,
   y = 253,
   treasure_name = "small_key_brandished",
   treasure_savegame_variable = "dungeon_1_small_key_1",
@@ -5863,9 +6007,9 @@ chest{
 
 crystal_block{
   layer = 0,
-  x = 1648,
+  x = 1664,
   y = 560,
-  width = 80,
+  width = 32,
   height = 80,
   subtype = 0,
 }
@@ -6139,10 +6283,10 @@ enemy{
 }
 
 enemy{
-  name = "crystal_enemy_1",
+  name = "auto_enemy_1",
   layer = 0,
-  x = 1680,
-  y = 549,
+  x = 1688,
+  y = 533,
   direction = 3,
   breed = "newlink/zoura_green",
   treasure_name = "heart",
@@ -6206,17 +6350,8 @@ npc{
   behavior = "dialog#dungeon_1.b2.bones2",
 }
 
-crystal_block{
-  layer = 0,
-  x = 1728,
-  y = 560,
-  width = 80,
-  height = 80,
-  subtype = 1,
-}
-
 enemy{
-  name = "crystal_enemy_2",
+  name = "auto_enemy_2",
   layer = 0,
   x = 1776,
   y = 661,
@@ -6235,8 +6370,8 @@ crystal{
 destination{
   name = "debug_destination",
   layer = 0,
-  x = 1376,
-  y = 525,
+  x = 1152,
+  y = 269,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -7255,6 +7390,164 @@ enemy{
   treasure_name = "random",
 }
 
+crystal_block{
+  layer = 0,
+  x = 1696,
+  y = 560,
+  width = 64,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1696,
+  y = 576,
+  width = 16,
+  height = 48,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1696,
+  y = 624,
+  width = 64,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1728,
+  y = 592,
+  width = 32,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1744,
+  y = 608,
+  width = 16,
+  height = 16,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1792,
+  y = 560,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1648,
+  y = 560,
+  width = 16,
+  height = 80,
+  subtype = 1,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1760,
+  y = 560,
+  width = 32,
+  height = 80,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1712,
+  y = 576,
+  width = 48,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1712,
+  y = 592,
+  width = 16,
+  height = 16,
+  subtype = 0,
+}
+
+crystal_block{
+  layer = 0,
+  x = 1712,
+  y = 608,
+  width = 32,
+  height = 16,
+  subtype = 0,
+}
+
+jumper{
+  layer = 0,
+  x = 1176,
+  y = 224,
+  width = 8,
+  height = 48,
+  direction = 0,
+  jump_length = 40,
+}
+
+wall{
+  layer = 0,
+  x = 1176,
+  y = 216,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 1232,
+  y = 216,
+  width = 8,
+  height = 56,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 1176,
+  y = 272,
+  width = 64,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+jumper{
+  layer = 0,
+  x = 1184,
+  y = 216,
+  width = 48,
+  height = 8,
+  direction = 6,
+  jump_length = 40,
+}
+
 tile{
   layer = 1,
   x = 1720,
@@ -8013,7 +8306,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 608,
+  x = 600,
   y = 304,
   width = 16,
   height = 32,
@@ -8022,7 +8315,7 @@ tile{
 
 tile{
   layer = 1,
-  x = 336,
+  x = 344,
   y = 304,
   width = 16,
   height = 32,

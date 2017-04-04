@@ -338,9 +338,7 @@ function zelda:on_interaction()
       game:start_dialog(dialog_id, function()
         -- Give the player the cat food if he has not got it yet.
         if not game:has_item("cat_food") then
-          hero:start_treasure("cat_food", 1, nil, function()
-            game:start_dialog("intro.light_saber_confiscate")
-          end)
+          hero:start_treasure("cat_food")
         end
       end)
     end

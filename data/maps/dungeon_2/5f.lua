@@ -28,34 +28,34 @@ function map:on_started(destination)
 
 end
 
-function auto_separator_3:on_activating(direction4)
+auto_separator_3:register_event("on_activating", function(separator, direction4)
 
   local x, y = hero:get_position()
   if direction4 == 0 and y > 240 then
     map:set_light(0)
   end
-end
+end)
 
-function auto_separator_3:on_activated(direction4)
+auto_separator_3:register_event("on_activated", function(separator, direction4)
 
   if direction4 ~= 0 then
     map:set_light(1)
   end
-end
+end)
 
-function auto_separator_1:on_activating(direction4)
+auto_separator_1:register_event("on_activating", function(separator, direction4)
 
   if direction4 == 3 then
     map:set_light(0)
   end
-end
+end)
 
-function auto_separator_1:on_activated(direction4)
+auto_separator_1:register_event("on_activated", function(separator, direction4)
 
   if direction4 ~= 3 then
     map:set_light(1)
   end
-end
+end)
 
 local function check_ice_knight(block)
 

@@ -20,8 +20,9 @@ function item:on_pickable_created(pickable)
   movement:set_max_distance(40)  -- Don't go too far.
 
   -- Put the fairy on the highest layer to show it above all walls.
+  local map = pickable:get_map()
   local x, y = pickable:get_position()
-  pickable:set_position(x, y, 2)
+  pickable:set_position(x, y, map:get_max_layer())
   pickable:set_layer_independent_collisions(true)  -- But detect collisions with lower layers anyway
 
   -- When the direction of the movement changes,

@@ -101,7 +101,9 @@ function magic_bar_builder:new(game, config)
     end
   end
 
-  magic_bar:check()
+  function magic_bar:on_started()
+    magic_bar:check()
+  end
 
   return magic_bar
 end

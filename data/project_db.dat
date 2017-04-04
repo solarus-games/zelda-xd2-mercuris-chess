@@ -37,8 +37,6 @@ map{ id = "examples/cave_store", description = "Cave Store" }
 map{ id = "examples/enemy_store", description = "Enemy Store" }
 map{ id = "examples/enemy_store_alttp", description = "Enemy Store (ALTTP)" }
 map{ id = "examples/enemy_store_newlink", description = "Enemy Store (Newlink)" }
-map{ id = "examples/hyrule_castle", description = "ALTTP Hyrule Castle" }
-map{ id = "examples/kakariko_village", description = "ALTTP Kakariko Village" }
 map{ id = "final_scene", description = "Final scene on the beach" }
 map{ id = "island/shop", description = "Island Shop" }
 map{ id = "la_dream", description = "Link's dream (LA beach)" }
@@ -537,6 +535,7 @@ sound{ id = "mk64_mario_mammamia", description = "mk64_mario_mammamia" }
 sound{ id = "mk64_mario_yeah", description = "mk64_mario_yeah" }
 sound{ id = "mk64_toad", description = "mk64_toad" }
 sound{ id = "mk64_yoshi", description = "mk64_yoshi" }
+sound{ id = "mk64_yoshi_hurt", description = "mk64_yoshi_hurt" }
 sound{ id = "monkey", description = "monkey" }
 sound{ id = "monster_hurt", description = "monster_hurt" }
 sound{ id = "octorok", description = "octorok" }
@@ -602,6 +601,8 @@ sound{ id = "zonzifleur/solarus_team_logo", description = "Solarus Team logo" }
 sound{ id = "zora", description = "zora" }
 
 item{ id = "arrow", description = "Arrows (x1 / x5 / x10)" }
+item{ id = "banana_skin", description = "Banana skin" }
+item{ id = "banana_skin_counter", description = "Banana skin counter" }
 item{ id = "big_key", description = "Dungeon big key" }
 item{ id = "blue_potion", description = "Blue Potion" }
 item{ id = "bomb", description = "Bombs (x1 / x3 / x8)" }

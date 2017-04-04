@@ -97,21 +97,24 @@ local function vegas_on_immobilized(enemy)
     end
 
     -- Give the reward.
-    sol.audio.play_sound("secret")
-    local treasure_name, treasure_variant, treasure_savegame_variable = "small_key_brandished", 1, "dungeon_2_2f_vegas_key"
-    if game:get_value(treasure_savegame_variable) then
-      -- Already got the small key: give rupees instead.
-      treasure_name, treasure_variant, treasure_savegame_variable = "rupee", 3, nil
+    if vegas_pickable == nil then
+      sol.audio.play_sound("secret")
+      local treasure_name, treasure_variant, treasure_savegame_variable = "small_key_brandished", 1, "dungeon_2_2f_vegas_key"
+      if game:get_value(treasure_savegame_variable) then
+        -- Already got the small key: give rupees instead.
+        treasure_name, treasure_variant, treasure_savegame_variable = "rupee", 3, nil
+      end
+      local x, y, layer = vegas_reward_placeholder:get_position()
+      map:create_pickable({
+        name = "vegas_pickable",
+        x = x,
+        y = y,
+        layer = layer,
+        treasure_name = treasure_name,
+        treasure_variant = treasure_variant,
+        treasure_savegame_variable = treasure_savegame_variable,
+      })
     end
-    local x, y, layer = vegas_reward_placeholder:get_position()
-    map:create_pickable({
-      x = x,
-      y = y,
-      layer = layer,
-      treasure_name = treasure_name,
-      treasure_variant = treasure_variant,
-      treasure_savegame_variable = treasure_savegame_variable,
-    })
 
     -- Kill them.
     for _, vegas in ipairs(vegas_enemies) do

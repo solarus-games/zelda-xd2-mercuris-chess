@@ -128,9 +128,11 @@ function attack_icon_builder:new(game, config)
     attack_icon.surface:draw(dst_surface, x, y)
   end
 
-  attack_icon:compute_icon_region_y()
-  attack_icon:check()
-  attack_icon:rebuild_surface()
+  function attack_icon:on_started()
+    attack_icon:compute_icon_region_y()
+    attack_icon:check()
+    attack_icon:rebuild_surface()
+  end
 
   return attack_icon
 end

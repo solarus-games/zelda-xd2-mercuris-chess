@@ -22,7 +22,7 @@ function enemy:on_created()
   -- like the sprite, the life and the damage.
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_damage(2)
 end
 
 -- Event called when the enemy should start or restart its movements.

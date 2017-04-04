@@ -9,6 +9,19 @@ avec quelque chose...
 }
 
 dialog{
+  id = "_item_description.banana_skin_counter.1",
+  icon = "30",
+  skip = "all",
+  text = [[
+Une peau de banane
+que le singe de la
+forêt t'a vendu.
+Tu t'es fais
+arnaquer.
+]]
+}
+
+dialog{
   id = "_item_description.bombs_counter.1",
   icon = "1",
   skip = "all",
@@ -499,16 +512,6 @@ Vérité !
 }
 
 dialog{
-  id = "_item_description.library_award.1",
-  icon = "31",
-  skip = "all",
-  text = [[
-Diplôme du meilleur
-rat de bibliothèque.
-]]
-}
-
-dialog{
   id = "_item_description.mail_counter.1",
   icon = "38",
   skip = "all",
@@ -643,6 +646,19 @@ dialog{
 Tu as trouvé 10
 Flèches !$0
 Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.banana_skin.1",
+  icon = "30",
+  text = [[
+Tu as trouvé une
+banane !
+
+Heu ?
+En fait il n'y a que
+la peau !
 ]]
 }
 
@@ -1212,12 +1228,9 @@ dialog{
   id = "_treasure.fire_rod.1",
   icon = "27",
   text = [[
-Le pyromane du
-Bureau des Objets
-Trouvés t'a refilé
-la Baguette de Feu !
-
-
+Le pyromane t'a
+refilé la Baguette
+de Feu !
 Tu peux tout 
 cramer !!!
 
@@ -1225,11 +1238,11 @@ Mais surveille ton
 compteur magique !
 
 Heu... Tout bien
-réfléchi, tu ne devrais
-peut-être pas trop
-t'afficher en
-possession de cette
-arme.
+réfléchi, tu ne
+devrais peut-être
+pas trop t'afficher
+en possession de
+cette arme.
 ]]
 }
 
@@ -1265,7 +1278,7 @@ dialog{
   icon = "32",
   text = [[
 Tu as trouvé la
-Poigne de Fer !$0Tu
+Poigne de Fer !$0 Tu
 peux soulever les...
 Ah ? Tu l'as déjà ?
 Dommage... !
@@ -2178,7 +2191,7 @@ dialog{
   skip = "all",
   text = [[
 Hey, tu te prends pour
-qui a rentrer partout ?
+qui à rentrer partout ?
 C'est pas parce que tu
 sauves le monde que
 toutes les portes te
@@ -2504,7 +2517,7 @@ dialog{
   skip = "all",
   text = [[
 
-Un livre pour adulte !
+Un livre pour adultes !
 
 Tu n'as pas l'âge pour
 ce genre de lecture !
@@ -2966,7 +2979,7 @@ Un livre de SF :
   La Terre Oblongue
 
 J'ouvrais la porte de
-ce batiment que les
+ce bâtiment que les
 indigènes appelaient
 "gratte-ciel". Des
 chariots mécaniques
@@ -3054,8 +3067,8 @@ cité d'avoir des
 maisons mitoyennes. La
 seule tentative s'est
 soldée par la dispari-
-tion pure et simple
-de l'ensemble du bloc
+tion pure et simple de
+l'ensemble d'une ligne
 de bâtiments. Depuis,
 les autorités obligent
 les maisons à avoir
@@ -3117,7 +3130,7 @@ dialog{
 Arrête de nourrir le
 chat, tu ne trouves
 pas qu'il est déjà
-assez gros comme ça?
+assez gros comme ça ?
 ]]
 }
 
@@ -4223,6 +4236,7 @@ Binbin
        spéciaux :
 
 LarryInc64
+Shield
 DoctorOctoroc
 Bulby
 HelpTheWretched
@@ -4450,7 +4464,7 @@ tu n'entendrais pas
 des miaulements ?
 C'est Flocon-de-neige !
 Il a faim ! $0
-Allez, va le nourir !
+Allez, va le nourrir !
 ]]
 }
 
@@ -4472,6 +4486,33 @@ volante ?
 Dis-donc, ça a l'air
 trop chouette !
 On y va ?
+]]
+}
+
+dialog{
+  id = "forest.monkey",
+  question = "1",
+  text = [[
+Ook !
+Tu veux une de mes
+bananes ?
+Je ne refile pas ma
+nourriture comme ça !
+Ook ! Ook !
+C'est 50 rubis !
+Oui
+Pas question
+]]
+}
+
+dialog{
+  id = "forest.monkey_not_enough_money",
+  text = [[
+Tu n'as pas assez de
+rubis !
+
+N'essaie pas de
+m'arnaquer !
 ]]
 }
 
@@ -4602,19 +4643,6 @@ pour la stocker...
 }
 
 dialog{
-  id = "intro.light_saber_confiscate",
-  text = [[
-Au fait !$0
-Si tu veux que je te
-rende le sabre laser
-que je t'ai confisqué,
-il va falloir que tu
-sois obéissant.
-Au travail !
-]]
-}
-
-dialog{
   id = "intro.light_saber_give_back",
   text = [[
 Un petit moment...$0$0
@@ -4623,15 +4651,15 @@ Voilà !
 Ah,$0
 j'allais oublier un
 truc !
-Tiens,
-voilà ton sabre laser.
-
+Tiens, je te rends le
+sabre laser que je
+t'avais confisqué.
 Je trouvais que le bleu
 n'était pas très joli...
 
-alors je me suis permise
-de changer la couleur.
-
+alors je me suis
+permise de changer la
+couleur.
 C'est bien mieux comme
 ça, tu verras.
 ]]
@@ -4922,7 +4950,7 @@ dialog{
   id = "island.dontgo_guy",
   skip = "all",
   text = [[
-N'y vas pas !!!
+N'y va pas !!!
 ]]
 }
 
@@ -5627,10 +5655,10 @@ dialog{
   skip = "all",
   text = [[
 On entend une foule qui
-crie...
-
-Et ça sent terriblement
-le brûlé...
+pousse des cris de
+joie...
+Il y a quelque chose à
+célébrer ?
 
 J'essaie de voir d'où
 ça vient !
@@ -6169,8 +6197,8 @@ Le gars du guichet 41
 du Bureau des Objets 
 Trouvés s'est fait
 virer car il prenait
-tout le des pauses.
-
+tout le temps des
+pauses.
 Il paraît qu'il a
 retrouvé du boulot au
 restaurant de la

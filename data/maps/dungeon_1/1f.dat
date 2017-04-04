@@ -2132,7 +2132,7 @@ door{
 }
 
 door{
-  name = "boss_door_bottom_left_2",
+  name = "boss_door_bottom_right",
   layer = -1,
   x = 1160,
   y = 160,
@@ -2221,17 +2221,6 @@ custom_entity{
   direction = 0,
 }
 
-custom_entity{
-  name = "heart_container_hand",
-  layer = -1,
-  x = 960,
-  y = -11,
-  width = 16,
-  height = 16,
-  direction = 0,
-  sprite = "enemies/alttp/wallmaster",
-}
-
 wall{
   name = "pillar_wall_1",
   layer = -1,
@@ -2286,6 +2275,15 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+destructible{
+  name = "iron_ball_2",
+  layer = -1,
+  x = 984,
+  y = 405,
+  sprite = "entities/dungeon_1/iron_ball",
+  damage_on_enemies = 2,
 }
 
 tile{
@@ -6115,42 +6113,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 736,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 744,
-  y = 152,
-  width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.2-1",
-}
-
-tile{
-  layer = 0,
-  x = 1152,
-  y = 152,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.1-1",
-}
-
-tile{
-  layer = 0,
-  x = 1160,
-  y = 152,
-  width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.2-1",
-}
-
-tile{
-  layer = 0,
   x = 928,
   y = 16,
   width = 16,
@@ -8104,7 +8066,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 304,
   width = 16,
   height = 32,
@@ -8113,7 +8075,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 336,
+  x = 344,
   y = 384,
   width = 16,
   height = 32,
@@ -8122,7 +8084,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 304,
   width = 16,
   height = 32,
@@ -8131,7 +8093,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 608,
+  x = 600,
   y = 384,
   width = 16,
   height = 32,
@@ -8748,6 +8710,17 @@ tile{
   width = 16,
   height = 8,
   pattern = "barrier.1-1",
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_right_closed",
+  layer = 0,
+  x = 1152,
+  y = 152,
+  pattern = "door_top.closed.1-2",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
 }
 
 door{
@@ -10652,6 +10625,61 @@ npc{
   behavior = "dialog#dungeon_1.1f.iron_ball_man",
 }
 
+dynamic_tile{
+  name = "boss_door_bottom_left_closed",
+  layer = 0,
+  x = 736,
+  y = 152,
+  pattern = "door_top.closed.1-2",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_left_open_2",
+  layer = 0,
+  x = 736,
+  y = 152,
+  pattern = "door_top.stairs.1-1",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_left_open",
+  layer = 0,
+  x = 744,
+  y = 152,
+  pattern = "door_top.stairs_up.2-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_right_open_2",
+  layer = 0,
+  x = 1152,
+  y = 152,
+  pattern = "door_top.stairs.1-1",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_right_open",
+  layer = 0,
+  x = 1160,
+  y = 152,
+  pattern = "door_top.stairs_up.2-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
 tile{
   layer = 1,
   x = 1576,
@@ -10925,24 +10953,6 @@ tile{
 tile{
   layer = 1,
   x = 944,
-  y = 16,
-  width = 32,
-  height = 8,
-  pattern = "door_top.stairs.1-1",
-}
-
-tile{
-  layer = 1,
-  x = 952,
-  y = 16,
-  width = 16,
-  height = 8,
-  pattern = "door_top.stairs_up.1-1",
-}
-
-tile{
-  layer = 1,
-  x = 944,
   y = 456,
   width = 32,
   height = 8,
@@ -11037,6 +11047,50 @@ tile{
   width = 8,
   height = 32,
   pattern = "door_top.closed.3-6",
+}
+
+dynamic_tile{
+  name = "boss_door_north_closed",
+  layer = 1,
+  x = 944,
+  y = 16,
+  pattern = "door_top.closed.1-5",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_north_open_2",
+  layer = 1,
+  x = 944,
+  y = 16,
+  pattern = "door_top.stairs.1-1",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_north_open",
+  layer = 1,
+  x = 952,
+  y = 16,
+  pattern = "door_top.stairs_up.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_south_closed",
+  layer = 1,
+  x = 944,
+  y = 456,
+  pattern = "door_top.closed.2-5",
+  width = 32,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{
@@ -11325,5 +11379,16 @@ separator{
   y = 232,
   width = 640,
   height = 16,
+}
+
+custom_entity{
+  name = "heart_container_hand",
+  layer = 2,
+  x = 960,
+  y = -11,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "enemies/alttp/wallmaster",
 }
 

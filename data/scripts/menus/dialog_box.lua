@@ -9,6 +9,11 @@ local language_manager = require("scripts/language_manager")
 -- Creates and sets up a dialog box for the specified game.
 local function initialize_dialog_box_features(game)
 
+  if game.get_dialog_box ~= nil then
+    -- Already done.
+    return
+  end
+
   local dialog_box = {
 
     -- Dialog box properties.

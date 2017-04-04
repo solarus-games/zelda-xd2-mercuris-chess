@@ -98,8 +98,10 @@ function rupees_builder:new(game, config)
     rupees.surface:draw(dst_surface, x, y)
   end
 
-  rupees:check()
-  rupees:rebuild_surface()
+  function rupees:on_started()
+    rupees:check()
+    rupees:rebuild_surface()
+  end
 
   return rupees
 end

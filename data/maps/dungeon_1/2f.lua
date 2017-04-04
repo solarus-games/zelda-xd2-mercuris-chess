@@ -10,6 +10,11 @@
 local map = ...
 local game = map:get_game()
 
+local separator_manager = require("scripts/maps/separator_manager")
+separator_manager:manage_map(map)
+local door_manager = require("scripts/maps/door_manager")
+door_manager:manage_map(map)
+
 function map:on_started()
   if game:get_value("dungeon_1_mario_painting") == true then
     map:remove_entities("weak_wall")

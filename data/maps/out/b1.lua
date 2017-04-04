@@ -21,8 +21,8 @@ function map:on_started()
     map:remove_entities("random_walk_npc_riot")
   end
 
-  -- Hide the Fire Rod NPC if player already has the fire rod
-  local has_perfume = game:has_item("perfume_counter") and game:get_item("perfume_counter"):has_amount()
+  -- Hide the perfume NPC if player already has the perfume
+  local has_perfume = game:has_item("perfume_counter")
   if has_perfume and perfume_npc ~= nil then 
     perfume_npc:remove()
   end
@@ -30,7 +30,7 @@ function map:on_started()
 end
 
 function perfume_sensor:on_activated()
-  local has_perfume = game:has_item("perfume_counter") and game:get_item("perfume_counter"):has_amount()
+  local has_perfume = game:has_item("perfume_counter")
   if has_perfume then 
     return
   end

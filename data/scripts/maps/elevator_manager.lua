@@ -55,6 +55,8 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
 
   local function cancel_elevator()
     map:open_doors(elevator_door:get_name())
+    map:set_entities_enabled(elevator_prefix .. "_up_tile", false)
+    map:set_entities_enabled(elevator_prefix .. "_down_tile", false)
     local x, y = elevator_sensor:get_position()
     hero:set_position(x, y + 8)
     hero:set_direction(3)
@@ -102,7 +104,7 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
     end
 
     local handled = false
-    if command == "action" then
+    if command == "action" or command == "attack" then
       if selected_floor == current_floor then
         cancel_elevator()
       else
@@ -111,9 +113,6 @@ function elevator_manager:create_elevator(map, elevator_prefix, min_floor, max_f
         hero:teleport(destination_map_id, destination_name)
         teletransportating = true
       end
-      handled = true
-    elseif command == "attack" then
-      cancel_elevator()
       handled = true
     elseif command == "up" then
       sol.audio.play_sound("cursor")

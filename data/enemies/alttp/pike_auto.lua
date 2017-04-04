@@ -12,7 +12,7 @@ local recent_obstacle = 0
 function enemy:on_created()
 
   enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_damage(2)
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
   enemy:set_can_hurt_hero_running(true)

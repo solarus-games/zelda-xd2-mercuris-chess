@@ -19780,7 +19780,7 @@ jumper{
   width = 24,
   height = 8,
   direction = 6,
-  jump_length = 48,
+  jump_length = 56,
 }
 
 wall{

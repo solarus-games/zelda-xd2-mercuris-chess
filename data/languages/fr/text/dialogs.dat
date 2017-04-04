@@ -3130,7 +3130,7 @@ dialog{
 Arrête de nourrir le
 chat, tu ne trouves
 pas qu'il est déjà
-assez gros comme ça?
+assez gros comme ça ?
 ]]
 }
 
@@ -4643,19 +4643,6 @@ pour la stocker...
 }
 
 dialog{
-  id = "intro.light_saber_confiscate",
-  text = [[
-Au fait !$0
-Si tu veux que je te
-rende le sabre laser
-que je t'ai confisqué,
-il va falloir que tu
-sois obéissant.
-Au travail !
-]]
-}
-
-dialog{
   id = "intro.light_saber_give_back",
   text = [[
 Un petit moment...$0$0
@@ -4664,15 +4651,15 @@ Voilà !
 Ah,$0
 j'allais oublier un
 truc !
-Tiens,
-voilà ton sabre laser.
-
+Tiens, je te rends le
+sabre laser que je
+t'avais confisqué.
 Je trouvais que le bleu
 n'était pas très joli...
 
-alors je me suis permise
-de changer la couleur.
-
+alors je me suis
+permise de changer la
+couleur.
 C'est bien mieux comme
 ça, tu verras.
 ]]

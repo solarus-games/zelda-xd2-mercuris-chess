@@ -1,6 +1,6 @@
 ____________________________________________
 
-Zelda XD2: Mercuris Chess 1.0.1 (in progress)
+Zelda XD2: Mercuris Chess 1.0.1 (2017-04-04)
 ____________________________________________
 
 * Fix duplicated menus after game-over (#2).
@@ -12,7 +12,7 @@ ____________________________________________
 * Fix stuck in the final scene when going to the left (#46).
 * Fix camera jumping in the freaking cave (#1).
 * Fix typos.
-* Various minor improvements.
+* Various minor improvements and bug fixes.
 
 ____________________________________________
 

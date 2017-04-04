@@ -1,0 +1,878 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 3200,
+  height = 2400,
+  min_layer = -1,
+  max_layer = 2,
+  tileset = "dungeon/gold",
+}
+
+tile{
+  layer = -1,
+  x = 160,
+  y = 240,
+  width = 288,
+  height = 160,
+  pattern = "floor.11-1",
+}
+
+tile{
+  layer = -1,
+  x = 232,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 232,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 272,
+  y = 296,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+tile{
+  layer = -1,
+  x = 272,
+  y = 336,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border-1",
+}
+
+custom_entity{
+  layer = -1,
+  x = 240,
+  y = 309,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/base",
+}
+
+custom_entity{
+  name = "rp1",
+  layer = -1,
+  x = 240,
+  y = 309,
+  width = 48,
+  height = 48,
+  direction = 0,
+  sprite = "entities/rotating_platform/barrier",
+  model = "rotating_platform",
+}
+
+wall{
+  layer = -1,
+  x = 240,
+  y = 328,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 264,
+  y = 328,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 240,
+  y = 304,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = -1,
+  x = 264,
+  y = 304,
+  width = 8,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 48,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2-2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 48,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1-2",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 56,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 24,
+  width = 24,
+  height = 24,
+  pattern = "door_main.2.floor.2-1",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 24,
+  width = 24,
+  height = 24,
+  pattern = "door_main.2.floor.3-1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 32,
+  width = 32,
+  height = 24,
+  pattern = "door_main.2.floor.1-1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 16,
+  width = 64,
+  height = 8,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 24,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 24,
+  width = 8,
+  height = 24,
+  pattern = "floor_border.2",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "floor_pot",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 0,
+  width = 336,
+  height = 176,
+  pattern = "floor.11-1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "265",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "267",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "268",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "267",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 328,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "268",
+}
+
+tile{
+  layer = 0,
+  x = 360,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "268",
+}
+
+tile{
+  layer = 0,
+  x = 392,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "268",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "265",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "267",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 424,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "266",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "275",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "281",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "275",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "316",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "305",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "323",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "309",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "322",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "321",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "325",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "305",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "322",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "324",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "323",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "309",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "322",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "305",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "305",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "309",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "309",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "305",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "322",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "324",
+}
+
+wall{
+  layer = 0,
+  x = 176,
+  y = 48,
+  width = 272,
+  height = 8,
+  stops_enemies = true,
+}
+
+wall{
+  layer = 0,
+  x = 176,
+  y = 16,
+  width = 272,
+  height = 8,
+  stops_enemies = true,
+}
+
+destructible{
+  layer = 0,
+  x = 24,
+  y = 117,
+  treasure_name = "random",
+  sprite = "entities/vase",
+  destruction_sound = "stone",
+  damage_on_enemies = 2,
+}
+
+custom_entity{
+  layer = 0,
+  x = 88,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 1,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+custom_entity{
+  layer = 0,
+  x = 56,
+  y = 117,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/torch",
+  model = "torch",
+}
+
+enemy{
+  name = "auto_enemy_6",
+  layer = 0,
+  x = 200,
+  y = 29,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  name = "auto_enemy_4",
+  layer = 0,
+  x = 296,
+  y = 61,
+  direction = 3,
+  breed = "creeper",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 232,
+  y = 29,
+  direction = 3,
+  breed = "alttp/flying_tile",
+}
+
+enemy{
+  name = "auto_enemy_7",
+  layer = 0,
+  x = 328,
+  y = 61,
+  direction = 3,
+  breed = "newlink/zoura_green",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_8",
+  layer = 0,
+  x = 360,
+  y = 61,
+  direction = 3,
+  breed = "newlink/zoura_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_9",
+  layer = 0,
+  x = 392,
+  y = 61,
+  direction = 3,
+  breed = "newlink/zoura_red",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_5",
+  layer = 0,
+  x = 264,
+  y = 21,
+  direction = 3,
+  breed = "alttp/bubble",
+}
+
+enemy{
+  name = "auto_enemy_2",
+  layer = 0,
+  x = 232,
+  y = 61,
+  direction = 3,
+  breed = "alttp/ropa",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_3",
+  layer = 0,
+  x = 264,
+  y = 61,
+  direction = 3,
+  breed = "alttp/snap_dragon",
+  treasure_name = "random",
+}
+
+enemy{
+  name = "auto_enemy_1",
+  layer = 0,
+  x = 200,
+  y = 61,
+  direction = 3,
+  breed = "alttp/tentacle",
+  treasure_name = "random",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 304,
+  y = 157,
+  direction = 1,
+}
+
+enemy{
+  name = "auto_enemy_10",
+  layer = 0,
+  x = 424,
+  y = 61,
+  direction = 3,
+  breed = "alttp/zora_water",
+  treasure_name = "random",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "door_top.2-5",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "285",
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "313",
+}
+
+tile{
+  layer = 2,
+  x = 160,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "324",
+}
+
+tile{
+  layer = 2,
+  x = 168,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "323",
+}
+
+tile{
+  layer = 2,
+  x = 208,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "323",
+}
+
+tile{
+  layer = 2,
+  x = 216,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "327",
+}
+
+tile{
+  layer = 2,
+  x = 224,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "319",
+}
+
+tile{
+  layer = 2,
+  x = 232,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "322",
+}
+
+tile{
+  layer = 2,
+  x = 240,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "308",
+}
+
+tile{
+  layer = 2,
+  x = 144,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "317",
+}
+
+tile{
+  layer = 2,
+  x = 160,
+  y = 112,
+  width = 8,
+  height = 16,
+  pattern = "311",
+}
+
+tile{
+  layer = 2,
+  x = 160,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "312",
+}
+

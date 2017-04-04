@@ -1,0 +1,44 @@
+animation{
+  name = "stopped",
+  src_image = "npc/oclero/golden_tyranosaurus.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+    { x = 0, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93 },
+  },
+}
+animation{
+  name = "anger",
+  src_image = "npc/oclero/golden_tyranosaurus.png",
+  frame_delay = 100,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 1632, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 1632, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 1632, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+    { x = 1632, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 4 },
+  },
+}
+animation{
+  name = "no",
+  src_image = "npc/oclero/golden_tyranosaurus.png",
+  frame_delay = 50,
+  directions = {
+    { x = 864, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+    { x = 864, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+    { x = 864, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+    { x = 864, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+  },
+}
+animation{
+  name = "yes",
+  src_image = "npc/oclero/golden_tyranosaurus.png",
+  frame_delay = 50,
+  directions = {
+    { x = 96, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+    { x = 96, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+    { x = 96, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+    { x = 96, y = 0, frame_width = 96, frame_height = 96, origin_x = 48, origin_y = 93, num_frames = 8 },
+  },
+}

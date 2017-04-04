@@ -1,0 +1,7344 @@
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+C'est un interrupteur
+de cristal. Frappe-le
+avec quelque chose...
+]]
+}
+
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = "1",
+  skip = "all",
+  text = [[
+Avec les Bombes,
+explose plein de
+trucs !
+]]
+}
+
+dialog{
+  id = "_item_description.boomerang.1",
+  icon = "34",
+  skip = "all",
+  text = [[
+Utilise le Boomerang
+pour immobiliser les
+ennemis ou attraper
+des objets à
+distance.
+]]
+}
+
+dialog{
+  id = "_item_description.boomerang.2",
+  icon = "35",
+  skip = "all",
+  text = [[
+Utilise le Boomerang
+pour immobiliser les
+ennemis ou attraper
+des objets à
+distance.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_1.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_2.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_3.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+Le Flacon Magique
+peut contenir pas
+mal de trucs...
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Tu ferais mieux de
+la vider.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Bois de la Potion
+rouge pour retrouver
+tous tes Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Bois de la Potion
+verte pour retrouver
+toute ta magie.
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Bois de la Potion
+bleue pour retrouver
+vie et magie !
+]]
+}
+
+dialog{
+  id = "_item_description.bottle_4.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+Cette Fée viendra
+t'aider quand tu
+agoniseras.
+]]
+}
+
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+Tu n'as plus de
+flèches, et c'est
+tant mieux vu que de
+toute façon, la
+corde est cassée.
+]]
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+La corde de ton arc
+est cassée, que
+vas-tu faire de
+toutes ces flèches ?
+]]
+}
+
+dialog{
+  id = "_item_description.cat_food.1",
+  icon = "37",
+  skip = "all",
+  text = [[
+Une boite de
+conserve contenant
+de la nourriture
+pour chat.
+
+
+Ça n'a pas l'air
+très appétissant,
+mais bon...
+c'est destiné aux
+chats, n'est-ce
+pas ?
+]]
+}
+
+dialog{
+  id = "_item_description.croissants_counter.1",
+  icon = "18",
+  skip = "all",
+  text = [[
+Mange un Croissant
+pour récupérer
+7 Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.feather.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+C'est une Plume,
+mais elle est plutôt
+pénible à utiliser.
+]]
+}
+
+dialog{
+  id = "_item_description.feather.2",
+  icon = "20",
+  skip = "all",
+  text = [[
+Cette iPlume permet
+de sauter au-dessus
+des trous
+mais bien plus
+encore.
+]]
+}
+
+dialog{
+  id = "_item_description.fire_rod.1",
+  icon = "27",
+  skip = "all",
+  text = [[
+La baguette de feu 
+avec laquelle a été
+incendié le Bureau
+des Objets Trouvés.
+]]
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Les Palmes te
+permettent de nager
+dans l'eau profonde
+et le champagne.
+]]
+}
+
+dialog{
+  id = "_item_description.flippers.2",
+  icon = "26",
+  skip = "all",
+  text = [[
+Les Palmes te
+permettent de nager
+dans l'eau profonde
+et le champagne.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+Avec ça tu peux
+soulever plusieurs
+machins, je crois.
+]]
+}
+
+dialog{
+  id = "_item_description.glove.2",
+  icon = "33",
+  skip = "all",
+  text = [[
+Soulève les pierres
+noires grâce à la
+Poigne d'Or.
+]]
+}
+
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = "6",
+  skip = "all",
+  text = [[
+Hisse-toi à des
+endroits
+inaccessibles grâce
+au Grappin.
+]]
+}
+
+dialog{
+  id = "_item_description.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Eclaire-toi dans le
+noir ou allume des
+braseros à l'aide
+de la Lanterne. Mais
+surveille ton
+compteur magique !
+]]
+}
+
+dialog{
+  id = "_item_description.lens_of_truth.1",
+  icon = "14",
+  skip = "all",
+  text = [[
+Utilise le Monocle
+des Vérités
+Alternatives
+pour y voir plus
+clair et démêler le
+vrai du faux.
+Approuvé par le
+Ministère de la
+Vérité !
+]]
+}
+
+dialog{
+  id = "_item_description.library_award.1",
+  icon = "31",
+  skip = "all",
+  text = [[
+Diplôme du meilleur
+rat de bibliothèque.
+]]
+}
+
+dialog{
+  id = "_item_description.mail_counter.1",
+  icon = "38",
+  skip = "all",
+  text = [[
+Du courrier pour la
+Princesse Zelda.
+
+Va vite le lui
+apporter !
+]]
+}
+
+dialog{
+  id = "_item_description.pains_au_chocolat_counter.1",
+  icon = "17",
+  skip = "all",
+  text = [[
+Mange un Pain au
+Chocolat pour
+récupéer 3 Coeurs.
+]]
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.1",
+  icon = "13",
+  skip = "all",
+  text = [[
+Sans lacets, les
+Bottes de Pégase
+font n'importe quoi.
+]]
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.2",
+  icon = "13",
+  skip = "all",
+  text = [[
+Fonce avec les
+Bottes de Pégase en
+appuyant sur Action.
+]]
+}
+
+dialog{
+  id = "_item_description.perfume_counter.1",
+  icon = "39",
+  skip = "all",
+  text = [[
+Parfum de marque
+renommée, ce Kipu
+les fera toutes
+tomber comme des
+mouches !
+]]
+}
+
+dialog{
+  id = "_item_description.vip_card.1",
+  icon = "36",
+  skip = "all",
+  text = [[
+Une carte VIP pour
+accéder à tous les
+étages
+de la Tour Grump.
+]]
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+Tu es déjà au maximum !
+]]
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Mec, t'es complètement
+fauché !
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Prix : $v rubis.
+Acheter
+Sûrement pas
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé une
+Flèche !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+Flèches pour vaincre
+des ennemis coriaces
+à distance.
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé 5
+Flèches !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+Tu as trouvé 10
+Flèches !$0
+Utilise l'Arc et les
+]]
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  text = [[
+Tu as trouvé la
+Grande Clé !
+Tu peux désormais
+ouvrir les grands
+coffres et les
+portes spéciales !
+]]
+}
+
+dialog{
+  id = "_treasure.blue_potion.1",
+  icon = "98",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+prendre un nouveau
+départ
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé une
+Bombe !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+pour faire exploser
+un ennemi ou un
+obstacle.
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé 3
+Bombes !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+Tu as trouvé 8
+Bombes !$0
+Utilise une Bombe
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  text = [[
+Tu as trouvé le Sac
+de Bombes !$0 Il
+contient 10 Bombes.
+Ca va faire $1
+pschhhhhhhhhhhhhhhht $0 $3
+BOUM !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  text = [[
+Tu as trouvé le Sac
+de Bombes !$0Tu peux
+exploser les murs...
+Ah ? Tu l'as déjà ?
+Dommage... !
+]]
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  text = [[
+Tu as trouvé le Sac
+de Bombes Géant !$0
+
+C'est génial !
+Il peut contenir
+jusqu'à 12 Bombes !
+]]
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "34",
+  text = [[
+Tu as trouvé le
+Boomerang !$0 Tu peux
+immobiliser les
+ennemis ou attraper
+des objets à
+distance.
+]]
+}
+
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = "35",
+  text = [[
+Tu as trouvé le
+Boomerang !$0 Tu peux
+immobiliser les
+ennemis ou attraper
+des objets à
+distance.
+]]
+}
+
+dialog{
+  id = "_treasure.boss_key.1",
+  icon = "74",
+  text = [[
+Tu as trouvé la
+Clé du Maître !
+
+Tu peux enfin rendre
+visite au maître des
+lieux !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_1.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_2.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_3.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.1",
+  icon = "7",
+  text = [[
+Tu as trouvé un
+Flacon Magique !$0
+
+Ca a sûrement un
+intérêt quelconque !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.2",
+  icon = "8",
+  text = [[
+Tu as trouvé de
+l'eau !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.3",
+  icon = "9",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour
+retrouver toute ton
+énergie vitale.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.4",
+  icon = "10",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+retrouver toute ton
+énergie magique.
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.5",
+  icon = "11",
+  text = [[
+Tu as trouvé de la
+Potion Bleue !$0
+
+Bois-la pour
+retrouver toute ta
+vie et ta magie !
+]]
+}
+
+dialog{
+  id = "_treasure.bottle_4.6",
+  icon = "12",
+  text = [[
+Tu as capturé une
+Fée ! Elle te
+viendra en aide si
+tu es en difficulté.
+Tu peux aussi
+l'utiliser à tout
+moment pour
+récupérer des
+Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "2",
+  text = [[
+Tu as trouvé l'Arc !$0
+Tu peux jouer à
+Robin des Bois !
+]]
+}
+
+dialog{
+  id = "_treasure.bow.2",
+  icon = "3",
+  text = [[
+Tu as trouvé l'Arc !$0
+Tu peux jouer à
+Robin des Bois !
+]]
+}
+
+dialog{
+  id = "_treasure.cat_food.1",
+  icon = "37",
+  text = [[
+Zelda t'a donné la 
+nourriture pour
+chat !$0
+Va vite nourrir son
+petit chaton car il
+semble affamé !
+La pauvre petite
+boule de poils...
+Dépêche-toi !
+]]
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  text = [[
+Tu as trouvé
+la Boussole ! Elle
+indique ta position
+sur la Carte, les
+emplacements des
+coffres et du Boss.
+C'est ça le
+progrès !
+]]
+}
+
+dialog{
+  id = "_treasure.creeper.1",
+  text = [[
+Attention !!!
+]]
+}
+
+dialog{
+  id = "_treasure.croissant.1",
+  icon = "18",
+  text = [[
+Tu as trouvé un
+Croissant !$0 Il est
+croustillant !
+Mange un Croissant
+pour récupérer
+7 Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.feather.1",
+  icon = "0",
+  text = [[
+Tu as trouvé la
+Plume !$0 Utilise-la
+pour sauter...
+Ah ? Tu l'as déjà ?
+Dommage... !
+]]
+}
+
+dialog{
+  id = "_treasure.feather.2",
+  icon = "20",
+  text = [[
+Tu as acheté une
+iPlume !$0
+
+Elle ne fait rien de
+plus qu'une Plume
+normale, mais elle
+fait croire aux
+gens que tu as la
+classe.
+C'est vrai que le
+logo est pas mal.
+]]
+}
+
+dialog{
+  id = "_treasure.feather.3",
+  icon = "20",
+  text = [[
+Tu as trouvé la
+Plume !$0 Utilise-la
+pour sauter...
+Ah ? Tu l'as déjà ?
+Dommage... !
+]]
+}
+
+dialog{
+  id = "_treasure.fire_rod.1",
+  icon = "27",
+  text = [[
+Le pyromane du
+Bureau des Objets
+Trouvés t'a refilé
+la Baguette de Feu !
+
+
+Tu peux tout 
+cramer !!!
+
+Mais surveille ton
+compteur magique !
+
+Heu... Tout bien
+réfléchi, tu ne devrais
+peut-être pas trop
+t'afficher en
+possession de cette
+arme.
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  icon = "26",
+  text = [[
+Tu as volé les
+Palmes !$0
+
+Tu peux maintenant
+apprécier les
+millesimes de Grump
+à leur juste valeur.
+]]
+}
+
+dialog{
+  id = "_treasure.flippers.2",
+  icon = "26",
+  text = [[
+Tu as trouvé les
+Palmes !$0
+Tu les as bien
+payées, cette
+fois-ci elles sont
+à toi.
+]]
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  icon = "32",
+  text = [[
+Tu as trouvé la
+Poigne de Fer !$0Tu
+peux soulever les...
+Ah ? Tu l'as déjà ?
+Dommage... !
+]]
+}
+
+dialog{
+  id = "_treasure.glove.2",
+  icon = "33",
+  text = [[
+Tu as trouvé la
+Poigne d'Or !$0
+
+Tu peux maintenant
+soulever les pierres
+noires !
+]]
+}
+
+dialog{
+  id = "_treasure.green_potion.1",
+  icon = "97",
+  text = [[
+Tu as trouvé de la
+Potion Verte !$0
+
+Bois-la pour
+te sentir humoriste
+dans l'âme
+]]
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  text = [[
+Tu as trouvé un
+Coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "80",
+  text = [[
+Tu as trouvé un
+Réceptacle de Coeur.
+
+Tu obtiens un Coeur
+supplémentaire !
+Ca poutre !
+]]
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = "6",
+  text = [[
+Tu as trouvé le
+Grappin !$0 Immobilise
+les ennemis et vole
+vers des endroits
+inacessibles !
+]]
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  next = "warning_magic",
+  text = [[
+Tu as trouvé la
+Lanterne !$0
+
+Bah
+oui je trouvais
+que ça manquait
+un peu de lumière
+ici.
+]]
+}
+
+dialog{
+  id = "_treasure.lens_of_truth.1",
+  icon = "14",
+  next = "warning_magic",
+  text = [[
+Tu as trouvé le
+Monocle des Vérités
+Alternatives !$0
+Tu vas enfin pouvoir
+essayer d'y voir
+plus clair et de
+démêler le vrai du
+faux !
+]]
+}
+
+dialog{
+  id = "_treasure.library_award.1",
+  icon = "31",
+  text = [[
+Tu as débloqué
+le succès "Rat de
+bibliothèque" !
+Peut-être y en
+a-t-il d'autres ?
+Hein ?
+À quoi ça sert ?
+Juste à frimer et à
+montrer qu'un jour
+tu seras le
+meilleur joueur.
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = "85",
+  text = [[
+Tu as trouvé une
+petite bouteille
+d'énergie magique !
+]]
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = "86",
+  text = [[
+Tu as trouvé une
+grande bouteille
+d'énergie magique !
+]]
+}
+
+dialog{
+  id = "_treasure.mail.1",
+  icon = "38",
+  text = [[
+Tu as trouvé
+une lettre adressée
+à la princesse
+Zelda !
+Va vite la lui
+apporter.
+]]
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  text = [[
+Tu as trouvé
+la Carte !
+
+Utilise-la pour
+connaître le plan
+des environs.
+]]
+}
+
+dialog{
+  id = "_treasure.pain_au_chocolat.1",
+  icon = "17",
+  text = [[
+Tu as trouvé un Pain
+au Chocolat !$0
+
+Mange un Pain au
+Chocolat pour
+récupérer 3 Coeurs.
+]]
+}
+
+dialog{
+  id = "_treasure.pegasus_shoelaces.1",
+  icon = "22",
+  text = [[
+Tu as trouvé des
+lacets pour tes
+Bottes de Pégase !$0
+Tu peux enfin te
+diriger correctement
+quand tu fonces.
+Appuie sur Action
+pour courir.
+
+Mais attention à
+ne pas les casser !
+]]
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = "13",
+  text = [[
+Tu as retrouvé les
+Bottes de Pégase
+sans lacets !
+C'est dur à manier,
+mais tu peux aller
+super vite !
+]]
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.2",
+  icon = "23",
+  text = [[
+Tu as trouvé les
+Bottes de Pégase !
+
+Tu peux foncer
+partout !
+]]
+}
+
+dialog{
+  id = "_treasure.perfume.1",
+  icon = "39",
+  text = [[
+Tu as trouvé le
+parfum Kipu de
+Cacaco Charnel !
+Tu vas pouvoir faire
+craquer toutes les
+filles !
+]]
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = "79",
+  text = [[
+Tu as trouvé un
+Fragment de Coeur !
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  text = [[
+Tu as trouvé le
+Grand Carquois !$0
+
+Il peut contenir
+jusqu'à 30 Flèches
+au lieu de 10 !
+]]
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  text = [[
+Tu as trouvé le
+Carquois Géant !$0
+
+Il peut contenir
+jusqu'à 100 Flèches
+au lieu de 30 !
+]]
+}
+
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = "96",
+  text = [[
+Tu as trouvé de la
+Potion Rouge !$0
+
+Bois-la pour te doper
+et enchaîner les
+mobs !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  text = [[
+Tu as trouvé un
+Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  text = [[
+Tu as trouvé un
+Rubis bleu.
+Il vaut 5 Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  text = [[
+Tu as trouvé un
+Rubis rouge !
+Il vaut 20 Rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "90",
+  text = [[
+Tu as trouvé 50
+Rubis !
+Merveilleux !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "90",
+  text = [[
+Tu as trouvé 100
+Rubis !
+Fantastique !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "90",
+  text = [[
+Tu as trouvé 200
+Rubis !
+C'est l'extase !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee_bag.2",
+  icon = "52",
+  text = [[
+Tu as trouvé le
+Grand Sac de Rubis !$0
+
+Il peut contenir
+jusqu'à 300 rubis !
+
+Dommage que le jeu
+soit fini, ça aurait
+pu être utile !
+]]
+}
+
+dialog{
+  id = "_treasure.rupee_bag.3",
+  icon = "53",
+  text = [[
+Tu as trouvé le
+Sac de Rubis Géant !$0
+
+Il peut contenir
+jusqu'à 999 rubis !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  text = [[
+Tu as retrouvé ton
+Bouclier !$0
+
+Mais pourquoi tu
+l'avais laissé
+traîner dehors ?
+]]
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  text = [[
+Tu as trouvé le
+Bouclier
+bling-bling !$0
+Tu es désormais
+protégé contre ton
+ennemie la finance !
+]]
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  text = [[
+Tu as trouvé le
+Bouclier Miroir !$0
+
+Tu peux désormais
+contrer les lasers !
+]]
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  text = [[
+Tu as trouvé une
+Petite Clé !
+
+Tu peux ouvrir une
+porte verrouillée
+dans les environs.
+]]
+}
+
+dialog{
+  id = "_treasure.small_key_brandished.1",
+  icon = "72",
+  text = [[
+Tu as trouvé une
+Petite Clé !
+
+Tu peux ouvrir une
+porte verrouillée
+dans les environs.
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  text = [[
+Tu as retrouvé ton
+épée d’entraînement.
+
+C'est la tienne car
+il y a ton nom
+dessus !
+Mais qu'est-ce
+qu'elle fait ici ?
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  text = [[
+Tu as trouvé le
+Sabre Laser !$0
+
+Tu peux faire appel
+à la Forcetri !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "68",
+  text = [[
+Tu as récupéré ton
+Sabre Laser !$0
+
+Mais... on dirait
+qu'il a été
+relooké !
+]]
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  text = [[
+Vert ton Sabre Laser
+maintenant est !$0
+
+Beaucoup plus classe
+comme cela il a
+l'air.
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  text = [[
+Tu as trouvé la
+Cotte de Mailles
+bleue !$0 Elle te
+permet de résister
+aux températures les
+plus glaciales...
+]]
+}
+
+dialog{
+  id = "_treasure.tunic.3",
+  icon = "62",
+  text = [[
+Tu as trouvé la
+Cotte de Mailles
+rouge !$0 Elle te
+protège de manière
+plus efficace contre
+les ennemis !
+]]
+}
+
+dialog{
+  id = "_treasure.vip_card.1",
+  icon = "36",
+  text = [[
+Tu as trouvé la
+Carte VIP !
+
+Tu peux maintenant
+accéder à tous les
+étages de la tour !
+]]
+}
+
+dialog{
+  id = "big_key_required",
+  icon = "73",
+  text = [[
+Il te faut la Grande
+Clé pour ouvrir
+cette serrure !
+]]
+}
+
+dialog{
+  id = "boss_key_required",
+  icon = "74",
+  text = [[
+C'est la porte du
+Boss !
+
+N'espère pas
+l'ouvrir sans la
+Clé du Maître !
+]]
+}
+
+dialog{
+  id = "bow_broken",
+  text = [[
+La corde est cassée !
+Mince alors !
+]]
+}
+
+dialog{
+  id = "cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Il te faudrait quelque
+chose de tranchant pour
+couper ces buissons...
+]]
+}
+
+dialog{
+  id = "cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+C'est largement trop
+pour tes petits bras !
+]]
+}
+
+dialog{
+  id = "cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+C'est largement trop
+pour tes petits bras !
+]]
+}
+
+dialog{
+  id = "chest_game.go_chest",
+  text = [[
+Qu'attendez-vous pour
+ouvrir un coffre ?
+]]
+}
+
+dialog{
+  id = "chest_game.not_enough_money",
+  text = [[
+Vous n'avez pas assez
+d'argent Monsieur !
+]]
+}
+
+dialog{
+  id = "chest_game.pay_first",
+  text = [[
+Hé ! Ici il faut payer
+avant de jouer !
+]]
+}
+
+dialog{
+  id = "chest_game.rules",
+  question = "1",
+  text = [[
+Misez 20 rubis pour
+choisir un coffre et
+gagner son contenu.
+Vous voulez jouer ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "chest_game.thanks",
+  text = [[
+Bonne chance héhé !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.cleaning_old_lady",
+  skip = "all",
+  text = [[
+La dernière fois, un
+gars un peu enveloppé
+aux jolies tresses
+rousses a voulu faire
+un plongeon dans
+cette piscine. Hélas,
+il n'y avait pas assez
+de place pour l'eau et
+lui dans le même bac.
+J'ai mis toute la
+journée à éponger le
+sol, une cata.
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.cold",
+  skip = "all",
+  text = [[
+J'ai essayé le Lava
+Pool Challenge il y a
+quelques jours...
+Depuis, je ne jure que
+par cette piscine
+glacée !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.employee_only",
+  skip = "all",
+  text = [[
+ Bains de Bougre-de-
+   Sagouin Jeanson
+ !! DANGER DE MORT !!
+
+  Personnel autorisé
+    uniquement !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.entrance",
+  skip = "all",
+  text = [[
+Bonjour et bienvenue !
+Vous avez de la chance
+car aujourd'hui, nos
+bains sont en libre-
+service ! N'hésitez
+pas à vous revigorer
+au premier sous-sol,
+à vous détendre au
+second, ou à surmonter
+le défi du troisième !
+
+
+Et n'oubliez pas de
+toujours avoir une
+serviette sur vous !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.envy_champagne_pool",
+  skip = "all",
+  text = [[
+Ils sont nuls ces
+bains... Il paraît
+qu'il existe des bains
+faits d'or et de
+champagne dans le
+château de M. Grump,
+avec des bulles qui
+vous caressent et vous
+font perdre la tête...
+Pourquoi on n'a pas ça
+dans ces bains si
+réputés !?
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.hungry_child",
+  skip = "all",
+  text = [[
+Mouais... C'est pas
+mal, ça détend...
+
+Il manque quelque
+chose. Je saurais pas
+dire quoi, mais il
+manque quelque chose.
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.lava_challenge",
+  skip = "all",
+  text = [[
+Toi aussi, relève le
+Lava Pool Challenge !
+
+Si tu y parviens, je
+te donnerai ton poids
+en rubis !
+C'est simple : reste
+plus d'une minute
+dans la lave et tu
+peux réclamer ton prix
+à l'entrée !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.lovers_brassens",
+  skip = "all",
+  text = [[
+J'ai entendu dire que
+parfois, les amoureux
+se bécotent dans les
+bains publics. Un gars
+en a même fait une
+chanson.
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.miserable_myrtle",
+  skip = "all",
+  text = [[
+Un jour, un fantôme
+m'a dit qu'ouvrir un
+oeuf en or sous l'eau
+dévoilerait une énigme
+digne d'un grand mage.
+J'te raconte pas la
+frousse...
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.tea_for_two",
+  skip = "all",
+  text = [[
+Tea... for two
+and two for tea...
+
+Are you ? ...
+Comment ça ?
+
+But alors you are
+French ?
+]]
+}
+
+dialog{
+  id = "chill_valley.bath.warning_sockets",
+  skip = "all",
+  text = [[
+Petit bain.
+Pensez à retirer vos
+chaussettes !
+]]
+}
+
+dialog{
+  id = "chill_valley.bath_sign",
+  skip = "all",
+  text = [[
+Chill Valley,
+ville thermale.
+
+Venez profiter d'un
+moment inoubliable de
+détente et de
+relaxation dans nos
+spas et nos saunas.
+
+Ici, le bien-être
+est un art !
+]]
+}
+
+dialog{
+  id = "chill_valley.big_bird",
+  skip = "all",
+  text = [[
+Une aventure contre un
+gros zozio ?
+
+Il faut être naïf pour
+y croire...
+]]
+}
+
+dialog{
+  id = "chill_valley.doc",
+  skip = "all",
+  text = [[
+Bonjour Monsieur, c'est
+à quel sujet ?
+
+Non, je ne fais rien de
+particulier, je mène
+une petite expérience
+météorologique.
+]]
+}
+
+dialog{
+  id = "chill_valley.east_sign",
+  skip = "all",
+  text = [[
+  - Chill Valley -
+La ville dont le nom
+est synonyme de succès.
+]]
+}
+
+dialog{
+  id = "chill_valley.l_house",
+  skip = "all",
+  text = [[
+C'est l'enfer !
+Complètement gelé !
+
+Je ne comprends pas,
+j'ai le chauffage à
+fond...
+]]
+}
+
+dialog{
+  id = "chill_valley.library_sign",
+  skip = "all",
+  text = [[
+Bibliothèque municipale
+]]
+}
+
+dialog{
+  id = "chill_valley.mercuris_time_travel",
+  skip = "all",
+  text = [[
+Je n'en peux plus
+d'attendre la sortie de
+Zelda Mercuris' Chest.
+Je voudrais qu'on soit
+déjà en 2023 !
+Alors j'ai fait appel
+aux meilleurs
+spécialistes du voyage
+dans le temps.
+Mais je ne sais pas
+s'ils accepteront de
+m'aider !
+]]
+}
+
+dialog{
+  id = "chill_valley.no_entry_1",
+  skip = "all",
+  text = [[
+...
+
+
+Bonjour ?
+
+
+On se connaît ?
+
+
+Tu parles souvent à des
+inconnus comme ça ?
+]]
+}
+
+dialog{
+  id = "chill_valley.no_entry_2",
+  skip = "all",
+  text = [[
+Hey, tu te prends pour
+qui a rentrer partout ?
+C'est pas parce que tu
+sauves le monde que
+toutes les portes te
+sont ouvertes.
+]]
+}
+
+dialog{
+  id = "chill_valley.north_sign",
+  skip = "all",
+  text = [[
+Nord : Île des Rubis
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_1",
+  skip = "all",
+  text = [[
+Bonjour, je suis le
+Docteur.
+
+Il y a quelque chose
+qui ne tourne pas rond
+par ici.
+Tu aurais des infos à
+propos des rubis ?
+
+Je crois que les
+rubis se comportent
+de façon... impossible.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_2",
+  skip = "all",
+  text = [[
+Les gens pensent que
+le temps est une
+simple progression de
+cause à effet. Mais,
+en vérité, d'un point
+de vue non-linéaire,
+d'un point de vue non
+subjectif, c'est
+plutôt une sorte
+d'énorme boule où le
+temps s'enchevêtre
+comme un méli-mélo
+très complexe.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_3",
+  skip = "all",
+  text = [[
+Ne t'occupe pas trop de
+ces ces statues,
+tout va bien.
+Par contre, évite juste
+de cligner des yeux.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_4",
+  skip = "all",
+  text = [[
+Il y a une sorte de
+savant fou au sud de
+cette ville.
+Il n'en parle pas mais
+il a quelques notions
+basiques sur les
+voyages dans le temps,
+même plutôt bonnes pour
+un humain.
+Il estime que la
+cohérence du
+continuum espace-temps
+doit être maintenue.
+
+
+Pourtant, le temps peut
+être réécrit ! Enfin,
+sauf les points fixes.
+]]
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_5",
+  skip = "all",
+  text = [[
+Oh... River...
+]]
+}
+
+dialog{
+  id = "chill_valley.one_day",
+  skip = "all",
+  text = [[
+Il paraît que Zelda
+Mercuris' Chest va
+sortir un jour.
+]]
+}
+
+dialog{
+  id = "chill_valley.out_soon",
+  skip = "all",
+  text = [[
+La sortie de Zelda
+Mercuris' Chest n'a
+jamais été
+aussi proche !
+]]
+}
+
+dialog{
+  id = "chill_valley.race_track_old_guy",
+  skip = "all",
+  text = [[
+Ils ont voulu racheter
+ma maison.
+J'ai refusé.
+Et maintenant ils ont
+construit le circuit
+autour.
+*sob* *sob*
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.dogman",
+  skip = "all",
+  text = [[
+Je m'appelle Ernest et
+au fond, je suis pas
+méchant, je joue juste
+un rôle dans cette
+partie... En vrai, on
+dit que je suis un
+gros bisounours... Si
+seulement j'avais le
+droit de faire des
+câlins au lieu de
+foncer dans le tas,
+j'hésiterais pas une
+seconde, crois-moi...
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.ganon",
+  skip = "all",
+  text = [[
+Oh, c'est toi...
+Vas-y, rigole de ce
+que je suis devenu...
+Un pauvre SDF. Ils ont
+détruit ma tour, non
+mais sérieux... La
+dernière fois, tu m'as
+laissé pour mort dans
+la lave... Tu étais
+l'élu, mais tu aurais
+pu m'aider... Certes,
+j'ai dit "Duel à mort"
+mais tu sais bien que
+je peux m'emporter
+rapidement... Du coup,
+j'ai ouvert ce club
+pour monstres repentis
+et ça a pas mal de
+succès. Tu devrais
+goûter nos petits
+fours, c'est un vrai
+délice.
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.gibdo",
+  skip = "all",
+  text = [[
+Ma soeur est danseuse
+dans une crypte. Ça
+a l'air de le faire
+pour elle. Et moi, que
+fais-je de ma non-vie,
+je te le demande ? Je
+devrais peut-être
+aller voir aussi ce
+"Necrodancer", tu ne
+crois pas ?
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.mandible",
+  skip = "all",
+  text = [[
+QUOI ? Qu'est-ce tu
+m'veux ? Tu m'cherches
+ou tu veux ma photo ?
+Ouais chuis un mutant,
+ET ALORS ?
+...
+...
+...
+...
+Pardon, j'recommence
+à m'vénère pour d'la
+demer... J'viens ici
+pour apprendre à
+m'contrôler... Sans
+rancune frangin ?
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.skel",
+  skip = "all",
+  text = [[
+MON COUSIN A TROUVÉ UN
+CDI AVEC UNE TORTUE
+GEANTE ET QUATRE
+ÉLÉPHANTS. IL DIT ÊTRE
+UNE... PER... SONNI...
+FICATION... EUUUH...
+ANTHRO... POMORPHIQUE.
+JE SAIS PAS CE QUE
+C'EST, MAIS CA A L'AIR
+COOL.
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.snap_dragon",
+  skip = "all",
+  text = [[
+Je compte ouvrir
+un salon de coiffure
+pour me racheter de
+toutes ces pauvres
+bêtes que j'ai mangé
+dans ma vie maléfique
+passée. N'hésite pas
+à passer me voir chez
+Extra-Ordinn'Hair.
+]]
+}
+
+dialog{
+  id = "chill_valley.s_house.vipeross",
+  skip = "all",
+  text = [[
+Un jour, y'a un gars
+qu'est arrivé et qui
+m'a marravé la face.
+Le loup blanc qu'il
+se faisait appeler,
+non mais t'y crois toi
+à un nom si cliché ?
+Il se la pétait avec
+ses deux épées mais
+il savait y faire.
+Je peux te dire que ça
+m'a remis les idées en
+place, plus question
+de boulotter de
+l'humain après ça !
+]]
+}
+
+dialog{
+  id = "chill_valley.south_east_sign",
+  skip = "all",
+  text = [[
+Est : Forêt
+
+
+Nord : Chill Valley,
+la ville dont le nom
+est synonyme de succès.
+]]
+}
+
+dialog{
+  id = "chill_valley.t_house",
+  skip = "all",
+  text = [[
+C'est devenu très
+animé autour de chez
+nous.
+Au moins, c'est vivant,
+on ne s'ennuie pas !
+
+Pas comme sa soeur qui
+vit dans le désert.
+
+Elle se morfond toute
+la journée !
+]]
+}
+
+dialog{
+  id = "chill_valley.welcome_sign",
+  skip = "all",
+  text = [[
+Bienvenue à Chill
+Valley !
+
+Le nom de cette ville
+est synonyme de succès.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.adult_book",
+  skip = "all",
+  text = [[
+
+Un livre pour adulte !
+
+Tu n'as pas l'âge pour
+ce genre de lecture !
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.all_read",
+  skip = "all",
+  text = [[
+Squick ! T'es chez moi
+là, et tu lis tous mes
+livres comme s'ils
+étaient à toi ! Squick
+squick, jamais vu un
+culot pareil ! Il ne
+peut y avoir qu'un
+seul rat de bibliothè-
+que et c'est moi !
+TAIAUUUT ! SQUICK !
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.biography_grump",
+  skip = "all",
+  text = [[
+Une biographie sur la
+   vie de M. Grump
+
+M. Grump est né en
+*indéchiffrable*, dans
+une famille aimante et
+croyante envers les
+trois déesses. Très
+vite, le petit Grump
+se montre très doué en
+affaires et écrase sa
+fratrie au Monopoly.
+Toujours volontaire
+pour voler ses petits
+camarades à l'école,
+ses professeurs le
+dirigent vers une école
+de commerce. Il se
+découvre une passion
+pour l'achat et la
+vente de biens
+immobiliers, et ruine
+de nombreux commerces
+pour ensuite les
+racheter une bouchée
+de pain. Il sera un
+précurseur dans notre
+économie actuelle
+basée sur les rubis.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.child_book",
+  skip = "all",
+  text = [[
+Un conte pour enfant :
+   Le geste du zora
+
+Le petit zora était
+triste, il n'avait pas
+d'amis. Un jour, il
+aperçut une hylienne
+dériver le long de la
+rivière. Elle semblait
+endormie, mais le zora
+savait que les hyliens
+ne dormaient pas dans
+l'eau. Il plongea et
+la mit sur la berge.
+Après quelques temps,
+l'hylienne se réveilla
+et remercia chaleureu-
+sement le petit zora 
+de sa bonne action.
+C'est ainsi qu'il eut
+sa première amie et
+qu'il ne fut plus
+jamais triste.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.curse_for_dummies",
+  skip = "all",
+  text = [[
+Les malédictions pour
+       les Nuls
+
+Prenez un chat noir,
+faites-le passer sous
+une échelle. Fabriquez
+une poupée à l'effigie
+de votre cible, et
+plantez-y un clou dans
+l'emplacement du coeur
+et de la tête. Tenez
+la poupée entre vous
+et un miroir, puis
+brisez le miroir en
+lançant le chat noir
+assez fort dessus.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.economy_for_dummies",
+  skip = "all",
+  text = [[
+   L'économie pour
+       les Nuls
+
+Les rubis sont l'une
+des étrangetés qui
+rendent notre royaume
+unique par rapport
+aux autres pays. Là où
+certains préfèrent
+l'or pour sa rareté
+ou le troc, nous
+utilisons une matière
+qui a tendance à
+apparaître dans les
+endroits les plus
+improbables (sous un
+rocher, en coupant de
+l'herbe pour le plus
+grand plaisir des
+jardiniers, etc). Cela
+handicape énormément
+nos relations inter-
+nationales car les
+taux de change sont
+très chaotiques.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.already_opened",
+  skip = "all",
+  text = [[
+Tu as déjà vidé cette
+encyclopédie de son
+contenu. Voleur.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.back_on_shelf",
+  skip = "all",
+  text = [[
+Un nuage de poussière
+s'envole au moment où
+le livre retombe sur
+l'étagère, avec un
+léger bruit sourd à
+l'intérieur.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.not_opened",
+  question = "1",
+  text = [[
+Une encyclopédie. Sa 
+largeur et son
+épaisseur jurent avec
+sa légèreté.
+L'ouvrir
+La reposer
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.when_opened",
+  skip = "all",
+  text = [[
+Une petite note est
+visible dans le livre.
+"Je mets ici mon plus
+beau et mon seul bien,
+j'ai l'impression que
+rien de mal ne peut
+arriver entre ces
+étagères..."
+
+Espérons que personne
+ne t'as vu entrer ici
+et voler ce contenu.
+T'as pas vraiment la
+tête d'un intello, tu
+seras vite suspecté...
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.exploration_for_dummies",
+  skip = "all",
+  text = [[
+  L'exploration pour
+       les Nuls
+
+Si vous vous trouvez
+dans un labyrinthe,
+suivez toujours le
+même mur. Si vous êtes
+face à une porte
+fermée à clé, essayez
+de trouver une clé.
+Sauvegardez avant une
+porte de boss :
+derrière se trouve un
+combat de boss.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.fight_for_dummies",
+  skip = "all",
+  text = [[
+    Le combat pour
+       les Nuls
+
+Règle N°1
+On ne parle pas de ce
+livre.
+Règle N°2
+On ne PARLE PAS de ce
+livre.
+Règle N°3
+On ne laisse pas de
+répis aux ennemis.
+Règle N°4
+On pille toujours les
+cadavres.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.geography_for_dummies",
+  skip = "all",
+  text = [[
+  La géographie pour
+       les Nuls
+
+Le peuple Goron habite
+le village Goron.
+
+Le peuple Zora se
+trouve dans le domaine
+Zora.
+Le peuple Gerudo se
+situe dans le désert
+Gerudo.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.horror_book",
+  skip = "all",
+  text = [[
+Un livre horrifique :
+   Panique aux Bois
+        Perdus
+Le tonnerre était
+effroyablement puis-
+sant ce jour-là. Fred
+ne savait pas s'il
+devait aller aider son
+ami Seb parti couper
+du bois dans la forêt
+ou l'attendre en sécu-
+rité dans le chalet.
+N'écoutant que son
+courage, il sortit en
+criant le prénom de
+son ami afin de le
+situer. Mais ces cris
+étaient surtout enten-
+dus par Jason...
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.hyrule_times",
+  skip = "all",
+  text = [[
+Un article de presse.
+Il a l'air ancien :
+   LA FIN DE GANON
+Selon l'AHP, un héros
+tout de vert vêtu
+aurait réussi à mettre
+un terme au règne du
+tyran Ganon, après une
+lutte acharnée. Nous 
+sommes allés voir la
+famille royale afin 
+d'avoir plus d'expli-
+cations, mais la
+princesse Zelda se
+refuse à tout
+commentaire. Une
+prochaine édition 
+reviendra plus en
+détail sur cet heureux
+événement.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.love_book",
+  skip = "all",
+  text = [[
+Un roman d'amour :
+   Crépuscule Perdu
+
+Quand je plongeais mes
+yeux dans celui du
+vampire, je sentis
+mon âme être trans-
+percée par cet être
+froid et calculateur.
+Pourtant, je ne voyais
+en lui non pas un
+monstre comme tous les
+autres, mais un amour
+incompris. Oh, Lucius,
+pardonne-moi de te
+tromper ainsi, mais sa
+peau d'albâtre me rend
+toute chose...
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.magic_book",
+  skip = "all",
+  text = [[
+       La magie
+    pour les Nuls
+
+Beaucoup de gens
+estiment que la magie
+est affaire de talent.
+Que nenni ! Il suffit
+de savoir lire le
+vieil Hylien dans un
+bouquin pour déchaîner
+les foudres, faire
+trembler la terre et
+transformer le monde
+en une patate. Il ne
+faut juste pas qu'un
+oiseau s'approche du-
+dit tubercule.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.politic_for_dummies",
+  skip = "all",
+  text = [[
+ La géopolitique pour
+       les Nuls
+
+Dans le cadre de votre
+future vie de
+politicien, afin de
+survivre dans cette
+jungle hostile, il est
+important de se mettre
+dans la poche les
+lobbies du champagne
+et de l'immobilier.
+Ce sont eux qui vous
+laisseront décider si
+vous pouvez prendre
+telle ou telle mesure.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.recipe_for_dummies",
+  skip = "all",
+  text = [[
+ Recettes de cuisine
+    pour les Nuls
+
+Chutney de fruits max
+Ingrédients :
+- 1 fruit de type max
+Recette :
+Mettez le fruit dans
+la marmite. Attendez.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.science_book",
+  skip = "all",
+  text = [[
+     Les théorèmes
+  mathématiques pour
+       les Nuls
+Le théorème d'Octavieh
+nous explique que 
+l'addition de tous
+les nombres entiers
+positifs = -1/12.
+...
+Tu ne comprends rien
+aux équations qui sont
+posées pour expliquer
+ce théorème.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.security_systems",
+  skip = "all",
+  text = [[
+    Les mesures de
+  sécurité Hyliennes
+
+Il existe plusieurs
+systèmes de sécurité
+hyliens, sheikahs ou
+plus anciens encore.
+Ces objets permettent
+de neutraliser des
+malfaiteurs, d'aider
+à la sécurité pour la
+population ou encore
+de dissuader toute in-
+civilité. Heureusement
+que ces systèmes ne
+seront jamais utilisés
+contre la population
+par un sorcier un peu
+fou, un tyran porcin
+ou un magnat des
+affaires.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.sf_book",
+  skip = "all",
+  text = [[
+Un livre de SF :
+  La Terre Oblongue
+
+J'ouvrais la porte de
+ce batiment que les
+indigènes appelaient
+"gratte-ciel". Des
+chariots mécaniques
+tirés par on ne sait
+quelle force passaient
+dans un boucan de tous
+les enfers. L'air
+semblait irrespirable.
+Et soudain, bien au-
+dessus de ma tête, un
+autre vacarme : un
+oiseau de fer, figé
+dans sa pose, volait
+malgré tout ce qu'on
+aurait pu penser.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.space_conquest_for_dummies",
+  skip = "all",
+  text = [[
+ La conquête spatiale
+    pour les Nuls
+
+Trouvez un paysage
+désolé (vous en aurez
+plein aux alentours de
+la Montagne des
+Terreurs). Plantez le
+drapeau d'Hyrule, et
+demandez à un artiste
+de saisir cet instant
+sur une toile. Vous
+pourrez ensuite clamer
+haut et fort avoir
+conquis la Lune !
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.theater_script",
+  skip = "all",
+  text = [[
+Une pièce de théâtre :
+    Kafei et Anju
+
+Prêtre : Mais où se
+trouve donc votre
+futur époux ma chère ?
+Anju : Je ne sais
+guère, et mon coeur
+s'assombrit de cette
+ignorance... Mon doux
+et tendre Kafei ne
+veut-il donc plus
+m'épouser ?
+Jeune garçon, arrivant
+essoufflé : Bien sûr
+que si, ma mie ! Vous
+êtes ma vie !
+Anju : Mais qui es-tu,
+jeune homme, pour me
+parler de la sorte ?
+Jeune garçon : Je suis
+ton compagnon, Kafei.
+Un vil gamin m'a jeté
+ce mauvais sort, mais
+j'ai bon espoir que tu
+me reconnaîtras...
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.urbanism_for_dummies",
+  skip = "all",
+  text = [[
+   L'urbanisme pour
+       les Nuls
+
+Chill Valley est la
+seule ville au monde
+à être dans l'incapa-
+cité d'avoir des
+maisons mitoyennes. La
+seule tentative s'est
+soldée par la dispari-
+tion pure et simple
+de l'ensemble du bloc
+de bâtiments. Depuis,
+les autorités obligent
+les maisons à avoir
+un espacement régle-
+mentaire d'au moins
+deux mètres entre 
+chaque mur.
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.weapon_for_dummies",
+  skip = "all",
+  text = [[
+    Les armes pour
+       les Nuls
+
+Épée de voyageur :
+Attaque : 5-13
+Durabilité : 20-23
+Épée de soldat :
+Attaque : 14-25
+Durabilité : 23-26
+Épée de chevalier :
+Attaque : 26-35
+Durabilité : 27-35
+]]
+}
+
+dialog{
+  id = "chill_valley.z_house.zoology_for_dummies",
+  skip = "all",
+  text = [[
+   La zoologie pour
+       les Nuls
+
+L'instinct grégaire
+des cocottes est une
+chose unique dans le
+règne animal. Prenez-
+vous en à une seule
+d'entre elles, et
+toutes vous tomberont
+dessus. Leur esprit
+télépathique semble
+transcender les âges
+et les distances, car
+de nouvelles cocottes
+peuvent arriver indé-
+finiment pour vous
+attaquer une fois
+l'assaut lancé.
+]]
+}
+
+dialog{
+  id = "chores.cat_already_fed",
+  text = [[
+Arrête de nourrir le
+chat, tu ne trouves
+pas qu'il est déjà
+assez gros comme ça?
+]]
+}
+
+dialog{
+  id = "chores.cat_fed",
+  text = [[
+MIAOU !
+]]
+}
+
+dialog{
+  id = "chores.cat_gurgling",
+  text = [[
+MiAaAaAaoOoOuUu...$0
+(gargouillements)
+]]
+}
+
+dialog{
+  id = "chores.chore_0",
+  text = [[
+Comme première corvée,
+tu vas devoir nourrir
+mon petit chaton chéri.
+Tu vas voir, il est
+adorable, ce petit chou.
+
+Il s'appelle
+Flocon-de-neige, 
+il est vraiment choupi.
+Il est en train de jouer
+dans la cave.
+Allez, zou !
+]]
+}
+
+dialog{
+  id = "chores.chore_0_again",
+  text = [[
+Tu entends ces
+miaulements ?
+
+Je crois que c'est
+Flocon-de-neige.
+Il a encore faim.
+Allez, va le nourrir !
+]]
+}
+
+dialog{
+  id = "chores.chore_1",
+  text = [[
+Merci d'avoir nourri
+mon petit chaton
+d'amour.
+Il est trognon, 
+n'est-ce pas ?
+
+Maintenant, 
+j'ai une nouvelle
+corvée pour toi.
+Je t'ordonne de couper
+toute la mauvaise
+herbe du jardinet.
+Allez, au boulot,
+grosse feignasse !
+]]
+}
+
+dialog{
+  id = "chores.chore_1_again",
+  text = [[
+Avoue que tu le trouves
+tout mignon, mon
+petit chaton.
+Tiens, au fait, la
+mauvaise herbe a encore
+repoussé.
+Va la couper!
+]]
+}
+
+dialog{
+  id = "chores.chore_2",
+  text = [[
+Bon,
+le jardin est un
+peu plus présentable.
+Je commençais à avoir
+honte...
+
+Maintenant, il faut
+que tu me ramènes le
+courrier.
+Petit héros, presse le
+pas, car le courrier
+n'attend pas !
+]]
+}
+
+dialog{
+  id = "chores.chore_2_again",
+  text = [[
+Merci pour le jardin.
+C'est vraiment pas de
+bol qu'on n'ait pas
+encore inventé le
+désherbant à Hyrule.
+
+Tiens, je crois que le
+facteur est passé !
+Va chercher le courrier.
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_0",
+  text = [[
+Merci,
+mieux vaut tard que
+jamais...
+Ah !$0
+C'est un courrier de
+Monsieur Grump,
+l'immonde directeur du
+Bureau des Objets
+Trouvés.
+Il ne veut toujours
+pas m'envoyer le
+laisser-passer A38 !
+Quel grossier
+personnage.
+
+Pourtant j'ai bien
+rempli le formulaire
+bleu !
+Quels tas d'incompétents
+dans cette
+administration...
+Je suis quand même une
+princesse !
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_1",
+  text = [[
+Merci, 
+j'ai falli attendre...
+
+C'est les impôts...
+Et oui hélas...
+
+Mon statut de
+princesse ne me donne
+plus beaucoup de
+privilèges depuis la
+révolution à Hyrule.
+
+Moi je dis
+VIVE LA MONARCHIE !
+
+Merci le gueux, t'es
+un laideron mais t'es
+bien bon !
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_2",
+  text = [[
+Merci, 
+ne te dépêche surtout
+pas...
+Ha!$0
+Mince...
+$0
+Je me suis faite
+flasher par un radar
+l'autre jour.
+En même temps, tu
+arrives à connaître ta
+vitesse à cheval, toi ?
+Dis...$0 Tu veux bien 
+payer l'amende 
+à ma place ?
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_3",
+  text = [[
+Merci, 
+heureusement que je
+ne suis pas pressée...
+C'est une invitation
+pour le festival
+"Moutarde et Cinéma",
+chouette !
+
+
+Au fait, prenez un 
+chewing-gum, $v.
+]]
+}
+
+dialog{
+  id = "chores.chore_2_thanks_4",
+  text = [[
+Merci, 
+c'est pas trop tôt...
+
+C'est une lettre de
+mon amie la princesse
+Peach.
+"Je suis en vacances à
+Delfino, dit-elle,
+le temps est superbe,
+les cocktails sont
+délicieux, et on dort
+à l'hotêl de
+Aaaaaaargh !"$0
+Oui, elle a vraiment
+écrit "Aaaaaaargh".
+Je crois qu'elle n'a
+pas eu le temps de
+finir sa lettre,
+elle s'est
+faite capturer !
+Sapristi !
+]]
+}
+
+dialog{
+  id = "chores.dont_leave",
+  text = [[
+Comment oses-tu partir
+comme ça ?
+
+Tu n'as pas fini de te
+faire pardonner !
+
+Allez, au boulot !
+]]
+}
+
+dialog{
+  id = "chores.mailbox",
+  text = [[
+Oh !$0
+Il y a du courrier !
+]]
+}
+
+dialog{
+  id = "chores.mailbox_empty",
+  skip = "all",
+  text = [[
+Rien dans la boîte
+aux lettres.
+
+Le facteur est encore
+en grève ou quoi ?
+]]
+}
+
+dialog{
+  id = "chores.miaou_1",
+  text = [[
+Miaou...
+Miaouuuuu...$0
+(Le chat semble affamé)
+]]
+}
+
+dialog{
+  id = "chores.miaou_2",
+  text = [[
+MIAAAAOUUUUU !!!
+MIAAOUUUU !!!
+GRRRRRR...
+(Le chat semble
+terriblement affamé...)
+]]
+}
+
+dialog{
+  id = "chores.miaou_3",
+  text = [[
+Miaouuu ?$0
+...$0
+MIAOOOOUUUUU !!!
+]]
+}
+
+dialog{
+  id = "chores.miaou_4",
+  text = [[
+Mi-mi-mi-mi-mi-miaou.
+Mia-mia-miaou.
+]]
+}
+
+dialog{
+  id = "desert.cursed_cave_entrance",
+  skip = "all",
+  text = [[
+Accès condamné par
+sécurité à la suite de
+débordements.
+Il n'y a rien à voir
+ici.
+]]
+}
+
+dialog{
+  id = "desert.east_house",
+  skip = "all",
+  text = [[
+Il paraît que Monsieur
+Grump possède une île
+en forme de rubis.
+Les rubis y poussent
+sur les arbres !
+
+Il en a fait une
+station balnéaire,
+avec une immense tour.
+Une véritable pompe à
+fric !
+On est quand même
+mieux ici, au calme,
+loin de tout ce
+bling-bling...
+]]
+}
+
+dialog{
+  id = "desert.nw_sign",
+  text = [[
+Nord : Mont Tipiton
+Est : Désert Bakasable
+
+Ouest : Château Doré
+de Monsieur Grump
+]]
+}
+
+dialog{
+  id = "desert.piece_of_heart_cave_sign",
+  skip = "all",
+  text = [[
+Seul le vrai héros
+obtiendra le trésor.$0$0
+Ou pas.
+]]
+}
+
+dialog{
+  id = "desert.small_house",
+  skip = "all",
+  text = [[
+Je suis en train de
+réfléchir à mon avenir.
+
+Par rapport au tien, en
+tant que diseur de
+bonne aventure tu peux
+me croire : fais très
+attention à la fortune
+de Monsieur Grump.
+]]
+}
+
+dialog{
+  id = "desert.small_house_shoelaces",
+  skip = "all",
+  text = [[
+Si tu cherches un
+moyen de mettre fin à
+tes jours, te promener
+sans lacets comme tu
+le fais là n'est pas
+une bonne méthode.
+Du coup, autant que tu
+en prennes des nouveaux
+car là ça me stresse.
+]]
+}
+
+dialog{
+  id = "desert.tipiton_sign",
+  skip = "all",
+  text = [[
+Sommet du Mont Tipiton
+
+
+Altitude :
+pas super haut, en fait
+]]
+}
+
+dialog{
+  id = "desert.west_house",
+  skip = "all",
+  text = [[
+Je me demande si je ne
+vais pas déménager à
+Chill Valley !
+C'est bien plus animé
+là-bas, alors qu'ici
+c'est limite désertique.
+]]
+}
+
+dialog{
+  id = "dungeon_1.1f.iron_ball_man",
+  skip = "all",
+  text = [[
+Hips... tu veux que
+j'te dise mon gars ?
+J'ai tellement
+transporté de boulets
+dans ma vie que j'ai
+sombré dans l'al...
+Hips... Bref on dirait
+pas comme ça mais en
+plus mais c'est méga
+sol... hips ces trucs !
+Tu pourrais détruire
+plein de trucs dans
+ce château avec !
+Je me suis toujours
+demand... Hips si le
+grenier au-dessus de
+l'entrée du château
+cachait pas un énorme
+trés... Hips.
+Je dis ça je dis rien
+hein ! 
+]]
+}
+
+dialog{
+  id = "dungeon_1.1f.julien_dore",
+  skip = "all",
+  text = [[
+T'aimer sur les bords
+du lac.
+Ton coeur sur mon corps
+qui respire.
+Pourvu que les hommes
+nous regardent.
+Amoureux de l'ombre
+et du pire.
+]]
+}
+
+dialog{
+  id = "dungeon_1.1f.library_man_look_for_book",
+  skip = "all",
+  text = [[
+Mais où a bien pu passer
+ce précieux grimoire ?
+J'étais persuadé qu'il
+était par ici...
+]]
+}
+
+dialog{
+  id = "dungeon_1.1f.pool_grandma",
+  skip = "all",
+  text = [[
+Oh mes aïeux !
+Nettoyer une piscine
+de champagne n'est
+pas de tout repos.
+Mes rhumatismes font
+des siennes, il fait
+humide en ce moment
+vous ne trouvez
+pas ?
+Il n'y a plus de
+saisons je vous le
+dis !
+]]
+}
+
+dialog{
+  id = "dungeon_1.1f.scared_woman",
+  skip = "all",
+  text = [[
+Je suis venue dans ce
+château pour passer un
+entretien comme
+assistante affectée à la
+photocopie et au
+service de café mais je
+regrette.
+J'entends des voix dans
+les tableaux accrochés
+aux murs.
+C'est effrayant.
+Je te ferais
+exploser tout ça
+moi... !
+]]
+}
+
+dialog{
+  id = "dungeon_1.b2.bones",
+  skip = "all",
+  text = [[
+J'ai beau être en
+piteux état, j'ai quand
+même encore une utilité.
+Par exemple, savais-tu
+que tu étais dans un
+château ? Et oui ça ne
+paraît pas évident je
+sais, ça doit être un
+choc pour toi.
+C'est l'oeuvre du démon
+Mario qui fait croire
+que nous ne sommes pas
+dans un château mais
+c'est un fait. Nous
+y sommes. Si tu veux mon
+avis, je crois que
+l'esprit maléfique de
+Mario rôde encore en
+ces murs, tu devrais y
+remédier...
+]]
+}
+
+dialog{
+  id = "dungeon_1.b2.bones2",
+  skip = "all",
+  text = [[
+Houuu ! Je ne suis pas
+un mauvais esprit mais
+je fais peur...
+Enfin il semblerait.
+Par contre il existe
+dans ce château de très
+mauvais esprits. Le
+mauvais esprit des
+portes joue des tours
+et en a dérouté plus
+d'un. Je te conseille de
+ne pas te fier aux
+apparences...
+]]
+}
+
+dialog{
+  id = "dungeon_1.b2.prisoner",
+  skip = "all",
+  text = [[
+Quoi ? Tu es venu pour
+me sauver ?
+Mais laisse-moi
+tranquille, j'aime être
+abandonné au fond d'une
+geôle, tu devrais
+essayer aussi tu verras
+on ne s'ennuie pas. Il
+y a une place dans la
+cellule d'à-côté.
+Fais-toi plaisir.
+]]
+}
+
+dialog{
+  id = "dungeon_1.b2.scared_man",
+  skip = "all",
+  text = [[
+Je pensais que ce
+château était un haut
+lieu du tourisme
+raffiné mais en
+visitant les caves, je
+me suis retrouvé nez-
+à-nez avec des
+squelettes qui m'ont
+parlé !
+Je me suis réfugié ici,
+au moins je suis
+certain de passer le
+restant de mes jours à
+l'abri de ces
+monstres !
+]]
+}
+
+dialog{
+  id = "dungeon_1.welcome",
+  text = [[
+       Niveau 1
+     Château doré
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.5f_issues_man",
+  skip = "all",
+  text = [[
+Ils font n'importe quoi
+au quatrième étage.
+
+La climatisation est
+tellement forte que
+l'éclairage est coupé.
+Il fait un froid de
+canard et on n'y voit
+rien !
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.bartender",
+  question = "1",
+  skip = "all",
+  text = [[
+Un petit pétillant
+à la crème de potion
+rouge
+pour 100 rubis ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.bartender_bought_red_potion_kir",
+  text = [[
+Goûte-moi ça !
+Ce cocktail va te rendre
+de plus en plus heureux.
+L'effet va durer un
+petit moment !
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.bun_woman",
+  skip = "all",
+  text = [[
+Vous êtes le petit
+nouveau ? Votre bureau
+est prêt !
+Je vais enfin avoir
+de la compagnie !!!
+On va pouvoir bavarder !
+Après avoir été reléguée
+au sous-sol du Bureau
+des Objets Trouvés
+pendant toutes ces
+années, enfin de la
+reconnaissance !
+Monsieur Grump est
+vraiment un bienfaiteur.
+Installez-vous !
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.drunk_man",
+  skip = "all",
+  text = [[
+Alors comme ça le...
+hip ! bureau des
+projets ouvrés...
+Non, le bureau des
+oubliés perdus a
+brûl... hip !
+Ça se fête en tout cas !
+
+
+Heu... bourreau des
+problèmes retrouvés...
+
+Buffet des hip !
+objectifs éprouvés...
+
+Enfin voilà, tu as
+compris ce que je
+voulais dire ! Hip !
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.elevator_a_sign",
+  skip = "all",
+  text = [[
+Ascenseur vers les
+étages supérieurs
+
+1er étage : Casino
+
+
+Autres étages : réservé
+au personnel autorisé
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.kitchen_guard_dont_pass",
+  skip = "all",
+  text = [[
+Monsieur, l'accès aux
+cuisines est réservé
+au personnel de
+l'établissement.
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.kitchen_guard_go_wash",
+  skip = "all",
+  text = [[
+Tu es le petit nouveau ?
+Arrête de bavarder et
+va à la plonge.
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.pause_man",
+  skip = "all",
+  text = [[
+Je suis actuellement en
+pause, et j'en ai bien
+besoin.
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.receptionnist",
+  skip = "all",
+  text = [[
+Vous êtes ici dans la
+Tour Grump, le paradis
+du divertissement.
+Merci de rester dans
+les zones ouvertes au
+public.
+Le restaurant se trouve
+derrière moi.
+
+Le Casino est situé au
+premier étage.
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.restaurant_sign",
+  skip = "all",
+  text = [[
+  - Grump Caviar Bar -
+Restauration à des prix
+défiant toute honnêteté.
+]]
+}
+
+dialog{
+  id = "dungeon_2.1f.running_man",
+  skip = "all",
+  text = [[
+Entre nous, ce
+restaurant est surcoté.
+
+Les consommations sont
+super chères et le 
+serveur nous parle comme
+si on était son pote.
+Ceci dit, les boissons
+sont originales !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.blue_haired_boy",
+  skip = "all",
+  text = [[
+À quoi peuvent bien
+servir toutes ces
+pièces d'échecs ?
+Elles ont l'air de
+cacher quelque chose.
+
+Mais quoi ? Je n'en
+sais rien, je ne suis
+qu'un gosse !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.cards_game_sign",
+  skip = "all",
+  text = [[
+Jeu des symboles
+
+
+Obtenez 4 symboles
+identiques pour gagner
+une récompense !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.casino_receptionnist",
+  skip = "all",
+  text = [[
+Vous êtes ici au
+Casino Grump.
+
+Une tenue correcte est
+exigée.
+
+Bon... on va dire que
+c'est ok.
+
+Merci de ne pas toucher
+à la décoration de la
+salle.
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.chest_game_sign",
+  skip = "all",
+  text = [[
+Jeu des coffres
+Tarif : 20 rubis
+
+Choisissez un coffre
+au hasard et soyez
+chanceux !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.green_hat_man",
+  skip = "all",
+  text = [[
+Attention à ne pas
+dilapider toutes ses
+économies dans un
+endroit pareil !
+Ceci dit, tu as l'air
+malin.
+Avec un peu de chance
+tu devrais t'en sortir
+mieux que moi !
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.hint_4_knights",
+  skip = "all",
+  text = [[
+Quoi ? Oui, non, je suis
+en train de travailler,
+enfin là je me détends
+un peu en attendant.
+
+
+En fait, pour tout te
+dire, je devrais
+retourner à mon poste
+en cuisine mais il y a
+un code d'accès et je
+n'y comprends rien.
+Une histoire de 4
+cavaliers blancs qui
+doivent être défendus
+2 fois chacun.
+Tu y comprends
+quelque chose toi ?
+Ces casse-têtes ne sont
+plus de mon âge...
+]]
+}
+
+dialog{
+  id = "dungeon_2.2f.slot_machines_sign",
+  skip = "all",
+  text = [[
+Machines à sous
+Tarif : Mises de
+5 ou 20 rubis
+]]
+}
+
+dialog{
+  id = "dungeon_2.3f.6_queens_puzzle",
+  skip = "all",
+  text = [[
+Jeu des 6 Dames
+
+
+Aucune Dame ne doit être
+sur la même ligne,
+colonne ou diagonale
+qu'une autre.
+]]
+}
+
+dialog{
+  id = "dungeon_2.3f.6_rooks_puzzle",
+  skip = "all",
+  text = [[
+Jeu des 6 Tours
+
+
+Aucune Tour ne doit être
+sur la même ligne ou
+colonne qu'une autre.
+Les Tours ne peuvent
+être poussées
+qu'une seule fois !
+]]
+}
+
+dialog{
+  id = "dungeon_2.6f.8_queens_puzzle",
+  skip = "all",
+  text = [[
+Jeu des 8 Dames
+
+
+Aucune Dame ne doit être
+sur la même ligne,
+colonne ou diagonale
+qu'une autre.
+À gagner : Un Fragment
+de Coeur !
+]]
+}
+
+dialog{
+  id = "dungeon_2.6f.miniboss_start",
+  text = [[
+Cette fois-ci c'en est
+trop !
+
+Déjà que tu nous
+harcèles à longueur de
+temps,
+nous pauvres poules
+innocentes, pour ton
+propre plaisir.
+Mais nous apprenons
+maintenant que tu as
+terrassé notre déesse
+légendaire, la poule
+aux oeufs d'or ?!
+
+Tu vas goûter à notre
+vengeance !
+
+Mes soeurettes, sus à
+l'ennemi !!!
+]]
+}
+
+dialog{
+  id = "dungeon_2.9f.boss_start",
+  text = [[
+Ahhhh !$0
+Gardes ! Sécurité !
+Au secours !$0
+Qu'est ce que tu me
+veux, au juste ?
+Tu veux ma fortune ?
+Tiens, j'en ai trop !
+Prends ça et
+déguerpille !
+]]
+}
+
+dialog{
+  id = "dungeon_2.9f.doctor",
+  text = [[
+Cours !$1
+]]
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_building_collapsing",
+  text = [[
+Ahhhh !$0
+Je ne peux plus
+contôler mes rubis !!!
+La tour est en train de
+s'effondrer !
+]]
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_found",
+  text = [[
+C'est bon !
+Je l'ai retrouvé,
+héhéhé !
+]]
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_lost",
+  text = [[
+Ahhh !!!
+Mon monocle, il est
+tombé par terre !
+Je ne vois plus rien !
+]]
+}
+
+dialog{
+  id = "dungeon_2.welcome",
+  text = [[
+       Niveau 2
+      Tour Grump
+]]
+}
+
+dialog{
+  id = "elevator.access_refused.vip_card",
+  skip = "all",
+  text = [[
+Accès refusé.
+Cet ascenseur est
+reservé aux VIP.
+]]
+}
+
+dialog{
+  id = "empty_chest",
+  text = [[
+Ce coffre est vide !
+C'est vraiment pas de
+chance !
+]]
+}
+
+dialog{
+  id = "final.credits",
+  text = [[
+$1Ce jeu parodique a été
+réalisé en dix
+semaines
+par la Solarus Team à
+l'occasion du
+1er avril 2017,
+toujours avec l'aide
+de pizzas et de fortes
+doses de café.
+
+         Crédits
+
+     Programmation
+      du moteur :
+Christopho
+       Scénario :
+Olivier Cléro
+Christopho
+Metallizer
+Valoo
+
+      Réalisation
+       des maps :
+
+Christopho
+Metallizer
+Renkineko
+BenObiWan
+Valoo
+Diarandor
+Mymy
+
+
+       Conception
+      des donjons :
+
+      Château Doré :
+Metallizer
+
+       Tour Grump :
+Christopho
+
+       Graphismes :
+Olivier Cléro
+
+       Musiques :
+Olivier Cléro
+Metallizer
+         Tests :
+Binbin
+
+     Remerciements
+       spéciaux :
+
+LarryInc64
+DoctorOctoroc
+Bulby
+HelpTheWretched
+Rockfootdude
+Newlink
+
+Merci d'avoir joué !
+
+
+ www.zelda-solarus.com
+]]
+}
+
+dialog{
+  id = "final.mr_grump_1",
+  text = [[
+...$0
+Princesse Zelda,
+ce moment est exquis.
+Cela fait 3 ans,
+jour pour jour, que
+nous nous sommes connus.
+]]
+}
+
+dialog{
+  id = "final.mr_grump_2",
+  text = [[
+Oh, tu sais, c'est un
+parfum qui a beaucoup
+de valeur !
+C'est mon grand-père qui
+me l'a transmis.
+
+Je ne peux pas trop
+t'en dire davantage, 
+ma chérie.
+]]
+}
+
+dialog{
+  id = "final.mr_grump_3",
+  text = [[
+Quelle bonne idée, ma
+Zeldachou d'amour !
+
+Je vais prendre un
+Mojo-ito, et toi ma
+choupinette ?
+]]
+}
+
+dialog{
+  id = "final.the_doctor_1",
+  text = [[
+OH !$0
+Tu vois ce que je vois ?$0
+Mr Grump et Zelda...$0
+Ils...$0
+Non...$0
+C'est impossible... ?!
+Doc Emmett Brown...
+Et son histoire de
+continuum espace-temps !
+Ce vieux fou avait
+raison ! On a modifié 
+le passé !
+Oooooh...
+Je crois comprendre !
+Toi, tu as saisi ?
+Chhhhhht ! $0
+Ecoutons leur
+conversation...
+]]
+}
+
+dialog{
+  id = "final.the_doctor_2",
+  text = [[
+Serait-ce possible ?!$0
+Cette odeur me rappelle
+quelque chose...
+C'est...$0
+Eurêka !
+J'ai compris !
+Alors accroche-toi,
+car c'est totalement
+tiré par les cheveux.
+Le flacon de parfum
+qu'on a donné au T-rex,
+tu te souviens ?
+Il a dû perdurer durant
+toutes ces années, 
+jusqu'à aujourd'hui.
+Et se bonifier avec le
+temps, jusqu'à devenir
+irrésistible.
+Le tyrannosaure a
+évolué en poule au fil
+des millénaires.
+M. Grump a récupéré le
+flacon grâce à sa poule
+aux oeufs d'or...
+NOM DE ZEUS !
+]]
+}
+
+dialog{
+  id = "final.zelda_1",
+  text = [[
+Oui mon chéri...
+J'ai l'impression que
+c'était hier.
+Mon petit coeur a
+fondu quand tu m'as
+offert ce parfum.
+Ce fut vraiment le
+coup de fatal-foudre,
+comme disent les jeunes.
+Tu es tellement plus
+raffiné que ce boulet
+de $v...
+Dis-moi d'où il vient, 
+car mon flacon est
+quasiment vide...
+]]
+}
+
+dialog{
+  id = "final.zelda_2",
+  text = [[
+Hé !$0
+Chéri ! Tu n'aurais pas
+entendu quelque chose ?
+]]
+}
+
+dialog{
+  id = "final.zelda_3",
+  text = [[
+$v !$0
+C'est toi ?
+Que fais-tu ?
+Tu nous espionnes ?
+Tu es vraiment sans
+gêne, n'est-ce pas ?
+Personne ne t'a appris
+la politesse ?
+
+Déjà, tu brises les
+pots dès que tu entres
+chez quelqu'un...
+En plus, tu pilles les
+temples de leurs
+trésors.
+Par-dessus le tout, tu 
+m'avais séquestrée dans
+ta cave ! 
+Et voilà que tu
+espionnes un couple qui
+passe un moment
+romantique... !
+
+
+Tu vas devoir payer
+pour ton impolitesse !
+Encore une fois !
+]]
+}
+
+dialog{
+  id = "final.zelda_4",
+  text = [[
+$v,
+Viens ici, veux-tu ?
+
+Allez !
+Plus vite que ça !
+
+]]
+}
+
+dialog{
+  id = "final.zelda_5",
+  text = [[
+Comme punition,
+mon cher $v,
+j'ai une idée...
+Comme tu as gâché notre
+petit moment en
+amoureux,
+il va falloir que tu
+remontes grandement
+le niveau.
+Je te propose... non !
+Je T'ORDONNE de nous
+apporter les cocktails !
+Que veux-tu boire, mon
+Grumpinou d'amour ?
+]]
+}
+
+dialog{
+  id = "final.zelda_6",
+  text = [[
+Pour moi, ça sera une
+Zora Colada !
+
+Allez, $v,
+au boulot !
+]]
+}
+
+dialog{
+  id = "final.zelda_7",
+  text = [[
+Merci, $v !$0
+
+
+Glou$0 glou$0 glou$0
+C'était délicieux !
+
+Tiens, $v,
+tu n'entendrais pas
+des miaulements ?
+C'est Flocon-de-neige !
+Il a faim ! $0
+Allez, va le nourir !
+]]
+}
+
+dialog{
+  id = "final.zelda_8",
+  text = [[
+Rhâaaa...
+Quel boulet, 
+n'est-ce pas ?
+Bon, on en était où,
+tous les deux ?
+
+Ha oui, tu me parlais
+d'une île où on pourrait
+passer nos vacances.
+Cocolint, tu dis ?
+Et il y a une baleine
+volante ?
+Dis-donc, ça a l'air
+trop chouette !
+On y va ?
+]]
+}
+
+dialog{
+  id = "forest.south_west_sign",
+  skip = "all",
+  text = [[
+Ouest : Chill Valley
+]]
+}
+
+dialog{
+  id = "forest.west_sign",
+  skip = "all",
+  text = [[
+Ouest : Chill Valley
+]]
+}
+
+dialog{
+  id = "found_fairy",
+  icon = "81",
+  next = "found_fairy.1",
+  skip = "all",
+  text = [[
+Tu as trouvé une
+Fée, c'est trop
+cool !
+]]
+}
+
+dialog{
+  id = "found_fairy.1",
+  icon = "-1",
+  question = "1",
+  skip = "none",
+  text = [[
+Que vas-tu faire ?
+Récupérer des Coeurs
+La conserver
+]]
+}
+
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  text = [[
+Tu n'as pas de Flacon
+vide !
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.first",
+  icon = "75",
+  text = [[
+Mais je t'arrête
+tout de suite :
+il t'en faut quatre
+pour avoir un
+nouveau Coeur.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = "78",
+  text = [[
+Tu as trouvé quatre
+Fragments de Coeur.
+
+Tu obtiens un Coeur
+supplémentaire !
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = "76",
+  text = [[
+Encore deux et
+ce sera cool.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = "77",
+  text = [[
+Plus qu'un et ce
+sera vraiment
+la fête !
+]]
+}
+
+dialog{
+  id = "found_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Veux-tu mettre de
+l'eau dans ton
+
+Flacon Magique ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "found_water.no_bottle",
+  text = [[
+Il y a de l'eau ici,
+mais tu n'as pas
+de récipient
+pour la stocker...
+]]
+}
+
+dialog{
+  id = "found_water.no_empty_bottle",
+  icon = "8",
+  text = [[
+Il y a de l'eau ici,
+mais il te faut
+un Flacon vide
+pour la stocker...
+]]
+}
+
+dialog{
+  id = "intro.light_saber_confiscate",
+  text = [[
+Au fait !$0
+Si tu veux que je te
+rende le sabre laser
+que je t'ai confisqué,
+il va falloir que tu
+sois obéissant.
+Au travail !
+]]
+}
+
+dialog{
+  id = "intro.light_saber_give_back",
+  text = [[
+Un petit moment...$0$0
+Voilà !
+
+Ah,$0
+j'allais oublier un
+truc !
+Tiens,
+voilà ton sabre laser.
+
+Je trouvais que le bleu
+n'était pas très joli...
+
+alors je me suis permise
+de changer la couleur.
+
+C'est bien mieux comme
+ça, tu verras.
+]]
+}
+
+dialog{
+  id = "intro.marine_exclaming",
+  text = [[
+...
+Oh !
+]]
+}
+
+dialog{
+  id = "intro.marine_to_zelda",
+  text = [[
+DEBOUT !
+$0$0$0$0
+]]
+}
+
+dialog{
+  id = "intro.marine_waking_up",
+  text = [[
+$v ?
+Es-tu vivant ?
+Réveille-toi !
+...
+Je t'en prie!
+$v ?
+REVEILLE-TOI !
+ALLEZ !
+DEBOUT FEIGNASSE !
+]]
+}
+
+dialog{
+  id = "intro.marine_wondering",
+  text = [[
+???
+
+
+Qu'est-ce que c'est
+que ça ?
+D'où ça vient ?
+Un naufrage ?
+]]
+}
+
+dialog{
+  id = "intro.zelda_removing_hearts",
+  text = [[
+Bon... En tout cas tu as
+fait le travail, même si
+tu aurais pu y mettre
+un peu plus de bonne
+volonté.
+
+Je vais quand même
+t'enlever quelques
+réceptacles de coeur,
+histoire que cela te
+serve de leçon.
+]]
+}
+
+dialog{
+  id = "intro.zelda_resistant",
+  text = [[
+Mais... ?
+
+
+Tu dors encore ?
+
+
+Dis-donc, t'es un
+coriace, toi !
+
+Tu l'auras voulu !
+Prends ça !
+]]
+}
+
+dialog{
+  id = "intro.zelda_shaking",
+  text = [[
+JE VAIS TE SECOUER !
+]]
+}
+
+dialog{
+  id = "intro.zelda_waiting",
+  text = [[
+Ha ! $0
+Enfin !
+$0
+Ne fais pas semblant
+d'avoir oublié.
+
+Comme chaque matin, tu
+dois te racheter après
+ce que tu m'as fait
+subir l'autre fois.
+$0
+
+Il ne te reste plus que
+3 mois de corvées
+à faire pour moi.
+Viens me voir dès que
+tu es prêt.
+$0
+Comment ça ?!
+Un rêve avec une
+baleine volante et
+un oeuf géant ?!
+Tu perds la tête,
+mon pauvre !
+Allez, debout !
+]]
+}
+
+dialog{
+  id = "intro.zelda_waking_up",
+  text = [[
+REVEILLE-TOOOI !
+ALLEEEEEEZ !
+DEBOOOUUUUT !
+]]
+}
+
+dialog{
+  id = "island.arrow_knee",
+  skip = "all",
+  text = [[
+Avant j'étais sympa.
+Puis j'ai pris une
+flèche dans le genou.
+Depuis, j'ai cette
+haine en moi, si forte
+et inextinguible. Mais
+je n'ai pas fait de
+mal à des innocents
+depuis six semaines,
+trois jours, deux
+heures, cinq minutes,
+et soixante-huit
+secondes...
+]]
+}
+
+dialog{
+  id = "island.banished_guy1",
+  skip = "all",
+  text = [[
+Je suis addict au jeu.
+
+
+Je ne peux plus entrer
+dans la tour, j'ai été
+banni du casino !
+]]
+}
+
+dialog{
+  id = "island.banished_guy2",
+  skip = "all",
+  text = [[
+Je suis un mangeur
+compulsif.
+
+Je ne peux plus entrer
+dans la tour, j'ai été
+banni du restaurant !
+]]
+}
+
+dialog{
+  id = "island.beach_board",
+  skip = "all",
+  text = [[
+Île des Rubis
+
+
+Maillot de bain
+obligatoire.
+]]
+}
+
+dialog{
+  id = "island.beach_jelly1",
+  skip = "all",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la découper en
+petits morceaux !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly2",
+  skip = "all",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la brûler avec une
+loupe !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly3",
+  skip = "all",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la noyer !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly4",
+  skip = "all",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va lui faire manger
+du poison !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly5",
+  skip = "all",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+On va la torturer
+psychologiquement !
+]]
+}
+
+dialog{
+  id = "island.beach_jelly6",
+  skip = "all",
+  text = [[
+Haha, on a attrapé une
+méduse !
+
+Heu c'est pas un peu
+dangereux ces trucs-là ?
+]]
+}
+
+dialog{
+  id = "island.beach_north_sign",
+  skip = "all",
+  text = [[
+Vers la Tour Grump
+]]
+}
+
+dialog{
+  id = "island.deku_done",
+  skip = "all",
+  text = [[
+Et voilà patron !
+Nos avons récupéré vos
+Palmes !
+Sur ce, on se rentre !
+]]
+}
+
+dialog{
+  id = "island.dontgo_board",
+  skip = "all",
+  text = [[
+N'y allez pas !!!
+]]
+}
+
+dialog{
+  id = "island.dontgo_guy",
+  skip = "all",
+  text = [[
+N'y vas pas !!!
+]]
+}
+
+dialog{
+  id = "island.grump_done",
+  text = [[
+Un malotru !
+Voilà ce que tu es.
+
+Oui, je suis bien
+Monsieur Grump, l'homme
+le plus classe du monde.
+Ici, on n'aime pas trop
+les voleurs et les
+malotrus.
+Ne touche plus à mes
+Palmes !
+]]
+}
+
+dialog{
+  id = "island.grump_done_again",
+  skip = "all",
+  text = [[
+À l'avenir, quand tu
+trouves un objet dans
+un donjon,
+ne le prends pas.
+C'est du vol !
+]]
+}
+
+dialog{
+  id = "island.grump_hey",
+  text = [[
+Hé !
+Dis donc !
+]]
+}
+
+dialog{
+  id = "island.grump_my_flippers",
+  text = [[
+Mais ce sont mes
+palmes !$0
+Gardes ! Sécurité !
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_1",
+  skip = "all",
+  text = [[
+La Tour Grump est
+actuellement en
+travaux.
+Veuillez revenir
+plus tard.
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_2",
+  skip = "all",
+  text = [[
+Arrête de raconter du
+pipeau, José !
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_3",
+  skip = "all",
+  text = [[
+On a été chargé de
+te bloquer car tu as
+oublié de finir le
+premier donjon.
+
+
+On n'est pas dans un
+open world ici !
+
+Chez nous il y a un
+ordre dans les
+donjons.
+Sinon c'est la porte
+ouverte à toutes les
+fenêtres !
+]]
+}
+
+dialog{
+  id = "island.grump_tower_guard_4",
+  skip = "all",
+  text = [[
+Bof, c'est le grand
+débat du moment...
+jeu linéaire ou non
+linéaire... Moi ça me
+passe par-dessus. Tant
+qu'on mon paie à faire
+le mur humain, ça me
+va.
+]]
+}
+
+dialog{
+  id = "island.grump_tower_sign",
+  skip = "all",
+  text = [[
+Tour Grump
+]]
+}
+
+dialog{
+  id = "island.hideseek_mom",
+  skip = "all",
+  text = [[
+Je "joue" à cache-cache
+avec mon fils.
+
+Je suis tranquille pour
+un moment...
+]]
+}
+
+dialog{
+  id = "island.hideseek_son",
+  skip = "all",
+  text = [[
+Je joue à cache-cache
+avec ma maman.
+
+Je suis en train de
+gagner.
+]]
+}
+
+dialog{
+  id = "island.liquid_champaign",
+  skip = "all",
+  text = [[
+C'est du champagne.
+]]
+}
+
+dialog{
+  id = "island.liquid_empty",
+  skip = "all",
+  text = [[
+C'est vide.
+]]
+}
+
+dialog{
+  id = "island.liquid_gentiane",
+  skip = "all",
+  text = [[
+C'est du violet de
+gentiane phéniqué.
+]]
+}
+
+dialog{
+  id = "island.liquid_milk",
+  skip = "all",
+  text = [[
+C'est du lait.
+]]
+}
+
+dialog{
+  id = "island.liquid_water",
+  skip = "all",
+  text = [[
+C'est de l'eau.
+]]
+}
+
+dialog{
+  id = "island.scaring_rupee_obtained_dialog",
+  text = [[
+Vous avez vécu des
+choses effroyables
+dans cette cave.
+Et cela ne valait
+sûrement pas ces 20
+rubis.
+]]
+}
+
+dialog{
+  id = "island.shop.blue_potion",
+  text = [[
+LA potion ultime. Avec
+ça, tu redeviens un
+jouvanceau. Vu la
+modique somme que j'en
+demande, je me tranche
+la gorge...
+]]
+}
+
+dialog{
+  id = "island.shop.flippers",
+  text = [[
+Les palmes les plus
+rapides des sept mers.
+Avec ça, plus besoin
+de bateau, tu deviens
+le hors-bord. Donné, 
+foi de PJMTLG.
+]]
+}
+
+dialog{
+  id = "island.shop.green_potion",
+  text = [[
+Si tu veux éveiller
+la Force qui sommeille
+en toi, c'est un très
+bon choix. Et à ce
+prix, je me tranche
+la gorge !
+]]
+}
+
+dialog{
+  id = "island.shop.kitchen",
+  skip = "all",
+  text = [[
+Tu te crois à la
+cantina ? Tu crois
+qu'un gros poilu va
+venir te souffler
+dans les bronches ?
+T'es pas ici pour
+manger, alors choisis
+un truc à acheter ou
+tire-toi.
+]]
+}
+
+dialog{
+  id = "island.shop.laboratory",
+  skip = "all",
+  text = [[
+Touche pas au matos,
+petit. Laisse faire le
+pro et contente-toi
+de ce qui est déjà en
+vente. Si je venais à
+manquer de produits,
+j'en referai illico.
+]]
+}
+
+dialog{
+  id = "island.shop.merchant",
+  skip = "all",
+  text = [[
+Salut, moi c'est
+Planteur. Je suppose
+que tu viens pour ma
+spécialité de
+saucisses dans des
+petits pains... Hélas,
+je suis en rupture.
+Toute ma marchandise
+est là, et j'te jure
+que vu les prix, je
+suis pas sûr de m'en
+tirer ce mois-ci.
+]]
+}
+
+dialog{
+  id = "island.shop.red_potion",
+  text = [[
+Quand tu te sens un
+peu faible, rien de
+tel que la potion
+magique. A ce prix-là,
+vraiment, je me
+tranche la gorge !
+]]
+}
+
+dialog{
+  id = "island.shop.vault",
+  skip = "all",
+  text = [[
+HEY ! Tu crois faire
+quoi là !? Tu me
+prends pour une banque
+ou un libre-service ?
+Va faire ton casse
+ailleurs, frangin, tu
+fais pas le poids face
+à Planteur.
+]]
+}
+
+dialog{
+  id = "island.south_sign",
+  skip = "all",
+  text = [[
+Nord : Île des Rubis
+Sud : Chill Valley
+Est : Village
+]]
+}
+
+dialog{
+  id = "island.zoo_adopt",
+  skip = "all",
+  text = [[
+On peut en adopter un ?
+]]
+}
+
+dialog{
+  id = "island.zoo_chief",
+  skip = "all",
+  text = [[
+C'est ici que Monsieur
+Grump fait prendre
+l'air à ses rubis.
+Comme ça nos visiteurs
+ont l'occasion de les
+admirer.
+]]
+}
+
+dialog{
+  id = "island.zoo_reproduct",
+  skip = "all",
+  text = [[
+Est-ce qu'ils peuvent
+se reproduire ?
+]]
+}
+
+dialog{
+  id = "island.zoo_rgb",
+  skip = "all",
+  text = [[
+Ils n'avaient plus de
+couleur disponible
+pour le 300 ?
+]]
+}
+
+dialog{
+  id = "island.zoo_sign",
+  skip = "all",
+  text = [[
+Enclos à rubis
+]]
+}
+
+dialog{
+  id = "lafoo.after_explosion",
+  text = [[
+Ça y est !!!
+
+
+Le bâtiment du Bureau
+des Objets Trouvés
+s'est effondré !
+Mais les gens sont déjà
+tous partis... car
+apparemment, il y a un
+Métamorph à l'état
+sauvage qui serait
+apparu dans le coin.
+Cependant, on n'a pas
+fini de se venger de 
+Monsieur Grump.
+Il habite au château
+royal, il l'a racheté
+avec sa grande fortune.
+Il paraît qu'il a
+recouvert les murs
+d'une couche d'or !
+Si tu le cherches, il
+est sûrement là-bas !
+]]
+}
+
+dialog{
+  id = "lafoo.before_explosion",
+  skip = "all",
+  text = [[
+Mieux vaut ne pas
+entrer là-dedans...
+
+... ça risque de
+s'écrouler à tout 
+moment !
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_1",
+  skip = "all",
+  text = [[
+A partir d'ici :
+1h d'attente.
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_2",
+  skip = "all",
+  text = [[
+A partir d'ici :
+45 minutes d'attente.
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_3",
+  skip = "all",
+  text = [[
+A partir d'ici :
+44 minutes 59 secondes
+d'attente.
+Oui, ça n'avance pas
+vite...
+]]
+}
+
+dialog{
+  id = "lafoo.queue_sign_4",
+  skip = "all",
+  text = [[
+A partir d'ici, il
+faudrait penser à 
+prendre un ticket.
+Une fois obtenu,
+veuillez compter 1h
+d'attente
+supplémentaire.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_1",
+  skip = "all",
+  text = [[
+J'ai des papillons au
+ventre...
+
+C'est sans doute le
+bonheur de voir cet
+édifice brûler !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_10",
+  skip = "all",
+  text = [[
+Mr Grump aurait
+commencé à bâtir sa
+fortune en nettoyant
+le caca des
+morts à l'hôpital 
+Tessier...
+Ne riez pas,
+il n'y a pas de
+sous-métier.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_11",
+  skip = "all",
+  text = [[
+Je suis persuadé que
+cet incendie n'a pas
+été causé par le
+peuple.
+
+
+Non, c'est un complot
+de l'intérieur, fait
+par le gouvernement !
+Tu as déjà entendu 
+parler des
+Illuminatis ?
+Nan ?
+Et des Reptiliens?
+Non plus ?
+C'est les sociétés
+secrètes responsables
+de cet incendie,
+et ça, personne n'en
+parle !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_12",
+  skip = "all",
+  text = [[
+J'ai senti comme une
+odeur de brûlé...
+
+Je croyais au début que
+c'était la ouiche
+lorraine que j'avais
+laissée dans le four.
+Que nenni !
+C'était ce maudit
+Bureau que le peuple a
+décidé de brûler !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_13",
+  skip = "all",
+  text = [[
+Bah fais quelque
+chose ! Ne reste pas
+les bras croisés !
+Enfin, je dis ça, mais
+je ne suis pas mieux
+moi à bavarrder ici !
+Quelqu'un a appelé les
+pompiers, au moins ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_14",
+  skip = "all",
+  text = [[
+D'un côté, c'est triste
+quand il y a un
+incendie...
+Mais d'un autre, c'est
+un plaisir de voir
+ce truc brûler !
+Mr Grump, son proprio,
+est ignoble avec les
+femmes.
+Il mérite qu'on lui
+remette les idées en
+place !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_15",
+  skip = "all",
+  text = [[
+J'ai vu des gens du
+village mettre le feu
+à ce bâtiment !
+C'est le Bureau des
+Objets Trouvés.
+
+J'étais là quand ça a
+commencé !
+
+J'ai tout vu, mais je
+ne dirai rien !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_16",
+  skip = "all",
+  text = [[
+Ce fichu Bureau des
+Objets Trouvés...
+Il brûle enfin !
+Je me rapelle avoir
+passé une journée
+entière dedans.
+C'était à n'en plus
+finir, cette paperasse
+administrative !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_17",
+  skip = "all",
+  text = [[
+Le feu, ça brûle...$0
+Et l'eau, ça mouille.
+
+Tiens, ça ferait une
+bonne chanson, ça !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_18",
+  skip = "all",
+  text = [[
+Certains l'appelaient
+le Bureau des Objets 
+Trouvés.
+Moi je l'appelais : le
+Bureau du Temps Perdu !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_19",
+  skip = "all",
+  text = [[
+Aucun pays ne s'est
+jamais élevé sans
+s'être purifié au feu
+de la souffrance.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_2",
+  skip = "all",
+  text = [[
+OUI MONSIEUR !
+N'AYONS PAS PEUR DES
+MOTS !!!
+Ce bâtiment qui brûle,
+c'est tout un symbole !
+
+C'est le peuple qui
+s'est exprimé et qui
+revendique sa colère !
+Assez des démarches
+administratives !
+
+Assez de la
+bureaucratie
+cosmopolito-bourgeoise !
+Assez de tout ça !
+RÉVOLUTION !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_20",
+  skip = "all",
+  text = [[
+La grogne des
+villageois s'est faite
+entendre !
+Heureusement que les
+employés ont réussi
+à sortir à temps.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_21",
+  skip = "all",
+  text = [[
+Allumeeeeeez le feu !
+Allumeeeeeez le feu !
+
+Et faire danser les
+diables et les dieux !
+
+Tu connais Johnny ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_22",
+  skip = "all",
+  text = [[
+Tu sais ce qui serait
+cool ?
+
+C'est qu'on passe le
+Boléro du Feu pendant
+cet incendie !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_23",
+  skip = "all",
+  text = [[
+Tu as vu cette fumée
+dans le ciel ?
+Ca vient de la forêt.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_24",
+  skip = "all",
+  text = [[
+On entend une foule qui
+crie...
+
+Et ça sent terriblement
+le brûlé...
+
+J'essaie de voir d'où
+ça vient !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_25",
+  skip = "all",
+  text = [[
+Laisse moi fuir !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_25_fire_rod",
+  text = [[
+Heu, tu veux un
+cadeau ?
+
+Tiens, c'est pour toi !
+Et si on te pose des
+questions, tu ne me
+connais pas, tu ne m'as
+pas vu, on ne s'est
+jamais rencontré.
+Et maintenant, je vais
+faire profil bas et 
+disparaître.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_26",
+  skip = "all",
+  text = [[
+Quelqu'un est en train
+de faire un barbecue ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_27",
+  skip = "all",
+  text = [[
+Ne pars pas comme ça !
+Reste un peu faire la
+fête avec les autres.$0
+Comment ça, je ne suis
+qu'une barrière
+artificielle ?
+Dis-toi que c'était ça
+ou un mur invisible !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_28",
+  skip = "all",
+  text = [[
+Il y a l'air d'y avoir
+une émeute au fond
+de la forêt !
+Par la sainte barbe de
+MacGregor, cours-y
+vite !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_29",
+  skip = "all",
+  text = [[
+Mais que fait la
+police ?
+
+Il y a l'air d'y avoir
+un atroupement au fond
+de la forêt.
+Et en plus, on voit ce
+panache de fumée et ça
+sent le cramoisi !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_3",
+  skip = "all",
+  text = [[
+J'ai une admiration
+pour les hommes
+intègres...
+...et sache-le, petit,
+le directeur du Bureau
+des Objets Trouvés
+n'en était pas un !
+Alors, qu'il aille au 
+diable !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_30",
+  skip = "all",
+  text = [[
+Les pompiers ne
+devraient pas tarder à
+arriver !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_31",
+  skip = "all",
+  text = [[
+Ca ne serait pas le
+Bureau des Objets
+Trouvés qui flambe ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_32",
+  skip = "all",
+  text = [[
+Il commence à y avoir
+du grabuge par là-bas.
+
+D'ailleurs, ce mot,
+"grabuge"
+...
+il pourrait
+être élu Mot Le Plus
+Moche De Tous Les Temps.
+L'année dernière, c'est
+le mot "chasuble" qui
+a gagné.
+C'est fou hein ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_33",
+  skip = "all",
+  text = [[
+Sabre de bois !
+J'ai l'impression qu'il
+y a un truc qui brûle !
+Il n'y a pas de fumée
+sans feu, 
+disent certains.
+D'autres disent : 
+"un tien vaut mieux que
+deux tu l'auras".
+Mais cela n'a rien à
+voir !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_34",
+  skip = "all",
+  text = [[
+Dis-donc, qu'est ce que
+tu faisais à traîner
+chez toi ?
+Tu ne vois pas qu'il y
+a l'air d'y avoir un
+souci dans la forêt ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_35",
+  skip = "all",
+  text = [[
+Snif$0 snif$0
+Ca sent comme une odeur
+de brûlé !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_36",
+  skip = "all",
+  text = [[
+La situation me donne
+envie de clamer un
+poème.
+  D'étranges volutes
+de fumée,
+  s'échappent de la 
+canopée.
+  Qu'est-ce ? Mystère.
+  D'un feu, ça m'en a
+tout l'air.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_37",
+  skip = "all",
+  text = [[
+Dis-donc, mon p'tit 
+bonhomme ! Tu connais
+Mr Grump ?
+C'est le directeur du
+Bureau des Objets 
+Trouvés.
+Le village est très
+remonté contre lui.
+
+Je crois qu'ils sont
+allés revendiquer leur
+colère là-bas.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_38",
+  skip = "all",
+  text = [[
+Il paraît qu'il y a un
+pyromane dans le 
+village... Et qu'il
+aurait fait des
+siennes près du Bureau
+des Objets Trouvés !
+Saperlotte !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_39",
+  skip = "all",
+  text = [[
+Je suis quasiment sûr
+que nous avons à faire
+à Pyroman et Dorothé.
+Au commissariat, 
+ils ne sont pas
+inconnus ces deux-là.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_4",
+  skip = "all",
+  text = [[
+Le directeur du Bureau
+des Objets Trouvés
+s'appelle Mr Grump.
+Il vit dans le château
+royal, qu'il a racheté
+avec sa fortune...
+Quel bachi-bouzouk !
+Moule-à-gaufre !
+Saltinbanque !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_40",
+  skip = "all",
+  text = [[
+Il ne peut plus rien
+nous arriver d'affreux,
+maintenant !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_41",
+  skip = "all",
+  text = [[
+Attention, ce jeu n'est
+pas un jeu sur le
+cyclimse.
+Merci de votre
+compréhension.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_42",
+  skip = "all",
+  text = [[
+Si je vais bien ?
+
+
+Ma foi, comme un lundi, 
+frais dans la matinée,
+soleil l'après-midi,
+la recette des sports
+d'hiver réussis ! 
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_43",
+  skip = "all",
+  text = [[
+Tu es au courant de ce
+qu'il s'est passé ?
+
+Non ?!
+
+
+Ben informe-toi un peu,
+mon grand gaillard !
+S'agirait d'grandir...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_44",
+  skip = "all",
+  text = [[
+Mon papa serait un
+voleur, car il a volé
+toutes les étoiles du
+ciel pour les mettre
+dans mes yeux...
+
+Enfin c'est ce que tous
+les garçons disent.
+
+Moi je sais que mon
+Papa c'est pas un
+voleur.
+Par contre il aurait des
+tendances pyromanes...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_45",
+  skip = "all",
+  text = [[
+C'est les développeurs
+qui m'ont dit de te
+bloquer le passage.
+Pourquoi ?
+
+
+J'en sais rien, j'suis
+qu'un PNJ, moi !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_46",
+  skip = "all",
+  text = [[
+VOUS. 
+
+
+NE.
+
+
+PASSEREZ.
+
+
+PAS !!!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_47",
+  skip = "all",
+  text = [[
+Essaie de passer et je
+t'en colle une.
+
+Tu vois pas qu'il se
+passe quelque chose de
+grave au sud ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_48",
+  skip = "all",
+  text = [[
+Nom de Zeus !
+
+
+Un incendie aurait 
+ravagé le Bureau des
+Objets Trouvés !
+Ca me rapelle une
+anecdote qui s'était
+passée en 1955,
+sauf que c'était la
+foudre et non le feu,
+et c'était une horloge
+au lieu d'un bureau.
+
+
+En fait ça n'avait rien
+à voir...
+Nom de Zeus !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_49",
+  skip = "all",
+  text = [[
+Ne me traite JAMAIS
+de mauviette.
+JA-MAIS, tu entends ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_5",
+  skip = "all",
+  text = [[
+Certains hommes veulent
+seulement regarder le
+monde brûler...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_50",
+  skip = "all",
+  text = [[
+L'autre jour, ça
+sentait aussi le brûlé
+comme aujourd'hui.
+Sauf que c'était mon
+gigot que j'avais
+oublié dans le four.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_51",
+  skip = "all",
+  text = [[
+On en a gros !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_52",
+  skip = "all",
+  text = [[
+On aimerait que
+M. Grump nous considère
+en tant que tels.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_53",
+  skip = "all",
+  text = [[
+Nous les employés du
+Bureau des Objets
+Trouvés, sommes souvent
+victimes des colibris.
+
+
+Je veux dire, nous
+sommes souvent victimes
+des colifichets.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_54",
+  skip = "all",
+  text = [[
+J'étais employée du
+Bureau des Objets
+Trouvés, et désormais,
+grâce à cet incendie,
+je suis libre !
+
+Adieu Mr Grump !
+Adieu vous et votre
+façon horrible de 
+traiter vos employés !
+Hasta la vista baby !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_55",
+  skip = "all",
+  text = [[
+Au guichet 22,
+tu sais quoi ?
+
+Ils se prenaient pour
+le meilleur guichet du
+monde.
+Et bah comme le reste, 
+tout est parti en fumée.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_56",
+  skip = "all",
+  text = [[
+Il y a tellement de
+badauds que je n'arrive
+pas à rentrer chez moi
+à Chill Valley !
+Pousse-toi un peu s'il
+te plaît.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_57",
+  skip = "all",
+  text = [[
+Tu n'aurais vu pas vu
+le mec du guichet 32 ?
+
+Il est parti avec
+toutes les clés.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_58",
+  skip = "all",
+  text = [[
+Le gars du guichet 41
+du Bureau des Objets 
+Trouvés s'est fait
+virer car il prenait
+tout le des pauses.
+
+Il paraît qu'il a
+retrouvé du boulot au
+restaurant de la
+Tour Grump !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_6",
+  skip = "all",
+  text = [[
+Et qui va nettoyer les
+cendres dues a cet
+incendie ?
+C'est encore mamie...
+
+
+Ah, pour faire le souk,
+ils sont bons, ces 
+jeunes gens !
+Par contre, dès qu'il
+s'agit de ranger...
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_66",
+  skip = "all",
+  text = [[
+Va voir à l'Est, j'ai
+comme l'impression que
+les gens veulent que
+tu ailles par là-bas !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_67",
+  skip = "all",
+  text = [[
+Le village est en état 
+d'urgence.
+
+Désolé mon bonhomme,
+c'est bloqué !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_68",
+  skip = "all",
+  text = [[
+Alors comme ça tu ne
+veux pas suive les
+évènements scriptés
+que t'ont préparé les
+développeurs du jeu ?
+Petit malin !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_69",
+  skip = "all",
+  text = [[
+Au nord se trouve le
+Bureau des Objets
+Trouvés qui flambe
+comme une tarte
+flambée.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_7",
+  skip = "all",
+  text = [[
+Je faisais mon footing
+hebdomadaire, quand
+soudain...
+... mon lacet s'est
+défait.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_70",
+  skip = "all",
+  text = [[
+Saprisiti, tout le
+village est attroupé
+ici !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_71",
+  skip = "all",
+  text = [[
+J'ai cru voir s'enfuir 
+le type qui a mis le feu
+au bâtiment.
+Il avait un bâton qui
+lance du feu.
+
+Comme toi...
+
+
+Dis-moi, c'est toi ?
+
+
+Non parce que si c'est
+toi, je ne t'en veux
+pas au contraire !
+Tu es un héros !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_72",
+  skip = "all",
+  text = [[
+On observe le bidule
+cramer et on apprécie
+le spectacle.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_73",
+  skip = "all",
+  text = [[
+Tout ce raffut ...
+
+
+Faudrait que je lance
+un parc d'attraction
+moyen-âgeux, 
+où il y aurait des
+reconstitutions
+d'évènements historiques
+comme celui-ci.
+
+
+Ah bon, 
+ça existe déjà ?!
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_74",
+  skip = "all",
+  text = [[
+C'est bête qu'on ne
+soit pas en hiver, ça
+aurait réchauffé tout
+le monde.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_75",
+  skip = "all",
+  text = [[
+Je voulais emmener ma
+copine voir un
+spectacle mais je suis
+fauché.
+Alors je l'ai amenée
+voir cet incendie.
+Désolé de ne pas faire
+dans le banal,
+môOôssieur !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_76",
+  skip = "all",
+  text = [[
+J'étais loin de me
+douter que le village
+avait autant
+d'habitants !
+C'est un truc de fou !
+Il devraient organiser
+plus souvent ce genre
+de spectacles
+pyrotechniques.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_77",
+  skip = "all",
+  text = [[
+Le Bureau des Objets
+Trouvés était tout sauf
+un monument historique.
+Mais le voir partir en
+fumée, c'est un moment
+historique !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_78",
+  skip = "all",
+  text = [[
+Je ne sais pas si c'est
+une émeute ou une fête.
+Il y a un incendie hors
+de contrôle en pleine
+forêt, et les gens ont
+l'air enchantés.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_79",
+  skip = "all",
+  text = [[
+Les livres d'histoire
+raconteront ce moment
+comme la Chute du Mur
+administratif.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_8",
+  skip = "all",
+  text = [[
+Gné-hé-hé...
+J'ai toujours eu une
+passion pour le feu...
+Mais j'tassure,
+c'est pas moi, pour
+une fois !
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_80",
+  skip = "all",
+  text = [[
+Je n'ose pas regarder
+en direction de
+l'incendie.
+C'est trop d'émotions
+fortes pour moi.
+]]
+}
+
+dialog{
+  id = "lafoo_riot.npc_9",
+  skip = "all",
+  text = [[
+On est pas bien, là ?
+Paisible ? 
+A la fraîche ?
+]]
+}
+
+dialog{
+  id = "lafoo_riot.perfume_npc",
+  text = [[
+Hé toi !
+
+
+Tiens, 
+prends ce parfum !
+
+Je n'ai jamais
+réussi à le refourguer 
+contre une hache.
+Au passage, asperge-toi
+car ça sent franchement
+le fauve.
+Tu as passé la journée à
+faire des corvées ou
+quoi ?!
+Bon, je file, j'aime
+pas la foule, et là
+c'est une émeute !
+]]
+}
+
+dialog{
+  id = "main_village.castle_guard_after_dungeon_1",
+  skip = "all",
+  text = [[
+Ah vous cherchez le
+patron ?
+Monsieur Grump est en
+déplacement de l'autre
+côté de l'océan, en
+voyage d'affaires.
+]]
+}
+
+dialog{
+  id = "main_village.castle_guard_before_dungeon_1",
+  skip = "all",
+  text = [[
+C'est bon, tu peux
+entrer. On a retrouvé
+les clés.
+]]
+}
+
+dialog{
+  id = "main_village.dumb_guy_house.in_bed",
+  skip = "all",
+  text = [[
+Sa fé 5 jours ke je
+campé dvt le magasin.
+
+Je voulait être sur
+d'avoir une iPlume en
+1er.
+Sais pr sa ke je
+suis fatiguer mnt.
+]]
+}
+
+dialog{
+  id = "main_village.east_sign",
+  skip = "all",
+  text = [[
+Nord : Désert Bakasable
+Mont Tipiton
+
+Sud : Grump Résidences
+]]
+}
+
+dialog{
+  id = "main_village.link_house.zelda_give_pink_saber_again",
+  text = [[
+Qui t'a transformé ton
+Sabre Laser en
+vert ???
+Laisse-moi rectifier
+cela.
+]]
+}
+
+dialog{
+  id = "main_village.north_sign",
+  skip = "all",
+  text = [[
+Nord : Château Doré
+de M. Grump
+
+Est : Désert Bakasable
+Mont Tipiton
+
+Ouest : Île des Rubis
+de M. Grump
+
+Sous vos pieds : Herbe
+verte que M. Grump n'a
+pas encore rachetée
+]]
+}
+
+dialog{
+  id = "main_village.rtfm",
+  skip = "all",
+  text = [[
+Tu es perdu dans les
+commandes ?
+RTFM.
+]]
+}
+
+dialog{
+  id = "main_village.shop.croissant",
+  next = "_unknown",
+  text = [[
+Un croissant.
+
+
+À consommer plus tard
+pour récupérer beaucoup
+de vie.
+]]
+}
+
+dialog{
+  id = "main_village.shop.heart_container",
+  next = "_unknown",
+  text = [[
+Un Réceptacle de Coeur
+authentique.
+
+Les premiers qui
+en achètent les auront
+moins cher !
+]]
+}
+
+dialog{
+  id = "main_village.shop.iplume",
+  next = "_unknown",
+  text = [[
+Une iPlume.
+C'est une révolution.
+
+Jamais une Plume
+n'avait été aussi bien
+conçue que l'iPlume.
+Disponible dès
+maintenant partout
+dans le monde
+dans les boutiques
+iPlume officielles.
+]]
+}
+
+dialog{
+  id = "main_village.shop.pain_au_chocolat",
+  next = "_unknown",
+  text = [[
+Un pain au chocolat.
+
+
+À consommer plus tard
+pour récupérer un peu
+de vie.
+]]
+}
+
+dialog{
+  id = "main_village.shop.red_rupee",
+  next = "_unknown",
+  text = [[
+Un Rubis rouge
+fabrication maison.
+Rarissime !
+]]
+}
+
+dialog{
+  id = "main_village.shop.salesman",
+  skip = "all",
+  text = [[
+Tout les commerces se
+délocalisent en
+périphérie du centre
+historique.
+
+
+Si ça continue comme ça
+on va devoir déménager
+nous aussi !
+]]
+}
+
+dialog{
+  id = "main_village.south_sign",
+  skip = "all",
+  text = [[
+Ouest : Île des Rubis
+Tour Grump
+
+Sud : Forêt
+Sud-Ouest :
+Chill Valley
+]]
+}
+
+dialog{
+  id = "main_village.tavern.heart_container_price_increasing",
+  text = [[
+Merci bien !
+Tu as fait une bonne
+affaire :
+le prix augmente pour
+les prochains clients,
+héhéhé.
+]]
+}
+
+dialog{
+  id = "main_village.tavern.heart_containers_done",
+  text = [[
+Merci bien ! Bon bah,
+on dirait que tu as
+acheté tout le stock.
+]]
+}
+
+dialog{
+  id = "main_village.tavern.tenant",
+  skip = "all",
+  text = [[
+La clientèle se fait
+rare.
+
+Les gens vont tous
+à Chill Valley ou sur
+l'Île des Rubis !
+]]
+}
+
+dialog{
+  id = "main_village.vase_house",
+  skip = "all",
+  text = [[
+Il y a eu un acte de
+vandalisme. Un
+individu s'est
+introduit ici et a
+détruit des centaines
+de vases.
+Alors ça fait deux
+semaines que je
+nettoie cette maison.
+Les gens ne respectent
+plus rien.
+]]
+}
+
+dialog{
+  id = "main_village.villager_tunnels",
+  skip = "all",
+  text = [[
+Certains prétendent
+que les cavernes
+seraient reliées par
+des tunnels
+souterrains.
+
+C'est n'importe quoi...
+Les gens jouent trop à
+Minecraft !
+]]
+}
+
+dialog{
+  id = "main_village.water_house.hello",
+  skip = "all",
+  text = [[
+Je reviens tout juste
+d'une cure thermale aux
+bains de Chill Valley.
+J'adore l'eau.
+L'eau, c'est la vie !$0
+Non ?
+M. Grump, le Directeur
+du Bureau des Objets
+Trouvés, est quelqu'un
+d'odieux qui n'a jamais
+voulu de mon eau.
+
+Résultat, lorsque le
+Bureau des Objets
+Trouvés a été
+incendié, ils n'ont
+rien pu faire !
+
+Des centaines de
+couches administratives
+parties en fumée !
+]]
+}
+
+dialog{
+  id = "main_village.water_house.upset",
+  skip = "all",
+  text = [[
+Qui a installé ce
+mécanisme diabolique ?!$0
+
+C'est complètement
+absurde !
+
+Où est passée toute mon
+eau ???
+]]
+}
+
+dialog{
+  id = "main_village.yoda_house.done",
+  skip = "all",
+  text = [[
+Relogé ici, j'ai été
+lorsque le Marais de
+la ForceTri on a rasé.
+Mais du côté humide je
+reste dans cette
+maison champignon.
+]]
+}
+
+dialog{
+  id = "main_village.yoda_house.give_green_saber",
+  text = [[
+Relogé ici, j'ai été
+lorsque le Marais de
+la ForceTri on a rasé.
+Mais du côté humide je
+reste dans cette
+maison champignon.
+Ton Sabre Laser
+injustement taggué a
+été ?
+À tes habits assorti,
+plus convenable un
+Sabre Laser serait.
+]]
+}
+
+dialog{
+  id = "not_now.cat_food",
+  icon = "37",
+  skip = "all",
+  text = [[
+Cette nourriture est
+pour Flocon-de-Neige,
+le chat de Zelda !
+]]
+}
+
+dialog{
+  id = "not_now.perfume",
+  icon = "39",
+  skip = "all",
+  text = [[
+Ce n'est pas le
+moment de se mettre
+du parfum !
+]]
+}
+
+dialog{
+  id = "otis",
+  skip = "all",
+  text = [[
+Mais, vous savez, moi
+je crois pas qu'il y
+ait de bonnes ou de
+mauvaises situations.
+Moi si je devais
+résumer ma vie
+aujourd'hui, je dirais
+que c'est d'abord des
+rencontres. Heu... des
+gens qui m'ont tendu la
+main, peut-être à un
+moment où je ne pouvais
+pas, où j'étais seul
+chez moi.
+Et c'est assez curieux
+de se dire que les
+hasards, les rencontres,
+forgent une destinée.
+Parce que quand on a le
+goût de la chose, le
+goût de la chose bien
+faite, le beau geste,
+parfois on ne trouve
+pas, heu...
+l'interlocuteur en face,
+je dirais, heu... le
+miroir qui vous aide à
+avancer. Alors ce n'est
+pas mon cas, comme
+je le disais là puisque
+moi au contraire j'ai
+pu, et je dis merci à
+la vie, je lui dis
+merci et je chante la
+vie, je danse la vie.
+Je ne suis qu'amour !
+Et finalement quand
+beaucoup de gens
+aujourd'hui me disent
+"Mais comment fais-tu
+pour avoir cette
+humanité ?", eh bien je
+leur réponds très
+simplement je leur dis :
+c'est ce goût de
+l'amour, ce goût donc
+qui m'a poussé,
+aujourd'hui à
+entreprendre une
+construction mécanique
+mais demain qui sait ?
+Heu, peut-être
+simplement à mettre au
+service, heu, de la
+communauté et à faire,
+le... le don, le don
+de... de... de soi.
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_are_you_okay",
+  skip = "all",
+  text = [[
+Rien de cassé ?$0
+Le Tardis indique que
+nous sommes proches de
+l'origine des rubis
+tueurs.
+
+Mais attention à ne pas
+changer le cours de la
+préhistoire.
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_lets_go_back",
+  text = [[
+Retournons vers le
+futur !
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tardis_arrived",
+  text = [[
+Hum...$0
+Nous sommes censés
+être arrivés.
+Le Tardis a pisté
+l'origine des rubis
+tueurs mais...$0
+Sommes-nous vraiment
+au bon endroit ?
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus",
+  text = [[
+C'est impossible !$0
+
+
+Le Tyrannosaure aux
+Oeufs d'Or est censé
+être une légende !$0
+Ohhh...$0 oh... mais
+tout s'explique à
+présent.
+Brillant !$0
+Tout ceci est
+absolument brillant !
+Cela ne peut être que
+lui qui a engendré la
+poule aux oeufs d'or
+de M. Grump et qui a
+donc causé l'invasion
+de rubis.
+Mais il a l'air très
+perturbé...
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_pissed_off",
+  skip = "all",
+  text = [[
+Le Tyrannosaure aux
+Oeufs d'Or est très
+agité.
+Tu n'aurais pas
+quelque chose sous la
+main pour le calmer ?
+J'ai bien mon tournevis
+sonique, mais cela ne
+ferait que l'énerver
+encore plus !
+]]
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_solved",
+  text = [[
+Fantastique !$0
+
+
+On dirait que ce drôle
+de parfum a un effet
+relaxant sur lui.
+Espérons que cela
+suffise pour annihiler
+le maléfice des rubis !
+Rentrons vite à ton
+époque.
+]]
+}
+
+dialog{
+  id = "prehistoric.tyrannosaurus_upset",
+  skip = "all",
+  text = [[
+Grrrrr...
+]]
+}
+
+dialog{
+  id = "slot_machine.choose_bet",
+  question = "1",
+  text = [[
+Combien veux-tu miser ?
+5 rubis
+20 rubis
+]]
+}
+
+dialog{
+  id = "slot_machine.intro",
+  question = "1",
+  text = [[
+Machine à sous :
+mise 5 ou 20 rubis et
+tente d'aligner trois
+symboles identiques
+pour gagner plusieurs
+fois ta mise !
+Veux-tu jouer ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "slot_machine.playing",
+  text = [[
+Approche-toi des
+roulettes et appuyez sur
+la touche Action
+pour les arrêter.
+Bonne chance !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.creeper",
+  text = [[
+Trois Creepers !
+Attention, ça va faire
+mal !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.green_rupees",
+  text = [[
+Trois rubis verts,
+joli ! Tu remportes
+5 fois ta mise !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.none",
+  question = "1",
+  text = [[
+Pas de chance, tu n'as
+formé aucune
+combinaison.
+Tu veux réessayer ?
+Oui
+Non
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.pickaxes",
+  text = [[
+Trois pioches en
+diamant !
+
+Félicitations, tu
+repars avec 7 fois
+ta mise !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.red_rupees",
+  text = [[
+Trois rubis rouges !!!
+Tu repars avec 10 fois
+ta mise. Bravo !
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.same_any",
+  text = [[
+Trois symboles identi-
+ques, pas mal ! Tu
+gagnes 4 fois ta mise.
+]]
+}
+
+dialog{
+  id = "slot_machine.reward.yoshi",
+  text = [[
+Trois Yoshi !
+C'est la meilleure
+combinaison possible.
+Tu gagnes 20 fois ta
+mise !
+]]
+}
+
+dialog{
+  id = "small_key_required",
+  icon = "72",
+  text = [[
+C'est fermé à clé !
+]]
+}
+
+dialog{
+  id = "swamp.3_months",
+  skip = "all",
+  text = [[
+Ces blocs de béton
+complètement difformes
+ont été construits à
+l'arrache !
+
+
+Forcément, Monsieur
+Grump avait décidé sur
+un coup de tête que
+tout devait être fini
+en 3 mois et pas un
+jour de plus.
+Alors le chantier a été
+bâclé.
+
+Sans parler des
+conditions de travail
+des ouvriers.
+Purement et simplement
+de l'esclavage !
+
+Heureusement que la
+boutique de potions a
+sponsorisé le chantier,
+sans cela je crois
+qu'ils n'auraient
+jamais réussi à finir.
+]]
+}
+
+dialog{
+  id = "swamp.architecture",
+  skip = "all",
+  text = [[
+L'architecte de cet
+immeuble a décidé de
+mettre une porte au
+deuxième étage qui
+donne sur le vide à
+l'extérieur.
+Il anticipe ! Si jamais
+on veut construire une
+terrasse un jour,
+bah on a déjà la porte.
+$0Malin !
+]]
+}
+
+dialog{
+  id = "swamp.buildings_now",
+  skip = "all",
+  text = [[
+Avant, il y avait un
+marécage ici.
+C'était typique !
+Peu de gens le savent,
+mais on pouvait même
+sauter de flaque en
+flaque. Les
+enfants adoraient ça.
+
+Monsieur Grump, le
+magnat de l'immobilier,
+a tout racheté pour
+construire ces affreux
+blocs d'immeubles à la
+place.
+]]
+}
+
+dialog{
+  id = "swamp.ganon_palace",
+  skip = "all",
+  text = [[
+Pfff...
+On détruit le paysage
+au profit de la
+spéculation
+immobilière !
+
+D'accord, Ganon était
+du côté des forces du
+mal, mais quand même,
+son palais faisait
+partie de notre
+patrimoine.
+Qu'on le veuille ou
+non, c'était un
+monument historique !
+]]
+}
+
+dialog{
+  id = "swamp.no_palace",
+  skip = "all",
+  text = [[
+Le palais de Ganon a
+été complètement rasé.
+
+Pas de palais...
+pas de palais.
+]]
+}
+
+dialog{
+  id = "swamp.otis",
+  skip = "all",
+  text = [[
+Tu cherches les gens
+qui ont construit ces
+immeubles insalubres ?
+Ce n'est pas de leur
+faute.
+
+Ils n'ont fait
+qu'obéir à Monsieur
+Grump.
+En tout cas, l'archi-
+tecte a un collègue
+absolument charmant,
+qui est parti méditer
+dans le désert au nord
+avec son chameau.
+D'ailleurs, moi aussi
+je médite.
+]]
+}
+
+dialog{
+  id = "swamp.west_sign",
+  text = [[
+Ouest : Forêt
+Bureau des Objets
+Trouvés
+]]
+}
+
+dialog{
+  id = "tardis.doctor_back_to_present",
+  skip = "all",
+  text = [[
+Te voilà revenu à ton
+époque.
+
+Tout est rentré dans
+l'ordre, non ?
+
+Nous n'avons pas
+modifié le cours du
+temps.
+Enfin j'espère.
+
+
+Dis, je recrute un
+companion pour mes
+prochains voyages.
+Tu connaîtrais des
+gens intéressés ?
+]]
+}
+
+dialog{
+  id = "tardis.doctor_escaping_grump_tower",
+  text = [[
+Une telle quantité de
+rubis ne peut être que
+le signe d'une fissure
+spatio-temporelle !
+
+
+Moi ? Je te l'ai dit,
+je suis le Docteur.
+Juste le Docteur.
+Oui, c'est plus grand
+à l'intérieur.
+
+Mais maintenant partons
+d'ici.
+
+Allons-y !
+]]
+}
+
+dialog{
+  id = "torch.need_lamp",
+  skip = "all",
+  text = [[
+Il y a sûrement un
+moyen d'allumer
+cette torche...
+]]
+}
+
+dialog{
+  id = "use_bottle_with_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Ton Flacon Magique
+contient de l'eau.
+
+Que veux-tu faire ?
+Vider l'eau
+La conserver
+]]
+}
+
+dialog{
+  id = "use_croissants",
+  icon = "18",
+  question = "1",
+  text = [[
+Un Croissant te
+permet de retrouver
+7 Coeurs.
+Que veux-tu faire ?
+En manger un
+Ne rien faire
+]]
+}
+
+dialog{
+  id = "use_pains_au_chocolat",
+  icon = "17",
+  question = "1",
+  text = [[
+Un Pain au Chocolat
+te redonne 3 Coeurs.
+
+Que veux-tu faire ?
+En manger un
+Ne rien faire
+]]
+}
+
+dialog{
+  id = "warning_magic",
+  text = [[
+Mais surveille ton
+compteur magique !
+]]
+}
+

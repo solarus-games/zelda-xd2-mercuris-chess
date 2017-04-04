@@ -2,17 +2,98 @@
 
 local hearts_builder = {}
 
-local hearts_img = sol.surface.create("hud/hearts.png")
-
 function hearts_builder:new(game, config)
 
   local hearts = {}
 
-  hearts.surface = sol.surface.create(80, 16)
-  hearts.dst_x = config.x
-  hearts.dst_y = config.y
-  hearts.max_life_displayed = game:get_max_life()
-  hearts.current_life_displayed = game:get_life()
+  if config ~= nil then
+    hearts.dst_x, hearts.dst_y = config.x, config.y
+  end
+
+  hearts.surface = sol.surface.create(81, 18)
+  hearts.empty_heart_sprite = sol.sprite.create("hud/empty_heart")
+  hearts.nb_max_hearts_displayed = game:get_max_life() / 4
+  hearts.nb_current_hearts_displayed = game:get_life()
+  hearts.all_hearts_img = sol.surface.create("hud/hearts.png")
+
+  function hearts:on_started()
+
+    -- This function is called when the HUD starts or
+    -- was disabled and gets enabled again.
+    -- Unlike other HUD elements, the timers were canceled because they
+    -- are attached to the menu and not to the game
+    -- (this is because the hearts are also used in the savegame menu).
+    hearts.danger_sound_timer = nil
+    hearts:check()
+    hearts:rebuild_surface()
+  end
+
+  -- Checks whether the view displays the correct info
+  -- and updates it if necessary.
+  function hearts:check()
+
+    local need_rebuild = false
+
+    -- Maximum life.
+    local nb_max_hearts = game:get_max_life() / 4
+    if nb_max_hearts ~= hearts.nb_max_hearts_displayed then
+      need_rebuild = true
+
+      if nb_max_hearts < hearts.nb_max_hearts_displayed then
+        -- Decrease immediately if the max life is reduced.
+        hearts.nb_current_hearts_displayed = game:get_life()
+      end
+
+      hearts.nb_max_hearts_displayed = nb_max_hearts
+    end
+
+    -- Current life.
+    local nb_current_hearts = game:get_life()
+    if nb_current_hearts ~= hearts.nb_current_hearts_displayed then
+
+      need_rebuild = true
+      if nb_current_hearts < hearts.nb_current_hearts_displayed then
+        hearts.nb_current_hearts_displayed = hearts.nb_current_hearts_displayed - 1
+      else
+        hearts.nb_current_hearts_displayed = hearts.nb_current_hearts_displayed + 1
+        if game:is_started()
+            and hearts.nb_current_hearts_displayed % 4 == 0 then
+          sol.audio.play_sound("heart")
+        end
+      end
+    end
+
+    -- If we are in-game, play an animation and a sound if the life is low.
+    if game:is_started() then
+
+      if game:get_life() <= game:get_max_life() / 4
+          and not game:is_suspended() then
+        need_rebuild = true
+        if hearts.empty_heart_sprite:get_animation() ~= "danger" then
+          hearts.empty_heart_sprite:set_animation("danger")
+        end
+        if hearts.danger_sound_timer == nil then
+          hearts.danger_sound_timer = sol.timer.start(self, 250, function()
+            hearts:repeat_danger_sound()
+          end)
+          hearts.danger_sound_timer:set_suspended_with_map(true)
+        end
+      elseif hearts.empty_heart_sprite:get_animation() ~= "normal" then
+        need_rebuild = true
+        hearts.empty_heart_sprite:set_animation("normal")
+      end
+    end
+
+    -- Redraw the surface only if something has changed.
+    if need_rebuild then
+      hearts:rebuild_surface()
+    end
+
+    -- Schedule the next check.
+    sol.timer.start(hearts, 50, function()
+      hearts:check()
+    end)
+  end
 
   function hearts:repeat_danger_sound()
 
@@ -29,39 +110,34 @@ function hearts_builder:new(game, config)
   end
 
   function hearts:rebuild_surface()
-
     hearts.surface:clear()
 
-    local life = hearts.current_life_displayed
-    local max_life = hearts.max_life_displayed
-    for j = 1, max_life do
-      if j % 2 == 0 then
-        local x, y
-        if j <= 20 then
-          x = 4 * (j - 2)
-          y = 0
-        else
-          x = 4 * (j - 22)
-          y = 8
-        end
-        if life >= j then
-          hearts_img:draw_region(0, 0, 8, 8, hearts.surface, x, y)
-        else
-          hearts_img:draw_region(16, 0, 8, 8, hearts.surface, x, y)
-        end
+    -- Display the hearts.
+    for i = 0, hearts.nb_max_hearts_displayed - 1 do
+      local x, y = (i % 10) * 8, math.floor(i / 10) * 8
+      hearts.empty_heart_sprite:draw(hearts.surface, x, y)
+      if i < math.floor(hearts.nb_current_hearts_displayed / 4) then
+        -- This heart is full.
+        hearts.all_hearts_img:draw_region(27, 0, 9, 8, hearts.surface, x, y)
       end
     end
-    if life % 2 == 1 then
-      local x, y
-      if life <= 20 then
-        x = 4 * (life - 1)
-        y = 0
-      else
-        x = 4 * (life - 21)
-        y = 8
-      end
-      hearts_img:draw_region(8, 0, 8, 8, hearts.surface, x, y)
+
+    -- Last fraction of heart.
+    local i = math.floor(hearts.nb_current_hearts_displayed / 4)
+    local remaining_fraction = hearts.nb_current_hearts_displayed % 4
+    if remaining_fraction ~= 0 then
+      local x, y = (i % 10) * 8, math.floor(i / 10) * 8
+      hearts.all_hearts_img:draw_region((remaining_fraction - 1) * 9, 0, 9, 8, hearts.surface, x, y)
     end
+  end
+
+  function hearts:set_dst_position(x, y)
+    hearts.dst_x = x
+    hearts.dst_y = y
+  end
+
+  function hearts:get_surface()
+    return hearts.surface
   end
 
   function hearts:on_draw(dst_surface)
@@ -75,80 +151,12 @@ function hearts_builder:new(game, config)
       y = height + y
     end
 
-    hearts.surface:draw(dst_surface, x, y + 18)
+    -- Everything was already drawn on self.surface.
+    hearts.surface:draw(dst_surface, x, y)
   end
 
-  -- Checks whether the view displays correct information
-  -- and updates it if necessary.
-  local function check()
-
-    local need_rebuild = false
-
-    -- Maximum life.
-    local max_life = game:get_max_life()
-    if max_life ~= hearts.max_life_displayed then
-      need_rebuild = true
-      hearts.max_life_displayed = max_life
-    end
-
-    -- Current life.
-    local current_life = game:get_life()
-    if current_life == hearts.current_life_displayed then
-      hearts.sound_remainder = nil
-    else
-
-      need_rebuild = true
-      if current_life < hearts.current_life_displayed then
-        hearts.current_life_displayed = hearts.current_life_displayed - 1
-      else
-        hearts.current_life_displayed = hearts.current_life_displayed + 1
-        if game:is_started() then
-          if hearts.sound_remainder == nil then
-            hearts.sound_remainder = hearts.current_life_displayed % 4
-          end
-          if hearts.current_life_displayed % 4 == hearts.sound_remainder then
-            sol.audio.play_sound("heart")
-          end
-        end
-      end
-    end
-
-    -- If we are in-game, play an animation and a sound if the life is low.
-    if game:is_started() then
-
-      if game:get_life() <= game:get_max_life() / 4
-          and not game:is_suspended() then
-        need_rebuild = true
-        if hearts.danger_sound_timer == nil then
-          hearts.danger_sound_timer = sol.timer.start(hearts, 250, function()
-            hearts:repeat_danger_sound()
-          end)
-          hearts.danger_sound_timer:set_suspended_with_map(true)
-        end
-      end
-    end
-
-    -- Redraw the surface only if something has changed.
-    if need_rebuild then
-      hearts:rebuild_surface()
-    end
-
-    return true  -- Repeat the timer.
-  end
-
-  function hearts:on_started()
-
-    -- This function is called when the HUD starts or
-    -- was disabled and gets enabled again.
-    -- Unlike other HUD elements, the timers were canceled because they
-    -- are attached to the menu and not to the game
-    -- (this is because the hearts may also be used in the savegame menu).
-    hearts.danger_sound_timer = nil
-    -- Periodically check.
-    check()
-    sol.timer.start(hearts, 50, check)
-    hearts:rebuild_surface()
-  end
+  hearts:check()
+  hearts:rebuild_surface()
 
   return hearts
 end

@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "entities/beach_hut.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 69 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 69 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 69 },
+    { x = 0, y = 0, frame_width = 64, frame_height = 72, origin_x = 32, origin_y = 69 },
+  },
+}

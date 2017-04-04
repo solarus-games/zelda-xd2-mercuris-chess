@@ -1,0 +1,16 @@
+animation{
+  name = "close",
+  src_image = "entities/heart_fade.png",
+  frame_delay = 150,
+  directions = {
+    { x = 0, y = 0, frame_width = 640, frame_height = 480, origin_x = 320, origin_y = 245, num_frames = 6 },
+  },
+}
+animation{
+  name = "close (copie)",
+  src_image = "entities/heart_fade.png",
+  frame_delay = 150,
+  directions = {
+    { x = 0, y = 480, frame_width = 640, frame_height = 480, origin_x = 320, origin_y = 245, num_frames = 6 },
+  },
+}

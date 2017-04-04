@@ -1,0 +1,187 @@
+﻿We give in this file the license information of
+the Zelda XD2: Mercuris Chess quest.
+
+- Lua scripts are licensed under the terms of the GNU General Public License
+in version 3.
+
+- Most data files other than Lua scripts are licensed under
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0).
+http://creativecommons.org/licenses/by-sa/4.0/
+
+- Some graphics, sounds and names include content that belong to Nintendo.
+We don't own this content.
+
+This quest was made by the Solarus team.
+
+Main contributors:
+- Christopho
+- Metallizer
+- Olivier Cléro
+- Newlink
+
+Scripts under GNU GPL v3:                           Author
+-------------------------                           ------
+**.lua                                              Christopho, Metallizer, Olivier Cléro
+
+Data files under CC BY-SA 4.0:                      Author
+------------------------------                      ------
+**.dat                                              Christopho, Metallizer, Olivier Cléro
+
+fonts/minecraftia.ttf                               Andrew Tyler: http://www.andrewtyler.net
+
+languages/fr/images/action_icon.png                 Metallizer, Olivier Cléro
+languages/fr/images/floors.png                      Metallizer, Olivier Cléro
+languages/fr/images/gameover_menu.png               Metallizer, Olivier Cléro
+languages/fr/images/pause_icon.png                  Metallizer, Olivier Cléro
+languages/fr/images/pause_submenus.png              Metallizer, Olivier Cléro
+languages/fr/images/sword_icon.png                  Metallizer, Olivier Cléro
+
+logos/icon.icns                                     Olivier Cléro
+logos/icon.ico                                      Olivier Cléro
+logos/icon_*.png                                    Olivier Cléro
+
+sounds/diarandor/solarus_logo.ogg                   Diarandor
+sounds/zonzifleur/solarus_team_logo.ogg             Zonzifleur
+
+sprites/console/cursor.png                          Maxs
+sprites/console/icons.png                           Maxs
+sprites/chess/*.png                                 Olivier Cléro
+sprites/enemies/newlink/*.png                       Newlink
+sprites/enemies/newlink/angry_zelda.png             Newlink
+sprites/enemies/oclero/mr_grump.png                 Olivier Cléro
+sprites/entities/conveyor_belt.png                  Christopho
+sprites/entities/shadow_dynamic.png                 Diarandor
+sprites/entities/slot_machine_support.png           Newlink
+sprites/hud/gameover_fade.png                       Metallizer
+sprites/hud/dialog_box.png                          Metallizer, Olivier Cléro
+sprites/hud/hearts.png                              Olivier Cléro
+sprites/hud/icons_flip.png                          Metallizer, Olivier Cléro
+sprites/hud/item_icon_1.png                         Metallizer, Olivier Cléro
+sprites/hud/item_icon_2.png                         Metallizer, Olivier Cléro
+sprites/hud/magic_bar.png                           Metallizer, Olivier Cléro
+sprites/hud/rupee_icon.png                          Metallizer, Olivier Cléro
+sprites/hud/small_key_icon.png                      Olivier Cléro
+sprites/menus/arrow.png                             Metallizer
+sprites/menus/dungeon_map_background.png            Metallizer, Olivier Cléro
+sprites/menus/dungeon_maps/map2.png                 Christopho
+sprites/menus/gplv3_logo.png                        Olivier Cléro
+sprites/menus/hero_point.png                        Christopho
+sprites/menus/options_cursor.png                    Christopho, Olivier Cléro
+sprites/menus/outside_world_clouds.png              Metallizer
+sprites/menus/pause_cursor.png                      Metallizer, Olivier Cléro
+sprites/menus/pause_save_dialog.png                 Metallizer, Olivier Cléro
+sprites/menus/quest_status_pieces_of_heart.png      Metallizer, Olivier Cléro
+sprites/menus/selection_menu_background.png         Olivier Cléro
+sprites/menus/selection_menu_cursor.png             Metallizer, Olivier Cléro
+sprites/menus/selection_menu_letters.png            Olivier Cléro
+sprites/menus/selection_menu_option_container.png   Olivier Cléro
+sprites/menus/selection_menu_save1.png              Olivier Cléro
+sprites/menus/selection_menu_save2.png              Olivier Cléro
+sprites/menus/selection_menu_save3.png              Olivier Cléro
+sprites/menus/selection_menu_save_container.png     Olivier Cléro
+sprites/menus/solarus_logo.png                      Olivier Cléro
+sprites/menus/team_logo.png                         Olivier Cléro
+sprites/menus/team_logo_text.png                    Olivier Cléro
+sprites/menus/title_screen/title_background.png     Olivier Cléro
+sprites/menus/title_screen/title_cloud_1.png        Olivier Cléro
+sprites/menus/title_screen/title_cloud_2.png        Olivier Cléro
+sprites/menus/title_screen/title_cloud_3.png        Olivier Cléro
+sprites/menus/title_screen/title_grump.png          Olivier Cléro
+sprites/menus/title_screen/title_troll.png          Olivier Cléro
+sprites/npc/newlink/newlink.png                     Newlink
+sprites/npc/seagull.png                             Olivier Cléro
+sprites/npc/oclero/golden_tyranosaurus.png          Olivier Cléro
+
+Original art inspired from Nintendo:                Author
+------------------------------------                ------
+musics/bulby/*.ogg                                  Bulby: https://www.youtube.com/channel/UCz6zvgkf6eKpgqlUZQstOtQ
+musics/metallizer/la_eagle_tower.ogg                Metallizer
+musics/oclero/la_link_is_awake.ogg                  Olivier Cléro
+musics/shield/*.spc                                 Shield
+
+sprites/enemies/oclero/chicken_giant.png            Olivier Cléro
+sprites/entities/la_beach/la_background.png         Olivier Cléro
+sprites/entities/la_beach/la_swell.png              Olivier Cléro
+sprites/entities/la_beach/la_wreck.png              Olivier Cléro
+sprites/npc/deku_*.png                              Newlink
+sprites/npc/marine.png                              Newlink
+sprites/npc/swimming/npc.png                        Newlink, Renkineko
+
+tilesets/la_beach.entities.png                      Christopho
+tilesets/la_beach.tiles.png                         Olivier Cléro
+
+Original art inspired from various references:      Author
+----------------------------------------------      ------
+musics/larryinc64/*.ogg                             LarryInc64: https://www.youtube.com/channel/UCp8cixTHfmu7slFJFFlyFPA
+musics/doctoroctoroc/*.ogg                          DoctorOctoroc: https://www.youtube.com/channel/UCpEI4NuWSISo6LvAUAoa4pg
+sprites/enemies/creeper.png                         Christopho
+sprites/entities/bttf/delorean.png                  Olivier Cléro
+sprites/entities/doctor_who/tardis.png              Olivier Cléro
+sprites/entities/doctor_who/weeping_angel.png       CollegeHumor
+sprites/npc/bttf/doc_emmett_brown.png               Olivier Cléro
+sprites/npc/bttf/marty_mcfly.png                    Olivier Cléro
+sprites/npc/newlink/yoda.png                        Newlink
+sprites/the_doctor.png                              Rockfootdude
+tileset/tardis.entities.png                         CollegeHumor
+tileset/tardis.tiles.png                            CollegeHumor
+
+Files that include content from Nintendo:
+-----------------------------------------
+fonts/alttp.png
+fonts/green_digits.png
+fonts/la.ttf
+fonts/white_digits.png
+
+languages/*/images/*.png
+
+musics/alttp/*.it
+musics/bttf/*.spc
+
+sounds/*.ogg
+
+tilesets/ct/*.png
+tilesets/dungeon/*.png
+tilesets/*.png
+
+sprites/enemies/alttp/*.png
+sprites/enemies/cannonball.png
+sprites/enemies/enemy_killed.png
+sprites/enemies/rupee_blue.png
+sprites/enemies/rupee_green.png
+sprites/enemies/rupee_red.png
+sprites/enemies/la/*.png
+sprites/entities/dungeon_2/*.png
+sprites/entities/karts/*.png
+sprites/entities/arrow.png
+sprites/entities/beach_hut.png
+sprites/entities/bomb.png
+sprites/entities/boomerang.png
+sprites/entities/bush.png
+sprites/entities/chest.png
+sprites/entities/dark0.png
+sprites/entities/dark1.png
+sprites/entities/dark2.png
+sprites/entities/dark3.png
+sprites/entities/explosion.png
+sprites/entities/hint_stone.png
+sprites/entities/hookshot.png
+sprites/entities/items.png
+sprites/entities/miscellaneous.png
+sprites/entities/shadow.png
+sprites/entities/slot_machine_items.png
+sprites/entities/teletransporter.png
+sprites/entities/torch.png
+sprites/entities/case.png
+sprites/hero/*.png
+sprites/hud/dialog_icons.png
+sprites/hud/hearts.png
+sprites/menus/dungeon_map_icons.png
+sprites/menus/hero_head.png
+sprites/menus/link_cursor.png
+sprites/menus/outside_world_map.png
+sprites/npc/alttp/alttp.png
+sprites/npc/alttp/blacksmith.png
+sprites/npc/alttp/fat_fairy.png
+sprites/npc/alttp/ghostly_proprietor.png
+sprites/npc/alttp/great_fairy.png
+sprites/npc/alttp/witch.png

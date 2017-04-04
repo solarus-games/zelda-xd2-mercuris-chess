@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "npc/newlink/otis_camel.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+    { x = 0, y = 0, frame_width = 48, frame_height = 56, origin_x = 24, origin_y = 53 },
+  },
+}

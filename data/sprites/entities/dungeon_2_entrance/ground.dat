@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "entities/dungeon_2_entrance/ground.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 320, frame_height = 96, origin_x = 8, origin_y = 13 },
+  },
+}

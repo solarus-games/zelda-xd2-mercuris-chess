@@ -1,0 +1,7 @@
+animation{
+  name = "stopped",
+  src_image = "entities/la_beach/la_background.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 640, frame_height = 480, origin_x = 8, origin_y = 13 },
+  },
+}

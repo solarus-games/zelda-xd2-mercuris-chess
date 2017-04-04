@@ -1,0 +1,142 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 720,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/blue",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 720,
+  pattern = "floor.18-1",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 77,
+  direction = 3,
+  breed = "creeper",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 77,
+  direction = 3,
+  breed = "cannonball",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 136,
+  y = 77,
+  direction = 1,
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 125,
+  direction = 0,
+  breed = "la/vegas",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 173,
+  direction = 3,
+  breed = "newlink/cobruss",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 173,
+  direction = 3,
+  breed = "newlink/vipeross",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 269,
+  direction = 3,
+  breed = "newlink/tanekian_guard_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 221,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 221,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_green",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 221,
+  direction = 3,
+  breed = "newlink/tanekian_soldier_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 269,
+  direction = 3,
+  breed = "newlink/tanekian_commander_yellow",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 317,
+  direction = 3,
+  breed = "newlink/topik_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 317,
+  direction = 3,
+  breed = "newlink/topik_green",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 317,
+  direction = 3,
+  breed = "newlink/topik_red",
+  treasure_name = "random",
+}
+

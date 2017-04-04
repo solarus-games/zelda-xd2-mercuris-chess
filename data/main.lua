@@ -3,24 +3,45 @@
 -- See the Lua API! http://www.solarus-games.org/doc/latest
 
 require("scripts/features")
+local initial_menus_config = require("scripts/menus/initial_menus_config")
+local initial_menus = {}
 local game_manager = require("scripts/game_manager")
 
 -- This function is called when Solarus starts.
 function sol.main:on_started()
 
-  -- Setting a language is useful to display text and dialogs.
-  -- sol.language.set_language("en")
+  sol.main.load_settings()
+  math.randomseed(os.time())
 
-  local solarus_logo = require("scripts/menus/solarus_logo")
-
-  -- Show the Solarus logo initially.
-  sol.menu.start(self, solarus_logo)
-
-  -- Start the game when the Solarus logo menu is finished.
-  solarus_logo.on_finished = function()
-    game_manager:start_game("save1.dat")
+  -- Show the initial menus.
+  if #initial_menus_config == 0 then
+    return
   end
 
+  for _, menu_script in ipairs(initial_menus_config) do
+    initial_menus[#initial_menus + 1] = require(menu_script)
+  end
+
+  local on_top = false  -- To keep the debug menu on top.
+  sol.menu.start(sol.main, initial_menus[1], on_top)
+  for i, menu in ipairs(initial_menus) do
+    function menu:on_finished()
+      if sol.main.game ~= nil then
+        -- A game is already running (probably quick start with a debug key).
+        return
+      end
+      local next_menu = initial_menus[i + 1]
+      if next_menu ~= nil then
+        sol.menu.start(sol.main, next_menu)
+      end
+    end
+  end
+
+end
+
+function sol.main:on_finished()
+
+  sol.main.save_settings()
 end
 
 -- Event called when the player pressed a keyboard key.
@@ -47,4 +68,16 @@ function sol.main:on_key_pressed(key, modifiers)
   end
 
   return handled
+end
+
+-- Starts a game.
+function sol.main:start_savegame(game)
+
+  -- Skip initial menus if any.
+  for _, menu in ipairs(initial_menus) do
+    sol.menu.stop(menu)
+  end
+
+  sol.main.game = game
+  game:start()
 end

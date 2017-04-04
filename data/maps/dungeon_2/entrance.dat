@@ -1,0 +1,129 @@
+properties{
+  x = 448,
+  y = 40,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world_legacy",
+  music = "larryinc64/queen_another_one",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = 13,
+  width = 320,
+  height = 240,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/sky",
+}
+
+custom_entity{
+  name = "building",
+  layer = 0,
+  x = 8,
+  y = 61,
+  width = 320,
+  height = 152,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/building",
+}
+
+custom_entity{
+  name = "entrance",
+  layer = 0,
+  x = 112,
+  y = 117,
+  width = 112,
+  height = 96,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/entrance",
+}
+
+custom_entity{
+  name = "ground",
+  layer = 0,
+  x = 8,
+  y = 157,
+  width = 320,
+  height = 96,
+  direction = 0,
+  sprite = "entities/dungeon_2_entrance/ground",
+}
+
+destination{
+  name = "from_outside",
+  layer = 0,
+  x = 160,
+  y = 229,
+  direction = 1,
+}
+
+wall{
+  layer = 0,
+  x = 144,
+  y = 176,
+  width = 8,
+  height = 64,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 168,
+  y = 176,
+  width = 8,
+  height = 64,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 152,
+  y = 168,
+  width = 16,
+  height = 8,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 176,
+  width = 16,
+  height = 16,
+  destination_map = "dungeon_2/1f",
+  destination = "from_outside",
+}
+
+destination{
+  name = "from_dungeon_2",
+  layer = 0,
+  x = 160,
+  y = 205,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "out/a1",
+  destination = "from_dungeon_2",
+}
+

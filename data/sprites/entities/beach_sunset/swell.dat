@@ -1,0 +1,12 @@
+animation{
+  name = "swell",
+  src_image = "entities/beach_sunset/swell.png",
+  frame_delay = 180,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 32, frame_height = 8, origin_x = 8, origin_y = 5, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 8, origin_x = 12, origin_y = 5, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 8, origin_x = 12, origin_y = 5, num_frames = 10 },
+    { x = 0, y = 0, frame_width = 32, frame_height = 8, origin_x = 12, origin_y = 5, num_frames = 10 },
+  },
+}

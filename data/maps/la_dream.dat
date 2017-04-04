@@ -1,0 +1,649 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 640,
+  height = 480,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "la_beach",
+  music = "oclero/la_link_is_awake",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 408,
+  width = 640,
+  height = 72,
+  pattern = "5",
+}
+
+custom_entity{
+  layer = 0,
+  x = 8,
+  y = -59,
+  width = 640,
+  height = 480,
+  direction = 0,
+  sprite = "entities/la_beach/la_background",
+}
+
+npc{
+  name = "seagull_1",
+  layer = 0,
+  x = -16,
+  y = 317,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/seagull",
+}
+
+npc{
+  name = "seagull_2",
+  layer = 0,
+  x = 656,
+  y = 261,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/seagull",
+}
+
+npc{
+  name = "seagull_4",
+  layer = 0,
+  x = 304,
+  y = 149,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/seagull",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 416,
+  width = 24,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 384,
+  width = 640,
+  height = 8,
+  pattern = "8",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 352,
+  width = 640,
+  height = 32,
+  pattern = "1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 304,
+  width = 640,
+  height = 40,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 328,
+  width = 640,
+  height = 24,
+  pattern = "16",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 304,
+  y = 320,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 464,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 352,
+  width = 16,
+  height = 8,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 496,
+  y = 360,
+  width = 16,
+  height = 8,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 624,
+  y = 352,
+  width = 16,
+  height = 8,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 592,
+  y = 312,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "10",
+}
+
+tile{
+  layer = 1,
+  x = 320,
+  y = 424,
+  width = 24,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 424,
+  y = 352,
+  width = 16,
+  height = 16,
+  pattern = "10",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 344,
+  width = 16,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 416,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 456,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 240,
+  y = 408,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 416,
+  y = 416,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 488,
+  y = 464,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 616,
+  y = 408,
+  width = 16,
+  height = 8,
+  pattern = "4",
+}
+
+tile{
+  layer = 1,
+  x = 344,
+  y = 440,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 432,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 568,
+  y = 408,
+  width = 24,
+  height = 16,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 600,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 1,
+  x = 448,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "11",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "11",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 376,
+  width = 16,
+  height = 16,
+  pattern = "6",
+}
+
+destination{
+  name = "beach_entrance",
+  layer = 1,
+  x = 552,
+  y = 373,
+  direction = 2,
+  default = true,
+}
+
+custom_entity{
+  name = "swell_1",
+  layer = 1,
+  x = 8,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_2",
+  layer = 1,
+  x = 40,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_3",
+  layer = 1,
+  x = 72,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_4",
+  layer = 1,
+  x = 104,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_5",
+  layer = 1,
+  x = 136,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_6",
+  layer = 1,
+  x = 168,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_7",
+  layer = 1,
+  x = 200,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_8",
+  layer = 1,
+  x = 232,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_9",
+  layer = 1,
+  x = 264,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_10",
+  layer = 1,
+  x = 296,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_11",
+  layer = 1,
+  x = 328,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_13",
+  layer = 1,
+  x = 392,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_14",
+  layer = 1,
+  x = 424,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_15",
+  layer = 1,
+  x = 456,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_16",
+  layer = 1,
+  x = 488,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_17",
+  layer = 1,
+  x = 520,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_18",
+  layer = 1,
+  x = 552,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_19",
+  layer = 1,
+  x = 584,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_20",
+  layer = 1,
+  x = 616,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "swell_12",
+  layer = 1,
+  x = 360,
+  y = 405,
+  width = 32,
+  height = 16,
+  direction = 0,
+  sprite = "entities/la_beach/la_swell",
+}
+
+custom_entity{
+  name = "ship_wreck",
+  layer = 1,
+  x = 200,
+  y = 389,
+  width = 56,
+  height = 48,
+  direction = 0,
+  sprite = "entities/la_beach/la_wreck",
+}
+
+npc{
+  name = "marine",
+  layer = 1,
+  x = 664,
+  y = 373,
+  direction = 2,
+  subtype = 1,
+  sprite = "npc/marine",
+}
+
+npc{
+  name = "castaway_hero",
+  layer = 1,
+  x = 64,
+  y = 373,
+  direction = 3,
+  subtype = 1,
+  sprite = "hero/tunic1",
+}
+
+npc{
+  name = "seagull_3",
+  layer = 1,
+  x = 392,
+  y = 349,
+  direction = 0,
+  subtype = 1,
+  sprite = "npc/seagull",
+}
+
+dynamic_tile{
+  name = "palm_trees_parallax",
+  layer = 1,
+  x = -32,
+  y = 144,
+  pattern = "14",
+  width = 704,
+  height = 24,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "palm_trees_static",
+  layer = 1,
+  x = 0,
+  y = 280,
+  pattern = "2",
+  width = 640,
+  height = 24,
+  enabled_at_start = true,
+}
+
+tile{
+  layer = 2,
+  x = 152,
+  y = 344,
+  width = 56,
+  height = 40,
+  pattern = "15",
+}
+

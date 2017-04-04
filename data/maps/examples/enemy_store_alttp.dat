@@ -1,0 +1,276 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 720,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon/blue",
+  music = "doctor_octoroc/demons_run",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 960,
+  height = 720,
+  pattern = "floor.18-1",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 29,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_blue",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 29,
+  direction = 3,
+  breed = "alttp/hardhat_beetle_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 29,
+  direction = 3,
+  breed = "alttp/bubble",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 221,
+  direction = 3,
+  breed = "cannonball",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 365,
+  direction = 3,
+  breed = "alttp/chain_and_ball",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 221,
+  direction = 3,
+  breed = "alttp/flying_tile",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 269,
+  direction = 3,
+  breed = "alttp/fire_bat",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 269,
+  direction = 3,
+  breed = "alttp/fire_circle",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 317,
+  direction = 3,
+  breed = "alttp/fireball_red",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 317,
+  direction = 3,
+  breed = "alttp/fireball_triple_red",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 317,
+  direction = 3,
+  breed = "alttp/fireball_triple_blue",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 365,
+  direction = 3,
+  breed = "alttp/flame_blue",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 365,
+  direction = 3,
+  breed = "alttp/flame_red",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 77,
+  direction = 3,
+  breed = "alttp/gibdo",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 77,
+  direction = 3,
+  breed = "alttp/helmasaur_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 77,
+  direction = 3,
+  breed = "alttp/ropa",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 109,
+  direction = 3,
+  breed = "alttp/laser",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 173,
+  direction = 3,
+  breed = "alttp/pike_auto",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 173,
+  direction = 3,
+  breed = "alttp/pike_detect",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 173,
+  direction = 3,
+  breed = "alttp/pike_fixed",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 125,
+  direction = 3,
+  breed = "alttp/simple_soldier_green",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 72,
+  y = 125,
+  direction = 3,
+  breed = "alttp/snap_dragon",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 125,
+  direction = 3,
+  breed = "alttp/tentacle",
+  treasure_name = "random",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 216,
+  y = 93,
+  direction = 1,
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 221,
+  direction = 3,
+  breed = "alttp/wallmaster",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 317,
+  direction = 3,
+  breed = "alttp/fireball_small_triple_red",
+}
+
+dynamic_tile{
+  name = "invisible_tile_1",
+  layer = 0,
+  x = 112,
+  y = 256,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "invisible_tile_2",
+  layer = 0,
+  x = 112,
+  y = 264,
+  pattern = "barrier.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+enemy{
+  layer = 0,
+  x = 120,
+  y = 269,
+  direction = 3,
+  breed = "alttp/medusa",
+}
+
+enemy{
+  layer = 0,
+  x = 24,
+  y = 413,
+  direction = 3,
+  breed = "alttp/chicken",
+  treasure_name = "random",
+}
+

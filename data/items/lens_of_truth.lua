@@ -3,6 +3,15 @@ local game = item:get_game()
 
 local sound_timer
 
+local allowed_states = {
+  ["free"] = true,
+  ["carrying"] = true,
+  ["running"] = true,
+  ["stream"] = true,
+  ["swimming"] = true,
+  ["sword loading"] = true,
+}
+
 local lens_menu = {}
 local lens_active = false
 
@@ -102,14 +111,9 @@ function item:on_created()
     end
 
     local state = game:get_hero():get_state()
-    local allowed_states = {
-      ["free"] = true,
-      ["carrying"] = true,
-      ["running"] = true,
-      ["stream"] = true,
-      ["swimming"] = true,
-      ["sword loading"] = true,
-    }
+    if allowed_states[state] == nil then
+      return
+    end
 
     if item:is_lens_active() then
       sol.audio.play_sound("lens_end")

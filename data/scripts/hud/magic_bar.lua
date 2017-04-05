@@ -61,7 +61,7 @@ function magic_bar_builder:new(game, config)
     end
 
     -- Schedule the next check.
-    sol.timer.start(game, 20, function()
+    sol.timer.start(magic_bar, 20, function()
       magic_bar:check()
     end)
   end

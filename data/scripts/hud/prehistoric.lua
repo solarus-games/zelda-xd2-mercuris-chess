@@ -16,10 +16,10 @@ function prehistoric_label_builder:new(game, config)
     if map:get_world() ~= "prehistoric" then
       prehistoric_label.visible = false
     else
-      sol.timer.start(map, 1000, function()
+      sol.timer.start(prehistoric_label, 1000, function()
         prehistoric_label.visible = true
         prehistoric_label.surface:fade_in()
-        sol.timer.start(map, 10000, function()
+        sol.timer.start(prehistoric_label, 10000, function()
           prehistoric_label.surface:fade_out(function()
             prehistoric_label.visible = false
           end)

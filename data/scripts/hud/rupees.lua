@@ -57,7 +57,7 @@ function rupees_builder:new(game, config)
     end
 
     -- Schedule the next check.
-    sol.timer.start(game, 40, function()
+    sol.timer.start(rupees, 40, function()
       rupees:check()
     end)
   end

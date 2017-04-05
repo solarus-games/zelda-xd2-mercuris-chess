@@ -24,7 +24,7 @@ function floor_view_builder:new(game, config)
     else
       -- Show the floor view during 3 seconds.
       floor_view.visible = true
-      local timer = sol.timer.start(3000, function()
+      local timer = sol.timer.start(floor_view, 3000, function()
         floor_view.visible = false
       end)
       timer:set_suspended_with_map(false)

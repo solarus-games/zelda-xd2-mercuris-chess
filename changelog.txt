@@ -5,6 +5,7 @@ ____________________________________________
 
 * Fix stuck when trying to use bananas but having none anymore (53).
 * Fix minor tile issue in Chill Valley bath (#51).
+* Fix typos in dialogs.
 
 ____________________________________________
 

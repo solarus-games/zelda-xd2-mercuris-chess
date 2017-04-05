@@ -20,6 +20,7 @@ function item:on_using()
         sound_timer = nil
       end)
     end
+    item:set_finished()
     return
   end
 

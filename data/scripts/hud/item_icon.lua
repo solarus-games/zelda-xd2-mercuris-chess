@@ -72,7 +72,7 @@ function item_icon_builder:new(game, config)
     end
 
     -- Schedule the next check.
-    sol.timer.start(game, 50, function()
+    sol.timer.start(item_icon, 50, function()
       item_icon:check()
     end)
   end

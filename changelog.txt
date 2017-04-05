@@ -1,5 +1,15 @@
 ____________________________________________
 
+Zelda XD2: Mercuris Chess 1.0.3 (2017-04-05)
+____________________________________________
+
+* Fix stuck when trying to use bananas but having none anymore (#53).
+* Fix rupee and heart counter changing too quickly.
+* Fix minor tile issue in Chill Valley bath (#51).
+* Fix typos in dialogs.
+
+____________________________________________
+
 Zelda XD2: Mercuris Chess 1.0.2 (2017-04-04)
 ____________________________________________
 

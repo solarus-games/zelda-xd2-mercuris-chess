@@ -2492,7 +2492,7 @@ nous.
 Au moins, c'est vivant,
 on ne s'ennuie pas !
 
-Pas comme sa soeur qui
+Pas comme ma soeur qui
 vit dans le désert.
 
 Elle se morfond toute
@@ -2831,7 +2831,7 @@ commentaire. Une
 prochaine édition 
 reviendra plus en
 détail sur cet heureux
-événement.
+évènement.
 ]]
 }
 
@@ -5482,7 +5482,7 @@ chose ! Ne reste pas
 les bras croisés !
 Enfin, je dis ça, mais
 je ne suis pas mieux
-moi à bavarrder ici !
+moi à bavarder ici !
 Quelqu'un a appelé les
 pompiers, au moins ?
 ]]
@@ -5669,7 +5669,7 @@ dialog{
   id = "lafoo_riot.npc_25",
   skip = "all",
   text = [[
-Laisse moi fuir !
+Laisse-moi fuir !
 ]]
 }
 
@@ -6457,7 +6457,7 @@ dialog{
   id = "lafoo_riot.npc_9",
   skip = "all",
   text = [[
-On est pas bien, là ?
+On n'est pas bien, là ?
 Paisible ? 
 A la fraîche ?
 ]]

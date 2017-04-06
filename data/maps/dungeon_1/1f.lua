@@ -127,7 +127,7 @@ end
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
   map:set_doors_open("boss_door")
-
+  map:add_pillar_collision_test()
   pool_switch_empty:set_activated(true)
 
   library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.
@@ -306,7 +306,12 @@ local function destroy_pillar(number)
   pillar_count = pillar_count - 1
   if pillar_count == 0 then
     -- Make sure the iron ball won't block the boss or the hero.
-    iron_ball:set_enabled(false)
+    for e in map:get_entities() do
+      local sprite = e:get_sprite()
+      if sprite and sprite:get_animation_set() == "portables/iron_ball" then
+        e:remove()
+      end
+    end
   end
 
   local x, y, layer = pillar:get_position()
@@ -336,35 +341,18 @@ local function destroy_pillar(number)
   end)
 end
 
-function pillar_collision(carried_object)
-  if pillar_base_1 ~= nil then
-    pillar_base_1:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("1")
-      end
-    end)
-  end
-  if pillar_base_2 ~= nil then
-    pillar_base_2:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("2")
-      end
-    end)
-  end
-  if pillar_base_3 ~= nil then
-    pillar_base_3:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("3")
-      end
-    end)
-  end
-  if pillar_base_4 ~= nil then
-    pillar_base_4:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("4")
-      end
-    end)
+function map:add_pillar_collision_test()
+  local iron_ball_sprite = "portables/iron_ball"
+  for i = 1, 4 do
+    local pillar = map:get_entity("pillar_base_" .. i)
+    if pillar ~= nil then
+      pillar:add_collision_test("touching", function(pillar, object)
+        local sprite = object:get_sprite()
+        if object:get_type() == "custom_entity" -- Do not break columns while carrying.
+        and sprite and sprite:get_animation_set() == iron_ball_sprite then
+          destroy_pillar("" .. i)
+        end
+      end)
+    end
   end
 end
-
-map.pillar_collision = pillar_collision

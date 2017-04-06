@@ -10605,15 +10605,6 @@ sensor{
   height = 16,
 }
 
-destructible{
-  name = "iron_ball",
-  layer = 0,
-  x = 56,
-  y = 189,
-  sprite = "entities/dungeon_1/iron_ball",
-  damage_on_enemies = 2,
-}
-
 npc{
   name = "iron_ball_man",
   layer = 0,
@@ -10678,6 +10669,15 @@ dynamic_tile{
   width = 16,
   height = 8,
   enabled_at_start = true,
+}
+
+destructible{
+  name = "iron_ball",
+  layer = 0,
+  x = 56,
+  y = 189,
+  sprite = "portables/iron_ball",
+  damage_on_enemies = 2,
 }
 
 tile{

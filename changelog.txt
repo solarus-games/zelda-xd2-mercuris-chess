@@ -4,6 +4,7 @@ Zelda XD2: Mercuris Chess 1.0.4 (2017-04-06)
 ____________________________________________
 
 * Fix hearts not displayed in the savegame menu.
+* Dungeon 1: improve throwing the iron ball.
 * Water house: fix pool limits.
 * Slightly improve ending dialogs.
 

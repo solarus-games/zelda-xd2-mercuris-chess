@@ -2039,13 +2039,18 @@ dialog{
   id = "chill_valley.bath.miserable_myrtle",
   skip = "all",
   text = [[
-Un jour, un fantôme
-m'a dit qu'ouvrir un
-oeuf en or sous l'eau
-dévoilerait une énigme
-digne d'un grand mage.
-J'te raconte pas la
-frousse...
+Il y a quelque temps,
+un étudiant est venu
+et a ouvert un oeuf en
+or dans ces bains.
+Il a fallu changer
+toute l'eau !
+Il croyait qu'il
+entendrait une
+chanson en faisant ça.
+Sérieux, il a cru que
+c'était un jukebox
+Zora ou quoi ?
 ]]
 }
 

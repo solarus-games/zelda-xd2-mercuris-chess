@@ -5,6 +5,7 @@ ____________________________________________
 
 * Fix hearts not displayed in the savegame menu.
 * Water house: fix pool limits.
+* Slightly improve ending dialogs.
 
 ____________________________________________
 

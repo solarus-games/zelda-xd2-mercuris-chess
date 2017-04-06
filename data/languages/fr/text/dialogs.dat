@@ -4182,11 +4182,11 @@ dialog{
   id = "final.credits",
   text = [[
 $1Ce jeu parodique a été
-réalisé en dix
-semaines
-par la Solarus Team à
-l'occasion du
+réalisé en dix semaines
+par la Solarus Team
+à l'occasion du
 1er avril 2017,
+
 toujours avec l'aide
 de pizzas et de fortes
 doses de café.
@@ -4232,6 +4232,9 @@ Metallizer
          Tests :
 Binbin
 
+Pas grand monde d'autre
+sinon, on était super à
+la bourre.
      Remerciements
        spéciaux :
 
@@ -4242,8 +4245,8 @@ Bulby
 HelpTheWretched
 Rockfootdude
 Newlink
-
-
+Yoshi04
+Sam101
 Merci d'avoir joué !
 
 
@@ -4474,8 +4477,8 @@ dialog{
   id = "final.zelda_8",
   text = [[
 Rhâaaa...
-Quel boulet, 
-n'est-ce pas ?
+mais au fond il n'est
+pas méchant.
 Bon, on en était où,
 tous les deux ?
 
@@ -4485,7 +4488,7 @@ passer nos vacances.
 Cocolint, tu dis ?
 Et il y a une baleine
 volante ?
-Dis-donc, ça a l'air
+Dis donc, ça a l'air
 trop chouette !
 On y va ?
 ]]

@@ -45,6 +45,7 @@ map{ id = "main_village/link_cave", description = "Link Cave" }
 map{ id = "main_village/link_house", description = "Link House" }
 map{ id = "main_village/lost_found_office", description = "Lost and Found Office" }
 map{ id = "main_village/tavern", description = "Tavern" }
+map{ id = "main_village/unbreakable_vases_house", description = "Unbreakable Vases House" }
 map{ id = "main_village/vases_house", description = "Vases House" }
 map{ id = "main_village/water_house", description = "Water House" }
 map{ id = "main_village/yoda_house", description = "Geek House" }
@@ -435,6 +436,7 @@ sprite{ id = "npc/swimming/librarian", description = "Swimming Librarian" }
 sprite{ id = "npc/swimming/old_man", description = "Swimming Old Man" }
 sprite{ id = "npc/the_doctor", description = "The Doctor" }
 sprite{ id = "portables/iron_ball", description = "Iron Ball" }
+sprite{ id = "portables/unbreakable_pot", description = "Unbreakable Pot" }
 
 music{ id = "alttp/agahnim", description = "Agahnim theme" }
 music{ id = "alttp/beginning", description = "Beginning" }

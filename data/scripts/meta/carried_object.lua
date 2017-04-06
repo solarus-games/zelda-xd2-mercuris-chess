@@ -48,8 +48,13 @@ function carried_object_meta:on_created()
   while (initial_index ~= nil) and initial_index <= lenght do
     i = i + 1
     end_index = animation_set:find("/", initial_index)
-    types_list[i] = animation_set:sub(initial_index, end_index - 1)
-    initial_index = end_index + 1
+    if end_index == nil then
+      end_index = lenght
+    else
+      end_index = end_index - 1
+    end
+    types_list[i] = animation_set:sub(initial_index, end_index)
+    initial_index = end_index + 2
   end
   -- For each type/subtype, set the corresponding properties.
   for _, type in pairs(types_list) do

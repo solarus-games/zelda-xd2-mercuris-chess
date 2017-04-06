@@ -2,9 +2,7 @@
 require("scripts/ground_effects")
 
 local carried_object_meta = sol.main.get_metatable("carried_object")
-local next_ball = nil
-local arc_x, arc_yc = 0
-local real_x, real_y = 0
+local traversable_ground -- Custom entity to be put above, to make the ball traversable.
 
 -- Default properties for "custom" portable entities.
 local portable_properties = {
@@ -19,6 +17,7 @@ local portable_properties = {
   hurt_damage = 1,  -- Damage to enemies.
   -- Non-customizable parameters:
   falling_direction = nil, -- Possible values:  "up", "down", "left", "right".
+  sprite = nil,
 }
 
 --[[ 
@@ -35,6 +34,7 @@ properties of a given type.
 function carried_object_meta:on_created()
   -- Check if this object is a "custom" portable entity.
   local animation_set = self:get_sprite():get_animation_set()
+  portable_properties.sprite = animation_set -- Save this property.
   local initial_index, end_index = animation_set:find("portables/")
   if initial_index ~= 1 then return end -- The entity is a normal destructible.
   -- Get the types substring of the custom portable.
@@ -66,18 +66,53 @@ end
 
 -- Initialize the behavior and event of this carried entity.
 function carried_object_meta:set_type_properties(type)
---[[
-  if type == "metal" then
-    portable_properties.num_bounces = 1
-    portable_properties.bounce_distances = {80}
+  --if type == nil then -- Iron ball has default type.
+    -- Regenerate iron ball when destroyed.
+  --end
+end
+
+
+-- Function to fix bug: the hero may get stuck with the ball if it falls over him.
+-- Modify ground of iron ball with a custom entity above, if necessary.
+local function allow_traversing(destructible)
+  -- Destroy previous custom entity, if any.
+  if traversable_ground then
+    traversable_ground:remove()
+    traversable_ground = nil
   end
---]]
+  -- Check if we need a traversable ground (if hero and destructible overlap).
+  local d = destructible
+  local map = d:get_map()
+  local hero = map:get_hero()
+  if not hero:overlaps(d) then
+    return -- No overlapping. No need to create travesable ground.
+  end
+
+  -- Create new traversable ground.
+  local x, y, layer = d:get_position()
+  local prop = {x = x, y = y, layer = layer, direction = 0, width = 16, height = 16}
+  traversable_ground = map:create_custom_entity(prop)
+  traversable_ground:set_modified_ground("traversable")--"traversable")
+  -- Destroy traversable ground when the hero is not overlapping anymore.
+  sol.timer.start(map, 10, function()
+    if hero:overlaps(traversable_ground) then 
+      return true
+    end
+    -- Destroy traversable ground.
+    traversable_ground:remove()
+    traversable_ground = nil
+  end)
 end
 
 -- Define falling trajectory for a custom entity and the given properties.
 local function throw(custom_entity, properties)
 
   local e = custom_entity
+  e:set_can_traverse_ground("hole", true)
+  e:set_can_traverse_ground("lava", true)
+  e:set_can_traverse_ground("deep_water", true)
+  e:set_can_traverse_ground("shallow_water", true)
+  e:set_can_traverse_ground("grass", true)
   local args = properties or {}
   local map = e:get_map()
   -- Initialize optional arguments and properties.
@@ -105,7 +140,7 @@ local function throw(custom_entity, properties)
       shadow:create_sprite("entities/shadow_dynamic")
       shadow:bring_to_back()
     end
-    -- Remove shadow when the entity is removed.
+    -- Remove shadow and/or traversable ground when the entity is removed.
     function e:on_removed() shadow:remove() end
   end
   
@@ -115,10 +150,11 @@ local function throw(custom_entity, properties)
     if shadow then shadow:remove() end
     local x, y, layer = e:get_position()
     local animation_set = sprite:get_animation_set()
-    local name = e:get_name()
-    local prop = {name = name, x = x, y = y, layer = layer, sprite = animation_set}
-    e:remove() -- Destroy before to allow using the same name.
-    map:create_destructible(prop)
+    local prop = {x = x, y = y, layer = layer, sprite = animation_set}
+    local d = map:create_destructible(prop)
+    allow_traversing(d) -- Allow to traverse the destructible (if hero overlaps).
+    if e.on_finish_throw then e:on_finish_throw() end -- Cal "custom" event, if defined.
+    e:remove() -- Destroy this.
   end
     
   --[[ Function to bounce when entity is thrown.
@@ -172,7 +208,14 @@ local function throw(custom_entity, properties)
         sprite:set_xy(0, e:current_height() + vshift)
       -- Stop the timer. Start next bounce or finish bounces. 
       else -- The entity hits the ground.
-        map:ground_collision(e, bounce_sound) -- Check for bad ground.
+        -- Destroy traversable ground if fall on bad ground.
+        local callback_bad_ground = function()
+          if traversable_ground then
+            traversable_ground:remove()
+            traversable_ground = nil
+          end
+        end
+        map:ground_collision(e, bounce_sound, callback_bad_ground) -- Check for bad ground.
         -- Check if the entity exists (it can be removed on holes, water and lava).
         if e:exists() then 
           current_bounce = current_bounce + 1
@@ -197,15 +240,17 @@ function carried_object_meta:on_throw()
   local x, y, layer = hero:get_position()
   local direction = hero:get_direction()
   local animation_set = self:get_sprite():get_animation_set()
-  local name = self:get_name()
-  local prop = {name = name, x = x, y = y, layer = layer, direction = direction,
+  local prop = {x = x, y = y, layer = layer, direction = direction,
     width = 16, height = 16, sprite = animation_set, ground = "empty"}
-  self:remove() -- Destroy this before to allow using the same name.
+  self:remove() -- Destroy this.
   local ce = map:create_custom_entity(prop)
   -- Add additional properties to the list.
   portable_properties.falling_direction = direction
   -- Throw custom entity for the given properties.
   throw(ce, portable_properties)
 end
+
+-- "Custom" event: called when this carried entity has finished falling if thrown by the hero.
+function carried_object_meta:on_finish_throw() end
 
 return true

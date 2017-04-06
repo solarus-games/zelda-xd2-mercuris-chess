@@ -434,6 +434,7 @@ sprite{ id = "npc/swimming/lady", description = "Swimming Lady" }
 sprite{ id = "npc/swimming/librarian", description = "Swimming Librarian" }
 sprite{ id = "npc/swimming/old_man", description = "Swimming Old Man" }
 sprite{ id = "npc/the_doctor", description = "The Doctor" }
+sprite{ id = "portables/iron_ball", description = "Iron Ball" }
 
 music{ id = "alttp/agahnim", description = "Agahnim theme" }
 music{ id = "alttp/beginning", description = "Beginning" }

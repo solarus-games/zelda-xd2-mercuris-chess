@@ -13669,10 +13669,10 @@ destructible{
   x = 808,
   y = 189,
   treasure_name = "random",
-  sprite = "entities/stone_black",
+  sprite = "entities/stone_white",
   destruction_sound = "stone",
-  weight = 2,
-  damage_on_enemies = 4,
+  weight = 1,
+  damage_on_enemies = 2,
 }
 
 npc{

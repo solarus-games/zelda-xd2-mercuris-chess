@@ -4299,7 +4299,7 @@ dialog{
   text = [[
 OH !$0
 Tu vois ce que je vois ?$0
-Mr Grump et Zelda...$0
+M. Grump et Zelda...$0
 Ils...$0
 Non...$0
 C'est impossible... ?!
@@ -5421,7 +5421,7 @@ dialog{
   id = "lafoo_riot.npc_10",
   skip = "all",
   text = [[
-Mr Grump aurait
+M. Grump aurait
 commencé à bâtir sa
 fortune en nettoyant
 le caca des
@@ -5503,7 +5503,7 @@ incendie...
 Mais d'un autre, c'est
 un plaisir de voir
 ce truc brûler !
-Mr Grump, son proprio,
+M. Grump, son proprio,
 est ignoble avec les
 femmes.
 Il mérite qu'on lui
@@ -5869,7 +5869,7 @@ dialog{
   text = [[
 Dis-donc, mon p'tit 
 bonhomme ! Tu connais
-Mr Grump ?
+M. Grump ?
 C'est le directeur du
 Bureau des Objets 
 Trouvés.
@@ -5915,7 +5915,7 @@ dialog{
   text = [[
 Le directeur du Bureau
 des Objets Trouvés
-s'appelle Mr Grump.
+s'appelle M. Grump.
 Il vit dans le château
 royal, qu'il a racheté
 avec sa fortune...
@@ -6146,7 +6146,7 @@ Trouvés, et désormais,
 grâce à cet incendie,
 je suis libre !
 
-Adieu Mr Grump !
+Adieu M. Grump !
 Adieu vous et votre
 façon horrible de 
 traiter vos employés !

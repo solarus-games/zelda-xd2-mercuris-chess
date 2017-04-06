@@ -3485,6 +3485,70 @@ de Monsieur Grump
 }
 
 dialog{
+  id = "desert.otis",
+  skip = "all",
+  text = [[
+Mais, vous savez, moi
+je crois pas qu'il y
+ait de bonnes ou de
+mauvaises situations.
+Moi si je devais
+résumer ma vie
+aujourd'hui, je dirais
+que c'est d'abord des
+rencontres. Heu... des
+gens qui m'ont tendu la
+main, peut-être à un
+moment où je ne pouvais
+pas, où j'étais seul
+chez moi.
+Et c'est assez curieux
+de se dire que les
+hasards, les rencontres,
+forgent une destinée.
+Parce que quand on a le
+goût de la chose, le
+goût de la chose bien
+faite, le beau geste,
+parfois on ne trouve
+pas, heu...
+l'interlocuteur en face,
+je dirais, heu... le
+miroir qui vous aide à
+avancer. Alors ce n'est
+pas mon cas, comme
+je le disais là puisque
+moi au contraire j'ai
+pu, et je dis merci à
+la vie, je lui dis
+merci et je chante la
+vie, je danse la vie.
+Je ne suis qu'amour !
+Et finalement quand
+beaucoup de gens
+aujourd'hui me disent
+"Mais comment fais-tu
+pour avoir cette
+humanité ?", eh bien je
+leur réponds très
+simplement je leur dis :
+c'est ce goût de
+l'amour, ce goût donc
+qui m'a poussé,
+aujourd'hui à
+entreprendre une
+construction mécanique
+mais demain qui sait ?
+Heu, peut-être
+simplement à mettre au
+service, heu, de la
+communauté et à faire,
+le... le don, le don
+de... de... de soi.
+]]
+}
+
+dialog{
   id = "desert.piece_of_heart_cave_sign",
   skip = "all",
   text = [[
@@ -6845,70 +6909,6 @@ dialog{
 Ce n'est pas le
 moment de se mettre
 du parfum !
-]]
-}
-
-dialog{
-  id = "otis",
-  skip = "all",
-  text = [[
-Mais, vous savez, moi
-je crois pas qu'il y
-ait de bonnes ou de
-mauvaises situations.
-Moi si je devais
-résumer ma vie
-aujourd'hui, je dirais
-que c'est d'abord des
-rencontres. Heu... des
-gens qui m'ont tendu la
-main, peut-être à un
-moment où je ne pouvais
-pas, où j'étais seul
-chez moi.
-Et c'est assez curieux
-de se dire que les
-hasards, les rencontres,
-forgent une destinée.
-Parce que quand on a le
-goût de la chose, le
-goût de la chose bien
-faite, le beau geste,
-parfois on ne trouve
-pas, heu...
-l'interlocuteur en face,
-je dirais, heu... le
-miroir qui vous aide à
-avancer. Alors ce n'est
-pas mon cas, comme
-je le disais là puisque
-moi au contraire j'ai
-pu, et je dis merci à
-la vie, je lui dis
-merci et je chante la
-vie, je danse la vie.
-Je ne suis qu'amour !
-Et finalement quand
-beaucoup de gens
-aujourd'hui me disent
-"Mais comment fais-tu
-pour avoir cette
-humanité ?", eh bien je
-leur réponds très
-simplement je leur dis :
-c'est ce goût de
-l'amour, ce goût donc
-qui m'a poussé,
-aujourd'hui à
-entreprendre une
-construction mécanique
-mais demain qui sait ?
-Heu, peut-être
-simplement à mettre au
-service, heu, de la
-communauté et à faire,
-le... le don, le don
-de... de... de soi.
 ]]
 }
 

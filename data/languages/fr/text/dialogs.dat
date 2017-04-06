@@ -3487,6 +3487,7 @@ de Monsieur Grump
 dialog{
   id = "desert.otis",
   skip = "all",
+  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre",
   text = [[
 Mais, vous savez, moi
 je crois pas qu'il y

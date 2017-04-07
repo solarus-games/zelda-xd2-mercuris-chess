@@ -8712,6 +8712,24 @@ tile{
   pattern = "barrier.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 1432,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "218",
+}
+
+tile{
+  layer = 0,
+  x = 1440,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "214",
+}
+
 dynamic_tile{
   name = "boss_door_bottom_right_closed",
   layer = 0,
@@ -11298,24 +11316,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "474",
-}
-
-tile{
-  layer = 2,
-  x = 1432,
-  y = 24,
-  width = 8,
-  height = 16,
-  pattern = "218",
-}
-
-tile{
-  layer = 2,
-  x = 1440,
-  y = 24,
-  width = 8,
-  height = 16,
-  pattern = "214",
 }
 
 separator{

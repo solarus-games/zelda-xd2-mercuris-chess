@@ -1996,7 +1996,7 @@ réputés !?
 dialog{
   id = "chill_valley.bath.hungry_child",
   skip = "all",
-  translators_note = "Reference to episode of the french serie Kaamelott "Ablutions" with Karadoc missing food during his bath",
+  translators_note = "Reference to episode of the french serie Kaamelott named Ablutions with Karadoc missing food during his bath",
   text = [[
 Mouais... C'est pas
 mal, ça détend...
@@ -2063,7 +2063,7 @@ Zora ou quoi ?
 dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
-  translators_note = "Reference to french movie "La Grande Vadrouille"",
+  translators_note = "Reference to french movie named La Grande Vadrouille",
   text = [[
 Tea... for two
 and two for tea...
@@ -2391,7 +2391,7 @@ délice.
 dialog{
   id = "chill_valley.s_house.gibdo",
   skip = "all",
-  translators_note = "Reference a mini-boss in the indie game "Crypt of the Necrodancer"",
+  translators_note = "Reference a mini-boss in the indie game: Crypt of the Necrodancer",
   text = [[
 Ma soeur est danseuse
 dans une crypte. Ça
@@ -2543,7 +2543,7 @@ ce genre de lecture !
 dialog{
   id = "chill_valley.z_house.all_read",
   skip = "all",
-  translators_note = "French version of the expression "Bookworm"",
+  translators_note = "French version of the expression Bookworm",
   text = [[
 Squick ! T'es chez moi
 là, et tu lis tous mes
@@ -2996,7 +2996,7 @@ affaires.
 dialog{
   id = "chill_valley.z_house.sf_book",
   skip = "all",
-  translators_note = "Title of the book is a reference to Pratchett and Baxter SF book "The Long Earth"",
+  translators_note = "Title of the book is a reference to Pratchett and Baxter SF book named The Long Earth",
   text = [[
 Un livre de SF :
   La Terre Oblongue

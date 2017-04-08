@@ -6181,8 +6181,8 @@ dialog{
   id = "lafoo_riot.npc_57",
   skip = "all",
   text = [[
-Tu n'aurais vu pas vu
-le mec du guichet 32 ?
+Tu n'aurais vu pas le
+mec du guichet 32 ?
 
 Il est parti avec
 toutes les clés.

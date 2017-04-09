@@ -10657,34 +10657,12 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "boss_door_bottom_left_open",
-  layer = 0,
-  x = 744,
-  y = 152,
-  pattern = "door_top.stairs_up.2-1",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
   name = "boss_door_bottom_right_open_2",
   layer = 0,
   x = 1152,
   y = 152,
   pattern = "door_top.stairs.1-1",
   width = 32,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "boss_door_bottom_right_open",
-  layer = 0,
-  x = 1160,
-  y = 152,
-  pattern = "door_top.stairs_up.2-1",
-  width = 16,
   height = 8,
   enabled_at_start = true,
 }
@@ -10696,6 +10674,28 @@ destructible{
   y = 189,
   sprite = "portables/iron_ball",
   damage_on_enemies = 2,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_left_open",
+  layer = 0,
+  x = 744,
+  y = 152,
+  pattern = "door_top.stairs_down.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_right_open",
+  layer = 0,
+  x = 1160,
+  y = 152,
+  pattern = "door_top.stairs_down.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
 }
 
 tile{

@@ -4,8 +4,8 @@ local game = enemy:get_game()
 
 local sprite
 
-local money_value
-local projectile_speed
+local money_value = 1
+local projectile_speed = 192
 
 function enemy:on_created()
 
@@ -18,9 +18,6 @@ function enemy:on_created()
   enemy:set_minimum_shield_needed(2)
   enemy:set_invincible()
   enemy:set_attack_consequence("sword", "custom")
-
-  enemy:set_money_value(1)
-  enemy:set_projectile_speed(192)
 
   sprite = enemy:create_sprite("enemies/" .. enemy:get_breed())
 end

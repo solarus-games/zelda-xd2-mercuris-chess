@@ -3813,112 +3813,90 @@ tile{
   pattern = "ceiling.2",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 104,
   y = 365,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 221,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 325,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 341,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 413,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 168,
   y = 229,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 152,
   y = 293,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 184,
   y = 365,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 32,
   y = 389,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 184,
   y = 69,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 184,
   y = 109,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_weak_wall",
 }
@@ -3989,282 +3967,226 @@ custom_entity{
   model = "fire_persistent",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 261,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 192,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 432,
   y = 653,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 520,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 64,
   y = 637,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 416,
   y = 493,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 440,
   y = 621,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 104,
   y = 613,
-  width = 16,
-  height = 16,
   direction = 0,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 488,
   y = 637,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 488,
   y = 541,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 152,
   y = 549,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 224,
   y = 485,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 328,
   y = 485,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d4_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 368,
   y = 485,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 200,
   y = 485,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 256,
   y = 485,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d2_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 392,
   y = 485,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d1_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 152,
   y = 589,
-  width = 16,
-  height = 16,
   direction = 2,
   sprite = "entities/doors/door_d2_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 256,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d2_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 400,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d1_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 24,
   y = 533,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 72,
   y = 533,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d4_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 48,
   y = 533,
-  width = 16,
-  height = 16,
   direction = 1,
   sprite = "entities/doors/door_d1_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 240,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d2_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 280,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d2_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 272,
   y = 685,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d2_very_weak_wall",
 }
 
-custom_entity{
+door{
   layer = 2,
   x = 272,
   y = 677,
-  width = 16,
-  height = 16,
   direction = 3,
   sprite = "entities/doors/door_d2_very_weak_wall",
 }

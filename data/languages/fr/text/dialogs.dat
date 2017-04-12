@@ -6817,35 +6817,25 @@ l'Île des Rubis !
 }
 
 dialog{
-  id = "main_village.unbreakable_vases_house",
-  text = [[
-Un vandale habillé
-de vert a cassé toutes
-les vases du voisinage !
-Heureusement j'ai pris
-des mesures désespérées.
-$1
-Mwahahaha !!!
-
-
-]]
-}
-
-dialog{
   id = "main_village.vase_house",
   skip = "all",
   text = [[
 Il y a eu un acte de
 vandalisme. Un
-individu s'est
-introduit ici et a
-détruit des centaines
-de vases.
+individu vêtu de vert
+s'est introduit ici et
+a détruit des centaines
+de vases !
+Les gens ne respectent
+plus rien.
+
 Alors ça fait deux
 semaines que je
 nettoie cette maison.
-Les gens ne respectent
-plus rien.
+Heureusement, j'ai pris
+des mesures pour que
+cela n'arrive plus.
+Mwahahaha !!!
 ]]
 }
 

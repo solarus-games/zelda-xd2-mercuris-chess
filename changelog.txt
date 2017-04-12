@@ -7,6 +7,7 @@ ____________________________________________
 * Fix rupee island accessible without flippers (#67).
 * Fix running not inflicting twice damage (#77).
 * Allow to enter the lost and found office from outside (#7).
+* Add unbreakable vases in the vase house.
 * Dungeon 1: improve throwing the iron ball.
 * Water house: fix pool limits.
 * Slightly improve ending dialogs.

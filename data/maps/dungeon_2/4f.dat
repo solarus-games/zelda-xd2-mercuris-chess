@@ -398,6 +398,7 @@ stairs{
 }
 
 enemy{
+  name = "auto_enemy_15",
   layer = -1,
   x = 760,
   y = 349,
@@ -406,6 +407,7 @@ enemy{
 }
 
 enemy{
+  name = "auto_enemy_17",
   layer = -1,
   x = 856,
   y = 397,
@@ -6674,16 +6676,6 @@ enemy{
   breed = "chess/rook_auto_white",
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 800,
-  y = 549,
-  direction = 1,
-  starting_location_mode = "yes",
-  default = true,
-}
-
 door{
   layer = 0,
   x = 664,
@@ -6778,6 +6770,7 @@ destructible{
 }
 
 block{
+  name = "auto_block_1",
   layer = 0,
   x = 904,
   y = 141,
@@ -6891,6 +6884,7 @@ destructible{
 }
 
 enemy{
+  name = "auto_enemy_16",
   layer = 0,
   x = 808,
   y = 365,
@@ -7466,6 +7460,16 @@ door{
   direction = 2,
   sprite = "entities/doors/door_d1_normal",
   savegame_variable = "dungeon_2_4f_door_g",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 792,
+  y = 85,
+  direction = 1,
+  starting_location_mode = "yes",
+  default = true,
 }
 
 tile{

@@ -16,8 +16,9 @@ function enemy_meta:on_hurt_by_sword(hero, enemy_sprite)
   local reaction = self:get_attack_consequence_sprite(enemy_sprite, "sword")
   -- Multiply the sword consequence by the force of the hero.
   local life_lost = reaction * force
-  if hero:get_state() == "sword spin attack" then
-    -- And multiply this by 2 during a spin attack.
+  local hero_state = hero:get_state()
+  if hero_state == "sword spin attack" or hero_state == "running" then
+    -- Multiply this by 2 during a spin attack and while running.
     life_lost = life_lost * 2
   end
   self:remove_life(life_lost)

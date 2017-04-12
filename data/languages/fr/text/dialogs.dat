@@ -6647,6 +6647,20 @@ cela.
 }
 
 dialog{
+  id = "main_village.lost_found_office.welcome_sign",
+  text = [[
+Bienvenue au Bureau des
+Objets Trouvés.
+
+Aussi connu sous le nom
+de... 3T :
+Tu Trouves de Tout !
+(La suite du panneau
+est illisible...)
+]]
+}
+
+dialog{
   id = "main_village.north_sign",
   skip = "all",
   text = [[

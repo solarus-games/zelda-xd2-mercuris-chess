@@ -33,6 +33,10 @@ function map:on_started()
   -- Prevent or allow the player from pausing the game
   game:set_pause_allowed(false)
 
+  
+  local dialog_box = game:get_dialog_box()
+  dialog_box:set_position("top")
+
   -- Let the sprite animation running.
   grump_and_zelda:get_sprite():set_ignore_suspend(true)
 

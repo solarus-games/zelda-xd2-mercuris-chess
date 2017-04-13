@@ -6570,24 +6570,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 200,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "table_piece.1",
-}
-
-tile{
-  layer = 0,
-  x = 80,
-  y = 72,
-  width = 16,
-  height = 16,
-  pattern = "table_piece.1",
-}
-
-tile{
-  layer = 0,
   x = 344,
   y = 528,
   width = 16,
@@ -8430,6 +8412,26 @@ dynamic_tile{
   width = 8,
   height = 8,
   enabled_at_start = true,
+}
+
+custom_entity{
+  layer = 0,
+  x = 96,
+  y = 85,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cocktails",
+}
+
+custom_entity{
+  layer = 0,
+  x = 344,
+  y = 157,
+  width = 16,
+  height = 16,
+  direction = 0,
+  sprite = "entities/cocktails",
 }
 
 tile{

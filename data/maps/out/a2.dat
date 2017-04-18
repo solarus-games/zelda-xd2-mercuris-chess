@@ -19999,9 +19999,9 @@ jumper{
 jumper{
   layer = 0,
   x = 544,
-  y = 800,
+  y = 816,
   width = 8,
-  height = 176,
+  height = 160,
   direction = 0,
   jump_length = 40,
 }
@@ -20014,6 +20014,16 @@ jumper{
   height = 32,
   direction = 1,
   jump_length = 48,
+}
+
+jumper{
+  layer = 0,
+  x = 544,
+  y = 800,
+  width = 8,
+  height = 32,
+  direction = 0,
+  jump_length = 56,
 }
 
 tile{

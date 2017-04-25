@@ -113,5 +113,12 @@ text{ key = "selection_menu.phase.erase_file", value = "Tu veux effacer quoi ?" 
 text{ key = "selection_menu.phase.options", value = "Appuie sur Espace pour modifier" }
 text{ key = "selection_menu.phase.options.changing", value = "<  > : choisir, Espace : valider" }
 text{ key = "selection_menu.phase.select_file", value = "Choisis un fichier" }
+text{ key = "stats_menu.death_count", value = "Morts :" }
+text{ key = "stats_menu.game_time", value = "Temps de jeu :" }
+text{ key = "stats_menu.hearts", value = "Coeurs :" }
+text{ key = "stats_menu.percent", value = "Tu as fini le jeu à : $v%" }
+text{ key = "stats_menu.pieces_of_heart", value = "Fragments de coeur :" }
+text{ key = "stats_menu.title", value = "Statistiques" }
+text{ key = "stats_menu.treasures", value = "Trésors :" }
 text{ key = "title_screen.copyright", value = "© 2017 Christopho, Solarus Team" }
 text{ key = "title_screen.press_space", value = "- Appuie sur espace -" }

@@ -20,14 +20,18 @@ function statistics_manager:new(game)
   local tr = sol.language.get_string
 
   local menu_font, menu_font_size = language_manager:get_menu_font()
-  local title_text = sol.text_surface.create{
+
+  local title_text = sol.text_surface.create({
     horizontal_alignment = "center",
     font = menu_font,
     font_size = menu_font_size,
     color = title_color,
-    text_key = "stats_menu.title"
-  }
+    text_key = "stats_menu.title",
+  })
+  title_text:set_xy(160, 54)
+
   local background_img = sol.surface.create("menus/selection_menu_background.png")
+  background_img:set_xy(37, 38)
 
   local function get_game_time_string()
     return tr("stats_menu.game_time") .. " " .. game:get_time_played_string()
@@ -46,6 +50,30 @@ function statistics_manager:new(game)
         num_pieces_of_heart .. " / " .. max_pieces_of_heart
   end
 
+  local time_played_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    text = get_game_time_string(),
+  })
+  time_played_text:set_xy(45, 75)
+
+  local death_count_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    text = get_death_count_string(),
+  })
+  death_count_text:set_xy(45, 95)
+
+  local pieces_of_heart_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    text = get_pieces_of_heart_string(),
+  })
+  pieces_of_heart_text:set_xy(45, 115)
+
   function statistics:on_command_pressed(command)
 
     local handled = false
@@ -58,8 +86,11 @@ function statistics_manager:new(game)
 
   function statistics:on_draw(dst_surface)
 
-    background_img:draw(dst_surface, 37, 38)
-    title_text:draw(dst_surface, 160, 54)
+    background_img:draw(dst_surface)
+    title_text:draw(dst_surface)
+    time_played_text:draw(dst_surface)
+    death_count_text:draw(dst_surface)
+    pieces_of_heart_text:draw(dst_surface)
   end
 
   return statistics

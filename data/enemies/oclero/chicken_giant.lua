@@ -10,7 +10,7 @@ local running_speed = 64
 local state_index = 1 -- Current state index.
 local state -- Current state.
 local phase = 0 -- Current battle phase.
-local rounds_per_phase = {4, 3, 1} -- Number of rounds per phase.
+local rounds_per_phase = {2, 2, 1} -- Number of rounds per phase.
 local life_per_round = {6, 4, 1} -- Number of life points per round at each phase.
 local round = 1 -- Current round.
 local remaining_life_per_round
@@ -114,6 +114,7 @@ end
 function enemy:first_fall()
 
   enemy:set_invincible()
+  enemy:set_attack_consequence("sword", "protected")
   sprite:set_animation("falling")
   sprite:set_xy(0, -100) -- Shift the sprite.
   sol.timer.start(enemy, 15, function()
@@ -146,6 +147,7 @@ end
 function enemy:put_chocobo_eggs()
 
   enemy:set_invincible()
+  enemy:set_attack_consequence("sword", "protected")
   sprite:set_animation("laying")
   local dir = sprite:get_direction()
   local x, y, layer = enemy:get_position()
@@ -228,6 +230,7 @@ end
 function enemy:put_chicken_eggs()
 
   enemy:set_invincible()
+  enemy:set_attack_consequence("sword", "protected")
   enemy:set_can_attack(true)
   sol.timer.stop_all(enemy)
   sprite:set_animation("laying")

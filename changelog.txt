@@ -8,6 +8,7 @@ ____________________________________________
 * Fix running not inflicting twice damage (#77).
 * Allow to enter the lost and found office from outside (#7).
 * Add unbreakable vases in the vase house.
+* Dungeon 1: reduce the boss fight duration (#78).
 * Dungeon 1: improve throwing the iron ball.
 * Dungeon 2 7F: fix black statues that should not move.
 * Water house: fix pool limits.

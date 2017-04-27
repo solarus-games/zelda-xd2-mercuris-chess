@@ -5,7 +5,6 @@ local hero = map:get_hero()
 local sprite
 local movement
 
-local laying_time = 1000 -- In milliseconds.
 local walking_speed = 48
 local running_speed = 64
 local state_index = 1 -- Current state index.

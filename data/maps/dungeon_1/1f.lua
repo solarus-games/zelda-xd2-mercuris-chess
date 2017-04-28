@@ -298,7 +298,7 @@ end
 
 local pillar_count = 4
 
-local function destroy_pillar(number)
+local function destroy_pillar(number, thrown_iron_ball)
 
   local pillar = map:get_entity("pillar_" .. number)
   local pillar_base = map:get_entity("pillar_base_" .. number)
@@ -309,12 +309,7 @@ local function destroy_pillar(number)
   pillar_count = pillar_count - 1
   if pillar_count == 0 then
     -- Make sure the iron ball won't block the boss or the hero.
-    for e in map:get_entities() do
-      local sprite = e:get_sprite()
-      if sprite and sprite:get_animation_set() == "portables/iron_ball" then
-        e:remove()
-      end
-    end
+    thrown_iron_ball:remove()
   end
 
   local x, y, layer = pillar:get_position()
@@ -352,8 +347,8 @@ function map:add_pillar_collision_test()
       pillar:add_collision_test("touching", function(pillar, object)
         local sprite = object:get_sprite()
         if object:get_type() == "custom_entity" -- Do not break columns while carrying.
-        and sprite and sprite:get_animation_set() == iron_ball_sprite then
-          destroy_pillar("" .. i)
+            and sprite and sprite:get_animation_set() == iron_ball_sprite then
+          destroy_pillar("" .. i, object)
         end
       end)
     end

@@ -308,7 +308,7 @@ local function destroy_pillar(number, thrown_iron_ball)
 
   pillar_count = pillar_count - 1
   if pillar_count == 0 then
-    -- Make sure the iron ball won't block the boss or the hero.
+    -- Make sure the iron ball won't block the boss.
     thrown_iron_ball:remove()
   end
 
@@ -322,11 +322,10 @@ local function destroy_pillar(number, thrown_iron_ball)
     sol.timer.start(water_delay, function()
       sol.audio.play_sound("explosion")
       map:create_explosion({x = x, y = y + 16, layer = layer})
+      map:get_entity("pillar_base_" .. number):remove()
     end)
   end)
 
-  map:remove_entities("pillar_base_" .. number)
-  map:remove_entities("pillar_wall_" .. number)
   hero:freeze()
 
   pillar:get_sprite():set_animation("destroy", function() 
@@ -344,6 +343,7 @@ function map:add_pillar_collision_test()
   for i = 1, 4 do
     local pillar = map:get_entity("pillar_base_" .. i)
     if pillar ~= nil then
+      pillar:set_traversable_by(false)
       pillar:add_collision_test("touching", function(pillar, object)
         local sprite = object:get_sprite()
         if object:get_type() == "custom_entity" -- Do not break columns while carrying.

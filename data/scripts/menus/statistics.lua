@@ -50,6 +50,14 @@ function statistics_manager:new(game)
         num_pieces_of_heart .. " / " .. max_pieces_of_heart
   end
 
+  local function get_hearts_string()
+
+    local max_hearts = 20
+    local num_hearts = math.floor(game:get_max_life() / 4)
+    return tr("stats_menu.hearts") .. " "  ..
+        num_hearts .. " / " .. max_hearts
+  end
+
   local time_played_text = sol.text_surface.create({
     font = menu_font,
     font_size = menu_font_size,
@@ -74,6 +82,14 @@ function statistics_manager:new(game)
   })
   pieces_of_heart_text:set_xy(45, 115)
 
+  local hearts_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    text = get_hearts_string(),
+  })
+  hearts_text:set_xy(45, 135)
+
   function statistics:on_command_pressed(command)
 
     local handled = false
@@ -91,6 +107,7 @@ function statistics_manager:new(game)
     time_played_text:draw(dst_surface)
     death_count_text:draw(dst_surface)
     pieces_of_heart_text:draw(dst_surface)
+    hearts_text:draw(dst_surface)
   end
 
   return statistics

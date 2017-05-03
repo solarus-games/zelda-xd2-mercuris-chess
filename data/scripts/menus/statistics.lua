@@ -58,6 +58,14 @@ function statistics_manager:new(game)
         num_hearts .. " / " .. max_hearts
   end
 
+  local function get_treasures_string()
+
+    local max_treasures = 20  -- TODO
+    local num_treasures = 0  -- TODO
+    return tr("stats_menu.treasures") .. " "  ..
+        num_treasures .. " / " .. max_treasures
+  end
+
   local time_played_text = sol.text_surface.create({
     font = menu_font,
     font_size = menu_font_size,
@@ -90,6 +98,14 @@ function statistics_manager:new(game)
   })
   hearts_text:set_xy(45, 135)
 
+  local treasures_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    text = get_treasures_string(),
+  })
+  treasures_text:set_xy(45, 155)
+
   function statistics:on_command_pressed(command)
 
     local handled = false
@@ -108,6 +124,7 @@ function statistics_manager:new(game)
     death_count_text:draw(dst_surface)
     pieces_of_heart_text:draw(dst_surface)
     hearts_text:draw(dst_surface)
+    treasures_text:draw(dst_surface)
   end
 
   return statistics

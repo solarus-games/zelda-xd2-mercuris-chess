@@ -66,6 +66,12 @@ function statistics_manager:new(game)
         num_treasures .. " / " .. max_treasures
   end
 
+  local function get_percent_string()
+
+    local percent = 0  -- TODO
+    return tr("stats_menu.percent"):gsub("$v", percent)
+  end
+
   local time_played_text = sol.text_surface.create({
     font = menu_font,
     font_size = menu_font_size,
@@ -106,6 +112,14 @@ function statistics_manager:new(game)
   })
   treasures_text:set_xy(45, 155)
 
+  local percent_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    text = get_percent_string(),
+  })
+  percent_text:set_xy(45, 175)
+
   function statistics:on_command_pressed(command)
 
     local handled = false
@@ -125,6 +139,7 @@ function statistics_manager:new(game)
     pieces_of_heart_text:draw(dst_surface)
     hearts_text:draw(dst_surface)
     treasures_text:draw(dst_surface)
+    percent_text:draw(dst_surface)
   end
 
   return statistics

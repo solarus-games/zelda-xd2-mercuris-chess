@@ -111,6 +111,8 @@ local function initialize_game_over_features(game)
             sol.audio.play_music("alttp/game_over")
             fairy_sprite:set_xy(76, 112)  -- Cursor.
             cursor_position = 0
+            local death_count = game:get_value("death_count") or 0
+            game:set_value("death_count", death_count + 1)
           end
 
         end

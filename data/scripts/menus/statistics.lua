@@ -39,7 +39,7 @@ function statistics_manager:new(game)
 
   local function get_death_count_string()
     death_count = game:get_value("death_count") or 0
-    return tr("stats_menu.death_count"):gsub("%$v", death_count)
+    return tr("stats_menu.death_count") .. " " .. death_count
   end
 
   local function get_pieces_of_heart_string()
@@ -69,7 +69,7 @@ function statistics_manager:new(game)
   local function get_percent_string()
 
     local percent = 0  -- TODO
-    return tr("stats_menu.percent"):gsub("$v", percent)
+    return tr("stats_menu.percent"):gsub("%$v", percent)
   end
 
   local time_played_text = sol.text_surface.create({

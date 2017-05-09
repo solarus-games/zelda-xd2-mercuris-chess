@@ -7,6 +7,10 @@ local language_manager = require("scripts/language_manager")
 local title_color = { 242, 241, 229 }
 local text_color = { 115, 59, 22 }
 
+local treasure_savegame_variables = {
+  -- TODO
+}
+
 function statistics_manager:new(game)
 
   local statistics = {}

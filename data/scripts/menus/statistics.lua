@@ -9,6 +9,11 @@ local text_color = { 115, 59, 22 }
 
 local treasure_savegame_variables = {
   -- TODO
+  -- Inventory items
+  -- Dungeon map, compass, big key, boss key, small keys
+  -- Sword 2
+  -- Library award
+  -- Other treasure chests
 }
 
 function statistics_manager:new(game)
@@ -73,6 +78,10 @@ function statistics_manager:new(game)
   local function get_percent_string()
 
     local percent = 0  -- TODO
+    -- Hearts
+    -- Pieces of hearts
+    -- Treasures
+    -- Dungeons finished
     return tr("stats_menu.percent"):gsub("%$v", percent)
   end
 

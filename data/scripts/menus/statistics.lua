@@ -9,9 +9,11 @@ local text_color = { 115, 59, 22 }
 
 local treasure_savegame_variables = {
   -- TODO
-  -- Inventory items
+  -- Inventory items: ifeather, lamp, pegasus shoelaces, lens of truth,
+  -- hookshot, boomerang, fire rod, pains au chocolat counter, croissants counter,
+  -- cat food, mail counter, perfume counter, banana counter, VIP card, flippers,
+  -- sword 4, shield 2.
   -- Dungeon map, compass, big key, boss key, small keys
-  -- Sword 2
   -- Library award
   -- Other treasure chests
 }

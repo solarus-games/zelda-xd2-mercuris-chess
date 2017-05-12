@@ -7,11 +7,28 @@ local language_manager = require("scripts/language_manager")
 local title_color = { 242, 241, 229 }
 local text_color = { 115, 59, 22 }
 
+-- List of strings (savegame variable names) or
+-- pairs (savegame variable name + minimum value)
 local treasure_savegame_variables = {
-  -- TODO
   -- Inventory items: ifeather, lamp, pegasus shoelaces, lens of truth,
   -- hookshot, boomerang, fire rod, pains au chocolat counter, croissants counter,
   -- cat food, mail counter, perfume counter, banana counter, VIP card, flippers,
+  { "possession_feather", 2 },
+  "possession_lamp",
+  { "possession_pegasus_shoes", 2 },
+  "possession_lens_of_truth",
+  "possession_hookshot",
+  "i1103",  -- Boomerang.
+  "possession_fire_rod",
+  "possession_pains_au_chocolat_counter",
+  "possession_croissants_counter",
+  "possession_cat_food",
+  "possession_mail_counter",
+  "possession_perfume_counter",
+  "possession_banana_skin_counter",
+  "possession_vip_card",
+  "possession_flippers",
+  -- TODO
   -- sword 4, shield 2.
   -- Dungeon map, compass, big key, boss key, small keys
   -- Library award

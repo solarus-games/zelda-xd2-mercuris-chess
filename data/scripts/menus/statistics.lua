@@ -28,8 +28,8 @@ local treasure_savegame_variables = {
   "possession_banana_skin_counter",
   "possession_vip_card",
   "possession_flippers",
-  -- TODO
-  -- sword 4, shield 2.
+  { "possession_sword", 4 },
+  "dungeon_2_1f_shield_chest",
   -- Dungeon map, compass, big key, boss key, small keys
   -- Library award
   -- Other treasure chests

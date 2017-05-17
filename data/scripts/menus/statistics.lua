@@ -12,7 +12,7 @@ local text_color = { 115, 59, 22 }
 local treasure_savegame_variables = {
   -- Inventory items: ifeather, lamp, pegasus shoelaces, lens of truth,
   -- hookshot, boomerang, fire rod, pains au chocolat counter, croissants counter,
-  -- cat food, mail counter, perfume counter, banana counter, VIP card, flippers,
+  -- cat food, mail counter, perfume counter, banana counter, VIP card, flippers.
   { "possession_feather", 2 },
   "possession_lamp",
   { "possession_pegasus_shoes", 2 },
@@ -28,9 +28,13 @@ local treasure_savegame_variables = {
   "possession_banana_skin_counter",
   "possession_vip_card",
   "possession_flippers",
+  -- Equipment: sword 4, shield 2.
   { "possession_sword", 4 },
   "dungeon_2_1f_shield_chest",
-  -- Dungeon map, compass, big key, boss key, small keys
+  -- Dungeons: map, compass, big key, boss key, small keys.
+  "dungeon_1_map",
+  "dungeon_1_compass",
+  "dungeon_1_big_key",
   -- Library award
   -- Other treasure chests
 }
@@ -100,6 +104,7 @@ function statistics_manager:new(game)
     -- Hearts
     -- Pieces of hearts
     -- Treasures
+    -- Dungeon minibosses
     -- Dungeons finished
     return tr("stats_menu.percent"):gsub("%$v", percent)
   end

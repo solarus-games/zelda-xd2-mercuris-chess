@@ -33,15 +33,26 @@ local treasure_savegame_variables = {
   -- Equipment: sword 4, shield 2.
   { "possession_sword", 4 },
   "dungeon_2_1f_shield_chest",
-  -- Dungeons: map, compass, big key, boss key, small keys.
+  -- Dungeons: map, compass, big key, boss key, small keys, big chest, other treasures.
   "dungeon_1_map",
   "dungeon_1_compass",
   "dungeon_1_big_key",
+  "dungeon_1_small_key_1",
+  "dungeon_1_small_key_2",
+  "dungeon_1_flippers",
+  "dungeon_1_lamp",
+  "dungeon_1_glove",
+  "dungeon_1_rupee_chest_A",
+  "dungeon_1_rupee_chest_B",
+  "dungeon_1_rupee_chest_C",
+  "dungeon_1_rupee_chest_D",
+  "dungeon_1_rupee_chest_E",
+  "dungeon_1_rupee_chest_F",
   "dungeon_2_1f_map_chest",
   "dungeon_2_1f_compass_chest",
   "dungeon_2_6f_big_key_chest",
   "dungeon_2_boss_key_chest",
-  -- Other treasure chests
+  -- Other treasure chests.
 }
 
 function statistics_manager:new(game)

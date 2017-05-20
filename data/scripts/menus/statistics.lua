@@ -52,6 +52,19 @@ local treasure_savegame_variables = {
   "dungeon_2_1f_compass_chest",
   "dungeon_2_6f_big_key_chest",
   "dungeon_2_boss_key_chest",
+  "dungeon_2_1f_sw_key",
+  "dungeon_2_1f_ne_key_chest",
+  "dungeon_2_1f_ne_key_vase",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   -- Other treasure chests.
 }
 

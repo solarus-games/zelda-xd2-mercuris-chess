@@ -1332,7 +1332,6 @@ enemy{
   y = 85,
   direction = 3,
   breed = "oclero/mr_grump",
-  savegame_variable = "dungeon_2_boss",
 }
 
 custom_entity{

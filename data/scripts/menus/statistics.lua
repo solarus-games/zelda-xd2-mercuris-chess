@@ -7,6 +7,8 @@ local language_manager = require("scripts/language_manager")
 local title_color = { 242, 241, 229 }
 local text_color = { 115, 59, 22 }
 
+local max_hearts = 20
+
 -- List of strings (savegame variable names) or
 -- pairs (savegame variable name + minimum value)
 local treasure_savegame_variables = {
@@ -72,19 +74,22 @@ local treasure_savegame_variables = {
   "swamp_rupee_chest",
   "desert_east_house_rupees_chest",
   "tunnels_50_rupee_chest",
+  "stupid_chest_cave_rupees_chest",
 }
+local max_treasures = #treasure_savegame_variables
 
 function statistics_manager:new(game)
 
   local statistics = {}
-
-  local death_count
-  local num_pieces_of_heart
-  local max_pieces_of_heart
-  local num_items
-  local max_items
-  local percent
   local tr = sol.language.get_string
+
+  local bosses = {
+    game:get_value("dungeon_1_miniboss_clear") or false,
+    game:get_value("dungeon_1_finished") or false,
+    game:get_value("dungeon_2_miniboss") or false,
+    game.prehistoric_tyrannosaurus_happy or false,
+  }
+  local max_bosses = #bosses
 
   local menu_font, menu_font_size = language_manager:get_menu_font()
 
@@ -105,29 +110,30 @@ function statistics_manager:new(game)
   end
 
   local function get_death_count_string()
-    death_count = game:get_value("death_count") or 0
+    local death_count = game:get_value("death_count") or 0
     return tr("stats_menu.death_count") .. " " .. death_count
   end
 
   local function get_pieces_of_heart_string()
     local item = game:get_item("piece_of_heart")
-    num_pieces_of_heart = item:get_total_pieces_of_heart()
-    max_pieces_of_heart = item:get_max_pieces_of_heart()
+    local num_pieces_of_heart = item:get_total_pieces_of_heart()
+    local max_pieces_of_heart = item:get_max_pieces_of_heart()
     return tr("stats_menu.pieces_of_heart") .. " "  ..
         num_pieces_of_heart .. " / " .. max_pieces_of_heart
   end
 
-  local function get_hearts_string()
-
-    local max_hearts = 20
-    local num_hearts = math.floor(game:get_max_life() / 4)
-    return tr("stats_menu.hearts") .. " "  ..
-        num_hearts .. " / " .. max_hearts
+  local function get_num_hearts()
+    return math.floor(game:get_max_life() / 4)
   end
 
-  local function get_treasures_string()
+  local function get_hearts_string()
 
-    local max_treasures = #treasure_savegame_variables
+    return tr("stats_menu.hearts") .. " "  ..
+        get_num_hearts() .. " / " .. max_hearts
+  end
+
+  local function get_num_treasures()
+
     local num_treasures = 0
     for _, savegame_variable in ipairs(treasure_savegame_variables) do
       if type(savegame_variable) == "string" then
@@ -138,27 +144,47 @@ function statistics_manager:new(game)
           elseif type(value) == "number" and value > 0 then
             num_treasures = num_treasures + 1
           end
+        else
+          -- Debug.
+          -- print("Missing treasure: ", savegame_variable)
         end
       else  -- Table whose second element is the minimum value.
         local value = game:get_value(savegame_variable[1])
         local minimum = savegame_variable[2]
-        if type(value) == "number" and value > minimum then
+        if type(value) == "number" and value >= minimum then
           num_treasures = num_treasures + 1
         end
       end
     end
+    return num_treasures
+  end
+
+  local function get_treasures_string()
+
     return tr("stats_menu.treasures") .. " "  ..
-        num_treasures .. " / " .. max_treasures
+        get_num_treasures() .. " / " .. max_treasures
+  end
+
+  local function get_num_bosses()
+
+    local num_bosses = 0
+    for _, boss in ipairs(bosses) do
+      if boss then
+        num_bosses = num_bosses + 1
+      end
+    end
+    return num_bosses
   end
 
   local function get_percent_string()
 
-    local percent = 0  -- TODO
-    -- Hearts
-    -- Pieces of hearts
+    -- Hearts except the first four ones.
     -- Treasures
     -- Dungeon minibosses
     -- Dungeons finished
+    local max = (max_hearts - 4) + max_treasures + max_bosses
+    local current = (get_num_hearts() - 4) + get_num_treasures() + get_num_bosses()
+    local percent = math.floor(current / max * 100)
     return tr("stats_menu.percent"):gsub("%$v", percent)
   end
 

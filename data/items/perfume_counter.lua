@@ -17,9 +17,10 @@ function item:on_npc_interaction_item(npc, item_used)
     return false
   end
 
-  if npc:get_name() == "tyrannosaurus" and
+  if npc:get_name():match("^tyrannosaurus") and
       item_used == item then
-    npc:use_perfume()
+    local tyrannosaurus = npc:get_map():get_entity("tyrannosaurus")
+    tyrannosaurus:use_perfume()
     return true  -- Stop the propagation of the event.
   end
 end
@@ -28,13 +29,14 @@ end
 -- the perfume item.
 function item:on_npc_interaction(npc)
 
-  if npc:get_name() ~= "tyrannosaurus" then
+  if not npc:get_name():match("^tyrannosaurus") then
     return
   end
 
+  local tyrannosaurus = npc:get_map():get_entity("tyrannosaurus")
   if not game.prehistoric_tyrannosaurus_happy then
     sol.audio.play_sound("monkey")
-    npc:get_sprite():set_animation("no", "stopped")
+    tyrannosaurus:get_sprite():set_animation("no", "stopped")
     game:start_dialog("prehistoric.tyrannosaurus_upset")
   else
     sol.audio.play_sound("mk64_yoshi")

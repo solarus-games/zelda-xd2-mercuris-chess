@@ -845,8 +845,8 @@ npc{
   layer = 0,
   x = 136,
   y = 149,
-  direction = -1,
-  subtype = 1,
+  direction = 3,
+  subtype = 0,
   sprite = "npc/oclero/golden_tyranosaurus",
   behavior = "item#perfume_counter",
 }
@@ -963,6 +963,26 @@ wall{
   stops_enemies = true,
   stops_blocks = true,
   stops_projectiles = true,
+}
+
+npc{
+  name = "tyrannosaurus_2",
+  layer = 0,
+  x = 120,
+  y = 149,
+  direction = 3,
+  subtype = 0,
+  behavior = "item#perfume_counter",
+}
+
+npc{
+  name = "tyrannosaurus_3",
+  layer = 0,
+  x = 152,
+  y = 149,
+  direction = 3,
+  subtype = 0,
+  behavior = "item#perfume_counter",
 }
 
 tile{

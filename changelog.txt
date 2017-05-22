@@ -16,6 +16,7 @@ ____________________________________________
 * Dungeon 1: improve throwing the iron ball.
 * Dungeon 2 7F: fix black statues that should not move.
 * Dungeon 2 3F: add a telepathic message joke (#64).
+* Prehistoric cave: allow to use the perfume from a wider range (#57).
 * Water house: fix pool limits.
 * Slightly improve ending dialogs.
 * Fix typos.

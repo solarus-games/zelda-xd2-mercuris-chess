@@ -7,6 +7,7 @@ ____________________________________________
 * Fix hearts not displayed in the savegame menu.
 * Fix stuck after the fight against Zelda's cat (#54).
 * Fix rupee island accessible without flippers (#67).
+* Fix rupee island rupees invisible even with the lens of truth (#72).
 * Fix running not inflicting twice damage (#77).
 * Allow to enter the lost and found office from outside (#7).
 * Add unbreakable vases in the vase house.

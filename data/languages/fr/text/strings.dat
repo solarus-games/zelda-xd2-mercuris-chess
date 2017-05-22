@@ -71,6 +71,7 @@ text{ key = "options.video.windowed", value = "Fenêtré" }
 text{ key = "quest_status.caption.bomb_bag_1", value = "Sac de Bombes" }
 text{ key = "quest_status.caption.bomb_bag_2", value = "Grand$Sac de Bombes" }
 text{ key = "quest_status.caption.bomb_bag_3", value = "Sac de Bombes$Géant" }
+text{ key = "quest_status.caption.library_award", value = "Diplôme du$rat de bibliothèque" }
 text{ key = "quest_status.caption.pieces_of_heart", value = "Fragments de Coeur" }
 text{ key = "quest_status.caption.quiver_1", value = "Carquois" }
 text{ key = "quest_status.caption.quiver_2", value = "Grand Carquois" }

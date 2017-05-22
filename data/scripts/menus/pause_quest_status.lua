@@ -21,7 +21,7 @@ function quest_status_submenu:on_started()
   item_sprite:set_animation("tunic")
   item_sprite:set_direction(tunic - 1)
   item_sprite:draw(self.quest_items_surface, 185, 177)
-  self.caption_text_keys[5] = "quest_status.caption.tunic_" .. tunic
+  self.caption_text_keys[6] = "quest_status.caption.tunic_" .. tunic
 
   -- Sword.
   local sword = self.game:get_item("sword"):get_variant()
@@ -29,7 +29,7 @@ function quest_status_submenu:on_started()
     item_sprite:set_animation("sword")
     item_sprite:set_direction(sword - 1)
     item_sprite:draw(self.quest_items_surface, 219, 177)
-    self.caption_text_keys[6] = "quest_status.caption.sword_" .. sword
+    self.caption_text_keys[7] = "quest_status.caption.sword_" .. sword
   end
 
   -- Shield.
@@ -38,7 +38,7 @@ function quest_status_submenu:on_started()
     item_sprite:set_animation("shield")
     item_sprite:set_direction(shield - 1)
     item_sprite:draw(self.quest_items_surface, 253, 177)
-    self.caption_text_keys[7] = "quest_status.caption.shield_" .. shield
+    self.caption_text_keys[8] = "quest_status.caption.shield_" .. shield
   end
 
   -- Wallet.
@@ -71,15 +71,23 @@ function quest_status_submenu:on_started()
   -- World map.
   item_sprite:set_animation("world_map")
   item_sprite:set_direction(0)
-  item_sprite:draw(self.quest_items_surface, 68, 177)
+  item_sprite:draw(self.quest_items_surface, 107, 177)
   self.caption_text_keys[3] = "quest_status.caption.world_map"
+
+  -- Library award.
+  if self.game:has_item("library_award") then
+    item_sprite:set_animation("library_award")
+    item_sprite:set_direction(0)
+    item_sprite:draw(self.quest_items_surface, 146, 177)
+    self.caption_text_keys[4] = "quest_status.caption.library_award"
+  end
 
   -- Pieces of heart.
   local pieces_of_heart_img = sol.surface.create("menus/quest_status_pieces_of_heart.png")
   local num_pieces_of_heart = self.game:get_item("piece_of_heart"):get_num_pieces_of_heart()
   local x = 51 * num_pieces_of_heart
   pieces_of_heart_img:draw_region(x, 0, 51, 50, self.quest_items_surface, 101, 81)
-  self.caption_text_keys[4] = "quest_status.caption.pieces_of_heart"
+  self.caption_text_keys[5] = "quest_status.caption.pieces_of_heart"
 
   -- Cursor.
   self:set_cursor_position(0)
@@ -89,13 +97,22 @@ function quest_status_submenu:set_cursor_position(position)
 
   if position ~= self.cursor_position then
     self.cursor_position = position
-    if position <= 3 then
+    if position <= 2 then
+      -- Rupee bag, bomb bag, quiver.
       self.cursor_sprite_x = 68
+    elseif position == 3 then
+      -- World map.
+      self.cursor_sprite_x = 107
     elseif position == 4 then
+      -- Library award.
+      self.cursor_sprite_x = 146
+    elseif position == 5 then
+      -- Pieces of heart.
       self.cursor_sprite_x = 126
       self.cursor_sprite_y = 107
     else
-      self.cursor_sprite_x = 15 + 34 * position
+      -- Tunic, sword, shield.
+      self.cursor_sprite_x = -19 + 34 * position
     end
 
     if position == 0 then
@@ -104,7 +121,7 @@ function quest_status_submenu:set_cursor_position(position)
       self.cursor_sprite_y = 108
     elseif position == 2 then
       self.cursor_sprite_y = 138
-    elseif position == 4 then
+    elseif position == 5 then
       self.cursor_sprite_y = 107
     else
       self.cursor_sprite_y = 172
@@ -125,10 +142,12 @@ function quest_status_submenu:on_command_pressed(command)
         self:previous_submenu()
       else
         sol.audio.play_sound("cursor")
-        if self.cursor_position == 4 then
+        if self.cursor_position == 5 then
+          -- Pieces of heart to rupee bag.
           self:set_cursor_position(0)
-        elseif self.cursor_position == 5 then
-          self:set_cursor_position(3)
+        elseif self.cursor_position == 6 then
+          -- Tunic to library award.
+          self:set_cursor_position(4)
         else
           self:set_cursor_position(self.cursor_position - 1)
         end
@@ -136,14 +155,14 @@ function quest_status_submenu:on_command_pressed(command)
       handled = true
 
     elseif command == "right" then
-      if self.cursor_position == 4 or self.cursor_position == 7 then
+      if self.cursor_position == 5 or self.cursor_position == 8 then
         self:next_submenu()
       else
         sol.audio.play_sound("cursor")
         if self.cursor_position <= 2 then
-          self:set_cursor_position(4)
-        elseif self.cursor_position == 3 then
           self:set_cursor_position(5)
+        elseif self.cursor_position == 4 then
+          self:set_cursor_position(6)
         else
           self:set_cursor_position(self.cursor_position + 1)
         end
@@ -152,12 +171,28 @@ function quest_status_submenu:on_command_pressed(command)
 
     elseif command == "down" then
       sol.audio.play_sound("cursor")
-      self:set_cursor_position((self.cursor_position + 1) % 8)
+      if self.cursor_position <= 2 then
+        self:set_cursor_position((self.cursor_position + 1) % 9)
+      elseif self.cursor_position == 5 then
+        -- Pieces of heart to world map.
+        self:set_cursor_position(3)
+      else
+        -- Bottom position to pieces of heart.
+        self:set_cursor_position(5)
+      end
       handled = true
 
     elseif command == "up" then
       sol.audio.play_sound("cursor")
-      self:set_cursor_position((self.cursor_position + 7) % 8)
+      if self.cursor_position <= 2 then
+        self:set_cursor_position((self.cursor_position + 8) % 9)
+      elseif self.cursor_position == 5 then
+        -- Pieces of heart to world map.
+        self:set_cursor_position(3)
+      else
+        -- Bottom position to pieces of heart.
+        self:set_cursor_position(5)
+      end
       handled = true
     end
 

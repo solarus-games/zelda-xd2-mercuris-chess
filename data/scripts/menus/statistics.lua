@@ -67,6 +67,11 @@ local treasure_savegame_variables = {
   "dungeon_2_8f_c_key_chest",
   "dungeon_2_boss_key_chest",
   -- Other treasure chests.
+  "forest_invisible_rupee_chest",
+  "forest_50_rupee_chest",
+  "swamp_rupee_chest",
+  "desert_east_house_rupees_chest",
+  "tunnels_50_rupee_chest",
 }
 
 function statistics_manager:new(game)
@@ -122,8 +127,26 @@ function statistics_manager:new(game)
 
   local function get_treasures_string()
 
-    local max_treasures = 20  -- TODO
-    local num_treasures = 0  -- TODO
+    local max_treasures = #treasure_savegame_variables
+    local num_treasures = 0
+    for _, savegame_variable in ipairs(treasure_savegame_variables) do
+      if type(savegame_variable) == "string" then
+        local value = game:get_value(savegame_variable)
+        if value ~= nil then
+          if type(value) == "boolean" and value then
+            num_treasures = num_treasures + 1
+          elseif type(value) == "number" and value > 0 then
+            num_treasures = num_treasures + 1
+          end
+        end
+      else  -- Table whose second element is the minimum value.
+        local value = game:get_value(savegame_variable[1])
+        local minimum = savegame_variable[2]
+        if type(value) == "number" and value > minimum then
+          num_treasures = num_treasures + 1
+        end
+      end
+    end
     return tr("stats_menu.treasures") .. " "  ..
         num_treasures .. " / " .. max_treasures
   end

@@ -264,7 +264,8 @@ function statistics_manager:new(game)
     horizontal_alignment = "right",
     text = get_version_string(),
   })
-  version_text:set_xy(320 - 45, y)
+  local screen_width, _ = sol.video.get_quest_size()
+  version_text:set_xy(screen_width - 45, y)
   y = y + diff_y
 
   function statistics:on_command_pressed(command)

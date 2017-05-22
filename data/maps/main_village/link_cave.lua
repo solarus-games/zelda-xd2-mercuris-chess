@@ -90,6 +90,15 @@ function tigriss_enemy:on_dying()
   -- Reopen doors
   map:reopen_doors()
 
+  -- Make sure the hero does not overlap the NPC.
+  if hero:overlaps(tigriss_npc_docile) then
+    local hero_x, hero_y = hero:get_position()
+    if not hero:test_obstacles(0, tigriss_y + 16 - hero_y) then
+      hero:set_position(hero_x, tigriss_y + 16)
+    elseif not hero:test_obstacles(0, tigriss_y - 16 - hero_y) then
+      hero:set_position(hero_x, tigriss_y - 16)
+    end
+  end
 end
 
 -- Called after the cat has been fed.

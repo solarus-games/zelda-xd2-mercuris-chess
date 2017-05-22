@@ -14,6 +14,7 @@ ____________________________________________
 * Dungeon 1: reduce the boss fight duration (#78).
 * Dungeon 1: improve throwing the iron ball.
 * Dungeon 2 7F: fix black statues that should not move.
+* Dungeon 2 3F: add a telepathic message joke (#64).
 * Water house: fix pool limits.
 * Slightly improve ending dialogs.
 * Fix typos.

@@ -4149,6 +4149,32 @@ qu'une seule fois !
 }
 
 dialog{
+  id = "dungeon_2.3f.sahasrahla_message",
+  text = [[
+Allo ? Allo ?
+Tu m'entends ?
+
+C'est moi, Sahasrahala.
+Je te parle par
+télépathie.
+C'est toujours ok pour
+le barbecue de samedi ?
+
+Est-ce que je dois
+apporter quelque
+chose ?
+On pourra se faire une
+belote.
+
+Quoi ? Comment ça ?
+$v ?
+
+Ah pardon, je me suis
+trompé de fenêtre !
+]]
+}
+
+dialog{
   id = "dungeon_2.6f.8_queens_puzzle",
   skip = "all",
   text = [[

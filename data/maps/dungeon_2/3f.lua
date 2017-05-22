@@ -95,3 +95,12 @@ end
 for i = 1, 6 do
   map:get_entity("auto_block_queen_" .. i).on_moved = queen_puzzle_on_moved
 end
+
+-- Sahasrahla telepathic message
+function sahasrahla_sensor:on_activated()
+
+  if not game:get_value("dungeon_2_3f_sahasrahla_message") then
+    game:set_value("dungeon_2_3f_sahasrahla_message", true)
+    game:start_dialog("dungeon_2.3f.sahasrahla_message", game:get_player_name())
+  end
+end

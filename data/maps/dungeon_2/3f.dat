@@ -6826,8 +6826,8 @@ jumper{
 destination{
   name = "destination",
   layer = 0,
-  x = 880,
-  y = 429,
+  x = 376,
+  y = 317,
   direction = 1,
   starting_location_mode = "yes",
   default = true,
@@ -6997,6 +6997,15 @@ dynamic_tile{
   width = 48,
   height = 48,
   enabled_at_start = true,
+}
+
+sensor{
+  name = "sahasrahla_sensor",
+  layer = 0,
+  x = 408,
+  y = 293,
+  width = 16,
+  height = 64,
 }
 
 tile{

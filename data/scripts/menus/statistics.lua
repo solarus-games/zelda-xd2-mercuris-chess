@@ -179,14 +179,29 @@ function statistics_manager:new(game)
   local function get_percent_string()
 
     -- Hearts except the first four ones.
-    -- Treasures
-    -- Dungeon minibosses
-    -- Dungeons finished
+    -- Treasures.
+    -- Dungeon minibosses and bosses.
     local max = (max_hearts - 4) + max_treasures + max_bosses
     local current = (get_num_hearts() - 4) + get_num_treasures() + get_num_bosses()
     local percent = math.floor(current / max * 100)
     return tr("stats_menu.percent"):gsub("%$v", percent)
   end
+
+  local function get_quest_version()
+    -- Hack because there is no sol.main.get_quest_version() yet.
+    -- TODO with Solarus 1.6, use sol.main.get_quest_version() instead.
+    local quest_version = sol.video.get_window_title():match("Mercuris Chess ([0-9.]+)")
+    return quest_version
+  end
+
+  local function get_version_string()
+
+    return tr("stats_menu.solarus_version") .. sol.main.get_solarus_version() ..
+        " - " .. tr("stats_menu.quest_version") .. get_quest_version()
+  end
+
+  local y = 75
+  local diff_y = 18
 
   local time_played_text = sol.text_surface.create({
     font = menu_font,
@@ -194,7 +209,8 @@ function statistics_manager:new(game)
     color = text_color,
     text = get_game_time_string(),
   })
-  time_played_text:set_xy(45, 75)
+  time_played_text:set_xy(45, y)
+  y = y + diff_y
 
   local death_count_text = sol.text_surface.create({
     font = menu_font,
@@ -202,7 +218,8 @@ function statistics_manager:new(game)
     color = text_color,
     text = get_death_count_string(),
   })
-  death_count_text:set_xy(45, 95)
+  death_count_text:set_xy(45, y)
+  y = y + diff_y
 
   local pieces_of_heart_text = sol.text_surface.create({
     font = menu_font,
@@ -210,7 +227,8 @@ function statistics_manager:new(game)
     color = text_color,
     text = get_pieces_of_heart_string(),
   })
-  pieces_of_heart_text:set_xy(45, 115)
+  pieces_of_heart_text:set_xy(45, y)
+  y = y + diff_y
 
   local hearts_text = sol.text_surface.create({
     font = menu_font,
@@ -218,7 +236,8 @@ function statistics_manager:new(game)
     color = text_color,
     text = get_hearts_string(),
   })
-  hearts_text:set_xy(45, 135)
+  hearts_text:set_xy(45, y)
+  y = y + diff_y
 
   local treasures_text = sol.text_surface.create({
     font = menu_font,
@@ -226,7 +245,8 @@ function statistics_manager:new(game)
     color = text_color,
     text = get_treasures_string(),
   })
-  treasures_text:set_xy(45, 155)
+  treasures_text:set_xy(45, y)
+  y = y + diff_y
 
   local percent_text = sol.text_surface.create({
     font = menu_font,
@@ -234,7 +254,18 @@ function statistics_manager:new(game)
     color = text_color,
     text = get_percent_string(),
   })
-  percent_text:set_xy(45, 175)
+  percent_text:set_xy(45, y)
+  y = y + diff_y
+
+  local version_text = sol.text_surface.create({
+    font = menu_font,
+    font_size = menu_font_size,
+    color = text_color,
+    horizontal_alignment = "right",
+    text = get_version_string(),
+  })
+  version_text:set_xy(320 - 45, y)
+  y = y + diff_y
 
   function statistics:on_command_pressed(command)
 
@@ -256,6 +287,7 @@ function statistics_manager:new(game)
     hearts_text:draw(dst_surface)
     treasures_text:draw(dst_surface)
     percent_text:draw(dst_surface)
+    version_text:draw(dst_surface)
   end
 
   return statistics

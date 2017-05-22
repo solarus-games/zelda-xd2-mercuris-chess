@@ -118,6 +118,8 @@ text{ key = "stats_menu.game_time", value = "Temps de jeu :" }
 text{ key = "stats_menu.hearts", value = "Coeurs :" }
 text{ key = "stats_menu.percent", value = "Tu as fini le jeu à : $v%" }
 text{ key = "stats_menu.pieces_of_heart", value = "Fragments de coeur :" }
+text{ key = "stats_menu.quest_version", value = "Zelda XD2 " }
+text{ key = "stats_menu.solarus_version", value = "Solarus " }
 text{ key = "stats_menu.title", value = "Statistiques" }
 text{ key = "stats_menu.treasures", value = "Trésors :" }
 text{ key = "title_screen.copyright", value = "© 2017 Christopho, Solarus Team" }

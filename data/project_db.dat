@@ -58,7 +58,7 @@ map{ id = "out/lost_found_office_store", description = "Lost Found Office Store"
 map{ id = "prehistoric/cave", description = "Cave" }
 map{ id = "prehistoric/mountains", description = "Prehistoric mountains" }
 map{ id = "sunset_creek", description = "Sunset Creek" }
-map{ id = "tardis", description = "Tardis" }
+map{ id = "tardis", description = "TARDIS" }
 
 tileset{ id = "beach_sunset", description = "Beach sunset" }
 tileset{ id = "cave_legacy", description = "Cave (legacy)" }
@@ -76,7 +76,7 @@ tileset{ id = "house_legacy", description = "House (legacy)" }
 tileset{ id = "la_beach", description = "Link's Awakening beach SNES style" }
 tileset{ id = "light_world_legacy", description = "Light World (legacy)" }
 tileset{ id = "outside", description = "Outside" }
-tileset{ id = "tardis", description = "Tardis" }
+tileset{ id = "tardis", description = "TARDIS" }
 
 sprite{ id = "console/cursor", description = "Console cursor" }
 sprite{ id = "console/icons", description = "Console icons" }
@@ -232,8 +232,8 @@ sprite{ id = "entities/conveyor_belt", description = "Stream" }
 sprite{ id = "entities/crystal", description = "Crystal" }
 sprite{ id = "entities/crystal_block", description = "Crystal block" }
 sprite{ id = "entities/destination", description = "Destination" }
-sprite{ id = "entities/doctor_who/tardis", description = "Tardis" }
-sprite{ id = "entities/doctor_who/tardis_door", description = "Tardis door" }
+sprite{ id = "entities/doctor_who/tardis", description = "TARDIS" }
+sprite{ id = "entities/doctor_who/tardis_door", description = "TARDIS door" }
 sprite{ id = "entities/doctor_who/weeping_angel", description = "Weeping Angel" }
 sprite{ id = "entities/doors/door_d1_big_key", description = "Dungeon door (big key)" }
 sprite{ id = "entities/doors/door_d1_boss_key", description = "Dungeon door (boss key)" }
@@ -761,7 +761,7 @@ entity{ id = "ladder", description = "Ladder" }
 entity{ id = "low_wall", description = "Low wall" }
 entity{ id = "rotating_platform", description = "Rotating Platform" }
 entity{ id = "swimming_npc", description = "Swimming NPC" }
-entity{ id = "tardis", description = "Tardis" }
+entity{ id = "tardis", description = "TARDIS" }
 entity{ id = "torch", description = "Torch" }
 entity{ id = "traversable", description = "Traversable" }
 entity{ id = "weeping_angel", description = "Weeping angel" }

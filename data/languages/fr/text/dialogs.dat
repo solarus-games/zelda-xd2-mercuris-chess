@@ -6979,7 +6979,7 @@ dialog{
   skip = "all",
   text = [[
 Rien de cassé ?$0
-Le Tardis indique que
+Le TARDIS indique que
 nous sommes proches de
 l'origine des rubis
 tueurs.
@@ -7004,7 +7004,7 @@ dialog{
 Hum...$0
 Nous sommes censés
 être arrivés.
-Le Tardis a pisté
+Le TARDIS a pisté
 l'origine des rubis
 tueurs mais...$0
 Sommes-nous vraiment

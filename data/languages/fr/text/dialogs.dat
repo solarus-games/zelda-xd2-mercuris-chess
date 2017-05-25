@@ -2164,6 +2164,7 @@ Bibliothèque municipale
 dialog{
   id = "chill_valley.mercuris_time_travel",
   skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
   text = [[
 Je n'en peux plus
 d'attendre la sortie de

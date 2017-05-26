@@ -5439,6 +5439,7 @@ Enclos à rubis
 
 dialog{
   id = "lafoo.after_explosion",
+  translators_note = "Reference to Pokémon Go",
   text = [[
 Ça y est !!!
 

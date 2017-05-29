@@ -401,6 +401,7 @@ dialog{
   id = "_item_description.feather.2",
   icon = "20",
   skip = "all",
+  translators_note = "Reference to Apple marketing",
   text = [[
 Cette iPlume permet
 de sauter au-dessus
@@ -498,6 +499,7 @@ dialog{
   id = "_item_description.lens_of_truth.1",
   icon = "14",
   skip = "all",
+  translators_note = "Reference to Trump's alternative facts",
   text = [[
 Utilise le Monocle
 des Vérités
@@ -1197,6 +1199,7 @@ Dommage... !
 dialog{
   id = "_treasure.feather.2",
   icon = "20",
+  translators_note = "Reference to Apple marketing",
   text = [[
 Tu as acheté une
 iPlume !$0
@@ -1365,6 +1368,7 @@ dialog{
   id = "_treasure.lens_of_truth.1",
   icon = "14",
   next = "warning_magic",
+  translators_note = "Reference to Trump's alternative facts",
   text = [[
 Tu as trouvé le
 Monocle des Vérités

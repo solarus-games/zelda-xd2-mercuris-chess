@@ -4,6 +4,7 @@ Zelda XD2: Mercuris Chess 1.0.4 (in progress)
 _____________________________________________
 
 * Add a statistics screen at the end (#52).
+* Add a game time counter in the quest status screen (#89).
 * Add library award to the quest status screen (#58).
 * Fix hearts not displayed in the savegame menu.
 * Fix stuck after the fight against Zelda's cat (#54).

@@ -1,6 +1,8 @@
 local submenu = require("scripts/menus/pause_submenu")
 local quest_status_submenu = submenu:new()
 
+local language_manager = require("scripts/language_manager")
+
 function quest_status_submenu:on_started()
 
   submenu.on_started(self)
@@ -88,6 +90,21 @@ function quest_status_submenu:on_started()
   local x = 51 * num_pieces_of_heart
   pieces_of_heart_img:draw_region(x, 0, 51, 50, self.quest_items_surface, 101, 81)
   self.caption_text_keys[5] = "quest_status.caption.pieces_of_heart"
+
+  -- Game time.
+  local menu_font, menu_font_size = language_manager:get_menu_font()
+  self.chronometer_txt = sol.text_surface.create({
+    horizontal_alignment = "center",
+    vertical_alignment = "bottom",
+    font = menu_font,
+    font_size = menu_font_size,
+    color = { 115, 59, 22 },
+    text = self.game:get_time_played_string()
+  })
+  sol.timer.start(self.game, 1000, function()
+    self.chronometer_txt:set_text(self.game:get_time_played_string())
+    return true  -- Repeat the timer.
+  end)
 
   -- Cursor.
   self:set_cursor_position(0)
@@ -210,6 +227,7 @@ function quest_status_submenu:on_draw(dst_surface)
   self:draw_caption(dst_surface)
   self.quest_items_surface:draw(dst_surface, x, y)
   self.cursor_sprite:draw(dst_surface, x + self.cursor_sprite_x, y + self.cursor_sprite_y)
+  self.chronometer_txt:draw(dst_surface, x + 68, y + 186)
   self:draw_save_dialog_if_any(dst_surface)
 end
 

@@ -2123,6 +2123,7 @@ y croire...
 dialog{
   id = "chill_valley.doc",
   skip = "all",
+  translators_note = "Reference to Back to the Future 2",
   text = [[
 Bonjour Monsieur, c'est
 à quel sujet ?

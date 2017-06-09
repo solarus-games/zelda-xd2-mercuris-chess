@@ -2139,7 +2139,7 @@ météorologique.
 dialog{
   id = "chill_valley.east_sign",
   skip = "all",
-  translators_note = "Reference to Back to the Future "Hill Valley" city and the election slogan of Goldie Wilson "Progress is his middle name"",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
   text = [[
   - Chill Valley -
 La ville dont le nom
@@ -2498,7 +2498,7 @@ l'humain après ça !
 dialog{
   id = "chill_valley.south_east_sign",
   skip = "all",
-  translators_note = "Reference to Back to the Future "Hill Valley" city and the election slogan of Goldie Wilson "Progress is his middle name"",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
   text = [[
 Est : Forêt
 
@@ -2530,7 +2530,7 @@ la journée !
 dialog{
   id = "chill_valley.welcome_sign",
   skip = "all",
-  translators_note = "Reference to Back to the Future "Hill Valley" city and the election slogan of Goldie Wilson "Progress is his middle name"",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
   text = [[
 Bienvenue à Chill
 Valley !

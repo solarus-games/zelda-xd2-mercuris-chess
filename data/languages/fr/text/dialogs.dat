@@ -2230,7 +2230,7 @@ Nord : Île des Rubis
 dialog{
   id = "chill_valley.o_house.doctor_1",
   skip = "all",
-  translators_note = "Reference do Doctor Who",
+  translators_note = "Reference to Doctor Who",
   text = [[
 Bonjour, je suis le
 Docteur.

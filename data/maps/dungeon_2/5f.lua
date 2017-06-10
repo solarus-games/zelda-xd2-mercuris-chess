@@ -17,7 +17,9 @@ local ice_knights = {}
 
 function map:on_started(destination)
 
-  if destination == from_6f_s or destination == from_4f_e then
+  if destination == from_6f_s or
+      destination == from_4f_e or
+      destination == from_6f_se_hole then
     -- Dark part of the floor.
     map:set_light(0)
   end

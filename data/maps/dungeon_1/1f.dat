@@ -2221,62 +2221,6 @@ custom_entity{
   direction = 0,
 }
 
-wall{
-  name = "pillar_wall_1",
-  layer = -1,
-  x = 888,
-  y = 168,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  name = "pillar_wall_2",
-  layer = -1,
-  x = 1016,
-  y = 168,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  name = "pillar_wall_3",
-  layer = -1,
-  x = 888,
-  y = 264,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
-wall{
-  name = "pillar_wall_4",
-  layer = -1,
-  x = 1016,
-  y = 264,
-  width = 16,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 destructible{
   name = "iron_ball_2",
   layer = -1,
@@ -8712,6 +8656,24 @@ tile{
   pattern = "barrier.1-1",
 }
 
+tile{
+  layer = 0,
+  x = 1432,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "218",
+}
+
+tile{
+  layer = 0,
+  x = 1440,
+  y = 24,
+  width = 8,
+  height = 16,
+  pattern = "214",
+}
+
 dynamic_tile{
   name = "boss_door_bottom_right_closed",
   layer = 0,
@@ -10605,15 +10567,6 @@ sensor{
   height = 16,
 }
 
-destructible{
-  name = "iron_ball",
-  layer = 0,
-  x = 56,
-  y = 189,
-  sprite = "entities/dungeon_1/iron_ball",
-  damage_on_enemies = 2,
-}
-
 npc{
   name = "iron_ball_man",
   layer = 0,
@@ -10648,17 +10601,6 @@ dynamic_tile{
 }
 
 dynamic_tile{
-  name = "boss_door_bottom_left_open",
-  layer = 0,
-  x = 744,
-  y = 152,
-  pattern = "door_top.stairs_up.2-1",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
   name = "boss_door_bottom_right_open_2",
   layer = 0,
   x = 1152,
@@ -10669,12 +10611,32 @@ dynamic_tile{
   enabled_at_start = true,
 }
 
+destructible{
+  name = "iron_ball",
+  layer = 0,
+  x = 56,
+  y = 189,
+  sprite = "portables/iron_ball",
+  damage_on_enemies = 2,
+}
+
+dynamic_tile{
+  name = "boss_door_bottom_left_open",
+  layer = 0,
+  x = 744,
+  y = 152,
+  pattern = "door_top.stairs_down.1-1",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
 dynamic_tile{
   name = "boss_door_bottom_right_open",
   layer = 0,
   x = 1160,
   y = 152,
-  pattern = "door_top.stairs_up.2-1",
+  pattern = "door_top.stairs_down.1-1",
   width = 16,
   height = 8,
   enabled_at_start = true,
@@ -11298,24 +11260,6 @@ tile{
   width = 16,
   height = 16,
   pattern = "474",
-}
-
-tile{
-  layer = 2,
-  x = 1432,
-  y = 24,
-  width = 8,
-  height = 16,
-  pattern = "218",
-}
-
-tile{
-  layer = 2,
-  x = 1440,
-  y = 24,
-  width = 8,
-  height = 16,
-  pattern = "214",
 }
 
 separator{

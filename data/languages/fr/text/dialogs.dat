@@ -401,6 +401,7 @@ dialog{
   id = "_item_description.feather.2",
   icon = "20",
   skip = "all",
+  translators_note = "Reference to Apple marketing",
   text = [[
 Cette iPlume permet
 de sauter au-dessus
@@ -498,6 +499,7 @@ dialog{
   id = "_item_description.lens_of_truth.1",
   icon = "14",
   skip = "all",
+  translators_note = "Reference to Trump's alternative facts",
   text = [[
 Utilise le Monocle
 des Vérités
@@ -1197,6 +1199,7 @@ Dommage... !
 dialog{
   id = "_treasure.feather.2",
   icon = "20",
+  translators_note = "Reference to Apple marketing",
   text = [[
 Tu as acheté une
 iPlume !$0
@@ -1365,6 +1368,7 @@ dialog{
   id = "_treasure.lens_of_truth.1",
   icon = "14",
   next = "warning_magic",
+  translators_note = "Reference to Trump's alternative facts",
   text = [[
 Tu as trouvé le
 Monocle des Vérités
@@ -1907,6 +1911,7 @@ Bonne chance héhé !
 dialog{
   id = "chill_valley.bath.cleaning_old_lady",
   skip = "all",
+  translators_note = "Reference to animation film of Asterix et Obélix: La surprise de César",
   text = [[
 La dernière fois, un
 gars un peu enveloppé
@@ -1939,6 +1944,7 @@ glacée !
 dialog{
   id = "chill_valley.bath.employee_only",
   skip = "all",
+  translators_note = "Reference to Pratchett character Bloody Stupid Johnson",
   text = [[
  Bains de Bougre-de-
    Sagouin Jeanson
@@ -1952,6 +1958,7 @@ dialog{
 dialog{
   id = "chill_valley.bath.entrance",
   skip = "all",
+  translators_note = "Last sentence is about H2G2 with the obsession to always have a towel with you",
   text = [[
 Bonjour et bienvenue !
 Vous avez de la chance
@@ -1993,6 +2000,7 @@ réputés !?
 dialog{
   id = "chill_valley.bath.hungry_child",
   skip = "all",
+  translators_note = "Reference to episode of the french serie Kaamelott named Ablutions with Karadoc missing food during his bath",
   text = [[
 Mouais... C'est pas
 mal, ça détend...
@@ -2025,6 +2033,7 @@ peux réclamer ton prix
 dialog{
   id = "chill_valley.bath.lovers_brassens",
   skip = "all",
+  translators_note = "A french song of an old singer Georges Brassens: Bancs Publics",
   text = [[
 J'ai entendu dire que
 parfois, les amoureux
@@ -2038,20 +2047,27 @@ chanson.
 dialog{
   id = "chill_valley.bath.miserable_myrtle",
   skip = "all",
+  translators_note = "Reference to Harry Potter and the Goblet of Fire (before second trial)",
   text = [[
-Un jour, un fantôme
-m'a dit qu'ouvrir un
-oeuf en or sous l'eau
-dévoilerait une énigme
-digne d'un grand mage.
-J'te raconte pas la
-frousse...
+Il y a quelque temps,
+un étudiant est venu
+et a ouvert un oeuf en
+or dans ces bains.
+Il a fallu changer
+toute l'eau !
+Il croyait qu'il
+entendrait une
+chanson en faisant ça.
+Sérieux, il a cru que
+c'était un jukebox
+Zora ou quoi ?
 ]]
 }
 
 dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
+  translators_note = "Reference to french movie named La Grande Vadrouille",
   text = [[
 Tea... for two
 and two for tea...
@@ -2095,6 +2111,7 @@ est un art !
 dialog{
   id = "chill_valley.big_bird",
   skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
   text = [[
 Une aventure contre un
 gros zozio ?
@@ -2107,6 +2124,7 @@ y croire...
 dialog{
   id = "chill_valley.doc",
   skip = "all",
+  translators_note = "Reference to Back to the Future 2",
   text = [[
 Bonjour Monsieur, c'est
 à quel sujet ?
@@ -2121,6 +2139,7 @@ météorologique.
 dialog{
   id = "chill_valley.east_sign",
   skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
   text = [[
   - Chill Valley -
 La ville dont le nom
@@ -2152,6 +2171,7 @@ Bibliothèque municipale
 dialog{
   id = "chill_valley.mercuris_time_travel",
   skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
   text = [[
 Je n'en peux plus
 d'attendre la sortie de
@@ -2294,6 +2314,7 @@ Oh... River...
 dialog{
   id = "chill_valley.one_day",
   skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
   text = [[
 Il paraît que Zelda
 Mercuris' Chest va
@@ -2304,6 +2325,7 @@ sortir un jour.
 dialog{
   id = "chill_valley.out_soon",
   skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
   text = [[
 La sortie de Zelda
 Mercuris' Chest n'a
@@ -2329,6 +2351,7 @@ autour.
 dialog{
   id = "chill_valley.s_house.dogman",
   skip = "all",
+  translators_note = "A little (very little) to Bohort general behavior in the french serie Kaamelott",
   text = [[
 Je m'appelle Ernest et
 au fond, je suis pas
@@ -2378,6 +2401,7 @@ délice.
 dialog{
   id = "chill_valley.s_house.gibdo",
   skip = "all",
+  translators_note = "Reference a mini-boss in the indie game: Crypt of the Necrodancer",
   text = [[
 Ma soeur est danseuse
 dans une crypte. Ça
@@ -2417,6 +2441,7 @@ rancune frangin ?
 dialog{
   id = "chill_valley.s_house.skel",
   skip = "all",
+  translators_note = "Reference to the Death character in Pratchett's Discworld universe",
   text = [[
 MON COUSIN A TROUVÉ UN
 CDI AVEC UNE TORTUE
@@ -2450,6 +2475,7 @@ Extra-Ordinn'Hair.
 dialog{
   id = "chill_valley.s_house.vipeross",
   skip = "all",
+  translators_note = "Reference to the Witcher (game and book): the man is Geralt de Riv",
   text = [[
 Un jour, y'a un gars
 qu'est arrivé et qui
@@ -2472,6 +2498,7 @@ l'humain après ça !
 dialog{
   id = "chill_valley.south_east_sign",
   skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
   text = [[
 Est : Forêt
 
@@ -2503,6 +2530,7 @@ la journée !
 dialog{
   id = "chill_valley.welcome_sign",
   skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
   text = [[
 Bienvenue à Chill
 Valley !
@@ -2527,6 +2555,7 @@ ce genre de lecture !
 dialog{
   id = "chill_valley.z_house.all_read",
   skip = "all",
+  translators_note = "French version of the expression Bookworm",
   text = [[
 Squick ! T'es chez moi
 là, et tu lis tous mes
@@ -2744,6 +2773,7 @@ combat de boss.
 dialog{
   id = "chill_valley.z_house.fight_for_dummies",
   skip = "all",
+  translators_note = "Reference to Fight Club movie",
   text = [[
     Le combat pour
        les Nuls
@@ -2785,6 +2815,7 @@ Gerudo.
 dialog{
   id = "chill_valley.z_house.horror_book",
   skip = "all",
+  translators_note = "Fred and Seb (Joueur du Grenier) are french youtubers doing retro bad game tests, like AVGN",
   text = [[
 Un livre horrifique :
    Panique aux Bois
@@ -2838,6 +2869,7 @@ détail sur cet heureux
 dialog{
   id = "chill_valley.z_house.love_book",
   skip = "all",
+  translators_note = "Reference to Twilight bad stories :p",
   text = [[
 Un roman d'amour :
    Crépuscule Perdu
@@ -2863,6 +2895,7 @@ toute chose...
 dialog{
   id = "chill_valley.z_house.magic_book",
   skip = "all",
+  translators_note = "Last part is a reference to Portal2 with GLaDOS transformed to a potato and scared by birds. Spells are from ALTTP",
   text = [[
        La magie
     pour les Nuls
@@ -2910,6 +2943,7 @@ telle ou telle mesure.
 dialog{
   id = "chill_valley.z_house.recipe_for_dummies",
   skip = "all",
+  translators_note = "Reference to Zelda - Breath of the Wild recipes",
   text = [[
  Recettes de cuisine
     pour les Nuls
@@ -2974,6 +3008,7 @@ affaires.
 dialog{
   id = "chill_valley.z_house.sf_book",
   skip = "all",
+  translators_note = "Title of the book is a reference to Pratchett and Baxter SF book named The Long Earth",
   text = [[
 Un livre de SF :
   La Terre Oblongue
@@ -3023,6 +3058,7 @@ conquis la Lune !
 dialog{
   id = "chill_valley.z_house.theater_script",
   skip = "all",
+  translators_note = "Characters are from Majora's Mask",
   text = [[
 Une pièce de théâtre :
     Kafei et Anju
@@ -3056,6 +3092,7 @@ me reconnaîtras...
 dialog{
   id = "chill_valley.z_house.urbanism_for_dummies",
   skip = "all",
+  translators_note = "Reference to Tetris game",
   text = [[
    L'urbanisme pour
        les Nuls
@@ -3082,6 +3119,7 @@ chaque mur.
 dialog{
   id = "chill_valley.z_house.weapon_for_dummies",
   skip = "all",
+  translators_note = "Real stats about real weapons in Zelda Breath of the Wild",
   text = [[
     Les armes pour
        les Nuls
@@ -3476,6 +3514,71 @@ Est : Désert Bakasable
 
 Ouest : Château Doré
 de Monsieur Grump
+]]
+}
+
+dialog{
+  id = "desert.otis",
+  skip = "all",
+  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre",
+  text = [[
+Mais, vous savez, moi
+je crois pas qu'il y
+ait de bonnes ou de
+mauvaises situations.
+Moi si je devais
+résumer ma vie
+aujourd'hui, je dirais
+que c'est d'abord des
+rencontres. Heu... des
+gens qui m'ont tendu la
+main, peut-être à un
+moment où je ne pouvais
+pas, où j'étais seul
+chez moi.
+Et c'est assez curieux
+de se dire que les
+hasards, les rencontres,
+forgent une destinée.
+Parce que quand on a le
+goût de la chose, le
+goût de la chose bien
+faite, le beau geste,
+parfois on ne trouve
+pas, heu...
+l'interlocuteur en face,
+je dirais, heu... le
+miroir qui vous aide à
+avancer. Alors ce n'est
+pas mon cas, comme
+je le disais là puisque
+moi au contraire j'ai
+pu, et je dis merci à
+la vie, je lui dis
+merci et je chante la
+vie, je danse la vie.
+Je ne suis qu'amour !
+Et finalement quand
+beaucoup de gens
+aujourd'hui me disent
+"Mais comment fais-tu
+pour avoir cette
+humanité ?", eh bien je
+leur réponds très
+simplement je leur dis :
+c'est ce goût de
+l'amour, ce goût donc
+qui m'a poussé,
+aujourd'hui à
+entreprendre une
+construction mécanique
+mais demain qui sait ?
+Heu, peut-être
+simplement à me mettre
+au service, heu, de la
+communauté et à faire,
+le... le don, le don
+de... de... de soi.
 ]]
 }
 
@@ -4058,6 +4161,32 @@ qu'une seule fois !
 }
 
 dialog{
+  id = "dungeon_2.3f.sahasrahla_message",
+  text = [[
+Allo ? Allo ?
+Tu m'entends ?
+
+C'est moi, Sahasrahala.
+Je te parle par
+télépathie.
+C'est toujours ok pour
+le barbecue de samedi ?
+
+Est-ce que je dois
+apporter quelque
+chose ?
+On pourra se faire une
+belote.
+
+Quoi ? Comment ça ?
+$v ?
+
+Ah pardon, je me suis
+trompé de fenêtre !
+]]
+}
+
+dialog{
   id = "dungeon_2.6f.8_queens_puzzle",
   skip = "all",
   text = [[
@@ -4126,7 +4255,7 @@ dialog{
   text = [[
 Ahhhh !$0
 Je ne peux plus
-contôler mes rubis !!!
+contrôler mes rubis !!!
 La tour est en train de
 s'effondrer !
 ]]
@@ -4182,11 +4311,11 @@ dialog{
   id = "final.credits",
   text = [[
 $1Ce jeu parodique a été
-réalisé en dix
-semaines
-par la Solarus Team à
-l'occasion du
+réalisé en dix semaines
+par la Solarus Team
+à l'occasion du
 1er avril 2017,
+
 toujours avec l'aide
 de pizzas et de fortes
 doses de café.
@@ -4214,36 +4343,41 @@ Diarandor
 Mymy
 
 
-       Conception
-      des donjons :
+      Conception
+     des donjons :
 
-      Château Doré :
+     Château Doré :
 Metallizer
 
-       Tour Grump :
+      Tour Grump :
 Christopho
 
-       Graphismes :
+      Graphismes :
 Olivier Cléro
-
+Newlink
        Musiques :
 Olivier Cléro
 Metallizer
-         Tests :
+        Tests :
 Binbin
 
+Pas grand monde d'autre
+sinon. On était super à
+la bourre.
      Remerciements
        spéciaux :
 
 LarryInc64
+FFOmega
 Shield
 DoctorOctoroc
 Bulby
 HelpTheWretched
 Rockfootdude
-Newlink
-
+Yoshi04
+Sam101
 Merci d'avoir joué !
+
 
 
  www.zelda-solarus.com
@@ -4294,7 +4428,7 @@ dialog{
   text = [[
 OH !$0
 Tu vois ce que je vois ?$0
-Mr Grump et Zelda...$0
+M. Grump et Zelda...$0
 Ils...$0
 Non...$0
 C'est impossible... ?!
@@ -4472,8 +4606,8 @@ dialog{
   id = "final.zelda_8",
   text = [[
 Rhâaaa...
-Quel boulet, 
-n'est-ce pas ?
+mais au fond il n'est
+pas méchant.
 Bon, on en était où,
 tous les deux ?
 
@@ -4483,7 +4617,7 @@ passer nos vacances.
 Cocolint, tu dis ?
 Et il y a une baleine
 volante ?
-Dis-donc, ça a l'air
+Dis donc, ça a l'air
 trop chouette !
 On y va ?
 ]]
@@ -4793,6 +4927,7 @@ DEBOOOUUUUT !
 dialog{
   id = "island.arrow_knee",
   skip = "all",
+  translators_note = "Reference to Skyrim game. The seconds are false on purpose",
   text = [[
 Avant j'étais sympa.
 Puis j'ai pris une
@@ -5315,6 +5450,7 @@ Enclos à rubis
 
 dialog{
   id = "lafoo.after_explosion",
+  translators_note = "Reference to Pokémon Go",
   text = [[
 Ça y est !!!
 
@@ -5416,7 +5552,7 @@ dialog{
   id = "lafoo_riot.npc_10",
   skip = "all",
   text = [[
-Mr Grump aurait
+M. Grump aurait
 commencé à bâtir sa
 fortune en nettoyant
 le caca des
@@ -5498,7 +5634,7 @@ incendie...
 Mais d'un autre, c'est
 un plaisir de voir
 ce truc brûler !
-Mr Grump, son proprio,
+M. Grump, son proprio,
 est ignoble avec les
 femmes.
 Il mérite qu'on lui
@@ -5864,7 +6000,7 @@ dialog{
   text = [[
 Dis-donc, mon p'tit 
 bonhomme ! Tu connais
-Mr Grump ?
+M. Grump ?
 C'est le directeur du
 Bureau des Objets 
 Trouvés.
@@ -5910,13 +6046,13 @@ dialog{
   text = [[
 Le directeur du Bureau
 des Objets Trouvés
-s'appelle Mr Grump.
+s'appelle M. Grump.
 Il vit dans le château
 royal, qu'il a racheté
 avec sa fortune...
 Quel bachi-bouzouk !
 Moule-à-gaufre !
-Saltinbanque !
+Saltimbanque !
 ]]
 }
 
@@ -6141,7 +6277,7 @@ Trouvés, et désormais,
 grâce à cet incendie,
 je suis libre !
 
-Adieu Mr Grump !
+Adieu M. Grump !
 Adieu vous et votre
 façon horrible de 
 traiter vos employés !
@@ -6181,7 +6317,7 @@ dialog{
   id = "lafoo_riot.npc_57",
   skip = "all",
   text = [[
-Tu n'aurais vu pas le
+Tu n'aurais pas vu le
 mec du guichet 32 ?
 
 Il est parti avec
@@ -6252,7 +6388,7 @@ dialog{
   skip = "all",
   text = [[
 Alors comme ça tu ne
-veux pas suive les
+veux pas suivre les
 évènements scriptés
 que t'ont préparé les
 développeurs du jeu ?
@@ -6548,6 +6684,16 @@ cela.
 }
 
 dialog{
+  id = "main_village.lost_found_office.welcome_sign",
+  text = [[
+Bienvenue au Bureau des
+Objets Trouvés...
+
+(Aïe ! Ça brûle !)
+]]
+}
+
+dialog{
   id = "main_village.north_sign",
   skip = "all",
   text = [[
@@ -6712,15 +6858,20 @@ dialog{
   text = [[
 Il y a eu un acte de
 vandalisme. Un
-individu s'est
-introduit ici et a
-détruit des centaines
-de vases.
+individu vêtu de vert
+s'est introduit ici et
+a détruit des centaines
+de vases !
+Les gens ne respectent
+plus rien.
+
 Alors ça fait deux
 semaines que je
 nettoie cette maison.
-Les gens ne respectent
-plus rien.
+Heureusement, j'ai pris
+des mesures pour que
+cela n'arrive plus.
+Mwahahaha !!!
 ]]
 }
 
@@ -6837,75 +6988,11 @@ du parfum !
 }
 
 dialog{
-  id = "otis",
-  skip = "all",
-  text = [[
-Mais, vous savez, moi
-je crois pas qu'il y
-ait de bonnes ou de
-mauvaises situations.
-Moi si je devais
-résumer ma vie
-aujourd'hui, je dirais
-que c'est d'abord des
-rencontres. Heu... des
-gens qui m'ont tendu la
-main, peut-être à un
-moment où je ne pouvais
-pas, où j'étais seul
-chez moi.
-Et c'est assez curieux
-de se dire que les
-hasards, les rencontres,
-forgent une destinée.
-Parce que quand on a le
-goût de la chose, le
-goût de la chose bien
-faite, le beau geste,
-parfois on ne trouve
-pas, heu...
-l'interlocuteur en face,
-je dirais, heu... le
-miroir qui vous aide à
-avancer. Alors ce n'est
-pas mon cas, comme
-je le disais là puisque
-moi au contraire j'ai
-pu, et je dis merci à
-la vie, je lui dis
-merci et je chante la
-vie, je danse la vie.
-Je ne suis qu'amour !
-Et finalement quand
-beaucoup de gens
-aujourd'hui me disent
-"Mais comment fais-tu
-pour avoir cette
-humanité ?", eh bien je
-leur réponds très
-simplement je leur dis :
-c'est ce goût de
-l'amour, ce goût donc
-qui m'a poussé,
-aujourd'hui à
-entreprendre une
-construction mécanique
-mais demain qui sait ?
-Heu, peut-être
-simplement à mettre au
-service, heu, de la
-communauté et à faire,
-le... le don, le don
-de... de... de soi.
-]]
-}
-
-dialog{
   id = "prehistoric.doctor_are_you_okay",
   skip = "all",
   text = [[
 Rien de cassé ?$0
-Le Tardis indique que
+Le TARDIS indique que
 nous sommes proches de
 l'origine des rubis
 tueurs.
@@ -6930,7 +7017,7 @@ dialog{
 Hum...$0
 Nous sommes censés
 être arrivés.
-Le Tardis a pisté
+Le TARDIS a pisté
 l'origine des rubis
 tueurs mais...$0
 Sommes-nous vraiment
@@ -7281,7 +7368,7 @@ Enfin j'espère.
 
 
 Dis, je recrute un
-companion pour mes
+compagnon pour mes
 prochains voyages.
 Tu connaîtrais des
 gens intéressés ?
@@ -7299,10 +7386,10 @@ spatio-temporelle !
 
 Moi ? Je te l'ai dit,
 je suis le Docteur.
+Docteur Qui ?
 Juste le Docteur.
 Oui, c'est plus grand
 à l'intérieur.
-
 Mais maintenant partons
 d'ici.
 

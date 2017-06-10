@@ -191,9 +191,8 @@ function map:start_cinematic()
           sol.timer.start(map, 1000, function()
             local dialog_box = game:get_dialog_box()
             dialog_box:set_position("top")
-            
 
-              -- Start dialogs between Zelda dand Mr Grump
+              -- Start dialogs between Zelda and Mr Grump
               game:start_dialog("final.the_doctor_1", function()
                 sol.timer.start(map, 1500, function()
                   -- Move camera towards Zelda and Mr Grump

@@ -10225,19 +10225,6 @@ npc{
   behavior = "dialog#lafoo_riot.npc_22",
 }
 
-wall{
-  layer = 0,
-  x = 800,
-  y = 496,
-  width = 32,
-  height = 16,
-  stops_hero = true,
-  stops_npcs = true,
-  stops_enemies = true,
-  stops_blocks = true,
-  stops_projectiles = true,
-}
-
 npc{
   layer = 0,
   x = 920,
@@ -11135,6 +11122,24 @@ destination{
   direction = 1,
   starting_location_mode = "yes",
   default = true,
+}
+
+destination{
+  name = "from_lost_found_office",
+  layer = 0,
+  x = 816,
+  y = 525,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 808,
+  y = 496,
+  width = 16,
+  height = 16,
+  destination_map = "main_village/lost_found_office",
+  destination = "from_outside",
 }
 
 tile{

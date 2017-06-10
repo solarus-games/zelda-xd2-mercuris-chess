@@ -1,5 +1,30 @@
 ____________________________________________
 
+Zelda XD2: Mercuris Chess 1.0.4 (2017-06-10)
+____________________________________________
+
+* Add a statistics screen at the end (#52).
+* Add a game time counter in the quest status screen (#89).
+* Add library award to the quest status screen (#58).
+* Fix hearts not displayed in the savegame menu.
+* Fix stuck after the fight against Zelda's cat (#54).
+* Fix rupee island accessible without flippers (#67).
+* Fix rupee island rupees invisible even with the lens of truth (#72).
+* Fix running not inflicting twice damage (#77).
+* Allow to enter the lost and found office from outside (#7).
+* Add unbreakable vases in the vase house.
+* Dungeon 1: reduce the boss fight duration (#78).
+* Dungeon 1: improve throwing the iron ball.
+* Dungeon 2 7F: fix black statues that should not move.
+* Dungeon 2 3F: add a telepathic message joke (#64).
+* Prehistoric cave: allow to use the perfume from a wider range (#57).
+* Water house: fix pool limits.
+* Slightly improve ending dialogs.
+* Fix typos.
+* Various minor improvements and bug fixes.
+
+____________________________________________
+
 Zelda XD2: Mercuris Chess 1.0.3 (2017-04-05)
 ____________________________________________
 

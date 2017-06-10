@@ -888,7 +888,7 @@ tile{
   x = 880,
   y = 648,
   width = 64,
-  height = 120,
+  height = 136,
   pattern = "112",
 }
 
@@ -7980,7 +7980,7 @@ tile{
   x = 936,
   y = 656,
   width = 8,
-  height = 96,
+  height = 112,
   pattern = "932",
 }
 
@@ -8059,7 +8059,7 @@ tile{
 tile{
   layer = 0,
   x = 928,
-  y = 752,
+  y = 768,
   width = 16,
   height = 16,
   pattern = "935",
@@ -8077,9 +8077,9 @@ tile{
 tile{
   layer = 0,
   x = 920,
-  y = 768,
+  y = 784,
   width = 8,
-  height = 32,
+  height = 16,
   pattern = "932",
 }
 
@@ -17205,8 +17205,8 @@ custom_entity{
 pickable{
   name = "lens_invisible_pickable_1",
   layer = 1,
-  x = 416,
-  y = 165,
+  x = 408,
+  y = 157,
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "island_rupee_1",
@@ -17215,8 +17215,8 @@ pickable{
 pickable{
   name = "lens_invisible_pickable_2",
   layer = 1,
-  x = 416,
-  y = 125,
+  x = 408,
+  y = 117,
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "island_rupee_2",
@@ -17225,8 +17225,8 @@ pickable{
 pickable{
   name = "lens_invisible_pickable_3",
   layer = 1,
-  x = 416,
-  y = 85,
+  x = 408,
+  y = 77,
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "island_rupee_3",
@@ -17235,8 +17235,8 @@ pickable{
 pickable{
   name = "lens_invisible_pickable_4",
   layer = 1,
-  x = 480,
-  y = 85,
+  x = 488,
+  y = 77,
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "island_rupee_4",
@@ -17245,8 +17245,8 @@ pickable{
 pickable{
   name = "lens_invisible_pickable_5",
   layer = 1,
-  x = 480,
-  y = 125,
+  x = 488,
+  y = 117,
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "island_rupee_5",
@@ -17255,8 +17255,8 @@ pickable{
 pickable{
   name = "lens_invisible_pickable_6",
   layer = 1,
-  x = 480,
-  y = 165,
+  x = 488,
+  y = 157,
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "island_rupee_6",
@@ -18291,6 +18291,15 @@ tile{
   layer = 2,
   x = 112,
   y = 472,
+  width = 48,
+  height = 8,
+  pattern = "3186",
+}
+
+tile{
+  layer = 2,
+  x = 336,
+  y = 56,
   width = 48,
   height = 8,
   pattern = "3186",

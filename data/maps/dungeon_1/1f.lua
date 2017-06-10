@@ -127,7 +127,7 @@ end
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
   map:set_doors_open("boss_door")
-
+  map:add_pillar_collision_test()
   pool_switch_empty:set_activated(true)
 
   library_door:get_sprite():set_xy(16, 0)  -- Trick to show a fake door where we want without creating an obstacle there.
@@ -186,7 +186,8 @@ end
 -- Pool fill switch mechanism
 -- The switch fills up the champagne swimming pool
 function pool_switch_fill:on_activated()
-  pool_switch_empty:set_activated(false);
+  hero:freeze()
+  pool_switch_empty:set_activated(false)
   sol.audio.play_sound("water_fill_begin")
   sol.audio.play_sound("water_fill")
   local water_tile_index = 5
@@ -194,6 +195,7 @@ function pool_switch_fill:on_activated()
     local next_tile = map:get_entity("pool_" .. water_tile_index)
     local previous_tile = map:get_entity("pool_" .. water_tile_index + 1)
     if next_tile == nil then
+      hero:unfreeze()
       return false
     end
     next_tile:set_enabled(true)
@@ -208,12 +210,12 @@ end
 -- Pool empty switch mechanism
 -- The switch drains the champagne swimming pool
 function pool_switch_empty:on_activated()
-  pool_switch_fill:set_activated(false);
+  hero:freeze()
+  pool_switch_fill:set_activated(false)
   sol.audio.play_sound("water_drain_begin")
   sol.audio.play_sound("water_drain")
   local water_tile_index = 1
   sol.timer.start(water_delay, function()
-    print(water_tile_index)
     local next_tile = map:get_entity("pool_" .. water_tile_index + 1)
     local previous_tile = map:get_entity("pool_" .. water_tile_index)
     if next_tile ~= nil then    
@@ -224,6 +226,7 @@ function pool_switch_empty:on_activated()
     end
     water_tile_index = water_tile_index + 1
     if next_tile == nil then
+      hero:unfreeze()
       return false
     end
     return true
@@ -295,7 +298,7 @@ end
 
 local pillar_count = 4
 
-local function destroy_pillar(number)
+local function destroy_pillar(number, thrown_iron_ball)
 
   local pillar = map:get_entity("pillar_" .. number)
   local pillar_base = map:get_entity("pillar_base_" .. number)
@@ -305,8 +308,8 @@ local function destroy_pillar(number)
 
   pillar_count = pillar_count - 1
   if pillar_count == 0 then
-    -- Make sure the iron ball won't block the boss or the hero.
-    iron_ball:set_enabled(false)
+    -- Make sure the iron ball won't block the boss.
+    thrown_iron_ball:remove()
   end
 
   local x, y, layer = pillar:get_position()
@@ -319,11 +322,10 @@ local function destroy_pillar(number)
     sol.timer.start(water_delay, function()
       sol.audio.play_sound("explosion")
       map:create_explosion({x = x, y = y + 16, layer = layer})
+      map:get_entity("pillar_base_" .. number):remove()
     end)
   end)
 
-  map:remove_entities("pillar_base_" .. number)
-  map:remove_entities("pillar_wall_" .. number)
   hero:freeze()
 
   pillar:get_sprite():set_animation("destroy", function() 
@@ -336,35 +338,19 @@ local function destroy_pillar(number)
   end)
 end
 
-function pillar_collision(carried_object)
-  if pillar_base_1 ~= nil then
-    pillar_base_1:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("1")
-      end
-    end)
-  end
-  if pillar_base_2 ~= nil then
-    pillar_base_2:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("2")
-      end
-    end)
-  end
-  if pillar_base_3 ~= nil then
-    pillar_base_3:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("3")
-      end
-    end)
-  end
-  if pillar_base_4 ~= nil then
-    pillar_base_4:add_collision_test("touching", function(pillar, carried_object)
-      if carried_object:get_name() == "iron_ball" then
-        destroy_pillar("4")
-      end
-    end)
+function map:add_pillar_collision_test()
+  local iron_ball_sprite = "portables/iron_ball"
+  for i = 1, 4 do
+    local pillar = map:get_entity("pillar_base_" .. i)
+    if pillar ~= nil then
+      pillar:set_traversable_by(false)
+      pillar:add_collision_test("touching", function(pillar, object)
+        local sprite = object:get_sprite()
+        if object:get_type() == "custom_entity" -- Do not break columns while carrying.
+            and sprite and sprite:get_animation_set() == iron_ball_sprite then
+          destroy_pillar("" .. i, object)
+        end
+      end)
+    end
   end
 end
-
-map.pillar_collision = pillar_collision

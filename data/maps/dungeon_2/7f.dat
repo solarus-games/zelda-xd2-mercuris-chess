@@ -4498,7 +4498,7 @@ block{
   sprite = "enemies/chess/pawn_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{
@@ -4520,7 +4520,7 @@ block{
   sprite = "enemies/chess/rook_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{
@@ -4586,7 +4586,7 @@ block{
   sprite = "enemies/chess/bishop_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{
@@ -4608,7 +4608,7 @@ block{
   sprite = "enemies/chess/pawn_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{
@@ -4773,7 +4773,7 @@ block{
   sprite = "enemies/chess/king_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{
@@ -4784,7 +4784,7 @@ block{
   sprite = "enemies/chess/queen_black",
   pushable = true,
   pullable = true,
-  maximum_moves = 2,
+  maximum_moves = 0,
 }
 
 block{

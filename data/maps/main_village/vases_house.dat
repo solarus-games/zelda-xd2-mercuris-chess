@@ -264,6 +264,307 @@ npc{
   behavior = "dialog#main_village.vase_house",
 }
 
+destructible{
+  layer = 0,
+  x = 128,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 64,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 256,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 192,
+  y = 197,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 181,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 165,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 149,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 133,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 117,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 101,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 85,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 181,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 165,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 149,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 133,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 117,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 101,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 85,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 69,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 64,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 192,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 176,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 128,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 272,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 256,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 53,
+  sprite = "portables/unbreakable_pot",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 69,
+  sprite = "portables/unbreakable_pot",
+}
+
 tile{
   layer = 2,
   x = 112,

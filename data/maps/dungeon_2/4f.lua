@@ -13,6 +13,25 @@ elevator_manager:create_elevator(map, "elevator_b", 0, 8, "vip_card")
 local cannonball_manager = require("scripts/maps/cannonball_manager")
 cannonball_manager:create_cannons(map, "cannon_")
 
+function map:on_started()
+
+  if auto_door_e:is_open() then
+    auto_switch_auto_door_e:set_locked(true)
+  end
+end
+
+auto_separator_1:register_event("on_activated", function()
+  if auto_door_e:is_open() then
+    auto_switch_auto_door_e:set_locked(true)
+  end
+end)
+
+auto_separator_4:register_event("on_activated", function()
+  if auto_door_e:is_open() then
+    auto_switch_auto_door_e:set_locked(true)
+  end
+end)
+
 function weak_wall_a:on_opened()
   sol.audio.play_sound("secret")
 end

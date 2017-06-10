@@ -14,7 +14,7 @@ function enemy:on_created()
 
   sprite = enemy:create_sprite("enemies/oclero/egg_golden")
   enemy:set_life(1)
-  enemy:set_damage(1)
+  enemy:set_damage(2)
   --enemy:set_invincible() -- Golden eggs cannot be broken.
   enemy:set_push_hero_on_sword(true)
 end

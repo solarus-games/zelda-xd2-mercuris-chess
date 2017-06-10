@@ -158,6 +158,8 @@ function hearts_builder:new(game, config)
     hearts.surface:draw(dst_surface, x, y)
   end
 
+  hearts:rebuild_surface()
+
   return hearts
 end
 

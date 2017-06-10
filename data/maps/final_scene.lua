@@ -12,6 +12,7 @@ local game = map:get_game()
 local player_name = game:get_player_name()
 
 local language_manager = require("scripts/language_manager")
+local statistics_manager = require("scripts/menus/statistics")
 
 -- Sunset effect
 local sunset_effect = require("scripts/maps/sunset_effect")
@@ -32,6 +33,10 @@ function map:on_started()
 
   -- Prevent or allow the player from pausing the game
   game:set_pause_allowed(false)
+
+  
+  local dialog_box = game:get_dialog_box()
+  dialog_box:set_position("top")
 
   -- Let the sprite animation running.
   grump_and_zelda:get_sprite():set_ignore_suspend(true)
@@ -211,8 +216,13 @@ function map:start_cinematic()
                                                 local dialog_box = game:get_dialog_box()
                                                 dialog_box:set_position("bottom")
                                                 game:start_dialog("final.credits", function()
-                                                  -- Reset game.
-                                                  sol.main.reset()
+                                                  local statistics = statistics_manager:new(game)
+                                                  game:set_suspended(true)
+                                                  sol.menu.start(game, statistics)
+                                                  function statistics:on_finished()
+                                                    -- Reset game.
+                                                    sol.main.reset()
+                                                  end
                                                 end)
                                               end)
                                             end)

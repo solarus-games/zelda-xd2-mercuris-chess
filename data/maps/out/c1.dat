@@ -12044,7 +12044,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/newlink/otis_camel",
-  behavior = "dialog#otis",
+  behavior = "dialog#desert.otis",
 }
 
 destination{

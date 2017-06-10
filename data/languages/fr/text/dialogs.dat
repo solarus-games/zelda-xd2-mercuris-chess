@@ -2230,6 +2230,7 @@ Nord : Île des Rubis
 dialog{
   id = "chill_valley.o_house.doctor_1",
   skip = "all",
+  translators_note = "Reference do Doctor Who",
   text = [[
 Bonjour, je suis le
 Docteur.
@@ -2249,6 +2250,7 @@ de façon... impossible.
 dialog{
   id = "chill_valley.o_house.doctor_2",
   skip = "all",
+  translators_note = "Dialog from Doctor Who season 3, episode 10 (Blink)",
   text = [[
 Les gens pensent que
 le temps est une
@@ -2269,6 +2271,7 @@ très complexe.
 dialog{
   id = "chill_valley.o_house.doctor_3",
   skip = "all",
+  translators_note = "Reference to the Weeping Angels from Doctor Who (season 3, episode 10)",
   text = [[
 Ne t'occupe pas trop de
 ces ces statues,
@@ -2281,6 +2284,7 @@ de cligner des yeux.
 dialog{
   id = "chill_valley.o_house.doctor_4",
   skip = "all",
+  translators_note = "Reference to Doctor Who and Back to the Future",
   text = [[
 Il y a une sorte de
 savant fou au sud de
@@ -2306,6 +2310,7 @@ sauf les points fixes.
 dialog{
   id = "chill_valley.o_house.doctor_5",
   skip = "all",
+  translators_note = "Reference to River Song (Doctor Who character)",
   text = [[
 Oh... River...
 ]]

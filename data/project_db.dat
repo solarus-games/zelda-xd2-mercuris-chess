@@ -62,6 +62,7 @@ map{ id = "tardis", description = "TARDIS" }
 
 tileset{ id = "beach_sunset", description = "Beach sunset" }
 tileset{ id = "cave_legacy", description = "Cave (legacy)" }
+tileset{ id = "ct/prehistoric_cave", description = "Prehistoric cave" }
 tileset{ id = "ct/prehistoric_outside", description = "Outside" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }

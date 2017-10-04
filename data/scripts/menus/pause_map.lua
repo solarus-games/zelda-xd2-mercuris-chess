@@ -149,7 +149,7 @@ function map_submenu:draw_world_map(dst_surface)
   self.world_minimap_img:draw(dst_surface, 57, 59)
 
   local map = self.game:get_map()
-  if map:get_world() ~= "ending" then
+  if map:get_world() ~= "ending" and map:get_world() ~= "prehistoric" then
     -- Draw the hero's position.
     self.hero_head_sprite:draw(dst_surface, self.hero_x, self.hero_y)
   end

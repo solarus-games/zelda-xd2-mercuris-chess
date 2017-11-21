@@ -6,7 +6,7 @@ local savegame_menu = {}
 local language_manager = require("scripts/language_manager")
 local game_manager = require("scripts/game_manager")
 
-local handled = joy_avoid_repeat[axis % 2] == state
+local joy_avoid_repeat = {-2, -2}
 
 function savegame_menu:on_started()
 
@@ -103,6 +103,7 @@ end
 
 function savegame_menu:on_joypad_axis_moved(axis, state)
 
+    local handled = joy_avoid_repeat[axis % 2] == state
     joy_avoid_repeat[axis % 2] = state
 
     if not handled then

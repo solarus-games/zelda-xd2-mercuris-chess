@@ -2,6 +2,7 @@
 -----------------------------------------------------------------
 
 local savegame_menu = {}
+local joy_avoid_repeat = {-2, -2}
 
 local language_manager = require("scripts/language_manager")
 local game_manager = require("scripts/game_manager")
@@ -101,19 +102,10 @@ end
 
 function savegame_menu:on_joypad_axis_moved(axis, state)
 
-  if axis % 2 == 0 then  -- Horizontal axis.
-    if state > 0 then
-      self:direction_pressed(0)
-    elseif state < 0 then
-      self:direction_pressed(4)
-    end
-  else  -- Vertical axis.
-    if state > 0 then
-      self:direction_pressed(2)
-    else
-      self:direction_pressed(6)
-    end
-  end
+    local handled = joy_avoid_repeat[axis % 2] == state
+    joy_avoid_repeat[axis % 2] = state
+        
+    return handled
 end
 
 function savegame_menu:on_joypad_hat_moved(hat, direction8)
@@ -127,12 +119,6 @@ function savegame_menu:direction_pressed(direction8)
 
   local handled = true
   if self.allow_cursor_move and not self.finished then
-
-    -- The cursor moves too much when using a joypad axis.
-    self.allow_cursor_move = false
-    sol.timer.start(self, 100, function()
-      self.allow_cursor_move = true
-    end)
 
     -- Phase-specific direction_pressed method.
     local method_name = "direction_pressed_phase_" .. self.phase

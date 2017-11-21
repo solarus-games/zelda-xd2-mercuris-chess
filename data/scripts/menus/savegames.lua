@@ -2,10 +2,11 @@
 -----------------------------------------------------------------
 
 local savegame_menu = {}
-local joy_avoid_repeat = {-2, -2}
 
 local language_manager = require("scripts/language_manager")
 local game_manager = require("scripts/game_manager")
+
+local handled = joy_avoid_repeat[axis % 2] == state
 
 function savegame_menu:on_started()
 
@@ -102,9 +103,24 @@ end
 
 function savegame_menu:on_joypad_axis_moved(axis, state)
 
-    local handled = joy_avoid_repeat[axis % 2] == state
     joy_avoid_repeat[axis % 2] = state
-        
+
+    if not handled then
+        if axis % 2 == 0 then  -- Horizontal axis.
+            if state > 0 then
+                self:direction_pressed(0)
+            elseif state < 0 then
+                self:direction_pressed(4)
+            end
+        else  -- Vertical axis.
+            if state > 0 then
+                self:direction_pressed(6)
+            elseif state < 0 then
+                self:direction_pressed(2)
+            end
+        end
+    end
+
     return handled
 end
 

@@ -17,7 +17,8 @@ local function initialize_pause_features(game)
   local map_builder = require("scripts/menus/pause_map")
   local quest_status_builder = require("scripts/menus/pause_quest_status")
   local options_builder = require("scripts/menus/pause_options")
-
+  local joy_avoid_repeat = {-2, -2}
+  
   local pause_menu = {}
   game.pause_menu = pause_menu
 
@@ -75,6 +76,14 @@ local function initialize_pause_features(game)
   game:register_event("on_unpaused", function(game)
     pause_menu:close()
   end)
+  
+  function game:on_joypad_axis_moved(axis, state)
+    
+    local handled = joy_avoid_repeat[axis % 2] == state
+    joy_avoid_repeat[axis % 2] = state
+        
+    return handled
+  end
 
 end
 

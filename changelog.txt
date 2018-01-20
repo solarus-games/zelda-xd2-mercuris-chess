@@ -3,7 +3,9 @@ _____________________________________________
 Zelda XD2: Mercuris Chess 1.1.0 (in progress)
 _____________________________________________
 
+* Fix using joypad in menus (#29).
 * Fix prehistoric label displaying (#93).
+* Give more hints to make the player get the lens before dungeon 1 (#96).
 * Dungeon 2 1F: fix hookshot not working between two platforms (#91).
 
 ____________________________________________

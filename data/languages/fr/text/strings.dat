@@ -48,7 +48,7 @@ text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase
 text{ key = "inventory.caption.item.pegasus_shoes.2", value = "Bottes de Pégase" }
 text{ key = "inventory.caption.item.perfume_counter.1", value = "Parfums" }
 text{ key = "inventory.caption.item.vip_card.1", value = "Carte VIP" }
-text{ key = "map.caption.dungeon_name_1", value = "Château doré" }
+text{ key = "map.caption.dungeon_name_1", value = "Château des Vérités$Alternatives" }
 text{ key = "map.caption.dungeon_name_2", value = "Tour Grump" }
 text{ key = "map.caption.world_map", value = "Carte du Monde" }
 text{ key = "options.caption.press_action_change_mode", value = "Appuyez sur Action$pour changer de mode" }

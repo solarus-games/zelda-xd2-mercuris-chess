@@ -2000,7 +2000,7 @@ réputés !?
 dialog{
   id = "chill_valley.bath.hungry_child",
   skip = "all",
-  translators_note = "Reference to episode of the french serie Kaamelott named Ablutions with Karadoc missing food during his bath",
+  translators_note = "Reference to episode of the French TV show Kaamelott named Ablutions with Karadoc missing food during his bath",
   text = [[
 Mouais... C'est pas
 mal, ça détend...
@@ -2033,7 +2033,7 @@ peux réclamer ton prix
 dialog{
   id = "chill_valley.bath.lovers_brassens",
   skip = "all",
-  translators_note = "A french song of an old singer Georges Brassens: Bancs Publics",
+  translators_note = "A French song by an old singer Georges Brassens: Bancs Publics",
   text = [[
 J'ai entendu dire que
 parfois, les amoureux
@@ -2067,7 +2067,7 @@ Zora ou quoi ?
 dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
-  translators_note = "Reference to french movie named La Grande Vadrouille",
+  translators_note = "Reference to a French movie named La Grande Vadrouille",
   text = [[
 Tea... for two
 and two for tea...
@@ -2356,7 +2356,7 @@ autour.
 dialog{
   id = "chill_valley.s_house.dogman",
   skip = "all",
-  translators_note = "A little (very little) to Bohort general behavior in the french serie Kaamelott",
+  translators_note = "A little (very little) to Bohort general behavior in the French TV show Kaamelott",
   text = [[
 Je m'appelle Ernest et
 au fond, je suis pas
@@ -2820,7 +2820,7 @@ Gerudo.
 dialog{
   id = "chill_valley.z_house.horror_book",
   skip = "all",
-  translators_note = "Fred and Seb (Joueur du Grenier) are french youtubers doing retro bad game tests, like AVGN",
+  translators_note = "Fred and Seb (Joueur du Grenier) are French youtubers doing retro bad game tests, like AVGN",
   text = [[
 Un livre horrifique :
    Panique aux Bois
@@ -3525,7 +3525,7 @@ de Monsieur Grump
 dialog{
   id = "desert.otis",
   skip = "all",
-  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre",
+  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre.",
   text = [[
 Mais, vous savez, moi
 je crois pas qu'il y

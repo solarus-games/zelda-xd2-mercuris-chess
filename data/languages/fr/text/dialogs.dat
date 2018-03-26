@@ -7361,6 +7361,7 @@ Trouvés
 dialog{
   id = "tardis.doctor_back_to_present",
   skip = "all",
+  translators_note = "Reference to Doctor Who",
   text = [[
 Te voilà revenu à ton
 époque.
@@ -7384,6 +7385,7 @@ gens intéressés ?
 
 dialog{
   id = "tardis.doctor_escaping_grump_tower",
+  translators_note = "Reference to Doctor Who",
   text = [[
 Une telle quantité de
 rubis ne peut être que

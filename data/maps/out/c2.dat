@@ -12057,9 +12057,9 @@ jumper{
 jumper{
   name = "jump_sensor_2",
   layer = 0,
-  x = 712,
+  x = 752,
   y = 32,
-  width = 296,
+  width = 256,
   height = 8,
   direction = 6,
   jump_length = 88,
@@ -15055,22 +15055,11 @@ destructible{
 }
 
 jumper{
-  name = "jump_sensor_4",
+  name = "jump_sensor_5",
   layer = 0,
   x = 608,
   y = 32,
-  width = 56,
-  height = 8,
-  direction = 6,
-  jump_length = 88,
-}
-
-jumper{
-  name = "jump_sensor_5",
-  layer = 0,
-  x = 648,
-  y = 32,
-  width = 80,
+  width = 160,
   height = 8,
   direction = 6,
   jump_length = 104,

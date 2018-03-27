@@ -15964,6 +15964,17 @@ pickable{
   treasure_savegame_variable = "castle_rupee_5",
 }
 
+npc{
+  name = "random_walk_npc_1",
+  layer = 0,
+  x = 360,
+  y = 269,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/brown_haired_woman",
+  behavior = "dialog#main_village.castle_lens_hint",
+}
+
 tile{
   layer = 1,
   x = 624,

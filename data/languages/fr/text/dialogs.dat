@@ -6704,6 +6704,21 @@ les clés.
 }
 
 dialog{
+  id = "main_village.castle_lens_hint",
+  skip = "all",
+  text = [[
+Je ne mettrai plus les
+pieds dans ce fichu
+château.
+Là-dedans, tout n'est
+que mensonges et
+illusions !
+Comment démêler le
+vrai du faux ?
+]],
+}
+
+dialog{
   id = "main_village.dumb_guy_house.in_bed",
   skip = "all",
   translators_note = "This PNJ speaks as if he was texting and making lots of grammar and spelling mistakes.",

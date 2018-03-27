@@ -15469,7 +15469,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/running_man",
-  behavior = "dialog#main_village.villager_tunnels",
+  behavior = "dialog#main_village.villager_underground_river",
 }
 
 npc{
@@ -15479,7 +15479,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/thief_yellow",
-  behavior = "dialog#main_village.rtfm",
+  behavior = "dialog#main_village.villager_tunnels",
 }
 
 destination{

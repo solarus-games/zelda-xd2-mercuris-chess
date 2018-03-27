@@ -1735,7 +1735,7 @@ qu'elle fait ici ?
 dialog{
   id = "_treasure.sword.2",
   icon = "67",
-  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",  
+  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",
   text = [[
 Tu as trouvé le
 Sabre Laser !$0
@@ -3523,7 +3523,7 @@ bling-bling...
 
 dialog{
   id = "desert.nw_sign",
-  translators_note = "Reference Monty Python",  
+  translators_note = "Reference Monty Python",
   text = [[
 Nord : Mont Tipiton
 Est : Désert Bakasable
@@ -3600,8 +3600,8 @@ de... de... de soi.
 
 dialog{
   id = "desert.piece_of_heart_cave_sign",
-  translators_note = "French equivalent of the 'not' joke",  
   skip = "all",
+  translators_note = "French equivalent of the 'not' joke",
   text = [[
 Seul le vrai héros
 obtiendra le trésor.$0$0
@@ -3851,7 +3851,7 @@ monstres !
 
 dialog{
   id = "dungeon_1.welcome",
-  translators_note = "Reference to Trump's alternative Facts (fake news)",  
+  translators_note = "Reference to Trump's alternative Facts (fake news)",
   text = [[
         Niveau 1
    Château des Vérités
@@ -3976,8 +3976,8 @@ l'établissement.
 
 dialog{
   id = "dungeon_2.1f.kitchen_guard_go_wash",
-  translators_note = "'La plonge' is French slang for 'whasing dishes'",
   skip = "all",
+  translators_note = "'La plonge' is French slang for 'whasing dishes'",
   text = [[
 Tu es le petit nouveau ?
 Arrête de bavarder et
@@ -4041,8 +4041,8 @@ sont originales !
 
 dialog{
   id = "dungeon_2.2f.blue_haired_boy",
-  translators_note = "Second part is a reference to Zelda Link's Awakening",
   skip = "all",
+  translators_note = "Second part is a reference to Zelda Link's Awakening",
   text = [[
 À quoi peuvent bien
 servir toutes ces
@@ -5190,8 +5190,8 @@ pipeau, José !
 
 dialog{
   id = "island.grump_tower_guard_3",
-  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
   skip = "all",
+  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
   text = [[
 On a été chargé de
 te bloquer car tu as
@@ -5584,8 +5584,8 @@ bonheur de voir cet
 
 dialog{
   id = "lafoo_riot.npc_10",
-  translators_note = "Reference to French comedy group Les Nuls, their skit 'L'école du fan",
   skip = "all",
+  translators_note = "Reference to French comedy group Les Nuls, their skit 'L'école du fan",
   text = [[
 M. Grump aurait
 commencé à bâtir sa
@@ -6684,7 +6684,7 @@ dialog{
   id = "main_village.castle_guard_after_dungeon_1",
   skip = "all",
   text = [[
-Ah vous cherchez le
+Ah, tu cherches le
 patron ?
 Monsieur Grump est en
 déplacement de l'autre
@@ -6767,17 +6767,6 @@ de M. Grump
 Sous vos pieds : Herbe
 verte que M. Grump n'a
 pas encore rachetée
-]],
-}
-
-dialog{
-  id = "main_village.rtfm",
-  skip = "all",
-  translators_note = "Reference to 'Read The Fucking Manual'",
-  text = [[
-Tu es perdu dans les
-commandes ?
-RTFM.
 ]],
 }
 
@@ -6950,6 +6939,23 @@ souterrains.
 C'est n'importe quoi...
 Les gens jouent trop à
 Minecraft !
+]],
+}
+
+dialog{
+  id = "main_village.villager_underground_river",
+  skip = "all",
+  translators_note = "'Cela semble incroyable' is a reference to Zelda Link's Awakening (Richard)",
+  text = [[
+Tu es déjà allé à
+Chill Valley, à
+l'ouest d'ici ?
+Cela semble incroyable,
+mais il faut savoir que
+l'eau thermale de
+Chill Valley coule
+jusqu'ici dans une
+rivière souterraine.
 ]],
 }
 

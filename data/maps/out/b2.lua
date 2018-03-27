@@ -15,7 +15,6 @@ local lafoo_riot = require("scripts/maps/lafoo_riot")
 
 local bush_count = 0
 local current_chore_step = -1
-
 local explosion_cinematic = false
 
 -- Cinematic black lines

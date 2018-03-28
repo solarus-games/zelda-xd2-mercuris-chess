@@ -168,6 +168,7 @@ Locked!
 
 dialog{
   id = "torch.need_lamp",
+  skip = "all",
   text = [[
 You must find a way
 to light this torch.

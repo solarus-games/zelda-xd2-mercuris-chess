@@ -105,6 +105,22 @@ it...
 }
 
 dialog{
+  id = "not_now.cat_food",
+  text = [[
+That food is for
+Snowflake, Zelda's cat!
+]],
+}
+
+dialog{
+  id = "not_now.perfume",
+  text = [[
+Now is not a good time
+to put on some perfume
+]],
+}
+
+dialog{
   id = "small_key_required",
   text = [[
 Locked!

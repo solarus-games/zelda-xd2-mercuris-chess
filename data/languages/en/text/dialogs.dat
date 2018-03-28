@@ -77,7 +77,7 @@ Don't even THINK
 about it: you need
 3 more of them to
 have a new Heart.
-]]
+]],
 }
 
 dialog{
@@ -87,7 +87,7 @@ dialog{
 You found 4 Pieces
 of Heart. You gain a
 new Heart!
-]]
+]],
 }
 
 dialog{
@@ -95,7 +95,7 @@ dialog{
   icon = "76",
   text = [[
 Just two more!
-]]
+]],
 }
 
 dialog{
@@ -105,7 +105,7 @@ dialog{
 Just one more!
 Get ready for
 the party!
-]]
+]],
 }
 
 dialog{
@@ -167,6 +167,14 @@ Locked!
 }
 
 dialog{
+  id = "torch.need_lamp",
+  text = [[
+You must find a way
+to light this torch.
+]],
+}
+
+dialog{
   id = "use_bottle_with_water",
   icon = "8",
   question = "1",
@@ -215,3 +223,4 @@ Watch your Magic
 Meter!
 ]],
 }
+

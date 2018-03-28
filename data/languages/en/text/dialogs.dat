@@ -1,0 +1,163 @@
+dialog{
+  id = "_crystal",
+  text = [[
+It's a crystal switch.
+Hit the switch with
+something...
+]],
+}
+
+dialog{
+  id = "big_key_required",
+  text = [[
+Locked, you need the
+Big Key to open it!
+]],
+}
+
+dialog{
+  id = "boss_key_required",
+  text = [[
+This door leads
+to the Boss!
+
+Don't even try to
+open it whithout
+the Master Key!
+]],
+}
+
+dialog{
+  id = "bow_broken",
+  text = [[
+The string is broken!
+Holy cow!
+]],
+}
+
+dialog{
+  id = "cannot_lift_should_cut",
+  text = [[
+Maybe you need
+something to cut down
+this bush...
+]],
+}
+
+dialog{
+  id = "cannot_lift_still_too_heavy",
+  text = [[
+You're not strong
+enough for this!
+]],
+}
+
+dialog{
+  id = "cannot_lift_too_heavy",
+  text = [[
+You're not strong
+enough for this!
+]],
+}
+
+dialog{
+  id = "empty_chest",
+  text = [[
+This chest is empty!
+Not your lucky day
+it seems!
+]],
+}
+
+dialog{
+  id = "found_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Do you want to put
+some water in your
+
+Magic Bottle?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "found_water.no_bottle",
+  text = [[
+There is some water
+here, but you have no
+way of storing it...
+]],
+}
+
+dialog{
+  id = "found_water.no_empty_bottle",
+  icon = "8",
+  text = [[
+There is some water
+here, but you need
+an empty Magic
+Bottle to store
+it...
+]],
+}
+
+dialog{
+  id = "small_key_required",
+  text = [[
+Locked!
+]],
+}
+
+dialog{
+  id = "use_bottle_with_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+Empty it?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "use_croissants",
+  icon = "18",
+  question = "1",
+  text = [[
+A Croissant
+recovers 7 Hearts.
+
+Eat one now?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "use_pains_au_chocolat",
+  icon = "17",
+  question = "1",
+  text = [[
+A Chocolate
+Croissant recovers
+three Hearts.
+Eat one now?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "warning_magic",
+  text = [[
+Watch your Magic
+Meter!
+]],
+}
+

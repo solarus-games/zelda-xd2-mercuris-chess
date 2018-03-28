@@ -71,17 +71,286 @@ VIPs only.
 }
 
 dialog{
+  id = "chores.cat_already_fed",
+  text = [[
+Stop feeding the cat.
+Don't you see that it
+is already too fat?
+]],
+}
+
+dialog{
+  id = "chores.cat_fed",
+  text = [[
+MEOW!
+]],
+}
+
+dialog{
+  id = "chores.cat_gurgling",
+  text = [[
+Meeooowweeooo...$0
+(gurglings)
+]],
+}
+
+dialog{
+  id = "chores.chore_0",
+  text = [[
+As a first task, you
+will have to feed my
+beloved little kitten.
+You will see, my
+dear is adorable.
+
+It's name is Snowflake,
+and it's really cool.
+It's now playing in
+the cave. Go there,
+out of my sight!
+]],
+}
+
+dialog{
+  id = "chores.chore_0_again",
+  text = [[
+Do you hear those
+meows?
+
+I think that is
+Snowflake. It is
+still hungry.
+Go feed it now!
+]],
+}
+
+dialog{
+  id = "chores.chore_1",
+  text = [[
+Thanks for feeding
+my dear little kitten.
+It is sweet, isn't it?
+
+Now, I have a new
+task for you. I
+command you to cut
+al those weeds in
+the garden.
+Go! Get your butt in
+gear! Lazy brat!
+]],
+}
+
+dialog{
+  id = "chores.chore_1_again",
+  text = [[
+Admit that you find
+my little cat too cute.
+Well, by the way,
+those weeds have
+grown again.
+Cut them again!
+]],
+}
+
+dialog{
+  id = "chores.chore_2",
+  text = [[
+Well, the garden
+looks neater now.
+I almost got
+ashamed of it...
+
+Now, you must bring
+me my mail.
+Little hero, hurry up,
+because the mail
+does not wait!
+]],
+}
+
+dialog{
+  id = "chores.chore_2_again",
+  text = [[
+Thanks for the work
+on the garden. It's
+bad luck that the
+weedkiller has not
+been invented in
+Hyrule.
+
+Hey, I think that the
+postman has come!
+Bring me the mail.
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_0",
+  translators_note = "Reference to French administration's bad reputation",
+  text = [[
+Thanks, better
+late than never...
+Ah!$0
+It's a mail from
+Mr Grump, the
+filthy director of
+the Lost and Found
+Office.
+He never wants
+to send me the
+Permit A38!
+What a rude person.
+
+However, I've
+filled the blue form!
+What a bunch of
+incompetents in this
+administration...
+Even though I'm
+a princess!
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_1",
+  translators_note = "The last sentence is a reference to French movie Les Visiteurs",
+  text = [[
+Thanks, I almost
+had to wait...
+
+It's the taxes...
+And yes, sadly...
+
+My princess status
+doesn't give me more
+privileges since the
+revolution in Hyrule.
+
+I say: LONG LIVE
+THE MONARCHY!
+
+\[???\]
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_2",
+  translators_note = "'Se faire flasher' means to get caught by highway speed radars",
+  text = [[
+Thanks, don't
+be so hasty...
+Ha!$0
+Damn...
+$0
+I got caught by a
+speed radar the other
+day. How could I know
+the speed of my horse?
+Tell me...$0
+Could you pay the fine
+for me?
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_3",
+  translators_note = "2 references to French movie La Cité de la Peur : the festival name, and the last sentence",
+  text = [[
+Thanks, fortunately
+I'm not in a hurry...
+It's an invitation for
+the festival
+"Mustard and Cinema",
+great!
+
+Actually, take a
+chewing gum, $v.
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_4",
+  translators_note = "Reference Super Mario games (Princess Peach and Isle Delphino), and reference to Monty Python Holy Grail castle name.",
+  text = [[
+Thanks, it's not
+so soon...
+
+It's a letter from my
+friend princess Peach.
+"I'm in holidays at
+Delfino", she says,
+"the weather is
+splendid, cocktails
+are delicious, and we
+sleep at the hotel of
+Aaaaaaargh!"$0
+Yes, she has really
+written "Aaaaaaargh".
+I think she did not
+have time to finish
+the letter, she was
+captured!
+Good heavens!
+]],
+}
+
+dialog{
+  id = "chores.dont_leave",
+  text = [[
+How dare you leaving
+just like that?
+
+You have not been
+forgiven yet!
+
+Go back to work!
+]],
+}
+
+dialog{
+  id = "chores.mailbox",
+  text = [[
+]],
+}
+
+dialog{
+  id = "chores.mailbox_empty",
+  skip = "all",
+  text = [[
+]],
+}
+
+dialog{
+  id = "chores.miaou_1",
+  text = [[
+]],
+}
+
+dialog{
+  id = "chores.miaou_2",
+  text = [[
+]],
+}
+
+dialog{
+  id = "chores.miaou_3",
+  text = [[
+]],
+}
+
+dialog{
+  id = "chores.miaou_4",
+  text = [[
+]],
+}
+
+dialog{
   id = "empty_chest",
   text = [[
 This chest is empty!
 Not your lucky day
 it seems!
-]],
-}
-
-dialog{
-  id = "forest",
-  text = [[
 ]],
 }
 
@@ -97,7 +366,7 @@ food just like that!
 Ok! Ok!
 That's 50 rupees!
 Yes
-No question!
+No way!
 ]],
 }
 

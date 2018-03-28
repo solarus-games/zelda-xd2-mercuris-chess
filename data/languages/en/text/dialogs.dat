@@ -61,16 +61,6 @@ enough for this!
 }
 
 dialog{
-  id = "elevator.access_refused.vip_card",
-  skip = "all",
-  text = [[
-Access denied.
-This elevator is for
-VIPs only.
-]],
-}
-
-dialog{
   id = "chores.cat_already_fed",
   text = [[
 Stop feeding the cat.
@@ -229,8 +219,6 @@ revolution in Hyrule.
 
 I say: LONG LIVE
 THE MONARCHY!
-
-\[???\]
 ]],
 }
 
@@ -362,6 +350,16 @@ dialog{
   text = [[
 Meow, meow, meow.
 Prrrrrrrr.$0 Mmmeow.
+]],
+}
+
+dialog{
+  id = "elevator.access_refused.vip_card",
+  skip = "all",
+  text = [[
+Access denied.
+This elevator is for
+VIPs only.
 ]],
 }
 

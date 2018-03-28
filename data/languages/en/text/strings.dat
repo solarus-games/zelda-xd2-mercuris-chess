@@ -1,0 +1,127 @@
+text{ key = "copyright_menu.made_by_fans.line1", value = "This game was created by fans," }
+text{ key = "copyright_menu.made_by_fans.line2", value = "is non commercial and" }
+text{ key = "copyright_menu.made_by_fans.line3", value = "is not related to Nintendo." }
+text{ key = "copyright_menu.solarus_license.line1", value = "Solarus is Free Software" }
+text{ key = "copyright_menu.solarus_license.line2", value = "licensed under GPL v3." }
+text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda is" }
+text{ key = "copyright_menu.tloz_trademark.line2", value = "a trademark from Nintendo." }
+text{ key = "final.end_text", value = "The end" }
+text{ key = "inventory.caption.item.apple_pie_counter.1", value = "Apple pie" }
+text{ key = "inventory.caption.item.banana_skin_counter.1", value = "Banana skin" }
+text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombs" }
+text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }
+text{ key = "inventory.caption.item.boomerang.2", value = "Boomerang" }
+text{ key = "inventory.caption.item.bottle_1.1", value = "Magic Bottle$(Empty)" }
+text{ key = "inventory.caption.item.bottle_1.2", value = "Magic Bottle$(Water)" }
+text{ key = "inventory.caption.item.bottle_1.3", value = "Magic Bottle$(Red Potion)" }
+text{ key = "inventory.caption.item.bottle_1.4", value = "Magic Bottle$(Green Potion)" }
+text{ key = "inventory.caption.item.bottle_1.5", value = "Magic Bottle$(Blue Potion)" }
+text{ key = "inventory.caption.item.bottle_1.6", value = "Magic Bottle$(Fairy)" }
+text{ key = "inventory.caption.item.bottle_2.1", value = "Magic Bottle$(Empty)" }
+text{ key = "inventory.caption.item.bottle_2.2", value = "Magic Bottle$(Water)" }
+text{ key = "inventory.caption.item.bottle_2.3", value = "Magic Bottle$(Red Potion)" }
+text{ key = "inventory.caption.item.bottle_2.4", value = "Magic Bottle$(Green Potion)" }
+text{ key = "inventory.caption.item.bottle_2.5", value = "Magic Bottle$(Blue Potion)" }
+text{ key = "inventory.caption.item.bottle_2.6", value = "Magic Bottle$(Fairy)" }
+text{ key = "inventory.caption.item.bottle_3.1", value = "Magic Bottle$(Empty)" }
+text{ key = "inventory.caption.item.bottle_3.2", value = "Magic Bottle$(Water)" }
+text{ key = "inventory.caption.item.bottle_3.3", value = "Magic Bottle$(Red Potion)" }
+text{ key = "inventory.caption.item.bottle_3.4", value = "Magic Bottle$(Green Potion)" }
+text{ key = "inventory.caption.item.bottle_3.5", value = "Magic Bottle$(Blue Potion)" }
+text{ key = "inventory.caption.item.bottle_3.6", value = "Magic Bottle$(Fairy)" }
+text{ key = "inventory.caption.item.bow.1", value = "Broken bow" }
+text{ key = "inventory.caption.item.bow.2", value = "Broken bow & Arrows" }
+text{ key = "inventory.caption.item.cat_food.1", value = "Cat food" }
+text{ key = "inventory.caption.item.croissants_counter.1", value = "French Croissants" }
+text{ key = "inventory.caption.item.feather.1", value = "Roc Feather" }
+text{ key = "inventory.caption.item.feather.2", value = "iFeather" }
+text{ key = "inventory.caption.item.fire_rod.1", value = "Fire Rod" }
+text{ key = "inventory.caption.item.flippers.1", value = "Flippers" }
+text{ key = "inventory.caption.item.flippers.2", value = "Flippers" }
+text{ key = "inventory.caption.item.glove.1", value = "Iron Glove" }
+text{ key = "inventory.caption.item.hookshot.1", value = "Hookshot" }
+text{ key = "inventory.caption.item.lamp.1", value = "Lanp" }
+text{ key = "inventory.caption.item.lens_of_truth.1", value = "Lens of$Alternative Truths" }
+text{ key = "inventory.caption.item.mail_counter.1", value = "Mail for Zelda" }
+text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Pains au chocolat" }
+text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Pegasus Boots$without laces" }
+text{ key = "inventory.caption.item.pegasus_shoes.2", value = "Pegasus Boots" }
+text{ key = "inventory.caption.item.perfume_counter.1", value = "Perfume" }
+text{ key = "inventory.caption.item.vip_card.1", value = "VIP Card" }
+text{ key = "map.caption.dungeon_name_1", value = "Castle of$Alternative Truths" }
+text{ key = "map.caption.dungeon_name_2", value = "Grump Tower" }
+text{ key = "map.caption.world_map", value = "World Map" }
+text{ key = "options.caption.press_action_change_mode", value = "Press Action to$switch video mode" }
+text{ key = "options.caption.press_action_customize_key", value = "Press Action to$configure this key" }
+text{ key = "options.caption.press_key", value = "Press any key on$the keyboard or joypad" }
+text{ key = "options.command.action", value = "Action" }
+text{ key = "options.command.attack", value = "Sword" }
+text{ key = "options.command.item_1", value = "Left Item" }
+text{ key = "options.command.item_2", value = "Right Item" }
+text{ key = "options.command.pause", value = "Pause" }
+text{ key = "options.command.right", value = "Right" }
+text{ key = "options.command.up", value = "Up" }
+text{ key = "options.command.left", value = "Left" }
+text{ key = "options.command.down", value = "Down" }
+text{ key = "options.commands_column", value = "Controls" }
+text{ key = "options.keyboard_column", value = "Keyboard" }
+text{ key = "options.joypad_column", value = "Joypad" }
+text{ key = "options.video.fullscreen", value = "Fullscreen" }
+text{ key = "options.video.windowed", value = "Windowed" }
+text{ key = "quest_status.caption.bomb_bag_1", value = "Bomb Bag" }
+text{ key = "quest_status.caption.bomb_bag_2", value = "Big$Bomb Bag" }
+text{ key = "quest_status.caption.bomb_bag_3", value = "Huge$Bomb Bag" }
+text{ key = "quest_status.caption.library_award", value = "Bookworm Award" }
+text{ key = "quest_status.caption.pieces_of_heart", value = "Pieces of Heart" }
+text{ key = "quest_status.caption.quiver_1", value = "Quiver" }
+text{ key = "quest_status.caption.quiver_2", value = "Bigger Quiver" }
+text{ key = "quest_status.caption.quiver_3", value = "Biggest Quiver" }
+text{ key = "quest_status.caption.rupee_bag_1", value = "Rupee Bag" }
+text{ key = "quest_status.caption.rupee_bag_2", value = "Big$Rupee Bag" }
+text{ key = "quest_status.caption.rupee_bag_3", value = "Huge$Rupee Bag" }
+text{ key = "quest_status.caption.shield_1", value = "Shield" }
+text{ key = "quest_status.caption.shield_2", value = "Bling-bling Shield" }
+text{ key = "quest_status.caption.shield_3", value = "Mirror Shield" }
+text{ key = "quest_status.caption.sword_1", value = "Training Sword" }
+text{ key = "quest_status.caption.sword_2", value = "Laser Sword" }
+text{ key = "quest_status.caption.sword_3", value = "Laser Sword" }
+text{ key = "quest_status.caption.sword_4", value = "Laser Sword" }
+text{ key = "quest_status.caption.tunic_1", value = "Green$Mail" }
+text{ key = "quest_status.caption.tunic_2", value = "Blue$Mail" }
+text{ key = "quest_status.caption.tunic_3", value = "Red$Mail" }
+text{ key = "quest_status.caption.world_map", value = "World Map" }
+text{ key = "save_dialog.continue_question_0", value = "Would you like to keep" }
+text{ key = "save_dialog.continue_question_1", value = "playing?" }
+text{ key = "save_dialog.no", value = "No" }
+text{ key = "save_dialog.save_question_0", value = "Would you like to" }
+text{ key = "save_dialog.save_question_1", value = "save your game?" }
+text{ key = "save_dialog.yes", value = "Yes" }
+text{ key = "selection_menu.back", value = "Back" }
+text{ key = "selection_menu.big_no", value = "NOO!!" }
+text{ key = "selection_menu.big_yes", value = "YEAH!!" }
+text{ key = "selection_menu.cancel", value = "Cancel" }
+text{ key = "selection_menu.empty", value = "Empty" }
+text{ key = "selection_menu.erase", value = "Erase" }
+text{ key = "selection_menu.options", value = "Options" }
+text{ key = "selection_menu.options.language", value = "Language" }
+text{ key = "selection_menu.options.music_volume", value = "Music volume" }
+text{ key = "selection_menu.options.sound_volume", value = "Sound volume" }
+text{ key = "selection_menu.options.video_mode", value = "Video mode" }
+text{ key = "selection_menu.phase.choose_mode", value = "Choose a game mode" }
+text{ key = "selection_menu.phase.choose_name", value = "What's your name?" }
+text{ key = "selection_menu.phase.confirm_erase", value = "Are you sure?" }
+text{ key = "selection_menu.phase.erase_file", value = "Select File to Erase" }
+text{ key = "selection_menu.phase.options", value = "Hit Space to change" }
+text{ key = "selection_menu.phase.options.changing", value = "<  >: choose, Space: validate" }
+text{ key = "selection_menu.phase.select_file", value = "Select a file" }
+text{ key = "stats_menu.death_count", value = "Game-over:" }
+text{ key = "stats_menu.game_time", value = "Game time:" }
+text{ key = "stats_menu.hearts", value = "Hearts:" }
+text{ key = "stats_menu.percent", value = "You completed the game with: $v%" }
+text{ key = "stats_menu.pieces_of_heart", value = "Pieces of heart:" }
+text{ key = "stats_menu.quest_version", value = "Zelda XD2 " }
+text{ key = "stats_menu.solarus_version", value = "Solarus " }
+text{ key = "stats_menu.title", value = "Statistics" }
+text{ key = "stats_menu.treasures", value = "Treasures:" }
+text{ key = "title_screen.copyright", value = "© 2017 Christopho, Solarus Team" }
+text{ key = "title_screen.press_space", value = "Press the space bar" }

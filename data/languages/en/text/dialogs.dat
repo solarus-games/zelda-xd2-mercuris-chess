@@ -70,6 +70,45 @@ it seems!
 }
 
 dialog{
+  id = "found_piece_of_heart.first",
+  icon = "75",
+  text = [[
+Don't even THINK
+about it: you need
+3 more of them to
+have a new Heart.
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = "78",
+  text = [[
+You found 4 Pieces
+of Heart. You gain a
+new Heart!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = "76",
+  text = [[
+Just two more!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = "77",
+  text = [[
+Just one more!
+Get ready for
+the party!
+]]
+}
+
+dialog{
   id = "found_water",
   icon = "8",
   question = "1",
@@ -176,4 +215,3 @@ Watch your Magic
 Meter!
 ]],
 }
-

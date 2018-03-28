@@ -8,6 +8,573 @@ something...
 }
 
 dialog{
+  id = "_item_description.banana_skin_counter.1",
+  icon = "30",
+  skip = "all",
+  text = [[
+A banana skin that
+the monkey from the
+forest sold you.
+You have been
+scammed.
+]],
+}
+
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = "1",
+  skip = "all",
+  text = [[
+Use Bombs against
+enemies or to blow
+up obstacles.
+]],
+}
+
+dialog{
+  id = "_item_description.boomerang.1",
+  icon = "34",
+  skip = "all",
+  text = [[
+Use the Boomerang
+to immobilize
+enemies or to catch
+objects in
+remote locations.
+]],
+}
+
+dialog{
+  id = "_item_description.boomerang.2",
+  icon = "35",
+  skip = "all",
+  text = [[
+Use the Boomerang
+to immobilize
+enemies or to catch
+objects in
+remote locations.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will
+help you when your
+Hearts are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will help
+you when your Hearts
+are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will help
+you when your Hearts
+are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will help
+you when your Hearts
+are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+You are out of
+arrows, which does
+not matter so much
+since the string is
+broken anyway.
+]],
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+The string of your
+bow is broken.
+
+What are you going
+to do with all these
+arrows?
+]],
+}
+
+dialog{
+  id = "_item_description.cat_food.1",
+  icon = "37",
+  skip = "all",
+  text = [[
+A can that contains
+cat food.
+
+It does not look
+very appetizing,
+but well...
+This is intended for
+cats, isn't it?
+]],
+}
+
+dialog{
+  id = "_item_description.croissants_counter.1",
+  icon = "18",
+  skip = "all",
+  text = [[
+Eat a Croissant
+to recover seven
+Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.feather.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+This is a Feather,
+but it is rather
+difficult to use.
+]],
+}
+
+dialog{
+  id = "_item_description.feather.2",
+  icon = "20",
+  skip = "all",
+  translators_note = "Reference to Apple marketing",
+  text = [[
+The iFeather allows
+to fly over holes
+and much more.
+]],
+}
+
+dialog{
+  id = "_item_description.fire_rod.1",
+  icon = "27",
+  skip = "all",
+  text = [[
+The fire rod that
+was used to set fire
+to the Lost and
+Found Office.
+]],
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Flippers allow to
+swim in deep waters
+and champagne.
+]],
+}
+
+dialog{
+  id = "_item_description.flippers.2",
+  icon = "26",
+  skip = "all",
+  text = [[
+Flippers allow to
+swim in deep waters
+and champagne.
+]],
+}
+
+dialog{
+  id = "_item_description.glove.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+With this, you can
+lift many things.
+I think...
+]],
+}
+
+dialog{
+  id = "_item_description.glove.2",
+  icon = "33",
+  skip = "all",
+  text = [[
+Lift black rocks
+with the
+Golden Glove.
+]],
+}
+
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = "6",
+  skip = "all",
+  text = [[
+Hoist yourself up to
+inaccessible places
+with the help of the
+Hookshot.
+]],
+}
+
+dialog{
+  id = "_item_description.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Brighten dark places
+and light torches
+with the Lamp.
+But watch your
+Magic Meter!
+]],
+}
+
+dialog{
+  id = "_item_description.lens_of_truth.1",
+  icon = "14",
+  skip = "all",
+  translators_note = "Reference to Trump's alternative facts (fake news)",
+  text = [[
+Use the Lens of
+Alternative Truth to
+see more clearly and
+distinguish what is
+true from what is
+fake.
+Approved by the
+Department of Truth!
+]],
+}
+
+dialog{
+  id = "_item_description.mail_counter.1",
+  icon = "38",
+  skip = "all",
+  text = [[
+Some mail for
+Princess Zelda.
+Go give it to her!
+]],
+}
+
+dialog{
+  id = "_item_description.pains_au_chocolat_counter.1",
+  icon = "17",
+  skip = "all",
+  text = [[
+Eat a Chocolate
+Croissant to recover
+three Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.1",
+  icon = "13",
+  skip = "all",
+  text = [[
+Without laces, the
+Pegasus Boots do
+weird things.
+]],
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.2",
+  icon = "13",
+  skip = "all",
+  text = [[
+Run as fast as
+lightning by using
+the Pegasus Boots.
+Press and hold the
+Action key to run.
+]],
+}
+
+dialog{
+  id = "_item_description.perfume_counter.1",
+  icon = "39",
+  skip = "all",
+  text = [[
+Internationally
+acclaimed fragrance,
+this Kipu will make
+girls fall all over
+you!
+]],
+}
+
+dialog{
+  id = "_item_description.vip_card.1",
+  icon = "36",
+  skip = "all",
+  text = [[
+The VIP card gives
+access to all floors
+of the Grump Tower.
+]],
+}
+
+dialog{
   id = "big_key_required",
   text = [[
 Locked, you need the

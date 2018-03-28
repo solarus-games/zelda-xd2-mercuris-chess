@@ -311,6 +311,8 @@ Go back to work!
 dialog{
   id = "chores.mailbox",
   text = [[
+Oh!$0
+There is mail!
 ]],
 }
 
@@ -318,30 +320,48 @@ dialog{
   id = "chores.mailbox_empty",
   skip = "all",
   text = [[
+The mailbox is
+empty.
+
+Is the postman still
+on strike or what?
 ]],
 }
 
 dialog{
   id = "chores.miaou_1",
   text = [[
+Meow...
+Meooooww...$0
+(The cat seems hungry)
 ]],
 }
 
 dialog{
   id = "chores.miaou_2",
   text = [[
+MEEOOOOOWW!!!
+MEOOWW!!!
+GRRRRRR...
+(The cat seems
+terribly hungry...)
 ]],
 }
 
 dialog{
   id = "chores.miaou_3",
   text = [[
+Meeoow?$0
+...$0
+MEEEOOOWWW!!!
 ]],
 }
 
 dialog{
   id = "chores.miaou_4",
   text = [[
+Meow, meow, meow.
+Prrrrrrrr.$0 Mmmeow.
 ]],
 }
 

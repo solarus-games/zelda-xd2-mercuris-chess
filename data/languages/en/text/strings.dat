@@ -40,7 +40,7 @@ text{ key = "inventory.caption.item.flippers.1", value = "Flippers" }
 text{ key = "inventory.caption.item.flippers.2", value = "Flippers" }
 text{ key = "inventory.caption.item.glove.1", value = "Iron Glove" }
 text{ key = "inventory.caption.item.hookshot.1", value = "Hookshot" }
-text{ key = "inventory.caption.item.lamp.1", value = "Lanp" }
+text{ key = "inventory.caption.item.lamp.1", value = "Lamp" }
 text{ key = "inventory.caption.item.lens_of_truth.1", value = "Lens of$Alternative Truths" }
 text{ key = "inventory.caption.item.mail_counter.1", value = "Mail for Zelda" }
 text{ key = "inventory.caption.item.pains_au_chocolat_counter.1", value = "Pains au chocolat" }
@@ -56,16 +56,16 @@ text{ key = "options.caption.press_action_customize_key", value = "Press Action 
 text{ key = "options.caption.press_key", value = "Press any key on$the keyboard or joypad" }
 text{ key = "options.command.action", value = "Action" }
 text{ key = "options.command.attack", value = "Sword" }
+text{ key = "options.command.down", value = "Down" }
 text{ key = "options.command.item_1", value = "Left Item" }
 text{ key = "options.command.item_2", value = "Right Item" }
+text{ key = "options.command.left", value = "Left" }
 text{ key = "options.command.pause", value = "Pause" }
 text{ key = "options.command.right", value = "Right" }
 text{ key = "options.command.up", value = "Up" }
-text{ key = "options.command.left", value = "Left" }
-text{ key = "options.command.down", value = "Down" }
 text{ key = "options.commands_column", value = "Controls" }
-text{ key = "options.keyboard_column", value = "Keyboard" }
 text{ key = "options.joypad_column", value = "Joypad" }
+text{ key = "options.keyboard_column", value = "Keyboard" }
 text{ key = "options.video.fullscreen", value = "Fullscreen" }
 text{ key = "options.video.windowed", value = "Windowed" }
 text{ key = "quest_status.caption.bomb_bag_1", value = "Bomb Bag" }

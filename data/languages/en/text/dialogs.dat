@@ -355,6 +355,120 @@ Rrrrr...
 }
 
 dialog{
+  id = "slot_machine.choose_bet",
+  question = "1",
+  text = [[
+How much will you bet?
+5 Rupees
+20 Rupees
+]],
+}
+
+dialog{
+  id = "slot_machine.intro",
+  question = "1",
+  text = [[
+Slot machine:
+put in 5 or 20 rupees
+and try your best to
+align three of the
+same same symbol to
+win several times
+what you put in!
+
+
+Do you want to play?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "slot_machine.playing",
+  text = [[
+Stand next to the
+roulettes and press the
+Action key to stop
+them.
+Good luck!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.creeper",
+  translators_note = "Reference to the game Minecraft",
+  text = [[
+Three Creepers!
+Watch out, this is
+going to hurt!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.green_rupees",
+  text = [[
+Three green rupees,
+nice! You win 5 times
+your bet.
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.none",
+  question = "1",
+  text = [[
+Tough luck, you didn't
+make a winning
+combination.
+Want to try again?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.pickaxes",
+  text = [[
+Three diamond pickaxes!
+
+
+Congratulations, you
+are off with 7 times
+your bet!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.red_rupees",
+  text = [[
+Three red Rupees!!!
+You earn 10 times
+your bet!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.same_any",
+  text = [[
+Three identical
+symbols, not bad!
+You win 4 times your
+bet.
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.yoshi",
+  text = [[
+Three Yoshis!
+This is the best
+possible combination.
+You win 20 times what
+you bet!
+]],
+}
+
+dialog{
   id = "small_key_required",
   text = [[
 Locked!

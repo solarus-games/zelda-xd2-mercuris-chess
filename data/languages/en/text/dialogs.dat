@@ -194,7 +194,7 @@ dialog{
   id = "prehistoric.doctor_are_you_okay",
   skip = "all",
   text = [[
-Everything is okay?$0
+Is everything okay?$0
 According to the
 TARDIS, we are close
 to the source of killer
@@ -218,8 +218,8 @@ dialog{
   id = "prehistoric.doctor_tardis_arrived",
   text = [[
 Hmm...$0
-We are supposed to be
-arrived.
+I guess we are there.
+
 The TARDIS tracked down
 the source of evil
 rupeees but...$0
@@ -277,9 +277,9 @@ Fantastic!$0
 
 
 It looks like this
-strange perfume has a
+funny perfume has a
 relaxing effect on it.
-Hopefully, it will be
+Hopefully, this will be
 enough to annihilate
 the rupees curse!
 Let's go back to your

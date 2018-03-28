@@ -483,7 +483,7 @@ Brighten dark places
 and light torches
 with the Lamp.
 But watch your
-Magic Meter!
+magic meter!
 ]],
 }
 
@@ -575,6 +575,1162 @@ of the Grump Tower.
 }
 
 dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+You found an Arrow!
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+Use the Bow with
+the Arrows to defeat
+distant monsters.
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+You found 5 Arrows!
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+You found 10 Arrows!
+]],
+}
+
+dialog{
+  id = "_treasure.banana_skin.1",
+  icon = "30",
+  text = [[
+You found a Banana!
+
+
+Huh?
+Actually, there is
+only the skin!
+]],
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  text = [[
+You found the Big
+Key! Use it to open
+special doors and
+big chests!
+]],
+}
+
+dialog{
+  id = "_treasure.blue_potion.1",
+  icon = "98",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it to take a
+new start.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+You found a Bomb!$0
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+Use a Bomb to make
+an enemy or obstacle
+explode.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+You found three
+Bombs!$0
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+You found eight
+Bombs!$0
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  text = [[
+You found the
+Bomb Bag!$0 You
+can store 10 bombs.
+Tic Tac $1
+pschhhhhhhhhhhhht $0 $3
+Ka-BOOOM!
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  text = [[
+You found the Bomb
+Bag!$0Now you can
+explode weak...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  text = [[
+You found the
+Big Bomb Bag!$0
+
+This is amazing!
+Now you can store
+12 Bombs!
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "34",
+  text = [[
+You found the
+Boomerang!$0 You can
+immobilize enemies
+and pick up far-away
+objects.
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = "35",
+  text = [[
+You found the
+Boomerang!$0 You can
+immobilize enemies
+and pick up far-away
+objects.
+]],
+}
+
+dialog{
+  id = "_treasure.boss_key.1",
+  icon = "74",
+  text = [[
+You found the Boss
+Key!
+
+At last you can meet
+with the master of
+this place!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion !$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday !
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "2",
+  text = [[
+You found The Bow!$0
+Become the next
+Robin Hood!
+]],
+}
+
+dialog{
+  id = "_treasure.bow.2",
+  icon = "3",
+  text = [[
+You found The Bow!$0
+Become the next
+Robin Hood!
+]],
+}
+
+dialog{
+  id = "_treasure.cat_food.1",
+  icon = "37",
+  text = [[
+Zelda gave you some
+cat food!$0
+
+Go feed her little
+cat because it is
+starving!
+Poor cute little
+ball of fur...
+Hurry!
+]],
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  text = [[
+You found the
+Compass! Now you can
+see your position on
+the Map, the
+locations of chests,
+as well as the
+Boss's Lair! Now
+we're getting
+somewhere!
+]],
+}
+
+dialog{
+  id = "_treasure.creeper.1",
+  text = [[
+Watch out!!!
+]],
+}
+
+dialog{
+  id = "_treasure.croissant.1",
+  icon = "18",
+  text = [[
+You found a
+Croissant!$0
+It's crispy! Eat a
+Croissant to recover
+Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.feather.1",
+  icon = "0",
+  text = [[
+You found the
+Feather!$0 Use it to
+jump...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.feather.2",
+  icon = "20",
+  translators_note = "Reference to Apple marketing",
+  text = [[
+You purchased an
+iFeather!$0
+
+It does nothing more
+than a regular
+Feather, but it
+makes people believe
+that you are very
+classy.
+It is true that the
+logo looks quite
+nice.
+]],
+}
+
+dialog{
+  id = "_treasure.feather.3",
+  icon = "20",
+  text = [[
+You found the
+Feather!$0 Use it to
+jump...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.fire_rod.1",
+  icon = "27",
+  text = [[
+The arsonist left
+you his Fire Rod!
+
+You can burn
+anything!!!
+
+But watch your magic
+meter!
+
+Well... Now that I
+think about it,
+maybe you should
+keep a low profile
+in possession of
+that weapon.
+]],
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  icon = "26",
+  translators_note = "Millesimes means good and old wine bottles",
+  text = [[
+You just stole the
+Flippers!$0
+
+You can now fully
+appreciate Grump's
+best champagne.
+]],
+}
+
+dialog{
+  id = "_treasure.flippers.2",
+  icon = "26",
+  text = [[
+You found the
+Flippers!$0
+
+You genuinely paid
+for them, this time
+they are yours.
+]],
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  icon = "32",
+  text = [[
+You found the Iron
+Glove!$0 You can now
+lift the...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.glove.2",
+  icon = "33",
+  text = [[
+You found the Golden
+Gloves!$0
+
+Now you can lift
+black rocks!
+]],
+}
+
+dialog{
+  id = "_treasure.green_potion.1",
+  icon = "97",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it to feel
+like a humorist deep
+down.
+]],
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  text = [[
+You found a Heart!
+]],
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "80",
+  text = [[
+You found a
+Heart Container.
+
+You just gained
+a new Heart!
+It rooocks!
+]],
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = "6",
+  text = [[
+You found The
+Hookshot!$0 Freeze
+your enemies and
+climb to distant
+places!
+]],
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  next = "warning_magic",
+  text = [[
+You found The
+Lamp!$0
+
+Well, I felt that
+there was not enough
+light here.
+]],
+}
+
+dialog{
+  id = "_treasure.lens_of_truth.1",
+  icon = "14",
+  next = "warning_magic",
+  translators_note = "Reference to Trump's alternative facts",
+  text = [[
+You found the Lens
+of Alternative
+Truth!$0
+You will finally be
+able to see things
+clearly and to
+distinguish what is
+true from what is
+fake!
+]],
+}
+
+dialog{
+  id = "_treasure.library_award.1",
+  icon = "31",
+  translators_note = "Bookworm is the English equivalent of this expression",
+  text = [[
+You unlocked the
+"Bookworm"
+achievement!
+Maybe there are
+more? What?
+
+What is this used
+for? Just to show
+off and prove that
+one day you will
+become the best
+player.
+]],
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = "85",
+  text = [[
+You found a
+Little Magic Flask!
+]],
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = "86",
+  text = [[
+You found a
+Big Magic Flask!
+]],
+}
+
+dialog{
+  id = "_treasure.mail.1",
+  icon = "38",
+  text = [[
+You found some mail
+addressed to
+Princess Zelda!
+Go bring it to her.
+]],
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  text = [[
+You found the Map!
+Use it to discover
+your environment.
+]],
+}
+
+dialog{
+  id = "_treasure.pain_au_chocolat.1",
+  icon = "17",
+  text = [[
+You found a
+Chocolate Croissant!$0
+
+Eat a Chocolate
+Croissant to recover
+three Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.pegasus_shoelaces.1",
+  icon = "22",
+  text = [[
+You found some
+shoelaces for your
+Pegasus Boots!$0
+You can finally move
+correctly when you
+run.
+Press the Action key
+to run.
+
+But don't break
+them!
+]],
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = "13",
+  text = [[
+You found the
+Pegasus Boots,
+without laces!
+They're tough to
+wear but you can
+run really fast!
+]],
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.2",
+  icon = "23",
+  text = [[
+You found the
+Pegasus Boots!
+
+You can run
+anywhere!
+]],
+}
+
+dialog{
+  id = "_treasure.perfume.1",
+  icon = "39",
+  translators_note = "'Kipu' is a wordplay for French 'Qui pue' which means 'stinking' and Cacaco Charnel is obviously reference to Coco Chanel",
+  text = [[
+You found Fragrance
+Kipu from
+Cacaco Charnel!
+Girls will fall all
+over you!
+]],
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = "79",
+  text = [[
+You found a
+Piece of Heart!
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  text = [[
+You found the
+Big Quiver!$0
+
+You can hold 30
+Arrows instead of
+10!
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  text = [[
+You found the
+Huge Quiver!$0
+
+Awesome, you can
+carry 100 Arrows
+instead of 30!
+]],
+}
+
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = "96",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it to take
+steroids and beat
+all mobs!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  text = [[
+You found a Rupee!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  text = [[
+You found a Blue
+Rupee. It's worth
+5 Rupees!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  text = [[
+You found a Red
+Rupee! It's worth
+20 Rupees!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "90",
+  text = [[
+You found 50 Rupees!
+Awesome!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "90",
+  text = [[
+You found 100
+Rupees!
+Fantastic!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "90",
+  text = [[
+You found 200
+Rupees!
+You're ecstatic!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee_bag.2",
+  icon = "52",
+  text = [[
+You found the
+Big Rupee Bag!$0
+
+You can now carry
+300 Rupees!
+
+It's a shame the
+game is over, you
+could have used it!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee_bag.3",
+  icon = "53",
+  text = [[
+You found the
+Huge Rupee Bag!$0
+
+Now you can carry
+999 Rupees!
+]],
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  text = [[
+You found your
+Shield!$0
+
+Next time, don't
+leave it outside,
+will you?
+]],
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  translators_note = "Reference to 2 former French presidents. 'Bling-bling' is a reference to Nicolas Sarkozy who liked to show his flashy outward signs of wealth. The second reference is to François Hollande who said 'My enemy is Wall Street' to get elected, but didn't keep his promises.",
+  text = [[
+You found the
+Bling-Bling Shield!$0
+
+You are now
+protected against
+your enemy: finance!
+]],
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  text = [[
+You found the
+Mirror Shield!$0
+
+You can now reflect
+laser attacks!
+]],
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  text = [[
+You found a Small
+Key!
+
+You can use it to
+open a nearby
+locked door.
+]],
+}
+
+dialog{
+  id = "_treasure.small_key_brandished.1",
+  icon = "72",
+  text = [[
+You found a Small
+Key!
+
+You can use it to
+open a nearby
+locked door.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  text = [[
+You found your
+Training Sword.
+
+You know it's yours
+because your name
+is carved on it!
+But what is it
+doing here?
+]],
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",
+  text = [[
+You found the
+Laser Sword!$0
+
+May the Triforcizzle
+be with you!
+]],
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "68",
+  text = [[
+You got your
+Laser Sword back!$0
+
+But... apparently it
+was restyled!
+]],
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  text = [[
+Green your Laser
+Sword now is!$0
+
+Much more classy
+like this it looks.
+]],
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  text = [[
+You found the
+Blue Mail!
+$0This armor
+protects you
+from the coldest
+temperatures...
+]],
+}
+
+dialog{
+  id = "_treasure.tunic.3",
+  icon = "62",
+  text = [[
+You found The
+Red Mail!
+$0This armor
+reduces the damage
+that you take
+from enemies!
+]],
+}
+
+dialog{
+  id = "_treasure.vip_card.1",
+  icon = "36",
+  text = [[
+You found the
+VIP Card!
+
+You can now access
+all floors of the
+tower!
+]],
+}
+
+dialog{
   id = "big_key_required",
   text = [[
 Locked, you need the
@@ -590,7 +1746,7 @@ to the Boss!
 
 Don't even try to
 open it whithout
-the Master Key!
+the Boss Key!
 ]],
 }
 
@@ -1431,8 +2587,8 @@ No
 dialog{
   id = "warning_magic",
   text = [[
-Watch your Magic
-Meter!
+Watch your magic
+meter!
 ]],
 }
 

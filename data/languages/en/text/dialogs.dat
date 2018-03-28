@@ -198,6 +198,54 @@ Locked!
 }
 
 dialog{
+  id = "tardis.doctor_back_to_present",
+  skip = "all",
+  translators_note = "Reference to Doctor Who",
+  text = [[
+Here you are, back to
+your time.
+
+Everything is allright
+again, no?
+
+We didn't alter the
+space-time continuum.
+
+Well, I hope.
+
+
+Hey, I am looking for a
+companion for my next
+journeys.
+Would you know anyone
+interested?
+]],
+}
+
+dialog{
+  id = "tardis.doctor_escaping_grump_tower",
+  translators_note = "Reference to Doctor Who",
+  text = [[
+Such an amount of
+rupees can only be the
+sign of a crack in the
+fabric of time and
+space itself!
+
+Me? I told you, I am
+the Doctor.
+Doctor Who?
+Just the Doctor.
+Yes, it is bigger on
+the inside.
+But let's leave from
+this place.
+
+Allons-y!
+]],
+}
+
+dialog{
   id = "torch.need_lamp",
   skip = "all",
   text = [[

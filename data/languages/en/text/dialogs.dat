@@ -70,6 +70,55 @@ it seems!
 }
 
 dialog{
+  id = "forest",
+  text = [[
+]],
+}
+
+dialog{
+  id = "forest.monkey",
+  question = "1",
+  text = [[
+Ok!
+Do you want one of
+my bananas?
+I won't give you my
+food just like that!
+Ok! Ok!
+That's 50 rupees!
+Yes
+No question!
+]],
+}
+
+dialog{
+  id = "forest.monkey_not_enough_money",
+  text = [[
+You don't have
+enough rupees!
+
+Don't try to
+rip me off!
+]],
+}
+
+dialog{
+  id = "forest.south_west_sign",
+  skip = "all",
+  text = [[
+West: Chill Valley
+]],
+}
+
+dialog{
+  id = "forest.west_sign",
+  skip = "all",
+  text = [[
+West: Chill Valley
+]],
+}
+
+dialog{
   id = "found_fairy",
   icon = "81",
   next = "found_fairy.1",

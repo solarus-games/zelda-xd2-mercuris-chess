@@ -61,6 +61,16 @@ enough for this!
 }
 
 dialog{
+  id = "elevator.access_refused.vip_card",
+  skip = "all",
+  text = [[
+Access denied.
+This elevator is for
+VIPs only.
+]],
+}
+
+dialog{
   id = "empty_chest",
   text = [[
 This chest is empty!

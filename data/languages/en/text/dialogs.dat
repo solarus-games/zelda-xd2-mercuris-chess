@@ -70,6 +70,37 @@ it seems!
 }
 
 dialog{
+  id = "found_fairy",
+  icon = "81",
+  next = "found_fairy.1",
+  skip = "all",
+  text = [[
+You found a Fairy,
+that's cool!
+]],
+}
+
+dialog{
+  id = "found_fairy.1",
+  icon = "-1",
+  question = "1",
+  skip = "none",
+  text = [[
+You found a fairy!
+Recover Hearts now
+Keep her in a Bottle
+]],
+}
+
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  text = [[
+You don't have a
+Magic Bottle!
+]],
+}
+
+dialog{
   id = "found_piece_of_heart.first",
   icon = "75",
   text = [[

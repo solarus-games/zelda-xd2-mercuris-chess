@@ -191,6 +191,111 @@ to put on some perfume
 }
 
 dialog{
+  id = "prehistoric.doctor_are_you_okay",
+  skip = "all",
+  text = [[
+Everything is okay?$0
+According to the
+TARDIS, we are close
+to the source of killer
+rupees.
+
+But let's be careful
+not to change the
+timeline of prehistory.
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_lets_go_back",
+  text = [[
+Let's go back to the
+future!
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tardis_arrived",
+  text = [[
+Hmm...$0
+We are supposed to be
+arrived.
+The TARDIS tracked down
+the source of evil
+rupeees but...$0
+Are we really at the
+right place?
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus",
+  text = [[
+This is impossible!$0
+
+
+The Tyrannosaurus that
+lays the Golden Eggs is
+supposed to be a myth!$0
+Ohhh...$0 oh...
+but everything is very
+clear now.
+Brillant!$0
+All of this is just
+brillant!$0
+It must be the one who
+lead to Mr Grump's
+goose that lays the
+Golden Eggs, meaning
+that it caused the
+rupees invasion.
+But it looks very
+troubled...
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_pissed_off",
+  text = [[
+The Tyrannosaurus that
+lays the Golden Eggs is
+very agitated.
+Would you have anything
+to calm it down, by any
+chance?
+I do have my sonic
+screwdriver, but it
+would only make it
+even more nervous!
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_solved",
+  text = [[
+Fantastic!$0
+
+
+It looks like this
+strange perfume has a
+relaxing effect on it.
+Hopefully, it will be
+enough to annihilate
+the rupees curse!
+Let's go back to your
+time right away.
+]],
+}
+
+dialog{
+  id = "prehistoric.tyrannosaurus_upset",
+  skip = "all",
+  text = [[
+Rrrrr...
+]],
+}
+
+dialog{
   id = "small_key_required",
   text = [[
 Locked!

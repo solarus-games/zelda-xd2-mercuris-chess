@@ -575,6 +575,31 @@ of the Grump Tower.
 }
 
 dialog{
+  id = "_shop.amount_full",
+  text = [[
+You can't get any more!
+]],
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Dude, you're short on
+Rupees!
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Cost: $v rupees.
+Buy
+No way
+]],
+}
+
+dialog{
   id = "_treasure.arrow.1",
   icon = "83",
   next = "_treasure.arrow.1.1",

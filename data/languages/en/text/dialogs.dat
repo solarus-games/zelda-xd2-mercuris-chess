@@ -2239,6 +2239,143 @@ HelpTheWretched
 Rockfootdude
 Yoshi04
 Sam101
+Congratulations on
+reaching the end!
+
+
+
+ www.solarus-games.org
+]],
+}
+
+dialog{
+  id = "final.mr_grump_1",
+  text = [[
+...$0
+Princess Zelda, this
+moment is delightful.
+It has been 3 years to
+the day we met.
+]],
+}
+
+dialog{
+  id = "final.mr_grump_2",
+  text = [[
+Oh, you know, this
+perfum is extremely
+valuable!
+My grandfather passed
+it down to me.
+
+I cannot tell much more
+about this, honey.
+]],
+}
+
+dialog{
+  id = "final.mr_grump_3",
+  translators_note = "Mojo-ito is a wordplay between Mojo and the cocktail Mojito",
+  text = [[
+What a sweet idea, my
+little lovely Zelly!
+
+I will have a
+Deku-ba Libre, what
+about you, sweetie?
+]],
+}
+
+dialog{
+  id = "final.zelda_1",
+  translators_note = "'Le coup de Fatal-foudre' is a wordplay between French way of saying 'Love at first sight' and a Pokemon electric attack 'Thunder'",
+  text = [[
+Yes honey...
+It feels like it was
+yesterday.
+My little heart melted
+when you offered me
+this perfume.
+It really was love at
+first sight.
+You are so much more
+clever as $v, that
+numbskull.
+
+Tell me where it comes
+from, because my flask
+is almost empty...
+]],
+}
+
+dialog{
+  id = "final.zelda_2",
+  text = [[
+Hey!$0
+Honey! Didn't you hear
+something?
+]],
+}
+
+dialog{
+  id = "final.zelda_3",
+  text = [[
+$v!$0
+This is you?
+What are you doing?
+Are you spying on us?
+You really are an
+inconsiderate person,
+aren't you? No one told
+you about manners?
+
+First, you break vases
+whenever you enter
+someone's house.
+Then, you steal
+treasures in temples.
+
+On top of that, you
+previously locked me up
+in your basement!
+And now you are spying
+on a nice couple who is
+having a romantic
+moment!
+
+
+You will have to pay
+for your rudeness.
+Again!
+]],
+}
+
+dialog{
+  id = "final.zelda_4",
+  text = [[
+$v,
+Come here, will you?
+
+Come on!
+Quicker!
+]],
+}
+
+dialog{
+  id = "final.zelda_5",
+  text = [[
+As a punishement, my
+dear $v,
+I have an idea...
+Since you spoiled our
+romantic date, you will
+have to make up for it.
+I suggest... no!
+I am ORDERING you to
+bring us cocktails!
+What would you like to
+drink, my dear lovely
+Grummy?
 ]],
 }
 

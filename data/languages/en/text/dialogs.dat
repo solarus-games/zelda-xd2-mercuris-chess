@@ -2965,6 +2965,91 @@ Rupee enclosed space.
 }
 
 dialog{
+  id = "lafoo.after_explosion",
+  translators_note = "Reference to Pokémon Go",
+  text = [[
+There it is!!!
+
+
+The building of the
+Lost and Found Office
+has collapsed!
+But people had already
+left... because a wild
+Ditto appeared.
+However, the revenge
+against Mr Grump
+has not finished.
+He lives at the royal
+castle, he bought it
+with his huge fortune.
+It seems that he has
+covered the walls with
+gold! If you look for
+him, he will surely
+be there!
+]],
+}
+
+dialog{
+  id = "lafoo.before_explosion",
+  skip = "all",
+  text = [[
+It would be better
+not to enter there...
+
+...this is likely to
+collapse at any
+moment!
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_1",
+  skip = "all",
+  text = [[
+From here on,
+1h of waiting.
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_2",
+  skip = "all",
+  text = [[
+From here on,
+45 minutes of waiting.
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_3",
+  skip = "all",
+  text = [[
+From here on,
+44 minutes and 49
+seconds of waiting.
+Yeah, this doesn't
+move too quick...
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_4",
+  skip = "all",
+  translators_note = "Reference to France's legendary slow administration",
+  text = [[
+From here on,
+you should think
+of taking a ticket.
+After getting it,
+you should think
+of waiting 1 extra
+hour.
+]],
+}
+
+dialog{
   id = "not_now.cat_food",
   text = [[
 That food is for

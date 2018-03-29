@@ -2460,6 +2460,511 @@ GEEET UUUP!!!
 }
 
 dialog{
+  id = "island.arrow_knee",
+  skip = "all",
+  translators_note = "Reference to Skyrim game. The seconds are false on purpose",
+  text = [[
+I used to be kind
+like you, then I took
+an arrow in the knee.
+Since then, I have this
+hate in me, so strong
+and unstoppable. But
+I haven't done any harm
+to innocents for six
+weeks, three days,
+two hours, five
+minutes, and
+sixty-eight seconds...
+]],
+}
+
+dialog{
+  id = "island.banished_guy1",
+  skip = "all",
+  text = [[
+I'm a gambling addict.
+
+
+I can't enter the tower
+anymore. I was banned
+from the casino!
+]],
+}
+
+dialog{
+  id = "island.banished_guy2",
+  skip = "all",
+  text = [[
+I'm a compulsive
+eater.
+
+I can't enter the tower
+anymore. I was banned
+from the restaurant!
+]],
+}
+
+dialog{
+  id = "island.beach_board",
+  skip = "all",
+  text = [[
+Rupee Island
+
+
+Swimsuit is mandatory.
+]],
+}
+
+dialog{
+  id = "island.beach_jelly1",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will chop it
+in small pieces!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly2",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will burn it with
+a magnifying glass!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly3",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will drown it!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly4",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will make it
+eat some poison!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly5",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will torture it
+psychologically!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly6",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+Huh? Aren't these
+things a bit dangerous?
+]],
+}
+
+dialog{
+  id = "island.beach_north_sign",
+  skip = "all",
+  text = [[
+To Grump Tower
+]],
+}
+
+dialog{
+  id = "island.deku_done",
+  skip = "all",
+  text = [[
+Look at this, boss!
+We've recovered your
+flippers!
+That's for sure!
+]],
+}
+
+dialog{
+  id = "island.dontgo_board",
+  skip = "all",
+  text = [[
+No entry!!!
+]],
+}
+
+dialog{
+  id = "island.dontgo_guy",
+  skip = "all",
+  text = [[
+Do not enter!!!
+]],
+}
+
+dialog{
+  id = "island.grump_done",
+  translators_note = "'The classiest man on Earth' is a reference to a French movie 'Le Grand Détournement'",
+  text = [[
+A cad!
+That's what you are.
+
+Yes, of course I'm
+Mr Grump, the classiest
+man on Earth.
+Here, we don't like
+thieves and cads.
+
+Don't touch my
+flippers!
+]],
+}
+
+dialog{
+  id = "island.grump_done_again",
+  skip = "all",
+  text = [[
+In the future, when
+you find something
+in a dungeon,
+don't take it.
+That's a theft!
+]],
+}
+
+dialog{
+  id = "island.grump_hey",
+  text = [[
+Hey!
+Tell me!
+]],
+}
+
+dialog{
+  id = "island.grump_my_flippers",
+  text = [[
+But those are my
+flippers!$0
+Guards! Security!
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_1",
+  skip = "all",
+  text = [[
+Grump Tower is now
+under construction.
+Come back later.
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_2",
+  skip = "all",
+  text = [[
+\[???\]
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_3",
+  skip = "all",
+  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
+  text = [[
+We are in charge of
+blocking you because
+you forgot to finish the
+first dungeon.
+
+
+This is not an open
+world!
+
+Here, there is an order
+for the dungeons.
+
+Don't you think you can
+do whatever you want!
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_4",
+  skip = "all",
+  text = [[
+Aargh! It's the big
+debate of this
+moment...
+a linear game or a
+non-linear game.
+As long as I'm
+payed for the human
+wall, I don't mind.
+]],
+}
+
+dialog{
+  id = "island.grump_tower_sign",
+  skip = "all",
+  text = [[
+Grump Tower
+]],
+}
+
+dialog{
+  id = "island.hideseek_mom",
+  skip = "all",
+  text = [[
+I play hide-and-seek
+with my children.
+
+I'm so peaceful now...
+]],
+}
+
+dialog{
+  id = "island.hideseek_son",
+  skip = "all",
+  text = [[
+I play hide-and-seek
+with my mom.
+
+I'm winning now.
+]],
+}
+
+dialog{
+  id = "island.liquid_champaign",
+  skip = "all",
+  text = [[
+It's champagne.
+]],
+}
+
+dialog{
+  id = "island.liquid_empty",
+  skip = "all",
+  text = [[
+It's empty.
+]],
+}
+
+dialog{
+  id = "island.liquid_gentiane",
+  skip = "all",
+  text = [[
+It's carbolic gentian
+violet. 
+]],
+}
+
+dialog{
+  id = "island.liquid_milk",
+  skip = "all",
+  text = [[
+It's milk.
+]],
+}
+
+dialog{
+  id = "island.liquid_water",
+  skip = "all",
+  text = [[
+It's water.
+]],
+}
+
+dialog{
+  id = "island.scaring_rupee_obtained_dialog",
+  text = [[
+You've lived atrocious
+things in that cave.
+And that was not worth
+it these 20 rupees.
+]],
+}
+
+dialog{
+  id = "island.shop.blue_potion",
+  text = [[
+The ultimate potion.
+With this, you will
+become young.
+For this small price,
+I'm like cutting
+my throat!
+]],
+}
+
+dialog{
+  id = "island.shop.flippers",
+  text = [[
+The quickest flippers
+of the seven seas.
+With them, no need
+for a ship.
+]],
+}
+
+dialog{
+  id = "island.shop.green_potion",
+  text = [[
+If you want to awaken
+the Force that hides
+within you, it's a good
+choice. And for this
+price, I'm like cutting
+my throat!
+]],
+}
+
+dialog{
+  id = "island.shop.kitchen",
+  skip = "all",
+  text = [[
+Do you think this is
+a canteen? Do you
+think that a big furry
+is gonna blow in
+your bronchus?
+You aren't here to eat
+so choose something
+to buy or go away.
+]],
+}
+
+dialog{
+  id = "island.shop.laboratory",
+  skip = "all",
+  text = [[
+Don't touch the \[???\]
+]],
+}
+
+dialog{
+  id = "island.shop.merchant",
+  skip = "all",
+  text = [[
+Hi, I'm Planteur.
+I guess you come
+for my specialty of
+sausages in small
+bread... 
+
+Unfortunately, I'm
+bankrupt. All my
+merchandise is
+here, and I swear that
+for these prices, I'm
+like killing myself.
+]],
+}
+
+dialog{
+  id = "island.shop.red_potion",
+  text = [[
+When you feel weak,
+try the magic potion.
+For this price, I'm
+like cutting my throat!
+]],
+}
+
+dialog{
+  id = "island.shop.vault",
+  skip = "all",
+  text = [[
+HEY! What do you
+think you're doing
+here?
+Do you think this
+is a bank or a
+self-service?
+Go away, brother,
+you are out of
+Planteur's league.
+]],
+}
+
+dialog{
+  id = "island.south_sign",
+  skip = "all",
+  text = [[
+North: Rupee Island
+South: Chill Valley
+East: Village
+]],
+}
+
+dialog{
+  id = "island.zoo_adopt",
+  skip = "all",
+  text = [[
+Could we adopt one?
+]],
+}
+
+dialog{
+  id = "island.zoo_chief",
+  skip = "all",
+  text = [[
+It's here where Mr
+Grump ventilates
+his rupees.
+That allows our
+visitors to admire
+them.
+]],
+}
+
+dialog{
+  id = "island.zoo_reproduct",
+  skip = "all",
+  text = [[
+Can they breed?
+]],
+}
+
+dialog{
+  id = "island.zoo_rgb",
+  skip = "all",
+  text = [[
+Didn't they have
+another color for
+the 300?
+]],
+}
+
+dialog{
+  id = "island.zoo_sign",
+  skip = "all",
+  text = [[
+Rupee enclosed space.
+]],
+}
+
+dialog{
   id = "not_now.cat_food",
   text = [[
 That food is for

@@ -2313,6 +2313,153 @@ it...
 }
 
 dialog{
+  id = "intro.light_saber_give_back",
+  text = [[
+Wait a moment...$0$0
+Here it is!
+
+Ah,$0
+I almost forgot!
+Here you have the
+lightsaber that I
+confiscated from you.
+I didn't find the
+blue color pretty
+at all...
+
+so I have changed its
+color.
+It's much better now.
+as you can see.
+]],
+}
+
+dialog{
+  id = "intro.marine_exclaming",
+  text = [[
+...
+Oh!
+]],
+}
+
+dialog{
+  id = "intro.marine_to_zelda",
+  text = [[
+Wake up!
+$0$0$0$0
+]],
+}
+
+dialog{
+  id = "intro.marine_waking_up",
+  text = [[
+$v?
+Are you alive?
+Wake up!
+...
+Please!
+$v?
+WAKE UP!!!
+C'MON!!!
+WAKE UP, LAZY!
+]],
+}
+
+dialog{
+  id = "intro.marine_wondering",
+  text = [[
+???
+
+
+What is that?
+Where does it
+come from?
+A wreck?
+]],
+}
+
+dialog{
+  id = "intro.zelda_removing_hearts",
+  text = [[
+Well... In any case
+you did the work,
+but you could have put
+more enthusiasm.
+
+However, I'm gonna
+take some of your
+heart containers,
+as a part of your
+punishment.
+]],
+}
+
+dialog{
+  id = "intro.zelda_resistant",
+  text = [[
+What...?
+
+
+You are still sleeping?
+
+
+Hey,
+don't be stubborn!
+
+This is what you've
+asked for!
+Take this!
+]],
+}
+
+dialog{
+  id = "intro.zelda_shaking",
+  text = [[
+I'M GONNA SHAKE YOU!!!
+]],
+}
+
+dialog{
+  id = "intro.zelda_waiting",
+  translators_note = "Reference to previous XD episode, and then to Zelda: Link's Awakening",
+  text = [[
+Ha!$0
+Finally!
+$0
+Don't pretend you
+have forgotten that.
+
+Like every morning,
+you must pay off for
+what you made me
+suffer.
+$0
+
+Only 3 months of
+chores for me remain.
+Come back when you
+are ready.
+$0
+
+What?!
+A dream with a flying
+whale and a huge egg?!
+You've lost your mind,
+poor boy!
+C'mon, wake up!
+]],
+}
+
+dialog{
+  id = "intro.zelda_waking_up",
+  text = [[
+WAAAAKE UUUP!!!
+C'MOOON!!!
+GEEET UUUP!!!
+]],
+}
+
+dialog{
   id = "not_now.cat_food",
   text = [[
 That food is for

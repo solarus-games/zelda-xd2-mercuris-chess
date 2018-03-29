@@ -2165,6 +2165,84 @@ it seems!
 }
 
 dialog{
+  id = "final.credits",
+  text = [[
+$1This game parody was
+made in ten weeks by
+the Solarus Team
+to celebrate April
+Fool's Day 2017,
+
+still with the help of
+pizzas and high doses
+of caffeine.
+
+        CREDITS
+
+         Engine
+      Programming:
+Christopho
+         Story:
+Olivier Cléro
+Christopho
+Metallizer
+Valoo
+
+          Maps
+        creation:
+
+Christopho
+Metallizer
+Renkineko
+BenObiWan
+Valoo
+Diarandor
+Mymy
+
+
+       Dungeons
+      conception:
+
+       Castle of
+   Alternative Truth:
+Metallizer
+      Grump Tower:
+Christopho
+
+        Graphics:
+Olivier Cléro
+Newlink
+         Musics:
+Olivier Cléro
+Metallizer
+         Tests:
+Binbin
+
+Not that many people
+otherwise. We were
+super late.
+         English
+       translation:
+
+Christopho
+Diarandor
+
+        Special
+        thanks:
+
+LarryInc64
+FFOmega
+Shield
+DoctorOctoroc
+Bulby
+HelpTheWretched
+Rockfootdude
+Yoshi04
+Sam101
+]],
+}
+
+dialog{
   id = "forest.monkey",
   question = "1",
   text = [[

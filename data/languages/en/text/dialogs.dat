@@ -1809,6 +1809,50 @@ enough for this!
 }
 
 dialog{
+  id = "chest_game.go_chest",
+  text = [[
+Off you go now, choose
+a chest!
+]],
+}
+
+dialog{
+  id = "chest_game.not_enough_money",
+  text = [[
+You don't have enough
+money!
+]],
+}
+
+dialog{
+  id = "chest_game.pay_first",
+  text = [[
+Hey! You have to pay if
+you want to play!
+]],
+}
+
+dialog{
+  id = "chest_game.rules",
+  question = "1",
+  text = [[
+Pay 20 Rupees to open
+a chest and get its
+content!
+Do you want to play?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "chest_game.thanks",
+  text = [[
+Good luck! Hehehe.
+]],
+}
+
+dialog{
   id = "chores.cat_already_fed",
   text = [[
 Stop feeding the cat.

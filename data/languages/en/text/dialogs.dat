@@ -2287,6 +2287,16 @@ desert border.
 }
 
 dialog{
+  id = "dungeon_1.welcome",
+  translators_note = "Reference to Trump's alternative Facts (fake news)",
+  text = [[
+        Level 2
+       Castle of
+   Alternative Truth
+]],
+}
+
+dialog{
   id = "dungeon_2.1f.5f_issues_man",
   skip = "all",
   text = [[
@@ -2729,8 +2739,8 @@ I cannot see anymore!
 dialog{
   id = "dungeon_2.welcome",
   text = [[
-       Level 2
-     Grump Tower
+        Level 2
+      Grump Tower
 ]],
 }
 

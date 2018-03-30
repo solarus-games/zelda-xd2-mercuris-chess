@@ -2180,7 +2180,7 @@ dialog{
   translators_note = "Reference Monty Python",
   text = [[
 North: Mt Tipiton
-East: Bakasable Desert
+East: Sandpit Desert
 
 West: Golden Castle
 of Mr Grump
@@ -2277,8 +2277,8 @@ dialog{
   id = "desert.west_house",
   skip = "all",
   text = [[
-I wonder if I'll move
-to to Chill Valley!
+I wonder whether I'll
+move to Chill Valley!
 
 It's more lively there,
 while here it's the
@@ -4019,11 +4019,11 @@ dialog{
   id = "main_village.east_sign",
   skip = "all",
   text = [[
-North: Bakasable Desert
+North: Sandpit Desert
 Mt Tipiton
 
 South:
-Grump Appartments
+Grump Apartments
 ]],
 }
 
@@ -4054,7 +4054,7 @@ dialog{
 North: Golden Castle
 of Mr Grump
 
-East: Bakasable Desert
+East: Sandpit Desert
 Mt Tipiton
 
 West: Rupee Island
@@ -4102,7 +4102,7 @@ No feather has ever
 been made better
 than the iFeather.
 Available since now
-over all the world
+all over the world
 in the official
 iFeather shops.
 ]],
@@ -4112,7 +4112,7 @@ dialog{
   id = "main_village.shop.pain_au_chocolat",
   next = "_unknown",
   text = [[
-A chocolate bread.
+A chocolate croissant.
 
 
 Eat it later to recover

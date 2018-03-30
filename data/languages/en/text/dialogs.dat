@@ -1853,6 +1853,319 @@ Good luck! Hehehe.
 }
 
 dialog{
+  id = "chill_valley.bath.tea_for_two",
+  skip = "all",
+  translators_note = "Reference to a French movie named La Grande Vadrouille",
+  text = [[
+Tea... for two
+and two for tea...
+
+Are you ? ...
+Comment ça ?
+
+But alors you are
+French ?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath_sign",
+  skip = "all",
+  text = [[
+Chill Valley,
+thermal city.
+
+Enjoy a great
+relaxing moment in
+our spas and saunas.
+Here, well-being is an
+art!
+]],
+}
+
+dialog{
+  id = "chill_valley.big_bird",
+  skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest. Zozio is childish slang for bird.",
+  text = [[
+An adventure against
+a big bird?
+
+People are naive if
+they believe that.
+]],
+}
+
+dialog{
+  id = "chill_valley.doc",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 2",
+  text = [[
+Hello Sir, what is it
+about?
+
+Oh, I am doing nothing
+special, just a little
+weather experiment.
+]],
+}
+
+dialog{
+  id = "chill_valley.east_sign",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
+  text = [[
+  - Chill Valley -
+Sucess is the middle
+name of this town.
+]],
+}
+
+dialog{
+  id = "chill_valley.l_house",
+  skip = "all",
+  text = [[
+This is infernal!
+Everything is frozen!
+
+I don't understand,
+heating is to the
+max...
+]],
+}
+
+dialog{
+  id = "chill_valley.library_sign",
+  skip = "all",
+  text = [[
+Public library
+]],
+}
+
+dialog{
+  id = "chill_valley.mercuris_time_travel",
+  skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
+  text = [[
+I cannot wait for Zelda
+Mercuris' Chest any
+longer.
+I want to be in 2023
+already!
+
+That is why I called
+the best time-travel
+experts.
+But I don't know if
+they are willing to
+help me !
+]],
+}
+
+dialog{
+  id = "chill_valley.no_entry_1",
+  skip = "all",
+  text = [[
+...
+
+
+Hello?
+
+
+Do we know each other?
+
+
+
+Do you often talk to
+strangers like this?
+]],
+}
+
+dialog{
+  id = "chill_valley.no_entry_2",
+  skip = "all",
+  text = [[
+Hey, who do you think
+you are, walking into
+every house?
+Just because you save
+the world doesn't mean
+all doors are open.
+]],
+}
+
+dialog{
+  id = "chill_valley.north_sign",
+  skip = "all",
+  text = [[
+North: Rupee Island
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_1",
+  skip = "all",
+  translators_note = "Reference to Doctor Who",
+  text = [[
+Hello, I am the Doctor.
+
+
+Something is not right
+here.
+
+Do you know anything
+about rupees?
+
+I think that rupees
+behave... in an
+impossible way.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_2",
+  skip = "all",
+  translators_note = "Dialog from Doctor Who season 3, episode 10 (Blink)",
+  text = [[
+People assume that time
+is a strict progression
+from cause to effect.
+But actually, from a
+non-linear, non-
+subjective viewpoint,
+it is more like a big
+bowl of wibbly-wobbly,
+timey-wimey... stuff.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_3",
+  skip = "all",
+  translators_note = "Reference to the Weeping Angels from Doctor Who (season 3, episode 10)",
+  text = [[
+Don't worry about these
+statues, everything is
+fine.
+However, just try
+not to blink.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_4",
+  skip = "all",
+  translators_note = "Reference to Doctor Who and Back to the Future",
+  text = [[
+There is sort of a mad
+scientist in the South
+of this town.
+He does not talk a lot
+about it, but he has
+some basic knowledge
+about time travel,
+even pretty good for a
+human.
+He considers that the
+consistency of the
+space-time continuum
+must be preserved.
+
+
+Yet, time can be
+rewritten! Well,
+except fixed points.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_5",
+  skip = "all",
+  translators_note = "Reference to River Song (Doctor Who character)",
+  text = [[
+Oh... River...
+]],
+}
+
+dialog{
+  id = "chill_valley.one_day",
+  text = [[
+A rumor says that Zelda
+Mercuris' Chest will be
+finished one day.
+]],
+}
+
+dialog{
+  id = "chill_valley.out_soon",
+  skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
+  text = [[
+We have never been so
+close to the release of
+Zelda Mercuris' Chest!
+]],
+}
+
+dialog{
+  id = "chill_valley.race_track_old_guy",
+  skip = "all",
+  text = [[
+They wanted to buy my
+house.
+I refused.
+And now they built the
+circuit around it.
+*sob* *sob*
+]],
+}
+
+dialog{
+  id = "chill_valley.south_east_sign",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
+  text = [[
+East: Forest
+
+
+North: Chill Valley,
+the town whose middle
+name is success.
+]],
+}
+
+dialog{
+  id = "chill_valley.t_house",
+  skip = "all",
+  text = [[
+This region has become
+very lively.
+
+At least, we never get
+bored here!
+
+Unlike my sister who
+lives in the desert.
+
+She is moping around
+all day long!
+]],
+}
+
+dialog{
+  id = "chill_valley.welcome_sign",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
+  text = [[
+Welcome to Chill
+Valley!
+
+Sucess is the middle
+name of this town.
+]],
+}
+
+dialog{
   id = "chores.cat_already_fed",
   text = [[
 Stop feeding the cat.

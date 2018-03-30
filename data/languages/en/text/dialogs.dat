@@ -3406,6 +3406,366 @@ hour.
 }
 
 dialog{
+  id = "main_village.castle_guard_after_dungeon_1",
+  skip = "all",
+  text = [[
+Ah, you're looking
+for the boss?
+Mr Grump is in a
+business trip to
+the other side of
+the ocean.
+]],
+}
+
+dialog{
+  id = "main_village.castle_guard_before_dungeon_1",
+  skip = "all",
+  text = [[
+Ok, you can enter.
+We've found the keys.
+]],
+}
+
+dialog{
+  id = "main_village.castle_lens_hint",
+  skip = "all",
+  text = [[
+I would not step on
+this damn castle.
+
+Inside it's all lies
+and illusions!
+
+How could you discern
+truth from lies?
+]],
+}
+
+dialog{
+  id = "main_village.dumb_guy_house.in_bed",
+  skip = "all",
+  translators_note = "This PNJ speaks as if he was texting and making lots of grammar and spelling mistakes.",
+  text = [[
+Tht makz 5 days tht
+I hv kampd bhind
+ths shop.
+I wantd b sur of
+habng 1 iPlume in 1st.
+
+idk y I'm tird now.
+]],
+}
+
+dialog{
+  id = "main_village.east_sign",
+  skip = "all",
+  text = [[
+North: Bakasable Desert
+Mt Tipiton
+
+South:
+Grump Appartments
+]],
+}
+
+dialog{
+  id = "main_village.link_house.zelda_give_pink_saber_again",
+  text = [[
+Who turned your
+lightsaber into
+green???
+Let me fix that.
+]],
+}
+
+dialog{
+  id = "main_village.lost_found_office.welcome_sign",
+  text = [[
+Welcome to the Lost
+and Found Office...
+
+(Ouch! That burns!)
+]],
+}
+
+dialog{
+  id = "main_village.north_sign",
+  skip = "all",
+  text = [[
+North: Golden Castle
+of Mr Grump
+
+East: Bakasable Desert
+Mt Tipiton
+
+West: Rupee Island
+of Mr Grump
+
+Below your feet: green
+grass that Mr Grump
+hasn't bought yet.
+]],
+}
+
+dialog{
+  id = "main_village.shop.croissant",
+  next = "_unknown",
+  text = [[
+A croissant.
+
+
+Eat it later to recover
+a lot of life.
+]],
+}
+
+dialog{
+  id = "main_village.shop.heart_container",
+  next = "_unknown",
+  text = [[
+A true Heart Container.
+
+
+The first customers
+will get better price!
+]],
+}
+
+dialog{
+  id = "main_village.shop.iplume",
+  next = "_unknown",
+  translators_note = "Reference to Apple marketing",
+  text = [[
+An iFeather.
+It's revolutionary!
+
+No feather has ever
+been made better
+than the iFeather.
+Available since now
+over all the world
+in the official
+iFeather shops.
+]],
+}
+
+dialog{
+  id = "main_village.shop.pain_au_chocolat",
+  next = "_unknown",
+  text = [[
+A chocolate bread.
+
+
+Eat it later to recover
+some life.
+]],
+}
+
+dialog{
+  id = "main_village.shop.red_rupee",
+  next = "_unknown",
+  text = [[
+A home-made red rupee.
+Really rare!
+]],
+}
+
+dialog{
+  id = "main_village.shop.salesman",
+  skip = "all",
+  text = [[
+All commerce is
+decentralized on
+periphery around the
+historic center.
+
+
+If all continues like
+that, we'll have to
+move too.
+]],
+}
+
+dialog{
+  id = "main_village.south_sign",
+  skip = "all",
+  text = [[
+West: Rupee Island
+Grump Tower
+
+South: Forest
+South-West:
+Chill Valley
+]],
+}
+
+dialog{
+  id = "main_village.tavern.heart_container_price_increasing",
+  text = [[
+Thanks a lot!
+You got a good deal:
+price will rise for
+the next customers.
+Mwahahaha!
+$0$0Hehehe.
+]],
+}
+
+dialog{
+  id = "main_village.tavern.heart_containers_done",
+  text = [[
+Thanks a lot!
+Well, you've bought
+all the stock.
+]],
+}
+
+dialog{
+  id = "main_village.tavern.tenant",
+  skip = "all",
+  text = [[
+Customers are rare.
+
+
+All people live at
+Chill Valley or in
+Rupee Island!
+]],
+}
+
+dialog{
+  id = "main_village.vase_house",
+  skip = "all",
+  translators_note = "Reference to Zelda games where you always break all the pots",
+  text = [[
+There has been some
+vandalism. A person
+in green came here
+and broke all pots!
+People don't respect
+things anymore.
+I've been cleaning this
+house for two weeks.
+I've taken measures
+to prevent that again.
+Mwahahaha!!!
+]],
+}
+
+dialog{
+  id = "main_village.villager_tunnels",
+  skip = "all",
+  translators_note = "Reference to the game Minecraft",
+  text = [[
+Some people want
+the caves to be
+connected with
+underground tunnels.
+
+
+Nonsense!
+Too many people
+play Minecraft!
+]],
+}
+
+dialog{
+  id = "main_village.villager_underground_river",
+  skip = "all",
+  translators_note = "'Cela semble incroyable' is a reference to Zelda Link's Awakening (Richard)",
+  text = [[
+Have you ever been
+to Chill Valley, to the
+west of here? It may
+seem unbelievable,
+but thermal water
+flows here from Chill
+Valley through an
+underground river.
+]],
+}
+
+dialog{
+  id = "main_village.water_house.hello",
+  skip = "all",
+  text = [[
+I come from thermal
+therapy from the baths
+of Chill Valley.
+I love water.
+Water is life!$0
+Isn't it?
+Mr Grump, the director
+of the Lost and Found
+Office, is a despicable
+man who never wanted
+my water.
+
+As a result, when the
+Lost and Found Office
+has been set on fire,
+they couldn't do
+anything!
+
+Hundreds of
+administrative layers
+went up in smoke!
+]],
+}
+
+dialog{
+  id = "main_village.water_house.upset",
+  skip = "all",
+  text = [[
+Who has installed this
+devilish mechanism?!$0
+
+This is ridiculous!
+
+
+Where has my water
+gone?
+]],
+}
+
+dialog{
+  id = "main_village.yoda_house.done",
+  skip = "all",
+  text = [[
+Rehoused here, I've
+been when the Swamp
+of the ForceTri
+destroyed has been.
+With no doubt,
+in this house with
+no mouse, I live.
+]],
+}
+
+dialog{
+  id = "main_village.yoda_house.give_green_saber",
+  text = [[
+Rehoused here, I've
+been when the Swamp
+of the ForceTri
+destroyed has been.
+With no doubt,
+in this house with
+no mouse, I live.
+
+
+Painted unfairly,
+your lightsaber
+has been?
+With your clothes,
+to match, better
+green a lightsaber
+should be.
+]],
+}
+
+dialog{
   id = "not_now.cat_food",
   text = [[
 That food is for

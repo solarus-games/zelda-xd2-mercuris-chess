@@ -3507,6 +3507,147 @@ Locked!
 }
 
 dialog{
+  id = "swamp.3_months",
+  skip = "all",
+  translators_note = "Reference to the French movie 'Astérix et Obélix : Mission Cléopâtre'",
+  text = [[
+These deformed
+concrete blocks have
+been constructed
+haphazardly!
+
+
+It's clear that
+Mr Grump decided
+to finish all in 3
+months at all costs.
+The construction
+was then botched.
+And don't mention
+the conditions of
+the workers, what
+a slavery!
+
+
+Thank God the shop
+of magic potions
+has sponsored the
+construction.
+Without that they
+would have never
+finished the work.
+]],
+}
+
+dialog{
+  id = "swamp.architecture",
+  skip = "all",
+  translators_note = "Reference to the Franco-belgian comic book 'Astérix et Cléopâtre'",
+  text = [[
+The architect of this
+building has decided to
+put a door at the 2nd
+floor that leads to
+a deadly fall outside.
+
+He has anticipated
+that we may someday
+want to construct a
+terrace! It's great
+that we already have
+the door.
+$0So clever!
+]],
+}
+
+dialog{
+  id = "swamp.buildings_now",
+  skip = "all",
+  text = [[
+In the past there
+was a swamp here.
+It was typical!
+Few people knew about
+it, but we could even
+jump from puddle to
+puddle. Kids loved
+that.
+
+Mr Grump, the magnate
+of the building, has
+bought all to construct
+these awful building
+blocks instead.
+]],
+}
+
+dialog{
+  id = "swamp.ganon_palace",
+  skip = "all",
+  text = [[
+Pfff... We destroy
+the landscape for the
+sake of the property
+speculation!
+
+
+Ok, Ganon was from the
+side of evil forces,
+but at least his castle
+was part of our
+heritage.
+
+You might not like that
+but it was a historical
+monument!
+]],
+}
+
+dialog{
+  id = "swamp.no_palace",
+  skip = "all",
+  translators_note = "Reference to the French movie 'Astérix et Obélix : Mission Cléopâtre'",
+  text = [[
+Ganon palace has been
+completely destroyed.
+
+No palace... no palace.
+]],
+}
+
+dialog{
+  id = "swamp.otis",
+  skip = "all",
+  text = [[
+Are you looking for
+the people who
+constructed these
+insane buildings?
+It's not their fault.
+
+They only obeyed
+Mr Grump. In any
+case, the architect
+has a charming bud
+who went to meditate
+to the northern desert
+with his camel.
+
+
+By the way, I also
+meditate.
+]],
+}
+
+dialog{
+  id = "swamp.west_sign",
+  text = [[
+West: Forest
+Lost and Found Office
+]],
+}
+
+dialog{
   id = "tardis.doctor_back_to_present",
   skip = "all",
   translators_note = "Reference to Doctor Who",

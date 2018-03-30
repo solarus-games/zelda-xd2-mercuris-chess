@@ -2419,11 +2419,70 @@ dialog{
   translators_note = "Mojo-ito is a wordplay between Mojo and the cocktail Mojito",
   text = [[
 What a sweet idea, my
-little lovely Zelly!
+lovely little Zelly!
 
 I will have a
 Deku-ba Libre, what
 about you, sweetie?
+]],
+}
+
+dialog{
+  id = "final.the_doctor_1",
+  text = [[
+OH!$0
+Do you see what I see?$0
+Mr Grump and Zelda...$0
+They...$0
+No...$0This is
+impossible... ?!
+Doc Emmett Brown...
+And his space-time
+continuum stuff!
+That old crazy guy was
+right!
+We modified the past!
+Oooooh...
+I think I understand!
+Do you get it?
+Shh!$0
+Let's listen to their
+conversation..
+]],
+}
+
+dialog{
+  id = "final.the_doctor_2",
+  translators_note = "'NOM DE ZEUS' is Doc Emmet Brown's French trademark exclamation in Back to the Future",
+  text = [[
+Would that be
+possible?!$0 I remember
+this smell...
+That's...$0
+Eureka!
+I just found out!
+Well, hold on to your
+hats because this is
+completely far-fetched.
+Remember the perfume we
+gave to the
+tyrannosaurus?
+It must have persisted
+all these years until
+today.
+And become better and
+better over time, until
+it became irresistible.
+The tyrannosaurus
+evolved into a goose
+over the milleniums.
+Mr Grump then got the
+flask thanks to his
+goose that lays the
+Golden Eggs...
+
+
+GREAT SCOTT!
 ]],
 }
 
@@ -2517,6 +2576,57 @@ bring us cocktails!
 What would you like to
 drink, my dear lovely
 Grummy?
+]],
+}
+
+dialog{
+  id = "final.zelda_6",
+  translators_note = "'Zora Colada' is a wordplay between Zora and the cocktail Piña Colada",
+  text = [[
+I think I would like a
+Zora Colada!
+
+Come on, $v,
+get to work!
+]],
+}
+
+dialog{
+  id = "final.zelda_7",
+  text = [[
+Thank you, $v!$0
+
+
+*Slurp*$0 *slurp*$0*slurp*$0
+It was delicious!
+
+Hey, $v, don't
+you hear meowing?
+
+That's Snowflake!
+It is hungry!
+Come on, go feed it!
+]],
+}
+
+dialog{
+  id = "final.zelda_8",
+  translators_note = "Reference to Zelda: Link's Awakening",
+  text = [[
+Well..
+but deep down he is not
+a bad person.
+So, where were we, you
+and me?
+Oh yes, you were
+talking about an island
+where to go for
+holidays.
+Koholint, you say?
+And there is a flying
+whale?
+Wow, it seems awesome!
+Let's go there?
 ]],
 }
 

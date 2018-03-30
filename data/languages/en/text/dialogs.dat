@@ -2287,6 +2287,176 @@ desert border.
 }
 
 dialog{
+  id = "dungeon_1.1f.iron_ball_man",
+  skip = "all",
+  translators_note = "'Hips' is French onomatopoeia to show that the character is drunk",
+  text = [[
+Burp... You wanna know
+something my friend?
+I carried so many iron
+balls in my life that I
+ended up alc... burp...
+In short, you wouldn't
+think that but this
+thing is super heav...
+burp !
+You could destroy a lot
+of stuff in this castle
+with it!
+I always wond... burp
+if the ceiling above
+the main entrance room
+of the castle didn't
+hide a huge treas...
+burp.
+I'm just saying!
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.julien_dore",
+  skip = "all",
+  translators_note = "Reference to a song by the French singer Julien Doré",
+  text = [[
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.library_man_look_for_book",
+  skip = "all",
+  text = [[
+Where on earth did I
+put that precious
+spell book?
+I could have sworn it
+was somewhere around
+here...
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.pool_grandma",
+  skip = "all",
+  text = [[
+My godfathers!
+Cleaning a champagne
+pool is not an easy
+task. My rheumatism
+is hurting me.
+The weather is really
+wet these days, don't
+you feel?
+
+Seasons don't count for
+anything anymore, let
+me tell you!
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.scared_woman",
+  skip = "all",
+  text = [[
+I came to this castle
+to have a job interview
+for an assistant
+position in charge of
+photocopies and the
+coffee machine but I
+regret I did.
+I can hear some voices
+in the paintings
+attached to the walls.
+This is scary.
+
+I should totally blow
+them to pieces... !
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.bones",
+  skip = "all",
+  text = [[
+I might well be in a
+pitiful condition, I
+can still be useful.
+For instance, did you
+know that you are in a
+castle?
+Yeah, I know it does
+not seem obvious, you
+must be shocked now.
+Mario the demon makes
+us believe that we are
+not in a castle, but
+this is fact: we are.
+If you want my opinion,
+I think that the evil
+spirit of Mario is
+haunting this wall,
+you should do something
+about that...
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.bones2",
+  skip = "all",
+  text = [[
+Boo! I am not an evil
+spirit but I am
+scary...
+Well, it appears so.
+However, there exists
+in this castle some
+very bad spirits.
+The bad ghost of doors
+is tricking us and has
+driven people mad in
+the past.
+
+Apparences can be
+deceptive...
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.prisoner",
+  skip = "all",
+  text = [[
+What?
+You came to save me?
+Leave me alone.
+I like being abandoned
+in a prison, you should
+try it yourself.
+You will see, we never
+get bored. There is a
+spot in the room next
+to this one.
+Enjoy yourself!
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.scared_man",
+  skip = "all",
+  text = [[
+I thought this castle
+was a hotspot for
+tourism, but when
+visiting the basement,
+I ran into skeletons
+who talked to me!
+I took refuge here,
+at least I will stay
+away from these
+monsters forever!
+]],
+}
+
+dialog{
   id = "dungeon_1.welcome",
   translators_note = "Reference to Trump's alternative Facts (fake news)",
   text = [[

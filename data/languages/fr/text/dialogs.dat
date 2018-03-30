@@ -3925,7 +3925,7 @@ Installez-vous !
 dialog{
   id = "dungeon_2.1f.drunk_man",
   skip = "all",
-  translators_note = "The PNJ is drunk and tries hard to formulate something that makes sense",
+  translators_note = "The NPC is drunk and tries hard to formulate something that makes sense",
   text = [[
 Alors comme ça le...
 hip ! bureau des
@@ -3988,6 +3988,7 @@ va à la plonge.
 dialog{
   id = "dungeon_2.1f.pause_man",
   skip = "all",
+  translators_note = "Exact dialog from Zelda Mystery of Solarus XD (counter 41)",
   text = [[
 Je suis actuellement en
 pause, et j'en ai bien
@@ -4104,6 +4105,7 @@ chanceux !
 dialog{
   id = "dungeon_2.2f.green_hat_man",
   skip = "all",
+  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX "outside_world.village.hat_man_npc"",
   text = [[
 Attention à ne pas
 dilapider toutes ses
@@ -4190,7 +4192,7 @@ dialog{
 Allo ? Allo ?
 Tu m'entends ?
 
-C'est moi, Sahasrahala.
+C'est moi, Sahasrahla.
 Je te parle par
 télépathie.
 C'est toujours ok pour

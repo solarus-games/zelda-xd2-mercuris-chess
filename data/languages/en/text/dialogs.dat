@@ -2287,6 +2287,454 @@ desert border.
 }
 
 dialog{
+  id = "dungeon_2.1f.5f_issues_man",
+  skip = "all",
+  text = [[
+The fifth floor is out
+of control.
+
+Air conditioning is so
+high there, that the
+lights are off.
+It is freezing up there
+and you can't even see
+anything!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.bartender",
+  question = "1",
+  skip = "all",
+  text = [[
+Want some sparkling
+wine with red potion
+cream
+for 100 rupees?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.bartender_bought_red_potion_kir",
+  text = [[
+Taste that flavor!
+This cocktail will make
+you happier and happier.
+Is is going to last for
+a while!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.bun_woman",
+  skip = "all",
+  text = [[
+You are the new one?
+Your desk is ready!
+I will finally have
+some company!!!
+We will be able to
+chat a lot!
+After I was relegated
+to the basement of the
+Lost and Found Office
+during all those years,
+I finally get some
+recognition!
+Mister Grump is really
+a benefactor.
+Here is your seat!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.drunk_man",
+  skip = "all",
+  translators_note = "The NPC is drunk and tries hard to formulate something that makes sense",
+  text = [[
+So apparently the...
+burp! Lost and Won
+Officer...
+No, the Recovered and
+Forgotten Office
+burn... burp!
+In short, let's
+celebrate!
+
+Hmm...
+Low and Fun Onions...
+
+Least and burp!
+Round Offset...
+
+Anyway, you get what I
+wanted to say! Burp!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.elevator_a_sign",
+  skip = "all",
+  text = [[
+Elevator to
+higher floors
+
+2nd floor: Casino
+
+
+Other floors:
+Authorized
+personnel only
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.kitchen_guard_dont_pass",
+  skip = "all",
+  text = [[
+Sir, access to the
+kitchen is resticted to
+the employees of the
+restaurant.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.kitchen_guard_go_wash",
+  skip = "all",
+  translators_note = "'La plonge' is French slang for 'whasing dishes'",
+  text = [[
+Are you the new guy?
+Stop chatting and go
+wash the dishes.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.pause_man",
+  skip = "all",
+  translators_note = "Exact dialog from Zelda Mystery of Solarus XD (counter 41)",
+  text = [[
+Sorry, I'm taking a
+break, and I need it
+badly.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.receptionnist",
+  skip = "all",
+  text = [[
+You are in the Grump
+Tower, the paradise of
+entertainment.
+Please remain in the
+areas open to the
+public.
+The restaurant is
+behind me.
+
+The Casino is located
+on the second floor.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.restaurant_sign",
+  skip = "all",
+  text = [[
+  - Grump Caviar Bar -
+Food with prices that
+can be beaten.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.running_man",
+  skip = "all",
+  text = [[
+This stays between us,
+but this restaurant
+is way overpriced.
+Food is ridiculously
+expensive and the
+waiter talks to us like
+if we were his pals.
+
+
+That being said, drinks
+are original!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.blue_haired_boy",
+  skip = "all",
+  translators_note = "Second part is a reference to Zelda Link's Awakening",
+  text = [[
+Why are there all these
+chess pieces?
+
+It looks like they are
+hiding something!
+
+But what? Don't ask me,
+I'm just a kid!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.cards_game_sign",
+  skip = "all",
+  text = [[
+Symbols game
+
+
+Get 4 identical symbols
+to earn a reward!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.casino_receptionnist",
+  skip = "all",
+  text = [[
+This is the
+Grump Casino.
+
+Formal dress is
+required.
+
+Okay... let's
+consider that it's
+fine.
+Please don't touch
+the room decoration. 
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.chest_game_sign",
+  skip = "all",
+  text = [[
+Chests game
+Price: 20 rupees
+
+Pick a random chest
+and be lucky!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.green_hat_man",
+  skip = "all",
+  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX "outside_world.village.hat_man_npc"",
+  text = [[
+Be careful and don't
+waste all your rupees
+in such a place!
+Although, you do seem
+smarter than me.
+
+If you are a bit lucky,
+you'll do better than
+me!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.hint_4_knights",
+  skip = "all",
+  text = [[
+What? Yes, no, I am
+currently working,
+I mean, I was just
+relaxing a bit in the
+meantime.
+
+Actually, to be
+completely honest with
+you, I should get back
+to work in the kitchen
+but there is an access
+code and I don't
+understand anything
+about it.
+
+Something about 4 white
+knights that should
+each be defended twice.
+Do you understand any
+of it? I am too old for
+these brainteasers...
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.slot_machines_sign",
+  skip = "all",
+  text = [[
+Slot machines
+Price: Stakes of
+5 or 20 rupees
+]],
+}
+
+dialog{
+  id = "dungeon_2.3f.6_queens_puzzle",
+  skip = "all",
+  text = [[
+6 Queens game
+
+
+No queen must be on the
+same row, column or
+diagonal as any other.
+]],
+}
+
+dialog{
+  id = "dungeon_2.3f.6_rooks_puzzle",
+  skip = "all",
+  text = [[
+6 Rooks game
+
+
+No Rook must be on the
+same row or column as
+any other Rook.
+Rooks can only be
+pushed once!
+]],
+}
+
+dialog{
+  id = "dungeon_2.3f.sahasrahla_message",
+  text = [[
+Hello? Hello?
+Can you hear me?
+
+It is me, Sahasrahla.
+I am talking to you
+by telepathy.
+Are you still in for
+Saturday's barbecue?
+
+Should I bring
+anything?
+
+We can play bridge.
+
+
+What?
+What do you mean?
+$v?
+Oh sorry, wrong window!
+]],
+}
+
+dialog{
+  id = "dungeon_2.6f.8_queens_puzzle",
+  skip = "all",
+  text = [[
+8 Queens game
+
+
+No queen must be on the
+same row, column or
+diagonal as any other.
+Reward:
+A Piece of Heart!
+]],
+}
+
+dialog{
+  id = "dungeon_2.6f.miniboss_start",
+  text = [[
+This is too much!
+
+
+As if it isn't enough
+that you are always
+harrassing poor
+innocent chickens
+already, just for your
+own enjoyment.
+And now we learn that
+you brought our
+legendary queen down,
+the goose that laid the
+golden egg?!
+
+You are going to taste
+the revenge!
+
+Dear sisters, attack!!!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.boss_start",
+  text = [[
+Ahhhh!$0
+Guards! Security!
+Help!$0
+What do you want,
+exactly?
+You want my fortune?
+Here you are, I have
+too much!
+Take this and run off!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.doctor",
+  text = [[
+Run!$1
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_building_collapsing",
+  text = [[
+Ahhh!$0
+I cannot control my
+rupees anymore!
+The whole tower is
+collapsing!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_found",
+  text = [[
+That's okay!
+I found it again, hehe!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_lost",
+  text = [[
+Ahhh!!!
+My eyeglass just felt
+to the ground!
+I cannot see anymore!
+]],
+}
+
+dialog{
+  id = "dungeon_2.welcome",
+  text = [[
+       Level 2
+     Grump Tower
+]],
+}
+
+dialog{
   id = "elevator.access_refused.vip_card",
   skip = "all",
   text = [[
@@ -2478,8 +2926,8 @@ evolved into a goose
 over the milleniums.
 Mr Grump then got the
 flask thanks to his
-goose that lays the
-Golden Eggs...
+goose that laid the
+golden egg...
 
 
 GREAT SCOTT!
@@ -2499,8 +2947,8 @@ this perfume.
 It really was love at
 first sight.
 You are so much more
-clever than $v,
-that numbskull.
+clever than that
+weirdo $v.
 
 Tell me where it comes
 from, because my flask
@@ -3936,7 +4384,7 @@ This is impossible!$0
 
 
 The Tyrannosaurus that
-lays the Golden Eggs is
+laid the golden egg is
 supposed to be a myth!$0
 Ohhh...$0 oh...
 but everything is very
@@ -3946,8 +4394,8 @@ All of this is just
 brillant!$0
 This must be the
 ancestor of Mr Grump's
-goose that lays the
-Golden Eggs, meaning
+goose that laid the
+golden egg, meaning
 that it caused the
 rupees invasion.
 But it looks very
@@ -3957,9 +4405,10 @@ troubled...
 
 dialog{
   id = "prehistoric.doctor_tyrannosaurus_pissed_off",
+  skip = "all",
   text = [[
-The Tyrannosaurus that
-lays the Golden Eggs is
+The tyrannosaurus that
+laid the golden egg is
 very agitated.
 Would you have anything
 to calm it down, by any

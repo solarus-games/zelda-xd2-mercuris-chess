@@ -4105,7 +4105,7 @@ chanceux !
 dialog{
   id = "dungeon_2.2f.green_hat_man",
   skip = "all",
-  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX "outside_world.village.hat_man_npc"",
+  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX 'outside_world.village.hat_man_npc'",
   text = [[
 Attention à ne pas
 dilapider toutes ses

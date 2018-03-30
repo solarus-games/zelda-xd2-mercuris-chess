@@ -2146,6 +2146,147 @@ Prrrrrrrr.$0 Mmmeow.
 }
 
 dialog{
+  id = "desert.cursed_cave_entrance",
+  skip = "all",
+  text = [[
+Access forbidden for
+security reasons due
+to floods.
+Nothing to see here.
+]],
+}
+
+dialog{
+  id = "desert.east_house",
+  skip = "all",
+  text = [[
+It seems that Mr Grump
+possesses a rupee
+shaped island. Rupees
+grow from the trees!
+
+
+Actually he made a
+spa, with a huge tower.
+What a waste of money!
+We feel better here,
+with the calm, far from
+that bling-bling...
+]],
+}
+
+dialog{
+  id = "desert.nw_sign",
+  translators_note = "Reference Monty Python",
+  text = [[
+North: Mt Tipiton
+East: Bakasable Desert
+
+West: Golden Castle
+of Mr Grump
+]],
+}
+
+dialog{
+  id = "desert.otis",
+  skip = "all",
+  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre.",
+  text = [[
+I do not think
+there’s any good or
+bad situations...$0$0
+I say thank you to
+life, I say thank you,
+I sing with the spirit
+of life, I dance in
+my life, I’m all love,
+and finally today
+when many people
+ask me: But how do
+you manage to have
+this attitude? And, bah
+I say it very simple,
+I tell them that it is
+a flavor of love,
+so that special flavor
+drove me here today,
+to undertake
+engineering, but
+tomorrow, who knows,
+maybe I’ll just serve
+the community,
+serve, donate the
+gift of self.
+]],
+}
+
+dialog{
+  id = "desert.piece_of_heart_cave_sign",
+  skip = "all",
+  translators_note = "French equivalent of the 'not' joke",
+  text = [[
+Only the true hero
+will obtain the
+treasure...$0$0 NOT!!!
+]],
+}
+
+dialog{
+  id = "desert.small_house",
+  skip = "all",
+  text = [[
+I'm thinking about
+my future.
+
+About yours, believe
+my fortune-telling:
+pay attention to
+Mr Grump's fortune.
+]],
+}
+
+dialog{
+  id = "desert.small_house_shoelaces",
+  skip = "all",
+  text = [[
+If you look for a way
+to kill yourself,
+walking with no
+shoelaces like you do
+is not a good way.
+Besides, it's probably
+best that you get new
+ones, because that
+gets on my nerves.
+]],
+}
+
+dialog{
+  id = "desert.tipiton_sign",
+  skip = "all",
+  text = [[
+Summit of Mt Tipiton
+
+
+Height:
+not so high, actually.
+]],
+}
+
+dialog{
+  id = "desert.west_house",
+  skip = "all",
+  text = [[
+I wonder if I'll move
+to to Chill Valley!
+
+It's more lively there,
+while here it's the
+desert border.
+]],
+}
+
+dialog{
   id = "elevator.access_refused.vip_card",
   skip = "all",
   text = [[

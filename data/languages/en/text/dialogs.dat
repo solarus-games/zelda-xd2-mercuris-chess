@@ -2510,6 +2510,293 @@ rupee-based economy.
 }
 
 dialog{
+  id = "chill_valley.z_house.love_book",
+  skip = "all",
+  translators_note = "Reference to Twilight bad stories :p",
+  text = [[
+A love novel:
+   Lost Dusk
+
+When I plundge my eyes
+into the vampyre's one,
+I felt my soul being
+ripped off by this cold
+and calculating being.
+Nonetheless, I did not
+saw in him a monster,
+like everyone else, but
+a misunderstood love.
+Oh! Lucius, forgive-me
+to cheat on you like
+this, but his alabaster
+skin make me all
+dizzy...
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.magic_book",
+  skip = "all",
+  translators_note = "Last part is a reference to Portal2 with GLaDOS transformed to a potato and scared by birds. Spells are from ALTTP",
+  text = [[
+       Magic
+    for dummies
+
+A lot of people think
+magic is about talent.
+They are wrong! All you
+need is to be able to
+read ancient Hylian in
+a Book to make
+lightning strikes,
+earthquakes and
+transform the world
+into a potato. Just
+remember, no bird are
+allowed to approch that
+said tubercle.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.politic_for_dummies",
+  skip = "all",
+  text = [[
+   Geopolitics
+   for dummies
+
+As an advice to the
+future politician you
+will be, and to survive
+in this hostile jungle,
+it is important to get
+the lobbies of the
+Champagne and the real
+estate in your pocket.
+They will let you
+decide if you can or
+not adopt some new law.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.recipe_for_dummies",
+  skip = "all",
+  translators_note = "Reference to Zelda - Breath of the Wild recipes",
+  text = [[
+ Cooking Recipe
+  for dummies
+
+Hearty Simmered Fruit
+Ingredients:
+- 1 hearty type fruit
+Recipe:
+Put the fruit in the
+pan. Wait.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.science_book",
+  skip = "all",
+  text = [[
+ Mathematical Theorems
+     for dummies
+
+The Octavieh's Theorem
+explains us that the
+infinite series whose
+terms are the natural
+numbers is a divergent
+series, with the result
+equal to -1/12.
+...
+You understand nothing
+about the equations
+explaining this
+theorem.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.security_systems",
+  skip = "all",
+  text = [[
+  Hylian security
+     measures
+
+There are a lot of
+security devices of all
+origin: Hylian, Sheikah
+and some are even older
+than we can know. These
+items allow us to stun
+criminals, help to the
+people safety or to
+deter any incivility.
+Thankfully, these
+systems will never be
+used against the
+population by an evil
+sorcerer, a swine
+tyrant or a disturbed
+business angel.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.sf_book",
+  skip = "all",
+  translators_note = "Title of the book is a reference to Pratchett and Baxter SF book named The Long Earth",
+  text = [[
+A Science-Fiction Novel
+   The Oblong Earth
+
+I opened the door of
+this building the
+natives called
+"skycrapper". Some
+mechanical carts pulled
+by an unknown force
+passed thru with such a
+noise. The air seemed
+unbreathable. Then, all
+of a sudden, a long way
+above my head, another
+din: an iron bird,
+frozen in its position,
+was flying beyond all
+logic and good sense.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.space_conquest_for_dummies",
+  skip = "all",
+  text = [[
+ The Space Conquest
+    for dummies
+
+Find a ravaged
+landscape (you can have
+a lot of them around
+the Mount Terror). Put
+the Hyrule flag, then
+ask an artist to seize
+this moment on a
+canvas. Then, you can
+claim fiercely and
+loudly that you have
+conquered the Moon!
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.theater_script",
+  skip = "all",
+  translators_note = "Characters are from Majora's Mask. A citation from Barry White, because why not.",
+  text = [[
+A theater piece :
+    Kafei and Anju
+
+Priest: Where is your
+future husband, my
+dear?
+Anju: I have no idea,
+and my heart darkens
+of this ignorance...
+My sweet and soft Kafei
+does not want me as his
+bride anymore?
+Young boy, coming in a
+hustle: Of course I
+will, milady! You are
+my life! My last! My
+everything!
+Anju: But, who are you,
+young man, to talk my
+with this familiarity?
+Young boy: I am your
+companion, Kafei! A
+vicious kid cast me a
+bad spell, but I have
+hope that you will
+recognize me...
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.urbanism_for_dummies",
+  skip = "all",
+  translators_note = "Reference to Tetris game",
+  text = [[
+   Urbanism for
+     dummies
+
+Chill Valley is the
+only city in the world
+where it is impossible
+to make house dividing.
+Each try has been sold
+by the disparition of
+the whole line of
+building. Since then,
+the authorities force
+each house to have at
+least 2 meters of
+regulatory space
+between each wall.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.weapon_for_dummies",
+  skip = "all",
+  translators_note = "Real stats about real weapons in Zelda Breath of the Wild",
+  text = [[
+   Weapons for
+     dummies
+
+Traveler's Sword:
+Attack power: 5-13
+Durability: 20-23
+Soldier's Broadsword:
+Attack power: 14-25
+Durability: 23-26
+Knight's Broadsword:
+Attack power: 26-35
+Durability: 27-35
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.zoology_for_dummies",
+  skip = "all",
+  text = [[
+    Zoology
+  for dummies
+
+The gregarious instinct
+of the Cuccos is a
+unique thing amongst
+the animalia kingdom.
+Try to attack only one
+of them, and all of
+them will ripost as one
+gigantic entity. Their
+telepathic mind seems
+to transcend ages and
+distances, because news
+Cuccos will come
+indefinitely to attack
+you once the assault
+has been decided.
+Pro tip: RUN FOR YOUR
+LIFE.
+]],
+}
+
+dialog{
   id = "chores.cat_already_fed",
   text = [[
 Stop feeding the cat.

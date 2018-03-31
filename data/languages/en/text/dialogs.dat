@@ -1,5 +1,6 @@
 dialog{
   id = "_crystal",
+  skip = "all",
   text = [[
 It's a crystal switch.
 Hit the switch with
@@ -1757,6 +1758,7 @@ tower!
 
 dialog{
   id = "big_key_required",
+  icon = "73",
   text = [[
 Locked, you need the
 Big Key to open it!
@@ -1765,6 +1767,7 @@ Big Key to open it!
 
 dialog{
   id = "boss_key_required",
+  icon = "74",
   text = [[
 This door leads
 to the Boss!
@@ -1785,6 +1788,7 @@ Holy cow!
 
 dialog{
   id = "cannot_lift_should_cut",
+  skip = "all",
   text = [[
 Maybe you need
 something to cut down
@@ -1794,6 +1798,7 @@ this bush...
 
 dialog{
   id = "cannot_lift_still_too_heavy",
+  skip = "all",
   text = [[
 You're not strong
 enough for this!
@@ -1802,6 +1807,7 @@ enough for this!
 
 dialog{
   id = "cannot_lift_too_heavy",
+  skip = "all",
   text = [[
 You're not strong
 enough for this!
@@ -2253,6 +2259,152 @@ I refused.
 And now they built the
 circuit around it.
 *sob* *sob*
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.dogman",
+  skip = "all",
+  translators_note = "Based on Wreck-it Ralph monsters assembly intervention",
+  text = [[
+My name's Ernest and
+deep inside, i'm not
+that bad, i'm just
+playin' a role in this
+game... Truly, people
+say i'm a Care Bears.
+If I could do hug to
+hero instead of just
+rush toward it,
+I would not hesitate
+for one second!
+
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.ganon",
+  skip = "all",
+  text = [[
+Arh! You again!
+Go on, laugh as much as
+you can about what i've
+become. Homeless! They
+destroyed my Tower! For
+real, man! Last time,
+you had me left for
+dead in the lava...
+You were the Choosen
+One, okay, but you
+could have been nice.
+Obviously, i said that
+duel was "On death",
+but you know sometimes
+my words go beyond my
+thoughts. Anyway, I've
+open up this club for
+repented monsters and
+I must admit it has a
+good success. I invite
+you to tests our
+"petit-four": so much
+delicious!
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.gibdo",
+  skip = "all",
+  translators_note = "Reference a mini-boss in the indie game: Crypt of the Necrodancer",
+  text = [[
+My sister is a dancer
+in a crypt. It sounds
+very nice for her. So
+I'm asking myself: what
+have I done with my
+no-life? Maybe I should
+also go talk to this
+"Necrodancer", don't
+you think?
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.mandible",
+  skip = "all",
+  text = [[
+WHAT!? Whaddayawant?
+Wanna get my pic? Yeah,
+I know, I'm a mutant,
+AND SO WHAT!?
+...
+...
+...
+...
+Excuse-me sir, I'm once
+again loosing my mind
+for n'thing. Y'know,
+I'm comin' here to try
+to control myself...
+No hard feelings, Bro?
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.skel",
+  skip = "all",
+  translators_note = "Reference to the Death character in Pratchett's Discworld universe",
+  text = [[
+MY COUSIN JUST FOUND
+A FULL TIME JOB ON A
+GIANT TURTLE WITH FOUR
+ELEPHANTS! HE SAYS HE
+IS AN... ANTHRO...
+POMORPHIC... PER...
+SONIFI... CATION. WELL,
+SOMETHING LIKE THAT.
+DON'T KNOW WHAT IT IS,
+BUT IT SOUNDS COOL.
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.snap_dragon",
+  skip = "all",
+  text = [[
+I want to open a
+hairdresser to excuse
+my past behaviour on
+all this poor beasts
+I ate in my maleficient
+past life. What do you
+prefer between the
+G'hair-udo or the
+Mast'hair-sword, for
+the name of the shop?
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.vipeross",
+  skip = "all",
+  translators_note = "Reference to the Witcher (game and book): the man is Geralt de Riv",
+  text = [[
+One day, a man came and
+totally blew up my all
+face. White Wolf, he
+said for his name,
+seriously, do you think
+such cliché is still
+accepted nowadays?
+He was too showing off,
+with his two swords,
+but boy he was good! I
+can tell you it put me
+back on the right track
+for sure! No more eat
+to human flesh after
+that one.
 ]],
 }
 
@@ -3841,7 +3993,7 @@ dialog{
   question = "1",
   skip = "none",
   text = [[
-You found a Fairy!
+What will you do?
 Recover Hearts now
 Keep her in a Bottle
 ]],
@@ -6389,6 +6541,7 @@ you bet!
 
 dialog{
   id = "small_key_required",
+  icon = "72",
   text = [[
 Locked!
 ]],

@@ -2312,6 +2312,36 @@ to read this stuff!
 ]],
 }
 
+dialog{
+  id = "chill_valley.z_house.biography_grump",
+  text = [[
+   A biography about   
+   Mr. Grump's life
+
+Mr. Grump was born in
+*indecipherable*, in a
+loving family, faithful
+to the Three Goddesses.
+Quickly, little Grump
+displayed considerable
+skills in business and
+beat his brothers when
+playing Monopoly.
+Always wilful to steal
+his little schoolmates,
+teachers recommend him
+business studies. He
+became passionate in
+real estate, and ruined
+several businesses in
+order to buy them for a
+trifle. He is the
+perursor of our 
+rupee-based economy.
+]],
+}
+
+dialog{
   id = "chores.cat_already_fed",
   text = [[
 Stop feeding the cat.

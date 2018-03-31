@@ -5653,9 +5653,12 @@ that would be great.
 dialog{
   id = "lafoo_riot.npc_74",
   skip = "all",
+  translators_note = "Reference to TV show Game of Thrones",
   text = [[
-Too bad this is not
-winter, it would have
+Too bad winter is still
+not coming.
+
+Because this would have
 warmed everybody up.
 ]],
 }

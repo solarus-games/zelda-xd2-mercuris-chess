@@ -86,9 +86,9 @@ text{ key = "quest_status.caption.sword_1", value = "Training Sword" }
 text{ key = "quest_status.caption.sword_2", value = "Laser Sword" }
 text{ key = "quest_status.caption.sword_3", value = "Laser Sword" }
 text{ key = "quest_status.caption.sword_4", value = "Laser Sword" }
-text{ key = "quest_status.caption.tunic_1", value = "Green$Mail" }
-text{ key = "quest_status.caption.tunic_2", value = "Blue$Mail" }
-text{ key = "quest_status.caption.tunic_3", value = "Red$Mail" }
+text{ key = "quest_status.caption.tunic_1", value = "Green Mail" }
+text{ key = "quest_status.caption.tunic_2", value = "Blue Mail" }
+text{ key = "quest_status.caption.tunic_3", value = "Red Mail" }
 text{ key = "quest_status.caption.world_map", value = "World Map" }
 text{ key = "save_dialog.continue_question_0", value = "Would you like to keep" }
 text{ key = "save_dialog.continue_question_1", value = "playing?" }

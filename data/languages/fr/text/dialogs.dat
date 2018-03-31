@@ -6561,11 +6561,14 @@ Ah bon,
 dialog{
   id = "lafoo_riot.npc_74",
   skip = "all",
+  translators_note = "Reference to the French movie La chèvre",
   text = [[
-C'est bête qu'on ne
-soit pas en hiver, ça
-aurait réchauffé tout
-le monde.
+Ça me rappelle le
+pavillon de mes parents
+à Saint-Cloud.
+J'avais acheté une
+bouteille de butane
+et...
 ]],
 }
 

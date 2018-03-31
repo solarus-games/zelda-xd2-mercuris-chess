@@ -4584,8 +4584,8 @@ dialog{
   skip = "all",
   translators_note = "Reference to a silly French dance song from the 90's",
   text = [[
-Fire burns...$0
-And water wets.
+They set fire...$0
+To the rain...
 
 Heh, that could make
 a nice song!
@@ -4599,8 +4599,8 @@ dialog{
 Some people called
 it the Lost and Found
 Office.
-I call it: the Waste
-Time Ofice!
+I call it: the Waste of
+Time Office!
 ]],
 }
 
@@ -4655,6 +4655,140 @@ out in time.
 }
 
 dialog{
+  id = "lafoo_riot.npc_21",
+  skip = "all",
+  translators_note = "Reference to French singer Johnny Hallyday's most famous song",
+  text = [[
+Some say the world will
+end in fire, some say
+in ice.
+Wow, with this I could
+write a song of ice and
+fire!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_22",
+  skip = "all",
+  translators_note = "Reference to Zelda: Ocarina of Time",
+  text = [[
+You know what would be
+cool?
+
+If we could put on the
+Bolero of Fire during
+this fire!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_23",
+  skip = "all",
+  text = [[
+Can you see the smoke
+in the sky? This is
+coming from the forest.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_24",
+  skip = "all",
+  text = [[
+We can hear the roar of
+a crowd...
+
+Is there something to
+celebrate?
+
+I am trying to see
+where it comes from!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_25",
+  skip = "all",
+  text = [[
+Let me go!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_25_fire_rod",
+  text = [[
+Hey, do you want
+something for free?
+
+Here you are! That's
+for you! And if
+someone asks questions,
+you don't know me,
+we never saw each other
+and we never met.
+Now I'm going to keep a
+low profile and
+disappear.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_26",
+  skip = "all",
+  text = [[
+Is someone having a
+barbecue?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_27",
+  skip = "all",
+  text = [[
+Don't leave like that
+already! Stay with the
+others and part.$0
+What do you mean, I am
+just an artificial
+barrier?
+Make no mistake, it was
+either this or an
+invisible wall!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_28",
+  skip = "all",
+  translators_note = "The curse is a reference to Franco-belgian comic book Blake & Mortimer",
+  text = [[
+Looks like there is a
+riot deep down the
+forest!
+You should go there
+quickly!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_29",
+  skip = "all",
+  text = [[
+What on earth is the
+police doing?
+
+There seems to be a
+gathering deep down the
+forest.
+On top of that, we see
+this smoke cloud and it
+smells like something is
+overcooked!
+]],
+}
+
+dialog{
   id = "lafoo_riot.npc_3",
   skip = "all",
   text = [[
@@ -4666,6 +4800,138 @@ the director of the
 Lost and Found Office
 wasn't one! So,
 he should go to hell!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_30",
+  skip = "all",
+  text = [[
+Firemen should be
+there shortly!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_31",
+  skip = "all",
+  text = [[
+Is this blaze not at
+the Lost and Found
+Office?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_32",
+  skip = "all",
+  text = [[
+What is this terrible
+rumpus going on over
+there?
+
+By the way, this word,
+"rumpus"
+...
+could be elected the
+Ugliest Word Ever.
+
+Last year, the winner
+was "Bunion".
+Crazy, right?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_33",
+  skip = "all",
+  text = [[
+Good heavens!
+It might be that
+something is burning!
+There is no smoke
+without fire, as they
+say.
+Others say "The pen is
+mightier than the
+sword".
+But it has nothing to
+do with that!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_34",
+  skip = "all",
+  text = [[
+Hey, what were you
+doing home all that
+time?
+Don't you see that
+there is some trouble
+in the forest?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_35",
+  skip = "all",
+  text = [[
+Sniff$0 sniff$0
+There is a burning
+smell!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_36",
+  skip = "all",
+  text = [[
+This situation gives
+me inspiration for a
+poem.
+  From the canopy are
+escaping
+  these strange smoke
+rings.
+  What is this great
+mystery?
+  Just a fire,
+probably.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_37",
+  skip = "all",
+  text = [[
+Hey, little guy!
+Do you know Mr Grump?
+
+He his the manager of
+the Lost and Found
+Office.
+The whole village is
+up in arms against him.
+
+I think they went there
+to demonstrate there
+anger.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_38",
+  skip = "all",
+  text = [[
+People say that there
+is a pyromaniac in the
+village...
+And that he would have
+gone and done it again
+near the Lost and Found
+Office!
+Blimey!
 ]],
 }
 
@@ -4683,6 +4949,74 @@ with his fortune...
 What a bashi-bazouk!
 Ectoplasm! Anacoluthon!
 Filibuster! Diplodocus!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_44",
+  skip = "all",
+  text = [[
+My dad is a thief,
+because he stole all
+the stars in the sky
+to put them in my
+eyes...
+
+Well, that's what all
+boys tell me.
+
+But I know that my dad
+is not a thief.
+
+On the other hand, he
+is inclined towards
+blazes.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_45",
+  skip = "all",
+  text = [[
+Developers told me to
+stop you from
+traversing.
+Why?
+
+
+Don't ask me, I am
+just an NPC!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_46",
+  skip = "all",
+  translators_note = "Reference to Gandalf in The Lord of the Rings",
+  text = [[
+YOU.
+
+
+SHALL.
+
+
+NOT.
+
+
+PASS!!!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_47",
+  skip = "all",
+  text = [[
+Just try to pass and
+you will have to deal
+with me.
+Can't you see that
+something serious is
+going on to the South?
 ]],
 }
 
@@ -4732,6 +5066,30 @@ I've always had
 passion for fire...
 But it wasn't me,
 not this time!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.perfume_npc",
+  text = [[
+Hey, you!
+
+
+Here! Take this
+perfume!
+
+I have been trying to
+trade it for an axe for
+ages, with no luck.
+By the way, use some of
+it because honestly, it
+stinks of sweat here.
+Did you spend to whole
+day on physical labor
+or something?!
+Okay, I need to leave.
+I don't like crowds,
+and this is a riot!
 ]],
 }
 

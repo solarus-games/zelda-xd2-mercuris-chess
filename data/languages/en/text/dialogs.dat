@@ -2576,6 +2576,64 @@ to it.
 }
 
 dialog{
+  id = "chill_valley.z_house.encyclopedia.already_opened",
+  skip = "all",
+  text = [[
+You already emptied
+this encyclopedia of
+its content. Thief.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.back_on_shelf",
+  skip = "all",
+  text = [[
+A cloud of dust flies
+when the book goes back
+to the shelves, and a
+slight dull sound
+escapes from the inside.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.not_opened",
+  question = "1",
+  text = [[
+An encyclopedia. Its
+size and thickness are
+not accorded with its
+weight.
+Open it.
+Drop it back.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.when_opened",
+  skip = "all",
+  text = [[
+A little note is
+visible in the book.
+"I put here my most
+precious and only good,
+I am convinced that
+nothing bad can happen
+inside these
+shelves..."
+
+Let's hope nobody saw
+you enter here and
+steal this content. You
+don't really have the
+face of a nerd, you
+will quickly be the
+main suspect.
+]],
+}
+
+dialog{
   id = "chill_valley.z_house.exploration_for_dummies",
   skip = "all",
   text = [[

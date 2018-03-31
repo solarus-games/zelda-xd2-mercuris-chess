@@ -2527,6 +2527,55 @@ rupee-based economy.
 }
 
 dialog{
+  id = "chill_valley.z_house.child_book",
+  skip = "all",
+  text = [[
+A tale for children:
+  The Gest of the Zora
+
+A little Zora was sad:
+he didn't have any
+friends. Someday, he
+saw an Hylian girl
+drifting along the
+river. She seemed
+sleepy, but the Zora
+knew Hylians weren't
+able to sleep in water.
+He dived and brought
+her back to the bank.
+A few minutes later,
+she woke up and warmly
+thanked the Zora.
+That is how he got his
+first friend, and he
+had never been sad
+since then.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.curse_for_dummies",
+  skip = "all",
+  text = [[
+  Cursing for Dummies
+
+
+Take a black cat, make
+it pass under a ladder.
+Make a voodoo effigy of
+your target, and stick
+a nail in the heart and
+in the head. Keep the
+doll between you and a
+mirror, then break the
+mirror by vigorously
+throwing the black cat
+to it.
+]],
+}
+
+dialog{
   id = "chill_valley.z_house.exploration_for_dummies",
   skip = "all",
   text = [[

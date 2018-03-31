@@ -2464,7 +2464,7 @@ dialog{
   text = [[
 Access forbidden for
 security reasons due
-to floods.
+to excesses.
 Nothing to see here.
 ]],
 }
@@ -2474,13 +2474,14 @@ dialog{
   skip = "all",
   text = [[
 It seems that Mr Grump
-possesses a rupee
-shaped island. Rupees
-grow from the trees!
-
+owns a rupee shaped
+island.
+Rupees can even
+grow from trees there!
 
 Actually he made a
-spa, with a huge tower.
+beach resort, with a
+huge tower.
 What a waste of money!
 We feel better here,
 with the calm, far from
@@ -2492,7 +2493,7 @@ dialog{
   id = "desert.nw_sign",
   translators_note = "Reference Monty Python",
   text = [[
-North: Mt Tipiton
+North: Mount Typython
 East: Sandpit Desert
 
 West: Golden Castle
@@ -2503,33 +2504,65 @@ of Mr Grump
 dialog{
   id = "desert.otis",
   skip = "all",
-  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre.",
+  translators_note = "Reference to the movie Rubber",
   text = [[
-I do not think
-there’s any good or
-bad situations...$0$0
-I say thank you to
-life, I say thank you,
-I sing with the spirit
-of life, I dance in
-my life, I’m all love,
-and finally today
-when many people
-ask me: But how do
-you manage to have
-this attitude? And, bah
-I say it very simple,
-I tell them that it is
-a flavor of love,
-so that special flavor
-drove me here today,
-to undertake
-engineering, but
-tomorrow, who knows,
-maybe I’ll just serve
-the community,
-serve, donate the
-gift of self.
+What I am doing here
+on a camel?
+
+In the Steven Spielberg
+movie "E.T.", why is
+the alien brown?
+No reason.
+In "Love Story", why
+did the two characters
+fall madly in love with
+each other? No reason.
+In Oliver Stone's
+"JFK", why is the
+President suddenly
+assassinated by some
+stranger? No reason.
+In the excellent
+"Chainsaw Massacre" by
+Tobe Hooper, why don't
+we ever see the
+characters go to the
+bathroom... or wash
+their hands, like
+people do in real life?
+Absolutely no reason.
+Worse, in "The Pianist"
+by Polanski, how come
+this guy has to hide
+and live like a bomb...
+when he plays the piano
+so well? Once again the
+answer is "no reason".
+I could go on for hours
+with more examples.
+The list is endless.
+You probably never gave
+it a thought.
+But all great films,
+without exception,
+contain an important
+element: a "no reason".
+And you know why?
+Because life itself...
+is filled with "no
+reason".
+Why can't we see the
+air all around us?
+No reason. Why are we
+always thinking?
+No reason.
+Why do some people love
+sausages and other
+people hate sausages?
+No fuckin' reason.
+So yes, I am right here
+with a camel, and would
+one need a reason?
 ]],
 }
 
@@ -2538,9 +2571,9 @@ dialog{
   skip = "all",
   translators_note = "French equivalent of the 'not' joke",
   text = [[
-Only the true hero
-will obtain the
-treasure...$0$0 NOT!!!
+Only a true Hero
+deserves the chest.$0$0
+Or maybe not.
 ]],
 }
 
@@ -2566,11 +2599,11 @@ If you look for a way
 to kill yourself,
 walking with no
 shoelaces like you do
-is not a good way.
-Besides, it's probably
-best that you get new
-ones, because that
-gets on my nerves.
+is not a great way.
+So it's probably best
+that you get new ones,
+because that gets on my
+nerves.
 ]],
 }
 
@@ -2578,11 +2611,12 @@ dialog{
   id = "desert.tipiton_sign",
   skip = "all",
   text = [[
-Summit of Mt Tipiton
+Top of Mount Typython
 
 
-Height:
-not so high, actually.
+Altitude:
+Not really high,
+actually...
 ]],
 }
 
@@ -2594,8 +2628,8 @@ I wonder whether I'll
 move to Chill Valley!
 
 It's more lively there,
-while here it's the
-desert border.
+while here it's almost
+like desert.
 ]],
 }
 

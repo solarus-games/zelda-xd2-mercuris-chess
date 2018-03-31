@@ -2480,6 +2480,23 @@ to read this stuff!
 }
 
 dialog{
+  id = "chill_valley.z_house.all_read",
+  skip = "all",
+  translators_note = "French version of the expression Bookworm",
+  text = [[
+Squeak! You're in MY
+house, and you're
+reading MY books as if
+they were yours! Squeak
+squeak, I've never seen
+someone as cheeky!
+There can be only one
+bookworm and it's ME!
+TORA! TORA! TORA!
+]],
+}
+
+dialog{
   id = "chill_valley.z_house.biography_grump",
   skip = "all",
   text = [[

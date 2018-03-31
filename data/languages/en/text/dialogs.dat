@@ -2591,7 +2591,7 @@ dialog{
   skip = "all",
   translators_note = "James and Mike are related to AVGN",
   text = [[
-An horrific novel:
+ A horrific novel:
    Panic in the
     Lost Woods
 The storm was
@@ -4536,15 +4536,14 @@ Here it is!
 
 Ah,$0
 I almost forgot!
-Here you have the
-lightsaber that I
+Here you are. This is
+the lightsaber I
 confiscated from you.
+
 I didn't find the
 blue color pretty
 at all...
-
-so I have changed its
-color.
+so I changed its color.
 It's much better now.
 as you can see.
 ]],
@@ -4602,7 +4601,8 @@ you did the work,
 but you could have put
 more enthusiasm.
 
-However, I'm gonna
+
+I'm still gonna
 take some of your
 heart containers,
 as a part of your
@@ -4631,7 +4631,8 @@ Take this!
 dialog{
   id = "intro.zelda_shaking",
   text = [[
-I'M GONNA SHAKE YOU!!!
+I'M GONNA SHAKE YOU
+UP!!!
 ]],
 }
 
@@ -4643,19 +4644,19 @@ Ha!$0
 Finally!
 $0
 Don't pretend you
-have forgotten that.
+forgot.
 
 Like every morning,
-you must pay off for
-what you made me
-suffer.
+you must redeem
+yourself for the
+trouble you caused.
 $0
 
 Only 3 months of
-chores for me remain.
+chores are still
+remaining.
 Come back when you
-are ready.
-$0
+are ready.$0
 
 What?!
 A dream with a flying

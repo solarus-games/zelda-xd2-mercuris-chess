@@ -4457,6 +4457,285 @@ hour.
 }
 
 dialog{
+  id = "lafoo_riot.npc_1",
+  skip = "all",
+  text = [[
+I have butterflies
+in my stomach...
+
+No doubt. This is the
+joy of seeing this
+building on fire!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_11",
+  skip = "all",
+  text = [[
+I'm sure that this fire
+has not been caused
+by the people.
+Nope, this is a
+conspiracy caused
+by the government!
+Have you heard about
+the Illuminatis?
+No?
+And the Reptiles?
+Neither?
+These are the secret
+societies responsible
+of this fire, and
+nobody talks about
+that!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_12",
+  skip = "all",
+  translators_note = "'Ouiche lorraine' is actually 'quiche lorraine' but the typo is on purpose. Reference to French movie 'Le grand détournement'",
+  text = [[
+I've felt something
+like a burning
+scent...
+I thought first that
+this was the quiche
+lorraine that I left
+in the oven.
+No way!
+It was this damn
+Office that people
+decided to burn!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_13",
+  skip = "all",
+  text = [[
+Hey, do something!
+Don't stay like that,
+uselessly!
+Well, I say this, but
+I'm not better than
+you so I gossip!
+At least, has someone
+called the firemen?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_14",
+  skip = "all",
+  text = [[
+On the one hand,
+it's sad when there
+is a fire...
+But on the other hand,
+it's a joy to see this
+thing burn!
+Mr Grump, its owner,
+is ignoble with women.
+
+Someone should
+replace these ideas
+in his head!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_15",
+  skip = "all",
+  text = [[
+I've seen people of
+the village set fire
+on this building!
+It's the Lost and
+Found Office.
+
+I was there when it
+started!
+
+I've seen all, but I
+won't tell anything!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_16",
+  skip = "all",
+  text = [[
+This damn Lost and
+Found Office...
+Finally, it burns!
+I remember that I
+spent a whole day
+inside.
+That administrative
+paperwork was a
+never ending thing!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_17",
+  skip = "all",
+  translators_note = "Reference to a silly French dance song from the 90's",
+  text = [[
+Fire burns...$0
+And water wets.
+
+Heh, that could make
+a nice song!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_18",
+  skip = "all",
+  text = [[
+Some people called
+it the Lost and Found
+Office.
+I call it: the Waste
+Time Ofice!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_19",
+  skip = "all",
+  translators_note = "Quote of Mahatma Gandhi",
+  text = [[
+No country has ever
+risen without being
+purified through the
+fire of suffering.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_2",
+  skip = "all",
+  translators_note = "Reference to left-wing French politician Jean-Luc Melenchon, famous for his bombastic speeches",
+  text = [[
+YES SIR!
+DON'T BE AFRAID
+OF WORDS!!!
+This building on
+fire is a symbolic
+thing!
+This expresses the
+anger of people!
+
+No more administrative
+processes!
+
+No more
+cosmopolite-bourgeoise
+bureaucracy!
+No more of this!
+REVOLUTION!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_20",
+  skip = "all",
+  text = [[
+The discontent of the
+villagers has been
+heard!
+Fortunately, the
+employees went
+out in time.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_3",
+  skip = "all",
+  text = [[
+I admire honest
+people...
+
+...and know this, boy,
+the director of the
+Lost and Found Office
+wasn't one! So,
+he should go to hell!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_4",
+  skip = "all",
+  translators_note = "The curses are references to Captain Haddock, in the Franco-belgian comic book 'The Adventures of Tintin'",
+  text = [[
+The director of the
+Lost and Found Office
+is called Mr Grump.
+He lives in a royal
+castle that he bought
+with his fortune...
+What a bashi-bazouk!
+Ectoplasm! Anacoluthon!
+Filibuster! Diplodocus!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_5",
+  skip = "all",
+  translators_note = "Reference to the movie Batman the Dark Knight",
+  text = [[
+Some men just
+want to watch the
+world burn...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_6",
+  skip = "all",
+  text = [[
+And who is gonna clean
+the ashes of this fire?
+Again, granny...
+Ah, to mess around,
+these young people
+are good!
+But when it's about
+cleaning...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_7",
+  skip = "all",
+  text = [[
+I do footing each
+week, but then
+suddenly...
+...my shoelace untied.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_8",
+  skip = "all",
+  text = [[
+Gneh heh heh...
+I've always had
+passion for fire...
+But it wasn't me,
+not this time!
+]],
+}
+
+dialog{
   id = "main_village.castle_guard_after_dungeon_1",
   skip = "all",
   text = [[

@@ -2212,7 +2212,7 @@ dialog{
 Do you hear those
 meows?
 
-I think that is
+I think that it is
 Snowflake. It is
 still hungry.
 Go feed it now!
@@ -2292,16 +2292,16 @@ Mr Grump, the
 filthy director of
 the Lost and Found
 Office.
-He never wants
-to send me the
-Permit A38!
+He still won't send me
+permit A38!
 What a rude person.
 
-However, I've
-filled the blue form!
+And yet, I did fill
+the blue form!
 What a bunch of
 incompetents in this
 administration...
+
 Even though I'm
 a princess!
 ]],
@@ -2405,7 +2405,7 @@ dialog{
   id = "chores.mailbox",
   text = [[
 Oh!$0
-There is mail!
+There is some mail!
 ]],
 }
 
@@ -3572,11 +3572,11 @@ dialog{
 Thank you, $v!$0
 
 
-*Slurp*$0 *slurp*$0*slurp*$0
+*Slurp*$0 *slurp*$0 *slurp*$0
 It was delicious!
 
 Hey, $v, don't
-you hear meowing?
+you hear these meows?
 
 That's Snowflake!
 It is hungry!

@@ -4077,7 +4077,7 @@ Here, we don't like
 thieves and cads.
 
 Don't touch my
-flippers!
+flippers ever again!
 ]],
 }
 
@@ -4097,14 +4097,14 @@ dialog{
   id = "island.grump_hey",
   text = [[
 Hey!
-Tell me!
+You!
 ]],
 }
 
 dialog{
   id = "island.grump_my_flippers",
   text = [[
-But those are my
+Hey! Those are my
 flippers!$0
 Guards! Security!
 ]],
@@ -4114,9 +4114,10 @@ dialog{
   id = "island.grump_tower_guard_1",
   skip = "all",
   text = [[
-Grump Tower is now
-under construction.
-Come back later.
+Grump Tower is
+currently close due to
+of work ongoing.
+Please come back later.
 ]],
 }
 
@@ -4124,7 +4125,8 @@ dialog{
   id = "island.grump_tower_guard_2",
   skip = "all",
   text = [[
-\[???\]
+Don't bullshit him,
+José!
 ]],
 }
 
@@ -4143,8 +4145,8 @@ This is not an open
 world!
 
 Here, there is an order
-for the dungeons.
-
+to respect for
+dungeons.
 Don't you think you can
 do whatever you want!
 ]],
@@ -4154,14 +4156,14 @@ dialog{
   id = "island.grump_tower_guard_4",
   skip = "all",
   text = [[
-Aargh! It's the big
-debate of this
-moment...
+Well, it's the big
+debate nowadays...
 a linear game or a
 non-linear game.
 As long as I'm
-payed for the human
-wall, I don't mind.
+payed for playing a
+human wall role, I
+don't mind.
 ]],
 }
 
@@ -4180,7 +4182,8 @@ dialog{
 I play hide-and-seek
 with my children.
 
-I'm so peaceful now...
+This should be quiet
+for a while...
 ]],
 }
 
@@ -4241,8 +4244,9 @@ dialog{
   text = [[
 You've lived atrocious
 things in that cave.
-And that was not worth
-it these 20 rupees.
+And these 20 rupees
+were definitely not
+worth it.
 ]],
 }
 
@@ -4370,12 +4374,11 @@ dialog{
   id = "island.zoo_chief",
   skip = "all",
   text = [[
-It's here where Mr
-Grump ventilates
-his rupees.
-That allows our
-visitors to admire
-them.
+Mr Grump ventilates
+his rupees right here.
+
+That allows visitors to
+admire them.
 ]],
 }
 
@@ -4391,9 +4394,9 @@ dialog{
   id = "island.zoo_rgb",
   skip = "all",
   text = [[
-Didn't they have
-another color for
-the 300?
+Didn't they have any
+other color available
+for the 300?
 ]],
 }
 
@@ -4426,9 +4429,9 @@ castle, he bought it
 with his huge fortune.
 It seems that he has
 covered the walls with
-gold! If you look for
-him, he will surely
-be there!
+gold! If you are
+looking for him, he
+will surely be there!
 ]],
 }
 
@@ -4436,8 +4439,8 @@ dialog{
   id = "lafoo.before_explosion",
   skip = "all",
   text = [[
-It would be better
-not to enter there...
+Better not enter
+there...
 
 ...this is likely to
 collapse at any

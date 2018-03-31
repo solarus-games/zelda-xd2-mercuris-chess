@@ -5320,6 +5320,7 @@ rubis.
 
 dialog{
   id = "island.shop.blue_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 LA potion ultime. Avec
 ça, tu redeviens un
@@ -5332,6 +5333,7 @@ la gorge...
 
 dialog{
   id = "island.shop.flippers",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Les palmes les plus
 rapides des sept mers.
@@ -5344,6 +5346,7 @@ foi de PJMTLG.
 
 dialog{
   id = "island.shop.green_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Si tu veux éveiller
 la Force qui sommeille
@@ -5357,6 +5360,7 @@ la gorge !
 dialog{
   id = "island.shop.kitchen",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Tu te crois à la
 cantina ? Tu crois
@@ -5373,6 +5377,7 @@ tire-toi.
 dialog{
   id = "island.shop.laboratory",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Touche pas au matos,
 petit. Laisse faire le
@@ -5387,6 +5392,7 @@ j'en referai illico.
 dialog{
   id = "island.shop.merchant",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Salut, moi c'est
 Planteur. Je suppose
@@ -5405,6 +5411,7 @@ tirer ce mois-ci.
 
 dialog{
   id = "island.shop.red_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Quand tu te sens un
 peu faible, rien de
@@ -5418,6 +5425,7 @@ tranche la gorge !
 dialog{
   id = "island.shop.vault",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 HEY ! Tu crois faire
 quoi là !? Tu me

@@ -6295,6 +6295,7 @@ oublié dans le four.
 dialog{
   id = "lafoo_riot.npc_51",
   skip = "all",
+  translators_note = "Reference to French TV show Kaamelott",
   text = [[
 On en a gros !
 ]],
@@ -6349,6 +6350,7 @@ Hasta la vista baby !
 dialog{
   id = "lafoo_riot.npc_55",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Au guichet 22,
 tu sais quoi ?
@@ -6377,6 +6379,7 @@ te plaît.
 dialog{
   id = "lafoo_riot.npc_57",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Tu n'aurais pas vu le
 mec du guichet 32 ?
@@ -6389,6 +6392,7 @@ toutes les clés.
 dialog{
   id = "lafoo_riot.npc_58",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Le gars du guichet 41
 du Bureau des Objets 

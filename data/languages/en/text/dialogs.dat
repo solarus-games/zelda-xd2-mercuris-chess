@@ -5021,6 +5021,43 @@ going on to the South?
 }
 
 dialog{
+  id = "lafoo_riot.npc_48",
+  skip = "all",
+  translators_note = "Reference to Back to the Future",
+  text = [[
+Great Scott!
+
+
+Looks like an arson is
+devastating the Lost
+and Found Office!
+This reminds me of an
+anecdote that happened
+in 1955,
+except that it more
+about lightning rather
+than fire, and it was
+a city hall clock
+instead of an office.
+
+Actually this is quite
+different.
+Great Scott!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_49",
+  skip = "all",
+  translators_note = "Reference to Back to the Future",
+  text = [[
+Don't you EVER call me
+a chicken.
+NEVER, okay?
+]],
+}
+
+dialog{
   id = "lafoo_riot.npc_5",
   skip = "all",
   translators_note = "Reference to the movie Batman the Dark Knight",
@@ -5028,6 +5065,94 @@ dialog{
 Some men just
 want to watch the
 world burn...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_50",
+  skip = "all",
+  text = [[
+The other day, there
+was already a burning
+smell like this.
+Except that it was the
+leg of lamb that I had
+forgotten in the oven.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_54",
+  skip = "all",
+  text = [[
+I was an employee of
+the Lost and Found
+Office, and now, thanks
+to this fire, I am
+free!
+
+Good bye Mr Grump!
+Good bye you and your
+horrible way of
+treating your employees!
+Hasta la vista baby !
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_55",
+  skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
+  text = [[
+Remember counter 22?
+
+
+They used to consider
+themselves the best
+counter in the world.
+Well, just like the
+rest, everything went
+up in smoke!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_56",
+  skip = "all",
+  text = [[
+There are so many
+onlookers that I can't
+even go back home in
+Chill Valley!
+Please get out of the
+way.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_57",
+  skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
+  text = [[
+Did you see the guy
+from counter 32?
+He left with all keys.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_58",
+  skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
+  text = [[
+The employee from
+counter 41 was fired
+because he was taking
+breaks all day long.
+I heard that he found a
+new job at the
+restaurant of the
+Grump Tower!
 ]],
 }
 
@@ -5047,6 +5172,53 @@ cleaning...
 }
 
 dialog{
+  id = "lafoo_riot.npc_66",
+  skip = "all",
+  text = [[
+Walk to the East.
+I have a feeling that
+people want you to
+go there!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_67",
+  skip = "all",
+  text = [[
+The village is under a
+state of emergency.
+
+Sorry mate, this path
+is closed!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_68",
+  skip = "all",
+  text = [[
+So you are trying not
+to follow the scripted
+events that game
+developers prepared for
+you?
+Smart alec!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_69",
+  skip = "all",
+  text = [[
+To the North is the
+Lost and Found Office,
+which is burning like
+a crème brûlée.
+]],
+}
+
+dialog{
   id = "lafoo_riot.npc_7",
   skip = "all",
   text = [[
@@ -5054,6 +5226,128 @@ I do footing each
 week, but then
 suddenly...
 ...my shoelace untied.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_70",
+  skip = "all",
+  text = [[
+My goodness, the whole
+village is gathered
+right here!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_71",
+  text = [[
+I think I saw the
+arsonist run away.
+
+He had a stick that
+shoots fire.
+
+Just like you...
+
+
+Tell me, is that you?
+
+
+Well because if it is
+you, I am not mad at
+you.
+On the contrary, you
+are a hero!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_72",
+  skip = "all",
+  text = [[
+Let's watch that
+thingummy burn and
+enjoy the show.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_74",
+  skip = "all",
+  text = [[
+Too bad this is not
+winter, it would have
+warmed everybody up.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_75",
+  skip = "all",
+  text = [[
+I wanted to take my
+girlfriend to a show
+but I am broke.
+So I brought her here
+to see this fire.
+
+This is not everyday
+stuff, man!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_76",
+  skip = "all",
+  text = [[
+I would never have
+imagined that there
+were so many people
+in the village!
+It's crazy!
+They should organize
+this kind of fireworks
+show more often.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_77",
+  skip = "all",
+  text = [[
+The Lost and Found
+Office was everything
+but a historical
+monument. But to
+witness it going up in
+smoke, this is a
+historical moment!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_78",
+  skip = "all",
+  text = [[
+I wonder if this is a
+riot or a party.
+A fire that is out of
+control in the middle
+of the forest, and
+people seem delighted.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_79",
+  skip = "all",
+  translators_note = "Reference to German History : Berlin Wall",
+  text = [[
+History books will
+report this event as
+the Fall of the
+Administrative Wall.
 ]],
 }
 
@@ -5066,6 +5360,18 @@ I've always had
 passion for fire...
 But it wasn't me,
 not this time!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_80",
+  skip = "all",
+  text = [[
+I can't look towards
+the fire.
+
+This represents too
+much emotion for me.
 ]],
 }
 

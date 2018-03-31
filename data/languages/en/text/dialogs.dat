@@ -2653,8 +2653,13 @@ doesn't give me more
 privileges since the
 revolution in Hyrule.
 
+
 I say: LONG LIVE
 THE MONARCHY!
+
+Thank you, you boorish
+commoner. You're rustic
+but nice, after all.
 ]],
 }
 
@@ -2683,13 +2688,13 @@ dialog{
   text = [[
 Thanks, fortunately
 I'm not in a hurry...
-It's an invitation for
-the festival
-"Mustard and Cinema",
-great!
 
-Actually, take a
-chewing gum, $v.
+It's an invitation to
+attend San Diego TV
+news on KVWN channel 4.
+
+By the way, stay
+classy, $v.
 ]],
 }
 
@@ -2996,6 +3001,14 @@ dialog{
   skip = "all",
   translators_note = "Reference to a song by the French singer Julien Doré",
   text = [[
+Never gonna
+make you cry
+
+Never gonna
+say goodbye
+
+Never gonna tell a lie
+and hurt you
 ]],
 }
 
@@ -3803,11 +3816,11 @@ My little heart melted
 when you offered me
 this perfume.
 It really was love at
-first sight.
+first retweet, as the
+young now say.
 You are so much more
 clever than that
 weirdo $v.
-
 Tell me where it comes
 from, because my flask
 is almost empty...

@@ -1,13 +1,13 @@
-_____________________________________________
+____________________________________________
 
-Zelda XD2: Mercuris Chess 1.0.5 (in progress)
-_____________________________________________
+Zelda XD2: Mercuris Chess 1.0.5 (2018-04-01)
+____________________________________________
 
 * Add English translation (#79).
 * Give more hints to make the player get the lens before dungeon 1 (#96).
 * Fix using joypad in menus (#29).
 * Fix prehistoric label displaying (#93).
-* Fix minor issue in French strings.
+* Fix minor issues in French dialogs.
 * Dungeon 2 1F: fix hookshot not working between two platforms (#91).
 
 ____________________________________________

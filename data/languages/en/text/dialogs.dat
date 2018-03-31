@@ -2302,6 +2302,16 @@ name of this town.
 }
 
 dialog{
+  id = "chill_valley.z_house.adult_book",
+  text = [[
+
+An adult book!
+
+You're not old enough
+to read this stuff!
+]],
+}
+
   id = "chores.cat_already_fed",
   text = [[
 Stop feeding the cat.

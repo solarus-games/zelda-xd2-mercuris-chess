@@ -1963,6 +1963,23 @@ life, y'know?
 }
 
 dialog{
+  id = "chill_valley.bath.miserable_myrtle",
+  text = [[
+Some times ago, a
+wizard student came
+and opened an golden
+egg in these baths.
+We had to flush all
+the water! He believed
+he would hear a song
+by doing this.
+Seriously!? He thought
+it was a Zora jukebox
+or what ?
+]],
+}
+
+dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
   translators_note = "Reference to a French movie named La Grande Vadrouille",

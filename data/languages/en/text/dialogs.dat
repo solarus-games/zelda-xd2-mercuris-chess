@@ -2562,7 +2562,7 @@ people hate sausages?
 No fuckin' reason.
 So yes, I am right here
 with a camel, and would
-one need a reason?
+we need a reason?
 ]],
 }
 
@@ -4504,6 +4504,20 @@ building on fire!
 }
 
 dialog{
+  id = "lafoo_riot.npc_10",
+  skip = "all",
+  translators_note = "Reference to the song 'I am Gonna Be' by The Proclaimers",
+  text = [[
+But I would walk 500
+miles, and I would walk
+500 more, just to be
+the man who walks a
+thousand miles, to see
+this thing fall down.
+]],
+}
+
+dialog{
   id = "lafoo_riot.npc_11",
   skip = "all",
   text = [[
@@ -4616,7 +4630,7 @@ never ending thing!
 dialog{
   id = "lafoo_riot.npc_17",
   skip = "all",
-  translators_note = "Reference to a silly French dance song from the 90's",
+  translators_note = "Reference to Adele's song",
   text = [[
 They set fire...$0
 To the rain...
@@ -4691,7 +4705,7 @@ out in time.
 dialog{
   id = "lafoo_riot.npc_21",
   skip = "all",
-  translators_note = "Reference to French singer Johnny Hallyday's most famous song",
+  translators_note = "Quote from Robert Frost + reference to 'A song of ice and fire' books by George R. R. Martin",
   text = [[
 Some say the world will
 end in fire, some say
@@ -4970,6 +4984,29 @@ Blimey!
 }
 
 dialog{
+  id = "lafoo_riot.npc_39",
+  skip = "all",
+  translators_note = "Reference to TV show The IT Crowd",
+  text = [[
+Dear Sir/Madam,
+I am here to inform
+you of a fire which has
+broken out to the
+premisses of...
+no, that is too formal.
+Dear Sir/Madam,
+Fire! Exclamation mark.
+Fire! Exclamation mark.
+Help me! Exclamation
+mark.
+Lost and Found Office.
+Looking forward to
+hearing from you!
+All the best.
+]],
+}
+
+dialog{
   id = "lafoo_riot.npc_4",
   skip = "all",
   translators_note = "The curses are references to Captain Haddock, in the Franco-belgian comic book 'The Adventures of Tintin'",
@@ -4983,6 +5020,60 @@ with his fortune...
 What a bashi-bazouk!
 Ectoplasm! Anacoluthon!
 Filibuster! Diplodocus!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_40",
+  skip = "all",
+  translators_note = "Reference to the TV show Battlestar Galactica",
+  text = [[
+Somebody forgot their
+bread in a frakking
+toaster?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_41",
+  skip = "all",
+  translators_note = "Reference to TV show 24",
+  text = [[
+The fire is an act of
+terrorrism. I have just
+called CTU.
+Trust me, everything
+will be over in less
+than 24 hours.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_42",
+  skip = "all",
+  translators_note = "Reference to TV show The IT Crowd",
+  text = [[
+Did you see that
+ludicrous display last
+night?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_43",
+  skip = "all",
+  translators_note = "Reference to TV show How i met your mother",
+  text = [[
+You don't know what
+is happening?
+
+Seriously?!
+
+
+It is going to be...
+wait for it...
+
+legendary!
 ]],
 }
 
@@ -5112,6 +5203,47 @@ smell like this.
 Except that it was the
 leg of lamb that I had
 forgotten in the oven.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_51",
+  skip = "all",
+  translators_note = "Reference to the movie Office Space",
+  text = [[
+They never gave me my
+red stapler back...
+
+I could really have
+been the one who...
+burned this place...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_52",
+  skip = "all",
+  translators_note = "Reference to TV show Seinfeld",
+  text = [[
+Stay in line like
+everybody and don't
+take their spot.
+Otheriwse, no soup for
+you!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_53",
+  skip = "all",
+  translators_note = "Reference to TV show Arrested Development",
+  text = [[
+Now the story of a
+wealthy industry who
+lost everything.
+And of the one boss who
+had no choice but to
+run away.
 ]],
 }
 
@@ -5307,6 +5439,20 @@ enjoy the show.
 }
 
 dialog{
+  id = "lafoo_riot.npc_73",
+  skip = "all",
+  translators_note = "Reference to the movie Office Space",
+  text = [[
+If my office could
+just, yeah...
+you know... not burn,
+with all these TPS
+reports... yeah,
+that would be great.
+]],
+}
+
+dialog{
   id = "lafoo_riot.npc_74",
   skip = "all",
   text = [[
@@ -5406,6 +5552,19 @@ the fire.
 
 This represents too
 much emotion for me.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_9",
+  skip = "all",
+  translators_note = "Reference to TV show Lost",
+  text = [[
+What is this strange
+black smoke? While you
+are at it, why not a
+polar bear and a lost
+island?
 ]],
 }
 

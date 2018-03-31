@@ -2382,6 +2382,7 @@ seconde, crois-moi...
 dialog{
   id = "chill_valley.s_house.ganon",
   skip = "all",
+  translators_note = "Reference to Star Wars",
   text = [[
 Oh, c'est toi...
 Vas-y, rigole de ce

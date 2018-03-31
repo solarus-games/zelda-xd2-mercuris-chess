@@ -2268,11 +2268,11 @@ dialog{
   translators_note = "Based on Wreck-it Ralph monsters assembly intervention",
   text = [[
 My name's Ernest and
-deep inside, i'm not
-that bad, i'm just
+deep inside, I'm not
+that bad, I'm just
 playin' a role in this
 game... Truly, people
-say i'm a Care Bears.
+say I'm a Care Bears.
 If I could do hug to
 hero instead of just
 rush toward it,
@@ -2285,10 +2285,11 @@ for one second!
 dialog{
   id = "chill_valley.s_house.ganon",
   skip = "all",
+  translators_note = "Reference to Star Wars",
   text = [[
 Arh! You again!
 Go on, laugh as much as
-you can about what i've
+you can about what I've
 become. Homeless! They
 destroyed my Tower! For
 real, man! Last time,
@@ -2297,7 +2298,7 @@ dead in the lava...
 You were the Choosen
 One, okay, but you
 could have been nice.
-Obviously, i said that
+Obviously, I said that
 duel was "On death",
 but you know sometimes
 my words go beyond my
@@ -2341,8 +2342,8 @@ AND SO WHAT!?
 ...
 ...
 ...
-Excuse-me sir, I'm once
-again loosing my mind
+Excuse me Sir, I'm once
+again losing my mind
 for n'thing. Y'know,
 I'm comin' here to try
 to control myself...
@@ -2373,8 +2374,8 @@ dialog{
   skip = "all",
   text = [[
 I want to open a
-hairdresser to excuse
-my past behaviour on
+hairdresser to make up
+for my past behavior on
 all this poor beasts
 I ate in my maleficient
 past life. What do you
@@ -2402,9 +2403,9 @@ with his two swords,
 but boy he was good! I
 can tell you it put me
 back on the right track
-for sure! No more eat
-to human flesh after
-that one.
+for sure! No more
+eating human flesh ever
+again after that one.
 ]],
 }
 
@@ -2455,6 +2456,7 @@ name of this town.
 
 dialog{
   id = "chill_valley.z_house.adult_book",
+  skip = "all",
   text = [[
 
 An adult book!
@@ -2466,6 +2468,7 @@ to read this stuff!
 
 dialog{
   id = "chill_valley.z_house.biography_grump",
+  skip = "all",
   text = [[
    A biography about   
    Mr. Grump's life

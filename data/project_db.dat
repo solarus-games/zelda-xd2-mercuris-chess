@@ -767,6 +767,7 @@ entity{ id = "torch", description = "Torch" }
 entity{ id = "traversable", description = "Traversable" }
 entity{ id = "weeping_angel", description = "Weeping angel" }
 
+language{ id = "en", description = "English" }
 language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "ALTTP" }
@@ -775,4 +776,5 @@ font{ id = "la", description = "Link's Awakening" }
 font{ id = "minecraftia", description = "Minecraftia" }
 font{ id = "minecraftia_mono", description = "Minecraftia Mono" }
 font{ id = "white_digits", description = "White digits" }
+
 

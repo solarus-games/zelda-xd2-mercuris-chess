@@ -1,14 +1,14 @@
-![Zelda Return of the Hylian logo](data/logos/logo.png)
+![Zelda XD2 logo](data/logos/logo.png)
 
 # Zelda XD2: Mercuris Chess
 
-**Zelda XD2: Mercuris Chess** the sequel of the first *XD* parodic game, and was also released on April 1st, in 2017 this time. As a direct sequel, the overworld is expanded, the story is extended and the funny tone is kept, if not bettered!
+**Zelda XD2: Mercuris Chess** is the sequel of the first *XD* parodic game, and was also released on April 1st, in 2017 this time. As a direct sequel, the overworld is expanded, the story is extended and the funny tone is kept, if not bettered!
 
 - **Release Date:** April 1st, 2017
 - **Players:** 1
-- **Length:** 7-12 hours
+- **Length:** 5-10 hours
 - **License:** Copyrighted assets + CC BY-SA 4.0 assets. See `license.txt` for more information.
-- **Languages:** French
+- **Languages:** English, French
 
 ## History
 
@@ -20,4 +20,4 @@ The team workded really hard, and you can feel the improvements from the previou
 
 You do not need to have played the first XD game to enjoy Mercuris Chess. However, to appreciate the game’s introduction, you need to know that, in the first episode, Link locked Zelda up in his cave after a drinking night.
 
-The story takes place some months after that terrible night. While Link was trying to make up for his fault, a very rich character named M. Grump took over the kingdom and bought everything.
+The story takes place some months after that terrible night. While Link was trying to make up for his fault, a very rich business man named Mr Grump took over the kingdom and bought everything.

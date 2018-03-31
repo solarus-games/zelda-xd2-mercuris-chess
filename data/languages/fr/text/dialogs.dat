@@ -360,7 +360,7 @@ dialog{
   icon = "37",
   skip = "all",
   text = [[
-Une boite de
+Une boîte de
 conserve contenant
 de la nourriture
 pour chat.
@@ -686,7 +686,7 @@ Potion Bleue !$0
 
 Bois-la pour
 prendre un nouveau
-départ
+départ.
 ]],
 }
 
@@ -1311,7 +1311,7 @@ Potion Verte !$0
 
 Bois-la pour
 te sentir humoriste
-dans l'âme
+dans l'âme.
 ]],
 }
 
@@ -1735,7 +1735,7 @@ qu'elle fait ici ?
 dialog{
   id = "_treasure.sword.2",
   icon = "67",
-  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",  
+  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",
   text = [[
 Tu as trouvé le
 Sabre Laser !$0
@@ -2382,6 +2382,7 @@ seconde, crois-moi...
 dialog{
   id = "chill_valley.s_house.ganon",
   skip = "all",
+  translators_note = "Reference to Star Wars",
   text = [[
 Oh, c'est toi...
 Vas-y, rigole de ce
@@ -3523,7 +3524,7 @@ bling-bling...
 
 dialog{
   id = "desert.nw_sign",
-  translators_note = "Reference Monty Python",  
+  translators_note = "Reference Monty Python",
   text = [[
 Nord : Mont Tipiton
 Est : Désert Bakasable
@@ -3600,8 +3601,8 @@ de... de... de soi.
 
 dialog{
   id = "desert.piece_of_heart_cave_sign",
-  translators_note = "French equivalent of the 'not' joke",  
   skip = "all",
+  translators_note = "French equivalent of the 'not' joke",
   text = [[
 Seul le vrai héros
 obtiendra le trésor.$0$0
@@ -3851,7 +3852,7 @@ monstres !
 
 dialog{
   id = "dungeon_1.welcome",
-  translators_note = "Reference to Trump's alternative Facts (fake news)",  
+  translators_note = "Reference to Trump's alternative Facts (fake news)",
   text = [[
         Niveau 1
    Château des Vérités
@@ -3925,7 +3926,7 @@ Installez-vous !
 dialog{
   id = "dungeon_2.1f.drunk_man",
   skip = "all",
-  translators_note = "The PNJ is drunk and tries hard to formulate something that makes sense",
+  translators_note = "The NPC is drunk and tries hard to formulate something that makes sense",
   text = [[
 Alors comme ça le...
 hip ! bureau des
@@ -3976,8 +3977,8 @@ l'établissement.
 
 dialog{
   id = "dungeon_2.1f.kitchen_guard_go_wash",
-  translators_note = "'La plonge' is French slang for 'whasing dishes'",
   skip = "all",
+  translators_note = "'La plonge' is French slang for 'whasing dishes'",
   text = [[
 Tu es le petit nouveau ?
 Arrête de bavarder et
@@ -3988,6 +3989,7 @@ va à la plonge.
 dialog{
   id = "dungeon_2.1f.pause_man",
   skip = "all",
+  translators_note = "Exact dialog from Zelda Mystery of Solarus XD (counter 41)",
   text = [[
 Je suis actuellement en
 pause, et j'en ai bien
@@ -4041,8 +4043,8 @@ sont originales !
 
 dialog{
   id = "dungeon_2.2f.blue_haired_boy",
-  translators_note = "Second part is a reference to Zelda Link's Awakening",
   skip = "all",
+  translators_note = "Second part is a reference to Zelda Link's Awakening",
   text = [[
 À quoi peuvent bien
 servir toutes ces
@@ -4104,6 +4106,7 @@ chanceux !
 dialog{
   id = "dungeon_2.2f.green_hat_man",
   skip = "all",
+  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX 'outside_world.village.hat_man_npc'",
   text = [[
 Attention à ne pas
 dilapider toutes ses
@@ -4190,7 +4193,7 @@ dialog{
 Allo ? Allo ?
 Tu m'entends ?
 
-C'est moi, Sahasrahala.
+C'est moi, Sahasrahla.
 Je te parle par
 télépathie.
 C'est toujours ok pour
@@ -4372,7 +4375,6 @@ Mymy
 
   Château des Vérités
      Alternatives :
-
 Metallizer
       Tour Grump :
 Christopho
@@ -4389,6 +4391,12 @@ Binbin
 Pas grand monde d'autre
 sinon. On était super à
 la bourre.
+       Traduction
+       anglaise :
+
+Christopho
+Diarandor
+
      Remerciements
        spéciaux :
 
@@ -4554,9 +4562,9 @@ chez quelqu'un...
 En plus, tu pilles les
 temples de leurs
 trésors.
-Par-dessus le tout, tu 
-m'avais séquestrée dans
-ta cave ! 
+Par-dessus le marché,
+tu m'avais séquestrée
+dans ta cave !
 Et voilà que tu
 espionnes un couple qui
 passe un moment
@@ -5190,8 +5198,8 @@ pipeau, José !
 
 dialog{
   id = "island.grump_tower_guard_3",
-  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
   skip = "all",
+  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
   text = [[
 On a été chargé de
 te bloquer car tu as
@@ -5313,6 +5321,7 @@ rubis.
 
 dialog{
   id = "island.shop.blue_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 LA potion ultime. Avec
 ça, tu redeviens un
@@ -5325,6 +5334,7 @@ la gorge...
 
 dialog{
   id = "island.shop.flippers",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Les palmes les plus
 rapides des sept mers.
@@ -5337,6 +5347,7 @@ foi de PJMTLG.
 
 dialog{
   id = "island.shop.green_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Si tu veux éveiller
 la Force qui sommeille
@@ -5350,6 +5361,7 @@ la gorge !
 dialog{
   id = "island.shop.kitchen",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Tu te crois à la
 cantina ? Tu crois
@@ -5366,6 +5378,7 @@ tire-toi.
 dialog{
   id = "island.shop.laboratory",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Touche pas au matos,
 petit. Laisse faire le
@@ -5380,6 +5393,7 @@ j'en referai illico.
 dialog{
   id = "island.shop.merchant",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Salut, moi c'est
 Planteur. Je suppose
@@ -5398,6 +5412,7 @@ tirer ce mois-ci.
 
 dialog{
   id = "island.shop.red_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Quand tu te sens un
 peu faible, rien de
@@ -5411,6 +5426,7 @@ tranche la gorge !
 dialog{
   id = "island.shop.vault",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 HEY ! Tu crois faire
 quoi là !? Tu me
@@ -5584,8 +5600,8 @@ bonheur de voir cet
 
 dialog{
   id = "lafoo_riot.npc_10",
-  translators_note = "Reference to French comedy group Les Nuls, their skit 'L'école du fan",
   skip = "all",
+  translators_note = "Reference to French comedy group Les Nuls, their skit 'L'école du fan",
   text = [[
 M. Grump aurait
 commencé à bâtir sa
@@ -6288,6 +6304,7 @@ oublié dans le four.
 dialog{
   id = "lafoo_riot.npc_51",
   skip = "all",
+  translators_note = "Reference to French TV show Kaamelott",
   text = [[
 On en a gros !
 ]],
@@ -6342,6 +6359,7 @@ Hasta la vista baby !
 dialog{
   id = "lafoo_riot.npc_55",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Au guichet 22,
 tu sais quoi ?
@@ -6370,6 +6388,7 @@ te plaît.
 dialog{
   id = "lafoo_riot.npc_57",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Tu n'aurais pas vu le
 mec du guichet 32 ?
@@ -6382,6 +6401,7 @@ toutes les clés.
 dialog{
   id = "lafoo_riot.npc_58",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Le gars du guichet 41
 du Bureau des Objets 
@@ -6542,11 +6562,14 @@ Ah bon,
 dialog{
   id = "lafoo_riot.npc_74",
   skip = "all",
+  translators_note = "Reference to the French movie La chèvre",
   text = [[
-C'est bête qu'on ne
-soit pas en hiver, ça
-aurait réchauffé tout
-le monde.
+Ça me rappelle le
+pavillon de mes parents
+à Saint-Cloud.
+J'avais acheté une
+bouteille de butane
+et...
 ]],
 }
 
@@ -6684,7 +6707,7 @@ dialog{
   id = "main_village.castle_guard_after_dungeon_1",
   skip = "all",
   text = [[
-Ah vous cherchez le
+Ah, tu cherches le
 patron ?
 Monsieur Grump est en
 déplacement de l'autre
@@ -6700,6 +6723,21 @@ dialog{
 C'est bon, tu peux
 entrer. On a retrouvé
 les clés.
+]],
+}
+
+dialog{
+  id = "main_village.castle_lens_hint",
+  skip = "all",
+  text = [[
+Je ne mettrai plus les
+pieds dans ce fichu
+château.
+Là-dedans, tout n'est
+que mensonges et
+illusions !
+Comment démêler le
+vrai du faux ?
 ]],
 }
 
@@ -6767,17 +6805,6 @@ de M. Grump
 Sous vos pieds : Herbe
 verte que M. Grump n'a
 pas encore rachetée
-]],
-}
-
-dialog{
-  id = "main_village.rtfm",
-  skip = "all",
-  translators_note = "Reference to 'Read The Fucking Manual'",
-  text = [[
-Tu es perdu dans les
-commandes ?
-RTFM.
 ]],
 }
 
@@ -6950,6 +6977,23 @@ souterrains.
 C'est n'importe quoi...
 Les gens jouent trop à
 Minecraft !
+]],
+}
+
+dialog{
+  id = "main_village.villager_underground_river",
+  skip = "all",
+  translators_note = "'Cela semble incroyable' is a reference to Zelda Link's Awakening (Richard)",
+  text = [[
+Tu es déjà allé à
+Chill Valley, à
+l'ouest d'ici ?
+Cela semble incroyable,
+mais il faut savoir que
+l'eau thermale de
+Chill Valley coule
+jusqu'ici dans une
+rivière souterraine.
 ]],
 }
 
@@ -7185,7 +7229,7 @@ dialog{
   id = "slot_machine.playing",
   text = [[
 Approche-toi des
-roulettes et appuyez sur
+roulettes et appuie sur
 la touche Action
 pour les arrêter.
 Bonne chance !

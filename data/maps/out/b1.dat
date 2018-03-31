@@ -15469,7 +15469,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/running_man",
-  behavior = "dialog#main_village.villager_tunnels",
+  behavior = "dialog#main_village.villager_underground_river",
 }
 
 npc{
@@ -15479,7 +15479,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/alttp/thief_yellow",
-  behavior = "dialog#main_village.rtfm",
+  behavior = "dialog#main_village.villager_tunnels",
 }
 
 destination{
@@ -15962,6 +15962,17 @@ pickable{
   treasure_name = "rupee",
   treasure_variant = 3,
   treasure_savegame_variable = "castle_rupee_5",
+}
+
+npc{
+  name = "random_walk_npc_1",
+  layer = 0,
+  x = 360,
+  y = 269,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/newlink/brown_haired_woman",
+  behavior = "dialog#main_village.castle_lens_hint",
 }
 
 tile{

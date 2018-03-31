@@ -1,24 +1,26 @@
--- Lua script of map out/c2.
--- This script is executed every time the hero enters this map.
-
--- Feel free to modify the code below.
--- You can add more events and remove the ones you don't need.
-
--- See the Solarus Lua API documentation:
--- http://www.solarus-games.org/doc/latest
-
 local map = ...
-local game = map:get_game()
 
--- Event called at initialization time, as soon as this map becomes is loaded.
+local num_torches_lit = 0
+
 function map:on_started()
 
-  -- You can initialize the movement and sprites of various
-  -- map entities here.
+  if not torches_chest:is_open() then
+    torches_chest:set_enabled(false)
+  end
 end
 
--- Event called after the opening transition effect of the map,
--- that is, when the player takes control of the hero.
-function map:on_opening_transition_finished()
+local function torch_on_lit(torch)
 
+  num_torches_lit = num_torches_lit + 1
+  if num_torches_lit == 2 and not torches_chest:is_enabled() then
+    local x, y = torches_chest:get_center_position()
+    map:move_camera(x, y, 250, function()
+      sol.audio.play_sound("chest_appears")
+      torches_chest:set_enabled(true)
+    end)
+  end
+end
+
+for torch in map:get_entities("torch_") do
+  torch.on_lit = torch_on_lit
 end

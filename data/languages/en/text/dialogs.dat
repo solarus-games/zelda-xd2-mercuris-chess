@@ -5609,8 +5609,8 @@ dialog{
   id = "main_village.castle_guard_before_dungeon_1",
   skip = "all",
   text = [[
-Ok, you can enter.
-We've found the keys.
+Okay, you can get in.
+We have found the keys.
 ]],
 }
 
@@ -5634,13 +5634,12 @@ dialog{
   skip = "all",
   translators_note = "This PNJ speaks as if he was texting and making lots of grammar and spelling mistakes.",
   text = [[
-Tht makz 5 days tht
-I hv kampd bhind
-ths shop.
-I wantd b sur of
-habng 1 iPlume in 1st.
-
-idk y I'm tird now.
+I'v been waitin' 5 days
+in frnt of t shop.
+I wan'd 2 b sure 2 b
+the 1st 1 with an
+iPlume.
+idk y I'm tir'd now.
 ]],
 }
 
@@ -5649,10 +5648,10 @@ dialog{
   skip = "all",
   text = [[
 North: Sandpit Desert
-Mt Tipiton
+Mount Typython
 
 South:
-Grump Apartments
+Grump Housing Estate
 ]],
 }
 
@@ -5684,14 +5683,14 @@ North: Golden Castle
 of Mr Grump
 
 East: Sandpit Desert
-Mt Tipiton
+Mount Typython
 
 West: Rupee Island
 of Mr Grump
 
 Below your feet: green
 grass that Mr Grump
-hasn't bought yet.
+hasn't bought yet
 ]],
 }
 
@@ -5715,7 +5714,7 @@ A true Heart Container.
 
 
 The first customers
-will get better price!
+will get better prices!
 ]],
 }
 
@@ -5730,9 +5729,8 @@ It's revolutionary!
 No feather has ever
 been made better
 than the iFeather.
-Available since now
-all over the world
-in the official
+Available worldwide
+right now in official
 iFeather shops.
 ]],
 }
@@ -5754,7 +5752,7 @@ dialog{
   next = "_unknown",
   text = [[
 A home-made red rupee.
-Really rare!
+Extremely rare!
 ]],
 }
 
@@ -5764,13 +5762,13 @@ dialog{
   text = [[
 All commerce is
 decentralized on
-periphery around the
+periphery out of the
 historic center.
 
 
 If all continues like
-that, we'll have to
-move too.
+that, we will have to
+move as well!
 ]],
 }
 
@@ -5794,8 +5792,7 @@ Thanks a lot!
 You got a good deal:
 price will rise for
 the next customers.
-Mwahahaha!
-$0$0Hehehe.
+Hehehe.
 ]],
 }
 
@@ -5815,8 +5812,8 @@ dialog{
 Customers are rare.
 
 
-All people live at
-Chill Valley or in
+Everybody now lives ay
+Chill Valley or on the
 Rupee Island!
 ]],
 }
@@ -5828,14 +5825,19 @@ dialog{
   text = [[
 There has been some
 vandalism. A person
-in green came here
-and broke all pots!
+dressed in green came
+here and broke all
+pots!
+
 People don't respect
-things anymore.
-I've been cleaning this
-house for two weeks.
-I've taken measures
-to prevent that again.
+anything anymore.
+
+I have been cleaning
+this house for two
+weeks.
+I took measures to
+prevent that from
+happening again.
 Mwahahaha!!!
 ]],
 }
@@ -5845,15 +5847,15 @@ dialog{
   skip = "all",
   translators_note = "Reference to the game Minecraft",
   text = [[
-Some people want
-the caves to be
-connected with
+Some people claim that
+caves are connected
+with each other through
 underground tunnels.
 
 
 Nonsense!
-Too many people
-play Minecraft!
+People play Minecraft
+with too much!
 ]],
 }
 
@@ -5863,13 +5865,13 @@ dialog{
   translators_note = "'Cela semble incroyable' is a reference to Zelda Link's Awakening (Richard)",
   text = [[
 Have you ever been
-to Chill Valley, to the
-west of here? It may
+to Chill Valley, West
+from here? It may
 seem unbelievable,
 but thermal water
-flows here from Chill
-Valley through an
-underground river.
+flows from Chill
+Valley to here through
+an underground river.
 ]],
 }
 
@@ -5883,11 +5885,11 @@ of Chill Valley.
 I love water.
 Water is life!$0
 Isn't it?
-Mr Grump, the director
+Mr Grump, the manager
 of the Lost and Found
 Office, is a despicable
 man who never wanted
-my water.
+any of my water.
 
 As a result, when the
 Lost and Found Office
@@ -5920,29 +5922,25 @@ dialog{
   id = "main_village.yoda_house.done",
   skip = "all",
   text = [[
-Rehoused here, I've
-been when the Swamp
-of the ForceTri
-destroyed has been.
-With no doubt,
-in this house with
-no mouse, I live.
+Rehoused here, I was
+when the Triforcizzle
+Marsh they destroyed.
+But on the wet side
+I stay, in this
+mushroom house.
 ]],
 }
 
 dialog{
   id = "main_village.yoda_house.give_green_saber",
   text = [[
-Rehoused here, I've
-been when the Swamp
-of the ForceTri
-destroyed has been.
-With no doubt,
-in this house with
-no mouse, I live.
-
-
-Painted unfairly,
+Rehoused here, I was
+when the Triforcizzle
+Marsh they destroyed.
+But on the wet side
+I stay, in this
+mushroom house.
+Unfairly painted,
 your lightsaber
 has been?
 With your clothes,

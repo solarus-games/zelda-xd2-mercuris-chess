@@ -2576,6 +2576,34 @@ to it.
 }
 
 dialog{
+  id = "chill_valley.z_house.economy_for_dummies",
+  skip = "all",
+  text = [[
+  Economy for Dummies
+
+
+Rupees are one of the
+specificities that make
+our kingdom unique
+compared to others.
+Where one would prefer
+to use gold for its
+rarity or barter, we
+use a usual matter
+that appears in most
+unlikely places: under
+a rock, when cutting
+grass, etc. - all to
+the gardener's fortune.
+That hugely handicaps
+our international
+relationships, because
+exchange rates have
+become very chaotic.
+]],
+}
+
+dialog{
   id = "chill_valley.z_house.encyclopedia.already_opened",
   skip = "all",
   text = [[

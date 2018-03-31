@@ -1853,6 +1853,21 @@ Good luck! Hehehe.
 }
 
 dialog{
+  id = "chill_valley.bath.cleaning_old_lady",
+  text = [[
+Yesterday, I read that
+1 in 3 people admit
+they pee in pools.
+So I made these baths
+analyzed and the result
+is quite alarming:
+the pools water is made
+of 70% pee. But please
+don't tell anyone...
+]],
+}
+
+dialog{
   id = "chill_valley.bath.cold",
   text = [[
 I've tried the Lava
@@ -1929,6 +1944,21 @@ than one minute in the
 lava, and you will get
 the right to claim your
 price at the entrance.
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.lovers_brassens",
+  text = [[
+Someday, a man sat next
+to me on a public bench
+with a box of chocolate.
+He began to tell me his
+whole incredible life.
+
+Someone should make a
+movie about that guy's
+life, y'know?
 ]],
 }
 

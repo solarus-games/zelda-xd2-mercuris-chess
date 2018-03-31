@@ -1887,13 +1887,14 @@ swimming pool!
 
 dialog{
   id = "chill_valley.bath.employee_only",
+  skip = "all",
+  translators_note = "Reference to Pratchett character Bloody Stupid Johnson",
   text = [[
- Bloody Stupid Johnson
-         Baths
-   !! DANGER ZONE !!
+Bloody Stupid Johnson's
+     Thermal Baths
+    !! DEATH RISK !!
 
-Authorized personnel
-only!
+ Authorized staff only!
 ]],
 }
 

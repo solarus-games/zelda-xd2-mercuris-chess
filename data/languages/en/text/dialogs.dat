@@ -1,0 +1,7380 @@
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+It's a crystal switch.
+Hit the switch with
+something...
+]],
+}
+
+dialog{
+  id = "_item_description.banana_skin_counter.1",
+  icon = "30",
+  skip = "all",
+  text = [[
+A banana skin that
+the monkey from the
+forest sold you.
+You have been
+scammed.
+]],
+}
+
+dialog{
+  id = "_item_description.bombs_counter.1",
+  icon = "1",
+  skip = "all",
+  text = [[
+Use Bombs against
+enemies or to blow
+up obstacles.
+]],
+}
+
+dialog{
+  id = "_item_description.boomerang.1",
+  icon = "34",
+  skip = "all",
+  text = [[
+Use the Boomerang
+to immobilize
+enemies or to catch
+objects in
+remote locations.
+]],
+}
+
+dialog{
+  id = "_item_description.boomerang.2",
+  icon = "35",
+  skip = "all",
+  text = [[
+Use the Boomerang
+to immobilize
+enemies or to catch
+objects in
+remote locations.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_1.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will
+help you when your
+Hearts are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_2.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will help
+you when your Hearts
+are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_3.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will help
+you when your Hearts
+are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.1",
+  icon = "7",
+  skip = "all",
+  text = [[
+The Magic Bottle
+can hold various
+things...
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.2",
+  icon = "8",
+  skip = "all",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+You'd better empty
+it.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.3",
+  icon = "9",
+  skip = "all",
+  text = [[
+Drink a Red Potion
+to refill all
+your Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.4",
+  icon = "10",
+  skip = "all",
+  text = [[
+Drink a Green Potion
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.5",
+  icon = "11",
+  skip = "all",
+  text = [[
+Drink a Blue Potion
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_item_description.bottle_4.6",
+  icon = "12",
+  skip = "all",
+  text = [[
+This Fairy will help
+you when your Hearts
+are low.
+]],
+}
+
+dialog{
+  id = "_item_description.bow.1",
+  icon = "2",
+  skip = "all",
+  text = [[
+You are out of
+arrows, which does
+not matter so much
+since the string is
+broken anyway.
+]],
+}
+
+dialog{
+  id = "_item_description.bow.2",
+  icon = "3",
+  skip = "all",
+  text = [[
+The string of your
+bow is broken.
+
+What are you going
+to do with all these
+arrows?
+]],
+}
+
+dialog{
+  id = "_item_description.cat_food.1",
+  icon = "37",
+  skip = "all",
+  text = [[
+A can that contains
+cat food.
+
+It does not look
+very appetizing,
+but well...
+This is intended for
+cats, isn't it?
+]],
+}
+
+dialog{
+  id = "_item_description.croissants_counter.1",
+  icon = "18",
+  skip = "all",
+  text = [[
+Eat a Croissant
+to recover seven
+Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.feather.1",
+  icon = "0",
+  skip = "all",
+  text = [[
+This is a Feather,
+but it is rather
+difficult to use.
+]],
+}
+
+dialog{
+  id = "_item_description.feather.2",
+  icon = "20",
+  skip = "all",
+  translators_note = "Reference to Apple marketing",
+  text = [[
+The iFeather allows
+to fly over holes
+and much more.
+]],
+}
+
+dialog{
+  id = "_item_description.fire_rod.1",
+  icon = "27",
+  skip = "all",
+  text = [[
+The fire rod that
+was used to set fire
+to the Lost and
+Found Office.
+]],
+}
+
+dialog{
+  id = "_item_description.flippers.1",
+  icon = "26",
+  skip = "all",
+  text = [[
+Flippers allow to
+swim in deep waters
+and champagne.
+]],
+}
+
+dialog{
+  id = "_item_description.flippers.2",
+  icon = "26",
+  skip = "all",
+  text = [[
+Flippers allow to
+swim in deep waters
+and champagne.
+]],
+}
+
+dialog{
+  id = "_item_description.glove.1",
+  icon = "32",
+  skip = "all",
+  text = [[
+With this, you can
+lift many things.
+I think...
+]],
+}
+
+dialog{
+  id = "_item_description.glove.2",
+  icon = "33",
+  skip = "all",
+  text = [[
+Lift black rocks
+with the
+Golden Glove.
+]],
+}
+
+dialog{
+  id = "_item_description.hookshot.1",
+  icon = "6",
+  skip = "all",
+  text = [[
+Hoist yourself up to
+inaccessible places
+with the help of the
+Hookshot.
+]],
+}
+
+dialog{
+  id = "_item_description.lamp.1",
+  icon = "5",
+  skip = "all",
+  text = [[
+Brighten dark places
+and light torches
+with the Lamp.
+But watch your
+magic meter!
+]],
+}
+
+dialog{
+  id = "_item_description.lens_of_truth.1",
+  icon = "14",
+  skip = "all",
+  translators_note = "Reference to Trump's alternative facts (fake news)",
+  text = [[
+Use the Lens of
+Alternative Truth to
+see more clearly and
+distinguish what is
+true from what is
+fake.
+Approved by the
+Department of Truth!
+]],
+}
+
+dialog{
+  id = "_item_description.mail_counter.1",
+  icon = "38",
+  skip = "all",
+  text = [[
+Some mail for
+Princess Zelda.
+Go give it to her!
+]],
+}
+
+dialog{
+  id = "_item_description.pains_au_chocolat_counter.1",
+  icon = "17",
+  skip = "all",
+  text = [[
+Eat a Chocolate
+Croissant to recover
+three Hearts.
+]],
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.1",
+  icon = "13",
+  skip = "all",
+  text = [[
+Without laces, the
+Pegasus Boots do
+weird things.
+]],
+}
+
+dialog{
+  id = "_item_description.pegasus_shoes.2",
+  icon = "13",
+  skip = "all",
+  text = [[
+Run as fast as
+lightning by using
+the Pegasus Boots.
+Press and hold the
+Action key to run.
+]],
+}
+
+dialog{
+  id = "_item_description.perfume_counter.1",
+  icon = "39",
+  skip = "all",
+  text = [[
+Internationally
+acclaimed fragrance,
+this Kipu will make
+girls fall all over
+you!
+]],
+}
+
+dialog{
+  id = "_item_description.vip_card.1",
+  icon = "36",
+  skip = "all",
+  text = [[
+The VIP card gives
+access to all floors
+of the Grump Tower.
+]],
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+You can't get any more!
+]],
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Dude, you're short on
+Rupees!
+]],
+}
+
+dialog{
+  id = "_shop.question",
+  question = "1",
+  text = [[
+Cost: $v rupees.
+Buy
+No way
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+You found an Arrow!
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.1.1",
+  text = [[
+Use the Bow with
+the Arrows to defeat
+distant monsters.
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.2",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+You found 5 Arrows!
+]],
+}
+
+dialog{
+  id = "_treasure.arrow.3",
+  icon = "83",
+  next = "_treasure.arrow.1.1",
+  text = [[
+You found 10 Arrows!
+]],
+}
+
+dialog{
+  id = "_treasure.banana_skin.1",
+  icon = "30",
+  text = [[
+You found a Banana!
+
+
+Huh?
+Actually, there is
+only the skin!
+]],
+}
+
+dialog{
+  id = "_treasure.big_key.1",
+  icon = "73",
+  text = [[
+You found the Big
+Key! Use it to open
+special doors and
+big chests!
+]],
+}
+
+dialog{
+  id = "_treasure.blue_potion.1",
+  icon = "98",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it to take a
+new start.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+You found a Bomb!$0
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.1.1",
+  text = [[
+Use a Bomb to make
+an enemy or obstacle
+explode.
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.2",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+You found three
+Bombs!$0
+]],
+}
+
+dialog{
+  id = "_treasure.bomb.3",
+  icon = "82",
+  next = "_treasure.bomb.1.1",
+  text = [[
+You found eight
+Bombs!$0
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.1",
+  icon = "54",
+  text = [[
+You found the
+Bomb Bag!$0 You
+can store 10 bombs.
+Tic Tac $1
+pschhhhhhhhhhhhht $0 $3
+Ka-BOOOM!
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.2",
+  icon = "55",
+  text = [[
+You found the Bomb
+Bag!$0Now you can
+explode weak...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.bomb_bag.3",
+  icon = "56",
+  text = [[
+You found the
+Big Bomb Bag!$0
+
+This is amazing!
+Now you can store
+12 Bombs!
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  icon = "34",
+  text = [[
+You found the
+Boomerang!$0 You can
+immobilize enemies
+and pick up far-away
+objects.
+]],
+}
+
+dialog{
+  id = "_treasure.boomerang.2",
+  icon = "35",
+  text = [[
+You found the
+Boomerang!$0 You can
+immobilize enemies
+and pick up far-away
+objects.
+]],
+}
+
+dialog{
+  id = "_treasure.boss_key.1",
+  icon = "74",
+  text = [[
+You found the Boss
+Key!
+
+At last you can meet
+with the master of
+this place!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion !$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_1.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_2.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_3.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.1",
+  icon = "7",
+  text = [[
+You found a Magic
+Bottle!$0 It might be
+useful someday !
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.2",
+  icon = "8",
+  text = [[
+You found Water!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.3",
+  icon = "9",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it
+to refill
+all your Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.4",
+  icon = "10",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it
+to replenish
+your Magic.
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.5",
+  icon = "11",
+  text = [[
+You found a
+Blue Potion!$0
+
+Drink it
+to recover
+Hearts and Magic!
+]],
+}
+
+dialog{
+  id = "_treasure.bottle_4.6",
+  icon = "12",
+  text = [[
+You captured a
+Fairy! She'll help
+you if you're
+in danger.
+Also you can use her
+at any time to
+recover Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.bow.1",
+  icon = "2",
+  text = [[
+You found The Bow!$0
+Become the next
+Robin Hood!
+]],
+}
+
+dialog{
+  id = "_treasure.bow.2",
+  icon = "3",
+  text = [[
+You found The Bow!$0
+Become the next
+Robin Hood!
+]],
+}
+
+dialog{
+  id = "_treasure.cat_food.1",
+  icon = "37",
+  text = [[
+Zelda gave you some
+cat food!$0
+
+Go feed her little
+cat because it is
+starving!
+Poor cute little
+ball of fur...
+Hurry!
+]],
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  icon = "71",
+  text = [[
+You found the
+Compass! Now you can
+see your position on
+the Map, the
+locations of chests,
+as well as the
+Boss's Lair! Now
+we're getting
+somewhere!
+]],
+}
+
+dialog{
+  id = "_treasure.creeper.1",
+  text = [[
+Watch out!!!
+]],
+}
+
+dialog{
+  id = "_treasure.croissant.1",
+  icon = "18",
+  text = [[
+You found a
+Croissant!$0
+It's crispy! Eat a
+Croissant to recover
+Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.feather.1",
+  icon = "0",
+  text = [[
+You found the
+Feather!$0 Use it to
+jump...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.feather.2",
+  icon = "20",
+  translators_note = "Reference to Apple marketing",
+  text = [[
+You purchased an
+iFeather!$0
+
+It does nothing more
+than a regular
+Feather, but it
+makes people believe
+that you are very
+classy.
+It is true that the
+logo looks quite
+nice.
+]],
+}
+
+dialog{
+  id = "_treasure.feather.3",
+  icon = "20",
+  text = [[
+You found the
+Feather!$0 Use it to
+jump...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.fire_rod.1",
+  icon = "27",
+  text = [[
+The arsonist left
+you his Fire Rod!
+
+You can burn
+anything!!!
+
+But watch your magic
+meter!
+
+Well... Now that I
+think about it,
+maybe you should
+keep a low profile
+in possession of
+that weapon.
+]],
+}
+
+dialog{
+  id = "_treasure.flippers.1",
+  icon = "26",
+  translators_note = "Millesimes means good and old wine bottles",
+  text = [[
+You just stole the
+Flippers!$0
+
+You can now fully
+appreciate Grump's
+best champagne.
+]],
+}
+
+dialog{
+  id = "_treasure.flippers.2",
+  icon = "26",
+  text = [[
+You found the
+Flippers!$0
+
+You genuinely paid
+for them, this time
+they are yours.
+]],
+}
+
+dialog{
+  id = "_treasure.glove.1",
+  icon = "32",
+  text = [[
+You found the Iron
+Glove!$0 You can now
+lift the...
+Wait, you already
+have it?
+Too bad... !
+]],
+}
+
+dialog{
+  id = "_treasure.glove.2",
+  icon = "33",
+  text = [[
+You found the Golden
+Gloves!$0
+
+Now you can lift
+black rocks!
+]],
+}
+
+dialog{
+  id = "_treasure.green_potion.1",
+  icon = "97",
+  text = [[
+You found a
+Green Potion!$0
+
+Drink it to feel
+like a humorist deep
+down.
+]],
+}
+
+dialog{
+  id = "_treasure.heart.1",
+  icon = "84",
+  text = [[
+You found a Heart!
+]],
+}
+
+dialog{
+  id = "_treasure.heart_container.1",
+  icon = "80",
+  text = [[
+You found a
+Heart Container.
+
+You just gained
+a new Heart!
+It rooocks!
+]],
+}
+
+dialog{
+  id = "_treasure.hookshot.1",
+  icon = "6",
+  text = [[
+You found The
+Hookshot!$0 Freeze
+your enemies and
+climb to distant
+places!
+]],
+}
+
+dialog{
+  id = "_treasure.lamp.1",
+  icon = "5",
+  next = "warning_magic",
+  text = [[
+You found The
+Lamp!$0
+
+Well, I felt that
+there was not enough
+light here.
+]],
+}
+
+dialog{
+  id = "_treasure.lens_of_truth.1",
+  icon = "14",
+  next = "warning_magic",
+  translators_note = "Reference to Trump's alternative facts",
+  text = [[
+You found the Lens
+of Alternative
+Truth!$0
+You will finally be
+able to see things
+clearly and to
+distinguish what is
+true from what is
+fake!
+]],
+}
+
+dialog{
+  id = "_treasure.library_award.1",
+  icon = "31",
+  translators_note = "Bookworm is the English equivalent of this expression",
+  text = [[
+You unlocked the
+"Bookworm"
+achievement!
+Maybe there are
+more? What?
+
+What is this used
+for? Just to show
+off and prove that
+one day you will
+become the best
+player.
+]],
+}
+
+dialog{
+  id = "_treasure.magic_flask.1",
+  icon = "85",
+  text = [[
+You found a
+Little Magic Flask!
+]],
+}
+
+dialog{
+  id = "_treasure.magic_flask.2",
+  icon = "86",
+  text = [[
+You found a
+Big Magic Flask!
+]],
+}
+
+dialog{
+  id = "_treasure.mail.1",
+  icon = "38",
+  text = [[
+You found some mail
+addressed to
+Princess Zelda!
+Go bring it to her.
+]],
+}
+
+dialog{
+  id = "_treasure.map.1",
+  icon = "70",
+  text = [[
+You found the Map!
+Use it to discover
+your environment.
+]],
+}
+
+dialog{
+  id = "_treasure.pain_au_chocolat.1",
+  icon = "17",
+  text = [[
+You found a
+Chocolate Croissant!$0
+
+Eat a Chocolate
+Croissant to recover
+three Hearts.
+]],
+}
+
+dialog{
+  id = "_treasure.pegasus_shoelaces.1",
+  icon = "22",
+  text = [[
+You found some
+shoelaces for your
+Pegasus Boots!$0
+You can finally move
+correctly when you
+run.
+Press the Action key
+to run.
+
+But don't break
+them!
+]],
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.1",
+  icon = "13",
+  text = [[
+You found the
+Pegasus Boots,
+without laces!
+They're tough to
+wear but you can
+run really fast!
+]],
+}
+
+dialog{
+  id = "_treasure.pegasus_shoes.2",
+  icon = "23",
+  text = [[
+You found the
+Pegasus Boots!
+
+You can run
+anywhere!
+]],
+}
+
+dialog{
+  id = "_treasure.perfume.1",
+  icon = "39",
+  translators_note = "'Kipu' is a wordplay for French 'Qui pue' which means 'stinking' and Cacaco Charnel is obviously reference to Coco Chanel",
+  text = [[
+You found Fragrance
+Kipu from
+Cacaco Charnel!
+Girls will fall all
+over you!
+]],
+}
+
+dialog{
+  id = "_treasure.piece_of_heart.1",
+  icon = "79",
+  text = [[
+You found a
+Piece of Heart!
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.2",
+  icon = "58",
+  text = [[
+You found the
+Big Quiver!$0
+
+You can hold 30
+Arrows instead of
+10!
+]],
+}
+
+dialog{
+  id = "_treasure.quiver.3",
+  icon = "59",
+  text = [[
+You found the
+Huge Quiver!$0
+
+Awesome, you can
+carry 100 Arrows
+instead of 30!
+]],
+}
+
+dialog{
+  id = "_treasure.red_potion.1",
+  icon = "96",
+  text = [[
+You found a
+Red Potion!$0
+
+Drink it to take
+steroids and beat
+all mobs!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.1",
+  icon = "90",
+  text = [[
+You found a Rupee!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.2",
+  icon = "91",
+  text = [[
+You found a Blue
+Rupee. It's worth
+5 Rupees!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.3",
+  icon = "92",
+  text = [[
+You found a Red
+Rupee! It's worth
+20 Rupees!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.4",
+  icon = "90",
+  text = [[
+You found 50 Rupees!
+Awesome!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.5",
+  icon = "90",
+  text = [[
+You found 100
+Rupees!
+Fantastic!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee.6",
+  icon = "90",
+  text = [[
+You found 200
+Rupees!
+You're ecstatic!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee_bag.2",
+  icon = "52",
+  text = [[
+You found the
+Big Rupee Bag!$0
+
+You can now carry
+300 Rupees!
+
+It's a shame the
+game is over, you
+could have used it!
+]],
+}
+
+dialog{
+  id = "_treasure.rupee_bag.3",
+  icon = "53",
+  text = [[
+You found the
+Huge Rupee Bag!$0
+
+Now you can carry
+999 Rupees!
+]],
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  icon = "63",
+  text = [[
+You found your
+Shield!$0
+
+Next time, don't
+leave it outside,
+will you?
+]],
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  icon = "64",
+  translators_note = "Reference to 2 former French presidents. 'Bling-bling' is a reference to Nicolas Sarkozy who liked to show his flashy outward signs of wealth. The second reference is to François Hollande who said 'My enemy is Wall Street' to get elected, but didn't keep his promises.",
+  text = [[
+You found the
+Bling-Bling Shield!$0
+
+You are now
+protected against
+your enemy: finance!
+]],
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  icon = "65",
+  text = [[
+You found the
+Mirror Shield!$0
+
+You can now reflect
+laser attacks!
+]],
+}
+
+dialog{
+  id = "_treasure.small_key.1",
+  icon = "72",
+  text = [[
+You found a Small
+Key!
+
+You can use it to
+open a nearby
+locked door.
+]],
+}
+
+dialog{
+  id = "_treasure.small_key_brandished.1",
+  icon = "72",
+  text = [[
+You found a Small
+Key!
+
+You can use it to
+open a nearby
+locked door.
+]],
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  icon = "66",
+  text = [[
+You found your
+Training Sword.
+
+You know it's yours
+because your name
+is carved on it!
+But what is it
+doing here?
+]],
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  icon = "67",
+  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",
+  text = [[
+You found the
+Laser Sword!$0
+
+May the Triforcizzle
+be with you!
+]],
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  icon = "68",
+  text = [[
+You got your
+Laser Sword back!$0
+
+But... apparently it
+was restyled!
+]],
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  icon = "69",
+  text = [[
+Green your Laser
+Sword now is!$0
+
+Much more classy
+like this it looks.
+]],
+}
+
+dialog{
+  id = "_treasure.tunic.2",
+  icon = "61",
+  text = [[
+You found the
+Blue Mail!
+$0This armor
+protects you
+from the coldest
+temperatures...
+]],
+}
+
+dialog{
+  id = "_treasure.tunic.3",
+  icon = "62",
+  text = [[
+You found The
+Red Mail!
+$0This armor
+reduces the damage
+that you take
+from enemies!
+]],
+}
+
+dialog{
+  id = "_treasure.vip_card.1",
+  icon = "36",
+  text = [[
+You found the
+VIP Card!
+
+You can now access
+all floors of the
+tower!
+]],
+}
+
+dialog{
+  id = "big_key_required",
+  icon = "73",
+  text = [[
+Locked, you need the
+Big Key to open it!
+]],
+}
+
+dialog{
+  id = "boss_key_required",
+  icon = "74",
+  text = [[
+This door leads
+to the Boss!
+
+Don't even try to
+open it whithout
+the Boss Key!
+]],
+}
+
+dialog{
+  id = "bow_broken",
+  text = [[
+The string is broken!
+Holy cow!
+]],
+}
+
+dialog{
+  id = "cannot_lift_should_cut",
+  skip = "all",
+  text = [[
+Maybe you need
+something to cut down
+this bush...
+]],
+}
+
+dialog{
+  id = "cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+You're not strong
+enough for this!
+]],
+}
+
+dialog{
+  id = "cannot_lift_too_heavy",
+  skip = "all",
+  text = [[
+You're not strong
+enough for this!
+]],
+}
+
+dialog{
+  id = "chest_game.go_chest",
+  text = [[
+Off you go now, choose
+a chest!
+]],
+}
+
+dialog{
+  id = "chest_game.not_enough_money",
+  text = [[
+You don't have enough
+money!
+]],
+}
+
+dialog{
+  id = "chest_game.pay_first",
+  text = [[
+Hey! You have to pay if
+you want to play!
+]],
+}
+
+dialog{
+  id = "chest_game.rules",
+  question = "1",
+  text = [[
+Pay 20 Rupees to open
+a chest and get its
+content!
+Do you want to play?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "chest_game.thanks",
+  text = [[
+Good luck! Hehehe.
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.cleaning_old_lady",
+  text = [[
+Yesterday, I read that
+1 in 3 people admit
+they pee in pools.
+So I made these baths
+analyzed and the result
+is quite alarming:
+the pools water is made
+of 70% pee. But please
+don't tell anyone...
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.cold",
+  text = [[
+I've tried the Lava
+Pool Challenge some
+days ago...
+From then on, I swear
+only by this frozen
+swimming pool!
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.employee_only",
+  skip = "all",
+  translators_note = "Reference to Pratchett character Bloody Stupid Johnson",
+  text = [[
+Bloody Stupid Johnson's
+     Thermal Baths
+    !! DEATH RISK !!
+
+ Authorized staff only!
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.entrance",
+  text = [[
+Hello and welcome!
+Today you're lucky,
+because our baths are
+free to use! Don't
+hesitate to refresh
+yourself in the first
+basement, to relax in
+the second basement,
+or to overcome the
+challenge at the third
+basement!
+
+And please don't forget
+to always wear a towel!
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.envy_champagne_pool",
+  text = [[
+These baths... they are
+so lame...
+Rumor has it that Mr. 
+Grump's castle contains
+gold-made pools filled
+with champagne and
+ruffling little bubbles
+that make you lose
+your mind...
+Why don't we got that in
+these so celebrated
+baths!?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.hungry_child",
+  text = [[
+Mmh yeah... Not so bad,
+quite relaxing...
+
+But something is
+missing. I don't know
+what, but something is
+clearly missing.
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.lava_challenge",
+  text = [[
+Yoo too, try the Lava
+Pool Challenge!
+
+If you succeed, you'll
+earn you weight in
+rupees!
+It's simple: stay more
+than one minute in the
+lava, and you will get
+the right to claim your
+price at the entrance.
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.lovers_brassens",
+  text = [[
+Someday, a man sat next
+to me on a public bench
+with a box of chocolate.
+He began to tell me his
+whole incredible life.
+
+Someone should make a
+movie about that guy's
+life, y'know?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.miserable_myrtle",
+  text = [[
+Some times ago, a
+wizard student came
+and opened an golden
+egg in these baths.
+We had to flush all
+the water! He believed
+he would hear a song
+by doing this.
+Seriously!? He thought
+it was a Zora jukebox
+or what ?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.tea_for_two",
+  skip = "all",
+  translators_note = "Reference to a French movie named La Grande Vadrouille",
+  text = [[
+Tea... for two
+and two for tea...
+
+Are you ? ...
+Comment ça ?
+
+But alors you are
+French ?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.warning_sockets",
+  text = [[
+Shallow Pool.
+Please remember to 
+take off your socks!
+]],
+}
+
+dialog{
+  id = "chill_valley.bath_sign",
+  skip = "all",
+  text = [[
+Chill Valley,
+thermal city.
+
+Enjoy a great
+relaxing moment in
+our spas and saunas.
+Here, well-being is an
+art!
+]],
+}
+
+dialog{
+  id = "chill_valley.big_bird",
+  skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest. Zozio is childish slang for bird.",
+  text = [[
+An adventure against
+a big bird?
+
+People are naive if
+they believe that.
+]],
+}
+
+dialog{
+  id = "chill_valley.doc",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 2",
+  text = [[
+Hello Sir, what is it
+about?
+
+Oh, I am doing nothing
+special, just a little
+weather experiment.
+]],
+}
+
+dialog{
+  id = "chill_valley.east_sign",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
+  text = [[
+  - Chill Valley -
+Sucess is the middle
+name of this town.
+]],
+}
+
+dialog{
+  id = "chill_valley.l_house",
+  skip = "all",
+  text = [[
+This is infernal!
+Everything is frozen!
+
+I don't understand,
+heating is to the
+max...
+]],
+}
+
+dialog{
+  id = "chill_valley.library_sign",
+  skip = "all",
+  text = [[
+Public library
+]],
+}
+
+dialog{
+  id = "chill_valley.mercuris_time_travel",
+  skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
+  text = [[
+I cannot wait for Zelda
+Mercuris' Chest any
+longer.
+I want to be in 2023
+already!
+
+That is why I called
+the best time-travel
+experts.
+But I don't know if
+they are willing to
+help me !
+]],
+}
+
+dialog{
+  id = "chill_valley.no_entry_1",
+  skip = "all",
+  text = [[
+...
+
+
+Hello?
+
+
+Do we know each other?
+
+
+
+Do you often talk to
+strangers like this?
+]],
+}
+
+dialog{
+  id = "chill_valley.no_entry_2",
+  skip = "all",
+  text = [[
+Hey, who do you think
+you are, walking into
+every house?
+Just because you save
+the world doesn't mean
+all doors are open.
+]],
+}
+
+dialog{
+  id = "chill_valley.north_sign",
+  skip = "all",
+  text = [[
+North: Rupee Island
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_1",
+  skip = "all",
+  translators_note = "Reference to Doctor Who",
+  text = [[
+Hello, I am the Doctor.
+
+
+Something is not right
+here.
+
+Do you know anything
+about rupees?
+
+I think that rupees
+behave... in an
+impossible way.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_2",
+  skip = "all",
+  translators_note = "Dialog from Doctor Who season 3, episode 10 (Blink)",
+  text = [[
+People assume that time
+is a strict progression
+from cause to effect.
+But actually, from a
+non-linear, non-
+subjective viewpoint,
+it is more like a big
+bowl of wibbly-wobbly,
+timey-wimey... stuff.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_3",
+  skip = "all",
+  translators_note = "Reference to the Weeping Angels from Doctor Who (season 3, episode 10)",
+  text = [[
+Don't worry about these
+statues, everything is
+fine.
+However, just try
+not to blink.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_4",
+  skip = "all",
+  translators_note = "Reference to Doctor Who and Back to the Future",
+  text = [[
+There is sort of a mad
+scientist in the South
+of this town.
+He does not talk a lot
+about it, but he has
+some basic knowledge
+about time travel,
+even pretty good for a
+human.
+He considers that the
+consistency of the
+space-time continuum
+must be preserved.
+
+
+Yet, time can be
+rewritten! Well,
+except fixed points.
+]],
+}
+
+dialog{
+  id = "chill_valley.o_house.doctor_5",
+  skip = "all",
+  translators_note = "Reference to River Song (Doctor Who character)",
+  text = [[
+Oh... River...
+]],
+}
+
+dialog{
+  id = "chill_valley.one_day",
+  text = [[
+A rumor says that Zelda
+Mercuris' Chest will be
+finished one day.
+]],
+}
+
+dialog{
+  id = "chill_valley.out_soon",
+  skip = "all",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
+  text = [[
+We have never been so
+close to the release of
+Zelda Mercuris' Chest!
+]],
+}
+
+dialog{
+  id = "chill_valley.race_track_old_guy",
+  skip = "all",
+  text = [[
+They wanted to buy my
+house.
+I refused.
+And now they built the
+circuit around it.
+*sob* *sob*
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.dogman",
+  skip = "all",
+  translators_note = "Based on Wreck-it Ralph monsters assembly intervention",
+  text = [[
+My name's Ernest and
+deep inside, I'm not
+that bad, I'm just
+playin' a role in this
+game... Truly, people
+say I'm a Care Bears.
+If I could do hug to
+hero instead of just
+rush toward it,
+I would not hesitate
+for one second!
+
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.ganon",
+  skip = "all",
+  translators_note = "Reference to Star Wars",
+  text = [[
+Arh! You again!
+Go on, laugh as much as
+you can about what I've
+become. Homeless! They
+destroyed my Tower! For
+real, man! Last time,
+you had me left for
+dead in the lava...
+You were the Choosen
+One, okay, but you
+could have been nice.
+Obviously, I said that
+duel was "On death",
+but you know sometimes
+my words go beyond my
+thoughts. Anyway, I've
+open up this club for
+repented monsters and
+I must admit it has a
+good success. I invite
+you to tests our
+"petit-four": so much
+delicious!
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.gibdo",
+  skip = "all",
+  translators_note = "Reference a mini-boss in the indie game: Crypt of the Necrodancer",
+  text = [[
+My sister is a dancer
+in a crypt. It sounds
+very nice for her. So
+I'm asking myself: what
+have I done with my
+no-life? Maybe I should
+also go talk to this
+"Necrodancer", don't
+you think?
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.mandible",
+  skip = "all",
+  text = [[
+WHAT!? Whaddayawant?
+Wanna get my pic? Yeah,
+I know, I'm a mutant,
+AND SO WHAT!?
+...
+...
+...
+...
+Excuse me Sir, I'm once
+again losing my mind
+for n'thing. Y'know,
+I'm comin' here to try
+to control myself...
+No hard feelings, Bro?
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.skel",
+  skip = "all",
+  translators_note = "Reference to the Death character in Pratchett's Discworld universe",
+  text = [[
+MY COUSIN JUST FOUND
+A FULL TIME JOB ON A
+GIANT TURTLE WITH FOUR
+ELEPHANTS! HE SAYS HE
+IS AN... ANTHRO...
+POMORPHIC... PER...
+SONIFI... CATION. WELL,
+SOMETHING LIKE THAT.
+DON'T KNOW WHAT IT IS,
+BUT IT SOUNDS COOL.
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.snap_dragon",
+  skip = "all",
+  text = [[
+I want to open a
+hairdresser to make up
+for my past behavior on
+all this poor beasts
+I ate in my maleficient
+past life. What do you
+prefer between the
+G'hair-udo or the
+Mast'hair-sword, for
+the name of the shop?
+]],
+}
+
+dialog{
+  id = "chill_valley.s_house.vipeross",
+  skip = "all",
+  translators_note = "Reference to the Witcher (game and book): the man is Geralt de Riv",
+  text = [[
+One day, a man came and
+totally blew up my all
+face. White Wolf, he
+said for his name,
+seriously, do you think
+such cliché is still
+accepted nowadays?
+He was too showing off,
+with his two swords,
+but boy he was good! I
+can tell you it put me
+back on the right track
+for sure! No more
+eating human flesh ever
+again after that one.
+]],
+}
+
+dialog{
+  id = "chill_valley.south_east_sign",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
+  text = [[
+East: Forest
+
+
+North: Chill Valley,
+the town whose middle
+name is success.
+]],
+}
+
+dialog{
+  id = "chill_valley.t_house",
+  skip = "all",
+  text = [[
+This region has become
+very lively.
+
+At least, we never get
+bored here!
+
+Unlike my sister who
+lives in the desert.
+
+She is moping around
+all day long!
+]],
+}
+
+dialog{
+  id = "chill_valley.welcome_sign",
+  skip = "all",
+  translators_note = "Reference to Back to the Future 'Hill Valley' city and the election slogan of Goldie Wilson 'Progress is his middle name'",
+  text = [[
+Welcome to Chill
+Valley!
+
+Sucess is the middle
+name of this town.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.adult_book",
+  skip = "all",
+  text = [[
+
+An adult book!
+
+You're not old enough
+to read this stuff!
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.all_read",
+  skip = "all",
+  translators_note = "French version of the expression Bookworm",
+  text = [[
+Squeak! You're in MY
+house, and you're
+reading MY books as if
+they were yours! Squeak
+squeak, I've never seen
+someone as cheeky!
+There can be only one
+bookworm and it's ME!
+TORA! TORA! TORA!
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.biography_grump",
+  skip = "all",
+  text = [[
+   A biography about   
+   Mr. Grump's life
+
+Mr. Grump was born in
+*indecipherable*, in a
+loving family, faithful
+to the Three Goddesses.
+Quickly, little Grump
+displayed considerable
+skills in business and
+beat his brothers when
+playing Monopoly.
+Always wilful to steal
+his little schoolmates,
+teachers recommend him
+business studies. He
+became passionate in
+real estate, and ruined
+several businesses in
+order to buy them for a
+trifle. He is the
+perursor of our 
+rupee-based economy.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.child_book",
+  skip = "all",
+  text = [[
+A tale for children:
+  The Gest of the Zora
+
+A little Zora was sad:
+he didn't have any
+friends. Someday, he
+saw an Hylian girl
+drifting along the
+river. She seemed
+sleepy, but the Zora
+knew Hylians weren't
+able to sleep in water.
+He dived and brought
+her back to the bank.
+A few minutes later,
+she woke up and warmly
+thanked the Zora.
+That is how he got his
+first friend, and he
+had never been sad
+since then.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.curse_for_dummies",
+  skip = "all",
+  text = [[
+  Cursing for Dummies
+
+
+Take a black cat, make
+it pass under a ladder.
+Make a voodoo effigy of
+your target, and stick
+a nail in the heart and
+in the head. Keep the
+doll between you and a
+mirror, then break the
+mirror by vigorously
+throwing the black cat
+to it.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.economy_for_dummies",
+  skip = "all",
+  text = [[
+  Economy for Dummies
+
+
+Rupees are one of the
+specificities that make
+our kingdom unique
+compared to others.
+Where one would prefer
+to use gold for its
+rarity or barter, we
+use a usual matter
+that appears in most
+unlikely places: under
+a rock, when cutting
+grass, etc. - all to
+the gardener's fortune.
+That hugely handicaps
+our international
+relationships, because
+exchange rates have
+become very chaotic.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.already_opened",
+  skip = "all",
+  text = [[
+You already emptied
+this encyclopedia of
+its content. Thief.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.back_on_shelf",
+  skip = "all",
+  text = [[
+A cloud of dust flies
+when the book goes back
+to the shelves, and a
+slight dull sound
+escapes from the inside.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.not_opened",
+  question = "1",
+  text = [[
+An encyclopedia. Its
+size and thickness are
+not accorded with its
+weight.
+Open it.
+Drop it back.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.encyclopedia.when_opened",
+  skip = "all",
+  text = [[
+A little note is
+visible in the book.
+"I put here my most
+precious and only good,
+I am convinced that
+nothing bad can happen
+inside these
+shelves..."
+
+Let's hope nobody saw
+you enter here and
+steal this content. You
+don't really have the
+face of a nerd, you
+will quickly be the
+main suspect.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.exploration_for_dummies",
+  skip = "all",
+  text = [[
+   Exploration
+   for dummies
+
+If you are in a maze,
+always follow the same
+wall. If you are in
+front of a locked door,
+try to find a key. Save
+before a Boss door:
+behind it you will find
+a Boss Fight.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.fight_for_dummies",
+  skip = "all",
+  translators_note = "Reference to Fight Club movie",
+  text = [[
+       Fight
+    for dummies
+
+Rule #1
+You do not talk about
+this book.
+Rule #2
+You DO NOT talk abou
+THIS BOOK.
+Rule #3
+You don't let the enemy
+take their breath.
+Rule #4
+You will always loot
+the dead bodies.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.geography_for_dummies",
+  skip = "all",
+  text = [[
+    Geography
+   for dummies
+
+The Goron people live
+in the Goron Village.
+
+The Zora people can be
+found in the Zora
+Domain.
+The Gerudo people are
+located in the Gerudo
+desert.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.horror_book",
+  skip = "all",
+  translators_note = "James and Mike are related to AVGN",
+  text = [[
+ A horrific novel:
+   Panic in the
+    Lost Woods
+The storm was
+frightfully powerful
+this day. James didn't
+know if he should go
+help his friend Mike
+cutting wood in the
+forest, or just wait
+here in the security of
+the chalet. Listening
+only his bravery, he
+got out and yelled his
+friend's name to locate
+him. But the yell was
+mainly listened by
+Jason...
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.hyrule_times",
+  skip = "all",
+  text = [[
+A press article. It
+seems pretty old:
+  THE END OF GANON
+According to the Hyrule
+Network, a hero dressed
+in green could have
+been able to stop the
+reign of the Tyrant
+Ganon, after a fierce
+struggle. We ask to the
+Royal Family for more
+details, but the
+Princess Zelda did not
+want to comment. A
+short coming edition
+will explain more
+precisely about this
+good event.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.love_book",
+  skip = "all",
+  translators_note = "Reference to Twilight bad stories :p",
+  text = [[
+A love novel:
+   Lost Dusk
+
+When I plundge my eyes
+into the vampyre's one,
+I felt my soul being
+ripped off by this cold
+and calculating being.
+Nonetheless, I did not
+saw in him a monster,
+like everyone else, but
+a misunderstood love.
+Oh! Lucius, forgive-me
+to cheat on you like
+this, but his alabaster
+skin make me all
+dizzy...
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.magic_book",
+  skip = "all",
+  translators_note = "Last part is a reference to Portal2 with GLaDOS transformed to a potato and scared by birds. Spells are from ALTTP",
+  text = [[
+       Magic
+    for dummies
+
+A lot of people think
+magic is about talent.
+They are wrong! All you
+need is to be able to
+read ancient Hylian in
+a Book to make
+lightning strikes,
+earthquakes and
+transform the world
+into a potato. Just
+remember, no bird are
+allowed to approch that
+said tubercle.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.politic_for_dummies",
+  skip = "all",
+  text = [[
+   Geopolitics
+   for dummies
+
+As an advice to the
+future politician you
+will be, and to survive
+in this hostile jungle,
+it is important to get
+the lobbies of the
+Champagne and the real
+estate in your pocket.
+They will let you
+decide if you can or
+not adopt some new law.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.recipe_for_dummies",
+  skip = "all",
+  translators_note = "Reference to Zelda - Breath of the Wild recipes",
+  text = [[
+ Cooking Recipe
+  for dummies
+
+Hearty Simmered Fruit
+Ingredients:
+- 1 hearty type fruit
+Recipe:
+Put the fruit in the
+pan. Wait.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.science_book",
+  skip = "all",
+  text = [[
+ Mathematical Theorems
+     for dummies
+
+The Octavieh's Theorem
+explains us that the
+infinite series whose
+terms are the natural
+numbers is a divergent
+series, with the result
+equal to -1/12.
+...
+You understand nothing
+about the equations
+explaining this
+theorem.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.security_systems",
+  skip = "all",
+  text = [[
+  Hylian security
+     measures
+
+There are a lot of
+security devices of all
+origin: Hylian, Sheikah
+and some are even older
+than we can know. These
+items allow us to stun
+criminals, help to the
+people safety or to
+deter any incivility.
+Thankfully, these
+systems will never be
+used against the
+population by an evil
+sorcerer, a swine
+tyrant or a disturbed
+business angel.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.sf_book",
+  skip = "all",
+  translators_note = "Title of the book is a reference to Pratchett and Baxter SF book named The Long Earth",
+  text = [[
+A Science-Fiction Novel
+   The Oblong Earth
+
+I opened the door of
+this building the
+natives called
+"skycrapper". Some
+mechanical carts pulled
+by an unknown force
+passed thru with such a
+noise. The air seemed
+unbreathable. Then, all
+of a sudden, a long way
+above my head, another
+din: an iron bird,
+frozen in its position,
+was flying beyond all
+logic and good sense.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.space_conquest_for_dummies",
+  skip = "all",
+  text = [[
+ The Space Conquest
+    for dummies
+
+Find a ravaged
+landscape (you can have
+a lot of them around
+the Mount Terror). Put
+the Hyrule flag, then
+ask an artist to seize
+this moment on a
+canvas. Then, you can
+claim fiercely and
+loudly that you have
+conquered the Moon!
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.theater_script",
+  skip = "all",
+  translators_note = "Characters are from Majora's Mask. A citation from Barry White, because why not.",
+  text = [[
+A theater piece :
+    Kafei and Anju
+
+Priest: Where is your
+future husband, my
+dear?
+Anju: I have no idea,
+and my heart darkens
+of this ignorance...
+My sweet and soft Kafei
+does not want me as his
+bride anymore?
+Young boy, coming in a
+hustle: Of course I
+will, milady! You are
+my life! My last! My
+everything!
+Anju: But, who are you,
+young man, to talk my
+with this familiarity?
+Young boy: I am your
+companion, Kafei! A
+vicious kid cast me a
+bad spell, but I have
+hope that you will
+recognize me...
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.urbanism_for_dummies",
+  skip = "all",
+  translators_note = "Reference to Tetris game",
+  text = [[
+   Urbanism for
+     dummies
+
+Chill Valley is the
+only city in the world
+where it is impossible
+to make house dividing.
+Each try has been sold
+by the disparition of
+the whole line of
+building. Since then,
+the authorities force
+each house to have at
+least 2 meters of
+regulatory space
+between each wall.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.weapon_for_dummies",
+  skip = "all",
+  translators_note = "Real stats about real weapons in Zelda Breath of the Wild",
+  text = [[
+   Weapons for
+     dummies
+
+Traveler's Sword:
+Attack power: 5-13
+Durability: 20-23
+Soldier's Broadsword:
+Attack power: 14-25
+Durability: 23-26
+Knight's Broadsword:
+Attack power: 26-35
+Durability: 27-35
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.zoology_for_dummies",
+  skip = "all",
+  text = [[
+    Zoology
+  for dummies
+
+The gregarious instinct
+of the Cuccos is a
+unique thing amongst
+the animalia kingdom.
+Try to attack only one
+of them, and all of
+them will ripost as one
+gigantic entity. Their
+telepathic mind seems
+to transcend ages and
+distances, because news
+Cuccos will come
+indefinitely to attack
+you once the assault
+has been decided.
+Pro tip: RUN FOR YOUR
+LIFE.
+]],
+}
+
+dialog{
+  id = "chores.cat_already_fed",
+  text = [[
+Stop feeding the cat.
+Don't you see that it
+is already too fat?
+]],
+}
+
+dialog{
+  id = "chores.cat_fed",
+  text = [[
+MEOW!
+]],
+}
+
+dialog{
+  id = "chores.cat_gurgling",
+  text = [[
+Meeooowweeooo...$0
+(gurglings)
+]],
+}
+
+dialog{
+  id = "chores.chore_0",
+  text = [[
+As a first task, you
+will have to feed my
+beloved little kitten.
+You will see, my
+dear is adorable.
+
+Its name is Snowflake,
+and it's really cool.
+It's now playing in
+the cave. Go there,
+out of my sight!
+]],
+}
+
+dialog{
+  id = "chores.chore_0_again",
+  text = [[
+Do you hear those
+meows?
+
+I think that it is
+Snowflake. It is
+still hungry.
+Go feed it now!
+]],
+}
+
+dialog{
+  id = "chores.chore_1",
+  text = [[
+Thanks for feeding
+my dear little kitten.
+It is sweet, isn't it?
+
+Now, I have a new
+task for you. I
+command you to cut
+all those weeds in
+the garden.
+Go! Get your butt in
+gear! Lazy brat!
+]],
+}
+
+dialog{
+  id = "chores.chore_1_again",
+  text = [[
+Admit that you find
+my little cat too cute.
+Well, by the way,
+those weeds have
+grown again.
+Cut them again!
+]],
+}
+
+dialog{
+  id = "chores.chore_2",
+  text = [[
+Well, the garden
+looks neater now.
+I almost got
+ashamed of it...
+
+Now, you shall bring
+me my mail.
+Little hero, hurry up,
+because the mail
+does not wait!
+]],
+}
+
+dialog{
+  id = "chores.chore_2_again",
+  text = [[
+Thanks for the work
+on the garden. It's
+bad luck that the
+weedkiller has not
+been invented in
+Hyrule.
+
+Hey, I think that the
+postman has come!
+Bring me the mail.
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_0",
+  translators_note = "Reference to French administration's bad reputation",
+  text = [[
+Thanks, better
+late than never...
+Ah!$0
+It's a mail from
+Mr Grump, the
+filthy director of
+the Lost and Found
+Office.
+He still won't send me
+permit A38!
+What a rude person.
+
+And yet, I did fill
+the blue form!
+What a bunch of
+incompetents in this
+administration...
+
+Even though I'm
+a princess!
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_1",
+  translators_note = "The last sentence is a reference to French movie Les Visiteurs",
+  text = [[
+Thanks, I almost
+had to wait...
+
+It's the taxes...
+And yes, sadly...
+
+My princess status
+doesn't give me more
+privileges since the
+revolution in Hyrule.
+
+
+I say: LONG LIVE
+THE MONARCHY!
+
+Thank you, you boorish
+commoner. You're rustic
+but nice, after all.
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_2",
+  translators_note = "'Se faire flasher' means to get caught by highway speed radars",
+  text = [[
+Thanks, don't
+be so hasty...
+Ha!$0
+Damn...
+$0
+I got caught by a
+speed radar the other
+day. How could I know
+the speed of my horse?
+Tell me...$0
+Could you pay the fine
+for me?
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_3",
+  translators_note = "Reference the movie Anchorman",
+  text = [[
+Thanks, fortunately
+I'm not in a hurry...
+
+It's an invitation to
+attend San Diego TV
+news on KVWN channel 4.
+
+By the way, stay
+classy, $v.
+]],
+}
+
+dialog{
+  id = "chores.chore_2_thanks_4",
+  translators_note = "Reference Super Mario games (Princess Peach and Isle Delphino), and reference to Monty Python Holy Grail castle name.",
+  text = [[
+Thanks, it's not
+so soon...
+
+It's a letter from my
+friend princess Peach.
+"I'm on holidays in
+Delfino", she says,
+"the weather is
+splendid, cocktails
+are delicious, and we
+sleep at the hotel of
+Aaaaaaargh!"$0
+Yes, she has really
+written "Aaaaaaargh".
+I think she did not
+have time to finish
+the letter, she was
+captured!
+Good heavens!
+]],
+}
+
+dialog{
+  id = "chores.dont_leave",
+  text = [[
+How dare you leave
+just like that?
+
+You have not been
+forgiven yet!
+
+Get back to work!
+]],
+}
+
+dialog{
+  id = "chores.mailbox",
+  text = [[
+Oh!$0
+There is some mail!
+]],
+}
+
+dialog{
+  id = "chores.mailbox_empty",
+  skip = "all",
+  text = [[
+The mailbox is
+empty.
+
+Is the postman still
+on strike or what?
+]],
+}
+
+dialog{
+  id = "chores.miaou_1",
+  text = [[
+Meow...
+Meooooww...$0
+(The cat seems hungry)
+]],
+}
+
+dialog{
+  id = "chores.miaou_2",
+  text = [[
+MEEOOOOOWW!!!
+MEOOWW!!!
+GRRRRRR...
+(The cat seems
+terribly hungry...)
+]],
+}
+
+dialog{
+  id = "chores.miaou_3",
+  text = [[
+Meeoow?$0
+...$0
+MEEEOOOWWW!!!
+]],
+}
+
+dialog{
+  id = "chores.miaou_4",
+  text = [[
+Meow, meow, meow.
+Prrrrrrrr.$0 Mmmeow.
+]],
+}
+
+dialog{
+  id = "desert.cursed_cave_entrance",
+  skip = "all",
+  text = [[
+Access forbidden for
+security reasons due
+to excesses.
+Nothing to see here.
+]],
+}
+
+dialog{
+  id = "desert.east_house",
+  skip = "all",
+  text = [[
+It seems that Mr Grump
+owns a rupee shaped
+island.
+Rupees can even
+grow from trees there!
+
+Actually he made a
+beach resort, with a
+huge tower.
+What a waste of money!
+We feel better here,
+with the calm, far from
+that bling-bling...
+]],
+}
+
+dialog{
+  id = "desert.nw_sign",
+  translators_note = "Reference Monty Python",
+  text = [[
+North: Mount Typython
+East: Sandpit Desert
+
+West: Golden Castle
+of Mr Grump
+]],
+}
+
+dialog{
+  id = "desert.otis",
+  skip = "all",
+  translators_note = "Reference to the movie Rubber",
+  text = [[
+What I am doing here
+on a camel?
+
+In the Steven Spielberg
+movie "E.T.", why is
+the alien brown?
+No reason.
+In "Love Story", why
+did the two characters
+fall madly in love with
+each other? No reason.
+In Oliver Stone's
+"JFK", why is the
+President suddenly
+assassinated by some
+stranger? No reason.
+In the excellent
+"Chainsaw Massacre" by
+Tobe Hooper, why don't
+we ever see the
+characters go to the
+bathroom... or wash
+their hands, like
+people do in real life?
+Absolutely no reason.
+Worse, in "The Pianist"
+by Polanski, how come
+this guy has to hide
+and live like a bomb...
+when he plays the piano
+so well? Once again the
+answer is "no reason".
+I could go on for hours
+with more examples.
+The list is endless.
+You probably never gave
+it a thought.
+But all great films,
+without exception,
+contain an important
+element: a "no reason".
+And you know why?
+Because life itself...
+is filled with "no
+reason".
+Why can't we see the
+air all around us?
+No reason. Why are we
+always thinking?
+No reason.
+Why do some people love
+sausages and other
+people hate sausages?
+No fuckin' reason.
+So yes, I am right here
+with a camel, and would
+we need a reason?
+]],
+}
+
+dialog{
+  id = "desert.piece_of_heart_cave_sign",
+  skip = "all",
+  translators_note = "French equivalent of the 'not' joke",
+  text = [[
+Only a true Hero
+deserves the chest.$0$0
+Or maybe not.
+]],
+}
+
+dialog{
+  id = "desert.small_house",
+  skip = "all",
+  text = [[
+I'm thinking about
+my future.
+
+About yours, believe
+my fortune-telling:
+pay attention to
+Mr Grump's fortune.
+]],
+}
+
+dialog{
+  id = "desert.small_house_shoelaces",
+  skip = "all",
+  text = [[
+If you look for a way
+to kill yourself,
+walking with no
+shoelaces like you do
+is not a great way.
+So it's probably best
+that you get new ones,
+because that gets on my
+nerves.
+]],
+}
+
+dialog{
+  id = "desert.tipiton_sign",
+  skip = "all",
+  text = [[
+Top of Mount Typython
+
+
+Altitude:
+Not really high,
+actually...
+]],
+}
+
+dialog{
+  id = "desert.west_house",
+  skip = "all",
+  text = [[
+I wonder whether I'll
+move to Chill Valley!
+
+It's more lively there,
+while here it's almost
+like desert.
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.iron_ball_man",
+  skip = "all",
+  translators_note = "'Hips' is French onomatopoeia to show that the character is drunk",
+  text = [[
+Burp... You wanna know
+something my friend?
+I carried so many iron
+balls in my life that I
+ended up alc... burp...
+In short, you wouldn't
+think that but this
+thing is super heav...
+burp !
+You could destroy a lot
+of stuff in this castle
+with it!
+I always wond... burp
+if the ceiling above
+the main entrance room
+of the castle didn't
+hide a huge treas...
+burp.
+I'm just saying!
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.julien_dore",
+  skip = "all",
+  translators_note = "Reference to a song by the French singer Julien Doré",
+  text = [[
+Never gonna
+make you cry
+
+Never gonna
+say goodbye
+
+Never gonna tell a lie
+and hurt you
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.library_man_look_for_book",
+  skip = "all",
+  text = [[
+Where on earth did I
+put that precious
+spell book?
+I could have sworn it
+was somewhere around
+here...
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.pool_grandma",
+  skip = "all",
+  text = [[
+My godfathers!
+Cleaning a champagne
+pool is not an easy
+task. My rheumatism
+is hurting me.
+The weather is really
+wet these days, don't
+you feel?
+
+Seasons don't count for
+anything anymore, let
+me tell you!
+]],
+}
+
+dialog{
+  id = "dungeon_1.1f.scared_woman",
+  skip = "all",
+  text = [[
+I came to this castle
+to have a job interview
+for an assistant
+position in charge of
+photocopies and the
+coffee machine but I
+regret I did.
+I can hear some voices
+in the paintings
+attached to the walls.
+This is scary.
+
+I should totally blow
+them to pieces... !
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.bones",
+  skip = "all",
+  text = [[
+I might well be in a
+pitiful condition, I
+can still be useful.
+For instance, did you
+know that you are in a
+castle?
+Yeah, I know it does
+not seem obvious, you
+must be shocked now.
+Mario the demon makes
+us believe that we are
+not in a castle, but
+this is fact: we are.
+If you want my opinion,
+I think that the evil
+spirit of Mario is
+haunting this wall,
+you should do something
+about that...
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.bones2",
+  skip = "all",
+  text = [[
+Boo! I am not an evil
+spirit but I am
+scary...
+Well, it appears so.
+However, there exists
+in this castle some
+very bad spirits.
+The bad ghost of doors
+is tricking us and has
+driven people mad in
+the past.
+
+Apparences can be
+deceptive...
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.prisoner",
+  skip = "all",
+  text = [[
+What?
+You came to save me?
+Leave me alone.
+I like being abandoned
+in a prison, you should
+try it yourself.
+You will see, we never
+get bored. There is a
+spot in the room next
+to this one.
+Enjoy yourself!
+]],
+}
+
+dialog{
+  id = "dungeon_1.b2.scared_man",
+  skip = "all",
+  text = [[
+I thought this castle
+was a hotspot for
+tourism, but when
+visiting the basement,
+I ran into skeletons
+who talked to me!
+I took refuge here,
+at least I will stay
+away from these
+monsters forever!
+]],
+}
+
+dialog{
+  id = "dungeon_1.welcome",
+  translators_note = "Reference to Trump's alternative Facts (fake news)",
+  text = [[
+        Level 2
+       Castle of
+   Alternative Truth
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.5f_issues_man",
+  skip = "all",
+  text = [[
+The fifth floor is out
+of control.
+
+Air conditioning is so
+high there, that the
+lights are off.
+It is freezing up there
+and you can't even see
+anything!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.bartender",
+  question = "1",
+  skip = "all",
+  text = [[
+Want some sparkling
+wine with red potion
+cream
+for 100 rupees?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.bartender_bought_red_potion_kir",
+  text = [[
+Taste that flavor!
+This cocktail will make
+you happier and happier.
+Is is going to last for
+a while!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.bun_woman",
+  skip = "all",
+  text = [[
+You are the new one?
+Your desk is ready!
+I will finally have
+some company!!!
+We will be able to
+chat a lot!
+After I was relegated
+to the basement of the
+Lost and Found Office
+during all those years,
+I finally get some
+recognition!
+Mister Grump is really
+a benefactor.
+Here is your seat!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.drunk_man",
+  skip = "all",
+  translators_note = "The NPC is drunk and tries hard to formulate something that makes sense",
+  text = [[
+So apparently the...
+burp! Lost and Won
+Officer...
+No, the Recovered and
+Forgotten Office
+burn... burp!
+In short, let's
+celebrate!
+
+Hmm...
+Low and Fun Onions...
+
+Least and burp!
+Round Offset...
+
+Anyway, you get what I
+wanted to say! Burp!
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.elevator_a_sign",
+  skip = "all",
+  text = [[
+Elevator to
+higher floors
+
+2nd floor: Casino
+
+
+Other floors:
+Authorized
+personnel only
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.kitchen_guard_dont_pass",
+  skip = "all",
+  text = [[
+Sir, access to the
+kitchen is resticted to
+the employees of the
+restaurant.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.kitchen_guard_go_wash",
+  skip = "all",
+  translators_note = "'La plonge' is French slang for 'whasing dishes'",
+  text = [[
+Are you the new guy?
+Stop chatting and go
+wash the dishes.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.pause_man",
+  skip = "all",
+  translators_note = "Exact dialog from Zelda Mystery of Solarus XD (counter 41)",
+  text = [[
+Sorry, I'm taking a
+break, and I need it
+badly.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.receptionnist",
+  skip = "all",
+  text = [[
+You are in the Grump
+Tower, the paradise of
+entertainment.
+Please remain in the
+areas open to the
+public.
+The restaurant is
+behind me.
+
+The Casino is located
+on the second floor.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.restaurant_sign",
+  skip = "all",
+  text = [[
+  - Grump Caviar Bar -
+Food with prices that
+can be beaten.
+]],
+}
+
+dialog{
+  id = "dungeon_2.1f.running_man",
+  skip = "all",
+  text = [[
+This stays between us,
+but this restaurant
+is way overpriced.
+Food is ridiculously
+expensive and the
+waiter talks to us like
+if we were his pals.
+
+
+That being said, drinks
+are original!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.blue_haired_boy",
+  skip = "all",
+  translators_note = "Second part is a reference to Zelda Link's Awakening",
+  text = [[
+Why are there all these
+chess pieces?
+
+It looks like they are
+hiding something!
+
+But what? Don't ask me,
+I'm just a kid!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.cards_game_sign",
+  skip = "all",
+  text = [[
+Symbols game
+
+
+Get 4 identical symbols
+to earn a reward!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.casino_receptionnist",
+  skip = "all",
+  text = [[
+This is the
+Grump Casino.
+
+Formal dress is
+required.
+
+Okay... let's
+consider that it's
+fine.
+Please don't touch
+the room decoration.
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.chest_game_sign",
+  skip = "all",
+  text = [[
+Chests game
+Price: 20 rupees
+
+Pick a random chest
+and be lucky!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.green_hat_man",
+  skip = "all",
+  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX 'outside_world.village.hat_man_npc'",
+  text = [[
+Be careful and don't
+waste all your rupees
+in such a place!
+Although, you do seem
+smarter than me.
+
+If you are a bit lucky,
+you'll do better than
+me!
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.hint_4_knights",
+  skip = "all",
+  text = [[
+What? Yes, no, I am
+currently working,
+I mean, I was just
+relaxing a bit in the
+meantime.
+
+Actually, to be
+completely honest with
+you, I should get back
+to work in the kitchen
+but there is an access
+code and I don't
+understand anything
+about it.
+
+Something about 4 white
+knights that should
+each be defended twice.
+Do you understand any
+of it? I am too old for
+these brainteasers...
+]],
+}
+
+dialog{
+  id = "dungeon_2.2f.slot_machines_sign",
+  skip = "all",
+  text = [[
+Slot machines
+Price: Stakes of
+5 or 20 rupees
+]],
+}
+
+dialog{
+  id = "dungeon_2.3f.6_queens_puzzle",
+  skip = "all",
+  text = [[
+6 Queens game
+
+
+No queen must be on the
+same row, column or
+diagonal as any other.
+]],
+}
+
+dialog{
+  id = "dungeon_2.3f.6_rooks_puzzle",
+  skip = "all",
+  text = [[
+6 Rooks game
+
+
+No Rook must be on the
+same row or column as
+any other Rook.
+Rooks can only be
+pushed once!
+]],
+}
+
+dialog{
+  id = "dungeon_2.3f.sahasrahla_message",
+  text = [[
+Hello? Hello?
+Can you hear me?
+
+It is me, Sahasrahla.
+I am talking to you
+by telepathy.
+Are you still in for
+Saturday's barbecue?
+
+Should I bring
+anything?
+
+We can play bridge.
+
+
+What?
+What do you mean?
+$v?
+Oh sorry, wrong window!
+]],
+}
+
+dialog{
+  id = "dungeon_2.6f.8_queens_puzzle",
+  skip = "all",
+  text = [[
+8 Queens game
+
+
+No queen must be on the
+same row, column or
+diagonal as any other.
+Reward:
+A Piece of Heart!
+]],
+}
+
+dialog{
+  id = "dungeon_2.6f.miniboss_start",
+  text = [[
+This is too much!
+
+
+As if it isn't enough
+that you are always
+harrassing poor
+innocent chickens
+already, just for your
+own enjoyment.
+And now we learn that
+you brought our
+legendary queen down,
+the goose that laid the
+golden egg?!
+
+You are going to taste
+the revenge!
+
+Dear sisters, attack!!!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.boss_start",
+  text = [[
+Ahhhh!$0
+Guards! Security!
+Help!$0
+What do you want,
+exactly?
+You want my fortune?
+Here you are, I have
+too much!
+Take this and run off!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.doctor",
+  text = [[
+Run!$1
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_building_collapsing",
+  text = [[
+Ahhh!$0
+I cannot control my
+rupees anymore!
+The whole tower is
+collapsing!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_found",
+  text = [[
+That's okay!
+I found it again, hehe!
+]],
+}
+
+dialog{
+  id = "dungeon_2.9f.grump_eyeglass_lost",
+  text = [[
+Ahhh!!!
+My eyeglass just felt
+to the ground!
+I cannot see anymore!
+]],
+}
+
+dialog{
+  id = "dungeon_2.welcome",
+  text = [[
+        Level 2
+      Grump Tower
+]],
+}
+
+dialog{
+  id = "elevator.access_refused.vip_card",
+  skip = "all",
+  text = [[
+Access denied.
+This elevator is for
+VIPs only.
+]],
+}
+
+dialog{
+  id = "empty_chest",
+  text = [[
+This chest is empty!
+Not your lucky day
+it seems!
+]],
+}
+
+dialog{
+  id = "final.credits",
+  text = [[
+$1This game parody was
+made in ten weeks by
+the Solarus Team
+to celebrate April
+Fool's Day 2017,
+
+still with the help of
+pizzas and high doses
+of caffeine.
+
+        CREDITS
+
+         Engine
+      Programming:
+Christopho
+         Story:
+Olivier Cléro
+Christopho
+Metallizer
+Valoo
+
+          Maps
+        creation:
+
+Christopho
+Metallizer
+Renkineko
+BenObiWan
+Valoo
+Diarandor
+Mymy
+
+
+       Dungeons
+      conception:
+
+       Castle of
+   Alternative Truth:
+Metallizer
+      Grump Tower:
+Christopho
+
+        Graphics:
+Olivier Cléro
+Newlink
+         Musics:
+Olivier Cléro
+Metallizer
+         Tests:
+Binbin
+
+Not that many people
+otherwise. We were
+super late.
+         English
+       translation:
+
+Christopho
+Diarandor
+Olivier Cléro
+Renkineko
+
+
+        Special
+        thanks:
+
+LarryInc64
+FFOmega
+Shield
+DoctorOctoroc
+Bulby
+HelpTheWretched
+Rockfootdude
+Yoshi04
+Sam101
+Congratulations on
+reaching the end!
+
+
+
+ www.solarus-games.org
+]],
+}
+
+dialog{
+  id = "final.mr_grump_1",
+  text = [[
+...$0
+Princess Zelda, this
+moment is delightful.
+It has been 3 years to
+the day we met.
+]],
+}
+
+dialog{
+  id = "final.mr_grump_2",
+  text = [[
+Oh, you know, this
+perfume is extremely
+valuable!
+My grandfather passed
+it down to me.
+
+I cannot tell much more
+about this, honey.
+]],
+}
+
+dialog{
+  id = "final.mr_grump_3",
+  translators_note = "Mojo-ito is a wordplay between Mojo and the cocktail Mojito",
+  text = [[
+What a sweet idea, my
+lovely little Zelly!
+
+I will have a
+Deku-ba Libre, what
+about you, sweetie?
+]],
+}
+
+dialog{
+  id = "final.the_doctor_1",
+  text = [[
+OH!$0
+Do you see what I see?$0
+Mr Grump and Zelda...$0
+They...$0
+No...$0This is
+impossible... ?!
+Doc Emmett Brown...
+And his space-time
+continuum stuff!
+That old crazy guy was
+right!
+We modified the past!
+Oooooh...
+I think I understand!
+Do you get it?
+Shh!$0
+Let's listen to their
+conversation..
+]],
+}
+
+dialog{
+  id = "final.the_doctor_2",
+  translators_note = "'NOM DE ZEUS' is Doc Emmet Brown's French trademark exclamation in Back to the Future",
+  text = [[
+Would that be
+possible?!$0 I remember
+this smell...
+That's...$0
+Eureka!
+I just found out!
+Well, hold on to your
+hats because this is
+completely far-fetched.
+Remember the perfume we
+gave to the
+tyrannosaurus?
+It must have persisted
+all these years until
+today.
+And become better and
+better over time, until
+it became irresistible.
+The tyrannosaurus
+evolved into a goose
+over the milleniums.
+Mr Grump then got the
+flask thanks to his
+goose that laid the
+golden egg...
+
+
+GREAT SCOTT!
+]],
+}
+
+dialog{
+  id = "final.zelda_1",
+  translators_note = "'Le coup de Fatal-foudre' is a wordplay between French way of saying 'Love at first sight' and a Pokemon electric attack 'Thunder'",
+  text = [[
+Yes honey...
+It feels like it was
+yesterday.
+My little heart melted
+when you offered me
+this perfume.
+It really was love at
+first retweet, as the
+young now say.
+You are so much more
+clever than that
+weirdo $v.
+Tell me where it comes
+from, because my flask
+is almost empty...
+]],
+}
+
+dialog{
+  id = "final.zelda_2",
+  text = [[
+Hey!$0
+Honey! Didn't you hear
+something?
+]],
+}
+
+dialog{
+  id = "final.zelda_3",
+  text = [[
+$v!$0
+This is you?
+What are you doing?
+Are you spying on us?
+You really are an
+inconsiderate person,
+aren't you? No one told
+you about manners?
+
+First, you break vases
+whenever you enter
+someone's house.
+Then, you steal
+treasures in temples.
+
+On top of that, you
+previously locked me up
+in your basement!
+And now you are spying
+on a nice couple who is
+having a romantic
+moment!
+
+
+You will have to pay
+for your rudeness.
+Again!
+]],
+}
+
+dialog{
+  id = "final.zelda_4",
+  text = [[
+$v,
+Come here, will you?
+
+Come on!
+Quicker!
+]],
+}
+
+dialog{
+  id = "final.zelda_5",
+  text = [[
+As a punishement, my
+dear $v,
+I have an idea...
+Since you spoiled our
+romantic date, you will
+have to make up for it.
+I suggest... no!
+I am ORDERING you to
+bring us cocktails!
+What would you like to
+drink, my dear lovely
+Grummy?
+]],
+}
+
+dialog{
+  id = "final.zelda_6",
+  translators_note = "'Zora Colada' is a wordplay between Zora and the cocktail Piña Colada",
+  text = [[
+I think I would like a
+Zora Colada!
+
+Come on, $v,
+get to work!
+]],
+}
+
+dialog{
+  id = "final.zelda_7",
+  text = [[
+Thank you, $v!$0
+
+
+*Slurp*$0 *slurp*$0 *slurp*$0
+It was delicious!
+
+Hey, $v, don't
+you hear these meows?
+
+That's Snowflake!
+It is hungry!
+Come on, go feed it!
+]],
+}
+
+dialog{
+  id = "final.zelda_8",
+  translators_note = "Reference to Zelda: Link's Awakening",
+  text = [[
+Well..
+but deep down he is not
+a bad person.
+So, where were we, you
+and me?
+Oh yes, you were
+talking about an island
+where to go for
+holidays.
+Koholint, you say?
+And there is a flying
+whale?
+Wow, it seems awesome!
+Let's go there?
+]],
+}
+
+dialog{
+  id = "forest.monkey",
+  question = "1",
+  text = [[
+Ok!
+Do you want one of
+my bananas?
+I won't give you my
+food just like that!
+Ok! Ok!
+That's 50 rupees!
+Yes
+No way!
+]],
+}
+
+dialog{
+  id = "forest.monkey_not_enough_money",
+  text = [[
+You don't have
+enough rupees!
+
+Don't try to
+rip me off!
+]],
+}
+
+dialog{
+  id = "forest.south_west_sign",
+  skip = "all",
+  text = [[
+West: Chill Valley
+]],
+}
+
+dialog{
+  id = "forest.west_sign",
+  skip = "all",
+  text = [[
+West: Chill Valley
+]],
+}
+
+dialog{
+  id = "found_fairy",
+  icon = "81",
+  next = "found_fairy.1",
+  skip = "all",
+  text = [[
+You found a Fairy,
+that's pretty cool!
+]],
+}
+
+dialog{
+  id = "found_fairy.1",
+  icon = "-1",
+  question = "1",
+  skip = "none",
+  text = [[
+What will you do?
+Recover Hearts now
+Keep her in a Bottle
+]],
+}
+
+dialog{
+  id = "found_fairy.no_empty_bottle",
+  text = [[
+You don't have a
+Magic Bottle!
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.first",
+  icon = "75",
+  text = [[
+Don't even THINK
+about it: you need
+3 more of them to
+have a new Heart.
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  icon = "78",
+  text = [[
+You found 4 Pieces
+of Heart. You gain a
+new Heart!
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  icon = "76",
+  text = [[
+Just two more!
+]],
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  icon = "77",
+  text = [[
+Just one more!
+Get ready for
+the party!
+]],
+}
+
+dialog{
+  id = "found_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Do you want to put
+some water in your
+
+Magic Bottle?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "found_water.no_bottle",
+  text = [[
+There is some water
+here, but you have no
+way of storing it...
+]],
+}
+
+dialog{
+  id = "found_water.no_empty_bottle",
+  icon = "8",
+  text = [[
+There is some water
+here, but you need
+an empty Magic
+Bottle to store
+it...
+]],
+}
+
+dialog{
+  id = "intro.light_saber_give_back",
+  text = [[
+Wait a moment...$0$0
+Here it is!
+
+Ah,$0
+I almost forgot!
+Here you are. This is
+the lightsaber I
+confiscated from you.
+
+I didn't find the
+blue color pretty
+at all...
+so I changed its color.
+It's much better now.
+as you can see.
+]],
+}
+
+dialog{
+  id = "intro.marine_exclaming",
+  text = [[
+...
+Oh!
+]],
+}
+
+dialog{
+  id = "intro.marine_to_zelda",
+  text = [[
+Wake up!
+$0$0$0$0
+]],
+}
+
+dialog{
+  id = "intro.marine_waking_up",
+  text = [[
+$v?
+Are you alive?
+Wake up!
+...
+Please!
+$v?
+WAKE UP!!!
+C'MON!!!
+WAKE UP, LAZY!
+]],
+}
+
+dialog{
+  id = "intro.marine_wondering",
+  text = [[
+???
+
+
+What is that?
+Where does it
+come from?
+A wreck?
+]],
+}
+
+dialog{
+  id = "intro.zelda_removing_hearts",
+  text = [[
+Well... In any case
+you did the work,
+but you could have put
+more enthusiasm.
+
+
+I'm still gonna
+take some of your
+heart containers,
+as a part of your
+punishment.
+]],
+}
+
+dialog{
+  id = "intro.zelda_resistant",
+  text = [[
+What...?
+
+
+You are still sleeping?
+
+
+Hey,
+don't be stubborn!
+
+This is what you've
+asked for!
+Take this!
+]],
+}
+
+dialog{
+  id = "intro.zelda_shaking",
+  text = [[
+I'M GONNA SHAKE YOU
+UP!!!
+]],
+}
+
+dialog{
+  id = "intro.zelda_waiting",
+  translators_note = "Reference to previous XD episode, and then to Zelda: Link's Awakening",
+  text = [[
+Ha!$0
+Finally!
+$0
+Don't pretend you
+forgot.
+
+Like every morning,
+you must redeem
+yourself for the
+trouble you caused.
+$0
+
+Only 3 months of
+chores are still
+remaining.
+Come back when you
+are ready.$0
+
+What?!
+A dream with a flying
+whale and a huge egg?!
+You've lost your mind,
+poor boy!
+C'mon, wake up!
+]],
+}
+
+dialog{
+  id = "intro.zelda_waking_up",
+  text = [[
+WAAAAKE UUUP!!!
+C'MOOON!!!
+GEEET UUUP!!!
+]],
+}
+
+dialog{
+  id = "island.arrow_knee",
+  skip = "all",
+  translators_note = "Reference to Skyrim game. The seconds are false on purpose",
+  text = [[
+I used to be kind
+like you, then I took
+an arrow in the knee.
+Since then, I have this
+hate in me, so strong
+and unstoppable. But
+I haven't done any harm
+to innocents for six
+weeks, three days,
+two hours, five
+minutes, and
+sixty-eight seconds...
+]],
+}
+
+dialog{
+  id = "island.banished_guy1",
+  skip = "all",
+  text = [[
+I'm a gambling addict.
+
+
+I can't enter the tower
+anymore. I was banned
+from the casino!
+]],
+}
+
+dialog{
+  id = "island.banished_guy2",
+  skip = "all",
+  text = [[
+I'm a compulsive
+eater.
+
+I can't enter the tower
+anymore. I was banned
+from the restaurant!
+]],
+}
+
+dialog{
+  id = "island.beach_board",
+  skip = "all",
+  text = [[
+Rupee Island
+
+
+Swimsuit is mandatory.
+]],
+}
+
+dialog{
+  id = "island.beach_jelly1",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will chop it
+in small pieces!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly2",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will burn it with
+a magnifying glass!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly3",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will drown it!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly4",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will make it
+eat some poison!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly5",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+We will torture it
+psychologically!
+]],
+}
+
+dialog{
+  id = "island.beach_jelly6",
+  skip = "all",
+  text = [[
+Hahah! We've
+trapped a jellyfish!
+
+Huh? Aren't these
+things a bit dangerous?
+]],
+}
+
+dialog{
+  id = "island.beach_north_sign",
+  skip = "all",
+  text = [[
+To Grump Tower
+]],
+}
+
+dialog{
+  id = "island.deku_done",
+  skip = "all",
+  text = [[
+Look at this, boss!
+We've recovered your
+flippers!
+That's for sure!
+]],
+}
+
+dialog{
+  id = "island.dontgo_board",
+  skip = "all",
+  text = [[
+No entry!!!
+]],
+}
+
+dialog{
+  id = "island.dontgo_guy",
+  skip = "all",
+  text = [[
+Do not enter!!!
+]],
+}
+
+dialog{
+  id = "island.grump_done",
+  translators_note = "'The classiest man on Earth' is a reference to a French movie 'Le Grand Détournement'",
+  text = [[
+A cad!
+That's what you are.
+
+Yes, of course I'm
+Mr Grump, the classiest
+man on Earth.
+Here, we don't like
+thieves and cads.
+
+Don't touch my
+flippers ever again!
+]],
+}
+
+dialog{
+  id = "island.grump_done_again",
+  skip = "all",
+  text = [[
+In the future, when
+you find something
+in a dungeon,
+don't take it.
+That's a theft!
+]],
+}
+
+dialog{
+  id = "island.grump_hey",
+  text = [[
+Hey!
+You!
+]],
+}
+
+dialog{
+  id = "island.grump_my_flippers",
+  text = [[
+Hey! Those are my
+flippers!$0
+Guards! Security!
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_1",
+  skip = "all",
+  text = [[
+Grump Tower is
+currently close due to
+of work ongoing.
+Please come back later.
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_2",
+  skip = "all",
+  text = [[
+Don't bullshit him,
+José!
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_3",
+  skip = "all",
+  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
+  text = [[
+We are in charge of
+blocking you because
+you forgot to finish the
+first dungeon.
+
+
+This is not an open
+world!
+
+Here, there is an order
+to respect for
+dungeons.
+Otherwise, this opens
+the door to all sorts
+of windows!
+]],
+}
+
+dialog{
+  id = "island.grump_tower_guard_4",
+  skip = "all",
+  text = [[
+Well, it's the big
+debate nowadays...
+a linear game or a
+non-linear game.
+As long as I'm
+payed for playing a
+human wall role, I
+don't mind.
+]],
+}
+
+dialog{
+  id = "island.grump_tower_sign",
+  skip = "all",
+  text = [[
+Grump Tower
+]],
+}
+
+dialog{
+  id = "island.hideseek_mom",
+  skip = "all",
+  text = [[
+I play hide-and-seek
+with my children.
+
+This should be quiet
+for a while...
+]],
+}
+
+dialog{
+  id = "island.hideseek_son",
+  skip = "all",
+  text = [[
+I play hide-and-seek
+with my mom.
+
+I'm winning now.
+]],
+}
+
+dialog{
+  id = "island.liquid_champaign",
+  skip = "all",
+  text = [[
+It's champagne.
+]],
+}
+
+dialog{
+  id = "island.liquid_empty",
+  skip = "all",
+  text = [[
+It's empty.
+]],
+}
+
+dialog{
+  id = "island.liquid_gentiane",
+  skip = "all",
+  text = [[
+It's carbolic gentian
+violet. 
+]],
+}
+
+dialog{
+  id = "island.liquid_milk",
+  skip = "all",
+  text = [[
+It's milk.
+]],
+}
+
+dialog{
+  id = "island.liquid_water",
+  skip = "all",
+  text = [[
+It's water.
+]],
+}
+
+dialog{
+  id = "island.scaring_rupee_obtained_dialog",
+  text = [[
+You've lived atrocious
+things in that cave.
+And these 20 rupees
+were definitely not
+worth it.
+]],
+}
+
+dialog{
+  id = "island.shop.blue_potion",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+The ultimate potion.
+With this, you will
+become young.
+For such a small price,
+I'm cutting me own
+throat...
+]],
+}
+
+dialog{
+  id = "island.shop.flippers",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+The quickest flippers
+of the seven seas.
+With them, no need
+for a ship.
+It's a bargain,
+on my word as CMOTD!
+]],
+}
+
+dialog{
+  id = "island.shop.green_potion",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+If you want to awaken
+the Force that hides
+within yourself, it's a
+good choice. And for
+this price, I'm cutting
+me own throat!
+]],
+}
+
+dialog{
+  id = "island.shop.kitchen",
+  skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+Do you think this is
+a canteen? Do you
+think that a big furry
+is gonna blow in
+your bronchus?
+You aren't here to eat
+so choose something
+to buy or go away.
+]],
+}
+
+dialog{
+  id = "island.shop.laboratory",
+  skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+Don't touch the stuff,
+little guy. Let the
+professional to the
+job and settle for what
+is already on sale.
+
+Should I ever run out
+of items, I'd make more
+pronto.
+]],
+}
+
+dialog{
+  id = "island.shop.merchant",
+  skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+Hi, I'm Dibbler.
+I guess you come
+for my specialty of
+sausages in small
+bread... 
+
+Unfortunately, I have a
+stock shortage. All my
+merchandise is here,
+and I can swear that
+given the prices, I'm
+like killing myself.
+]],
+}
+
+dialog{
+  id = "island.shop.red_potion",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+When you feel weak,
+try the magic potion.
+For this price, I'm
+like cutting me own
+throat!
+]],
+}
+
+dialog{
+  id = "island.shop.vault",
+  skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
+  text = [[
+HEY! What do you
+think you're doing?
+Do you think this
+is a bank or some kind
+of self-service?
+Go away, brother,
+you are out of
+Dibbler's league.
+]],
+}
+
+dialog{
+  id = "island.south_sign",
+  skip = "all",
+  text = [[
+North: Rupee Island
+South: Chill Valley
+East: Village
+]],
+}
+
+dialog{
+  id = "island.zoo_adopt",
+  skip = "all",
+  text = [[
+Could we adopt one?
+]],
+}
+
+dialog{
+  id = "island.zoo_chief",
+  skip = "all",
+  text = [[
+Mr Grump ventilates
+his rupees right here.
+
+That allows visitors to
+admire them.
+]],
+}
+
+dialog{
+  id = "island.zoo_reproduct",
+  skip = "all",
+  text = [[
+Can they breed?
+]],
+}
+
+dialog{
+  id = "island.zoo_rgb",
+  skip = "all",
+  text = [[
+Didn't they have any
+other color available
+for the 300?
+]],
+}
+
+dialog{
+  id = "island.zoo_sign",
+  skip = "all",
+  text = [[
+Rupee enclosed space.
+]],
+}
+
+dialog{
+  id = "lafoo.after_explosion",
+  translators_note = "Reference to Pokémon Go",
+  text = [[
+There it is!!!
+
+
+The building of the
+Lost and Found Office
+has collapsed!
+But people had already
+left... because a wild
+Ditto appeared.
+However, the revenge
+against Mr Grump
+has not finished.
+He lives at the royal
+castle, he bought it
+with his huge fortune.
+It seems that he has
+covered the walls with
+gold! If you are
+looking for him, he
+will surely be there!
+]],
+}
+
+dialog{
+  id = "lafoo.before_explosion",
+  skip = "all",
+  text = [[
+Better not enter
+there...
+
+...this is likely to
+collapse at any
+moment!
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_1",
+  skip = "all",
+  text = [[
+From here on,
+1h of waiting.
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_2",
+  skip = "all",
+  text = [[
+From here on,
+45 minutes of waiting.
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_3",
+  skip = "all",
+  text = [[
+From here on,
+44 minutes and 49
+seconds of waiting.
+Yeah, this doesn't
+move too quick...
+]],
+}
+
+dialog{
+  id = "lafoo.queue_sign_4",
+  skip = "all",
+  translators_note = "Reference to France's legendary slow administration",
+  text = [[
+From here on,
+you should think
+of taking a ticket.
+After getting it,
+you should think
+of waiting 1 extra
+hour.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_1",
+  skip = "all",
+  text = [[
+I have butterflies
+in my stomach...
+
+No doubt. This is the
+joy of seeing this
+building on fire!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_10",
+  skip = "all",
+  translators_note = "Reference to the song 'I am Gonna Be' by The Proclaimers",
+  text = [[
+But I would walk 500
+miles, and I would walk
+500 more, just to be
+the man who walks a
+thousand miles, to see
+this thing fall down.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_11",
+  skip = "all",
+  text = [[
+I'm sure that this fire
+has not been caused
+by the people.
+Nope, this is a
+conspiracy caused
+by the government!
+Have you heard about
+the Illuminatis?
+No?
+And the Reptiles?
+Neither?
+These are the secret
+societies responsible
+of this fire, and
+nobody talks about
+that!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_12",
+  skip = "all",
+  translators_note = "'Ouiche lorraine' is actually 'quiche lorraine' but the typo is on purpose. Reference to French movie 'Le grand détournement'",
+  text = [[
+I've felt something
+like a burning
+scent...
+I thought first that
+this was the quiche
+lorraine that I left
+in the oven.
+No way!
+It was this damn
+Office that people
+decided to burn!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_13",
+  skip = "all",
+  text = [[
+Hey, do something!
+Don't stay like that,
+uselessly!
+Well, I say this, but
+I'm not better than
+you so I gossip!
+At least, has someone
+called the firemen?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_14",
+  skip = "all",
+  text = [[
+On the one hand,
+it's sad when there
+is a fire...
+But on the other hand,
+it's a joy to see this
+thing burn!
+Mr Grump, its owner,
+is ignoble with women.
+
+Someone should
+replace these ideas
+in his head!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_15",
+  skip = "all",
+  text = [[
+I've seen people of
+the village set fire
+on this building!
+It's the Lost and
+Found Office.
+
+I was there when it
+started!
+
+I've seen all, but I
+won't tell anything!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_16",
+  skip = "all",
+  text = [[
+This damn Lost and
+Found Office...
+Finally, it burns!
+I remember that I
+spent a whole day
+inside.
+That administrative
+paperwork was a
+never ending thing!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_17",
+  skip = "all",
+  translators_note = "Reference to Adele's song",
+  text = [[
+They set fire...$0
+To the rain...
+
+Heh, that could make
+a nice song!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_18",
+  skip = "all",
+  text = [[
+Some people called
+it the Lost and Found
+Office.
+I call it: the Waste of
+Time Office!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_19",
+  skip = "all",
+  translators_note = "Quote of Mahatma Gandhi",
+  text = [[
+No country has ever
+risen without being
+purified through the
+fire of suffering.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_2",
+  skip = "all",
+  translators_note = "Reference to left-wing French politician Jean-Luc Melenchon, famous for his bombastic speeches",
+  text = [[
+YES SIR!
+DON'T BE AFRAID
+OF WORDS!!!
+This building on
+fire is a symbolic
+thing!
+This expresses the
+anger of people!
+
+No more administrative
+processes!
+
+No more
+cosmopolite-bourgeoise
+bureaucracy!
+No more of this!
+REVOLUTION!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_20",
+  skip = "all",
+  text = [[
+The discontent of the
+villagers has been
+heard!
+Fortunately, the
+employees went
+out in time.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_21",
+  skip = "all",
+  translators_note = "Quote from Robert Frost + reference to 'A song of ice and fire' books by George R. R. Martin",
+  text = [[
+Some say the world will
+end in fire, some say
+in ice.
+Wow, with this I could
+write a song of ice and
+fire!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_22",
+  skip = "all",
+  translators_note = "Reference to Zelda: Ocarina of Time",
+  text = [[
+You know what would be
+cool?
+
+If we could put on the
+Bolero of Fire during
+this fire!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_23",
+  skip = "all",
+  text = [[
+Can you see the smoke
+in the sky? This is
+coming from the forest.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_24",
+  skip = "all",
+  text = [[
+We can hear the roar of
+a crowd...
+
+Is there something to
+celebrate?
+
+I am trying to see
+where it comes from!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_25",
+  skip = "all",
+  text = [[
+Let me go!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_25_fire_rod",
+  text = [[
+Hey, do you want
+something for free?
+
+Here you are! That's
+for you! And if
+someone asks questions,
+you don't know me,
+we never saw each other
+and we never met.
+Now I'm going to keep a
+low profile and
+disappear.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_26",
+  skip = "all",
+  text = [[
+Is someone having a
+barbecue?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_27",
+  skip = "all",
+  text = [[
+Don't leave like that
+already! Stay with the
+others and part.$0
+What do you mean, I am
+just an artificial
+barrier?
+Make no mistake, it was
+either this or an
+invisible wall!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_28",
+  skip = "all",
+  translators_note = "The curse is a reference to Franco-belgian comic book Blake & Mortimer",
+  text = [[
+Looks like there is a
+riot deep down the
+forest!
+You should go there
+quickly!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_29",
+  skip = "all",
+  text = [[
+What on earth is the
+police doing?
+
+There seems to be a
+gathering deep down the
+forest.
+On top of that, we see
+this smoke cloud and it
+smells like something is
+overcooked!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_3",
+  skip = "all",
+  text = [[
+I admire honest
+people...
+
+...and know this, boy,
+the director of the
+Lost and Found Office
+wasn't one! So,
+he should go to hell!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_30",
+  skip = "all",
+  text = [[
+Firemen should be
+there shortly!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_31",
+  skip = "all",
+  text = [[
+Is this blaze not at
+the Lost and Found
+Office?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_32",
+  skip = "all",
+  text = [[
+What is this terrible
+rumpus going on over
+there?
+
+By the way, this word,
+"rumpus"
+...
+could be elected the
+Ugliest Word Ever.
+
+Last year, the winner
+was "Bunion".
+Crazy, right?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_33",
+  skip = "all",
+  text = [[
+Good heavens!
+It might be that
+something is burning!
+There is no smoke
+without fire, as they
+say.
+Others say "The pen is
+mightier than the
+sword".
+But it has nothing to
+do with that!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_34",
+  skip = "all",
+  text = [[
+Hey, what were you
+doing home all that
+time?
+Don't you see that
+there is some trouble
+in the forest?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_35",
+  skip = "all",
+  text = [[
+Sniff$0 sniff$0
+There is a burning
+smell!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_36",
+  skip = "all",
+  text = [[
+This situation gives
+me inspiration for a
+poem.
+  From the canopy are
+escaping
+  these strange smoke
+rings.
+  What is this great
+mystery?
+  Just a fire,
+probably.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_37",
+  skip = "all",
+  text = [[
+Hey, little guy!
+Do you know Mr Grump?
+
+He his the manager of
+the Lost and Found
+Office.
+The whole village is
+up in arms against him.
+
+I think they went there
+to demonstrate there
+anger.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_38",
+  skip = "all",
+  text = [[
+People say that there
+is a pyromaniac in the
+village...
+And that he would have
+gone and done it again
+near the Lost and Found
+Office!
+Blimey!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_39",
+  skip = "all",
+  translators_note = "Reference to TV show The IT Crowd",
+  text = [[
+Dear Sir/Madam,
+I am here to inform
+you of a fire which has
+broken out to the
+premisses of...
+no, that is too formal.
+Dear Sir/Madam,
+Fire! Exclamation mark.
+Fire! Exclamation mark.
+Help me! Exclamation
+mark.
+Lost and Found Office.
+Looking forward to
+hearing from you!
+All the best.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_4",
+  skip = "all",
+  translators_note = "The curses are references to Captain Haddock, in the Franco-belgian comic book 'The Adventures of Tintin'",
+  text = [[
+The director of the
+Lost and Found Office
+is called Mr Grump.
+He lives in a royal
+castle that he bought
+with his fortune...
+What a bashi-bazouk!
+Ectoplasm! Anacoluthon!
+Filibuster! Diplodocus!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_40",
+  skip = "all",
+  translators_note = "Reference to the TV show Battlestar Galactica",
+  text = [[
+Somebody forgot their
+bread in a frakking
+toaster?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_41",
+  skip = "all",
+  translators_note = "Reference to TV show 24",
+  text = [[
+The fire is an act of
+terrorrism. I have just
+called CTU.
+Trust me, everything
+will be over in less
+than 24 hours.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_42",
+  skip = "all",
+  translators_note = "Reference to TV show The IT Crowd",
+  text = [[
+Did you see that
+ludicrous display last
+night?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_43",
+  skip = "all",
+  translators_note = "Reference to TV show How i met your mother",
+  text = [[
+You don't know what
+is happening?
+
+Seriously?!
+
+
+It is going to be...
+wait for it...
+
+legendary!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_44",
+  skip = "all",
+  text = [[
+My dad is a thief,
+because he stole all
+the stars in the sky
+to put them in my
+eyes...
+
+Well, that's what all
+boys tell me.
+
+But I know that my dad
+is not a thief.
+
+On the other hand, he
+is inclined towards
+blazes.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_45",
+  skip = "all",
+  text = [[
+Developers told me to
+stop you from
+traversing.
+Why?
+
+
+Don't ask me, I am
+just an NPC!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_46",
+  skip = "all",
+  translators_note = "Reference to Gandalf in The Lord of the Rings",
+  text = [[
+YOU.
+
+
+SHALL.
+
+
+NOT.
+
+
+PASS!!!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_47",
+  skip = "all",
+  text = [[
+Just try to pass and
+you will have to deal
+with me.
+Can't you see that
+something serious is
+going on to the South?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_48",
+  skip = "all",
+  translators_note = "Reference to Back to the Future",
+  text = [[
+Great Scott!
+
+
+Looks like an arson is
+devastating the Lost
+and Found Office!
+This reminds me of an
+anecdote that happened
+in 1955,
+except that it more
+about lightning rather
+than fire, and it was
+a city hall clock
+instead of an office.
+
+Actually this is quite
+different.
+Great Scott!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_49",
+  skip = "all",
+  translators_note = "Reference to Back to the Future",
+  text = [[
+Don't you EVER call me
+a chicken.
+NEVER, okay?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_5",
+  skip = "all",
+  translators_note = "Reference to the movie Batman the Dark Knight",
+  text = [[
+Some men just
+want to watch the
+world burn...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_50",
+  skip = "all",
+  text = [[
+The other day, there
+was already a burning
+smell like this.
+Except that it was the
+leg of lamb that I had
+forgotten in the oven.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_51",
+  skip = "all",
+  translators_note = "Reference to the movie Office Space",
+  text = [[
+They never gave me my
+red stapler back...
+
+I could really have
+been the one who...
+burned this place...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_52",
+  skip = "all",
+  translators_note = "Reference to TV show Seinfeld",
+  text = [[
+Stay in line like
+everybody and don't
+take their spot.
+Otheriwse, no soup for
+you!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_53",
+  skip = "all",
+  translators_note = "Reference to TV show Arrested Development",
+  text = [[
+Now the story of a
+wealthy industry who
+lost everything.
+And of the one boss who
+had no choice but to
+run away.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_54",
+  skip = "all",
+  text = [[
+I was an employee of
+the Lost and Found
+Office, and now, thanks
+to this fire, I am
+free!
+
+Good bye Mr Grump!
+Good bye you and your
+horrible way of
+treating your employees!
+Hasta la vista baby !
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_55",
+  skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
+  text = [[
+Remember counter 22?
+
+
+They used to consider
+themselves the best
+counter in the world.
+Well, just like the
+rest, everything went
+up in smoke!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_56",
+  skip = "all",
+  text = [[
+There are so many
+onlookers that I can't
+even go back home in
+Chill Valley!
+Please get out of the
+way.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_57",
+  skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
+  text = [[
+Did you see the guy
+from counter 32?
+He left with all keys.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_58",
+  skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
+  text = [[
+The employee from
+counter 41 was fired
+because he was taking
+breaks all day long.
+I heard that he found a
+new job at the
+restaurant of the
+Grump Tower!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_6",
+  skip = "all",
+  text = [[
+And who is gonna clean
+the ashes of this fire?
+Again, granny...
+Ah, to mess around,
+these young people
+are good!
+But when it's about
+cleaning...
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_66",
+  skip = "all",
+  text = [[
+Walk to the East.
+I have a feeling that
+people want you to
+go there!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_67",
+  skip = "all",
+  text = [[
+The village is under a
+state of emergency.
+
+Sorry mate, this path
+is closed!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_68",
+  skip = "all",
+  text = [[
+So you are trying not
+to follow the scripted
+events that game
+developers prepared for
+you?
+Smart alec!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_69",
+  skip = "all",
+  text = [[
+To the North is the
+Lost and Found Office,
+which is burning like
+a crème brûlée.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_7",
+  skip = "all",
+  text = [[
+I do footing each
+week, but then
+suddenly...
+...my shoelace untied.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_70",
+  skip = "all",
+  text = [[
+My goodness, the whole
+village is gathered
+right here!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_71",
+  text = [[
+I think I saw the
+arsonist run away.
+
+He had a stick that
+shoots fire.
+
+Just like you...
+
+
+Tell me, is that you?
+
+
+Well because if it is
+you, I am not mad at
+you.
+On the contrary, you
+are a hero!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_72",
+  skip = "all",
+  text = [[
+Let's watch that
+thingummy burn and
+enjoy the show.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_73",
+  skip = "all",
+  translators_note = "Reference to the movie Office Space",
+  text = [[
+If my office could
+just, yeah...
+you know... not burn,
+with all these TPS
+reports... yeah,
+that would be great.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_74",
+  skip = "all",
+  translators_note = "Reference to TV show Game of Thrones",
+  text = [[
+Too bad winter is still
+not coming.
+
+Because this would have
+warmed everybody up.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_75",
+  skip = "all",
+  text = [[
+I wanted to take my
+girlfriend to a show
+but I am broke.
+So I brought her here
+to see this fire.
+
+This is not everyday
+stuff, man!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_76",
+  skip = "all",
+  text = [[
+I would never have
+imagined that there
+were so many people
+in the village!
+It's crazy!
+They should organize
+this kind of fireworks
+show more often.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_77",
+  skip = "all",
+  text = [[
+The Lost and Found
+Office was everything
+but a historical
+monument. But to
+witness it going up in
+smoke, this is a
+historical moment!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_78",
+  skip = "all",
+  text = [[
+I wonder if this is a
+riot or a party.
+A fire that is out of
+control in the middle
+of the forest, and
+people seem delighted.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_79",
+  skip = "all",
+  translators_note = "Reference to German History : Berlin Wall",
+  text = [[
+History books will
+report this event as
+the Fall of the
+Administrative Wall.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_8",
+  skip = "all",
+  text = [[
+Gneh heh heh...
+I've always had
+passion for fire...
+But it wasn't me,
+not this time!
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_80",
+  skip = "all",
+  text = [[
+I can't look towards
+the fire.
+
+This represents too
+much emotion for me.
+]],
+}
+
+dialog{
+  id = "lafoo_riot.npc_9",
+  skip = "all",
+  translators_note = "Reference to TV show Lost",
+  text = [[
+What is this strange
+black smoke? While you
+are at it, why not a
+polar bear and a lost
+island?
+]],
+}
+
+dialog{
+  id = "lafoo_riot.perfume_npc",
+  text = [[
+Hey, you!
+
+
+Here! Take this
+perfume!
+
+I have been trying to
+trade it for an axe for
+ages, with no luck.
+By the way, use some of
+it because honestly, it
+stinks of sweat here.
+Did you spend to whole
+day on physical labor
+or something?!
+Okay, I need to leave.
+I don't like crowds,
+and this is a riot!
+]],
+}
+
+dialog{
+  id = "main_village.castle_guard_after_dungeon_1",
+  skip = "all",
+  text = [[
+Ah, you're looking
+for the boss?
+Mr Grump is in a
+business trip to
+the other side of
+the ocean.
+]],
+}
+
+dialog{
+  id = "main_village.castle_guard_before_dungeon_1",
+  skip = "all",
+  text = [[
+Okay, you can get in.
+We have found the keys.
+]],
+}
+
+dialog{
+  id = "main_village.castle_lens_hint",
+  skip = "all",
+  text = [[
+I would not step on
+this damn castle.
+
+Inside it's all lies
+and illusions!
+
+How could you discern
+truth from lies?
+]],
+}
+
+dialog{
+  id = "main_village.dumb_guy_house.in_bed",
+  skip = "all",
+  translators_note = "This PNJ speaks as if he was texting and making lots of grammar and spelling mistakes.",
+  text = [[
+I'v been waitin' 5 days
+in frnt of t shop.
+I wan'd 2 b sure 2 b
+the 1st 1 with an
+iPlume.
+idk y I'm tir'd now.
+]],
+}
+
+dialog{
+  id = "main_village.east_sign",
+  skip = "all",
+  text = [[
+North: Sandpit Desert
+Mount Typython
+
+South:
+Grump Housing Estate
+]],
+}
+
+dialog{
+  id = "main_village.link_house.zelda_give_pink_saber_again",
+  text = [[
+Who turned your
+lightsaber into
+green???
+Let me fix that.
+]],
+}
+
+dialog{
+  id = "main_village.lost_found_office.welcome_sign",
+  text = [[
+Welcome to the Lost
+and Found Office...
+
+(Ouch! That burns!)
+]],
+}
+
+dialog{
+  id = "main_village.north_sign",
+  skip = "all",
+  text = [[
+North: Golden Castle
+of Mr Grump
+
+East: Sandpit Desert
+Mount Typython
+
+West: Rupee Island
+of Mr Grump
+
+Below your feet: green
+grass that Mr Grump
+hasn't bought yet
+]],
+}
+
+dialog{
+  id = "main_village.shop.croissant",
+  next = "_unknown",
+  text = [[
+A croissant.
+
+
+Eat it later to recover
+a lot of life.
+]],
+}
+
+dialog{
+  id = "main_village.shop.heart_container",
+  next = "_unknown",
+  text = [[
+A true Heart Container.
+
+
+The first customers
+will get better prices!
+]],
+}
+
+dialog{
+  id = "main_village.shop.iplume",
+  next = "_unknown",
+  translators_note = "Reference to Apple marketing",
+  text = [[
+An iFeather.
+It's revolutionary!
+
+No feather has ever
+been made better
+than the iFeather.
+Available worldwide
+right now in official
+iFeather shops.
+]],
+}
+
+dialog{
+  id = "main_village.shop.pain_au_chocolat",
+  next = "_unknown",
+  text = [[
+A chocolate croissant.
+
+
+Eat it later to recover
+some life.
+]],
+}
+
+dialog{
+  id = "main_village.shop.red_rupee",
+  next = "_unknown",
+  text = [[
+A home-made red rupee.
+Extremely rare!
+]],
+}
+
+dialog{
+  id = "main_village.shop.salesman",
+  skip = "all",
+  text = [[
+All commerce is
+decentralized on
+periphery out of the
+historic center.
+
+
+If all continues like
+that, we will have to
+move as well!
+]],
+}
+
+dialog{
+  id = "main_village.south_sign",
+  skip = "all",
+  text = [[
+West: Rupee Island
+Grump Tower
+
+South: Forest
+South-West:
+Chill Valley
+]],
+}
+
+dialog{
+  id = "main_village.tavern.heart_container_price_increasing",
+  text = [[
+Thanks a lot!
+You got a good deal:
+price will rise for
+the next customers.
+Hehehe.
+]],
+}
+
+dialog{
+  id = "main_village.tavern.heart_containers_done",
+  text = [[
+Thanks a lot!
+Well, you've bought
+all the stock.
+]],
+}
+
+dialog{
+  id = "main_village.tavern.tenant",
+  skip = "all",
+  text = [[
+Customers are rare.
+
+
+Everybody now lives ay
+Chill Valley or on the
+Rupee Island!
+]],
+}
+
+dialog{
+  id = "main_village.vase_house",
+  skip = "all",
+  translators_note = "Reference to Zelda games where you always break all the pots",
+  text = [[
+There has been some
+vandalism. A person
+dressed in green came
+here and broke all
+pots!
+
+People don't respect
+anything anymore.
+
+I have been cleaning
+this house for two
+weeks.
+I took measures to
+prevent that from
+happening again.
+Mwahahaha!!!
+]],
+}
+
+dialog{
+  id = "main_village.villager_tunnels",
+  skip = "all",
+  translators_note = "Reference to the game Minecraft",
+  text = [[
+Some people claim that
+caves are connected
+with each other through
+underground tunnels.
+
+
+Nonsense!
+People play Minecraft
+with too much!
+]],
+}
+
+dialog{
+  id = "main_village.villager_underground_river",
+  skip = "all",
+  translators_note = "'Cela semble incroyable' is a reference to Zelda Link's Awakening (Richard)",
+  text = [[
+Have you ever been
+to Chill Valley, West
+from here? It may
+seem unbelievable,
+but thermal water
+flows from Chill
+Valley to here through
+an underground river.
+]],
+}
+
+dialog{
+  id = "main_village.water_house.hello",
+  skip = "all",
+  text = [[
+I come from thermal
+therapy from the baths
+of Chill Valley.
+I love water.
+Water is life!$0
+Isn't it?
+Mr Grump, the manager
+of the Lost and Found
+Office, is a despicable
+man who never wanted
+any of my water.
+
+As a result, when the
+Lost and Found Office
+has been set on fire,
+they couldn't do
+anything!
+
+Hundreds of
+administrative layers
+went up in smoke!
+]],
+}
+
+dialog{
+  id = "main_village.water_house.upset",
+  skip = "all",
+  text = [[
+Who has installed this
+devilish mechanism?!$0
+
+This is ridiculous!
+
+
+Where has my water
+gone?
+]],
+}
+
+dialog{
+  id = "main_village.yoda_house.done",
+  skip = "all",
+  text = [[
+Rehoused here, I was
+when the Triforcizzle
+Marsh they destroyed.
+But on the wet side
+I stay, in this
+mushroom house.
+]],
+}
+
+dialog{
+  id = "main_village.yoda_house.give_green_saber",
+  text = [[
+Rehoused here, I was
+when the Triforcizzle
+Marsh they destroyed.
+But on the wet side
+I stay, in this
+mushroom house.
+Unfairly painted,
+your lightsaber
+has been?
+With your clothes,
+to match, better
+green a lightsaber
+should be.
+]],
+}
+
+dialog{
+  id = "not_now.cat_food",
+  text = [[
+That food is for
+Snowflake, Zelda's cat!
+]],
+}
+
+dialog{
+  id = "not_now.perfume",
+  text = [[
+Now is not a good time
+to put on some perfume!
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_are_you_okay",
+  skip = "all",
+  text = [[
+Is everything okay?$0
+According to the
+TARDIS, we are close
+to the source of killer
+rupees.
+
+But let's be careful
+not to change the
+timeline of prehistory.
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_lets_go_back",
+  text = [[
+Let's go back to the
+future!
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tardis_arrived",
+  text = [[
+Hmm...$0
+I guess we are there.
+
+The TARDIS tracked down
+the source of evil
+rupeees but...$0
+Are we really at the
+right place?
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus",
+  text = [[
+This is impossible!$0
+
+
+The Tyrannosaurus that
+laid the golden egg is
+supposed to be a myth!$0
+Ohhh...$0 oh...
+but everything is very
+clear now.
+Brillant!$0
+All of this is just
+brillant!$0
+This must be the
+ancestor of Mr Grump's
+goose that laid the
+golden egg, meaning
+that it caused the
+rupees invasion.
+But it looks very
+troubled...
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_pissed_off",
+  skip = "all",
+  text = [[
+The tyrannosaurus that
+laid the golden egg is
+very agitated.
+Would you have anything
+to calm it down, by any
+chance?
+I do have my sonic
+screwdriver, but it
+would only make it
+even more nervous!
+]],
+}
+
+dialog{
+  id = "prehistoric.doctor_tyrannosaurus_solved",
+  text = [[
+Fantastic!$0
+
+
+It looks like this
+funny perfume has a
+relaxing effect on it.
+Hopefully, this will be
+enough to annihilate
+the rupees curse!
+Let's go back to your
+time right away.
+]],
+}
+
+dialog{
+  id = "prehistoric.tyrannosaurus_upset",
+  skip = "all",
+  text = [[
+Rrrrr...
+]],
+}
+
+dialog{
+  id = "slot_machine.choose_bet",
+  question = "1",
+  text = [[
+How much will you bet?
+5 Rupees
+20 Rupees
+]],
+}
+
+dialog{
+  id = "slot_machine.intro",
+  question = "1",
+  text = [[
+Slot machine:
+put in 5 or 20 rupees
+and try your best to
+align three of the
+same same symbol to
+win several times
+what you put in!
+
+
+Do you want to play?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "slot_machine.playing",
+  text = [[
+Stand next to the
+roulettes and press the
+Action key to stop
+them.
+Good luck!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.creeper",
+  translators_note = "Reference to the game Minecraft",
+  text = [[
+Three Creepers!
+Watch out, this is
+going to hurt!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.green_rupees",
+  text = [[
+Three green rupees,
+nice! You win 5 times
+your bet.
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.none",
+  question = "1",
+  text = [[
+Tough luck, you didn't
+make a winning
+combination.
+Want to try again?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.pickaxes",
+  text = [[
+Three diamond pickaxes!
+
+
+Congratulations, you
+are off with 7 times
+your bet!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.red_rupees",
+  text = [[
+Three red Rupees!!!
+You earn 10 times
+your bet!
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.same_any",
+  text = [[
+Three identical
+symbols, not bad!
+You win 4 times your
+bet.
+]],
+}
+
+dialog{
+  id = "slot_machine.reward.yoshi",
+  text = [[
+Three Yoshis!
+This is the best
+possible combination.
+You win 20 times what
+you bet!
+]],
+}
+
+dialog{
+  id = "small_key_required",
+  icon = "72",
+  text = [[
+Locked!
+]],
+}
+
+dialog{
+  id = "swamp.3_months",
+  skip = "all",
+  translators_note = "Reference to the French movie 'Astérix et Obélix : Mission Cléopâtre'",
+  text = [[
+These deformed
+concrete blocks have
+been constructed
+haphazardly!
+
+
+It's clear that
+Mr Grump decided
+to finish all in 3
+months at all costs.
+The construction
+was then botched.
+And don't mention
+the conditions of
+the workers, what
+a slavery!
+
+
+Thank God the shop
+of magic potions
+has sponsored the
+construction.
+Without that they
+would have never
+finished the work.
+]],
+}
+
+dialog{
+  id = "swamp.architecture",
+  skip = "all",
+  translators_note = "Reference to the Franco-belgian comic book 'Astérix et Cléopâtre'",
+  text = [[
+The architect of this
+building has decided to
+put a door at the 2nd
+floor that leads to
+a deadly fall outside.
+
+He has anticipated
+that we may someday
+want to construct a
+terrace! It's great
+that we already have
+the door.
+$0So clever!
+]],
+}
+
+dialog{
+  id = "swamp.buildings_now",
+  skip = "all",
+  text = [[
+In the past there
+was a swamp here.
+It was typical!
+Few people knew about
+it, but we could even
+jump from puddle to
+puddle. Kids loved
+that.
+
+Mr Grump, the magnate
+of the building, has
+bought all to construct
+these awful building
+blocks instead.
+]],
+}
+
+dialog{
+  id = "swamp.ganon_palace",
+  skip = "all",
+  text = [[
+Pfff... We destroy
+the landscape for the
+sake of the property
+speculation!
+
+
+Ok, Ganon was from the
+side of evil forces,
+but at least his castle
+was part of our
+heritage.
+
+You might not like that
+but it was a historical
+monument!
+]],
+}
+
+dialog{
+  id = "swamp.no_palace",
+  skip = "all",
+  translators_note = "Reference to the French movie 'Astérix et Obélix : Mission Cléopâtre'",
+  text = [[
+Ganon palace has been
+completely destroyed.
+
+No palace... no palace.
+]],
+}
+
+dialog{
+  id = "swamp.otis",
+  skip = "all",
+  text = [[
+Are you looking for
+the people who
+constructed these
+insane buildings?
+It's not their fault.
+
+They only obeyed
+Mr Grump. In any
+case, the architect
+has a charming bud
+who went to meditate
+to the northern desert
+with his camel.
+
+
+By the way, I also
+meditate.
+]],
+}
+
+dialog{
+  id = "swamp.west_sign",
+  text = [[
+West: Forest
+Lost and Found Office
+]],
+}
+
+dialog{
+  id = "tardis.doctor_back_to_present",
+  skip = "all",
+  translators_note = "Reference to Doctor Who",
+  text = [[
+Here you are, back to
+your time.
+
+Everything is alright
+again, no?
+
+We didn't alter the
+space-time continuum.
+
+Well, I hope so.
+
+
+Hey, I am looking for a
+companion for my next
+journeys.
+Would you know anyone
+interested?
+]],
+}
+
+dialog{
+  id = "tardis.doctor_escaping_grump_tower",
+  translators_note = "Reference to Doctor Who",
+  text = [[
+Such an amount of
+rupees can only be the
+sign of a crack in the
+very fabric of
+spacetime!
+
+Me? I told you, I am
+the Doctor.
+Doctor Who?
+Just the Doctor.
+Yes, it is bigger on
+the inside.
+But let's leave this
+place.
+
+Allons-y!
+]],
+}
+
+dialog{
+  id = "torch.need_lamp",
+  skip = "all",
+  text = [[
+You must find a way
+to light this torch.
+]],
+}
+
+dialog{
+  id = "use_bottle_with_water",
+  icon = "8",
+  question = "1",
+  text = [[
+Your Magic Bottle is
+filled with water.
+
+Empty it?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "use_croissants",
+  icon = "18",
+  question = "1",
+  text = [[
+A Croissant
+recovers 7 Hearts.
+
+Eat one now?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "use_pains_au_chocolat",
+  icon = "17",
+  question = "1",
+  text = [[
+A Chocolate
+Croissant recovers
+three Hearts.
+Eat one now?
+Yes
+No
+]],
+}
+
+dialog{
+  id = "warning_magic",
+  text = [[
+Watch your magic
+meter!
+]],
+}
+

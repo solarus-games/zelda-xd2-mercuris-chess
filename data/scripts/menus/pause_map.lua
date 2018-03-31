@@ -149,7 +149,7 @@ function map_submenu:draw_world_map(dst_surface)
   self.world_minimap_img:draw(dst_surface, 57, 59)
 
   local map = self.game:get_map()
-  if map:get_world() ~= "ending" then
+  if map:get_world() ~= "ending" and map:get_world() ~= "prehistoric" then
     -- Draw the hero's position.
     self.hero_head_sprite:draw(dst_surface, self.hero_x, self.hero_y)
   end
@@ -293,7 +293,7 @@ function map_submenu:load_dungeon_map_image()
   end
 
   -- For each rooms:
-  for i = 1, self.dungeon_map_spr:get_num_directions(floor_animation) - 1 do
+  for i = 1, self.dungeon_map_spr:get_num_directions() - 1 do
     -- If the room is explored.
     if self.game:has_explored_dungeon_room(
       self.dungeon_index, self.selected_floor, i

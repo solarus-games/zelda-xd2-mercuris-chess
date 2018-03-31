@@ -1476,6 +1476,15 @@ sensor{
 
 tile{
   layer = 0,
+  x = 704,
+  y = 40,
+  width = 80,
+  height = 8,
+  pattern = "door_cache_low.1-1",
+}
+
+tile{
+  layer = 0,
   x = 16,
   y = 648,
   width = 56,
@@ -1607,15 +1616,6 @@ tile{
   width = 8,
   height = 80,
   pattern = "door_cache_low.4-1",
-}
-
-tile{
-  layer = 0,
-  x = 704,
-  y = 40,
-  width = 80,
-  height = 8,
-  pattern = "bridge_tile.1-1",
 }
 
 tile{
@@ -8434,6 +8434,28 @@ custom_entity{
   sprite = "entities/cocktails",
 }
 
+dynamic_tile{
+  name = "elevator_b_down_tile",
+  layer = 0,
+  x = 728,
+  y = 40,
+  pattern = "door_top.stairs_down.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
+dynamic_tile{
+  name = "elevator_b_up_tile",
+  layer = 0,
+  x = 744,
+  y = 40,
+  pattern = "door_top.stairs_up.1-2",
+  width = 16,
+  height = 8,
+  enabled_at_start = true,
+}
+
 tile{
   layer = 1,
   x = 840,
@@ -8825,28 +8847,6 @@ dynamic_tile{
   layer = 1,
   x = 240,
   y = 496,
-  pattern = "door_top.stairs_up.1-2",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "elevator_b_down_tile",
-  layer = 1,
-  x = 728,
-  y = 40,
-  pattern = "door_top.stairs_down.1-2",
-  width = 16,
-  height = 8,
-  enabled_at_start = true,
-}
-
-dynamic_tile{
-  name = "elevator_b_up_tile",
-  layer = 1,
-  x = 744,
-  y = 40,
   pattern = "door_top.stairs_up.1-2",
   width = 16,
   height = 8,

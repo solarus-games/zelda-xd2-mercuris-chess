@@ -8,6 +8,12 @@ function map:on_started()
 
   if game:get_value("water_house_pool_empty") then
     map:set_entities_enabled("pool_", false)
+    for torch in map:get_entities("torch_") do
+      torch:set_lit(true)
+    end
+  else
+    torch_2:set_lit(true)  -- Make a torch lit to give a hint.
+    num_torches_lit = 1
   end
 end
 
@@ -40,7 +46,7 @@ local function empty_pool()
   end)
 end
 
-function torch_on_lit(torch)
+local function torch_on_lit(torch)
 
   num_torches_lit = num_torches_lit + 1
   if num_torches_lit == 4 and not game:get_value("water_house_pool_empty") then

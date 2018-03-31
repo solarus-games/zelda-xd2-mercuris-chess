@@ -5,7 +5,7 @@ dialog{
 C'est un interrupteur
 de cristal. Frappe-le
 avec quelque chose...
-]]
+]],
 }
 
 dialog{
@@ -18,7 +18,7 @@ que le singe de la
 forêt t'a vendu.
 Tu t'es fais
 arnaquer.
-]]
+]],
 }
 
 dialog{
@@ -29,7 +29,7 @@ dialog{
 Avec les Bombes,
 explose plein de
 trucs !
-]]
+]],
 }
 
 dialog{
@@ -42,7 +42,7 @@ pour immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -55,7 +55,7 @@ pour immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -66,7 +66,7 @@ dialog{
 Le Flacon Magique
 peut contenir pas
 mal de trucs...
-]]
+]],
 }
 
 dialog{
@@ -79,7 +79,7 @@ contient de l'eau.
 
 Tu ferais mieux de
 la vider.
-]]
+]],
 }
 
 dialog{
@@ -90,7 +90,7 @@ dialog{
 Bois de la Potion
 rouge pour retrouver
 tous tes Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -101,7 +101,7 @@ dialog{
 Bois de la Potion
 verte pour retrouver
 toute ta magie.
-]]
+]],
 }
 
 dialog{
@@ -112,7 +112,7 @@ dialog{
 Bois de la Potion
 bleue pour retrouver
 vie et magie !
-]]
+]],
 }
 
 dialog{
@@ -123,7 +123,7 @@ dialog{
 Cette Fée viendra
 t'aider quand tu
 agoniseras.
-]]
+]],
 }
 
 dialog{
@@ -134,7 +134,7 @@ dialog{
 Le Flacon Magique
 peut contenir pas
 mal de trucs...
-]]
+]],
 }
 
 dialog{
@@ -147,7 +147,7 @@ contient de l'eau.
 
 Tu ferais mieux de
 la vider.
-]]
+]],
 }
 
 dialog{
@@ -158,7 +158,7 @@ dialog{
 Bois de la Potion
 rouge pour retrouver
 tous tes Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -169,7 +169,7 @@ dialog{
 Bois de la Potion
 verte pour retrouver
 toute ta magie.
-]]
+]],
 }
 
 dialog{
@@ -180,7 +180,7 @@ dialog{
 Bois de la Potion
 bleue pour retrouver
 vie et magie !
-]]
+]],
 }
 
 dialog{
@@ -191,7 +191,7 @@ dialog{
 Cette Fée viendra
 t'aider quand tu
 agoniseras.
-]]
+]],
 }
 
 dialog{
@@ -202,7 +202,7 @@ dialog{
 Le Flacon Magique
 peut contenir pas
 mal de trucs...
-]]
+]],
 }
 
 dialog{
@@ -215,7 +215,7 @@ contient de l'eau.
 
 Tu ferais mieux de
 la vider.
-]]
+]],
 }
 
 dialog{
@@ -226,7 +226,7 @@ dialog{
 Bois de la Potion
 rouge pour retrouver
 tous tes Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -237,7 +237,7 @@ dialog{
 Bois de la Potion
 verte pour retrouver
 toute ta magie.
-]]
+]],
 }
 
 dialog{
@@ -248,7 +248,7 @@ dialog{
 Bois de la Potion
 bleue pour retrouver
 vie et magie !
-]]
+]],
 }
 
 dialog{
@@ -259,7 +259,7 @@ dialog{
 Cette Fée viendra
 t'aider quand tu
 agoniseras.
-]]
+]],
 }
 
 dialog{
@@ -270,7 +270,7 @@ dialog{
 Le Flacon Magique
 peut contenir pas
 mal de trucs...
-]]
+]],
 }
 
 dialog{
@@ -283,7 +283,7 @@ contient de l'eau.
 
 Tu ferais mieux de
 la vider.
-]]
+]],
 }
 
 dialog{
@@ -294,7 +294,7 @@ dialog{
 Bois de la Potion
 rouge pour retrouver
 tous tes Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -305,7 +305,7 @@ dialog{
 Bois de la Potion
 verte pour retrouver
 toute ta magie.
-]]
+]],
 }
 
 dialog{
@@ -316,7 +316,7 @@ dialog{
 Bois de la Potion
 bleue pour retrouver
 vie et magie !
-]]
+]],
 }
 
 dialog{
@@ -327,7 +327,7 @@ dialog{
 Cette Fée viendra
 t'aider quand tu
 agoniseras.
-]]
+]],
 }
 
 dialog{
@@ -340,7 +340,7 @@ flèches, et c'est
 tant mieux vu que de
 toute façon, la
 corde est cassée.
-]]
+]],
 }
 
 dialog{
@@ -352,7 +352,7 @@ La corde de ton arc
 est cassée, que
 vas-tu faire de
 toutes ces flèches ?
-]]
+]],
 }
 
 dialog{
@@ -360,7 +360,7 @@ dialog{
   icon = "37",
   skip = "all",
   text = [[
-Une boite de
+Une boîte de
 conserve contenant
 de la nourriture
 pour chat.
@@ -372,7 +372,7 @@ mais bon...
 c'est destiné aux
 chats, n'est-ce
 pas ?
-]]
+]],
 }
 
 dialog{
@@ -383,7 +383,7 @@ dialog{
 Mange un Croissant
 pour récupérer
 7 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -394,7 +394,7 @@ dialog{
 C'est une Plume,
 mais elle est plutôt
 pénible à utiliser.
-]]
+]],
 }
 
 dialog{
@@ -408,7 +408,7 @@ de sauter au-dessus
 des trous
 mais bien plus
 encore.
-]]
+]],
 }
 
 dialog{
@@ -420,7 +420,7 @@ La baguette de feu
 avec laquelle a été
 incendié le Bureau
 des Objets Trouvés.
-]]
+]],
 }
 
 dialog{
@@ -432,7 +432,7 @@ Les Palmes te
 permettent de nager
 dans l'eau profonde
 et le champagne.
-]]
+]],
 }
 
 dialog{
@@ -444,7 +444,7 @@ Les Palmes te
 permettent de nager
 dans l'eau profonde
 et le champagne.
-]]
+]],
 }
 
 dialog{
@@ -455,7 +455,7 @@ dialog{
 Avec ça tu peux
 soulever plusieurs
 machins, je crois.
-]]
+]],
 }
 
 dialog{
@@ -466,7 +466,7 @@ dialog{
 Soulève les pierres
 noires grâce à la
 Poigne d'Or.
-]]
+]],
 }
 
 dialog{
@@ -478,7 +478,7 @@ Hisse-toi à des
 endroits
 inaccessibles grâce
 au Grappin.
-]]
+]],
 }
 
 dialog{
@@ -492,14 +492,14 @@ braseros à l'aide
 de la Lanterne. Mais
 surveille ton
 compteur magique !
-]]
+]],
 }
 
 dialog{
   id = "_item_description.lens_of_truth.1",
   icon = "14",
   skip = "all",
-  translators_note = "Reference to Trump's alternative facts",
+  translators_note = "Reference to Trump's alternative facts (fake news)",
   text = [[
 Utilise le Monocle
 des Vérités
@@ -510,7 +510,7 @@ vrai du faux.
 Approuvé par le
 Ministère de la
 Vérité !
-]]
+]],
 }
 
 dialog{
@@ -523,7 +523,7 @@ Princesse Zelda.
 
 Va vite le lui
 apporter !
-]]
+]],
 }
 
 dialog{
@@ -534,7 +534,7 @@ dialog{
 Mange un Pain au
 Chocolat pour
 récupéer 3 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -545,7 +545,7 @@ dialog{
 Sans lacets, les
 Bottes de Pégase
 font n'importe quoi.
-]]
+]],
 }
 
 dialog{
@@ -556,7 +556,7 @@ dialog{
 Fonce avec les
 Bottes de Pégase en
 appuyant sur Action.
-]]
+]],
 }
 
 dialog{
@@ -569,7 +569,7 @@ renommée, ce Kipu
 les fera toutes
 tomber comme des
 mouches !
-]]
+]],
 }
 
 dialog{
@@ -581,14 +581,14 @@ Une carte VIP pour
 accéder à tous les
 étages
 de la Tour Grump.
-]]
+]],
 }
 
 dialog{
   id = "_shop.amount_full",
   text = [[
 Tu es déjà au maximum !
-]]
+]],
 }
 
 dialog{
@@ -596,7 +596,7 @@ dialog{
   text = [[
 Mec, t'es complètement
 fauché !
-]]
+]],
 }
 
 dialog{
@@ -606,7 +606,7 @@ dialog{
 Prix : $v rubis.
 Acheter
 Sûrement pas
-]]
+]],
 }
 
 dialog{
@@ -617,7 +617,7 @@ dialog{
 Tu as trouvé une
 Flèche !$0
 Utilise l'Arc et les
-]]
+]],
 }
 
 dialog{
@@ -626,7 +626,7 @@ dialog{
 Flèches pour vaincre
 des ennemis coriaces
 à distance.
-]]
+]],
 }
 
 dialog{
@@ -637,7 +637,7 @@ dialog{
 Tu as trouvé 5
 Flèches !$0
 Utilise l'Arc et les
-]]
+]],
 }
 
 dialog{
@@ -648,7 +648,7 @@ dialog{
 Tu as trouvé 10
 Flèches !$0
 Utilise l'Arc et les
-]]
+]],
 }
 
 dialog{
@@ -661,7 +661,7 @@ banane !
 Heu ?
 En fait il n'y a que
 la peau !
-]]
+]],
 }
 
 dialog{
@@ -674,7 +674,7 @@ Tu peux désormais
 ouvrir les grands
 coffres et les
 portes spéciales !
-]]
+]],
 }
 
 dialog{
@@ -686,8 +686,8 @@ Potion Bleue !$0
 
 Bois-la pour
 prendre un nouveau
-départ
-]]
+départ.
+]],
 }
 
 dialog{
@@ -698,7 +698,7 @@ dialog{
 Tu as trouvé une
 Bombe !$0
 Utilise une Bombe
-]]
+]],
 }
 
 dialog{
@@ -707,7 +707,7 @@ dialog{
 pour faire exploser
 un ennemi ou un
 obstacle.
-]]
+]],
 }
 
 dialog{
@@ -718,7 +718,7 @@ dialog{
 Tu as trouvé 3
 Bombes !$0
 Utilise une Bombe
-]]
+]],
 }
 
 dialog{
@@ -729,7 +729,7 @@ dialog{
 Tu as trouvé 8
 Bombes !$0
 Utilise une Bombe
-]]
+]],
 }
 
 dialog{
@@ -742,7 +742,7 @@ contient 10 Bombes.
 Ca va faire $1
 pschhhhhhhhhhhhhhhht $0 $3
 BOUM !
-]]
+]],
 }
 
 dialog{
@@ -754,7 +754,7 @@ de Bombes !$0Tu peux
 exploser les murs...
 Ah ? Tu l'as déjà ?
 Dommage... !
-]]
+]],
 }
 
 dialog{
@@ -767,7 +767,7 @@ de Bombes Géant !$0
 C'est génial !
 Il peut contenir
 jusqu'à 12 Bombes !
-]]
+]],
 }
 
 dialog{
@@ -780,7 +780,7 @@ immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -793,7 +793,7 @@ immobiliser les
 ennemis ou attraper
 des objets à
 distance.
-]]
+]],
 }
 
 dialog{
@@ -806,7 +806,7 @@ Clé du Maître !
 Tu peux enfin rendre
 visite au maître des
 lieux !
-]]
+]],
 }
 
 dialog{
@@ -818,7 +818,7 @@ Flacon Magique !$0
 
 Ca a sûrement un
 intérêt quelconque !
-]]
+]],
 }
 
 dialog{
@@ -827,7 +827,7 @@ dialog{
   text = [[
 Tu as trouvé de
 l'eau !
-]]
+]],
 }
 
 dialog{
@@ -840,7 +840,7 @@ Potion Rouge !$0
 Bois-la pour
 retrouver toute ton
 énergie vitale.
-]]
+]],
 }
 
 dialog{
@@ -853,7 +853,7 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
-]]
+]],
 }
 
 dialog{
@@ -866,7 +866,7 @@ Potion Bleue !$0
 Bois-la pour
 retrouver toute ta
 vie et ta magie !
-]]
+]],
 }
 
 dialog{
@@ -882,7 +882,7 @@ l'utiliser à tout
 moment pour
 récupérer des
 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -894,7 +894,7 @@ Flacon Magique !$0
 
 Ca a sûrement un
 intérêt quelconque !
-]]
+]],
 }
 
 dialog{
@@ -903,7 +903,7 @@ dialog{
   text = [[
 Tu as trouvé de
 l'eau !
-]]
+]],
 }
 
 dialog{
@@ -916,7 +916,7 @@ Potion Rouge !$0
 Bois-la pour
 retrouver toute ton
 énergie vitale.
-]]
+]],
 }
 
 dialog{
@@ -929,7 +929,7 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
-]]
+]],
 }
 
 dialog{
@@ -942,7 +942,7 @@ Potion Bleue !$0
 Bois-la pour
 retrouver toute ta
 vie et ta magie !
-]]
+]],
 }
 
 dialog{
@@ -958,7 +958,7 @@ l'utiliser à tout
 moment pour
 récupérer des
 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -970,7 +970,7 @@ Flacon Magique !$0
 
 Ca a sûrement un
 intérêt quelconque !
-]]
+]],
 }
 
 dialog{
@@ -979,7 +979,7 @@ dialog{
   text = [[
 Tu as trouvé de
 l'eau !
-]]
+]],
 }
 
 dialog{
@@ -992,7 +992,7 @@ Potion Rouge !$0
 Bois-la pour
 retrouver toute ton
 énergie vitale.
-]]
+]],
 }
 
 dialog{
@@ -1005,7 +1005,7 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
-]]
+]],
 }
 
 dialog{
@@ -1018,7 +1018,7 @@ Potion Bleue !$0
 Bois-la pour
 retrouver toute ta
 vie et ta magie !
-]]
+]],
 }
 
 dialog{
@@ -1034,7 +1034,7 @@ l'utiliser à tout
 moment pour
 récupérer des
 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -1046,7 +1046,7 @@ Flacon Magique !$0
 
 Ca a sûrement un
 intérêt quelconque !
-]]
+]],
 }
 
 dialog{
@@ -1055,7 +1055,7 @@ dialog{
   text = [[
 Tu as trouvé de
 l'eau !
-]]
+]],
 }
 
 dialog{
@@ -1068,7 +1068,7 @@ Potion Rouge !$0
 Bois-la pour
 retrouver toute ton
 énergie vitale.
-]]
+]],
 }
 
 dialog{
@@ -1081,7 +1081,7 @@ Potion Verte !$0
 Bois-la pour
 retrouver toute ton
 énergie magique.
-]]
+]],
 }
 
 dialog{
@@ -1094,7 +1094,7 @@ Potion Bleue !$0
 Bois-la pour
 retrouver toute ta
 vie et ta magie !
-]]
+]],
 }
 
 dialog{
@@ -1110,7 +1110,7 @@ l'utiliser à tout
 moment pour
 récupérer des
 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -1120,7 +1120,7 @@ dialog{
 Tu as trouvé l'Arc !$0
 Tu peux jouer à
 Robin des Bois !
-]]
+]],
 }
 
 dialog{
@@ -1130,7 +1130,7 @@ dialog{
 Tu as trouvé l'Arc !$0
 Tu peux jouer à
 Robin des Bois !
-]]
+]],
 }
 
 dialog{
@@ -1146,7 +1146,7 @@ semble affamé !
 La pauvre petite
 boule de poils...
 Dépêche-toi !
-]]
+]],
 }
 
 dialog{
@@ -1161,14 +1161,14 @@ emplacements des
 coffres et du Boss.
 C'est ça le
 progrès !
-]]
+]],
 }
 
 dialog{
   id = "_treasure.creeper.1",
   text = [[
 Attention !!!
-]]
+]],
 }
 
 dialog{
@@ -1181,7 +1181,7 @@ croustillant !
 Mange un Croissant
 pour récupérer
 7 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -1193,7 +1193,7 @@ Plume !$0 Utilise-la
 pour sauter...
 Ah ? Tu l'as déjà ?
 Dommage... !
-]]
+]],
 }
 
 dialog{
@@ -1212,7 +1212,7 @@ gens que tu as la
 classe.
 C'est vrai que le
 logo est pas mal.
-]]
+]],
 }
 
 dialog{
@@ -1224,7 +1224,7 @@ Plume !$0 Utilise-la
 pour sauter...
 Ah ? Tu l'as déjà ?
 Dommage... !
-]]
+]],
 }
 
 dialog{
@@ -1246,12 +1246,13 @@ devrais peut-être
 pas trop t'afficher
 en possession de
 cette arme.
-]]
+]],
 }
 
 dialog{
   id = "_treasure.flippers.1",
   icon = "26",
+  translators_note = "Millesimes means good and old wine bottles",
   text = [[
 Tu as volé les
 Palmes !$0
@@ -1260,7 +1261,7 @@ Tu peux maintenant
 apprécier les
 millesimes de Grump
 à leur juste valeur.
-]]
+]],
 }
 
 dialog{
@@ -1273,7 +1274,7 @@ Tu les as bien
 payées, cette
 fois-ci elles sont
 à toi.
-]]
+]],
 }
 
 dialog{
@@ -1285,7 +1286,7 @@ Poigne de Fer !$0 Tu
 peux soulever les...
 Ah ? Tu l'as déjà ?
 Dommage... !
-]]
+]],
 }
 
 dialog{
@@ -1298,7 +1299,7 @@ Poigne d'Or !$0
 Tu peux maintenant
 soulever les pierres
 noires !
-]]
+]],
 }
 
 dialog{
@@ -1310,8 +1311,8 @@ Potion Verte !$0
 
 Bois-la pour
 te sentir humoriste
-dans l'âme
-]]
+dans l'âme.
+]],
 }
 
 dialog{
@@ -1320,7 +1321,7 @@ dialog{
   text = [[
 Tu as trouvé un
 Coeur !
-]]
+]],
 }
 
 dialog{
@@ -1333,7 +1334,7 @@ Réceptacle de Coeur.
 Tu obtiens un Coeur
 supplémentaire !
 Ca poutre !
-]]
+]],
 }
 
 dialog{
@@ -1345,7 +1346,7 @@ Grappin !$0 Immobilise
 les ennemis et vole
 vers des endroits
 inacessibles !
-]]
+]],
 }
 
 dialog{
@@ -1361,7 +1362,7 @@ oui je trouvais
 que ça manquait
 un peu de lumière
 ici.
-]]
+]],
 }
 
 dialog{
@@ -1378,12 +1379,13 @@ essayer d'y voir
 plus clair et de
 démêler le vrai du
 faux !
-]]
+]],
 }
 
 dialog{
   id = "_treasure.library_award.1",
   icon = "31",
+  translators_note = "Bookworm is the English equivalent of this expression",
   text = [[
 Tu as débloqué
 le succès "Rat de
@@ -1396,7 +1398,7 @@ Juste à frimer et à
 montrer qu'un jour
 tu seras le
 meilleur joueur.
-]]
+]],
 }
 
 dialog{
@@ -1406,7 +1408,7 @@ dialog{
 Tu as trouvé une
 petite bouteille
 d'énergie magique !
-]]
+]],
 }
 
 dialog{
@@ -1416,7 +1418,7 @@ dialog{
 Tu as trouvé une
 grande bouteille
 d'énergie magique !
-]]
+]],
 }
 
 dialog{
@@ -1429,7 +1431,7 @@ une lettre adressée
 Zelda !
 Va vite la lui
 apporter.
-]]
+]],
 }
 
 dialog{
@@ -1442,7 +1444,7 @@ la Carte !
 Utilise-la pour
 connaître le plan
 des environs.
-]]
+]],
 }
 
 dialog{
@@ -1455,7 +1457,7 @@ au Chocolat !$0
 Mange un Pain au
 Chocolat pour
 récupérer 3 Coeurs.
-]]
+]],
 }
 
 dialog{
@@ -1473,7 +1475,7 @@ pour courir.
 
 Mais attention à
 ne pas les casser !
-]]
+]],
 }
 
 dialog{
@@ -1486,7 +1488,7 @@ sans lacets !
 C'est dur à manier,
 mais tu peux aller
 super vite !
-]]
+]],
 }
 
 dialog{
@@ -1498,12 +1500,13 @@ Bottes de Pégase !
 
 Tu peux foncer
 partout !
-]]
+]],
 }
 
 dialog{
   id = "_treasure.perfume.1",
   icon = "39",
+  translators_note = "'Kipu' is a wordplay for French 'Qui pue' which means 'stinking' and Cacaco Charnel is obviously reference to Coco Chanel",
   text = [[
 Tu as trouvé le
 parfum Kipu de
@@ -1511,7 +1514,7 @@ Cacaco Charnel !
 Tu vas pouvoir faire
 craquer toutes les
 filles !
-]]
+]],
 }
 
 dialog{
@@ -1520,7 +1523,7 @@ dialog{
   text = [[
 Tu as trouvé un
 Fragment de Coeur !
-]]
+]],
 }
 
 dialog{
@@ -1533,7 +1536,7 @@ Grand Carquois !$0
 Il peut contenir
 jusqu'à 30 Flèches
 au lieu de 10 !
-]]
+]],
 }
 
 dialog{
@@ -1546,7 +1549,7 @@ Carquois Géant !$0
 Il peut contenir
 jusqu'à 100 Flèches
 au lieu de 30 !
-]]
+]],
 }
 
 dialog{
@@ -1559,7 +1562,7 @@ Potion Rouge !$0
 Bois-la pour te doper
 et enchaîner les
 mobs !
-]]
+]],
 }
 
 dialog{
@@ -1568,7 +1571,7 @@ dialog{
   text = [[
 Tu as trouvé un
 Rubis !
-]]
+]],
 }
 
 dialog{
@@ -1578,7 +1581,7 @@ dialog{
 Tu as trouvé un
 Rubis bleu.
 Il vaut 5 Rubis !
-]]
+]],
 }
 
 dialog{
@@ -1588,7 +1591,7 @@ dialog{
 Tu as trouvé un
 Rubis rouge !
 Il vaut 20 Rubis !
-]]
+]],
 }
 
 dialog{
@@ -1598,7 +1601,7 @@ dialog{
 Tu as trouvé 50
 Rubis !
 Merveilleux !
-]]
+]],
 }
 
 dialog{
@@ -1608,7 +1611,7 @@ dialog{
 Tu as trouvé 100
 Rubis !
 Fantastique !
-]]
+]],
 }
 
 dialog{
@@ -1618,7 +1621,7 @@ dialog{
 Tu as trouvé 200
 Rubis !
 C'est l'extase !
-]]
+]],
 }
 
 dialog{
@@ -1634,7 +1637,7 @@ jusqu'à 300 rubis !
 Dommage que le jeu
 soit fini, ça aurait
 pu être utile !
-]]
+]],
 }
 
 dialog{
@@ -1646,7 +1649,7 @@ Sac de Rubis Géant !$0
 
 Il peut contenir
 jusqu'à 999 rubis !
-]]
+]],
 }
 
 dialog{
@@ -1659,12 +1662,13 @@ Bouclier !$0
 Mais pourquoi tu
 l'avais laissé
 traîner dehors ?
-]]
+]],
 }
 
 dialog{
   id = "_treasure.shield.2",
   icon = "64",
+  translators_note = "Reference to 2 former French presidents. 'Bling-bling' is a reference to Nicolas Sarkozy who liked to show his flashy outward signs of wealth. The second reference is to François Hollande who said 'My enemy is Wall Street' to get elected, but didn't keep his promises.",
   text = [[
 Tu as trouvé le
 Bouclier
@@ -1672,7 +1676,7 @@ bling-bling !$0
 Tu es désormais
 protégé contre ton
 ennemie la finance !
-]]
+]],
 }
 
 dialog{
@@ -1684,7 +1688,7 @@ Bouclier Miroir !$0
 
 Tu peux désormais
 contrer les lasers !
-]]
+]],
 }
 
 dialog{
@@ -1697,7 +1701,7 @@ Petite Clé !
 Tu peux ouvrir une
 porte verrouillée
 dans les environs.
-]]
+]],
 }
 
 dialog{
@@ -1710,7 +1714,7 @@ Petite Clé !
 Tu peux ouvrir une
 porte verrouillée
 dans les environs.
-]]
+]],
 }
 
 dialog{
@@ -1725,19 +1729,20 @@ il y a ton nom
 dessus !
 Mais qu'est-ce
 qu'elle fait ici ?
-]]
+]],
 }
 
 dialog{
   id = "_treasure.sword.2",
   icon = "67",
+  translators_note = "Forcetri is Trifoce in Yoda's inverted way of speaking (Star Wars)",
   text = [[
 Tu as trouvé le
 Sabre Laser !$0
 
 Tu peux faire appel
 à la Forcetri !
-]]
+]],
 }
 
 dialog{
@@ -1750,7 +1755,7 @@ Sabre Laser !$0
 Mais... on dirait
 qu'il a été
 relooké !
-]]
+]],
 }
 
 dialog{
@@ -1763,7 +1768,7 @@ maintenant est !$0
 Beaucoup plus classe
 comme cela il a
 l'air.
-]]
+]],
 }
 
 dialog{
@@ -1776,7 +1781,7 @@ bleue !$0 Elle te
 permet de résister
 aux températures les
 plus glaciales...
-]]
+]],
 }
 
 dialog{
@@ -1789,7 +1794,7 @@ rouge !$0 Elle te
 protège de manière
 plus efficace contre
 les ennemis !
-]]
+]],
 }
 
 dialog{
@@ -1802,7 +1807,7 @@ Carte VIP !
 Tu peux maintenant
 accéder à tous les
 étages de la tour !
-]]
+]],
 }
 
 dialog{
@@ -1812,7 +1817,7 @@ dialog{
 Il te faut la Grande
 Clé pour ouvrir
 cette serrure !
-]]
+]],
 }
 
 dialog{
@@ -1825,7 +1830,7 @@ Boss !
 N'espère pas
 l'ouvrir sans la
 Clé du Maître !
-]]
+]],
 }
 
 dialog{
@@ -1833,7 +1838,7 @@ dialog{
   text = [[
 La corde est cassée !
 Mince alors !
-]]
+]],
 }
 
 dialog{
@@ -1843,7 +1848,7 @@ dialog{
 Il te faudrait quelque
 chose de tranchant pour
 couper ces buissons...
-]]
+]],
 }
 
 dialog{
@@ -1852,7 +1857,7 @@ dialog{
   text = [[
 C'est largement trop
 pour tes petits bras !
-]]
+]],
 }
 
 dialog{
@@ -1861,7 +1866,7 @@ dialog{
   text = [[
 C'est largement trop
 pour tes petits bras !
-]]
+]],
 }
 
 dialog{
@@ -1869,7 +1874,7 @@ dialog{
   text = [[
 Qu'attendez-vous pour
 ouvrir un coffre ?
-]]
+]],
 }
 
 dialog{
@@ -1877,7 +1882,7 @@ dialog{
   text = [[
 Vous n'avez pas assez
 d'argent Monsieur !
-]]
+]],
 }
 
 dialog{
@@ -1885,7 +1890,7 @@ dialog{
   text = [[
 Hé ! Ici il faut payer
 avant de jouer !
-]]
+]],
 }
 
 dialog{
@@ -1898,14 +1903,14 @@ gagner son contenu.
 Vous voulez jouer ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
   id = "chest_game.thanks",
   text = [[
 Bonne chance héhé !
-]]
+]],
 }
 
 dialog{
@@ -1925,7 +1930,7 @@ lui dans le même bac.
 J'ai mis toute la
 journée à éponger le
 sol, une cata.
-]]
+]],
 }
 
 dialog{
@@ -1938,7 +1943,7 @@ quelques jours...
 Depuis, je ne jure que
 par cette piscine
 glacée !
-]]
+]],
 }
 
 dialog{
@@ -1952,7 +1957,7 @@ dialog{
 
   Personnel autorisé
     uniquement !
-]]
+]],
 }
 
 dialog{
@@ -1975,7 +1980,7 @@ le défi du troisième !
 Et n'oubliez pas de
 toujours avoir une
 serviette sur vous !
-]]
+]],
 }
 
 dialog{
@@ -1994,13 +1999,13 @@ font perdre la tête...
 Pourquoi on n'a pas ça
 dans ces bains si
 réputés !?
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.bath.hungry_child",
   skip = "all",
-  translators_note = "Reference to episode of the french serie Kaamelott named Ablutions with Karadoc missing food during his bath",
+  translators_note = "Reference to episode of the French TV show Kaamelott named Ablutions with Karadoc missing food during his bath",
   text = [[
 Mouais... C'est pas
 mal, ça détend...
@@ -2009,7 +2014,7 @@ Il manque quelque
 chose. Je saurais pas
 dire quoi, mais il
 manque quelque chose.
-]]
+]],
 }
 
 dialog{
@@ -2027,13 +2032,13 @@ plus d'une minute
 dans la lave et tu
 peux réclamer ton prix
 à l'entrée !
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.bath.lovers_brassens",
   skip = "all",
-  translators_note = "A french song of an old singer Georges Brassens: Bancs Publics",
+  translators_note = "A French song by an old singer Georges Brassens: Bancs Publics",
   text = [[
 J'ai entendu dire que
 parfois, les amoureux
@@ -2041,7 +2046,7 @@ se bécotent dans les
 bains publics. Un gars
 en a même fait une
 chanson.
-]]
+]],
 }
 
 dialog{
@@ -2061,13 +2066,13 @@ chanson en faisant ça.
 Sérieux, il a cru que
 c'était un jukebox
 Zora ou quoi ?
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
-  translators_note = "Reference to french movie named La Grande Vadrouille",
+  translators_note = "Reference to a French movie named La Grande Vadrouille",
   text = [[
 Tea... for two
 and two for tea...
@@ -2077,7 +2082,7 @@ Comment ça ?
 
 But alors you are
 French ?
-]]
+]],
 }
 
 dialog{
@@ -2087,7 +2092,7 @@ dialog{
 Petit bain.
 Pensez à retirer vos
 chaussettes !
-]]
+]],
 }
 
 dialog{
@@ -2105,20 +2110,20 @@ spas et nos saunas.
 
 Ici, le bien-être
 est un art !
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.big_bird",
   skip = "all",
-  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest",
+  translators_note = "Reference to Solarus team's next project Zelda Mercuris' Chest. Zozio is childish slang for bird.",
   text = [[
 Une aventure contre un
 gros zozio ?
 
 Il faut être naïf pour
 y croire...
-]]
+]],
 }
 
 dialog{
@@ -2133,7 +2138,7 @@ Non, je ne fais rien de
 particulier, je mène
 une petite expérience
 météorologique.
-]]
+]],
 }
 
 dialog{
@@ -2144,7 +2149,7 @@ dialog{
   - Chill Valley -
 La ville dont le nom
 est synonyme de succès.
-]]
+]],
 }
 
 dialog{
@@ -2157,7 +2162,7 @@ Complètement gelé !
 Je ne comprends pas,
 j'ai le chauffage à
 fond...
-]]
+]],
 }
 
 dialog{
@@ -2165,7 +2170,7 @@ dialog{
   skip = "all",
   text = [[
 Bibliothèque municipale
-]]
+]],
 }
 
 dialog{
@@ -2185,7 +2190,7 @@ dans le temps.
 Mais je ne sais pas
 s'ils accepteront de
 m'aider !
-]]
+]],
 }
 
 dialog{
@@ -2203,7 +2208,7 @@ On se connaît ?
 
 Tu parles souvent à des
 inconnus comme ça ?
-]]
+]],
 }
 
 dialog{
@@ -2216,7 +2221,7 @@ C'est pas parce que tu
 sauves le monde que
 toutes les portes te
 sont ouvertes.
-]]
+]],
 }
 
 dialog{
@@ -2224,12 +2229,13 @@ dialog{
   skip = "all",
   text = [[
 Nord : Île des Rubis
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.o_house.doctor_1",
   skip = "all",
+  translators_note = "Reference to Doctor Who",
   text = [[
 Bonjour, je suis le
 Docteur.
@@ -2243,12 +2249,13 @@ propos des rubis ?
 Je crois que les
 rubis se comportent
 de façon... impossible.
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.o_house.doctor_2",
   skip = "all",
+  translators_note = "Dialog from Doctor Who season 3, episode 10 (Blink)",
   text = [[
 Les gens pensent que
 le temps est une
@@ -2263,24 +2270,26 @@ d'énorme boule où le
 temps s'enchevêtre
 comme un méli-mélo
 très complexe.
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.o_house.doctor_3",
   skip = "all",
+  translators_note = "Reference to the Weeping Angels from Doctor Who (season 3, episode 10)",
   text = [[
 Ne t'occupe pas trop de
 ces ces statues,
 tout va bien.
 Par contre, évite juste
 de cligner des yeux.
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.o_house.doctor_4",
   skip = "all",
+  translators_note = "Reference to Doctor Who and Back to the Future",
   text = [[
 Il y a une sorte de
 savant fou au sud de
@@ -2300,15 +2309,16 @@ doit être maintenue.
 Pourtant, le temps peut
 être réécrit ! Enfin,
 sauf les points fixes.
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.o_house.doctor_5",
   skip = "all",
+  translators_note = "Reference to River Song (Doctor Who character)",
   text = [[
 Oh... River...
-]]
+]],
 }
 
 dialog{
@@ -2319,7 +2329,7 @@ dialog{
 Il paraît que Zelda
 Mercuris' Chest va
 sortir un jour.
-]]
+]],
 }
 
 dialog{
@@ -2331,7 +2341,7 @@ La sortie de Zelda
 Mercuris' Chest n'a
 jamais été
 aussi proche !
-]]
+]],
 }
 
 dialog{
@@ -2345,13 +2355,13 @@ Et maintenant ils ont
 construit le circuit
 autour.
 *sob* *sob*
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.s_house.dogman",
   skip = "all",
-  translators_note = "A little (very little) to Bohort general behavior in the french serie Kaamelott",
+  translators_note = "A little (very little) to Bohort general behavior in the French TV show Kaamelott",
   text = [[
 Je m'appelle Ernest et
 au fond, je suis pas
@@ -2366,12 +2376,13 @@ câlins au lieu de
 foncer dans le tas,
 j'hésiterais pas une
 seconde, crois-moi...
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.s_house.ganon",
   skip = "all",
+  translators_note = "Reference to Star Wars",
   text = [[
 Oh, c'est toi...
 Vas-y, rigole de ce
@@ -2395,7 +2406,7 @@ succès. Tu devrais
 goûter nos petits
 fours, c'est un vrai
 délice.
-]]
+]],
 }
 
 dialog{
@@ -2413,7 +2424,7 @@ devrais peut-être
 aller voir aussi ce
 "Necrodancer", tu ne
 crois pas ?
-]]
+]],
 }
 
 dialog{
@@ -2435,7 +2446,7 @@ demer... J'viens ici
 pour apprendre à
 m'contrôler... Sans
 rancune frangin ?
-]]
+]],
 }
 
 dialog{
@@ -2453,7 +2464,7 @@ ANTHRO... POMORPHIQUE.
 JE SAIS PAS CE QUE
 C'EST, MAIS CA A L'AIR
 COOL.
-]]
+]],
 }
 
 dialog{
@@ -2469,7 +2480,7 @@ dans ma vie maléfique
 passée. N'hésite pas
 à passer me voir chez
 Extra-Ordinn'Hair.
-]]
+]],
 }
 
 dialog{
@@ -2492,7 +2503,7 @@ m'a remis les idées en
 place, plus question
 de boulotter de
 l'humain après ça !
-]]
+]],
 }
 
 dialog{
@@ -2506,7 +2517,7 @@ Est : Forêt
 Nord : Chill Valley,
 la ville dont le nom
 est synonyme de succès.
-]]
+]],
 }
 
 dialog{
@@ -2524,7 +2535,7 @@ vit dans le désert.
 
 Elle se morfond toute
 la journée !
-]]
+]],
 }
 
 dialog{
@@ -2537,7 +2548,7 @@ Valley !
 
 Le nom de cette ville
 est synonyme de succès.
-]]
+]],
 }
 
 dialog{
@@ -2549,7 +2560,7 @@ Un livre pour adultes !
 
 Tu n'as pas l'âge pour
 ce genre de lecture !
-]]
+]],
 }
 
 dialog{
@@ -2567,7 +2578,7 @@ peut y avoir qu'un
 seul rat de bibliothè-
 que et c'est moi !
 TAIAUUUT ! SQUICK !
-]]
+]],
 }
 
 dialog{
@@ -2603,7 +2614,7 @@ de pain. Il sera un
 précurseur dans notre
 économie actuelle
 basée sur les rubis.
-]]
+]],
 }
 
 dialog{
@@ -2633,7 +2644,7 @@ C'est ainsi qu'il eut
 sa première amie et
 qu'il ne fut plus
 jamais triste.
-]]
+]],
 }
 
 dialog{
@@ -2656,7 +2667,7 @@ et un miroir, puis
 brisez le miroir en
 lançant le chat noir
 assez fort dessus.
-]]
+]],
 }
 
 dialog{
@@ -2688,7 +2699,7 @@ nos relations inter-
 nationales car les
 taux de change sont
 très chaotiques.
-]]
+]],
 }
 
 dialog{
@@ -2698,7 +2709,7 @@ dialog{
 Tu as déjà vidé cette
 encyclopédie de son
 contenu. Voleur.
-]]
+]],
 }
 
 dialog{
@@ -2711,7 +2722,7 @@ le livre retombe sur
 l'étagère, avec un
 léger bruit sourd à
 l'intérieur.
-]]
+]],
 }
 
 dialog{
@@ -2724,7 +2735,7 @@ largeur et son
 sa légèreté.
 L'ouvrir
 La reposer
-]]
+]],
 }
 
 dialog{
@@ -2746,7 +2757,7 @@ et voler ce contenu.
 T'as pas vraiment la
 tête d'un intello, tu
 seras vite suspecté...
-]]
+]],
 }
 
 dialog{
@@ -2767,7 +2778,7 @@ Sauvegardez avant une
 porte de boss :
 derrière se trouve un
 combat de boss.
-]]
+]],
 }
 
 dialog{
@@ -2790,7 +2801,7 @@ répis aux ennemis.
 Règle N°4
 On pille toujours les
 cadavres.
-]]
+]],
 }
 
 dialog{
@@ -2809,13 +2820,13 @@ Zora.
 Le peuple Gerudo se
 situe dans le désert
 Gerudo.
-]]
+]],
 }
 
 dialog{
   id = "chill_valley.z_house.horror_book",
   skip = "all",
-  translators_note = "Fred and Seb (Joueur du Grenier) are french youtubers doing retro bad game tests, like AVGN",
+  translators_note = "Fred and Seb (Joueur du Grenier) are French youtubers doing retro bad game tests, like AVGN",
   text = [[
 Un livre horrifique :
    Panique aux Bois
@@ -2836,7 +2847,7 @@ son ami afin de le
 situer. Mais ces cris
 étaient surtout enten-
 dus par Jason...
-]]
+]],
 }
 
 dialog{
@@ -2863,7 +2874,7 @@ prochaine édition
 reviendra plus en
 détail sur cet heureux
 évènement.
-]]
+]],
 }
 
 dialog{
@@ -2889,7 +2900,7 @@ pardonne-moi de te
 tromper ainsi, mais sa
 peau d'albâtre me rend
 toute chose...
-]]
+]],
 }
 
 dialog{
@@ -2914,7 +2925,7 @@ en une patate. Il ne
 faut juste pas qu'un
 oiseau s'approche du-
 dit tubercule.
-]]
+]],
 }
 
 dialog{
@@ -2937,7 +2948,7 @@ Ce sont eux qui vous
 laisseront décider si
 vous pouvez prendre
 telle ou telle mesure.
-]]
+]],
 }
 
 dialog{
@@ -2954,7 +2965,7 @@ Ingrédients :
 Recette :
 Mettez le fruit dans
 la marmite. Attendez.
-]]
+]],
 }
 
 dialog{
@@ -2974,7 +2985,7 @@ Tu ne comprends rien
 aux équations qui sont
 posées pour expliquer
 ce théorème.
-]]
+]],
 }
 
 dialog{
@@ -3002,7 +3013,7 @@ par un sorcier un peu
 fou, un tyran porcin
 ou un magnat des
 affaires.
-]]
+]],
 }
 
 dialog{
@@ -3030,7 +3041,7 @@ oiseau de fer, figé
 dans sa pose, volait
 malgré tout ce qu'on
 aurait pu penser.
-]]
+]],
 }
 
 dialog{
@@ -3052,7 +3063,7 @@ sur une toile. Vous
 pourrez ensuite clamer
 haut et fort avoir
 conquis la Lune !
-]]
+]],
 }
 
 dialog{
@@ -3086,7 +3097,7 @@ Un vil gamin m'a jeté
 ce mauvais sort, mais
 j'ai bon espoir que tu
 me reconnaîtras...
-]]
+]],
 }
 
 dialog{
@@ -3113,7 +3124,7 @@ un espacement régle-
 mentaire d'au moins
 deux mètres entre 
 chaque mur.
-]]
+]],
 }
 
 dialog{
@@ -3133,7 +3144,7 @@ Durabilité : 23-26
 Épée de chevalier :
 Attaque : 26-35
 Durabilité : 27-35
-]]
+]],
 }
 
 dialog{
@@ -3159,7 +3170,7 @@ peuvent arriver indé-
 finiment pour vous
 attaquer une fois
 l'assaut lancé.
-]]
+]],
 }
 
 dialog{
@@ -3169,14 +3180,14 @@ Arrête de nourrir le
 chat, tu ne trouves
 pas qu'il est déjà
 assez gros comme ça ?
-]]
+]],
 }
 
 dialog{
   id = "chores.cat_fed",
   text = [[
 MIAOU !
-]]
+]],
 }
 
 dialog{
@@ -3184,7 +3195,7 @@ dialog{
   text = [[
 MiAaAaAaoOoOuUu...$0
 (gargouillements)
-]]
+]],
 }
 
 dialog{
@@ -3202,7 +3213,7 @@ il est vraiment choupi.
 Il est en train de jouer
 dans la cave.
 Allez, zou !
-]]
+]],
 }
 
 dialog{
@@ -3215,7 +3226,7 @@ Je crois que c'est
 Flocon-de-neige.
 Il a encore faim.
 Allez, va le nourrir !
-]]
+]],
 }
 
 dialog{
@@ -3235,7 +3246,7 @@ toute la mauvaise
 herbe du jardinet.
 Allez, au boulot,
 grosse feignasse !
-]]
+]],
 }
 
 dialog{
@@ -3248,7 +3259,7 @@ Tiens, au fait, la
 mauvaise herbe a encore
 repoussé.
 Va la couper!
-]]
+]],
 }
 
 dialog{
@@ -3266,7 +3277,7 @@ courrier.
 Petit héros, presse le
 pas, car le courrier
 n'attend pas !
-]]
+]],
 }
 
 dialog{
@@ -3281,11 +3292,12 @@ désherbant à Hyrule.
 Tiens, je crois que le
 facteur est passé !
 Va chercher le courrier.
-]]
+]],
 }
 
 dialog{
   id = "chores.chore_2_thanks_0",
+  translators_note = "Reference to French administration's bad reputation",
   text = [[
 Merci,
 mieux vaut tard que
@@ -3310,11 +3322,12 @@ dans cette
 administration...
 Je suis quand même une
 princesse !
-]]
+]],
 }
 
 dialog{
   id = "chores.chore_2_thanks_1",
+  translators_note = "The last sentence is a reference to French movie Les Visiteurs",
   text = [[
 Merci, 
 j'ai falli attendre...
@@ -3334,11 +3347,12 @@ VIVE LA MONARCHIE !
 Merci le gueux, t'es
 un laideron mais t'es
 bien bon !
-]]
+]],
 }
 
 dialog{
   id = "chores.chore_2_thanks_2",
+  translators_note = "'Se faire flasher' means to get caught by highway speed radars",
   text = [[
 Merci, 
 ne te dépêche surtout
@@ -3355,11 +3369,12 @@ vitesse à cheval, toi ?
 Dis...$0 Tu veux bien 
 payer l'amende 
 à ma place ?
-]]
+]],
 }
 
 dialog{
   id = "chores.chore_2_thanks_3",
+  translators_note = "2 references to French movie La Cité de la Peur : the festival name, and the last sentence",
   text = [[
 Merci, 
 heureusement que je
@@ -3372,11 +3387,12 @@ chouette !
 
 Au fait, prenez un 
 chewing-gum, $v.
-]]
+]],
 }
 
 dialog{
   id = "chores.chore_2_thanks_4",
+  translators_note = "Reference Super Mario games (Princess Peach and Isle Delphino), and reference to Monty Python Holy Grail castle name.",
   text = [[
 Merci, 
 c'est pas trop tôt...
@@ -3399,7 +3415,7 @@ finir sa lettre,
 elle s'est
 faite capturer !
 Sapristi !
-]]
+]],
 }
 
 dialog{
@@ -3412,7 +3428,7 @@ Tu n'as pas fini de te
 faire pardonner !
 
 Allez, au boulot !
-]]
+]],
 }
 
 dialog{
@@ -3420,7 +3436,7 @@ dialog{
   text = [[
 Oh !$0
 Il y a du courrier !
-]]
+]],
 }
 
 dialog{
@@ -3432,7 +3448,7 @@ aux lettres.
 
 Le facteur est encore
 en grève ou quoi ?
-]]
+]],
 }
 
 dialog{
@@ -3441,7 +3457,7 @@ dialog{
 Miaou...
 Miaouuuuu...$0
 (Le chat semble affamé)
-]]
+]],
 }
 
 dialog{
@@ -3452,7 +3468,7 @@ MIAAOUUUU !!!
 GRRRRRR...
 (Le chat semble
 terriblement affamé...)
-]]
+]],
 }
 
 dialog{
@@ -3461,7 +3477,7 @@ dialog{
 Miaouuu ?$0
 ...$0
 MIAOOOOUUUUU !!!
-]]
+]],
 }
 
 dialog{
@@ -3469,7 +3485,7 @@ dialog{
   text = [[
 Mi-mi-mi-mi-mi-miaou.
 Mia-mia-miaou.
-]]
+]],
 }
 
 dialog{
@@ -3481,7 +3497,7 @@ sécurité à la suite de
 débordements.
 Il n'y a rien à voir
 ici.
-]]
+]],
 }
 
 dialog{
@@ -3503,24 +3519,25 @@ On est quand même
 mieux ici, au calme,
 loin de tout ce
 bling-bling...
-]]
+]],
 }
 
 dialog{
   id = "desert.nw_sign",
+  translators_note = "Reference Monty Python",
   text = [[
 Nord : Mont Tipiton
 Est : Désert Bakasable
 
 Ouest : Château Doré
 de Monsieur Grump
-]]
+]],
 }
 
 dialog{
   id = "desert.otis",
   skip = "all",
-  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre",
+  translators_note = "Reference to the French movie Astérix et Obélix : Mission Cléopâtre.",
   text = [[
 Mais, vous savez, moi
 je crois pas qu'il y
@@ -3579,17 +3596,18 @@ au service, heu, de la
 communauté et à faire,
 le... le don, le don
 de... de... de soi.
-]]
+]],
 }
 
 dialog{
   id = "desert.piece_of_heart_cave_sign",
   skip = "all",
+  translators_note = "French equivalent of the 'not' joke",
   text = [[
 Seul le vrai héros
 obtiendra le trésor.$0$0
 Ou pas.
-]]
+]],
 }
 
 dialog{
@@ -3605,7 +3623,7 @@ bonne aventure tu peux
 me croire : fais très
 attention à la fortune
 de Monsieur Grump.
-]]
+]],
 }
 
 dialog{
@@ -3621,7 +3639,7 @@ une bonne méthode.
 Du coup, autant que tu
 en prennes des nouveaux
 car là ça me stresse.
-]]
+]],
 }
 
 dialog{
@@ -3633,7 +3651,7 @@ Sommet du Mont Tipiton
 
 Altitude :
 pas super haut, en fait
-]]
+]],
 }
 
 dialog{
@@ -3646,12 +3664,13 @@ Chill Valley !
 C'est bien plus animé
 là-bas, alors qu'ici
 c'est limite désertique.
-]]
+]],
 }
 
 dialog{
   id = "dungeon_1.1f.iron_ball_man",
   skip = "all",
+  translators_note = "'Hips' is French onomatopoeia to show that the character is drunk",
   text = [[
 Hips... tu veux que
 j'te dise mon gars ?
@@ -3674,12 +3693,13 @@ cachait pas un énorme
 trés... Hips.
 Je dis ça je dis rien
 hein ! 
-]]
+]],
 }
 
 dialog{
   id = "dungeon_1.1f.julien_dore",
   skip = "all",
+  translators_note = "Reference to a song by the French singer Julien Doré",
   text = [[
 T'aimer sur les bords
 du lac.
@@ -3689,7 +3709,7 @@ Pourvu que les hommes
 nous regardent.
 Amoureux de l'ombre
 et du pire.
-]]
+]],
 }
 
 dialog{
@@ -3700,7 +3720,7 @@ Mais où a bien pu passer
 ce précieux grimoire ?
 J'étais persuadé qu'il
 était par ici...
-]]
+]],
 }
 
 dialog{
@@ -3719,7 +3739,7 @@ pas ?
 Il n'y a plus de
 saisons je vous le
 dis !
-]]
+]],
 }
 
 dialog{
@@ -3740,7 +3760,7 @@ C'est effrayant.
 Je te ferais
 exploser tout ça
 moi... !
-]]
+]],
 }
 
 dialog{
@@ -3767,7 +3787,7 @@ l'esprit maléfique de
 Mario rôde encore en
 ces murs, tu devrais y
 remédier...
-]]
+]],
 }
 
 dialog{
@@ -3787,7 +3807,7 @@ et en a dérouté plus
 d'un. Je te conseille de
 ne pas te fier aux
 apparences...
-]]
+]],
 }
 
 dialog{
@@ -3805,7 +3825,7 @@ on ne s'ennuie pas. Il
 y a une place dans la
 cellule d'à-côté.
 Fais-toi plaisir.
-]]
+]],
 }
 
 dialog{
@@ -3827,15 +3847,17 @@ certain de passer le
 restant de mes jours à
 l'abri de ces
 monstres !
-]]
+]],
 }
 
 dialog{
   id = "dungeon_1.welcome",
+  translators_note = "Reference to Trump's alternative Facts (fake news)",
   text = [[
-       Niveau 1
-     Château doré
-]]
+        Niveau 1
+   Château des Vérités
+      Alternatives
+]],
 }
 
 dialog{
@@ -3851,7 +3873,7 @@ l'éclairage est coupé.
 Il fait un froid de
 canard et on n'y voit
 rien !
-]]
+]],
 }
 
 dialog{
@@ -3865,7 +3887,7 @@ rouge
 pour 100 rubis ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -3876,7 +3898,7 @@ Ce cocktail va te rendre
 de plus en plus heureux.
 L'effet va durer un
 petit moment !
-]]
+]],
 }
 
 dialog{
@@ -3898,12 +3920,13 @@ reconnaissance !
 Monsieur Grump est
 vraiment un bienfaiteur.
 Installez-vous !
-]]
+]],
 }
 
 dialog{
   id = "dungeon_2.1f.drunk_man",
   skip = "all",
+  translators_note = "The NPC is drunk and tries hard to formulate something that makes sense",
   text = [[
 Alors comme ça le...
 hip ! bureau des
@@ -3923,7 +3946,7 @@ objectifs éprouvés...
 Enfin voilà, tu as
 compris ce que je
 voulais dire ! Hip !
-]]
+]],
 }
 
 dialog{
@@ -3938,7 +3961,7 @@ Ascenseur vers les
 
 Autres étages : réservé
 au personnel autorisé
-]]
+]],
 }
 
 dialog{
@@ -3949,27 +3972,29 @@ Monsieur, l'accès aux
 cuisines est réservé
 au personnel de
 l'établissement.
-]]
+]],
 }
 
 dialog{
   id = "dungeon_2.1f.kitchen_guard_go_wash",
   skip = "all",
+  translators_note = "'La plonge' is French slang for 'whasing dishes'",
   text = [[
 Tu es le petit nouveau ?
 Arrête de bavarder et
 va à la plonge.
-]]
+]],
 }
 
 dialog{
   id = "dungeon_2.1f.pause_man",
   skip = "all",
+  translators_note = "Exact dialog from Zelda Mystery of Solarus XD (counter 41)",
   text = [[
 Je suis actuellement en
 pause, et j'en ai bien
 besoin.
-]]
+]],
 }
 
 dialog{
@@ -3987,7 +4012,7 @@ derrière moi.
 
 Le Casino est situé au
 premier étage.
-]]
+]],
 }
 
 dialog{
@@ -3997,7 +4022,7 @@ dialog{
   - Grump Caviar Bar -
 Restauration à des prix
 défiant toute honnêteté.
-]]
+]],
 }
 
 dialog{
@@ -4013,12 +4038,13 @@ serveur nous parle comme
 si on était son pote.
 Ceci dit, les boissons
 sont originales !
-]]
+]],
 }
 
 dialog{
   id = "dungeon_2.2f.blue_haired_boy",
   skip = "all",
+  translators_note = "Second part is a reference to Zelda Link's Awakening",
   text = [[
 À quoi peuvent bien
 servir toutes ces
@@ -4029,7 +4055,7 @@ cacher quelque chose.
 Mais quoi ? Je n'en
 sais rien, je ne suis
 qu'un gosse !
-]]
+]],
 }
 
 dialog{
@@ -4042,7 +4068,7 @@ Jeu des symboles
 Obtenez 4 symboles
 identiques pour gagner
 une récompense !
-]]
+]],
 }
 
 dialog{
@@ -4061,7 +4087,7 @@ c'est ok.
 Merci de ne pas toucher
 à la décoration de la
 salle.
-]]
+]],
 }
 
 dialog{
@@ -4074,12 +4100,13 @@ Tarif : 20 rubis
 Choisissez un coffre
 au hasard et soyez
 chanceux !
-]]
+]],
 }
 
 dialog{
   id = "dungeon_2.2f.green_hat_man",
   skip = "all",
+  translators_note = "Very similar dialog to Zelda Mystery of Solarus DX 'outside_world.village.hat_man_npc'",
   text = [[
 Attention à ne pas
 dilapider toutes ses
@@ -4090,7 +4117,7 @@ malin.
 Avec un peu de chance
 tu devrais t'en sortir
 mieux que moi !
-]]
+]],
 }
 
 dialog{
@@ -4117,7 +4144,7 @@ Tu y comprends
 quelque chose toi ?
 Ces casse-têtes ne sont
 plus de mon âge...
-]]
+]],
 }
 
 dialog{
@@ -4127,7 +4154,7 @@ dialog{
 Machines à sous
 Tarif : Mises de
 5 ou 20 rubis
-]]
+]],
 }
 
 dialog{
@@ -4141,7 +4168,7 @@ Aucune Dame ne doit être
 sur la même ligne,
 colonne ou diagonale
 qu'une autre.
-]]
+]],
 }
 
 dialog{
@@ -4157,7 +4184,7 @@ colonne qu'une autre.
 Les Tours ne peuvent
 être poussées
 qu'une seule fois !
-]]
+]],
 }
 
 dialog{
@@ -4166,7 +4193,7 @@ dialog{
 Allo ? Allo ?
 Tu m'entends ?
 
-C'est moi, Sahasrahala.
+C'est moi, Sahasrahla.
 Je te parle par
 télépathie.
 C'est toujours ok pour
@@ -4183,7 +4210,7 @@ $v ?
 
 Ah pardon, je me suis
 trompé de fenêtre !
-]]
+]],
 }
 
 dialog{
@@ -4199,7 +4226,7 @@ colonne ou diagonale
 qu'une autre.
 À gagner : Un Fragment
 de Coeur !
-]]
+]],
 }
 
 dialog{
@@ -4225,7 +4252,7 @@ vengeance !
 
 Mes soeurettes, sus à
 l'ennemi !!!
-]]
+]],
 }
 
 dialog{
@@ -4240,14 +4267,14 @@ Tu veux ma fortune ?
 Tiens, j'en ai trop !
 Prends ça et
 déguerpille !
-]]
+]],
 }
 
 dialog{
   id = "dungeon_2.9f.doctor",
   text = [[
 Cours !$1
-]]
+]],
 }
 
 dialog{
@@ -4258,7 +4285,7 @@ Je ne peux plus
 contrôler mes rubis !!!
 La tour est en train de
 s'effondrer !
-]]
+]],
 }
 
 dialog{
@@ -4267,7 +4294,7 @@ dialog{
 C'est bon !
 Je l'ai retrouvé,
 héhéhé !
-]]
+]],
 }
 
 dialog{
@@ -4277,7 +4304,7 @@ Ahhh !!!
 Mon monocle, il est
 tombé par terre !
 Je ne vois plus rien !
-]]
+]],
 }
 
 dialog{
@@ -4285,7 +4312,7 @@ dialog{
   text = [[
        Niveau 2
       Tour Grump
-]]
+]],
 }
 
 dialog{
@@ -4295,7 +4322,7 @@ dialog{
 Accès refusé.
 Cet ascenseur est
 reservé aux VIP.
-]]
+]],
 }
 
 dialog{
@@ -4304,7 +4331,7 @@ dialog{
 Ce coffre est vide !
 C'est vraiment pas de
 chance !
-]]
+]],
 }
 
 dialog{
@@ -4346,9 +4373,9 @@ Mymy
       Conception
      des donjons :
 
-     Château Doré :
+  Château des Vérités
+     Alternatives :
 Metallizer
-
       Tour Grump :
 Christopho
 
@@ -4364,6 +4391,12 @@ Binbin
 Pas grand monde d'autre
 sinon. On était super à
 la bourre.
+       Traduction
+       anglaise :
+
+Christopho
+Diarandor
+
      Remerciements
        spéciaux :
 
@@ -4381,7 +4414,7 @@ Merci d'avoir joué !
 
 
  www.zelda-solarus.com
-]]
+]],
 }
 
 dialog{
@@ -4393,7 +4426,7 @@ ce moment est exquis.
 Cela fait 3 ans,
 jour pour jour, que
 nous nous sommes connus.
-]]
+]],
 }
 
 dialog{
@@ -4408,11 +4441,12 @@ me l'a transmis.
 Je ne peux pas trop
 t'en dire davantage, 
 ma chérie.
-]]
+]],
 }
 
 dialog{
   id = "final.mr_grump_3",
+  translators_note = "Mojo-ito is a wordplay between Mojo and the cocktail Mojito",
   text = [[
 Quelle bonne idée, ma
 Zeldachou d'amour !
@@ -4420,7 +4454,7 @@ Zeldachou d'amour !
 Je vais prendre un
 Mojo-ito, et toi ma
 choupinette ?
-]]
+]],
 }
 
 dialog{
@@ -4444,11 +4478,12 @@ Toi, tu as saisi ?
 Chhhhhht ! $0
 Ecoutons leur
 conversation...
-]]
+]],
 }
 
 dialog{
   id = "final.the_doctor_2",
+  translators_note = "'NOM DE ZEUS' is Doc Emmet Brown's French trademark exclamation in Back to the Future",
   text = [[
 Serait-ce possible ?!$0
 Cette odeur me rappelle
@@ -4475,11 +4510,12 @@ M. Grump a récupéré le
 flacon grâce à sa poule
 aux oeufs d'or...
 NOM DE ZEUS !
-]]
+]],
 }
 
 dialog{
   id = "final.zelda_1",
+  translators_note = "'Le coup de Fatal-foudre' is a wordplay between French way of saying 'Love at first sight' and a Pokemon electric attack 'Thunder'",
   text = [[
 Oui mon chéri...
 J'ai l'impression que
@@ -4496,7 +4532,7 @@ de $v...
 Dis-moi d'où il vient, 
 car mon flacon est
 quasiment vide...
-]]
+]],
 }
 
 dialog{
@@ -4505,7 +4541,7 @@ dialog{
 Hé !$0
 Chéri ! Tu n'aurais pas
 entendu quelque chose ?
-]]
+]],
 }
 
 dialog{
@@ -4526,9 +4562,9 @@ chez quelqu'un...
 En plus, tu pilles les
 temples de leurs
 trésors.
-Par-dessus le tout, tu 
-m'avais séquestrée dans
-ta cave ! 
+Par-dessus le marché,
+tu m'avais séquestrée
+dans ta cave !
 Et voilà que tu
 espionnes un couple qui
 passe un moment
@@ -4538,7 +4574,7 @@ romantique... !
 Tu vas devoir payer
 pour ton impolitesse !
 Encore une fois !
-]]
+]],
 }
 
 dialog{
@@ -4550,7 +4586,7 @@ Viens ici, veux-tu ?
 Allez !
 Plus vite que ça !
 
-]]
+]],
 }
 
 dialog{
@@ -4570,18 +4606,19 @@ Je T'ORDONNE de nous
 apporter les cocktails !
 Que veux-tu boire, mon
 Grumpinou d'amour ?
-]]
+]],
 }
 
 dialog{
   id = "final.zelda_6",
+  translators_note = "'Zora Colada' is a wordplay between Zora and the cocktail Piña Colada",
   text = [[
 Pour moi, ça sera une
 Zora Colada !
 
 Allez, $v,
 au boulot !
-]]
+]],
 }
 
 dialog{
@@ -4599,11 +4636,12 @@ des miaulements ?
 C'est Flocon-de-neige !
 Il a faim ! $0
 Allez, va le nourrir !
-]]
+]],
 }
 
 dialog{
   id = "final.zelda_8",
+  translators_note = "Reference to Zelda: Link's Awakening",
   text = [[
 Rhâaaa...
 mais au fond il n'est
@@ -4620,7 +4658,7 @@ volante ?
 Dis donc, ça a l'air
 trop chouette !
 On y va ?
-]]
+]],
 }
 
 dialog{
@@ -4636,7 +4674,7 @@ Ook ! Ook !
 C'est 50 rubis !
 Oui
 Pas question
-]]
+]],
 }
 
 dialog{
@@ -4647,7 +4685,7 @@ rubis !
 
 N'essaie pas de
 m'arnaquer !
-]]
+]],
 }
 
 dialog{
@@ -4655,7 +4693,7 @@ dialog{
   skip = "all",
   text = [[
 Ouest : Chill Valley
-]]
+]],
 }
 
 dialog{
@@ -4663,7 +4701,7 @@ dialog{
   skip = "all",
   text = [[
 Ouest : Chill Valley
-]]
+]],
 }
 
 dialog{
@@ -4675,7 +4713,7 @@ dialog{
 Tu as trouvé une
 Fée, c'est trop
 cool !
-]]
+]],
 }
 
 dialog{
@@ -4687,7 +4725,7 @@ dialog{
 Que vas-tu faire ?
 Récupérer des Coeurs
 La conserver
-]]
+]],
 }
 
 dialog{
@@ -4695,7 +4733,7 @@ dialog{
   text = [[
 Tu n'as pas de Flacon
 vide !
-]]
+]],
 }
 
 dialog{
@@ -4707,7 +4745,7 @@ tout de suite :
 il t'en faut quatre
 pour avoir un
 nouveau Coeur.
-]]
+]],
 }
 
 dialog{
@@ -4719,7 +4757,7 @@ Fragments de Coeur.
 
 Tu obtiens un Coeur
 supplémentaire !
-]]
+]],
 }
 
 dialog{
@@ -4728,7 +4766,7 @@ dialog{
   text = [[
 Encore deux et
 ce sera cool.
-]]
+]],
 }
 
 dialog{
@@ -4738,7 +4776,7 @@ dialog{
 Plus qu'un et ce
 sera vraiment
 la fête !
-]]
+]],
 }
 
 dialog{
@@ -4752,7 +4790,7 @@ l'eau dans ton
 Flacon Magique ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -4762,7 +4800,7 @@ Il y a de l'eau ici,
 mais tu n'as pas
 de récipient
 pour la stocker...
-]]
+]],
 }
 
 dialog{
@@ -4773,7 +4811,7 @@ Il y a de l'eau ici,
 mais il te faut
 un Flacon vide
 pour la stocker...
-]]
+]],
 }
 
 dialog{
@@ -4796,7 +4834,7 @@ permise de changer la
 couleur.
 C'est bien mieux comme
 ça, tu verras.
-]]
+]],
 }
 
 dialog{
@@ -4804,7 +4842,7 @@ dialog{
   text = [[
 ...
 Oh !
-]]
+]],
 }
 
 dialog{
@@ -4812,7 +4850,7 @@ dialog{
   text = [[
 DEBOUT !
 $0$0$0$0
-]]
+]],
 }
 
 dialog{
@@ -4827,7 +4865,7 @@ $v ?
 REVEILLE-TOI !
 ALLEZ !
 DEBOUT FEIGNASSE !
-]]
+]],
 }
 
 dialog{
@@ -4840,7 +4878,7 @@ Qu'est-ce que c'est
 que ça ?
 D'où ça vient ?
 Un naufrage ?
-]]
+]],
 }
 
 dialog{
@@ -4857,7 +4895,7 @@ t'enlever quelques
 réceptacles de coeur,
 histoire que cela te
 serve de leçon.
-]]
+]],
 }
 
 dialog{
@@ -4874,18 +4912,19 @@ coriace, toi !
 
 Tu l'auras voulu !
 Prends ça !
-]]
+]],
 }
 
 dialog{
   id = "intro.zelda_shaking",
   text = [[
 JE VAIS TE SECOUER !
-]]
+]],
 }
 
 dialog{
   id = "intro.zelda_waiting",
+  translators_note = "Reference to previous XD episode, and then to Zelda: Link's Awakening",
   text = [[
 Ha ! $0
 Enfin !
@@ -4912,7 +4951,7 @@ un oeuf géant ?!
 Tu perds la tête,
 mon pauvre !
 Allez, debout !
-]]
+]],
 }
 
 dialog{
@@ -4921,7 +4960,7 @@ dialog{
 REVEILLE-TOOOI !
 ALLEEEEEEZ !
 DEBOOOUUUUT !
-]]
+]],
 }
 
 dialog{
@@ -4942,7 +4981,7 @@ trois jours, deux
 heures, cinq minutes,
 et soixante-huit
 secondes...
-]]
+]],
 }
 
 dialog{
@@ -4955,7 +4994,7 @@ Je suis addict au jeu.
 Je ne peux plus entrer
 dans la tour, j'ai été
 banni du casino !
-]]
+]],
 }
 
 dialog{
@@ -4968,7 +5007,7 @@ compulsif.
 Je ne peux plus entrer
 dans la tour, j'ai été
 banni du restaurant !
-]]
+]],
 }
 
 dialog{
@@ -4980,7 +5019,7 @@ dialog{
 
 Maillot de bain
 obligatoire.
-]]
+]],
 }
 
 dialog{
@@ -4992,7 +5031,7 @@ méduse !
 
 On va la découper en
 petits morceaux !
-]]
+]],
 }
 
 dialog{
@@ -5004,7 +5043,7 @@ méduse !
 
 On va la brûler avec une
 loupe !
-]]
+]],
 }
 
 dialog{
@@ -5015,7 +5054,7 @@ Haha, on a attrapé une
 méduse !
 
 On va la noyer !
-]]
+]],
 }
 
 dialog{
@@ -5027,7 +5066,7 @@ méduse !
 
 On va lui faire manger
 du poison !
-]]
+]],
 }
 
 dialog{
@@ -5039,7 +5078,7 @@ méduse !
 
 On va la torturer
 psychologiquement !
-]]
+]],
 }
 
 dialog{
@@ -5051,7 +5090,7 @@ méduse !
 
 Heu c'est pas un peu
 dangereux ces trucs-là ?
-]]
+]],
 }
 
 dialog{
@@ -5059,7 +5098,7 @@ dialog{
   skip = "all",
   text = [[
 Vers la Tour Grump
-]]
+]],
 }
 
 dialog{
@@ -5070,7 +5109,7 @@ Et voilà patron !
 Nos avons récupéré vos
 Palmes !
 Sur ce, on se rentre !
-]]
+]],
 }
 
 dialog{
@@ -5078,7 +5117,7 @@ dialog{
   skip = "all",
   text = [[
 N'y allez pas !!!
-]]
+]],
 }
 
 dialog{
@@ -5086,11 +5125,12 @@ dialog{
   skip = "all",
   text = [[
 N'y va pas !!!
-]]
+]],
 }
 
 dialog{
   id = "island.grump_done",
+  translators_note = "'The classiest man on Earth' is a reference to a French movie 'Le Grand Détournement'",
   text = [[
 Un malotru !
 Voilà ce que tu es.
@@ -5103,7 +5143,7 @@ les voleurs et les
 malotrus.
 Ne touche plus à mes
 Palmes !
-]]
+]],
 }
 
 dialog{
@@ -5115,7 +5155,7 @@ trouves un objet dans
 un donjon,
 ne le prends pas.
 C'est du vol !
-]]
+]],
 }
 
 dialog{
@@ -5123,7 +5163,7 @@ dialog{
   text = [[
 Hé !
 Dis donc !
-]]
+]],
 }
 
 dialog{
@@ -5132,7 +5172,7 @@ dialog{
 Mais ce sont mes
 palmes !$0
 Gardes ! Sécurité !
-]]
+]],
 }
 
 dialog{
@@ -5144,7 +5184,7 @@ actuellement en
 travaux.
 Veuillez revenir
 plus tard.
-]]
+]],
 }
 
 dialog{
@@ -5153,12 +5193,13 @@ dialog{
   text = [[
 Arrête de raconter du
 pipeau, José !
-]]
+]],
 }
 
 dialog{
   id = "island.grump_tower_guard_3",
   skip = "all",
+  translators_note = "The last sentence is a fake proverb, taking origin from a French comedy 'La vérité si je mens'",
   text = [[
 On a été chargé de
 te bloquer car tu as
@@ -5175,7 +5216,7 @@ donjons.
 Sinon c'est la porte
 ouverte à toutes les
 fenêtres !
-]]
+]],
 }
 
 dialog{
@@ -5190,7 +5231,7 @@ passe par-dessus. Tant
 qu'on mon paie à faire
 le mur humain, ça me
 va.
-]]
+]],
 }
 
 dialog{
@@ -5198,7 +5239,7 @@ dialog{
   skip = "all",
   text = [[
 Tour Grump
-]]
+]],
 }
 
 dialog{
@@ -5210,7 +5251,7 @@ avec mon fils.
 
 Je suis tranquille pour
 un moment...
-]]
+]],
 }
 
 dialog{
@@ -5222,7 +5263,7 @@ avec ma maman.
 
 Je suis en train de
 gagner.
-]]
+]],
 }
 
 dialog{
@@ -5230,7 +5271,7 @@ dialog{
   skip = "all",
   text = [[
 C'est du champagne.
-]]
+]],
 }
 
 dialog{
@@ -5238,7 +5279,7 @@ dialog{
   skip = "all",
   text = [[
 C'est vide.
-]]
+]],
 }
 
 dialog{
@@ -5247,7 +5288,7 @@ dialog{
   text = [[
 C'est du violet de
 gentiane phéniqué.
-]]
+]],
 }
 
 dialog{
@@ -5255,7 +5296,7 @@ dialog{
   skip = "all",
   text = [[
 C'est du lait.
-]]
+]],
 }
 
 dialog{
@@ -5263,7 +5304,7 @@ dialog{
   skip = "all",
   text = [[
 C'est de l'eau.
-]]
+]],
 }
 
 dialog{
@@ -5275,11 +5316,12 @@ dans cette cave.
 Et cela ne valait
 sûrement pas ces 20
 rubis.
-]]
+]],
 }
 
 dialog{
   id = "island.shop.blue_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 LA potion ultime. Avec
 ça, tu redeviens un
@@ -5287,11 +5329,12 @@ jouvanceau. Vu la
 modique somme que j'en
 demande, je me tranche
 la gorge...
-]]
+]],
 }
 
 dialog{
   id = "island.shop.flippers",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Les palmes les plus
 rapides des sept mers.
@@ -5299,11 +5342,12 @@ Avec ça, plus besoin
 de bateau, tu deviens
 le hors-bord. Donné, 
 foi de PJMTLG.
-]]
+]],
 }
 
 dialog{
   id = "island.shop.green_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Si tu veux éveiller
 la Force qui sommeille
@@ -5311,12 +5355,13 @@ en toi, c'est un très
 bon choix. Et à ce
 prix, je me tranche
 la gorge !
-]]
+]],
 }
 
 dialog{
   id = "island.shop.kitchen",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Tu te crois à la
 cantina ? Tu crois
@@ -5327,12 +5372,13 @@ T'es pas ici pour
 manger, alors choisis
 un truc à acheter ou
 tire-toi.
-]]
+]],
 }
 
 dialog{
   id = "island.shop.laboratory",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Touche pas au matos,
 petit. Laisse faire le
@@ -5341,12 +5387,13 @@ de ce qui est déjà en
 vente. Si je venais à
 manquer de produits,
 j'en referai illico.
-]]
+]],
 }
 
 dialog{
   id = "island.shop.merchant",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Salut, moi c'est
 Planteur. Je suppose
@@ -5360,11 +5407,12 @@ est là, et j'te jure
 que vu les prix, je
 suis pas sûr de m'en
 tirer ce mois-ci.
-]]
+]],
 }
 
 dialog{
   id = "island.shop.red_potion",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 Quand tu te sens un
 peu faible, rien de
@@ -5372,12 +5420,13 @@ tel que la potion
 magique. A ce prix-là,
 vraiment, je me
 tranche la gorge !
-]]
+]],
 }
 
 dialog{
   id = "island.shop.vault",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (Planteur J.M.T.L.G.)",
   text = [[
 HEY ! Tu crois faire
 quoi là !? Tu me
@@ -5387,7 +5436,7 @@ Va faire ton casse
 ailleurs, frangin, tu
 fais pas le poids face
 à Planteur.
-]]
+]],
 }
 
 dialog{
@@ -5397,7 +5446,7 @@ dialog{
 Nord : Île des Rubis
 Sud : Chill Valley
 Est : Village
-]]
+]],
 }
 
 dialog{
@@ -5405,7 +5454,7 @@ dialog{
   skip = "all",
   text = [[
 On peut en adopter un ?
-]]
+]],
 }
 
 dialog{
@@ -5418,7 +5467,7 @@ l'air à ses rubis.
 Comme ça nos visiteurs
 ont l'occasion de les
 admirer.
-]]
+]],
 }
 
 dialog{
@@ -5427,7 +5476,7 @@ dialog{
   text = [[
 Est-ce qu'ils peuvent
 se reproduire ?
-]]
+]],
 }
 
 dialog{
@@ -5437,7 +5486,7 @@ dialog{
 Ils n'avaient plus de
 couleur disponible
 pour le 300 ?
-]]
+]],
 }
 
 dialog{
@@ -5445,7 +5494,7 @@ dialog{
   skip = "all",
   text = [[
 Enclos à rubis
-]]
+]],
 }
 
 dialog{
@@ -5475,7 +5524,7 @@ recouvert les murs
 d'une couche d'or !
 Si tu le cherches, il
 est sûrement là-bas !
-]]
+]],
 }
 
 dialog{
@@ -5488,7 +5537,7 @@ entrer là-dedans...
 ... ça risque de
 s'écrouler à tout 
 moment !
-]]
+]],
 }
 
 dialog{
@@ -5497,7 +5546,7 @@ dialog{
   text = [[
 A partir d'ici :
 1h d'attente.
-]]
+]],
 }
 
 dialog{
@@ -5506,7 +5555,7 @@ dialog{
   text = [[
 A partir d'ici :
 45 minutes d'attente.
-]]
+]],
 }
 
 dialog{
@@ -5518,12 +5567,13 @@ A partir d'ici :
 d'attente.
 Oui, ça n'avance pas
 vite...
-]]
+]],
 }
 
 dialog{
   id = "lafoo.queue_sign_4",
   skip = "all",
+  translators_note = "Reference to France's legendary slow administration",
   text = [[
 A partir d'ici, il
 faudrait penser à 
@@ -5532,7 +5582,7 @@ Une fois obtenu,
 veuillez compter 1h
 d'attente
 supplémentaire.
-]]
+]],
 }
 
 dialog{
@@ -5545,12 +5595,13 @@ ventre...
 C'est sans doute le
 bonheur de voir cet
 édifice brûler !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_10",
   skip = "all",
+  translators_note = "Reference to French comedy group Les Nuls, their skit 'L'école du fan",
   text = [[
 M. Grump aurait
 commencé à bâtir sa
@@ -5561,7 +5612,7 @@ Tessier...
 Ne riez pas,
 il n'y a pas de
 sous-métier.
-]]
+]],
 }
 
 dialog{
@@ -5588,12 +5639,13 @@ secrètes responsables
 de cet incendie,
 et ça, personne n'en
 parle !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_12",
   skip = "all",
+  translators_note = "'Ouiche lorraine' is actually 'quiche lorraine' but the typo is on purpose. Reference to French movie 'Le grand détournement'",
   text = [[
 J'ai senti comme une
 odeur de brûlé...
@@ -5606,7 +5658,7 @@ Que nenni !
 C'était ce maudit
 Bureau que le peuple a
 décidé de brûler !
-]]
+]],
 }
 
 dialog{
@@ -5621,7 +5673,7 @@ je ne suis pas mieux
 moi à bavarder ici !
 Quelqu'un a appelé les
 pompiers, au moins ?
-]]
+]],
 }
 
 dialog{
@@ -5640,7 +5692,7 @@ femmes.
 Il mérite qu'on lui
 remette les idées en
 place !
-]]
+]],
 }
 
 dialog{
@@ -5658,7 +5710,7 @@ commencé !
 
 J'ai tout vu, mais je
 ne dirai rien !
-]]
+]],
 }
 
 dialog{
@@ -5674,19 +5726,20 @@ entière dedans.
 C'était à n'en plus
 finir, cette paperasse
 administrative !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_17",
   skip = "all",
+  translators_note = "Reference to a silly French dance song from the 90's",
   text = [[
 Le feu, ça brûle...$0
 Et l'eau, ça mouille.
 
 Tiens, ça ferait une
 bonne chanson, ça !
-]]
+]],
 }
 
 dialog{
@@ -5698,23 +5751,25 @@ le Bureau des Objets
 Trouvés.
 Moi je l'appelais : le
 Bureau du Temps Perdu !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_19",
   skip = "all",
+  translators_note = "Quote of Mahatma Gandhi",
   text = [[
 Aucun pays ne s'est
 jamais élevé sans
 s'être purifié au feu
 de la souffrance.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_2",
   skip = "all",
+  translators_note = "Reference to left-wing French politician Jean-Luc Melenchon, famous for his bombastic speeches",
   text = [[
 OUI MONSIEUR !
 N'AYONS PAS PEUR DES
@@ -5733,7 +5788,7 @@ bureaucratie
 cosmopolito-bourgeoise !
 Assez de tout ça !
 RÉVOLUTION !
-]]
+]],
 }
 
 dialog{
@@ -5746,12 +5801,13 @@ entendre !
 Heureusement que les
 employés ont réussi
 à sortir à temps.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_21",
   skip = "all",
+  translators_note = "Reference to French singer Johnny Hallyday's most famous song",
   text = [[
 Allumeeeeeez le feu !
 Allumeeeeeez le feu !
@@ -5760,12 +5816,13 @@ Et faire danser les
 diables et les dieux !
 
 Tu connais Johnny ?
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_22",
   skip = "all",
+  translators_note = "Reference to Zelda: Ocarina of Time",
   text = [[
 Tu sais ce qui serait
 cool ?
@@ -5773,7 +5830,7 @@ cool ?
 C'est qu'on passe le
 Boléro du Feu pendant
 cet incendie !
-]]
+]],
 }
 
 dialog{
@@ -5783,7 +5840,7 @@ dialog{
 Tu as vu cette fumée
 dans le ciel ?
 Ca vient de la forêt.
-]]
+]],
 }
 
 dialog{
@@ -5798,7 +5855,7 @@ célébrer ?
 
 J'essaie de voir d'où
 ça vient !
-]]
+]],
 }
 
 dialog{
@@ -5806,7 +5863,7 @@ dialog{
   skip = "all",
   text = [[
 Laisse-moi fuir !
-]]
+]],
 }
 
 dialog{
@@ -5824,7 +5881,7 @@ jamais rencontré.
 Et maintenant, je vais
 faire profil bas et 
 disparaître.
-]]
+]],
 }
 
 dialog{
@@ -5833,7 +5890,7 @@ dialog{
   text = [[
 Quelqu'un est en train
 de faire un barbecue ?
-]]
+]],
 }
 
 dialog{
@@ -5848,12 +5905,13 @@ qu'une barrière
 artificielle ?
 Dis-toi que c'était ça
 ou un mur invisible !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_28",
   skip = "all",
+  translators_note = "The curse is a reference to Franco-belgian comic book Blake & Mortimer",
   text = [[
 Il y a l'air d'y avoir
 une émeute au fond
@@ -5861,7 +5919,7 @@ de la forêt !
 Par la sainte barbe de
 MacGregor, cours-y
 vite !
-]]
+]],
 }
 
 dialog{
@@ -5877,7 +5935,7 @@ de la forêt.
 Et en plus, on voit ce
 panache de fumée et ça
 sent le cramoisi !
-]]
+]],
 }
 
 dialog{
@@ -5893,7 +5951,7 @@ des Objets Trouvés
 n'en était pas un !
 Alors, qu'il aille au 
 diable !
-]]
+]],
 }
 
 dialog{
@@ -5903,7 +5961,7 @@ dialog{
 Les pompiers ne
 devraient pas tarder à
 arriver !
-]]
+]],
 }
 
 dialog{
@@ -5913,7 +5971,7 @@ dialog{
 Ca ne serait pas le
 Bureau des Objets
 Trouvés qui flambe ?
-]]
+]],
 }
 
 dialog{
@@ -5933,7 +5991,7 @@ L'année dernière, c'est
 le mot "chasuble" qui
 a gagné.
 C'est fou hein ?
-]]
+]],
 }
 
 dialog{
@@ -5951,7 +6009,7 @@ D'autres disent :
 deux tu l'auras".
 Mais cela n'a rien à
 voir !
-]]
+]],
 }
 
 dialog{
@@ -5964,7 +6022,7 @@ chez toi ?
 Tu ne vois pas qu'il y
 a l'air d'y avoir un
 souci dans la forêt ?
-]]
+]],
 }
 
 dialog{
@@ -5974,7 +6032,7 @@ dialog{
 Snif$0 snif$0
 Ca sent comme une odeur
 de brûlé !
-]]
+]],
 }
 
 dialog{
@@ -5991,7 +6049,7 @@ canopée.
   Qu'est-ce ? Mystère.
   D'un feu, ça m'en a
 tout l'air.
-]]
+]],
 }
 
 dialog{
@@ -6010,7 +6068,7 @@ remonté contre lui.
 Je crois qu'ils sont
 allés revendiquer leur
 colère là-bas.
-]]
+]],
 }
 
 dialog{
@@ -6024,12 +6082,13 @@ aurait fait des
 siennes près du Bureau
 des Objets Trouvés !
 Saperlotte !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_39",
   skip = "all",
+  translators_note = "Reference to French comedy group Les Inconnus and their skit 'Bioman et Dorothé'",
   text = [[
 Je suis quasiment sûr
 que nous avons à faire
@@ -6037,12 +6096,13 @@ que nous avons à faire
 Au commissariat, 
 ils ne sont pas
 inconnus ces deux-là.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_4",
   skip = "all",
+  translators_note = "The curses are references to Captain Haddock, in the Franco-belgian comic book 'The Adventures of Tintin'",
   text = [[
 Le directeur du Bureau
 des Objets Trouvés
@@ -6053,34 +6113,37 @@ avec sa fortune...
 Quel bachi-bouzouk !
 Moule-à-gaufre !
 Saltimbanque !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_40",
   skip = "all",
+  translators_note = "Reference to the fake horror movie in the French movie 'La Cité de la Peur'",
   text = [[
 Il ne peut plus rien
 nous arriver d'affreux,
 maintenant !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_41",
   skip = "all",
+  translators_note = "Reference to the French movie 'Le grand détournement'",
   text = [[
 Attention, ce jeu n'est
 pas un jeu sur le
 cyclimse.
 Merci de votre
 compréhension.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_42",
   skip = "all",
+  translators_note = "Reference to the French movie 'OSS 117 : Rio ne répond plus'",
   text = [[
 Si je vais bien ?
 
@@ -6090,12 +6153,13 @@ frais dans la matinée,
 soleil l'après-midi,
 la recette des sports
 d'hiver réussis ! 
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_43",
   skip = "all",
+  translators_note = "'S'agirait d'grandir...' is a reference to the French movie 'OSS 117 : Le Caire, nid d'espions",
   text = [[
 Tu es au courant de ce
 qu'il s'est passé ?
@@ -6106,7 +6170,7 @@ Non ?!
 Ben informe-toi un peu,
 mon grand gaillard !
 S'agirait d'grandir...
-]]
+]],
 }
 
 dialog{
@@ -6127,7 +6191,7 @@ Papa c'est pas un
 voleur.
 Par contre il aurait des
 tendances pyromanes...
-]]
+]],
 }
 
 dialog{
@@ -6142,12 +6206,13 @@ Pourquoi ?
 
 J'en sais rien, j'suis
 qu'un PNJ, moi !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_46",
   skip = "all",
+  translators_note = "Reference to Gandalf in The Lord of the Rings",
   text = [[
 VOUS. 
 
@@ -6159,7 +6224,7 @@ PASSEREZ.
 
 
 PAS !!!
-]]
+]],
 }
 
 dialog{
@@ -6172,12 +6237,13 @@ t'en colle une.
 Tu vois pas qu'il se
 passe quelque chose de
 grave au sud ?
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_48",
   skip = "all",
+  translators_note = "Reference to Back to the Future",
   text = [[
 Nom de Zeus !
 
@@ -6197,27 +6263,29 @@ au lieu d'un bureau.
 En fait ça n'avait rien
 à voir...
 Nom de Zeus !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_49",
   skip = "all",
+  translators_note = "Reference to Back to the Future",
   text = [[
 Ne me traite JAMAIS
 de mauviette.
 JA-MAIS, tu entends ?
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_5",
   skip = "all",
+  translators_note = "Reference to the movie Batman the Dark Knight",
   text = [[
 Certains hommes veulent
 seulement regarder le
 monde brûler...
-]]
+]],
 }
 
 dialog{
@@ -6230,30 +6298,33 @@ comme aujourd'hui.
 Sauf que c'était mon
 gigot que j'avais
 oublié dans le four.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_51",
   skip = "all",
+  translators_note = "Reference to French TV show Kaamelott",
   text = [[
 On en a gros !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_52",
   skip = "all",
+  translators_note = "Reference to French TV show Kaamelott",
   text = [[
 On aimerait que
 M. Grump nous considère
 en tant que tels.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_53",
   skip = "all",
+  translators_note = "Reference to French TV show Kaamelott",
   text = [[
 Nous les employés du
 Bureau des Objets
@@ -6264,7 +6335,7 @@ victimes des colibris.
 Je veux dire, nous
 sommes souvent victimes
 des colifichets.
-]]
+]],
 }
 
 dialog{
@@ -6282,12 +6353,13 @@ Adieu vous et votre
 façon horrible de 
 traiter vos employés !
 Hasta la vista baby !
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_55",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Au guichet 22,
 tu sais quoi ?
@@ -6297,7 +6369,7 @@ le meilleur guichet du
 monde.
 Et bah comme le reste, 
 tout est parti en fumée.
-]]
+]],
 }
 
 dialog{
@@ -6310,24 +6382,26 @@ pas à rentrer chez moi
 à Chill Valley !
 Pousse-toi un peu s'il
 te plaît.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_57",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Tu n'aurais pas vu le
 mec du guichet 32 ?
 
 Il est parti avec
 toutes les clés.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_58",
   skip = "all",
+  translators_note = "Reference to Zelda Mystery of Solarus XD",
   text = [[
 Le gars du guichet 41
 du Bureau des Objets 
@@ -6339,7 +6413,7 @@ Il paraît qu'il a
 retrouvé du boulot au
 restaurant de la
 Tour Grump !
-]]
+]],
 }
 
 dialog{
@@ -6357,7 +6431,7 @@ ils sont bons, ces
 jeunes gens !
 Par contre, dès qu'il
 s'agit de ranger...
-]]
+]],
 }
 
 dialog{
@@ -6368,7 +6442,7 @@ Va voir à l'Est, j'ai
 comme l'impression que
 les gens veulent que
 tu ailles par là-bas !
-]]
+]],
 }
 
 dialog{
@@ -6380,7 +6454,7 @@ d'urgence.
 
 Désolé mon bonhomme,
 c'est bloqué !
-]]
+]],
 }
 
 dialog{
@@ -6393,7 +6467,7 @@ veux pas suivre les
 que t'ont préparé les
 développeurs du jeu ?
 Petit malin !
-]]
+]],
 }
 
 dialog{
@@ -6405,7 +6479,7 @@ Bureau des Objets
 Trouvés qui flambe
 comme une tarte
 flambée.
-]]
+]],
 }
 
 dialog{
@@ -6417,7 +6491,7 @@ hebdomadaire, quand
 soudain...
 ... mon lacet s'est
 défait.
-]]
+]],
 }
 
 dialog{
@@ -6427,7 +6501,7 @@ dialog{
 Sapristi, tout le
 village est attroupé
 ici !
-]]
+]],
 }
 
 dialog{
@@ -6450,7 +6524,7 @@ Non parce que si c'est
 toi, je ne t'en veux
 pas au contraire !
 Tu es un héros !
-]]
+]],
 }
 
 dialog{
@@ -6460,12 +6534,13 @@ dialog{
 On observe le bidule
 cramer et on apprécie
 le spectacle.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_73",
   skip = "all",
+  translators_note = "Reference to French theme park Le Puy du Fou",
   text = [[
 Tout ce raffut ...
 
@@ -6481,18 +6556,21 @@ comme celui-ci.
 
 Ah bon, 
 ça existe déjà ?!
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_74",
   skip = "all",
+  translators_note = "Reference to the French movie La chèvre",
   text = [[
-C'est bête qu'on ne
-soit pas en hiver, ça
-aurait réchauffé tout
-le monde.
-]]
+Ça me rappelle le
+pavillon de mes parents
+à Saint-Cloud.
+J'avais acheté une
+bouteille de butane
+et...
+]],
 }
 
 dialog{
@@ -6508,7 +6586,7 @@ voir cet incendie.
 Désolé de ne pas faire
 dans le banal,
 môOôssieur !
-]]
+]],
 }
 
 dialog{
@@ -6524,7 +6602,7 @@ Il devraient organiser
 plus souvent ce genre
 de spectacles
 pyrotechniques.
-]]
+]],
 }
 
 dialog{
@@ -6537,7 +6615,7 @@ un monument historique.
 Mais le voir partir en
 fumée, c'est un moment
 historique !
-]]
+]],
 }
 
 dialog{
@@ -6550,18 +6628,19 @@ Il y a un incendie hors
 de contrôle en pleine
 forêt, et les gens ont
 l'air enchantés.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_79",
   skip = "all",
+  translators_note = "Reference to German History : Berlin Wall",
   text = [[
 Les livres d'histoire
 raconteront ce moment
 comme la Chute du Mur
 administratif.
-]]
+]],
 }
 
 dialog{
@@ -6574,7 +6653,7 @@ passion pour le feu...
 Mais j'tassure,
 c'est pas moi, pour
 une fois !
-]]
+]],
 }
 
 dialog{
@@ -6586,17 +6665,18 @@ en direction de
 l'incendie.
 C'est trop d'émotions
 fortes pour moi.
-]]
+]],
 }
 
 dialog{
   id = "lafoo_riot.npc_9",
   skip = "all",
+  translators_note = "Reference to a French Movie 'Les Valseuses'",
   text = [[
 On n'est pas bien, là ?
 Paisible ? 
 A la fraîche ?
-]]
+]],
 }
 
 dialog{
@@ -6620,20 +6700,20 @@ quoi ?!
 Bon, je file, j'aime
 pas la foule, et là
 c'est une émeute !
-]]
+]],
 }
 
 dialog{
   id = "main_village.castle_guard_after_dungeon_1",
   skip = "all",
   text = [[
-Ah vous cherchez le
+Ah, tu cherches le
 patron ?
 Monsieur Grump est en
 déplacement de l'autre
 côté de l'océan, en
 voyage d'affaires.
-]]
+]],
 }
 
 dialog{
@@ -6643,12 +6723,28 @@ dialog{
 C'est bon, tu peux
 entrer. On a retrouvé
 les clés.
-]]
+]],
+}
+
+dialog{
+  id = "main_village.castle_lens_hint",
+  skip = "all",
+  text = [[
+Je ne mettrai plus les
+pieds dans ce fichu
+château.
+Là-dedans, tout n'est
+que mensonges et
+illusions !
+Comment démêler le
+vrai du faux ?
+]],
 }
 
 dialog{
   id = "main_village.dumb_guy_house.in_bed",
   skip = "all",
+  translators_note = "This PNJ speaks as if he was texting and making lots of grammar and spelling mistakes.",
   text = [[
 Sa fé 5 jours ke je
 campé dvt le magasin.
@@ -6658,7 +6754,7 @@ d'avoir une iPlume en
 1er.
 Sais pr sa ke je
 suis fatiguer mnt.
-]]
+]],
 }
 
 dialog{
@@ -6669,7 +6765,7 @@ Nord : Désert Bakasable
 Mont Tipiton
 
 Sud : Grump Résidences
-]]
+]],
 }
 
 dialog{
@@ -6680,7 +6776,7 @@ Sabre Laser en
 vert ???
 Laisse-moi rectifier
 cela.
-]]
+]],
 }
 
 dialog{
@@ -6690,7 +6786,7 @@ Bienvenue au Bureau des
 Objets Trouvés...
 
 (Aïe ! Ça brûle !)
-]]
+]],
 }
 
 dialog{
@@ -6709,17 +6805,7 @@ de M. Grump
 Sous vos pieds : Herbe
 verte que M. Grump n'a
 pas encore rachetée
-]]
-}
-
-dialog{
-  id = "main_village.rtfm",
-  skip = "all",
-  text = [[
-Tu es perdu dans les
-commandes ?
-RTFM.
-]]
+]],
 }
 
 dialog{
@@ -6732,7 +6818,7 @@ Un croissant.
 À consommer plus tard
 pour récupérer beaucoup
 de vie.
-]]
+]],
 }
 
 dialog{
@@ -6745,12 +6831,13 @@ authentique.
 Les premiers qui
 en achètent les auront
 moins cher !
-]]
+]],
 }
 
 dialog{
   id = "main_village.shop.iplume",
   next = "_unknown",
+  translators_note = "Reference to Apple marketing",
   text = [[
 Une iPlume.
 C'est une révolution.
@@ -6763,7 +6850,7 @@ maintenant partout
 dans le monde
 dans les boutiques
 iPlume officielles.
-]]
+]],
 }
 
 dialog{
@@ -6776,7 +6863,7 @@ Un pain au chocolat.
 À consommer plus tard
 pour récupérer un peu
 de vie.
-]]
+]],
 }
 
 dialog{
@@ -6786,7 +6873,7 @@ dialog{
 Un Rubis rouge
 fabrication maison.
 Rarissime !
-]]
+]],
 }
 
 dialog{
@@ -6802,7 +6889,7 @@ historique.
 Si ça continue comme ça
 on va devoir déménager
 nous aussi !
-]]
+]],
 }
 
 dialog{
@@ -6815,7 +6902,7 @@ Tour Grump
 Sud : Forêt
 Sud-Ouest :
 Chill Valley
-]]
+]],
 }
 
 dialog{
@@ -6827,7 +6914,7 @@ affaire :
 le prix augmente pour
 les prochains clients,
 héhéhé.
-]]
+]],
 }
 
 dialog{
@@ -6836,7 +6923,7 @@ dialog{
 Merci bien ! Bon bah,
 on dirait que tu as
 acheté tout le stock.
-]]
+]],
 }
 
 dialog{
@@ -6849,12 +6936,13 @@ rare.
 Les gens vont tous
 à Chill Valley ou sur
 l'Île des Rubis !
-]]
+]],
 }
 
 dialog{
   id = "main_village.vase_house",
   skip = "all",
+  translators_note = "Reference to Zelda games where you always break all the pots",
   text = [[
 Il y a eu un acte de
 vandalisme. Un
@@ -6872,12 +6960,13 @@ Heureusement, j'ai pris
 des mesures pour que
 cela n'arrive plus.
 Mwahahaha !!!
-]]
+]],
 }
 
 dialog{
   id = "main_village.villager_tunnels",
   skip = "all",
+  translators_note = "Reference to the game Minecraft",
   text = [[
 Certains prétendent
 que les cavernes
@@ -6888,7 +6977,24 @@ souterrains.
 C'est n'importe quoi...
 Les gens jouent trop à
 Minecraft !
-]]
+]],
+}
+
+dialog{
+  id = "main_village.villager_underground_river",
+  skip = "all",
+  translators_note = "'Cela semble incroyable' is a reference to Zelda Link's Awakening (Richard)",
+  text = [[
+Tu es déjà allé à
+Chill Valley, à
+l'ouest d'ici ?
+Cela semble incroyable,
+mais il faut savoir que
+l'eau thermale de
+Chill Valley coule
+jusqu'ici dans une
+rivière souterraine.
+]],
 }
 
 dialog{
@@ -6916,7 +7022,7 @@ rien pu faire !
 Des centaines de
 couches administratives
 parties en fumée !
-]]
+]],
 }
 
 dialog{
@@ -6931,7 +7037,7 @@ absurde !
 
 Où est passée toute mon
 eau ???
-]]
+]],
 }
 
 dialog{
@@ -6944,7 +7050,7 @@ la ForceTri on a rasé.
 Mais du côté humide je
 reste dans cette
 maison champignon.
-]]
+]],
 }
 
 dialog{
@@ -6962,7 +7068,7 @@ injustement taggué a
 À tes habits assorti,
 plus convenable un
 Sabre Laser serait.
-]]
+]],
 }
 
 dialog{
@@ -6973,7 +7079,7 @@ dialog{
 Cette nourriture est
 pour Flocon-de-Neige,
 le chat de Zelda !
-]]
+]],
 }
 
 dialog{
@@ -6984,7 +7090,7 @@ dialog{
 Ce n'est pas le
 moment de se mettre
 du parfum !
-]]
+]],
 }
 
 dialog{
@@ -7000,7 +7106,7 @@ tueurs.
 Mais attention à ne pas
 changer le cours de la
 préhistoire.
-]]
+]],
 }
 
 dialog{
@@ -7008,7 +7114,7 @@ dialog{
   text = [[
 Retournons vers le
 futur !
-]]
+]],
 }
 
 dialog{
@@ -7022,7 +7128,7 @@ l'origine des rubis
 tueurs mais...$0
 Sommes-nous vraiment
 au bon endroit ?
-]]
+]],
 }
 
 dialog{
@@ -7048,7 +7154,7 @@ donc causé l'invasion
 de rubis.
 Mais il a l'air très
 perturbé...
-]]
+]],
 }
 
 dialog{
@@ -7065,7 +7171,7 @@ J'ai bien mon tournevis
 sonique, mais cela ne
 ferait que l'énerver
 encore plus !
-]]
+]],
 }
 
 dialog{
@@ -7082,7 +7188,7 @@ suffise pour annihiler
 le maléfice des rubis !
 Rentrons vite à ton
 époque.
-]]
+]],
 }
 
 dialog{
@@ -7090,7 +7196,7 @@ dialog{
   skip = "all",
   text = [[
 Grrrrr...
-]]
+]],
 }
 
 dialog{
@@ -7100,7 +7206,7 @@ dialog{
 Combien veux-tu miser ?
 5 rubis
 20 rubis
-]]
+]],
 }
 
 dialog{
@@ -7116,27 +7222,28 @@ fois ta mise !
 Veux-tu jouer ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
   id = "slot_machine.playing",
   text = [[
 Approche-toi des
-roulettes et appuyez sur
+roulettes et appuie sur
 la touche Action
 pour les arrêter.
 Bonne chance !
-]]
+]],
 }
 
 dialog{
   id = "slot_machine.reward.creeper",
+  translators_note = "Reference to the game Minecraft",
   text = [[
 Trois Creepers !
 Attention, ça va faire
 mal !
-]]
+]],
 }
 
 dialog{
@@ -7145,7 +7252,7 @@ dialog{
 Trois rubis verts,
 joli ! Tu remportes
 5 fois ta mise !
-]]
+]],
 }
 
 dialog{
@@ -7158,7 +7265,7 @@ combinaison.
 Tu veux réessayer ?
 Oui
 Non
-]]
+]],
 }
 
 dialog{
@@ -7170,7 +7277,7 @@ diamant !
 Félicitations, tu
 repars avec 7 fois
 ta mise !
-]]
+]],
 }
 
 dialog{
@@ -7179,7 +7286,7 @@ dialog{
 Trois rubis rouges !!!
 Tu repars avec 10 fois
 ta mise. Bravo !
-]]
+]],
 }
 
 dialog{
@@ -7188,7 +7295,7 @@ dialog{
 Trois symboles identi-
 ques, pas mal ! Tu
 gagnes 4 fois ta mise.
-]]
+]],
 }
 
 dialog{
@@ -7199,7 +7306,7 @@ C'est la meilleure
 combinaison possible.
 Tu gagnes 20 fois ta
 mise !
-]]
+]],
 }
 
 dialog{
@@ -7207,12 +7314,13 @@ dialog{
   icon = "72",
   text = [[
 C'est fermé à clé !
-]]
+]],
 }
 
 dialog{
   id = "swamp.3_months",
   skip = "all",
+  translators_note = "Reference to the French movie 'Astérix et Obélix : Mission Cléopâtre'",
   text = [[
 Ces blocs de béton
 complètement difformes
@@ -7241,12 +7349,13 @@ magiques a sponsorisé
 le chantier, sans cela
 ils n'auraient jamais
 réussi à finir.
-]]
+]],
 }
 
 dialog{
   id = "swamp.architecture",
   skip = "all",
+  translators_note = "Reference to the Franco-belgian comic book 'Astérix et Cléopâtre'",
   text = [[
 L'architecte de cet
 immeuble a décidé de
@@ -7259,7 +7368,7 @@ on veut construire une
 terrasse un jour,
 bah on a déjà la porte.
 $0Malin !
-]]
+]],
 }
 
 dialog{
@@ -7281,7 +7390,7 @@ a tout racheté pour
 construire ces affreux
 blocs d'immeubles à la
 place.
-]]
+]],
 }
 
 dialog{
@@ -7303,19 +7412,20 @@ patrimoine.
 Qu'on le veuille ou
 non, c'était un
 monument historique !
-]]
+]],
 }
 
 dialog{
   id = "swamp.no_palace",
   skip = "all",
+  translators_note = "Reference to the French movie 'Astérix et Obélix : Mission Cléopâtre'",
   text = [[
 Le palais de Ganon a
 été complètement rasé.
 
 Pas de palais...
 pas de palais.
-]]
+]],
 }
 
 dialog{
@@ -7339,7 +7449,7 @@ dans le désert au nord
 avec son chameau.
 D'ailleurs, moi aussi
 je médite.
-]]
+]],
 }
 
 dialog{
@@ -7348,12 +7458,13 @@ dialog{
 Ouest : Forêt
 Bureau des Objets
 Trouvés
-]]
+]],
 }
 
 dialog{
   id = "tardis.doctor_back_to_present",
   skip = "all",
+  translators_note = "Reference to Doctor Who",
   text = [[
 Te voilà revenu à ton
 époque.
@@ -7372,11 +7483,12 @@ compagnon pour mes
 prochains voyages.
 Tu connaîtrais des
 gens intéressés ?
-]]
+]],
 }
 
 dialog{
   id = "tardis.doctor_escaping_grump_tower",
+  translators_note = "Reference to Doctor Who",
   text = [[
 Une telle quantité de
 rubis ne peut être que
@@ -7394,7 +7506,7 @@ Mais maintenant partons
 d'ici.
 
 Allons-y !
-]]
+]],
 }
 
 dialog{
@@ -7404,7 +7516,7 @@ dialog{
 Il y a sûrement un
 moyen d'allumer
 cette torche...
-]]
+]],
 }
 
 dialog{
@@ -7418,7 +7530,7 @@ contient de l'eau.
 Que veux-tu faire ?
 Vider l'eau
 La conserver
-]]
+]],
 }
 
 dialog{
@@ -7432,7 +7544,7 @@ permet de retrouver
 Que veux-tu faire ?
 En manger un
 Ne rien faire
-]]
+]],
 }
 
 dialog{
@@ -7446,7 +7558,7 @@ te redonne 3 Coeurs.
 Que veux-tu faire ?
 En manger un
 Ne rien faire
-]]
+]],
 }
 
 dialog{
@@ -7454,6 +7566,6 @@ dialog{
   text = [[
 Mais surveille ton
 compteur magique !
-]]
+]],
 }
 

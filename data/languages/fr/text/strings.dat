@@ -6,7 +6,7 @@ text{ key = "copyright_menu.solarus_license.line2", value = "sous licence GPL v3
 text{ key = "copyright_menu.tloz_trademark.line1", value = "The Legend of Zelda est" }
 text{ key = "copyright_menu.tloz_trademark.line2", value = "une marque déposée de Nintendo." }
 text{ key = "final.end_text", value = "Fin" }
-text{ key = "inventory.caption.item.apple_pie_counter.1", value = "Tarte aux Pommes" }
+text{ key = "inventory.caption.item.apple_pie_counter.1", value = "Tarte aux pommes" }
 text{ key = "inventory.caption.item.banana_skin_counter.1", value = "Peau de banane" }
 text{ key = "inventory.caption.item.bombs_counter.1", value = "Bombes" }
 text{ key = "inventory.caption.item.boomerang.1", value = "Boomerang" }
@@ -48,7 +48,7 @@ text{ key = "inventory.caption.item.pegasus_shoes.1", value = "Bottes de Pégase
 text{ key = "inventory.caption.item.pegasus_shoes.2", value = "Bottes de Pégase" }
 text{ key = "inventory.caption.item.perfume_counter.1", value = "Parfums" }
 text{ key = "inventory.caption.item.vip_card.1", value = "Carte VIP" }
-text{ key = "map.caption.dungeon_name_1", value = "Château doré" }
+text{ key = "map.caption.dungeon_name_1", value = "Château des Vérités$Alternatives" }
 text{ key = "map.caption.dungeon_name_2", value = "Tour Grump" }
 text{ key = "map.caption.world_map", value = "Carte du Monde" }
 text{ key = "options.caption.press_action_change_mode", value = "Appuyez sur Action$pour changer de mode" }
@@ -80,8 +80,8 @@ text{ key = "quest_status.caption.rupee_bag_1", value = "Sac de Rubis" }
 text{ key = "quest_status.caption.rupee_bag_2", value = "Grand$Sac de Rubis" }
 text{ key = "quest_status.caption.rupee_bag_3", value = "Sac de Rubis$Géant" }
 text{ key = "quest_status.caption.shield_1", value = "Bouclier" }
-text{ key = "quest_status.caption.shield_2", value = "Bouclier de Feu" }
-text{ key = "quest_status.caption.shield_3", value = "Miroir Magique" }
+text{ key = "quest_status.caption.shield_2", value = "Bouclier Bling-bling" }
+text{ key = "quest_status.caption.shield_3", value = "Bouclier Miroir" }
 text{ key = "quest_status.caption.sword_1", value = "Epée d'entraînement" }
 text{ key = "quest_status.caption.sword_2", value = "Sabre laser" }
 text{ key = "quest_status.caption.sword_3", value = "Sabre laser" }

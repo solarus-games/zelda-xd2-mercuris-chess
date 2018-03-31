@@ -62,6 +62,7 @@ map{ id = "tardis", description = "TARDIS" }
 
 tileset{ id = "beach_sunset", description = "Beach sunset" }
 tileset{ id = "cave_legacy", description = "Cave (legacy)" }
+tileset{ id = "ct/prehistoric_cave", description = "Prehistoric cave" }
 tileset{ id = "ct/prehistoric_outside", description = "Outside" }
 tileset{ id = "dungeon/blue", description = "Blue dungeon" }
 tileset{ id = "dungeon/brown", description = "Brown dungeon" }
@@ -766,6 +767,7 @@ entity{ id = "torch", description = "Torch" }
 entity{ id = "traversable", description = "Traversable" }
 entity{ id = "weeping_angel", description = "Weeping angel" }
 
+language{ id = "en", description = "English" }
 language{ id = "fr", description = "Français" }
 
 font{ id = "alttp", description = "ALTTP" }
@@ -774,4 +776,5 @@ font{ id = "la", description = "Link's Awakening" }
 font{ id = "minecraftia", description = "Minecraftia" }
 font{ id = "minecraftia_mono", description = "Minecraftia Mono" }
 font{ id = "white_digits", description = "White digits" }
+
 

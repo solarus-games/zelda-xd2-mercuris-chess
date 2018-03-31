@@ -2510,6 +2510,117 @@ rupee-based economy.
 }
 
 dialog{
+  id = "chill_valley.z_house.exploration_for_dummies",
+  skip = "all",
+  text = [[
+   Exploration
+   for dummies
+
+If you are in a maze,
+always follow the same
+wall. If you are in
+front of a locked door,
+try to find a key. Save
+before a Boss door:
+behind it you will find
+a Boss Fight.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.fight_for_dummies",
+  skip = "all",
+  translators_note = "Reference to Fight Club movie",
+  text = [[
+       Fight
+    for dummies
+
+Rule #1
+You do not talk about
+this book.
+Rule #2
+You DO NOT talk abou
+THIS BOOK.
+Rule #3
+You don't let the enemy
+take their breath.
+Rule #4
+You will always loot
+the dead bodies.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.geography_for_dummies",
+  skip = "all",
+  text = [[
+    Geography
+   for dummies
+
+The Goron people live
+in the Goron Village.
+
+The Zora people can be
+found in the Zora
+Domain.
+The Gerudo people are
+located in the Gerudo
+desert.
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.horror_book",
+  skip = "all",
+  translators_note = "James and Mike are related to AVGN",
+  text = [[
+An horrific novel:
+   Panic in the
+    Lost Woods
+The storm was
+frightfully powerful
+this day. James didn't
+know if he should go
+help his friend Mike
+cutting wood in the
+forest, or just wait
+here in the security of
+the chalet. Listening
+only his bravery, he
+got out and yelled his
+friend's name to locate
+him. But the yell was
+mainly listened by
+Jason...
+]],
+}
+
+dialog{
+  id = "chill_valley.z_house.hyrule_times",
+  skip = "all",
+  text = [[
+A press article. It
+seems pretty old:
+  THE END OF GANON
+According to the Hyrule
+Network, a hero dressed
+in green could have
+been able to stop the
+reign of the Tyrant
+Ganon, after a fierce
+struggle. We ask to the
+Royal Family for more
+details, but the
+Princess Zelda did not
+want to comment. A
+short coming edition
+will explain more
+precisely about this
+good event.
+]],
+}
+
+dialog{
   id = "chill_valley.z_house.love_book",
   skip = "all",
   translators_note = "Reference to Twilight bad stories :p",
@@ -3986,6 +4097,9 @@ super late.
 
 Christopho
 Diarandor
+Olivier Cléro
+Renkineko
+
 
         Special
         thanks:

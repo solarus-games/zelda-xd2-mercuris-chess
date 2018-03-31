@@ -1853,6 +1853,86 @@ Good luck! Hehehe.
 }
 
 dialog{
+  id = "chill_valley.bath.cold",
+  text = [[
+I've tried the Lava
+Pool Challenge some
+days ago...
+From then on, I swear
+only by this frozen
+swimming pool!
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.entrance",
+  text = [[
+Hello and welcome!
+Today you're lucky,
+because our baths are
+free to use! Don't
+hesitate to refresh
+yourself in the first
+basement, to relax in
+the second basement,
+or to overcome the
+challenge at the third
+basement!
+
+And please don't forget
+to always wear a towel!
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.envy_champagne_pool",
+  text = [[
+These baths... they are
+so lame...
+Rumor has it that Mr. 
+Grump's castle contains
+gold-made pools filled
+with champagne and
+ruffling little bubbles
+that make you lose
+your mind...
+Why don't we got that in
+these so celebrated
+baths!?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.hungry_child",
+  text = [[
+Mmh yeah... Not so bad,
+quite relaxing...
+
+But something is
+missing. I don't know
+what, but something is
+clearly missing.
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.lava_challenge",
+  text = [[
+Yoo too, try the Lava
+Pool Challenge!
+
+If you succeed, you'll
+earn you weight in
+rupees!
+It's simple: stay more
+than one minute in the
+lava, and you will get
+the right to claim your
+price at the entrance.
+]],
+}
+
+dialog{
   id = "chill_valley.bath.tea_for_two",
   skip = "all",
   translators_note = "Reference to a French movie named La Grande Vadrouille",
@@ -1865,6 +1945,15 @@ Comment ça ?
 
 But alors you are
 French ?
+]],
+}
+
+dialog{
+  id = "chill_valley.bath.warning_sockets",
+  text = [[
+Shallow Pool.
+Please remember to 
+take off your socks!
 ]],
 }
 

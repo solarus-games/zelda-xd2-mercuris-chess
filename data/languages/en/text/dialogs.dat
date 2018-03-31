@@ -4252,41 +4252,47 @@ worth it.
 
 dialog{
   id = "island.shop.blue_potion",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
 The ultimate potion.
 With this, you will
 become young.
-For this small price,
-I'm like cutting
-my throat!
+For such a small price,
+I'm cutting me own
+throat...
 ]],
 }
 
 dialog{
   id = "island.shop.flippers",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
 The quickest flippers
 of the seven seas.
 With them, no need
 for a ship.
+It's a bargain,
+on my word as CMOTD!
 ]],
 }
 
 dialog{
   id = "island.shop.green_potion",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
 If you want to awaken
 the Force that hides
-within you, it's a good
-choice. And for this
-price, I'm like cutting
-my throat!
+within yourself, it's a
+good choice. And for
+this price, I'm cutting
+me own throat!
 ]],
 }
 
 dialog{
   id = "island.shop.kitchen",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
 Do you think this is
 a canteen? Do you
@@ -4302,53 +4308,65 @@ to buy or go away.
 dialog{
   id = "island.shop.laboratory",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
-Don't touch the \[???\]
+Don't touch the stuff,
+little guy. Let the
+professional to the
+job and settle for what
+is already on sale.
+
+Should I ever run out
+of items, I'd make more
+pronto.
 ]],
 }
 
 dialog{
   id = "island.shop.merchant",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
-Hi, I'm Planteur.
+Hi, I'm Dibbler.
 I guess you come
 for my specialty of
 sausages in small
 bread... 
 
-Unfortunately, I'm
-bankrupt. All my
-merchandise is
-here, and I swear that
-for these prices, I'm
+Unfortunately, I have a
+stock shortage. All my
+merchandise is here,
+and I can swear that
+given the prices, I'm
 like killing myself.
 ]],
 }
 
 dialog{
   id = "island.shop.red_potion",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
 When you feel weak,
 try the magic potion.
 For this price, I'm
-like cutting my throat!
+like cutting me own
+throat!
 ]],
 }
 
 dialog{
   id = "island.shop.vault",
   skip = "all",
+  translators_note = "Reference to Terry Pratchett (C.M.O.T. Dibbler)",
   text = [[
 HEY! What do you
-think you're doing
-here?
+think you're doing?
 Do you think this
-is a bank or a
-self-service?
+is a bank or some kind
+of self-service?
 Go away, brother,
 you are out of
-Planteur's league.
+Dibbler's league.
 ]],
 }
 
